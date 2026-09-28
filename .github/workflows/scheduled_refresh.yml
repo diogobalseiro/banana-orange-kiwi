@@ -1,0 +1,34 @@
+name: Scheduled Cat Food Catalog Refresh
+
+on:
+  schedule:
+    # Run every Monday at 05:00 UTC (06:00 Portuguese time)
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install beautifulsoup4
+
+      - name: Run Catalog Scraper & Site Rebuilder
+        run: |
+          python refresh.py --retailer continente --type all
+
+      - name: Commit & Push Updated Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ index.html
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(auto): weekly cat food catalog refresh" && git push)
