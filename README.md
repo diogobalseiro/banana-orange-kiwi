@@ -1,71 +1,72 @@
-# 🐱 Ranking & Auditoria de Alimentação para Gatos (Continente)
+# 🐱 Cat Food Biological Ranking & Dashboard (Continente)
 
-Painel interativo e motor de auditoria nutricional e biológica para comida de gato (húmida e seca), focado nas necessidades estritas de carnívoros obrigatórios e gatinhos em crescimento.
+An interactive dashboard and biological/nutritional auditing engine for cat food (wet pouches/cans and dry kibble), specifically tailored to feline obligate carnivore dietary requirements and growing kittens.
 
-🌐 **Dashboard Online**: [https://diogobalseiro.github.io/banana-orange-kiwi/](https://diogobalseiro.github.io/banana-orange-kiwi/)
-
----
-
-## 🌟 Funcionalidades do Dashboard
-
-- **Visão Unificada com Modo Duplo**:
-  - 🥫 **Comida Húmida**: Avaliação de 295 saquetas e latas com foco em carne nominada, carência de açúcares/cereais, hidratação e distinção entre alimento **Completo** vs **Complementar**.
-  - 🥣 **Comida Seca (Ração)**: Auditoria de 246 rações com análise do 1º ingrediente, teor de proteína bruta, matéria gorda para gatinhos, estimativa de hidratos de carbono (NFE), ausência de glúten de milho e corantes artificiais.
-  - *As listas nunca são misturadas* — a troca de aba recalcula instantaneamente os cartões de KPI, colunas relevantes e filtros específicos.
-- **Filtro Especial de Gatinhos (🍼 Júnior / Kitten)**:
-  - Destaca opções ricas em calorias, proteína e gordura de crescimento, alertando contra o uso de alimentos complementares ou fórmulas para adultos esterilizados.
-- **Rácio Qualidade / Preço**:
-  - Pontuação ponderada pelo preço por quilograma (`Pontuação / €/kg`) para identificar as melhores pechinchas do mercado.
+🌐 **Live Dashboard**: [https://diogobalseiro.github.io/banana-orange-kiwi/](https://diogobalseiro.github.io/banana-orange-kiwi/)
 
 ---
 
-## 🚀 Como Executar e Atualizar os Dados
+## 🌟 Dashboard Features
 
-### Pré-requisitos
+- **Unified Dual-Mode Architecture**:
+  - 🥫 **Wet Food (Comida Húmida)**: Audits 295 wet food items focusing on named animal meat percentages, absence of added sugars/grains, proper hydration, and clear distinction between **Complete** and **Complementary** food.
+  - 🥣 **Dry Kibble (Ração Seca)**: Audits 246 dry formulas evaluating the 1st ingredient, crude protein, growth fat for kittens, estimated carbohydrates (NFE), and absence of corn gluten and artificial dyes.
+  - *Datasets are strictly isolated* — switching categories seamlessly updates the KPI cards, relevant nutritional columns, and specialized filter controls without mixing products.
+- **Dedicated Kitten Filter (🍼 Júnior / Kitten)**:
+  - Highlights calorie-dense, high-protein, and high-fat options formulated for rapid growth. Alerts against using complementary wet food or adult sterilised kibble as sole diets.
+- **Value-for-Money Ratio (Q/P)**:
+  - Calculates a normalized value ratio (`Score / €/kg`) to spotlight the highest-quality budget-friendly products on the market.
+
+---
+
+## 🚀 How to Run & Refresh Data Locally
+
+### Prerequisites
 ```bash
 pip install -r requirements.txt
 ```
 
-### Atualização Periódica de Dados
-Para raspar o catálogo do Continente, analisar ingredientes, recalcular pontuações e reconstruir o dashboard `index.html`:
+### Refreshing Catalog Data
+To scrape Continente's live catalog, parse ingredients, calculate biological quality scores, and rebuild `index.html`:
 
 ```bash
-# Atualização completa (Húmida + Seca)
+# Full refresh (Wet + Dry food)
 python3 refresh.py --retailer continente --type all
 
-# Apenas comida húmida
+# Refresh wet food only
 python3 refresh.py --retailer continente --type wet
 
-# Apenas comida seca
+# Refresh dry food only
 python3 refresh.py --retailer continente --type dry
 
-# Recalcular pontuações e reconstruir HTML sem raspar de novo
+# Recalculate scores and rebuild index.html from local cache (instant)
 python3 refresh.py --skip-scrape
 ```
 
 ---
 
-## 🤖 Skill do Antigravity
+## 🤖 Antigravity Personal Skill
 
-Este repositório inclui a skill pessoal **`cat-food-dashboard`** configurada em `.agents/skills/cat-food-dashboard/`.
+This repository includes a personal Antigravity skill located at `.agents/skills/cat-food-dashboard/`.
 
-Ao abrir este repositório no Antigravity, o assistente pode automaticamente:
-- Executar rotinas de refresh sob pedido (`"atualiza o catálogo do continente"`);
-- Ajustar os critérios de pontuação nutricional;
-- Implementar e testar novos scrapers (como ZU.pt ou Zooplus.pt).
+When opened in Antigravity, the assistant automatically knows how to:
+- Execute periodic catalog refresh routines on demand;
+- Tune biological scoring criteria and penalty thresholds;
+- Scaffold and test new retailer scrapers (such as ZU.pt or Zooplus.pt).
 
 ---
 
-## 🌐 Publicação no GitHub Pages
+## 🌐 GitHub Pages Deployment
 
-O site é gerado como uma aplicação estática autónoma no ficheiro `index.html`.
+The dashboard is generated as a standalone single-page application inside `index.html`.
 
-### Configuração no GitHub:
-1. No repositório [diogobalseiro/banana-orange-kiwi](https://github.com/diogobalseiro/banana-orange-kiwi), vá a **Settings** > **Pages**.
-2. Sob **Build and deployment**:
-   - **Source**: Selecione `Deploy from a branch` (Branch: `main`, pasta: `/ (root)`), **OU** selecione `GitHub Actions` para usar o workflow automático incluído em `.github/workflows/deploy.yml`.
-3. O painel ficará acessível em:
+### Enabling GitHub Pages:
+1. In the repository settings on GitHub ([banana-orange-kiwi/settings/pages](https://github.com/diogobalseiro/banana-orange-kiwi/settings/pages)):
+2. Under **Build and deployment > Source**, select:
+   - **Deploy from a branch** (Branch: `main`, folder: `/ (root)`), **OR**
+   - **GitHub Actions** (to use `.github/workflows/deploy.yml`).
+3. Your dashboard will be live at:
    `https://diogobalseiro.github.io/banana-orange-kiwi/`
 
-### Atualizações Automáticas Semanais:
-O repositório inclui um GitHub Action (`.github/workflows/scheduled_refresh.yml`) configurado para rodar todas as segundas-feiras às 05:00 UTC, verificando novos produtos e preços automaticamente.
+### Automated Bi-Weekly Refresh:
+The repository includes a GitHub Action (`.github/workflows/scheduled_refresh.yml`) scheduled to run **every 2 weeks** on Mondays at 05:00 UTC, automatically checking for catalog updates, new products, and price changes.
