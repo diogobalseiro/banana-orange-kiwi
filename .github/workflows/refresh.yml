@@ -1,0 +1,43 @@
+name: Refresh Cat Food Catalog
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Category to refresh'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - wet
+          - dry
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install beautifulsoup4
+
+      - name: Run Catalog Scraper & Site Rebuilder
+        run: |
+          python refresh.py --retailer continente --type ${{ github.event.inputs.category || 'all' }}
+
+      - name: Commit & Push Updated Data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ index.html
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: refresh cat food catalog data" && git push)

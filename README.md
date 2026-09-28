@@ -68,5 +68,9 @@ The dashboard is generated as a standalone single-page application inside `index
 3. Your dashboard will be live at:
    `https://diogobalseiro.github.io/banana-orange-kiwi/`
 
-### Automated Bi-Weekly Refresh:
-The repository includes a GitHub Action (`.github/workflows/scheduled_refresh.yml`) scheduled to run **every 2 weeks** on Mondays at 05:00 UTC, automatically checking for catalog updates, new products, and price changes.
+### Running a Catalog Refresh on GitHub:
+You can trigger a full catalog scrape and dashboard rebuild directly from GitHub at any time without running code on your machine:
+1. Go to the **Actions** tab in your repository.
+2. Select **Refresh Cat Food Catalog** in the left sidebar.
+3. Click **Run workflow** (and choose `all`, `wet`, or `dry`).
+4. GitHub Actions will scrape Continente, re-score products, rebuild `index.html`, and commit the updated data automatically.
