@@ -9,9 +9,16 @@ description: >-
 
 This skill provides the end-to-end workflow to audit cat food (wet pouches/cans and dry kibble) across Portuguese retailers (Continente, and expandable to ZU.pt / Zooplus.pt), score them according to feline obligate carnivore biological criteria, and build the interactive GitHub Pages dashboard.
 
+**Primary Project Location**: `/Users/diogo/Documents/GitHub/banana-orange-kiwi`
+
 ---
 
 ## 1. Quick Reference Commands
+
+Before running commands, `cd` into the project directory:
+```bash
+cd /Users/diogo/Documents/GitHub/banana-orange-kiwi
+```
 
 ### Refresh Pipeline
 To refresh data and regenerate `index.html`:
