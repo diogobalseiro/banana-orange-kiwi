@@ -1,6 +1,6 @@
-# 🐱 Cat Food Biological Ranking & Dashboard (Continente)
+# 🐱 Cat Food Biological Ranking & Dashboard (Continente, ZU & Zooplus)
 
-An interactive dashboard and biological/nutritional auditing engine for cat food (wet pouches/cans and dry kibble), specifically tailored to feline obligate carnivore dietary requirements and growing kittens.
+An interactive dashboard and biological/nutritional auditing engine for cat food (wet pouches/cans and dry kibble) across Portuguese pet food retailers (**Continente**, **ZU.pt**, and **Zooplus.pt**), specifically tailored to feline obligate carnivore dietary requirements and growing kittens.
 
 🌐 **Live Dashboard**: [https://diogobalseiro.github.io/banana-orange-kiwi/](https://diogobalseiro.github.io/banana-orange-kiwi/)
 
@@ -8,10 +8,11 @@ An interactive dashboard and biological/nutritional auditing engine for cat food
 
 ## 🌟 Dashboard Features
 
-- **Unified Dual-Mode Architecture**:
-  - 🥫 **Wet Food (Comida Húmida)**: Audits 295 wet food items focusing on named animal meat percentages, absence of added sugars/grains, proper hydration, and clear distinction between **Complete** and **Complementary** food.
-  - 🥣 **Dry Kibble (Ração Seca)**: Audits 246 dry formulas evaluating the 1st ingredient, crude protein, growth fat for kittens, estimated carbohydrates (NFE), and absence of corn gluten and artificial dyes.
-  - *Datasets are strictly isolated* — switching categories seamlessly updates the KPI cards, relevant nutritional columns, and specialized filter controls without mixing products.
+- **Multi-Retailer Unified Catalog**:
+  - Compares and audits products across **Continente**, **ZU.pt**, and **Zooplus.pt** in one interface with instant store-level filtering or cross-market comparison.
+- **Dual-Mode Category Architecture**:
+  - 🥫 **Wet Food (Comida Húmida)**: Audits 750+ wet food items focusing on named animal meat percentages, absence of added sugars/grains, proper hydration, and clear distinction between **Complete** and **Complementary** food.
+  - 🥣 **Dry Kibble (Ração Seca)**: Audits 590+ dry formulas evaluating the 1st ingredient, crude protein, growth fat for kittens, estimated carbohydrates (NFE), and absence of corn gluten and artificial dyes.
 - **Dedicated Kitten Filter (🍼 Júnior / Kitten)**:
   - Highlights calorie-dense, high-protein, and high-fat options formulated for rapid growth. Alerts against using complementary wet food or adult sterilised kibble as sole diets.
 - **Value-for-Money Ratio (Q/P)**:
@@ -27,17 +28,20 @@ pip install -r requirements.txt
 ```
 
 ### Refreshing Catalog Data
-To scrape Continente's live catalog, parse ingredients, calculate biological quality scores, and rebuild `index.html`:
+To scrape live retailer catalogs, parse ingredients, calculate biological quality scores, and rebuild `index.html`:
 
 ```bash
-# Full refresh (Wet + Dry food)
+# Refresh all retailers (Continente, ZU, Zooplus)
+python3 refresh.py --retailer all --type all
+
+# Refresh specific retailer
 python3 refresh.py --retailer continente --type all
+python3 refresh.py --retailer zu --type all
+python3 refresh.py --retailer zooplus --type all
 
-# Refresh wet food only
-python3 refresh.py --retailer continente --type wet
-
-# Refresh dry food only
-python3 refresh.py --retailer continente --type dry
+# Refresh specific category (wet or dry)
+python3 refresh.py --retailer zu --type wet
+python3 refresh.py --retailer zooplus --type dry --max-pages 4
 
 # Recalculate scores and rebuild index.html from local cache (instant)
 python3 refresh.py --skip-scrape

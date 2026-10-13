@@ -79,7 +79,8 @@ class ContinenteScraper(BaseScraper):
                     'unit_price_str': unit_price_str,
                     'unit_price_kg': unit_price_val,
                     'pack_size': pack_size,
-                    'pdp_url': pdp_url
+                    'pdp_url': pdp_url,
+                    'retailer': 'Continente'
                 })
 
             start += len(tiles)

@@ -48,6 +48,16 @@ def parse_wet_nutrition(nutri_text):
 
     return data
 
+def get_wet_carb_band(carbs_dmb):
+    if carbs_dmb is None:
+        return 'N/D'
+    if carbs_dmb <= 10.0:
+        return '<10% DMB (Ideal)'
+    elif carbs_dmb <= 20.0:
+        return '10-20% DMB (Moderado)'
+    else:
+        return '>20% DMB (Elevado)'
+
 def score_wet_product(p):
     name = p.get('name', '')
     brand = p.get('brand', '')
@@ -95,11 +105,11 @@ def score_wet_product(p):
     # Scoring Algorithm (0-100 base)
     score = 50
 
-    if any(b in brand_lower for b in ["lily's kitchen", "natural greatness", "harper & bone"]):
+    if any(b in brand_lower for b in ["lily's kitchen", "natural greatness", "harper & bone", "feringa", "rosie's farm", "wild freedom", "cat's love", "catz finefood", "granatapet", "mjamjam"]):
         score += 25
     elif "gourmet nature" in name_lower or "gourmet nature" in brand_lower:
         score += 15
-    elif "smaak" in brand_lower:
+    elif any(b in brand_lower for b in ["smaak", "cosma", "weego", "purenatural", "animonda", "purizon", "applaws"]):
         score += 15
     elif "continente pet premium" in brand_lower or "continente pet premium" in name_lower:
         score += 5
@@ -107,7 +117,7 @@ def score_wet_product(p):
         score += 5
     elif "continente pet basic" in brand_lower:
         score -= 15
-    elif "brekkies" in brand_lower:
+    elif any(b in brand_lower for b in ["brekkies", "whiskas", "friskies", "felix"]):
         score -= 15
 
     # Ingredient scoring
@@ -121,7 +131,10 @@ def score_wet_product(p):
     if has_sugar:
         score -= 25
     if has_grains:
-        score -= 15
+        if high_meat_pct and high_meat_pct >= 50:
+            score -= 5
+        else:
+            score -= 15
     if has_veg_protein:
         score -= 15
     if has_vague_byproducts:
@@ -173,6 +186,12 @@ def score_wet_product(p):
     p['has_veg_protein'] = has_veg_protein
     p['value_ratio'] = val_ratio
 
+    retailer = p.get('retailer', 'Continente')
+    p['retailer'] = retailer
+
+    cb = get_wet_carb_band(carbs_dmb)
+    p['carb_band'] = cb
+
     minified = {
         'id': p.get('pid'),
         'n': name,
@@ -187,6 +206,9 @@ def score_wet_product(p):
         'sug': has_sugar,
         'grn': has_grains,
         'veg': has_veg_protein,
-        'u': p.get('pdp_url')
+        'carb': carbs_dmb,
+        'cb': cb,
+        'u': p.get('pdp_url'),
+        'r': retailer
     }
     return p, minified

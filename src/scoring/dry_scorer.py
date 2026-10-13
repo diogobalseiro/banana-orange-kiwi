@@ -44,6 +44,18 @@ def parse_dry_nutrition(nutri_text):
 
     return data
 
+def get_dry_carb_band(carbs):
+    if carbs is None:
+        return 'N/D'
+    if carbs < 22.0:
+        return '<22% (Baixo)'
+    elif carbs <= 32.0:
+        return '22-32% (Moderado)'
+    elif carbs <= 40.0:
+        return '32-40% (Elevado)'
+    else:
+        return '>40% (Muito Alto)'
+
 def score_dry_product(p):
     name = p.get('name', '')
     brand = p.get('brand', '')
@@ -60,10 +72,17 @@ def score_dry_product(p):
     is_kitten = any(k in f"{name_lower} {desc.lower()}" for k in ['júnior', 'junior', 'kitten', 'gatinho', 'filhote', 'crescimento'])
     is_sterilised = any(s in f"{name_lower} {desc.lower()}" for s in ['esterilizado', 'esterilizados', 'sterilised', 'sterilized'])
 
-    # Ingredient analysis
+    # Ingredient analysis: grains vs starches
     is_grain_free = any(gf in text_to_check for gf in ['sem cereais', 'grain free', 'grain-free', 'no grain'])
-    has_corn_gluten = any(cg in ingr_lower for cg in ['glúten de milho', 'proteína de milho', 'glúten', 'farinha de milho'])
+    has_cheap_grains = any(cg in ingr_lower for cg in ['trigo', 'milho', 'farinha de trigo', 'farinha de milho'])
+    has_corn_gluten = any(cg in ingr_lower for cg in ['glúten de milho', 'proteína de milho', 'glúten'])
     has_colorants = any(c in ingr_lower for c in ['corantes', 'corante', 'óxido de ferro', 'tartrazina'])
+    has_starch_padding = any(s in ingr_lower for s in ['amido de batata', 'amido de ervilha', 'amido de mandioca', 'tapioca', 'proteína de ervilha', 'proteína de batata'])
+    has_quality_grains = any(qg in ingr_lower for qg in ['aveia', 'cevada', 'arroz integral', 'centeio'])
+
+    # Named meat percentage match
+    meat_pct_match = re.search(r'(\d+)%\s*(?:de\s*)?(?:carne|frango|peru|salmão|peixe|vaca|borrego|pato|aves|proteína|ingredientes\s+animais)', ingr_lower)
+    meat_pct = int(meat_pct_match.group(1)) if meat_pct_match else None
 
     # First ingredient check
     first_ingr = ""
@@ -82,13 +101,13 @@ def score_dry_product(p):
     score = 50
 
     # Brand baseline quality prior
-    if any(b in brand_lower for b in ["acana", "orijen", "uppy nutri", "lily's kitchen"]):
+    if any(b in brand_lower for b in ["acana", "orijen", "uppy nutri", "lily's kitchen", "purizon", "carnilove", "farmina", "n&d", "taste of the wild", "canagan"]):
         score += 25
-    elif any(b in brand_lower for b in ["natural greatness", "harper & bone"]):
+    elif any(b in brand_lower for b in ["natural greatness", "harper & bone", "ownat", "concept for life", "weego", "purenatural", "gosbi", "bravery"]):
         score += 20
     elif "smaak" in brand_lower:
         score += 15
-    elif "purina one" in brand_lower:
+    elif "purina one" in brand_lower or "advance" in brand_lower:
         score += 5
     elif "continente pet basic" in brand_lower:
         score -= 20
@@ -101,10 +120,23 @@ def score_dry_product(p):
     else:
         score -= 20
 
-    if is_grain_free:
+    if meat_pct and meat_pct >= 60:
         score += 15
-    elif any(c in ingr_lower for c in ['trigo', 'milho']):
-        score -= 10
+    elif meat_pct and meat_pct >= 40:
+        score += 10
+
+    # Grain vs Starch refinement
+    if is_grain_free:
+        if not has_starch_padding:
+            score += 15
+        else:
+            score += 5  # Grain-free, but padded with legume/tuber starches
+    elif has_quality_grains and first_is_animal and not has_cheap_grains:
+        score += 5   # Quality whole grains (oats/barley) in a meat-first formula
+    elif has_cheap_grains:
+        score -= 15
+    elif not is_grain_free:
+        score -= 5
 
     if has_corn_gluten:
         score -= 10
@@ -176,6 +208,12 @@ def score_dry_product(p):
     p['has_colorants'] = has_colorants
     p['value_ratio'] = val_ratio
 
+    retailer = p.get('retailer', 'Continente')
+    p['retailer'] = retailer
+
+    cb = get_dry_carb_band(carbs)
+    p['carb_band'] = cb
+
     minified = {
         'id': p.get('pid'),
         'n': name,
@@ -193,7 +231,9 @@ def score_dry_product(p):
         'prot': prot,
         'fat': fat,
         'carb': carbs,
+        'cb': cb,
         'fi': first_ingr[:45] if first_ingr else '',
-        'u': p.get('pdp_url')
+        'u': p.get('pdp_url'),
+        'r': retailer
     }
     return p, minified

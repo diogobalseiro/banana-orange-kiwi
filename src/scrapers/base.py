@@ -13,18 +13,24 @@ class BaseScraper(abc.ABC):
         self.headers = headers or DEFAULT_HEADERS
         self.rate_limit_delay = rate_limit_delay
 
-    def fetch_url(self, url, timeout=15, max_retries=3):
-        """Fetch URL with basic retry and user-agent spoofing."""
+    def fetch_url(self, url, timeout=15, max_retries=4):
+        """Fetch URL with exponential retry on 429/timeouts and user-agent spoofing."""
         for attempt in range(max_retries):
             try:
                 req = urllib.request.Request(url, headers=self.headers)
                 with urllib.request.urlopen(req, timeout=timeout) as resp:
                     return resp.read().decode('utf-8', errors='replace')
             except Exception as e:
-                if attempt == max_retries - 1:
+                # On rate limit (429), back off longer
+                err_str = str(e)
+                if '429' in err_str:
+                    wait_time = 2.0 * (2 ** attempt)
+                    time.sleep(wait_time)
+                elif attempt < max_retries - 1:
+                    time.sleep(1.0 * (attempt + 1))
+                else:
                     print(f"[Scraper] Failed fetching {url}: {e}")
                     raise
-                time.sleep(1.0 * (attempt + 1))
         return None
 
     @abc.abstractmethod

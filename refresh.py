@@ -19,9 +19,17 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, BASE_DIR)
 
 from src.scrapers.continente import ContinenteScraper
+from src.scrapers.zu import ZUScraper
+from src.scrapers.zooplus import ZooplusScraper
 from src.scoring.wet_scorer import score_wet_product
 from src.scoring.dry_scorer import score_dry_product
 from src.builder.build_site import generate_html, load_data
+
+SCRAPERS = {
+    'continente': ContinenteScraper,
+    'zu': ZUScraper,
+    'zooplus': ZooplusScraper
+}
 
 def save_json(filepath, data):
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -49,8 +57,8 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None):
         minified.append(p_mini)
 
     # Sort by score desc, then value ratio desc
-    scored_full.sort(key=lambda x: (x.get('score', 0), x.get('value_ratio', 0)), reverse=True)
-    minified.sort(key=lambda x: (x.get('s', 0), x.get('vr', 0)), reverse=True)
+    scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
+    minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
 
     full_path = os.path.join(data_dir, f"{retailer_name}_wet_full.json")
     mini_path = os.path.join(data_dir, f"{retailer_name}_wet.json")
@@ -59,7 +67,7 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     save_json(full_path, scored_full)
     save_json(mini_path, minified)
 
-    csv_fields = ['pid', 'name', 'brand', 'price', 'unit_price_kg', 'classification', 'is_kitten', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains', 'has_veg_protein', 'pdp_url']
+    csv_fields = ['pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'classification', 'is_kitten', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains', 'has_veg_protein', 'pdp_url']
     save_csv(csv_path, scored_full, csv_fields)
 
     print(f"[Pipeline] Wet food complete: {len(minified)} products processed.")
@@ -78,8 +86,8 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
         scored_full.append(p_full)
         minified.append(p_mini)
 
-    scored_full.sort(key=lambda x: (x.get('score', 0), x.get('value_ratio', 0)), reverse=True)
-    minified.sort(key=lambda x: (x.get('s', 0), x.get('vr', 0)), reverse=True)
+    scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
+    minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
 
     full_path = os.path.join(data_dir, f"{retailer_name}_dry_full.json")
     mini_path = os.path.join(data_dir, f"{retailer_name}_dry.json")
@@ -88,15 +96,48 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     save_json(full_path, scored_full)
     save_json(mini_path, minified)
 
-    csv_fields = ['pid', 'name', 'brand', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised', 'score', 'tier', 'value_ratio', 'is_grain_free', 'has_corn_gluten', 'has_colorants', 'pdp_url']
+    csv_fields = ['pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised', 'score', 'tier', 'value_ratio', 'is_grain_free', 'has_corn_gluten', 'has_colorants', 'pdp_url']
     save_csv(csv_path, scored_full, csv_fields)
 
     print(f"[Pipeline] Dry food complete: {len(minified)} products processed.")
     return minified
 
+def rescore_cached_data(data_dir):
+    print("[Scorer] Re-scoring existing cached datasets with updated rules...")
+    for ret in ['continente', 'zu', 'zooplus']:
+        full_wet_path = os.path.join(data_dir, f"{ret}_wet_full.json")
+        if os.path.exists(full_wet_path):
+            with open(full_wet_path, 'r', encoding='utf-8') as f:
+                raw = json.load(f)
+            scored_full = []
+            minified = []
+            for p in raw:
+                p_full, p_mini = score_wet_product(p)
+                scored_full.append(p_full)
+                minified.append(p_mini)
+            scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
+            minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
+            save_json(full_wet_path, scored_full)
+            save_json(os.path.join(data_dir, f"{ret}_wet.json"), minified)
+
+        full_dry_path = os.path.join(data_dir, f"{ret}_dry_full.json")
+        if os.path.exists(full_dry_path):
+            with open(full_dry_path, 'r', encoding='utf-8') as f:
+                raw = json.load(f)
+            scored_full = []
+            minified = []
+            for p in raw:
+                p_full, p_mini = score_dry_product(p)
+                scored_full.append(p_full)
+                minified.append(p_mini)
+            scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
+            minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
+            save_json(full_dry_path, scored_full)
+            save_json(os.path.join(data_dir, f"{ret}_dry.json"), minified)
+
 def main():
     parser = argparse.ArgumentParser(description="Refresh and build Cat Food Rankings")
-    parser.add_argument('--retailer', choices=['continente', 'zu', 'zooplus'], default='continente', help="Retailer to scrape")
+    parser.add_argument('--retailer', choices=['continente', 'zu', 'zooplus', 'all'], default='continente', help="Retailer to scrape")
     parser.add_argument('--type', choices=['wet', 'dry', 'all'], default='all', help="Food category to refresh")
     parser.add_argument('--max-pages', type=int, default=None, help="Limit catalog pagination (for quick test runs)")
     parser.add_argument('--skip-scrape', action='store_true', help="Skip scraping and rebuild index.html from existing data")
@@ -106,16 +147,21 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
 
     if not args.skip_scrape:
-        if args.retailer == 'continente':
-            scraper = ContinenteScraper()
-        else:
-            raise NotImplementedError(f"Scraper for {args.retailer} is not yet implemented.")
+        target_retailers = ['continente', 'zu', 'zooplus'] if args.retailer == 'all' else [args.retailer]
 
-        if args.type in ['wet', 'all']:
-            run_wet_pipeline(args.retailer, scraper, data_dir, max_pages=args.max_pages)
+        for ret in target_retailers:
+            scraper_cls = SCRAPERS.get(ret)
+            if not scraper_cls:
+                raise NotImplementedError(f"Scraper for {ret} is not available.")
+            scraper = scraper_cls()
 
-        if args.type in ['dry', 'all']:
-            run_dry_pipeline(args.retailer, scraper, data_dir, max_pages=args.max_pages)
+            if args.type in ['wet', 'all']:
+                run_wet_pipeline(ret, scraper, data_dir, max_pages=args.max_pages)
+
+            if args.type in ['dry', 'all']:
+                run_dry_pipeline(ret, scraper, data_dir, max_pages=args.max_pages)
+    else:
+        rescore_cached_data(data_dir)
 
     # Rebuild unified HTML site
     print("\n[Builder] Recompiling unified GitHub Pages dashboard...")
