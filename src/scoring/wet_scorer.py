@@ -32,6 +32,11 @@ def parse_wet_nutrition(nutri_text):
     if m:
         data['fiber'] = float(m.group(1))
 
+    # Taurine
+    m_tau = re.search(r'[Tt]aurina[:\s]+(\d+(?:\.\d+)?)\s*(?:mg/kg|%)?', clean)
+    if m_tau:
+        data['taurine'] = float(m_tau.group(1))
+
     moisture = data.get('moisture', 80.0)
     dm = max(1.0, 100.0 - moisture)
     data['dm_pct'] = round(dm, 1)
@@ -70,81 +75,133 @@ def score_wet_product(p):
     brand_lower = brand.lower()
     name_lower = name.lower()
 
-    # Is Kitten / Junior
-    is_kitten = any(k in f"{name_lower} {desc.lower()}" for k in ['júnior', 'junior', 'kitten', 'gatinho'])
-
-    # 1. Complete vs Complementary check
+    # 1. Complete vs Complementary check (Exclude complementary entirely)
     is_complementary = False
-    if 'complementar' in text_to_check or 'alimento complementar' in text_to_check:
+    if any(k in text_to_check for k in ['complementar', 'alimento complementar', 'snack', 'petisco', 'treat', 'sopa para gato']):
         is_complementary = True
-    elif any(b in brand_lower for b in ['schesir', 'ciao', 'churu', 'applaws', 'fish4cats']):
+    elif any(b in brand_lower for b in ['schesir', 'ciao', 'churu', 'applaws', 'fish4cats', 'inaba', 'thrive']):
         if 'alimento completo' not in text_to_check and '100% completa' not in text_to_check:
             is_complementary = True
 
-    # 2. Ingredient flags
-    has_sugar = any(s in ingr_lower for s in ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo'])
-    has_grains = any(g in ingr_lower for g in ['cereais', 'trigo', 'milho', 'arroz', 'farinha'])
+    # If complementary, exclude from ranking entirely
+    if is_complementary:
+        return None, None
+
+    # Target: Kitten / Junior
+    is_kitten = any(k in f"{name_lower} {desc.lower()}" for k in ['júnior', 'junior', 'kitten', 'gatinho', 'filhote', 'crescimento'])
+
+    # 2. Ingredient Quality & Transparency
+    # Check "4% EU token trick"
+    is_token_4pct = bool(
+        re.search(r'(?:dos quais|mín(?:imo)?\.?)\s*4\s*%', ingr_lower) or
+        re.search(r'carnes e subprodutos animais\s*\([^)]*4\s*%', ingr_lower)
+    )
+
+    # Genuine named meat percentage match
+    high_meat_pct = None
+    if not is_token_4pct:
+        meat_matches = re.findall(
+            r'(?:(\d+)\s*%\s*(?:de\s*)?(?:carne|frango|peru|salmão|atum|vaca|peixe|pato|borrego|javali|coelho|aves)|(?:frango|atum|salmão|carne|peru|vaca|peixe|pato|borrego|javali|coelho|aves)\s*(?:\([^)]*?\))?\s*[:\-]?\s*(\d+)\s*%)',
+            ingr_lower
+        )
+        if meat_matches:
+            pcts = []
+            for g1, g2 in meat_matches:
+                v = g1 or g2
+                if v and int(v) > 4:
+                    pcts.append(int(v))
+            if pcts:
+                high_meat_pct = max(pcts)
+
+        # Fallback check for "85% de carne e derivados" / "70% carne"
+        if not high_meat_pct:
+            m_total = re.search(r'(\d+)\s*%\s*(?:de\s*)?(?:carne|miudezas|ingredientes de origem animal)', ingr_lower)
+            if m_total and int(m_total.group(1)) > 20:
+                high_meat_pct = int(m_total.group(1))
+
+    # Organ meats (feline superfoods: liver, heart, gizzard, lung, kidneys)
+    has_organs = any(o in ingr_lower for o in [
+        'coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'pulmão', 'pulmões', 'estômago', 'estômagos', 'rins', 'rim'
+    ])
+
+    # Monoproteic
+    is_monoproteic = any(m in text_to_check for m in ['monoproteico', 'mono-proteico', 'monoproteica', 'single protein', 'uma única fonte de proteína'])
+
+    # Detrimental additives
+    has_sugar = any(s in ingr_lower for s in ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope', 'dextrose', 'melaço'])
+    has_grains = any(g in ingr_lower for g in ['cereais', 'trigo', 'milho', 'arroz', 'farinha de trigo', 'farinha de milho'])
     has_veg_protein = any(v in ingr_lower for v in [
-        'subprodutos de origem vegetal', 
-        'extractos de proteínas vegetais', 
+        'subprodutos de origem vegetal',
+        'subprodutos vegetais',
+        'extractos de proteínas vegetais',
         'extractos de proteína vegetal',
-        'extratos de proteína vegetal', 
+        'extratos de proteína vegetal',
         'extratos de proteínas vegetais',
         'concentrado de proteína vegetal'
     ])
-    has_vague_byproducts = 'carnes e subprodutos animais' in ingr_lower and not any(pct in ingr_lower for pct in ['50%', '60%', '65%', '70%', '75%', '80%'])
+    has_vague_byproducts = 'carnes e subprodutos animais' in ingr_lower and not high_meat_pct and not is_token_4pct
 
-    # 3. High named meat detection
-    named_meat_match = re.search(r'(\d+)%\s*(?:de\s*)?(?:frango|atum|salmão|carne|peru|vaca|peixe|pato|borrego)', ingr_lower)
-    high_meat_pct = int(named_meat_match.group(1)) if named_meat_match else None
+    # Thickeners & Gelling agents
+    has_carrageenan = any(c in ingr_lower for c in ['carragenina', 'carragenano', 'carrageenan', 'e407'])
+    has_gums = any(g in ingr_lower for g in ['goma cássia', 'goma cassia', 'cassia gum', 'e499'])
+
+    # Beneficial micronutrients
+    has_taurine = any(t in text_to_check for t in ['taurina', 'taurine'])
+    has_marine_omega = any(o in text_to_check for o in ['óleo de salmão', 'oleo de salmao', 'óleo de peixe', 'oleo de peixe', 'salmon oil', 'fish oil', 'dha', 'epa'])
 
     # Parse analytical components
     nutri = parse_wet_nutrition(nutri_raw)
     p['nutrition_parsed'] = nutri
 
-    # Scoring Algorithm (0-100 base)
+    # Biological Scoring Algorithm (0-100 base) - 100% objective, NO brand priors!
     score = 50
 
-    if any(b in brand_lower for b in ["lily's kitchen", "natural greatness", "harper & bone", "feringa", "rosie's farm", "wild freedom", "cat's love", "catz finefood", "granatapet", "mjamjam"]):
-        score += 25
-    elif "gourmet nature" in name_lower or "gourmet nature" in brand_lower:
+    # 1. Meat content & quality
+    if high_meat_pct and high_meat_pct >= 70:
+        score += 22
+    elif high_meat_pct and high_meat_pct >= 50:
         score += 15
-    elif any(b in brand_lower for b in ["smaak", "cosma", "weego", "purenatural", "animonda", "purizon", "applaws"]):
-        score += 15
-    elif "continente pet premium" in brand_lower or "continente pet premium" in name_lower:
-        score += 5
-    elif "purina one" in brand_lower:
-        score += 5
-    elif "continente pet basic" in brand_lower:
-        score -= 15
-    elif any(b in brand_lower for b in ["brekkies", "whiskas", "friskies", "felix"]):
-        score -= 15
-
-    # Ingredient scoring
-    if high_meat_pct and high_meat_pct >= 50:
-        score += 25
     elif high_meat_pct and high_meat_pct >= 30:
-        score += 15
-    elif 'smaak' in brand_lower and not has_grains:
-        score += 15
+        score += 8
 
+    if has_organs:
+        score += 5
+    if is_monoproteic:
+        score += 3
+
+    # Penalties for low-grade slaughter derivatives
+    if is_token_4pct:
+        score -= 15
+    elif has_vague_byproducts:
+        score -= 12
+
+    # 2. Fillers & Additives
     if has_sugar:
         score -= 25
     if has_grains:
-        if high_meat_pct and high_meat_pct >= 50:
-            score -= 5
+        if high_meat_pct and high_meat_pct >= 60:
+            score -= 8
         else:
             score -= 15
     if has_veg_protein:
         score -= 15
-    if has_vague_byproducts:
-        score -= 15
+    if has_carrageenan:
+        score -= 6
+    if has_gums:
+        score -= 3
 
-    # Nutrition scoring
+    # 3. Beneficial Additives
+    if has_taurine:
+        score += 4
+    if has_marine_omega:
+        score += 3
+
+    # 4. Analytical Macronutrients (when present)
     prot_dmb = nutri.get('protein_dmb')
     if prot_dmb:
-        if prot_dmb >= 55.0:
-            score += 15
+        target_high_prot = 50.0 if is_kitten else 55.0
+        if prot_dmb >= target_high_prot:
+            score += 12
         elif prot_dmb >= 45.0:
             score += 5
         elif prot_dmb < 35.0:
@@ -154,12 +211,10 @@ def score_wet_product(p):
     if carbs_dmb is not None:
         if carbs_dmb <= 10.0:
             score += 10
-        elif carbs_dmb > 25.0:
-            score -= 15
-
-    # Smaak Junior fix
-    if 'smaak' in brand_lower and is_kitten:
-        score = max(score, 75)
+        elif carbs_dmb <= 20.0:
+            score += 3
+        elif carbs_dmb > 22.0:
+            score -= 12
 
     score = max(10, min(95, score))
 
@@ -179,11 +234,16 @@ def score_wet_product(p):
 
     p['score'] = score
     p['tier'] = tier
-    p['classification'] = 'Complementar' if is_complementary else 'Completo'
+    p['classification'] = 'Completo'
     p['is_kitten'] = is_kitten
     p['has_sugar'] = has_sugar
     p['has_grains'] = has_grains
     p['has_veg_protein'] = has_veg_protein
+    p['has_organs'] = has_organs
+    p['has_carrageenan'] = has_carrageenan
+    p['has_taurine'] = has_taurine
+    p['has_marine_omega'] = has_marine_omega
+    p['high_meat_pct'] = high_meat_pct
     p['value_ratio'] = val_ratio
 
     retailer = p.get('retailer', 'Continente')
@@ -198,7 +258,7 @@ def score_wet_product(p):
         'b': brand,
         'p': p.get('price'),
         'pkg': pkg,
-        'c': p['classification'],
+        'c': 'Completo',
         'k': is_kitten,
         't': tier,
         's': score,
@@ -206,6 +266,9 @@ def score_wet_product(p):
         'sug': has_sugar,
         'grn': has_grains,
         'veg': has_veg_protein,
+        'org': has_organs,
+        'carr': has_carrageenan,
+        'tau': has_taurine,
         'carb': carbs_dmb,
         'cb': cb,
         'u': p.get('pdp_url'),

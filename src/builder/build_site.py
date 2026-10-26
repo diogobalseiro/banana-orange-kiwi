@@ -35,9 +35,6 @@ def load_data(data_dir):
         if 'k' not in p:
             name_l = (p.get('n') or '').lower()
             p['k'] = any(k in name_l for k in ['júnior', 'junior', 'kitten', 'gatinho'])
-        if 'smaak' in (p.get('b') or '').lower() and p.get('k'):
-            p['s'] = max(p.get('s', 0), 75)
-            p['t'] = 'Tier A (Excelente / Alto Teor Carne)'
 
     for p in dry_products:
         if 'k' not in p:

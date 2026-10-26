@@ -139,8 +139,8 @@
       <button id="toggleNoSugar" onclick="toggleFilter('noSugar')" class="wet-only filter-toggle px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
         <span>🚫</span> <span>Sem Açúcares Adicionados</span>
       </button>
-      <button id="toggleCompleteOnly" onclick="toggleFilter('completeOnly')" class="wet-only filter-toggle px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
-        <span>🥩</span> <span>Apenas Alimento Completo</span>
+      <button id="toggleNoCarr" onclick="toggleFilter('noCarr')" class="wet-only filter-toggle px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+        <span>🛡️</span> <span>Sem Carragenina</span>
       </button>
 
       <!-- Dry Mode Specific Toggles -->
@@ -149,6 +149,9 @@
       </button>
       <button id="toggleNoColorants" onclick="toggleFilter('noColorants')" class="dry-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
         <span>🎨</span> <span>Sem Corantes Artificiais</span>
+      </button>
+      <button id="toggleNoFrac" onclick="toggleFilter('noFrac')" class="dry-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+        <span>🌱</span> <span>Sem Amidos Fracionados</span>
       </button>
       <button id="toggleNonSterilised" onclick="toggleFilter('nonSterilised')" class="dry-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
         <span>✨</span> <span>Não Esterilizado (Gordura Integral)</span>
@@ -194,9 +197,10 @@
       kitten: false,
       grainFree: false,
       noSugar: false,
-      completeOnly: false,
+      noCarr: false,
       noCornGluten: false,
       noColorants: false,
+      noFrac: false,
       nonSterilised: false
     };
 
@@ -398,9 +402,10 @@
         kitten: 'toggleKitten',
         grainFree: 'toggleGrainFree',
         noSugar: 'toggleNoSugar',
-        completeOnly: 'toggleCompleteOnly',
+        noCarr: 'toggleNoCarr',
         noCornGluten: 'toggleNoCornGluten',
         noColorants: 'toggleNoColorants',
+        noFrac: 'toggleNoFrac',
         nonSterilised: 'toggleNonSterilised'
       };
 
@@ -461,13 +466,14 @@
         // Wet-specific filters
         if (currentCategory === 'wet') {
           if (filters.noSugar && p.sug) return false;
-          if (filters.completeOnly && p.c !== 'Completo') return false;
+          if (filters.noCarr && p.carr) return false;
         }
 
         // Dry-specific filters
         if (currentCategory === 'dry') {
           if (filters.noCornGluten && p.cg) return false;
           if (filters.noColorants && p.col) return false;
+          if (filters.noFrac && p.frac) return false;
           if (filters.nonSterilised && p.st) return false;
         }
 
@@ -524,9 +530,7 @@
 
         if (currentCategory === 'wet') {
           // Wet Food Row
-          const compBadge = p.c === 'Completo' 
-            ? '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-complete">Completo</span>'
-            : '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-comp">Complementar</span>';
+          const compBadge = '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-complete">Completo</span>';
 
           const wetCarbBadge = p.cb && p.cb !== 'N/D'
             ? `<span class="px-1.5 py-0.5 rounded text-[10px] ${p.cb.includes('Ideal') ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-800' : 'bg-amber-950/80 text-amber-300 border border-amber-800'} font-medium">Carb: ${p.cb}</span>`
@@ -539,6 +543,18 @@
           const grainBadge = p.grn
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium">Cereais</span>'
             : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais</span>';
+
+          const organBadge = p.org
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-purple-950/80 text-purple-300 border border-purple-800 font-medium">Miudezas Nobres</span>'
+            : '';
+
+          const carrBadge = p.carr
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Carragenina</span>'
+            : '';
+
+          const tauBadge = p.tau
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-sky-950/80 text-sky-300 border border-sky-800 font-medium">Taurina</span>'
+            : '';
 
           const kittenBadge = p.k
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-900/80 text-amber-200 border border-amber-600 font-bold">🍼 Júnior</span>'
@@ -566,7 +582,7 @@
                 </div>
               </td>
               <td class="py-3 px-3">
-                <div class="flex flex-wrap gap-1">${sugarBadge}${grainBadge}</div>
+                <div class="flex flex-wrap gap-1">${sugarBadge}${grainBadge}${organBadge}${carrBadge}${tauBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>
@@ -594,8 +610,14 @@
             : '';
           const macroLine = [protStr, fatStr].filter(Boolean).join(' • ');
 
+          const fracBadge = p.frac
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium" title="Amidos ou leguminosas fracionadas para inflacionar proteína e mascarar hidratos">Amidos Fracionados</span>'
+            : '';
+
           const gfBadge = p.gf
-            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais</span>'
+            ? (p.frac 
+                ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-slate-300 border border-slate-700 font-medium">Sem Cereais</span>'
+                : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais Limpo</span>')
             : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium">Com Cereais</span>';
 
           const cgBadge = p.cg
@@ -631,7 +653,7 @@
               </td>
               <td class="py-3 px-3">
                 <div class="text-xs text-slate-300 truncate max-w-[200px]" title="${p.fi || ''}">${p.fi || 'N/D'}</div>
-                <div class="flex flex-wrap gap-1 mt-1">${gfBadge}${cgBadge}${colBadge}</div>
+                <div class="flex flex-wrap gap-1 mt-1">${gfBadge}${fracBadge}${cgBadge}${colBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>
