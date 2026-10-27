@@ -1,5 +1,5 @@
 import re
-from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, FieldStatus
+from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, FieldStatus
 
 def parse_wet_nutrition(nutri_text):
     return normalize_nutrients(nutri_text, category='wet')
@@ -58,6 +58,11 @@ def score_wet_product(p):
     comp_eval = validate_composition(ingr)
     has_valid_composition = (comp_eval['status'] == FieldStatus.VALID)
 
+    first_ingr = None
+    first_is_fresh_animal = False
+    first_is_named_meat = False
+    first_is_vague_animal = False
+    first_is_plant = False
     has_sugar = None
     has_grains = None
     has_veg_protein = None
@@ -70,7 +75,26 @@ def score_wet_product(p):
     is_monoproteic = False
 
     if has_valid_composition:
-        ingr_lower = comp_eval['text'].lower()
+        ingr_clean_text = comp_eval['text']
+        ingr_lower = ingr_clean_text.lower()
+
+        # First ingredient check
+        first_ingr = extract_first_ingredient(ingr_clean_text)
+        if first_ingr:
+            first_lower = first_ingr.lower()
+
+            animal_terms = ['frango', 'salmão', 'salmao', 'peru', 'vaca', 'carne', 'peixe', 'atum', 'borrego', 'aves', 'pato', 'coelho', 'javali', 'sardinha', 'arenque', 'truta', 'veado']
+            fresh_terms = ['fresco', 'fresca', 'desossado', 'desossada', 'frescos', 'frescas', 'cru', 'crua', 'crus', 'cruas', 'filete', 'filetes', 'lombo', 'peito']
+            plant_terms = ['milho', 'trigo', 'cereais', 'arroz', 'ervilha', 'batata', 'farinha', 'glúten', 'proteína vegetal', 'cevada']
+
+            if any(f in first_lower for f in fresh_terms) and any(a in first_lower for a in animal_terms):
+                first_is_fresh_animal = True
+            elif ('carne e subprodutos' in first_lower or 'carnes e subprodutos' in first_lower or 'subprodutos animais' in first_lower):
+                first_is_vague_animal = True
+            elif any(a in first_lower for a in animal_terms):
+                first_is_named_meat = True
+            elif any(p in first_lower for p in plant_terms):
+                first_is_plant = True
 
         # Check "4% EU token trick"
         is_token_4pct = bool(
@@ -80,23 +104,22 @@ def score_wet_product(p):
 
         # Genuine named meat percentage match
         if not is_token_4pct:
-            meat_matches = re.findall(
-                r'(?:(\d+)\s*%\s*(?:de\s*)?(?:carne|frango|peru|salmão|atum|vaca|peixe|pato|borrego|javali|coelho|aves)|(?:frango|atum|salmão|carne|peru|vaca|peixe|pato|borrego|javali|coelho|aves)\s*(?:\([^)]*?\))?\s*[:\-]?\s*(\d+)\s*%)',
-                ingr_lower
-            )
-            if meat_matches:
-                pcts = []
-                for g1, g2 in meat_matches:
-                    v = g1 or g2
-                    if v and int(v) > 4:
-                        pcts.append(int(v))
-                if pcts:
-                    high_meat_pct = max(pcts)
-
-            if not high_meat_pct:
-                m_total = re.search(r'(\d+)\s*%\s*(?:de\s*)?(?:carne|miudezas|ingredientes de origem animal)', ingr_lower)
-                if m_total and int(m_total.group(1)) > 20:
-                    high_meat_pct = int(m_total.group(1))
+            m_total = re.search(r'(\d+)\s*%\s*(?:de\s*)?(?:carne|miudezas|ingredientes de origem animal|ingredientes animais|aves|peixe)', ingr_lower)
+            if m_total and int(m_total.group(1)) > 20:
+                high_meat_pct = int(m_total.group(1))
+            else:
+                meat_matches = re.findall(
+                    r'(?:(\d+)\s*%\s*(?:de\s*)?(?:carne|frango|peru|salmão|atum|vaca|peixe|pato|borrego|javali|coelho|aves|sardinha|arenque|truta|miudezas)|(?:frango|atum|salmão|carne|peru|vaca|peixe|pato|borrego|javali|coelho|aves|sardinha|arenque|truta)\s*(?:\([^)]*?\))?\s*[:\-]?\s*(\d+)\s*%)',
+                    ingr_lower
+                )
+                if meat_matches:
+                    pcts = []
+                    for g1, g2 in meat_matches:
+                        v = g1 or g2
+                        if v and int(v) > 4:
+                            pcts.append(int(v))
+                    if pcts:
+                        high_meat_pct = min(100, sum(pcts))
 
         # Organ meats
         has_organs = any(o in ingr_lower for o in [
@@ -118,7 +141,7 @@ def score_wet_product(p):
             'extratos de proteínas vegetais',
             'concentrado de proteína vegetal'
         ])
-        has_vague_byproducts = 'carnes e subprodutos animais' in ingr_lower and not high_meat_pct and not is_token_4pct
+        has_vague_byproducts = ('carnes e subprodutos' in ingr_lower or 'carne e subprodutos' in ingr_lower or 'subprodutos animais' in ingr_lower) and not high_meat_pct and not is_token_4pct
         has_carrageenan = any(c in ingr_lower for c in ['carragenina', 'carragenano', 'carrageenan', 'e407'])
         has_gums = any(g in ingr_lower for g in ['goma cássia', 'goma cassia', 'cassia gum', 'e499'])
 
@@ -229,6 +252,7 @@ def score_wet_product(p):
     p['score'] = score
     p['tier'] = tier
     p['classification'] = classification
+    p['first_ingredient'] = first_ingr
     p['is_kitten'] = is_kitten
     p['is_ranked'] = is_ready
     p['unranked_reasons'] = unranked_reasons
@@ -253,6 +277,7 @@ def score_wet_product(p):
         'p': p.get('price'),
         'pkg': pkg,
         'c': classification,
+        'fi': first_ingr,
         'k': is_kitten,
         't': tier,
         's': score,
@@ -265,6 +290,8 @@ def score_wet_product(p):
         'org': has_organs,
         'carr': has_carrageenan,
         'tau': has_taurine,
+        'omg': has_marine_omega,
+        'meat_pct': high_meat_pct,
         'carb': nutri.get('carbs_dmb'),
         'cb': cb,
         'u': p.get('pdp_url'),

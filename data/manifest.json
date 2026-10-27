@@ -1,23 +1,23 @@
 {
   "schema_version": "1.0",
   "scorer_version": "2.0-biological-reliable",
-  "active_generation_id": "gen_20261027_194812",
-  "last_accepted_timestamp": "2026-10-27T19:48:13.081133+00:00",
+  "active_generation_id": "gen_20261027_202016",
+  "last_accepted_timestamp": "2026-10-27T20:20:17.856382+00:00",
   "datasets": {
     "continente_wet": {
       "product_count": 213,
       "valid_ingredients_count": 209,
       "valid_nutrition_count": 207,
-      "ranked_count": 201,
-      "unranked_count": 12,
+      "ranked_count": 199,
+      "unranked_count": 14,
       "is_partial": false,
       "retrieved_at": "2026-10-27T18:40:48.353002+00:00",
-      "rescored_at": "2026-10-27T19:48:12.179913+00:00",
-      "snapshot_file": "snapshots/gen_20261027_194812_continente_wet.json",
+      "rescored_at": "2026-10-27T20:20:16.888333+00:00",
+      "snapshot_file": "snapshots/gen_20261027_202016_continente_wet.json",
       "file_mini": "continente_wet.json",
       "file_full": "continente_wet_full.json",
       "file_csv": "continente_wet.csv",
-      "generation_id": "gen_20261027_194812",
+      "generation_id": "gen_20261027_202016",
       "status": "accepted"
     },
     "continente_dry": {
@@ -28,12 +28,12 @@
       "unranked_count": 3,
       "is_partial": false,
       "retrieved_at": "2026-10-27T18:41:47.939240+00:00",
-      "rescored_at": "2026-10-27T19:48:12.346025+00:00",
-      "snapshot_file": "snapshots/gen_20261027_194812_continente_dry.json",
+      "rescored_at": "2026-10-27T20:20:17.068226+00:00",
+      "snapshot_file": "snapshots/gen_20261027_202016_continente_dry.json",
       "file_mini": "continente_dry.json",
       "file_full": "continente_dry_full.json",
       "file_csv": "continente_dry.csv",
-      "generation_id": "gen_20261027_194812",
+      "generation_id": "gen_20261027_202016",
       "status": "accepted"
     },
     "zu_wet": {
@@ -44,28 +44,28 @@
       "unranked_count": 8,
       "is_partial": false,
       "retrieved_at": "2026-10-27T18:52:47.208932+00:00",
-      "rescored_at": "2026-10-27T19:48:12.515580+00:00",
-      "snapshot_file": "snapshots/gen_20261027_194812_zu_wet.json",
+      "rescored_at": "2026-10-27T20:20:17.253945+00:00",
+      "snapshot_file": "snapshots/gen_20261027_202016_zu_wet.json",
       "file_mini": "zu_wet.json",
       "file_full": "zu_wet_full.json",
       "file_csv": "zu_wet.csv",
-      "generation_id": "gen_20261027_194812",
+      "generation_id": "gen_20261027_202016",
       "status": "accepted"
     },
     "zu_dry": {
       "product_count": 252,
       "valid_ingredients_count": 249,
       "valid_nutrition_count": 248,
-      "ranked_count": 247,
-      "unranked_count": 5,
+      "ranked_count": 248,
+      "unranked_count": 4,
       "is_partial": false,
       "retrieved_at": "2026-10-27T19:05:23.270045+00:00",
-      "rescored_at": "2026-10-27T19:48:12.685619+00:00",
-      "snapshot_file": "snapshots/gen_20261027_194812_zu_dry.json",
+      "rescored_at": "2026-10-27T20:20:17.438213+00:00",
+      "snapshot_file": "snapshots/gen_20261027_202016_zu_dry.json",
       "file_mini": "zu_dry.json",
       "file_full": "zu_dry_full.json",
       "file_csv": "zu_dry.csv",
-      "generation_id": "gen_20261027_194812",
+      "generation_id": "gen_20261027_202016",
       "status": "accepted"
     },
     "zooplus_wet": {
@@ -76,12 +76,12 @@
       "unranked_count": 20,
       "is_partial": false,
       "retrieved_at": "2026-10-27T19:00:59.705613+00:00",
-      "rescored_at": "2026-10-27T19:48:12.858184+00:00",
-      "snapshot_file": "snapshots/gen_20261027_194812_zooplus_wet.json",
+      "rescored_at": "2026-10-27T20:20:17.621322+00:00",
+      "snapshot_file": "snapshots/gen_20261027_202016_zooplus_wet.json",
       "file_mini": "zooplus_wet.json",
       "file_full": "zooplus_wet_full.json",
       "file_csv": "zooplus_wet.csv",
-      "generation_id": "gen_20261027_194812",
+      "generation_id": "gen_20261027_202016",
       "status": "accepted"
     },
     "zooplus_dry": {
@@ -92,14 +92,14 @@
       "unranked_count": 13,
       "is_partial": false,
       "retrieved_at": "2026-10-27T19:02:02.448465+00:00",
-      "rescored_at": "2026-10-27T19:48:13.081123+00:00",
-      "snapshot_file": "snapshots/gen_20261027_194812_zooplus_dry.json",
+      "rescored_at": "2026-10-27T20:20:17.856375+00:00",
+      "snapshot_file": "snapshots/gen_20261027_202016_zooplus_dry.json",
       "file_mini": "zooplus_dry.json",
       "file_full": "zooplus_dry_full.json",
       "file_csv": "zooplus_dry.csv",
-      "generation_id": "gen_20261027_194812",
+      "generation_id": "gen_20261027_202016",
       "status": "accepted"
     }
   },
-  "previous_generation_id": "gen_20261027_194347"
+  "previous_generation_id": "gen_20261027_201905"
 }

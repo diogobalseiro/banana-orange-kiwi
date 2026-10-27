@@ -405,6 +405,7 @@ def calculate_shared_score_for_formulation(formulation_id: str,
         'is_ranked': full.get('is_ranked'),
         'unranked_reasons': full.get('unranked_reasons', []),
         'has_conflicts': False,
+        'first_ingredient': full.get('first_ingredient'),
         'has_sugar': full.get('has_sugar'),
         'has_grains': full.get('has_grains'),
         'has_veg_protein': full.get('has_veg_protein'),
@@ -476,6 +477,8 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
             p['fid'] = fid
             p['rec'] = True
             p['conf'] = has_material_conflict
+            if assessment.get('first_ingredient') and (not p.get('fi') or p.get('fi') == 'N/D'):
+                p['fi'] = assessment['first_ingredient']
             if assessment.get('has_sugar') is not None:
                 p['sug'] = assessment['has_sugar']
             if assessment.get('has_grains') is not None:
@@ -493,6 +496,8 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
             p['formulation_id'] = fid
             p['is_reconciled'] = True
             p['has_material_conflict'] = has_material_conflict
+            if assessment.get('first_ingredient') and not p.get('first_ingredient'):
+                p['first_ingredient'] = assessment['first_ingredient']
             if assessment.get('has_sugar') is not None:
                 p['has_sugar'] = assessment['has_sugar']
             if assessment.get('has_grains') is not None:

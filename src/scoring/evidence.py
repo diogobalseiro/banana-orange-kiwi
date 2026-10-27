@@ -116,12 +116,48 @@ def validate_composition(composition_text):
     if clean.startswith('Caraterísticas') or clean.startswith('Descrição:'):
         return {'status': FieldStatus.INVALID, 'text': clean, 'reason': 'marketing_description_extracted_as_composition'}
 
-    # Minimum semantic check: composition should contain some ingredient terms
-    common_markers = ['carne', 'peixe', 'subprodutos', 'frango', 'vitela', 'peru', 'salmão', 'cereais', 'água', 'caldo']
-    if not any(k in clean.lower() for k in common_markers) and len(clean) < 15:
-        return {'status': FieldStatus.INVALID, 'text': clean, 'reason': 'unrecognized_composition_structure'}
+    # Minimum semantic check: composition should contain some recognized ingredient terms
+    common_markers = [
+        'carne', 'peixe', 'subproduto', 'derivado', 'ave', 'aves', 'frango', 'vitela', 'vaca', 'peru', 
+        'salmão', 'salmao', 'atum', 'pato', 'borrego', 'coelho', 'javali', 'cereais', 
+        'arroz', 'trigo', 'milho', 'ervilha', 'água', 'agua', 'caldo', 'levedura', 
+        'mineral', 'minerais', 'óleo', 'oleo', 'gordura', 'vegeta', 'legume', 'extrato',
+        'proteína', 'proteina', 'ingrediente'
+    ]
+    if not any(k in clean.lower() for k in common_markers):
+        return {'status': FieldStatus.INVALID, 'text': clean, 'reason': 'no_ingredient_terms_found'}
+
+    if len(clean) < 15 and not any(p in clean for p in ['%', '(', ',']):
+        return {'status': FieldStatus.INVALID, 'text': clean, 'reason': 'composition_too_short'}
 
     return {'status': FieldStatus.VALID, 'text': clean, 'reason': None}
+
+def extract_first_ingredient(text):
+    """
+    Extracts the clean first ingredient from composition text, stripping
+    introductory headers and respecting parenthetical nesting.
+    """
+    if not text or not isinstance(text, str):
+        return None
+    # Strip everything up to ingredientes: or composição:
+    clean = re.sub(r'^.*?(?:ingredientes|composição)\s*[:\-]?\s*', '', text, flags=re.I).strip()
+    # Strip optional flavor prefix like "com frango:" or "variedade frango:"
+    clean = re.sub(r'^(?:com|variedade(?:\s+de)?)\s+[a-zá-ú\s]+:\s*', '', clean, flags=re.I).strip()
+    
+    # Split on first comma/semicolon outside parentheses
+    depth = 0
+    first_part = []
+    for char in clean:
+        if char == '(':
+            depth += 1
+        elif char == ')':
+            depth = max(0, depth - 1)
+        elif char in [',', ';'] and depth == 0:
+            break
+        first_part.append(char)
+    res = "".join(first_part).strip()
+    res = re.sub(r'[:\-]+$', '', res).strip()
+    return res if res else None
 
 def normalize_nutrients(raw_text, category='wet'):
     """
