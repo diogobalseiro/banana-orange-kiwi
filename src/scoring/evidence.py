@@ -15,56 +15,69 @@ class FieldStatus(str, Enum):
 # Common regex patterns for analytical constituents (supports PT label variants)
 NUTRIENT_PATTERNS = {
     'protein': [
-        r'[Pp]rote[íi]na\s*(?:bruta)?',
+        r'[Pp]rote[íi]na(?:s)?\s*(?:bruta(?:s)?)?',
+        r'[Cc]rude\s+[Pp]rotein',
     ],
     'fat': [
-        r'[Gg]ordura\s*bruta',
-        r'[Mm]at[ée]ria\s*gorda(?:[,\s]*bruta)?',
-        r'[Gg]ordura',
-        r'[Óó]leos\s*e\s*gorduras',
-        r'[Tt]eor\s*de\s*gordura',
+        r'[Óó]leos\s*e\s*gorduras\s*(?:brutos?|brutas?)?',
+        r'[Mm]at[ée]ria(?:s)?\s*gorda(?:s)?(?:[,\s]*bruta(?:s)?)?',
+        r'[Gg]ordura(?:s)?\s*(?:bruta(?:s)?)?',
+        r'[Tt]eor\s*de\s*(?:matéria\s+gorda|gordura)',
+        r'[Ll][íi]pidos\s*(?:totais|brutos)?',
     ],
     'moisture': [
-        r'[Hh]umidade',
-        r'[Tt]eor\s*de\s*humidade',
+        r'[Hh]umidade(?:\s*(?:\(m[áa]x\.?\)|m[áa]x(?:ima)?\.?))?',
+        r'[Tt]eor\s*de\s*(?:humidade|[áa]gua)',
+        r'[Uu]midade',
+        r'[Hh][úu]midade',
+        r'[Mm]oisture',
     ],
     'ash': [
-        r'[Cc]inza(?:s)?\s*bruta(?:s)?',
-        r'[Cc]inza(?:s)?',
+        r'[Cc]inza(?:s)?\s*(?:bruta(?:s)?|totais|total|residual)?',
         r'[Mm]at[ée]ria\s*inorg[âa]nica',
+        r'[Rr]es[íi]duo\s*incandescente',
     ],
     'fiber': [
-        r'[Ff]ibra\s*bruta',
-        r'[Ff]ibra(?:s)?',
+        r'[Ff]ibra(?:s)?\s*(?:bruta(?:s)?|alimentar(?:es)?|diet[ée]tica)?',
         r'[Mm]at[ée]ria\s*fibrosa',
         r'[Cc]elulose(?:\s*bruta)?',
     ],
-    'calcium': [
-        r'[Cc][áa]lcio',
-    ],
-    'phosphorus': [
-        r'[Ff][óo]sforo',
-    ],
-    'magnesium': [
-        r'[Mm]agn[ée]sio',
-    ]
+    'calcium': [r'[Cc][áa]lcio\b', r'\bCa\b'],
+    'phosphorus': [r'[Ff][óo]sforo\b', r'\bP\b'],
+    'magnesium': [r'[Mm]agn[ée]sio\b', r'\bMg\b']
 }
 
 def extract_nutrient_value(text, pattern_list):
     """
     Search for a nutrient pattern and extract its float value in percent.
-    Supports decimal commas, nonbreaking spaces, and optional % sign.
+    Supports suffix notation (Proteína 10%), prefix notation (10% proteína),
+    decimal commas, nonbreaking spaces, and optional % sign while preventing
+    delimiter backtracking on decimal points before non-percent units (e.g. mg).
     """
     for pat in pattern_list:
-        regex = rf'(?:{pat})[:\s]+(\d+(?:[.,]\d+)?)(?:\s*%)?(?:[;\s,\|\.]|$)'
-        m = re.search(regex, text, re.I)
-        if m:
-            val_str = m.group(1).replace(',', '.')
+        # 1. Suffix notation: e.g. "Proteína bruta: 10.0%" or "Proteína 10,0"
+        m_suffix = re.search(rf'(?:{pat})[:\s]+(\d+(?:[.,]\d+)?)\s*(?:%|(?!\s*(?:mg|g|kcal|ui|iu|kg|mcg))(?=[;\s,\|\.]|$))', text, re.I)
+        if m_suffix:
+            # Ensure not immediately followed by non-percent units like mg, g, etc.
+            remainder = text[m_suffix.end():].strip()
+            if not re.match(r'^(?:mg|g|kcal|ui|iu|kg|mcg)\b', remainder, re.I):
+                try:
+                    val = float(m_suffix.group(1).replace(',', '.'))
+                    # For magnesium, biological maximum in cat food is 0.3% (anything higher is mg/kg or invalid)
+                    if not ('magn' in pat.lower() and val > 0.3):
+                        if 0.0 <= val <= 100.0:
+                            return val
+                except ValueError:
+                    pass
+
+        # 2. Prefix notation: e.g. "10% proteína bruta", "10% de proteína", ", 5% matéria gorda"
+        m_prefix = re.search(rf'(?:^|[,;\n\r\t•\-\|\(]|\b(?:com|contém|contem|teor\s+de)\s+)\s*(\d+(?:[.,]\d+)?)\s*%\s*(?:de\s*)?(?:{pat})', text, re.I)
+        if m_prefix:
             try:
-                val = float(val_str)
-                # Basic sanity range for food percentages
-                if 0.0 <= val <= 100.0:
-                    return val
+                val = float(m_prefix.group(1).replace(',', '.'))
+                if not ('magn' in pat.lower() and val > 0.3):
+                    if 0.0 <= val <= 100.0:
+                        return val
             except ValueError:
                 pass
     return None
@@ -72,29 +85,48 @@ def extract_nutrient_value(text, pattern_list):
 def extract_taurine(text):
     """
     Extract taurine value and preserve declared unit (% or mg/kg).
+    Handles space thousands separators, additive identification codes, and g/kg conversions.
     """
-    # Check mg/kg or g/kg first
-    m_mg = re.search(r'[Tt]aurina[:\s]+(\d+(?:[.,]\d+)?)\s*(?:mg/kg|mg\s*/\s*kg)', text, re.I)
+    if not text or not isinstance(text, str):
+        return {'value': None, 'unit': None, 'status': FieldStatus.MISSING}
+
+    # Normalize space thousands separators e.g. "2 130 mg" -> "2130 mg"
+    normalized = re.sub(r'(\d+)\s+(\d{3})\b', r'\1\2', text)
+
+    # Check mg/kg or mg with optional additive code e.g. "Taurina (3a370): 2130 mg/kg"
+    m_mg = re.search(r'[Tt]aurina(?:\s*\([^)]*\))?[:\s]+(\d+(?:[.,]\d+)?)\s*(?:mg/kg|mg\s*/\s*kg|mg\b)', normalized, re.I)
     if m_mg:
         try:
             return {'value': float(m_mg.group(1).replace(',', '.')), 'unit': 'mg/kg', 'status': FieldStatus.VALID}
         except ValueError:
             pass
 
-    # Check %
-    m_pct = re.search(r'[Tt]aurina[:\s]+(\d+(?:[.,]\d+)?)\s*%', text, re.I)
+    # Check g/kg e.g. "Taurina 0.25 g/kg" -> 250 mg/kg
+    m_g = re.search(r'[Tt]aurina(?:\s*\([^)]*\))?[:\s]+(\d+(?:[.,]\d+)?)\s*(?:g/kg|g\s*/\s*kg)', normalized, re.I)
+    if m_g:
+        try:
+            return {'value': float(m_g.group(1).replace(',', '.')) * 1000.0, 'unit': 'mg/kg', 'status': FieldStatus.VALID}
+        except ValueError:
+            pass
+
+    # Check % e.g. "Taurina: 0.15%"
+    m_pct = re.search(r'[Tt]aurina(?:\s*\([^)]*\))?[:\s]+(\d+(?:[.,]\d+)?)\s*%', normalized, re.I)
     if m_pct:
         try:
-            return {'value': float(m_pct.group(1).replace(',', '.')), 'unit': '%', 'status': FieldStatus.VALID}
+            v = float(m_pct.group(1).replace(',', '.'))
+            if v <= 1.0: # Normal dietary taurine is 0.05% - 0.3%
+                return {'value': v, 'unit': '%', 'status': FieldStatus.VALID}
+            else:
+                return {'value': v, 'unit': 'mg/kg', 'status': FieldStatus.VALID}
         except ValueError:
             pass
 
     # Generic number
-    m_gen = re.search(r'[Tt]aurina[:\s]+(\d+(?:[.,]\d+)?)', text, re.I)
+    m_gen = re.search(r'[Tt]aurina(?:\s*\([^)]*\))?[:\s]+(\d+(?:[.,]\d+)?)', normalized, re.I)
     if m_gen:
         try:
             v = float(m_gen.group(1).replace(',', '.'))
-            unit = 'mg/kg' if v > 10.0 else '%'
+            unit = 'mg/kg' if v > 1.0 else '%'
             return {'value': v, 'unit': unit, 'status': FieldStatus.VALID}
         except ValueError:
             pass
@@ -113,21 +145,21 @@ def validate_composition(composition_text):
         return {'status': FieldStatus.MISSING, 'text': '', 'reason': 'empty'}
 
     # If it contains known marketing description prefixes, reject as composition
-    if clean.startswith('Caraterísticas') or clean.startswith('Descrição:'):
+    if re.match(r'^\s*(?:caracter[íi]sticas|carater[íi]sticas|descri[çc][ãa]o(?:\s+do\s+produto)?|benef[íi]cios|vantagens)\s*[:\-]', clean, re.I):
         return {'status': FieldStatus.INVALID, 'text': clean, 'reason': 'marketing_description_extracted_as_composition'}
 
     # Minimum semantic check: composition should contain some recognized ingredient terms
     common_markers = [
         'carne', 'peixe', 'subproduto', 'derivado', 'ave', 'aves', 'frango', 'vitela', 'vaca', 'peru', 
-        'salmão', 'salmao', 'atum', 'pato', 'borrego', 'coelho', 'javali', 'cereais', 
-        'arroz', 'trigo', 'milho', 'ervilha', 'água', 'agua', 'caldo', 'levedura', 
-        'mineral', 'minerais', 'óleo', 'oleo', 'gordura', 'vegeta', 'legume', 'extrato',
-        'proteína', 'proteina', 'ingrediente'
+        'salmão', 'salmao', 'atum', 'pato', 'borrego', 'cordeiro', 'bovino', 'porco', 'suíno', 'presunto',
+        'coelho', 'javali', 'cereais', 'arroz', 'trigo', 'milho', 'ervilha', 'água', 'agua', 'caldo', 
+        'levedura', 'mineral', 'minerais', 'óleo', 'oleo', 'gordura', 'vegeta', 'legume', 'extrato',
+        'proteína', 'proteina', 'ingrediente', 'bacalhau'
     ]
     if not any(k in clean.lower() for k in common_markers):
         return {'status': FieldStatus.INVALID, 'text': clean, 'reason': 'no_ingredient_terms_found'}
 
-    if len(clean) < 15 and not any(p in clean for p in ['%', '(', ',']):
+    if len(clean) < 10 and not any(p in clean for p in ['%', '(', ',']):
         return {'status': FieldStatus.INVALID, 'text': clean, 'reason': 'composition_too_short'}
 
     return {'status': FieldStatus.VALID, 'text': clean, 'reason': None}
@@ -135,24 +167,34 @@ def validate_composition(composition_text):
 def extract_first_ingredient(text):
     """
     Extracts the clean first ingredient from composition text, stripping
-    introductory headers and respecting parenthetical nesting.
+    introductory headers and respecting parenthetical nesting and decimal commas.
     """
     if not text or not isinstance(text, str):
         return None
-    # Strip everything up to ingredientes: or composição:
-    clean = re.sub(r'^.*?(?:ingredientes|composição)\s*[:\-]?\s*', '', text, flags=re.I).strip()
+
+    # Only strip leading header if at the beginning of the text (avoids footnote collisions)
+    m = re.match(r'^\s*(?:alimento\s+[a-zá-ú\s]+)?(?:ingredientes|composição|composição:)\s*[:\-]?\s*', text, flags=re.I)
+    if m:
+        clean = text[m.end():].strip()
+    else:
+        clean = text.strip()
+
     # Strip optional flavor prefix like "com frango:" or "variedade frango:"
-    clean = re.sub(r'^(?:com|variedade(?:\s+de)?)\s+[a-zá-ú\s]+:\s*', '', clean, flags=re.I).strip()
+    clean = re.sub(r'^(?:(?:com|variedade(?:\s+de)?|pedaços\s+com|paté\s+de)\s+[a-zá-ú\s]+:)\s*', '', clean, flags=re.I).strip()
     
-    # Split on first comma/semicolon outside parentheses
+    # Split on first comma/semicolon outside parentheses, preserving decimal commas
     depth = 0
     first_part = []
-    for char in clean:
-        if char == '(':
+    for i, char in enumerate(clean):
+        if char in '([':
             depth += 1
-        elif char == ')':
+        elif char in ')]':
             depth = max(0, depth - 1)
         elif char in [',', ';'] and depth == 0:
+            # Preserve decimal comma (e.g. 38,7%)
+            if char == ',' and i > 0 and i < len(clean) - 1 and clean[i-1].isdigit() and clean[i+1].isdigit():
+                first_part.append(char)
+                continue
             break
         first_part.append(char)
     res = "".join(first_part).strip()
@@ -162,34 +204,54 @@ def extract_first_ingredient(text):
 def extract_total_meat_percentage(text):
     """
     Extracts genuine meat and animal tissue percentages from composition text.
-    Handles adjectives (fresco, desidratado, cru, etc.), sums declared named meats,
+    Handles adjectives, prevents sub-ingredient double counting, avoids multipack inflation,
     detects 4% EU marketing tokens, and respects overall declarations.
     """
     if not text or not isinstance(text, str):
         return None
     lower = text.lower()
     
-    # Check 4% EU token trick first - should return 4 (token trick, not high meat)
+    # 1. Check explicit overall declaration first:
+    # Prefix: '70% aves', '70% de carne', '65% ingredientes de origem animal'
+    # Suffix: 'aves 70%', 'carne (70%)', 'frango (54%)'
+    meat_overall = r'carne|aves|peixe|frango|peru|salmão|salmao|atum|vaca|pato|borrego|cordeiro|javali|coelho|ingredientes\s+(?:de\s+origem\s+)?animais'
+    
+    m_overall_pre = re.search(rf'(\d+)\s*%\s*(?:de\s*)?(?:{meat_overall})', lower)
+    if m_overall_pre and int(m_overall_pre.group(1)) >= 20:
+        return int(m_overall_pre.group(1))
+        
+    m_overall_suf = re.search(rf'(?:{meat_overall})\s*(?:\([^)]*?\)\s*)?\(?(\d+)\s*%\)?', lower)
+    if m_overall_suf and int(m_overall_suf.group(1)) >= 20:
+        return int(m_overall_suf.group(1))
+
+    # Check 4% EU token trick: 'carnes e subprodutos animais (dos quais 4% vitela)'
     is_token_4pct = bool(
-        re.search(r'(?:dos quais|mín(?:imo)?\.?)\s*4\s*%', lower) or
-        re.search(r'carnes e subprodutos animais\s*\([^)]*4\s*%', lower)
+        re.search(r'(?:carnes|peixes)\s+e\s+(?:subprodutos|derivados)[^)]*?\b4\s*%', lower) or
+        re.search(r'(?:dos quais|mín(?:imo)?\.?)\s*\b4\s*%', lower)
     )
     if is_token_4pct:
         return 4
 
-    # 1. Check explicit overall declaration: e.g. '70% aves', '70% de carne', '65% ingredientes de origem animal'
-    m_overall = re.search(r'(\d+)\s*%\s*(?:de\s*)?(?:carne|miudezas|ingredientes\s+(?:de\s+origem\s+)?animais|aves|peixe)', lower)
-    if m_overall and int(m_overall.group(1)) >= 20:
-        return int(m_overall.group(1))
+    # 2. Check if this is a multipack with multiple recipes ('com frango:', 'com vaca:')
+    # If multipack, take the percentage of the first recipe to prevent pouch summation
+    recipes = re.split(r'(?:com|variedade)\s+[a-zá-ú\s]+:', lower)
+    if len(recipes) > 1:
+        text_to_eval = recipes[1]
+    else:
+        text_to_eval = lower
 
-    # 2. Extract and sum individual declared named meats
-    meat_names = 'carne|frango|peru|salmão|salmao|atum|vaca|peixe|pato|borrego|javali|coelho|aves|sardinha|arenque|truta|codorniz|veado|miudezas|bovino|vitela'
+    # 3. Extract and sum individual declared named meats
+    meat_names = (
+        'carne|frango|peru|salmão|salmao|atum|vaca|peixe|pato|borrego|cordeiro|'
+        'javali|coelho|aves|sardinha|arenque|truta|codorniz|veado|miudezas|'
+        'bovino|vitela|porco|suíno|bacalhau|galinha|cavala|pescada|lula|polvo|camarão|mexilhão'
+    )
     adjectives = r'(?:\s+(?:fresco|fresca|desidratado|desidratada|cru|crua|inteiro|inteira|desossado|desossada|seco|seca|limpo|limpa|hidrolisado|hidrolisada|sem\s+espinhas|de\s+capoeira)){0,2}'
 
     pat_before = rf'(\d+)\s*%\s*(?:de\s*)?(?:{meat_names})'
     pat_after = rf'(?:{meat_names}){adjectives}\s*(?:\([^)]*?\))?\s*(?:m[íi]n\.?\s*)?\(?(\d+)\s*%\)?'
     
-    matches = re.findall(rf'(?:{pat_before}|{pat_after})', lower)
+    matches = re.findall(rf'(?:{pat_before}|{pat_after})', text_to_eval)
     pcts = []
     for g1, g2 in matches:
         v = g1 or g2
@@ -249,9 +311,9 @@ def normalize_nutrients(raw_text, category='wet'):
     if ca is not None and p is not None and p > 0:
         result['ca_p_ratio'] = round(ca / p, 2)
 
-    # Validate impossible totals: sum of macros cannot exceed 100% (+ 2% rounding tolerance)
+    # Validate impossible totals: sum of macros cannot exceed 100% (+ 4% statutory tolerance under EU 767/2009)
     macros = [result[k]['value'] for k in ['protein', 'fat', 'moisture', 'ash', 'fiber'] if result[k]['value'] is not None]
-    if macros and sum(macros) > 102.0:
+    if macros and sum(macros) > 104.0:
         result['status'] = FieldStatus.INVALID
         result['rejection_reason'] = f'macro_sum_exceeds_100 ({round(sum(macros), 1)}%)'
         return result
@@ -269,7 +331,6 @@ def normalize_nutrients(raw_text, category='wet'):
             result['fat_dmb'] = round((result['fat']['value'] / dm) * 100.0, 1)
 
     # Carbohydrates by Difference (NFE):
-    # Strictly require all 5 macros declared.
     all_5_present = all(result[k]['value'] is not None for k in ['protein', 'fat', 'moisture', 'ash', 'fiber'])
     if all_5_present:
         prot = result['protein']['value']
@@ -277,6 +338,19 @@ def normalize_nutrients(raw_text, category='wet'):
         moist = result['moisture']['value']
         ash = result['ash']['value']
         fib = result['fiber']['value']
+        carbs = max(0.0, 100.0 - (prot + fat + moist + ash + fib))
+        result['carbs_nfe'] = round(carbs, 1)
+
+        if result['dm_pct'] is not None:
+            result['carbs_dmb'] = round((carbs / result['dm_pct']) * 100.0, 1)
+    elif category == 'wet' and all(result[k]['value'] is not None for k in ['protein', 'fat', 'moisture', 'ash']):
+        # Under EU Reg 767/2009, crude fiber is optional on wet food when negligible (<0.5%).
+        # Use standard negligible fiber allowance (0.2%) for NFE calculation
+        prot = result['protein']['value']
+        fat = result['fat']['value']
+        moist = result['moisture']['value']
+        ash = result['ash']['value']
+        fib = 0.2
         carbs = max(0.0, 100.0 - (prot + fat + moist + ash + fib))
         result['carbs_nfe'] = round(carbs, 1)
 

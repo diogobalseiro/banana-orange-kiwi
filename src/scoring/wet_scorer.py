@@ -15,13 +15,14 @@ def get_wet_carb_band(carbs_dmb):
         return '>20% DMB (Elevado)'
 
 def score_wet_product(p):
-    name = p.get('name', '')
-    brand = p.get('brand', '')
-    desc = p.get('description', '')
-    ingr = p.get('ingredients', '')
-    nutri_raw = p.get('nutrition_raw', '')
+    name = p.get('name') or ''
+    brand = p.get('brand') or ''
+    desc = p.get('description') or ''
+    ingr = p.get('ingredients') or ''
+    nutri_raw = p.get('nutrition_raw') or ''
 
     text_to_check = f"{name} {desc} {ingr} {nutri_raw}".lower()
+    title_desc = f"{name} {desc}".lower()
     brand_lower = brand.lower()
     name_lower = name.lower()
 
@@ -31,18 +32,24 @@ def score_wet_product(p):
         return None, None
 
     # 1. Classification: Complete vs Complementary
+    # Broth/soup/fillets indicate complementary food when in title/description, NOT when in ingredients (cooking broth)
     is_complementary = False
-    comp_keywords = [
-        'complementar', 'alimento complementar', 'complemento alimentar',
-        'snack', 'petisco', 'treat', 'sopa', 'soup', 'caldo', 'broth',
+    title_comp_keywords = [
+        'sopa', 'soup', 'caldo', 'broth',
         'hydra care', 'shinycat', 'suplemento', 'iogurte', 'leite para gato', 'cat milk',
-        'fillets', 'filetes'
+        'fillets', 'filetes', 'snack', 'petisco', 'treat'
     ]
-    if any(k in text_to_check for k in comp_keywords):
-        if 'alimento completo' not in text_to_check and '100% completa' not in text_to_check:
+    general_comp_keywords = [
+        'complementar', 'alimento complementar', 'complemento alimentar'
+    ]
+
+    is_complete_declared = bool(re.search(r'\b(?:alimento\s+complet[oa]|100%\s*complet[oa]|complete\s+pet\s+food)\b', text_to_check, re.I))
+
+    if any(k in text_to_check for k in general_comp_keywords) or any(k in title_desc for k in title_comp_keywords):
+        if not is_complete_declared:
             is_complementary = True
     elif any(b in brand_lower for b in ['schesir', 'ciao', 'churu', 'applaws', 'fish4cats', 'inaba', 'thrive', 'encore', 'cosma']):
-        if 'alimento completo' not in text_to_check and '100% completa' not in text_to_check:
+        if not is_complete_declared:
             is_complementary = True
 
     if is_complementary or p.get('classification') in ['Complementar', 'complementary']:
@@ -83,7 +90,11 @@ def score_wet_product(p):
         if first_ingr:
             first_lower = first_ingr.lower()
 
-            animal_terms = ['frango', 'salmão', 'salmao', 'peru', 'vaca', 'carne', 'peixe', 'atum', 'borrego', 'aves', 'pato', 'coelho', 'javali', 'sardinha', 'arenque', 'truta', 'veado']
+            animal_terms = [
+                'frango', 'salmão', 'salmao', 'peru', 'vaca', 'carne', 'peixe', 'atum', 'borrego', 'aves', 'pato',
+                'coelho', 'javali', 'sardinha', 'arenque', 'truta', 'veado', 'cordeiro', 'vitela', 'bovino', 'porco',
+                'suíno', 'bacalhau', 'galinha', 'cavala', 'pescada', 'anchova', 'codorniz', 'caça', 'cervo', 'ovo', 'ovos'
+            ]
             fresh_terms = ['fresco', 'fresca', 'desossado', 'desossada', 'frescos', 'frescas', 'cru', 'crua', 'crus', 'cruas', 'filete', 'filetes', 'lombo', 'peito']
             plant_terms = ['milho', 'trigo', 'cereais', 'arroz', 'ervilha', 'batata', 'farinha', 'glúten', 'proteína vegetal', 'cevada']
 
@@ -114,7 +125,10 @@ def score_wet_product(p):
 
         # Detrimental additives
         has_sugar = any(s in ingr_lower for s in ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope', 'dextrose', 'melaço'])
-        has_grains = any(g in ingr_lower for g in ['cereais', 'trigo', 'milho', 'arroz', 'farinha de trigo', 'farinha de milho'])
+        if has_sugar and any(neg in ingr_lower for neg in ['sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'nao contem acucar']):
+            has_sugar = False
+
+        has_grains = any(g in ingr_lower for g in ['cereais', 'trigo', 'milho', 'arroz', 'farinha de trigo', 'farinha de milho', 'aveia', 'cevada', 'centeio', 'sorgo'])
         has_veg_protein = any(v in ingr_lower for v in [
             'subprodutos de origem vegetal',
             'subprodutos vegetais',
@@ -124,13 +138,13 @@ def score_wet_product(p):
             'extratos de proteínas vegetais',
             'concentrado de proteína vegetal'
         ])
-        has_vague_byproducts = ('carnes e subprodutos' in ingr_lower or 'carne e subprodutos' in ingr_lower or 'subprodutos animais' in ingr_lower) and not high_meat_pct and not is_token_4pct
+        has_vague_byproducts = ('carnes e subprodutos' in ingr_lower or 'carne e subprodutos' in ingr_lower or 'subprodutos animais' in ingr_lower) and (not high_meat_pct or high_meat_pct < 50) and not is_token_4pct
         has_carrageenan = any(c in ingr_lower for c in ['carragenina', 'carragenano', 'carrageenan', 'e407'])
         has_gums = any(g in ingr_lower for g in ['goma cássia', 'goma cassia', 'cassia gum', 'e499'])
 
     # Beneficial micronutrients
     has_taurine = any(t in text_to_check for t in ['taurina', 'taurine'])
-    has_marine_omega = any(o in text_to_check for o in ['óleo de salmão', 'oleo de salmao', 'óleo de peixe', 'oleo de peixe', 'salmon oil', 'fish oil', 'dha', 'epa'])
+    has_marine_omega = bool(re.search(r'\b(?:epa|dha)\b', text_to_check, re.I)) or any(o in text_to_check for o in ['óleo de salmão', 'oleo de salmao', 'óleo de peixe', 'oleo de peixe', 'ómega-3', 'omega-3', 'salmon oil', 'fish oil'])
 
     # 3. Parse Analytical Components using Evidence Contract
     nutri = normalize_nutrients(nutri_raw, category='wet')
@@ -147,6 +161,10 @@ def score_wet_product(p):
     val_ratio = None
     cb = get_wet_carb_band(nutri.get('carbs_dmb'))
     pkg = p.get('unit_price_kg')
+    try:
+        pkg = float(pkg) if pkg is not None else None
+    except (ValueError, TypeError):
+        pkg = None
 
     if is_ready:
         score = 50
@@ -195,7 +213,7 @@ def score_wet_product(p):
 
         # 4. Analytical Macronutrients
         prot_dmb = nutri.get('protein_dmb')
-        if prot_dmb:
+        if prot_dmb is not None:
             target_high_prot = 50.0 if is_kitten else 55.0
             if prot_dmb >= target_high_prot:
                 score += 12
@@ -210,7 +228,7 @@ def score_wet_product(p):
                 score += 10
             elif carbs_dmb <= 20.0:
                 score += 3
-            elif carbs_dmb > 22.0:
+            else:
                 score -= 12
 
         score = max(10, min(95, score))
@@ -287,6 +305,6 @@ def score_wet_product(p):
         'r': retailer,
         'fid': p.get('formulation_id'),
         'rec': p.get('is_reconciled', False),
-        'conf': p.get('has_conflicts', False)
+        'conf': p.get('has_material_conflict', False)
     }
     return p, minified

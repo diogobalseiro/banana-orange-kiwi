@@ -1731,11 +1731,7 @@
       "composition_source": "Purenatural official packaging declaration",
       "nutrition_source": "Purenatural official packaging declaration"
     },
-    "retailer_matches": {
-      "zu": [
-        "8872236"
-      ]
-    }
+    "retailer_matches": {}
   },
   "purenatural_cat_sterilised_chicken_dry": {
     "description": "Purenatural Cat Sterilised Frango",
@@ -12220,9 +12216,7 @@
     "verified_date": "2026-10-27",
     "source": "Purina official declaration",
     "aliases": [
-      "adult terrine",
-      "junior 8 x 85 g",
-      "cat sterilized"
+      "adult terrine"
     ],
     "verified": {
       "classification": "complete",

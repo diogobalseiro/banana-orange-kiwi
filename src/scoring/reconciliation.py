@@ -157,11 +157,17 @@ def detect_material_conflict(retailer_obs: Dict[str, Any], verified: Dict[str, A
     Detects whether there is a genuine material conflict between retailer observation
     and verified formulation (e.g. contradictory grains, sugar, or macros).
     """
+    from .evidence import normalize_nutrients
     reasons = []
     
     r_class = (retailer_obs.get('classification') or '').lower()
     v_class = (verified.get('classification') or '').lower()
-    if ('complementar' in r_class and 'complete' in v_class) or ('completo' in r_class and 'complementary' in v_class):
+    r_is_comp = any(k in r_class for k in ['complementar', 'complementary'])
+    v_is_comp = any(k in v_class for k in ['complementar', 'complementary'])
+    r_is_complete = any(k in r_class for k in ['completo', 'complete'])
+    v_is_complete = any(k in v_class for k in ['completo', 'complete'])
+
+    if (r_is_comp and v_is_complete) or (r_is_complete and v_is_comp):
         reasons.append("Contradictory classification (complete vs complementary)")
 
     r_ingr = (retailer_obs.get('ingredients') or '').lower()
@@ -169,20 +175,21 @@ def detect_material_conflict(retailer_obs: Dict[str, Any], verified: Dict[str, A
 
     if r_ingr and v_ingr:
         sugar_terms = ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope']
-        r_sugar = any(s in r_ingr for s in sugar_terms)
-        v_sugar = any(s in v_ingr for s in sugar_terms)
-        if (r_sugar and not v_sugar) or (v_sugar and 'sem açúcar' in r_ingr):
+        neg_terms = ['sem açúcar', 'sem acucar', 'não contém açúcar', 'nao contem acucar', 'isento de açúcar']
+        r_sugar = any(s in r_ingr for s in sugar_terms) and not any(neg in r_ingr for neg in neg_terms)
+        v_sugar = any(s in v_ingr for s in sugar_terms) and not any(neg in v_ingr for neg in neg_terms)
+        if r_sugar != v_sugar:
             reasons.append("Contradictory sugar declaration")
 
     r_nutri = retailer_obs.get('nutrition_raw') or ''
     v_nutri = verified.get('nutrition_raw') or ''
     if r_nutri and v_nutri:
-        m_r_prot = re.search(r'[Pp]rote[íi]na[:\s]+(\d+(?:[.,]\d+)?)', r_nutri)
-        m_v_prot = re.search(r'[Pp]rote[íi]na[:\s]+(\d+(?:[.,]\d+)?)', v_nutri)
-        if m_r_prot and m_v_prot:
-            p_r = float(m_r_prot.group(1).replace(',', '.'))
-            p_v = float(m_v_prot.group(1).replace(',', '.'))
-            if abs(p_r - p_v) > 3.0:
+        r_norm = normalize_nutrients(r_nutri)
+        v_norm = normalize_nutrients(v_nutri)
+        p_r = r_norm.get('protein', {}).get('value')
+        p_v = v_norm.get('protein', {}).get('value')
+        if p_r is not None and p_v is not None:
+            if abs(p_r - p_v) > 4.0:
                 reasons.append(f"Material protein divergence ({p_r}% vs {p_v}%)")
 
     is_material = len(reasons) > 0
@@ -406,14 +413,19 @@ def calculate_shared_score_for_formulation(formulation_id: str,
         'unranked_reasons': full.get('unranked_reasons', []),
         'has_conflicts': False,
         'first_ingredient': full.get('first_ingredient'),
+        'meat_pct': full.get('meat_pct') if f_cat == 'dry' else full.get('high_meat_pct'),
+        'is_grain_free': full.get('is_grain_free'),
         'has_sugar': full.get('has_sugar'),
         'has_grains': full.get('has_grains'),
         'has_veg_protein': full.get('has_veg_protein'),
         'has_organs': full.get('has_organs'),
         'has_carrageenan': full.get('has_carrageenan'),
         'has_taurine': full.get('has_taurine'),
+        'has_marine_omega': full.get('has_marine_omega'),
         'carb_band': full.get('carb_band'),
-        'carbs': full.get('nutrition_parsed', {}).get('carbs_dmb' if f_cat == 'wet' else 'carbs_nfe')
+        'carbs': full.get('carbs') if f_cat == 'dry' else full.get('nutrition_parsed', {}).get('carbs_dmb'),
+        'protein': full.get('protein'),
+        'fat': full.get('fat')
     }
 
 
@@ -456,7 +468,7 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
             continue
             
         assessment = shared_scores[fid]
-        has_material_conflict = p.get('has_material_conflict', False) or p.get('conf', False) or assessment.get('has_conflicts', False)
+        has_material_conflict = bool(p.get('has_material_conflict', False) or assessment.get('has_conflicts', False))
         
         unit_price = p.get('unit_price_kg') or p.get('pkg')
         score = assessment['score'] if not has_material_conflict else None
@@ -479,10 +491,26 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
             p['conf'] = has_material_conflict
             if assessment.get('first_ingredient') and (not p.get('fi') or p.get('fi') == 'N/D'):
                 p['fi'] = assessment['first_ingredient']
+            if assessment.get('meat_pct') is not None:
+                p['meat_pct'] = assessment['meat_pct']
+            if assessment.get('is_grain_free') is not None:
+                p['gf'] = assessment['is_grain_free']
             if assessment.get('has_sugar') is not None:
                 p['sug'] = assessment['has_sugar']
             if assessment.get('has_grains') is not None:
                 p['grn'] = assessment['has_grains']
+            if assessment.get('has_veg_protein') is not None:
+                p['veg'] = assessment['has_veg_protein']
+            if assessment.get('has_organs') is not None:
+                p['org'] = assessment['has_organs']
+            if assessment.get('has_taurine') is not None:
+                p['tau'] = assessment['has_taurine']
+            if assessment.get('has_marine_omega') is not None:
+                p['omg'] = assessment['has_marine_omega']
+            if assessment.get('protein') is not None:
+                p['prot'] = assessment['protein']
+            if assessment.get('fat') is not None:
+                p['fat'] = assessment['fat']
             if assessment.get('carb_band'):
                 p['cb'] = assessment['carb_band']
             if assessment.get('carbs') is not None:
@@ -498,12 +526,26 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
             p['has_material_conflict'] = has_material_conflict
             if assessment.get('first_ingredient') and not p.get('first_ingredient'):
                 p['first_ingredient'] = assessment['first_ingredient']
+            if assessment.get('meat_pct') is not None:
+                p['meat_pct'] = assessment['meat_pct']
+            if assessment.get('is_grain_free') is not None:
+                p['is_grain_free'] = assessment['is_grain_free']
             if assessment.get('has_sugar') is not None:
                 p['has_sugar'] = assessment['has_sugar']
             if assessment.get('has_grains') is not None:
                 p['has_grains'] = assessment['has_grains']
+            if assessment.get('has_veg_protein') is not None:
+                p['has_veg_protein'] = assessment['has_veg_protein']
+            if assessment.get('has_organs') is not None:
+                p['has_organs'] = assessment['has_organs']
+            if assessment.get('protein') is not None:
+                p['protein'] = assessment['protein']
+            if assessment.get('fat') is not None:
+                p['fat'] = assessment['fat']
             if assessment.get('carb_band'):
                 p['carb_band'] = assessment['carb_band']
+            if assessment.get('carbs') is not None:
+                p['carbs'] = assessment['carbs']
             p['shared_assessment'] = {
                 'formulation_id': fid,
                 'source': 'verified_shared_formulation',

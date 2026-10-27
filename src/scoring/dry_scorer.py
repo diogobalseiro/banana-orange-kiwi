@@ -7,21 +7,21 @@ def parse_dry_nutrition(nutri_text):
 def get_dry_carb_band(carbs):
     if carbs is None:
         return 'N/D'
-    if carbs < 22.0:
-        return '<22% (Baixo)'
-    elif carbs <= 32.0:
-        return '22-32% (Moderado)'
-    elif carbs <= 40.0:
-        return '32-40% (Elevado)'
+    if carbs <= 15.0:
+        return '<=15% (Baixo / Ideal)'
+    elif carbs <= 25.0:
+        return '15-25% (Moderado)'
+    elif carbs <= 35.0:
+        return '25-35% (Elevado)'
     else:
-        return '>40% (Muito Alto)'
+        return '>35% (Muito Alto)'
 
 def score_dry_product(p):
-    name = p.get('name', '')
-    brand = p.get('brand', '')
-    desc = p.get('description', '')
-    ingr = p.get('ingredients', '')
-    nutri_raw = p.get('nutrition_raw', '')
+    name = p.get('name') or ''
+    brand = p.get('brand') or ''
+    desc = p.get('description') or ''
+    ingr = p.get('ingredients') or ''
+    nutri_raw = p.get('nutrition_raw') or ''
 
     text_to_check = f"{name} {desc} {ingr} {nutri_raw}".lower()
     name_lower = name.lower()
@@ -42,7 +42,7 @@ def score_dry_product(p):
 
     # Target demographics
     is_kitten = any(k in f"{name_lower} {desc.lower()}" for k in ['júnior', 'junior', 'kitten', 'gatinho', 'filhote', 'crescimento'])
-    is_sterilised = any(s in f"{name_lower} {desc.lower()}" for s in ['esterilizado', 'esterilizados', 'sterilised', 'sterilized'])
+    is_sterilised = any(s in f"{name_lower} {desc.lower()}" for s in ['esterilizado', 'esterilizada', 'esterilizados', 'esterilizadas', 'sterilised', 'sterilized', 'neutered', 'castrado', 'castrada', 'castrados'])
 
     # 1. Composition Validation
     comp_eval = validate_composition(ingr)
@@ -55,10 +55,12 @@ def score_dry_product(p):
     first_is_plant = False
     meat_pct = None
     is_grain_free = None
+    has_grains = False
     has_cheap_grains = None
     has_quality_grains = None
     has_corn_gluten = None
     has_colorants = None
+    has_sugar = None
     has_artificial_preservatives = None
     is_fractionated = None
 
@@ -71,9 +73,17 @@ def score_dry_product(p):
         if first_ingr:
             first_lower = first_ingr.lower()
 
-            animal_terms = ['frango', 'salmão', 'salmao', 'peru', 'vaca', 'carne', 'peixe', 'atum', 'borrego', 'aves', 'pato', 'coelho', 'javali', 'sardinha', 'arenque', 'truta', 'veado']
+            animal_terms = [
+                'frango', 'salmão', 'salmao', 'peru', 'vaca', 'carne', 'peixe', 'atum', 'borrego', 'aves', 'pato',
+                'coelho', 'javali', 'sardinha', 'arenque', 'truta', 'veado', 'cordeiro', 'vitela', 'bovino', 'porco',
+                'suíno', 'bacalhau', 'galinha', 'cavala', 'pescada', 'anchova', 'codorniz', 'caça', 'cervo', 'ovo', 'ovos'
+            ]
             fresh_terms = ['fresco', 'fresca', 'desossado', 'desossada', 'frescos', 'frescas', 'cru', 'crua', 'crus', 'cruas']
-            plant_terms = ['milho', 'trigo', 'cereais', 'arroz', 'ervilha', 'batata', 'farinha de trigo', 'farinha de milho', 'glúten', 'proteína vegetal', 'cevada', 'aveia', 'polpa de beterraba']
+            plant_terms = [
+                'milho', 'trigo', 'cereais', 'arroz', 'ervilha', 'batata', 'farinha de trigo', 'farinha de milho',
+                'glúten', 'proteína vegetal', 'cevada', 'aveia', 'polpa de beterraba', 'soja', 'tapioca', 'lentilhas',
+                'grão-de-bico', 'alfafa'
+            ]
 
             if any(f in first_lower for f in fresh_terms) and any(a in first_lower for a in animal_terms):
                 first_is_fresh_animal = True
@@ -89,17 +99,25 @@ def score_dry_product(p):
         # Total animal / meat percentage match
         meat_pct = extract_total_meat_percentage(ingr_clean_text)
 
-        # Grains & Starches
+        # Grains & Starches - Factual composition is strictly authoritative
         grain_terms = ['trigo', 'milho', 'arroz', 'aveia', 'cevada', 'centeio', 'cereais', 'glúten', 'espelta', 'sorgo']
         has_grains = any(g in ingr_lower for g in grain_terms)
-        is_grain_free = (not has_grains) or any(gf in text_to_check for gf in ['sem cereais', 'grain free', 'grain-free', 'no grain'])
-        if has_grains and not any(gf in text_to_check for gf in ['sem cereais', 'grain free', 'grain-free', 'no grain']):
-            is_grain_free = False
+        is_grain_free = not has_grains
 
         has_cheap_grains = any(cg in ingr_lower for cg in ['trigo', 'milho', 'farinha de trigo', 'farinha de milho', 'cevada cervejeira', 'glúten de milho', 'glúten de trigo'])
         has_quality_grains = any(qg in ingr_lower for qg in ['aveia', 'cevada integral', 'arroz integral', 'centeio'])
         has_corn_gluten = any(cg in ingr_lower for cg in ['glúten de milho', 'gluten de milho', 'proteína de milho', 'proteina de milho', 'glúten'])
+        if has_corn_gluten and any(neg in ingr_lower for neg in ['sem glúten', 'sem gluten', 'isento de glúten', 'isento de gluten', 'zero glúten', 'gluten free']):
+            has_corn_gluten = False
+
         has_colorants = any(c in ingr_lower for c in ['corantes', 'corante', 'óxido de ferro', 'oxido de ferro', 'tartrazina', 'dióxido de titânio'])
+        if has_colorants and any(neg in ingr_lower for neg in ['sem corante', 'sem corantes', 'não contém corante', 'nao contem corante', 'isento de corante', 'isento de corantes']):
+            has_colorants = False
+
+        has_sugar = any(s in ingr_lower for s in ['açúcar', 'açucares', 'açúcares', 'açucar', 'sacarose', 'xarope', 'caramelo'])
+        if has_sugar and any(neg in ingr_lower for neg in ['sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'nao contem acucar']):
+            has_sugar = False
+
         has_artificial_preservatives = any(p in text_to_check for p in ['bha', 'bht', 'galato de propilo', 'butil-hidroxianisol', 'butil-hidroxitolueno', 'etoxiquina', 'ethoxyquin', 'e320', 'e321', 'e310'])
 
         # Fractionation
@@ -116,7 +134,7 @@ def score_dry_product(p):
     # Functional additives
     has_urinary_support = any(u in text_to_check for u in ['arando', 'mirtilo', 'cranberry', 'dl-metionina', 'metionina', 'saúde urinária', 'trato urinário', 'controlo de ph'])
     has_taurine = any(t in text_to_check for t in ['taurina', 'taurine'])
-    has_marine_omega = any(o in text_to_check for o in ['óleo de salmão', 'oleo de salmao', 'óleo de peixe', 'oleo de peixe', 'salmon oil', 'fish oil', 'dha', 'epa', 'óleo de escamudo'])
+    has_marine_omega = bool(re.search(r'\b(?:epa|dha)\b', text_to_check, re.I)) or any(o in text_to_check for o in ['óleo de salmão', 'oleo de salmao', 'óleo de peixe', 'oleo de peixe', 'ómega-3', 'omega-3', 'salmon oil', 'fish oil', 'óleo de escamudo'])
     has_organs = any(o in ingr_lower for o in ['coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'rins', 'miudezas']) if has_valid_composition else False
 
     # 2. Parse analytical components using Evidence Contract
@@ -130,9 +148,13 @@ def score_dry_product(p):
     is_ready, unranked_reasons = check_scoring_readiness(temp_p, category='dry')
 
     score = None
-    tier = 'Unranked'
+    tier = 'Não classificado (Dados insuficientes)'
     val_ratio = None
     pkg = p.get('unit_price_kg')
+    try:
+        pkg = float(pkg) if pkg is not None else None
+    except (ValueError, TypeError):
+        pkg = None
 
     # Carbohydrate calculation (declared or estimated under EU 767/2009 reference moisture)
     carbs = nutri.get('carbs_nfe')
@@ -199,6 +221,8 @@ def score_dry_product(p):
             score -= 12
         if has_colorants:
             score -= 15
+        if has_sugar:
+            score -= 15
         if has_artificial_preservatives:
             score -= 8
 
@@ -212,7 +236,7 @@ def score_dry_product(p):
 
         # 3. Macronutrients scoring
         prot = nutri.get('protein', {}).get('value')
-        if prot:
+        if prot is not None:
             if prot >= 40.0:
                 score += 10
             elif prot >= 35.0:
@@ -221,7 +245,7 @@ def score_dry_product(p):
                 score -= 15
 
         fat = nutri.get('fat', {}).get('value')
-        if fat:
+        if fat is not None:
             if is_kitten:
                 if fat >= 18.0:
                     score += 6
@@ -248,7 +272,7 @@ def score_dry_product(p):
 
         # 4. Mineral balance
         mg = nutri.get('magnesium', {}).get('value')
-        if mg:
+        if mg is not None:
             if is_sterilised:
                 if mg <= 0.08:
                     score += 5
@@ -263,11 +287,15 @@ def score_dry_product(p):
                     score -= 5
 
         ca_p = nutri.get('ca_p_ratio')
-        if ca_p:
+        if ca_p is not None:
             if 1.0 <= ca_p <= 1.5:
                 score += 4
             elif ca_p > 1.8 or ca_p < 0.9:
                 score -= 6
+
+        phos = nutri.get('phosphorus', {}).get('value')
+        if phos is not None and phos > 1.3:
+            score -= 8
 
         score = max(10, min(95, score))
 
@@ -299,12 +327,16 @@ def score_dry_product(p):
     p['is_ranked'] = is_ready
     p['unranked_reasons'] = unranked_reasons
     p['first_ingredient'] = first_ingr
+    p['meat_pct'] = meat_pct
     p['is_grain_free'] = is_grain_free
+    p['has_grains'] = has_grains
     p['is_fractionated'] = is_fractionated
     p['has_corn_gluten'] = has_corn_gluten
     p['has_colorants'] = has_colorants
+    p['has_sugar'] = has_sugar
     p['has_taurine'] = has_taurine
     p['has_marine_omega'] = has_marine_omega
+    p['has_organs'] = has_organs
     p['value_ratio'] = val_ratio
     p['carb_band'] = cb
     p['protein'] = nutri.get('protein', {}).get('value')
@@ -322,6 +354,7 @@ def score_dry_product(p):
         'pkg': pkg,
         'fi': first_ingr,
         'fresh': first_is_fresh_animal,
+        'meat_pct': meat_pct,
         'k': is_kitten,
         'st': is_sterilised,
         't': tier,
@@ -344,6 +377,6 @@ def score_dry_product(p):
         'r': retailer,
         'fid': p.get('formulation_id'),
         'rec': p.get('is_reconciled', False),
-        'conf': p.get('has_conflicts', False)
+        'conf': p.get('has_material_conflict', False)
     }
     return p, minified

@@ -568,6 +568,11 @@
             ? '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-complete">Completo</span>'
             : '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-comp">Complementar</span>';
 
+          const wetProtStr = p.prot ? `${p.prot}% Prot` : '';
+          const wetFatStr = p.fat ? `${p.fat}% Gord` : '';
+          const wetMacroLine = [wetProtStr, wetFatStr].filter(Boolean).join(' • ');
+          const wetMacroHtml = wetMacroLine ? `<div class="text-[11px] font-semibold text-slate-300">${wetMacroLine}</div>` : '';
+
           const wetCarbBadge = p.cb && p.cb !== 'N/D'
             ? `<span class="px-1.5 py-0.5 rounded text-[10px] ${p.cb.includes('Ideal') ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-800' : 'bg-amber-950/80 text-amber-300 border border-amber-800'} font-medium">Carb: ${p.cb}</span>`
             : '';
@@ -579,6 +584,10 @@
           const grainBadge = p.grn === true
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium">Cereais</span>'
             : (p.grn === false ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais</span>' : '');
+
+          const vegBadge = p.veg === true
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Proteína Vegetal</span>'
+            : '';
 
           const organBadge = p.org
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-purple-950/80 text-purple-300 border border-purple-800 font-medium">Miudezas Nobres</span>'
@@ -622,12 +631,13 @@
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="flex flex-col gap-1 items-start">
                   ${compBadge}
+                  ${wetMacroHtml}
                   ${wetCarbBadge}
                 </div>
               </td>
               <td class="py-3 px-3">
                 <div class="text-xs font-semibold text-slate-200 truncate max-w-[220px]" title="${p.fi || ''}">${p.fi || 'N/D'}</div>
-                <div class="flex flex-wrap gap-1 mt-1">${meatBadge}${sugarBadge}${grainBadge}${organBadge}${tauBadge}${omgBadge}${carrBadge}${unrankedBadge}${recBadge}${confBadge}</div>
+                <div class="flex flex-wrap gap-1 mt-1">${meatBadge}${sugarBadge}${grainBadge}${vegBadge}${organBadge}${tauBadge}${omgBadge}${carrBadge}${unrankedBadge}${recBadge}${confBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>
@@ -659,6 +669,10 @@
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">🥩 Carne Fresca</span>'
             : '';
 
+          const meatBadge = p.meat_pct && p.meat_pct >= 50
+            ? `<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">🥩 ${p.meat_pct}% Carne</span>`
+            : '';
+
           const tauBadge = p.tau
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-sky-950/80 text-sky-300 border border-sky-800 font-medium">Taurina</span>'
             : '';
@@ -687,6 +701,10 @@
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Corantes</span>'
             : '';
 
+          const sugarBadge = p.sug === true
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Açúcar</span>'
+            : '';
+
           const kittenBadge = p.k
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-900/80 text-amber-200 border border-amber-600 font-bold">🍼 Júnior</span>'
             : (p.st ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-purple-950/80 text-purple-300 border border-purple-800">Esterilizado</span>' : '');
@@ -712,7 +730,7 @@
               </td>
               <td class="py-3 px-3">
                 <div class="text-xs font-semibold text-slate-200 truncate max-w-[220px]" title="${p.fi || ''}">${p.fi || 'N/D'}</div>
-                <div class="flex flex-wrap gap-1 mt-1">${freshBadge}${tauBadge}${omgBadge}${organBadge}${gfBadge}${fracBadge}${cgBadge}${colBadge}${unrankedBadge}${recBadge}${confBadge}</div>
+                <div class="flex flex-wrap gap-1 mt-1">${freshBadge}${meatBadge}${tauBadge}${omgBadge}${organBadge}${gfBadge}${fracBadge}${cgBadge}${colBadge}${sugarBadge}${unrankedBadge}${recBadge}${confBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>
