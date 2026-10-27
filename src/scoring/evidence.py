@@ -21,6 +21,8 @@ NUTRIENT_PATTERNS = {
         r'[Gg]ordura\s*bruta',
         r'[Mm]at[ée]ria\s*gorda(?:[,\s]*bruta)?',
         r'[Gg]ordura',
+        r'[Óó]leos\s*e\s*gorduras',
+        r'[Tt]eor\s*de\s*gordura',
     ],
     'moisture': [
         r'[Hh]umidade',
@@ -35,6 +37,7 @@ NUTRIENT_PATTERNS = {
         r'[Ff]ibra\s*bruta',
         r'[Ff]ibra(?:s)?',
         r'[Mm]at[ée]ria\s*fibrosa',
+        r'[Cc]elulose(?:\s*bruta)?',
     ],
     'calcium': [
         r'[Cc][áa]lcio',
@@ -53,7 +56,7 @@ def extract_nutrient_value(text, pattern_list):
     Supports decimal commas, nonbreaking spaces, and optional % sign.
     """
     for pat in pattern_list:
-        regex = rf'(?:{pat})[:\s]+(\d+(?:[.,]\d+)?)\s*%'
+        regex = rf'(?:{pat})[:\s]+(\d+(?:[.,]\d+)?)(?:\s*%)?(?:[;\s,\|\.]|$)'
         m = re.search(regex, text, re.I)
         if m:
             val_str = m.group(1).replace(',', '.')

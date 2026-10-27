@@ -4120,8 +4120,8 @@
     "cb": "N/D",
     "u": "https://www.continente.pt/produto/racao-para-gato-adulto-salmao-affinity-ultima-8385322.html",
     "r": "Continente",
-    "fid": "ultima_adult_salmao_dry",
-    "rec": true,
+    "fid": null,
+    "rec": false,
     "conf": false
   },
   {
@@ -4245,8 +4245,8 @@
     "cb": "N/D",
     "u": "https://www.continente.pt/produto/racao-para-gato-adulto-salmao-affinity-ultima-4871409.html",
     "r": "Continente",
-    "fid": "ultima_adult_salmao_dry",
-    "rec": true,
+    "fid": null,
+    "rec": false,
     "conf": false
   },
   {
@@ -4270,8 +4270,8 @@
     "cb": "N/D",
     "u": "https://www.continente.pt/produto/racao-para-gato-adulto-salmao-affinity-ultima-4871409.html",
     "r": "Continente",
-    "fid": "ultima_adult_salmao_dry",
-    "rec": true,
+    "fid": null,
+    "rec": false,
     "conf": false
   },
   {

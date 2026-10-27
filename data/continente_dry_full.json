@@ -1441,7 +1441,7 @@
     "value_ratio": 7.28,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412318+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.184860+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1624,7 +1624,7 @@
     "value_ratio": 4.73,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412419+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.184961+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1722,7 +1722,7 @@
     "value_ratio": 4.29,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412470+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185007+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1905,7 +1905,7 @@
     "value_ratio": 10.58,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412562+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185090+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2258,7 +2258,7 @@
     "value_ratio": 8.04,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412784+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185312+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2356,7 +2356,7 @@
     "value_ratio": 4.63,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412801+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185329+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2454,7 +2454,7 @@
     "value_ratio": 4.16,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412818+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185345+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2552,7 +2552,7 @@
     "value_ratio": 15.09,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412837+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185363+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2650,7 +2650,7 @@
     "value_ratio": 12.01,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412856+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185382+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2748,7 +2748,7 @@
     "value_ratio": 10.8,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.412874+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185400+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3401,7 +3401,7 @@
     "value_ratio": 11.85,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413324+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185830+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3499,7 +3499,7 @@
     "value_ratio": 7.81,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413335+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.185841+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3767,7 +3767,7 @@
     "value_ratio": 6.09,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413508+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186001+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3865,7 +3865,7 @@
     "value_ratio": 5.14,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413559+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186046+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3963,7 +3963,7 @@
     "value_ratio": 3.93,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413606+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186090+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4061,7 +4061,7 @@
     "value_ratio": 3.91,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413651+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186134+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4159,7 +4159,7 @@
     "value_ratio": 3.37,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413668+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186151+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4257,7 +4257,7 @@
     "value_ratio": 3.32,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413685+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186168+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4695,7 +4695,7 @@
     "value_ratio": 10.16,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.413995+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186465+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4963,7 +4963,7 @@
     "value_ratio": 7.75,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.414169+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186620+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5246,7 +5246,7 @@
     "value_ratio": 9.89,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.414377+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186807+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5344,7 +5344,7 @@
     "value_ratio": 7.44,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.414394+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.186821+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5697,7 +5697,7 @@
     "value_ratio": 10.14,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.414690+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.187123+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6390,7 +6390,7 @@
     "value_ratio": 9.86,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.415329+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.187719+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6488,7 +6488,7 @@
     "value_ratio": 8.33,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.415421+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.187791+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6586,7 +6586,7 @@
     "value_ratio": 5.71,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.415434+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.187800+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6939,7 +6939,7 @@
     "value_ratio": 11.04,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.415694+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.188032+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7377,7 +7377,7 @@
     "value_ratio": 7.84,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416026+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.188326+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7475,7 +7475,7 @@
     "value_ratio": 7.84,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416038+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.188334+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7573,7 +7573,7 @@
     "value_ratio": 7.22,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416047+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.188342+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8351,7 +8351,7 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416659+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.188953+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8449,7 +8449,7 @@
     "value_ratio": 9.38,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416672+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.188966+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8547,7 +8547,7 @@
     "value_ratio": 8.49,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416716+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189012+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8645,7 +8645,7 @@
     "value_ratio": 8.49,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416759+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189055+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8743,7 +8743,7 @@
     "value_ratio": 8.25,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416766+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189062+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8841,7 +8841,7 @@
     "value_ratio": 7.35,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416774+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189070+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8939,7 +8939,7 @@
     "value_ratio": 7.35,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416783+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189078+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9037,7 +9037,7 @@
     "value_ratio": 7.35,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416792+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189086+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9135,7 +9135,7 @@
     "value_ratio": 7.35,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416799+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189092+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9233,7 +9233,7 @@
     "value_ratio": 7.14,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416806+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189098+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9331,7 +9331,7 @@
     "value_ratio": 7.14,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416814+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189107+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9429,7 +9429,7 @@
     "value_ratio": 7.0,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416859+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189149+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9527,7 +9527,7 @@
     "value_ratio": 7.0,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416903+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189188+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9625,7 +9625,7 @@
     "value_ratio": 6.77,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416911+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189195+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9723,7 +9723,7 @@
     "value_ratio": 6.77,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416918+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189202+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9821,7 +9821,7 @@
     "value_ratio": 6.47,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.416962+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189244+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9919,7 +9919,7 @@
     "value_ratio": 6.47,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417000+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189279+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10017,7 +10017,7 @@
     "value_ratio": 6.47,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417038+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189315+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10115,7 +10115,7 @@
     "value_ratio": 6.44,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417082+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189358+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10213,7 +10213,7 @@
     "value_ratio": 6.44,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417127+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189400+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10311,7 +10311,7 @@
     "value_ratio": 6.44,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417170+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189442+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10664,7 +10664,7 @@
     "value_ratio": 10.68,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417401+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189681+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10762,7 +10762,7 @@
     "value_ratio": 7.91,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417448+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189727+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10860,7 +10860,7 @@
     "value_ratio": 7.91,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417493+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189776+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10958,7 +10958,7 @@
     "value_ratio": 4.2,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417539+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189825+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11056,7 +11056,7 @@
     "value_ratio": 2.72,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417557+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189843+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11154,7 +11154,7 @@
     "value_ratio": 2.59,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417601+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189890+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11252,7 +11252,7 @@
     "value_ratio": 7.64,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417620+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.189908+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11650,7 +11650,7 @@
     "value_ratio": 9.94,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417856+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.190152+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11833,7 +11833,7 @@
     "value_ratio": 7.37,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417948+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.190242+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11931,7 +11931,7 @@
     "value_ratio": 7.37,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.417966+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.190259+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12199,7 +12199,7 @@
     "value_ratio": 9.72,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.425121+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.190472+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13317,7 +13317,7 @@
     "value_ratio": 6.25,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419076+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.191366+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13415,7 +13415,7 @@
     "value_ratio": 6.25,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419095+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.191374+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13513,7 +13513,7 @@
     "value_ratio": 6.07,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419103+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.191380+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14136,7 +14136,7 @@
     "value_ratio": 5.76,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419594+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.191843+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14574,7 +14574,7 @@
     "value_ratio": 9.02,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419920+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192164+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14672,7 +14672,7 @@
     "value_ratio": 6.74,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419929+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192172+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14770,7 +14770,7 @@
     "value_ratio": 6.68,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419947+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192189+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14868,7 +14868,7 @@
     "value_ratio": 6.68,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419964+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192204+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14966,7 +14966,7 @@
     "value_ratio": 5.83,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419971+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192211+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14995,11 +14995,13 @@
     "ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho integral (12%), proteínas desidratadas de porco, cevada integral (7%), arroz (4%), substâncias minerais.",
     "nutrition_raw": "Proteína bruta: 34.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 2.5%, Cinza bruta: 7.0%",
     "description": "",
-    "is_reconciled": true,
-    "formulation_id": "ultima_adult_salmao_dry",
+    "is_reconciled": false,
+    "formulation_id": null,
     "has_conflicts": false,
     "conflicts": [],
-    "reconciliation_notes": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
     "raw_ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho integral (12%), proteínas desidratadas de porco, cevada integral (7%), arroz (4%), substâncias minerais.",
     "raw_nutrition_raw": "Proteína bruta: 34.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 2.5%, Cinza bruta: 7.0%",
     "nutrition_parsed": {
@@ -15162,7 +15164,7 @@
     "value_ratio": 5.83,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.419990+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192293+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15345,7 +15347,7 @@
     "value_ratio": 5.53,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420072+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192374+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15443,7 +15445,7 @@
     "value_ratio": 5.53,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420079+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192381+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15472,11 +15474,13 @@
     "ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho integral (12%), proteínas desidratadas de porco, cevada integral (7%), arroz (4%), substâncias minerais.",
     "nutrition_raw": "Proteína bruta: 34.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 2.5%, Cinza bruta: 7.0%",
     "description": "",
-    "is_reconciled": true,
-    "formulation_id": "ultima_adult_salmao_dry",
+    "is_reconciled": false,
+    "formulation_id": null,
     "has_conflicts": false,
     "conflicts": [],
-    "reconciliation_notes": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
     "raw_ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho integral (12%), proteínas desidratadas de porco, cevada integral (7%), arroz (4%), substâncias minerais.",
     "raw_nutrition_raw": "Proteína bruta: 34.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 2.5%, Cinza bruta: 7.0%",
     "nutrition_parsed": {
@@ -15570,11 +15574,13 @@
     "ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho integral (12%), proteínas desidratadas de porco, cevada integral (7%), arroz (4%), substâncias minerais.",
     "nutrition_raw": "Proteína bruta: 34.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 2.5%, Cinza bruta: 7.0%",
     "description": "",
-    "is_reconciled": true,
-    "formulation_id": "ultima_adult_salmao_dry",
+    "is_reconciled": false,
+    "formulation_id": null,
     "has_conflicts": false,
     "conflicts": [],
-    "reconciliation_notes": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
     "raw_ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho integral (12%), proteínas desidratadas de porco, cevada integral (7%), arroz (4%), substâncias minerais.",
     "raw_nutrition_raw": "Proteína bruta: 34.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 2.5%, Cinza bruta: 7.0%",
     "nutrition_parsed": {
@@ -15737,7 +15743,7 @@
     "value_ratio": 5.53,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420103+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192536+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16005,7 +16011,7 @@
     "value_ratio": 5.11,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420281+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192701+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16103,7 +16109,7 @@
     "value_ratio": 5.11,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420295+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192710+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16201,7 +16207,7 @@
     "value_ratio": 4.61,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420347+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192755+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16384,7 +16390,7 @@
     "value_ratio": 6.6,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420436+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192844+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16482,7 +16488,7 @@
     "value_ratio": 5.88,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420445+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192852+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16580,7 +16586,7 @@
     "value_ratio": 5.88,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420452+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192859+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16678,7 +16684,7 @@
     "value_ratio": 5.88,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420460+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192868+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16776,7 +16782,7 @@
     "value_ratio": 5.88,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420466+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192875+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16874,7 +16880,7 @@
     "value_ratio": 5.71,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420474+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192882+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16972,7 +16978,7 @@
     "value_ratio": 5.71,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420481+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192888+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17070,7 +17076,7 @@
     "value_ratio": 5.42,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420488+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192895+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17168,7 +17174,7 @@
     "value_ratio": 4.01,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420500+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192906+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17266,7 +17272,7 @@
     "value_ratio": 4.01,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420511+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.192917+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17464,7 +17470,7 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420614+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.193016+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17562,7 +17568,7 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.420666+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.193061+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17660,7 +17666,7 @@
     "value_ratio": 8.44,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.425201+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.193133+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21583,7 +21589,7 @@
     "value_ratio": 5.5,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424030+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196566+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21681,7 +21687,7 @@
     "value_ratio": 5.2,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424107+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196647+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21779,7 +21785,7 @@
     "value_ratio": 4.73,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424181+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196720+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21877,7 +21883,7 @@
     "value_ratio": 4.73,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424262+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196802+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21975,7 +21981,7 @@
     "value_ratio": 3.9,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424275+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196815+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22073,7 +22079,7 @@
     "value_ratio": 3.9,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424288+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196826+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22171,7 +22177,7 @@
     "value_ratio": 3.9,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424301+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196839+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22269,7 +22275,7 @@
     "value_ratio": 3.01,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424313+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196850+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22367,7 +22373,7 @@
     "value_ratio": 3.01,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424325+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196861+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22465,7 +22471,7 @@
     "value_ratio": 3.01,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424336+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196871+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22563,7 +22569,7 @@
     "value_ratio": 3.01,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424348+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.196883+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22916,7 +22922,7 @@
     "value_ratio": 4.25,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424630+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.197146+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23014,7 +23020,7 @@
     "value_ratio": 3.18,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424675+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.197185+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23112,7 +23118,7 @@
     "value_ratio": 2.46,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424716+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.197224+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23210,7 +23216,7 @@
     "value_ratio": 2.46,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.424756+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.197263+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {

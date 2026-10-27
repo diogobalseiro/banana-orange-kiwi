@@ -303,31 +303,25 @@
     }
   },
   "ultima_adult_salmao_dry": {
-    "description": "Affinity Ultima Gato Adulto Salmão",
+    "description": "Affinity Ultima Adult com Salmão",
     "brand": "Affinity Ultima",
     "category": "dry",
     "life_stage": "adult",
-    "recipe": "Adult Salmão",
+    "recipe": "Adult com Salmão",
     "verified_date": "2026-10-27",
-    "source": "Affinity Petcare official packaging declaration",
+    "source": "Affinity Petcare official declaration",
     "aliases": [
-      "adulto salmão",
-      "adulto salmao"
+      "ultima adult com salmão",
+      "adult com salmão"
     ],
     "verified": {
       "classification": "complete",
-      "ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho integral (12%), proteínas desidratadas de porco, cevada integral (7%), arroz (4%), substâncias minerais.",
-      "nutrition_raw": "Proteína bruta: 34.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 2.5%, Cinza bruta: 7.0%",
-      "composition_source": "Affinity Petcare official packaging declaration",
-      "nutrition_source": "Affinity Petcare official packaging declaration"
+      "ingredients": "Salmão (15%), trigo integral (14%), proteínas desidratadas de aves, milho, proteínas desidratadas de porco, gorduras animais, ervilhas desidratadas, polpa de beterraba.",
+      "nutrition_raw": "Proteína: 34.0%, Matéria gorda: 15.0%, Fibra bruta: 2.0%, Cinza bruta: 7.0%",
+      "composition_source": "Affinity Petcare official declaration",
+      "nutrition_source": "Affinity Petcare official declaration"
     },
-    "retailer_matches": {
-      "continente": [
-        "8385322",
-        "4871409",
-        "464366"
-      ]
-    }
+    "retailer_matches": {}
   },
   "ultima_junior_frango_dry": {
     "description": "Affinity Ultima Gato Júnior Frango",
@@ -11970,6 +11964,272 @@
       "nutrition_raw": "Proteína bruta: 38.0%, Matéria gorda bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
       "composition_source": "Harper & Bone official declaration",
       "nutrition_source": "Harper & Bone official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "whiskas_wet_adulto_peixe": {
+    "description": "Whiskas Adulto Peixe em Molho/Gelatina Saquetas",
+    "brand": "Whiskas",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Peixe",
+    "verified_date": "2026-10-27",
+    "source": "Mars Petcare official declaration",
+    "aliases": [
+      "adulto peixe whiskas",
+      "delight peixe whiskas"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e derivados de animal (33%), peixe e derivados de peixe (inclui 4% de salmão por pedaço), cereais, substâncias minerais, derivados de origem vegetal, açúcares.",
+      "nutrition_raw": "Proteína bruta: 7.5%, Matéria gorda bruta: 4.3%, Cinza bruta: 1.6%, Fibra bruta: 0.25%, Humidade: 83.5%",
+      "composition_source": "Mars Petcare official declaration",
+      "nutrition_source": "Mars Petcare official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "whiskas_wet_adulto_carne": {
+    "description": "Whiskas Adulto Carne em Molho/Gelatina Saquetas",
+    "brand": "Whiskas",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Carne",
+    "verified_date": "2026-10-27",
+    "source": "Mars Petcare official declaration",
+    "aliases": [
+      "adulto carne whiskas"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e derivados de animal (34%, inclui vaca 4% por pedaço), cereais, derivados de origem vegetal, substâncias minerais, açúcares.",
+      "nutrition_raw": "Proteína bruta: 7.3%, Matéria gorda bruta: 4.0%, Cinza bruta: 1.6%, Fibra bruta: 0.25%, Humidade: 84.0%",
+      "composition_source": "Mars Petcare official declaration",
+      "nutrition_source": "Mars Petcare official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "sheba_wet_adulto_peru": {
+    "description": "Sheba Adulto Peru Saquetas",
+    "brand": "Sheba",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Peru",
+    "verified_date": "2026-10-27",
+    "source": "Mars Petcare official declaration",
+    "aliases": [
+      "adulto peru sheba",
+      "carne saquetas sheba"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e subprodutos animais (44%, dos quais 4% peru), cereais, substâncias minerais, açúcares.",
+      "nutrition_raw": "Proteína: 8.0%, Matéria gorda: 5.2%, Matéria inorgânica: 1.8%, Fibra bruta: 0.2%, Humidade: 82.0%",
+      "composition_source": "Mars Petcare official declaration",
+      "nutrition_source": "Mars Petcare official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "uppy_natur_wet_peru_vaca": {
+    "description": "Uppy Natur Adulto Sem Cereais Peru e Vaca",
+    "brand": "Uppy Natur",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Peru e Vaca",
+    "verified_date": "2026-10-27",
+    "source": "Continente official packaging declaration",
+    "aliases": [
+      "peru e vaca saquetas uppy natur"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e subprodutos animais (dos quais 4% peru, 4% vaca), substâncias minerais, subprodutos de origem vegetal.",
+      "nutrition_raw": "Proteína bruta: 8.0%, Matéria gorda bruta: 5.0%, Fibra bruta: 0.7%, Cinza bruta: 2.5%, Humidade: 81.0%",
+      "composition_source": "Continente official packaging declaration",
+      "nutrition_source": "Continente official packaging declaration"
+    },
+    "retailer_matches": {}
+  },
+  "uppy_natur_wet_frango_pato": {
+    "description": "Uppy Natur Adulto Sem Cereais Frango e Pato",
+    "brand": "Uppy Natur",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Frango e Pato",
+    "verified_date": "2026-10-27",
+    "source": "Continente official packaging declaration",
+    "aliases": [
+      "frango e pato saquetas uppy natur"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e subprodutos animais (dos quais 4% frango, 4% pato), substâncias minerais, subprodutos de origem vegetal.",
+      "nutrition_raw": "Proteína bruta: 8.0%, Matéria gorda bruta: 5.0%, Fibra bruta: 0.7%, Cinza bruta: 2.5%, Humidade: 81.0%",
+      "composition_source": "Continente official packaging declaration",
+      "nutrition_source": "Continente official packaging declaration"
+    },
+    "retailer_matches": {}
+  },
+  "royal_canin_kitten_mousse_wet": {
+    "description": "Royal Canin Kitten Ultra Soft Mousse",
+    "brand": "Royal Canin",
+    "category": "wet",
+    "life_stage": "kitten",
+    "recipe": "Kitten Mousse",
+    "verified_date": "2026-10-27",
+    "source": "Royal Canin official declaration",
+    "aliases": [
+      "kitten mousse",
+      "mother & babycat ultra soft mousse"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, substâncias minerais, açúcares, leveduras, óleos e gorduras.",
+      "nutrition_raw": "Proteína: 12.0%, Matéria gorda: 4.0%, Cinza bruta: 1.8%, Fibra bruta: 0.8%, Humidade: 78.5%",
+      "composition_source": "Royal Canin official declaration",
+      "nutrition_source": "Royal Canin official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "royal_canin_feline_neutered_maintenance_wet": {
+    "description": "Royal Canin Expert Feline Neutered Maintenance em Molho",
+    "brand": "Royal Canin Veterinary Diet",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Neutered Maintenance",
+    "verified_date": "2026-10-27",
+    "source": "Royal Canin official declaration",
+    "aliases": [
+      "feline neutered maintenance"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e subprodutos animais, cereais, subprodutos de origem vegetal, extratos de proteínas vegetais, substâncias minerais, óleos e gorduras, leveduras.",
+      "nutrition_raw": "Proteína: 9.0%, Matéria gorda: 2.5%, Cinza bruta: 1.6%, Fibra bruta: 1.5%, Humidade: 81.5%",
+      "composition_source": "Royal Canin official declaration",
+      "nutrition_source": "Royal Canin official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "royal_canin_gastrointestinal_fibre_response_dry": {
+    "description": "Royal Canin Expert Feline Gastrointestinal Fibre Response",
+    "brand": "Royal Canin Veterinary Diet",
+    "category": "dry",
+    "life_stage": "adult",
+    "recipe": "Gastrointestinal Fibre Response",
+    "verified_date": "2026-10-27",
+    "source": "Royal Canin official declaration",
+    "aliases": [
+      "gastrointestinal fibre response"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Arroz, fibras vegetais, proteínas de aves desidratadas, gorduras animais, milho, glúten de milho, trigo, hidrolisado de proteínas animais, substâncias minerais, polpa de chicória, óleo de peixe, sementes e tegumentos de psyllium (6%).",
+      "nutrition_raw": "Proteína: 31.0%, Matéria gorda: 15.0%, Fibra bruta: 3.0%, Cinza bruta: 7.3%",
+      "composition_source": "Royal Canin official declaration",
+      "nutrition_source": "Royal Canin official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "natural_trainer_benessere_digestivo_dry": {
+    "description": "Natural Trainer Benessere Digestivo com Truta",
+    "brand": "Natural Trainer",
+    "category": "dry",
+    "life_stage": "adult",
+    "recipe": "Benessere Digestivo com Truta",
+    "verified_date": "2026-10-27",
+    "source": "Trainer official declaration",
+    "aliases": [
+      "benessere digestivo com truta"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Truta fresca (15%), proteínas desidratadas de frango e peru, milho, arroz, ervilhas, gordura animal, sementes de linho, polpa de beterraba.",
+      "nutrition_raw": "Proteína: 32.0%, Matéria gorda: 15.0%, Fibra bruta: 2.8%, Cinza bruta: 7.0%",
+      "composition_source": "Trainer official declaration",
+      "nutrition_source": "Trainer official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "advance_vet_hypoallergenic_dry": {
+    "description": "Affinity Advance Veterinary Diets Hypoallergenic",
+    "brand": "Advance Veterinary Diets",
+    "category": "dry",
+    "life_stage": "adult",
+    "recipe": "Hypoallergenic",
+    "verified_date": "2026-10-27",
+    "source": "Affinity Petcare official declaration",
+    "aliases": [
+      "hyppoalergenic affinity advance",
+      "hypoallergenic"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Amido de milho purificado, proteína de soja hidrolisada, banha, óleo de soja, celulose, óleo de peixe, cloreto de potássio.",
+      "nutrition_raw": "Proteína: 32.0%, Matéria gorda: 15.0%, Fibra bruta: 2.0%, Cinza bruta: 5.5%",
+      "composition_source": "Affinity Petcare official declaration",
+      "nutrition_source": "Affinity Petcare official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "purenatural_wet_peru_pato": {
+    "description": "Purenatural Adult Sem Cereais Peru e Pato",
+    "brand": "Purenatural",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Peru e Pato",
+    "verified_date": "2026-10-27",
+    "source": "Purenatural official declaration",
+    "aliases": [
+      "adulto sem cereais peru e pato purenatural"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Peru (35%), pato (35%), caldo (28,9%), substâncias minerais (1%), óleo de linhaça (0,1%).",
+      "nutrition_raw": "Proteína: 10.4%, Matéria gorda: 5.4%, Cinza bruta: 2.4%, Fibra bruta: 0.4%, Humidade: 79.0%",
+      "composition_source": "Purenatural official declaration",
+      "nutrition_source": "Purenatural official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "weego_wet_esterilizado_salmao": {
+    "description": "Weego Gato Esterilizado Salmão",
+    "brand": "Weego",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Esterilizado Salmão",
+    "verified_date": "2026-10-27",
+    "source": "Weego official declaration",
+    "aliases": [
+      "comida húmida para gato esterilizado salmão weego"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Salmão (40%), frango (26%), caldo, substâncias minerais, óleo de salmão.",
+      "nutrition_raw": "Proteína: 9.5%, Matéria gorda: 5.0%, Cinza bruta: 2.2%, Fibra bruta: 0.4%, Humidade: 81.0%",
+      "composition_source": "Weego official declaration",
+      "nutrition_source": "Weego official declaration"
+    },
+    "retailer_matches": {}
+  },
+  "purina_one_wet_adult_terrine": {
+    "description": "Purina One Adult Terrine / Saquetas",
+    "brand": "Purina One",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Adult Terrine",
+    "verified_date": "2026-10-27",
+    "source": "Purina official declaration",
+    "aliases": [
+      "adult terrine",
+      "junior 8 x 85 g",
+      "cat sterilized"
+    ],
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+      "nutrition_raw": "Proteína: 12.5%, Matéria gorda: 4.0%, Fibra bruta: 0.5%, Cinza bruta: 2.5%, Humidade: 77.0%",
+      "composition_source": "Purina official declaration",
+      "nutrition_source": "Purina official declaration"
     },
     "retailer_matches": {}
   }

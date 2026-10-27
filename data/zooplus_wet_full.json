@@ -421,7 +421,7 @@
     "value_ratio": 7.01,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.922069+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.690589+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -573,8 +573,8 @@
         "status": "missing"
       },
       "magnesium": {
-        "value": null,
-        "status": "missing"
+        "value": 1.0,
+        "status": "valid"
       },
       "taurine": {
         "value": null,
@@ -1963,7 +1963,7 @@
     "value_ratio": 6.76,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.923711+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.692321+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -2115,8 +2115,8 @@
         "status": "missing"
       },
       "magnesium": {
-        "value": null,
-        "status": "missing"
+        "value": 1.0,
+        "status": "valid"
       },
       "taurine": {
         "value": 220.0,
@@ -2231,91 +2231,6 @@
     "high_meat_pct": 5,
     "value_ratio": 11.76,
     "carb_band": "<10% DMB (Ideal)",
-    "has_material_conflict": false
-  },
-  {
-    "pid": "363104",
-    "name": "animonda Carny Ocean 12 x 80 g",
-    "brand": "Animonda Carny",
-    "price": 20.99,
-    "unit_price_kg": 21.86,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/animonda_carny_gato/carny_adult/363104?activeVariant=363104.1",
-    "retailer": "Zooplus",
-    "ingredients": "Composição Salmão e sardinhas jovens: Salmão (49%), sardinhas juvenis (3%). Atum branco e pargo: Atum branco (40%), pargo (6%). Atum branco e carne de vaca: Atum branco(40%), carne de vaca (6%). Atum e marisco: Atum (49%), lula (4%), camarão (3%). Atum branco e pato: Atum branco (39%), peito de pato (3%). Atum branco  e ananás: Atum branco (41%), ananás (6%). Atum branco e abóbora: Atum branco (41%), abóbora (6%). Atum branco e camarão: Atum branco (45%), camarão (8%). Aditivos De acordo com o fabricante, não são incluídos quaisquer aditivos.",
-    "nutrition_raw": "Proteína: 11.0%; Gordura: 1.0%; Fibra: 0.4%; Cinza: 2.0%; Humidade: 83.0%",
-    "description": "A animonda Carny Ocean é uma comida para gato em latas individuais gourmet à base de tenros filetes de atum ou salmão, refinados com deliciosos acompanhamentos, em pack económico sortido.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição Salmão e sardinhas jovens: Salmão (49%), sardinhas juvenis (3%). Atum branco e pargo: Atum branco (40%), pargo (6%). Atum branco e carne de vaca: Atum branco(40%), carne de vaca (6%). Atum e marisco: Atum (49%), lula (4%), camarão (3%). Atum branco e pato: Atum branco (39%), peito de pato (3%). Atum branco  e ananás: Atum branco (41%), ananás (6%). Atum branco e abóbora: Atum branco (41%), abóbora (6%). Atum branco e camarão: Atum branco (45%), camarão (8%). Aditivos De acordo com o fabricante, não são incluídos quaisquer aditivos.",
-    "raw_nutrition_raw": "Proteína: 11.0%; Gordura: 1.0%; Fibra: 0.4%; Cinza: 2.0%; Humidade: 83.0%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 11.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 1.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 83.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 2.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.4,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 17.0,
-      "protein_dmb": 64.7,
-      "fat_dmb": 5.9,
-      "carbs_nfe": 2.6,
-      "carbs_dmb": 15.3,
-      "ca_p_ratio": null
-    },
-    "score": 65,
-    "tier": "Tier A (Excelente / Alto Teor Carne)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "has_sugar": false,
-    "has_grains": false,
-    "has_veg_protein": false,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "value_ratio": 2.97,
-    "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false
   },
   {
@@ -2570,7 +2485,7 @@
     "value_ratio": 5.5,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924291+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.692929+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -2667,7 +2582,7 @@
     "value_ratio": 5.19,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924316+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.692955+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -2734,8 +2649,8 @@
         "status": "missing"
       },
       "magnesium": {
-        "value": null,
-        "status": "missing"
+        "value": 1.0,
+        "status": "valid"
       },
       "taurine": {
         "value": 300.0,
@@ -3019,7 +2934,7 @@
     "value_ratio": 10.05,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924625+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693238+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3116,7 +3031,7 @@
     "value_ratio": 9.44,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924646+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693258+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3213,7 +3128,7 @@
     "value_ratio": 9.22,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924675+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693284+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3310,7 +3225,7 @@
     "value_ratio": 8.73,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924704+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693309+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3324,176 +3239,6 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     }
-  },
-  {
-    "pid": "362897",
-    "name": "Miamor Feine Filets 6 x 100 g",
-    "brand": "Miamor",
-    "price": 8.29,
-    "unit_price_kg": 13.82,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/miamor/miamor_saquetas/362897?activeVariant=362897.3",
-    "retailer": "Zooplus",
-    "ingredients": "Composição: Frango e atum: Frango (26%), atum (26%). Atum e caranguejo: Atum (47%), miolo de caranguejo (5%). Atum e calamares: Atum (44%), calamares (8%). Atum e legumes: Atum (48,5%), milho (2,5%), cenoura (2,5%). Atum em gelatina de tomate: Atum (52%), tomate (3%). Frango em gelatina de tomate: Frango (52%), tomate (3%). Atum em gelatina de salmão: Atum (52%), salmão (3%). Atum em gelatina de caranguejo: Atum (52%), caranguejo (3%). Frango em gelatina de aves: Frango (52%), carne de aves (1%). Aditivos: O fabricante atesta que este alimento não contém aditivos.",
-    "nutrition_raw": "Proteína: 13.0%; Gordura: 1.0%; Fibra: 0.5%; Cinza: 1.5%; Humidade: 83.0%",
-    "description": "Comida húmida para gatos, em práticas saquetas, exclusivamente pedaços de filetes leves em gelatina delicada, sem cereais, com ingredientes de alta qualidade, fáceis de digerir, baixo em gordura.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Frango e atum: Frango (26%), atum (26%). Atum e caranguejo: Atum (47%), miolo de caranguejo (5%). Atum e calamares: Atum (44%), calamares (8%). Atum e legumes: Atum (48,5%), milho (2,5%), cenoura (2,5%). Atum em gelatina de tomate: Atum (52%), tomate (3%). Frango em gelatina de tomate: Frango (52%), tomate (3%). Atum em gelatina de salmão: Atum (52%), salmão (3%). Atum em gelatina de caranguejo: Atum (52%), caranguejo (3%). Frango em gelatina de aves: Frango (52%), carne de aves (1%). Aditivos: O fabricante atesta que este alimento não contém aditivos.",
-    "raw_nutrition_raw": "Proteína: 13.0%; Gordura: 1.0%; Fibra: 0.5%; Cinza: 1.5%; Humidade: 83.0%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 13.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 1.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 83.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 1.5,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 17.0,
-      "protein_dmb": 76.5,
-      "fat_dmb": 5.9,
-      "carbs_nfe": 1.0,
-      "carbs_dmb": 5.9,
-      "ca_p_ratio": null
-    },
-    "score": 57,
-    "tier": "Tier B (Médio-Alto / Boa Relação)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "has_sugar": false,
-    "has_grains": true,
-    "has_veg_protein": false,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "value_ratio": 4.12,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_material_conflict": false
-  },
-  {
-    "pid": "453033",
-    "name": "Miamor Filetes finos 1 x 100 g",
-    "brand": "Miamor",
-    "price": 1.49,
-    "unit_price_kg": 14.9,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/miamor/pack_experimentacao/453033?activeVariant=453033.11",
-    "retailer": "Zooplus",
-    "ingredients": "Composição Com frango e arroz em gelatina: Frango (52%), arroz (5%). Com frango e presunto em gelatina: Frango (48%), fiambre (6,5%). Com atum e ovo de codorniz em gelatina: Atum (52%), ovo de codorniz (5%). Com atum e queijo em gelatina: Atum (50%), queijo (6%). Com atum e legumes em gelatina: Atum (51%), milho (4%), cenouras (3%). Com atum e arroz em gelatina: Atum (53%), arroz (5%). Com atum e calamares em gelatina: Atum (51%), calamares (6%). Com atum e camarões em gelatina: Atum (40%), camarão (11%). Com frango em gelatina: Carne de frango (52%). Com atum gaiado em gelatina: Atum gaiado (55%). Com frango e massa: Frango (52%), massa (5%, cozinhada), tomate (2,8%). Frango e salmão em gelatina: Frango (48%), salmão (5%), amido de tapioca. Aditivos Segundo o fabricante, não contém aditivos.",
-    "nutrition_raw": "Proteína: 13.0%; Gordura: 1.0%; Fibra: 0.5%; Cinza: 1.5%; Humidade: 83.0%",
-    "description": "Alimento suplementar para gatos adultos, pedaços de filetes finos em gelatina, com baixo teor de gordura, adequado para gatos mais velhos e/ou com excesso de peso, sem subprodutos animais ou aditivos",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição Com frango e arroz em gelatina: Frango (52%), arroz (5%). Com frango e presunto em gelatina: Frango (48%), fiambre (6,5%). Com atum e ovo de codorniz em gelatina: Atum (52%), ovo de codorniz (5%). Com atum e queijo em gelatina: Atum (50%), queijo (6%). Com atum e legumes em gelatina: Atum (51%), milho (4%), cenouras (3%). Com atum e arroz em gelatina: Atum (53%), arroz (5%). Com atum e calamares em gelatina: Atum (51%), calamares (6%). Com atum e camarões em gelatina: Atum (40%), camarão (11%). Com frango em gelatina: Carne de frango (52%). Com atum gaiado em gelatina: Atum gaiado (55%). Com frango e massa: Frango (52%), massa (5%, cozinhada), tomate (2,8%). Frango e salmão em gelatina: Frango (48%), salmão (5%), amido de tapioca. Aditivos Segundo o fabricante, não contém aditivos.",
-    "raw_nutrition_raw": "Proteína: 13.0%; Gordura: 1.0%; Fibra: 0.5%; Cinza: 1.5%; Humidade: 83.0%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 13.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 1.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 83.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 1.5,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 17.0,
-      "protein_dmb": 76.5,
-      "fat_dmb": 5.9,
-      "carbs_nfe": 1.0,
-      "carbs_dmb": 5.9,
-      "ca_p_ratio": null
-    },
-    "score": 57,
-    "tier": "Tier B (Médio-Alto / Boa Relação)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "has_sugar": false,
-    "has_grains": true,
-    "has_veg_protein": false,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "value_ratio": 3.83,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_material_conflict": false
   },
   {
     "pid": "363278",
@@ -3577,7 +3322,7 @@
     "value_ratio": 3.09,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924905+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693499+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3674,7 +3419,7 @@
     "value_ratio": 4.89,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924925+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693517+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3771,7 +3516,7 @@
     "value_ratio": 4.64,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.924946+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693536+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3872,91 +3617,6 @@
     "has_material_conflict": false
   },
   {
-    "pid": "2106290",
-    "name": "animonda Carny Cat Drink 24 x 140 ml",
-    "brand": "Animonda Carny",
-    "price": 27.99,
-    "unit_price_kg": 8.33,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/animonda_snacks/2106290?activeVariant=2106290.0",
-    "retailer": "Zooplus",
-    "ingredients": "Composição: Frango: Carne e subprodutos de carne (5 % filetes de frango), subprodutos vegetais, minerais. Atum: Carne e subprodutos de carne, peixe e subprodutos de peixe (1,5 % atum), subprodutos vegetais, minerais. Pato: Carne e subprodutos animais (3,5% de filete de frango, 1,5% de pato), minerais, amido de tapioca. Salmão: Carne e subprodutos animais (3,5% de filete de frango), peixe e subprodutos de peixe (1,5% de salmão), minerais, amido de tapioca. Aditivos: Segundo o fabricante, não contém aditivos.",
-    "nutrition_raw": "Proteína: 2.1%; Gordura: 0.1%; Fibra: 0.5%; Cinza: 1.0%; Humidade: 96.0%",
-    "description": "Bebida saborosa para gatos adultos, com tiras macias de carne ou peixe, que promove o aumento da ingestão de líquidos. Sem cereais, soja e laticínios. Muito saborosa.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Frango: Carne e subprodutos de carne (5 % filetes de frango), subprodutos vegetais, minerais. Atum: Carne e subprodutos de carne, peixe e subprodutos de peixe (1,5 % atum), subprodutos vegetais, minerais. Pato: Carne e subprodutos animais (3,5% de filete de frango, 1,5% de pato), minerais, amido de tapioca. Salmão: Carne e subprodutos animais (3,5% de filete de frango), peixe e subprodutos de peixe (1,5% de salmão), minerais, amido de tapioca. Aditivos: Segundo o fabricante, não contém aditivos.",
-    "raw_nutrition_raw": "Proteína: 2.1%; Gordura: 0.1%; Fibra: 0.5%; Cinza: 1.0%; Humidade: 96.0%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 2.1,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 0.1,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 96.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 1.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 4.0,
-      "protein_dmb": 52.5,
-      "fat_dmb": 2.5,
-      "carbs_nfe": 0.3,
-      "carbs_dmb": 7.5,
-      "ca_p_ratio": null
-    },
-    "score": 50,
-    "tier": "Tier B (Médio-Alto / Boa Relação)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "has_sugar": false,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": 5,
-    "value_ratio": 6.0,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_material_conflict": false
-  },
-  {
     "pid": "2152843",
     "name": "Royal Canin Sterilized Kitten em geleia",
     "brand": "Royal Canin",
@@ -4038,7 +3698,7 @@
     "value_ratio": 3.06,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925163+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693731+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4135,7 +3795,7 @@
     "value_ratio": 2.37,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925187+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.693751+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4202,8 +3862,8 @@
         "status": "missing"
       },
       "magnesium": {
-        "value": null,
-        "status": "missing"
+        "value": 2.0,
+        "status": "valid"
       },
       "taurine": {
         "value": 520.0,
@@ -4487,7 +4147,7 @@
     "value_ratio": 3.9,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925493+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694028+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4584,7 +4244,7 @@
     "value_ratio": 3.68,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925514+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694048+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4766,7 +4426,7 @@
     "value_ratio": 2.51,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925630+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694157+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4863,7 +4523,7 @@
     "value_ratio": 3.08,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925653+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694179+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4960,7 +4620,7 @@
     "value_ratio": 2.71,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925686+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694211+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5057,7 +4717,7 @@
     "value_ratio": 5.49,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925709+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694233+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5154,7 +4814,7 @@
     "value_ratio": 5.29,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925753+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694284+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5251,7 +4911,7 @@
     "value_ratio": 4.58,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925775+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694309+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5348,7 +5008,7 @@
     "value_ratio": 4.21,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925796+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694332+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5445,7 +5105,7 @@
     "value_ratio": 3.32,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925817+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694356+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5542,7 +5202,7 @@
     "value_ratio": 3.21,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925839+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694381+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5639,7 +5299,7 @@
     "value_ratio": 2.53,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925863+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694406+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5736,7 +5396,7 @@
     "value_ratio": 4.59,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925887+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694431+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5833,7 +5493,7 @@
     "value_ratio": 3.23,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925911+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694455+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5930,7 +5590,7 @@
     "value_ratio": 2.45,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925936+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694482+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6027,7 +5687,7 @@
     "value_ratio": 3.31,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.925960+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694512+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6209,7 +5869,7 @@
     "value_ratio": 2.28,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926085+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694725+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6476,7 +6136,7 @@
     "value_ratio": 1.9,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926298+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.694997+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6573,7 +6233,7 @@
     "value_ratio": 1.79,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926323+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695031+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6670,7 +6330,7 @@
     "value_ratio": 1.7,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926350+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695058+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6767,7 +6427,7 @@
     "value_ratio": 1.66,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926375+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695082+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6832,8 +6492,8 @@
         "status": "valid"
       },
       "magnesium": {
-        "value": null,
-        "status": "missing"
+        "value": 0.0,
+        "status": "valid"
       },
       "taurine": {
         "value": null,
@@ -6864,7 +6524,7 @@
     "value_ratio": 1.66,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926402+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695108+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6961,7 +6621,7 @@
     "value_ratio": 1.59,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926429+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695133+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7028,8 +6688,8 @@
         "status": "missing"
       },
       "magnesium": {
-        "value": null,
-        "status": "missing"
+        "value": 2.0,
+        "status": "valid"
       },
       "taurine": {
         "value": 520.0,
@@ -7143,7 +6803,7 @@
     "value_ratio": 6.54,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926557+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695246+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7325,7 +6985,7 @@
     "value_ratio": 2.42,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926705+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695371+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7422,7 +7082,7 @@
     "value_ratio": 2.18,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926736+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695398+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7519,7 +7179,7 @@
     "value_ratio": 2.14,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926764+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695424+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7616,7 +7276,7 @@
     "value_ratio": 1.59,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926795+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695452+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7713,7 +7373,7 @@
     "value_ratio": 1.65,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926822+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695477+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7810,7 +7470,7 @@
     "value_ratio": 6.47,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926849+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695504+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7907,7 +7567,7 @@
     "value_ratio": 3.72,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926894+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695549+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8004,7 +7664,7 @@
     "value_ratio": 3.51,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926922+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695574+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8101,7 +7761,7 @@
     "value_ratio": 3.37,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926949+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695599+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8198,7 +7858,7 @@
     "value_ratio": 3.29,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.926977+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695625+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8295,7 +7955,7 @@
     "value_ratio": 3.11,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927010+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695655+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8392,7 +8052,7 @@
     "value_ratio": 2.51,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927039+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695683+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8489,7 +8149,7 @@
     "value_ratio": 2.33,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927070+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695711+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8586,7 +8246,7 @@
     "value_ratio": 2.11,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927101+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695739+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8683,7 +8343,7 @@
     "value_ratio": 1.94,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927130+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695766+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8780,7 +8440,7 @@
     "value_ratio": 1.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927160+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695793+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8877,7 +8537,7 @@
     "value_ratio": 1.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927194+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695825+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8974,7 +8634,7 @@
     "value_ratio": 1.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927225+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695853+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9071,7 +8731,7 @@
     "value_ratio": 1.59,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927254+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695882+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9168,7 +8828,7 @@
     "value_ratio": 1.47,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927283+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.695911+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9350,7 +9010,7 @@
     "value_ratio": 2.46,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927414+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696031+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9447,7 +9107,7 @@
     "value_ratio": 5.42,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927447+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696061+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9544,7 +9204,7 @@
     "value_ratio": 4.42,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927484+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696096+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9641,7 +9301,7 @@
     "value_ratio": 2.38,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927535+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696143+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9738,7 +9398,7 @@
     "value_ratio": 1.49,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927571+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696180+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9920,7 +9580,7 @@
     "value_ratio": 1.34,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927701+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696299+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10017,7 +9677,7 @@
     "value_ratio": 0.98,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927735+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696330+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10114,7 +9774,7 @@
     "value_ratio": 4.95,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927765+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696362+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10211,7 +9871,7 @@
     "value_ratio": 2.06,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927805+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696400+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10308,7 +9968,7 @@
     "value_ratio": 4.16,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927840+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696432+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10405,7 +10065,7 @@
     "value_ratio": 0.8,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927881+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696470+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10502,7 +10162,7 @@
     "value_ratio": 4.43,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927914+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696502+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10599,7 +10259,7 @@
     "value_ratio": 3.39,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.927967+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696550+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10696,7 +10356,7 @@
     "value_ratio": 2.44,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928011+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696591+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10793,7 +10453,7 @@
     "value_ratio": 2.01,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928054+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696630+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10890,7 +10550,7 @@
     "value_ratio": 1.69,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928092+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696664+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10987,7 +10647,7 @@
     "value_ratio": 4.43,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928141+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696709+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11084,7 +10744,7 @@
     "value_ratio": 4.32,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928180+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696745+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11181,7 +10841,7 @@
     "value_ratio": 3.93,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928220+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696781+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11278,7 +10938,7 @@
     "value_ratio": 3.9,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928258+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696817+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11375,7 +11035,7 @@
     "value_ratio": 3.88,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928294+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696856+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11472,7 +11132,7 @@
     "value_ratio": 3.8,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928333+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696891+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11569,7 +11229,7 @@
     "value_ratio": 3.74,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928372+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696926+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11666,7 +11326,7 @@
     "value_ratio": 3.73,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928412+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.696963+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11763,7 +11423,7 @@
     "value_ratio": 3.58,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928453+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697000+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11860,7 +11520,7 @@
     "value_ratio": 3.58,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928492+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697036+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11957,7 +11617,7 @@
     "value_ratio": 2.68,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928530+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697071+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12054,7 +11714,7 @@
     "value_ratio": 2.64,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928578+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697114+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12151,7 +11811,7 @@
     "value_ratio": 2.62,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928619+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697151+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12248,7 +11908,7 @@
     "value_ratio": 2.52,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928662+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697191+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12430,7 +12090,7 @@
     "value_ratio": 1.2,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928801+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697323+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12527,7 +12187,7 @@
     "value_ratio": 0.97,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928844+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697362+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12624,7 +12284,7 @@
     "value_ratio": 3.53,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928885+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697400+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12721,7 +12381,7 @@
     "value_ratio": 2.49,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928943+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697453+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12818,7 +12478,7 @@
     "value_ratio": 2.22,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.928988+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697493+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12915,7 +12575,7 @@
     "value_ratio": 2.02,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929037+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697538+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13012,7 +12672,7 @@
     "value_ratio": 1.96,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929087+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697584+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13109,7 +12769,7 @@
     "value_ratio": 1.31,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929135+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697627+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13206,7 +12866,7 @@
     "value_ratio": 1.12,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929178+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697666+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13303,7 +12963,7 @@
     "value_ratio": 1.13,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929219+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697703+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13485,7 +13145,7 @@
     "value_ratio": 1.54,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929351+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697834+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13582,7 +13242,7 @@
     "value_ratio": 1.45,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929406+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697889+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13679,7 +13339,7 @@
     "value_ratio": 1.24,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929460+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697944+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13776,7 +13436,7 @@
     "value_ratio": 1.22,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929509+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.697993+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13873,7 +13533,7 @@
     "value_ratio": 0.96,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929553+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698037+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13970,7 +13630,7 @@
     "value_ratio": 0.91,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929597+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698082+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14067,7 +13727,7 @@
     "value_ratio": 0.75,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929642+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698126+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14164,7 +13824,7 @@
     "value_ratio": 2.66,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929685+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698168+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14261,7 +13921,7 @@
     "value_ratio": 2.54,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929744+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698222+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14358,7 +14018,7 @@
     "value_ratio": 2.49,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929785+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698263+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14455,7 +14115,7 @@
     "value_ratio": 2.34,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929845+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698317+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14552,7 +14212,7 @@
     "value_ratio": 2.33,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929891+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698360+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14649,7 +14309,7 @@
     "value_ratio": 2.01,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929939+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698404+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14746,7 +14406,7 @@
     "value_ratio": 1.98,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.929998+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698457+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14843,7 +14503,7 @@
     "value_ratio": 1.94,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930047+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698502+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14940,7 +14600,7 @@
     "value_ratio": 1.86,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930107+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698557+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15037,7 +14697,7 @@
     "value_ratio": 1.74,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930177+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698619+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15134,7 +14794,7 @@
     "value_ratio": 1.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930229+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698667+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15231,7 +14891,7 @@
     "value_ratio": 1.56,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930274+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698712+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15328,7 +14988,7 @@
     "value_ratio": 1.51,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930324+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698761+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15425,7 +15085,7 @@
     "value_ratio": 1.36,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930374+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698811+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15522,7 +15182,7 @@
     "value_ratio": 1.26,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930432+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698869+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15619,7 +15279,7 @@
     "value_ratio": 1.19,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930482+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698920+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15716,7 +15376,7 @@
     "value_ratio": 1.02,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930527+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.698965+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15813,7 +15473,7 @@
     "value_ratio": 0.93,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930577+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699011+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15910,7 +15570,7 @@
     "value_ratio": 0.92,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930626+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699063+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16007,7 +15667,7 @@
     "value_ratio": 0.9,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930687+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699123+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16104,7 +15764,7 @@
     "value_ratio": 0.79,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930736+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699171+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16201,7 +15861,7 @@
     "value_ratio": 0.77,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930783+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699218+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16298,7 +15958,7 @@
     "value_ratio": 0.65,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930837+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699268+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16395,7 +16055,7 @@
     "value_ratio": 0.5,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930888+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699314+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16492,7 +16152,7 @@
     "value_ratio": 0.86,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930939+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699359+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16589,7 +16249,7 @@
     "value_ratio": 0.86,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.930988+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699404+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16686,7 +16346,7 @@
     "value_ratio": 0.75,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931039+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699449+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16783,7 +16443,7 @@
     "value_ratio": 0.71,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931090+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699498+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16848,8 +16508,8 @@
         "status": "valid"
       },
       "magnesium": {
-        "value": null,
-        "status": "missing"
+        "value": 4.0,
+        "status": "valid"
       },
       "taurine": {
         "value": null,
@@ -16880,7 +16540,7 @@
     "value_ratio": 0.69,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931140+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699559+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16977,7 +16637,7 @@
     "value_ratio": 0.64,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931191+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699606+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17074,7 +16734,7 @@
     "value_ratio": 0.63,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931242+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699652+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17171,7 +16831,7 @@
     "value_ratio": 0.62,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931289+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699697+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17268,7 +16928,7 @@
     "value_ratio": 0.62,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931341+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699748+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17365,7 +17025,7 @@
     "value_ratio": 1.5,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931394+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699800+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17462,7 +17122,7 @@
     "value_ratio": 1.37,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931465+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699872+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17559,7 +17219,7 @@
     "value_ratio": 0.63,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931531+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699938+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17656,7 +17316,7 @@
     "value_ratio": 1.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931588+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.699992+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17753,7 +17413,7 @@
     "value_ratio": 1.55,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931708+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700064+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17850,7 +17510,7 @@
     "value_ratio": 1.46,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931811+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700120+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17947,7 +17607,7 @@
     "value_ratio": 1.46,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931888+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700176+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18044,7 +17704,7 @@
     "value_ratio": 1.44,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.931948+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700226+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18141,7 +17801,7 @@
     "value_ratio": 1.43,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932013+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700281+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18152,6 +17812,112 @@
     },
     "shared_assessment": {
       "formulation_id": "zoo_whiskas_whiskas_1_adult_saquetas_84_x_85_g_wet",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "1855423",
+    "name": "PURINA ONE Junior 8 x 85 g",
+    "brand": "Purina One",
+    "price": 4.79,
+    "unit_price_kg": 7.04,
+    "pack_size": "",
+    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/junior/1855423?activeVariant=1855423.0",
+    "retailer": "Zooplus",
+    "ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+    "nutrition_raw": "Proteína: 12.5%, Matéria gorda: 4.0%, Fibra bruta: 0.5%, Cinza bruta: 2.5%, Humidade: 77.0%",
+    "description": "Comida húmida criada por especialistas para gatinhos no primeiro ano de vida, pedaços saborosos em molho, ácidos gordos ómega para a pele e pelo, DHA para o bom funcionamento do cérebro, vitaminas",
+    "is_reconciled": true,
+    "formulation_id": "purina_one_wet_adult_terrine",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição Frango : Carne e subprodutos animais (dos quais 4% frango), extratos de proteínas vegetais, peixe e subprodutos de peixe, óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Salmão : Carne e subprodutos animais, extratos de proteínas vegetais, peixe e subprodutos de peixe (salmão 4%), óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Aditivos Aditivos nutricionais: Vitamina A (1 230 UI/kg), vitamina D3 (171 UI/kg), vitamina E (300 mg/kg), sulfato ferroso mono-hidratado (14,9 mg/kg), iodato de cálcio anidro (0,43 mg/kg), sulfato de cobre penta-hidratado (1,1 mg/kg), sulfato de manganês mono-hidratado (2 mg/kg), sulfato de zinco mono-hidratado (21,4 mg/kg), taurina (700 mg/kg), Com antioxidantes. Constituintes analíticos: Frango : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,1%, DHA 0,07%. Salmão : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,09%, DHA 0,07%.",
+        "verified_value": "Carnes e subprodutos animais, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation"
+    ],
+    "raw_ingredients": "Composição Frango : Carne e subprodutos animais (dos quais 4% frango), extratos de proteínas vegetais, peixe e subprodutos de peixe, óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Salmão : Carne e subprodutos animais, extratos de proteínas vegetais, peixe e subprodutos de peixe (salmão 4%), óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Aditivos Aditivos nutricionais: Vitamina A (1 230 UI/kg), vitamina D3 (171 UI/kg), vitamina E (300 mg/kg), sulfato ferroso mono-hidratado (14,9 mg/kg), iodato de cálcio anidro (0,43 mg/kg), sulfato de cobre penta-hidratado (1,1 mg/kg), sulfato de manganês mono-hidratado (2 mg/kg), sulfato de zinco mono-hidratado (21,4 mg/kg), taurina (700 mg/kg), Com antioxidantes. Constituintes analíticos: Frango : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,1%, DHA 0,07%. Salmão : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,09%, DHA 0,07%.",
+    "raw_nutrition_raw": "",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 12.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 77.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 23.0,
+      "protein_dmb": 54.3,
+      "fat_dmb": 17.4,
+      "carbs_nfe": 3.5,
+      "carbs_dmb": 15.2,
+      "ca_p_ratio": null
+    },
+    "score": 10,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": true,
+    "has_grains": false,
+    "has_veg_protein": true,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "high_meat_pct": null,
+    "value_ratio": 1.42,
+    "carb_band": "10-20% DMB (Moderado)",
+    "has_material_conflict": false,
+    "raw_classification": "Completo",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703709+00:00",
+    "reconciliation_sources": {
+      "retailer": "zooplus",
+      "pid": "1855423",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "purina_one_wet_adult_terrine",
       "source": "verified_shared_formulation",
       "is_ranked": true
     }
@@ -18238,7 +18004,7 @@
     "value_ratio": 1.41,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932096+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700353+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18335,7 +18101,7 @@
     "value_ratio": 1.34,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932158+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700408+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18432,7 +18198,7 @@
     "value_ratio": 1.31,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932222+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700464+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18529,7 +18295,7 @@
     "value_ratio": 1.28,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932280+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700514+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18626,7 +18392,7 @@
     "value_ratio": 1.28,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932351+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700577+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18723,7 +18489,7 @@
     "value_ratio": 1.16,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932411+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700629+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18820,7 +18586,7 @@
     "value_ratio": 1.11,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932477+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700693+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18917,7 +18683,7 @@
     "value_ratio": 1.1,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932534+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700753+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19014,7 +18780,7 @@
     "value_ratio": 1.02,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932596+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700823+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19111,7 +18877,7 @@
     "value_ratio": 1.02,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932667+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700881+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19208,7 +18974,7 @@
     "value_ratio": 0.93,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932728+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.700942+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19305,7 +19071,7 @@
     "value_ratio": 0.91,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932805+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701029+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19402,7 +19168,7 @@
     "value_ratio": 0.87,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932874+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701104+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19413,6 +19179,112 @@
     },
     "shared_assessment": {
       "formulation_id": "zoo_kattovit_kattovit_niere_renal_em_saquetas_24_x_85_g_pack_econ_mico_wet",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "2175611",
+    "name": "PURINA ONE Cat Sterilized",
+    "brand": "Purina One",
+    "price": 7.79,
+    "unit_price_kg": 11.46,
+    "pack_size": "",
+    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/esterilizados/2175611?activeVariant=2175611.0",
+    "retailer": "Zooplus",
+    "ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+    "nutrition_raw": "Proteína: 12.5%, Matéria gorda: 4.0%, Fibra bruta: 0.5%, Cinza bruta: 2.5%, Humidade: 77.0%",
+    "description": "Alimento húmido equilibrado para gatos esterilizados ou castrados, para apoiar o metabolismo, pedaços tenros de carne com legumes em molho, com vitamina E como antioxidante, teor energético adaptado",
+    "is_reconciled": true,
+    "formulation_id": "purina_one_wet_adult_terrine",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Frango e feijão verde: carne e subprodutos animais (incluindo 4% de frango), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de feijão verde desidratado, ou seja, 5,4% de feijão verde), minerais, óleos e gorduras, açúcar. Salmão e cenouras: carne e subprodutos animais, extrato de proteínas vegetais, peixe e subprodutos de peixe (incluindo 4% de salmão), subprodutos vegetais, verduras (5% de cenouras desidratadas), minerais, óleos e gorduras, açúcar. Peru e feijão verde: carne e subprodutos animais (incluindo 4% de peru), extrato de proteínas vegetais, verduras (5% de feijão verde desidratado), peixe e subprodutos de peixe, subprodutos vegetais, minerais, óleos e gorduras, açúcar. Carne e cenouras: carne e subprodutos animais (incluindo 4% de vitela), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de cenouras desidratadas, ou seja, 5,4% de cenouras), minerais, óleos e gorduras, açúcar. Aditivos: Aditivos nutricionais: vitamina A (1.150 UI/kg), vitamina E (325 UI/kg), vitamina D3 (160 UI/kg), taurina (490 mg/kg), zinco (81 mg/kg), ferro (33 mg/kg), cobre (4,1 mg/kg), manganês (5,9 mg/kg), iodo (0,65 mg/kg), selênio (0,054 mg/kg).",
+        "verified_value": "Carnes e subprodutos animais, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation"
+    ],
+    "raw_ingredients": "Composição: Frango e feijão verde: carne e subprodutos animais (incluindo 4% de frango), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de feijão verde desidratado, ou seja, 5,4% de feijão verde), minerais, óleos e gorduras, açúcar. Salmão e cenouras: carne e subprodutos animais, extrato de proteínas vegetais, peixe e subprodutos de peixe (incluindo 4% de salmão), subprodutos vegetais, verduras (5% de cenouras desidratadas), minerais, óleos e gorduras, açúcar. Peru e feijão verde: carne e subprodutos animais (incluindo 4% de peru), extrato de proteínas vegetais, verduras (5% de feijão verde desidratado), peixe e subprodutos de peixe, subprodutos vegetais, minerais, óleos e gorduras, açúcar. Carne e cenouras: carne e subprodutos animais (incluindo 4% de vitela), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de cenouras desidratadas, ou seja, 5,4% de cenouras), minerais, óleos e gorduras, açúcar. Aditivos: Aditivos nutricionais: vitamina A (1.150 UI/kg), vitamina E (325 UI/kg), vitamina D3 (160 UI/kg), taurina (490 mg/kg), zinco (81 mg/kg), ferro (33 mg/kg), cobre (4,1 mg/kg), manganês (5,9 mg/kg), iodo (0,65 mg/kg), selênio (0,054 mg/kg).",
+    "raw_nutrition_raw": "",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 12.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 77.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 23.0,
+      "protein_dmb": 54.3,
+      "fat_dmb": 17.4,
+      "carbs_nfe": 3.5,
+      "carbs_dmb": 15.2,
+      "ca_p_ratio": null
+    },
+    "score": 10,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": true,
+    "has_grains": false,
+    "has_veg_protein": true,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "value_ratio": 0.87,
+    "carb_band": "10-20% DMB (Moderado)",
+    "has_material_conflict": false,
+    "raw_classification": "Completo",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.705651+00:00",
+    "reconciliation_sources": {
+      "retailer": "zooplus",
+      "pid": "2175611",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "purina_one_wet_adult_terrine",
       "source": "verified_shared_formulation",
       "is_ranked": true
     }
@@ -19499,7 +19371,7 @@
     "value_ratio": 0.86,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932931+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701165+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19596,7 +19468,7 @@
     "value_ratio": 0.85,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.932987+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701220+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19607,6 +19479,119 @@
     },
     "shared_assessment": {
       "formulation_id": "zoo_kattovit_kattovit_kidney_renal_em_saquetas_12_x_85_g_pack_misto_wet",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "2490080",
+    "name": "PURINA ONE Adult Terrine",
+    "brand": "Purina One",
+    "price": 23.99,
+    "unit_price_kg": 11.76,
+    "pack_size": "",
+    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/adultos/2490080?activeVariant=2490080.1",
+    "retailer": "Zooplus",
+    "ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+    "nutrition_raw": "Proteína: 12.5%, Matéria gorda: 4.0%, Fibra bruta: 0.5%, Cinza bruta: 2.5%, Humidade: 77.0%",
+    "description": "Comida húmida completa para gatos adultos Fibra solúvel para ajudar a digestão Muita proteína animal e vegetais ricos em nutrientes vitais Ácidos gordos para a pele e pelo Taurina e vitaminas",
+    "is_reconciled": true,
+    "formulation_id": "purina_one_wet_adult_terrine",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição Salmão e cenouras: Carne e subprodutos animais, peixe e subprodutos de peixe (salmão 4%), legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Frango e cenouras: Carne e subprodutos animais (dos quais frango 4%), peixe e subprodutos de peixe, legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Aditivos Aditivos nutricionais: Frango e cenouras: Vitamina A (778 UI/kg), vitamina D3 (108 UI/kg), vitamina E (304 UI/kg), ferro [como sulfato ferroso mono-hidratado] (9,4 mg/kg), iodo [como iodato de cálcio anidro] (0,27 mg/kg), cobre [na forma de sulfato de cobre penta-hidratado] (0,7 mg/kg), manganês [na forma de sulfato de manganês mono-hidratado] (1,3 mg/kg Mn), zinco [na forma de sulfato de zinco mono-hidratado] (13 mg/kg), taurina (350 mg/kg). Salmão e cenouras: Vitamina A (983 UI/kg), vitamina D3 (137 UI/kg), vitamina E (336 UI/kg), ferro [como sulfato ferroso mono-hidratado] (11,9 mg/kg), iodo [como iodato de cálcio anidro] (0,35 mg/kg), cobre [sob a forma de sulfato de cobre penta-hidratado] (0,89 mg/kg), manganês [sob a forma de sulfato de manganês mono-hidratado] (1,6 mg/kg Mn), zinco [sob a forma de sulfato de zinco mono-hidratado] (17 mg/kg), taurina (400 mg/kg). Aditivos tecnológicos: Goma de cássia (2.100 mg/kg). Aditivos organoléticos: Aromas. Constituintes analíticos Frango e cenouras: Humidade (77%), proteína bruta (12%), gordura bruta (5,5%), cinza bruta (3%), fibra bruta (0,3%), fibra solúvel (0,7%), ácidos gordos ómega 3 (0,09%), ácidos gordos ómega 6 (0,7%). Salmão e cenouras: Humidade (77%), proteína bruta (12,5%), gordura bruta (4,5%), cinza bruta (3%), fibra bruta (0,07%), fibra solúvel (0,6%), ácidos gordos ómega 3 (0,1%), ácidos gordos ómega 6 (0,7%).",
+        "verified_value": "Carnes e subprodutos animais, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Proteína: 12.5%; Fibra: 0.07%; Cinza: 3.0%; Humidade: 77.0%; Ácidos gordos Omega-3: 0.1%; Ácidos gordos Omega-6: 0.7%",
+        "verified_value": "Proteína: 12.5%, Matéria gorda: 4.0%, Fibra bruta: 0.5%, Cinza bruta: 2.5%, Humidade: 77.0%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation"
+    ],
+    "raw_ingredients": "Composição Salmão e cenouras: Carne e subprodutos animais, peixe e subprodutos de peixe (salmão 4%), legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Frango e cenouras: Carne e subprodutos animais (dos quais frango 4%), peixe e subprodutos de peixe, legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Aditivos Aditivos nutricionais: Frango e cenouras: Vitamina A (778 UI/kg), vitamina D3 (108 UI/kg), vitamina E (304 UI/kg), ferro [como sulfato ferroso mono-hidratado] (9,4 mg/kg), iodo [como iodato de cálcio anidro] (0,27 mg/kg), cobre [na forma de sulfato de cobre penta-hidratado] (0,7 mg/kg), manganês [na forma de sulfato de manganês mono-hidratado] (1,3 mg/kg Mn), zinco [na forma de sulfato de zinco mono-hidratado] (13 mg/kg), taurina (350 mg/kg). Salmão e cenouras: Vitamina A (983 UI/kg), vitamina D3 (137 UI/kg), vitamina E (336 UI/kg), ferro [como sulfato ferroso mono-hidratado] (11,9 mg/kg), iodo [como iodato de cálcio anidro] (0,35 mg/kg), cobre [sob a forma de sulfato de cobre penta-hidratado] (0,89 mg/kg), manganês [sob a forma de sulfato de manganês mono-hidratado] (1,6 mg/kg Mn), zinco [sob a forma de sulfato de zinco mono-hidratado] (17 mg/kg), taurina (400 mg/kg). Aditivos tecnológicos: Goma de cássia (2.100 mg/kg). Aditivos organoléticos: Aromas. Constituintes analíticos Frango e cenouras: Humidade (77%), proteína bruta (12%), gordura bruta (5,5%), cinza bruta (3%), fibra bruta (0,3%), fibra solúvel (0,7%), ácidos gordos ómega 3 (0,09%), ácidos gordos ómega 6 (0,7%). Salmão e cenouras: Humidade (77%), proteína bruta (12,5%), gordura bruta (4,5%), cinza bruta (3%), fibra bruta (0,07%), fibra solúvel (0,6%), ácidos gordos ómega 3 (0,1%), ácidos gordos ómega 6 (0,7%).",
+    "raw_nutrition_raw": "Proteína: 12.5%; Fibra: 0.07%; Cinza: 3.0%; Humidade: 77.0%; Ácidos gordos Omega-3: 0.1%; Ácidos gordos Omega-6: 0.7%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 12.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 77.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 23.0,
+      "protein_dmb": 54.3,
+      "fat_dmb": 17.4,
+      "carbs_nfe": 3.5,
+      "carbs_dmb": 15.2,
+      "ca_p_ratio": null
+    },
+    "score": 10,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": true,
+    "has_grains": false,
+    "has_veg_protein": true,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": true,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "value_ratio": 0.85,
+    "carb_band": "10-20% DMB (Moderado)",
+    "has_material_conflict": false,
+    "raw_classification": "Completo",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.705877+00:00",
+    "reconciliation_sources": {
+      "retailer": "zooplus",
+      "pid": "2490080",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "purina_one_wet_adult_terrine",
       "source": "verified_shared_formulation",
       "is_ranked": true
     }
@@ -19693,7 +19678,7 @@
     "value_ratio": 0.82,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933049+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701280+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19790,7 +19775,7 @@
     "value_ratio": 0.81,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933107+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701339+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19887,7 +19872,7 @@
     "value_ratio": 0.8,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933164+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701397+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19984,7 +19969,7 @@
     "value_ratio": 0.8,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933260+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701501+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20081,7 +20066,7 @@
     "value_ratio": 0.74,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933312+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701558+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20178,7 +20163,7 @@
     "value_ratio": 0.72,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933365+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701616+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20275,7 +20260,7 @@
     "value_ratio": 0.71,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933419+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701680+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20372,7 +20357,7 @@
     "value_ratio": 0.7,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933476+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701751+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20469,7 +20454,7 @@
     "value_ratio": 0.65,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933531+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701806+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20566,7 +20551,7 @@
     "value_ratio": 0.65,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933586+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701864+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20663,7 +20648,7 @@
     "value_ratio": 0.64,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933641+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701924+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20760,7 +20745,7 @@
     "value_ratio": 0.63,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933696+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.701987+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20857,7 +20842,7 @@
     "value_ratio": 0.63,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933754+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702051+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20954,7 +20939,7 @@
     "value_ratio": 0.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933811+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702113+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21051,7 +21036,7 @@
     "value_ratio": 0.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933869+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702175+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21148,7 +21133,7 @@
     "value_ratio": 0.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933927+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702232+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21159,6 +21144,112 @@
     },
     "shared_assessment": {
       "formulation_id": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_nf_advance_care_veterinary_diets_com_frango_wet",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "436769",
+    "name": "Royal Canin Mother & Babycat Ultra Soft Mousse",
+    "brand": "Royal Canin",
+    "price": 38.99,
+    "unit_price_kg": 16.66,
+    "pack_size": "",
+    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/436769?activeVariant=436769.8",
+    "retailer": "Zooplus",
+    "ingredients": "Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, substâncias minerais, açúcares, leveduras, óleos e gorduras.",
+    "nutrition_raw": "Proteína: 12.0%, Matéria gorda: 4.0%, Cinza bruta: 1.8%, Fibra bruta: 0.8%, Humidade: 78.5%",
+    "description": "Nova receita! Comida húmida especial para gatas e gatinhos em crescimento (até 4 meses), patê cremoso para a transição do leite materno para a alimentação sólida, com prebióticos.",
+    "is_reconciled": true,
+    "formulation_id": "royal_canin_kitten_mousse_wet",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carne e subprodutos, óleos e gorduras, cereais, leite e laticínios, subprodutos de origem vegetal, minerais, levedura. Aditivos Aditivos nutricionais: Vitamina D3 (120 UI/kg), ferro [3b103] (5 mg/kg), iodo [3b202] (0,4 mg/kg), cobre [3b405, 3b406] (3,3 mg/kg), manganês [3b502, 3b503, 3b504] (1,5 mg/kg), zinco [3b603, 3b605, 3b606] (15 mg/kg).",
+        "verified_value": "Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, substâncias minerais, açúcares, leveduras, óleos e gorduras.",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation"
+    ],
+    "raw_ingredients": "Composição: Carne e subprodutos, óleos e gorduras, cereais, leite e laticínios, subprodutos de origem vegetal, minerais, levedura. Aditivos Aditivos nutricionais: Vitamina D3 (120 UI/kg), ferro [3b103] (5 mg/kg), iodo [3b202] (0,4 mg/kg), cobre [3b405, 3b406] (3,3 mg/kg), manganês [3b502, 3b503, 3b504] (1,5 mg/kg), zinco [3b603, 3b605, 3b606] (15 mg/kg).",
+    "raw_nutrition_raw": "",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 78.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 1.8,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.8,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 21.5,
+      "protein_dmb": 55.8,
+      "fat_dmb": 18.6,
+      "carbs_nfe": 2.9,
+      "carbs_dmb": 13.5,
+      "ca_p_ratio": null
+    },
+    "score": 10,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": true,
+    "has_grains": true,
+    "has_veg_protein": true,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "value_ratio": 0.6,
+    "carb_band": "10-20% DMB (Moderado)",
+    "has_material_conflict": false,
+    "raw_classification": "Completo",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703810+00:00",
+    "reconciliation_sources": {
+      "retailer": "zooplus",
+      "pid": "436769",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "royal_canin_kitten_mousse_wet",
       "source": "verified_shared_formulation",
       "is_ranked": true
     }
@@ -21245,7 +21336,7 @@
     "value_ratio": 0.58,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.933984+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702288+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21342,7 +21433,7 @@
     "value_ratio": 0.57,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934043+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702350+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21439,7 +21530,7 @@
     "value_ratio": 0.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934105+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702419+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21536,7 +21627,7 @@
     "value_ratio": 0.56,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934163+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702482+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21633,7 +21724,7 @@
     "value_ratio": 0.55,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934221+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702545+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21730,7 +21821,7 @@
     "value_ratio": 0.55,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934280+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702609+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21827,7 +21918,7 @@
     "value_ratio": 0.54,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934339+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702673+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22009,7 +22100,7 @@
     "value_ratio": 0.52,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934488+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702828+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22106,7 +22197,7 @@
     "value_ratio": 0.51,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934549+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702891+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22117,6 +22208,119 @@
     },
     "shared_assessment": {
       "formulation_id": "zoo_royal_canin_royal_canin_sterilised_mousse_para_gatos_wet",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "673387",
+    "name": "Royal Canin Kitten Mousse",
+    "brand": "Royal Canin",
+    "price": 19.99,
+    "unit_price_kg": 19.6,
+    "pack_size": "",
+    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/673387?activeVariant=673387.2",
+    "retailer": "Zooplus",
+    "ingredients": "Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, substâncias minerais, açúcares, leveduras, óleos e gorduras.",
+    "nutrition_raw": "Proteína: 12.0%, Matéria gorda: 4.0%, Cinza bruta: 1.8%, Fibra bruta: 0.8%, Humidade: 78.5%",
+    "description": "Alimento húmido para gatinhos na 2.ª fase de crescimento até aos 12 meses Mousse fácil de mastigar Pode apoiar o desenvolvimento normal do cérebro, da visão e do sistema imunitário Fornece minerais",
+    "is_reconciled": true,
+    "formulation_id": "royal_canin_kitten_mousse_wet",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carne e subprodutos animais, extratos de proteínas vegetais, subprodutos vegetais, cereais, minerais, vegetais, óleos e gorduras, leveduras. Aditivos: Aditivos nutricionais: Vitamina D3: 120 UI, ferro (3b103): 3 mg, iodo (3b202): 0,42 mg, cobre (3b405, 3b406): 3,3 mg, manganês (3b502, 3b503, 3b504): 0,8 mg, zinco (3b603, 3b605, 3b606): 8 mg.",
+        "verified_value": "Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, substâncias minerais, açúcares, leveduras, óleos e gorduras.",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Proteína: 12.0%; Gordura: 3.3%; Fibra: 1.3%; Cinza: 2.0%",
+        "verified_value": "Proteína: 12.0%, Matéria gorda: 4.0%, Cinza bruta: 1.8%, Fibra bruta: 0.8%, Humidade: 78.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation"
+    ],
+    "raw_ingredients": "Composição: Carne e subprodutos animais, extratos de proteínas vegetais, subprodutos vegetais, cereais, minerais, vegetais, óleos e gorduras, leveduras. Aditivos: Aditivos nutricionais: Vitamina D3: 120 UI, ferro (3b103): 3 mg, iodo (3b202): 0,42 mg, cobre (3b405, 3b406): 3,3 mg, manganês (3b502, 3b503, 3b504): 0,8 mg, zinco (3b603, 3b605, 3b606): 8 mg.",
+    "raw_nutrition_raw": "Proteína: 12.0%; Gordura: 3.3%; Fibra: 1.3%; Cinza: 2.0%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 78.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 1.8,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.8,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 21.5,
+      "protein_dmb": 55.8,
+      "fat_dmb": 18.6,
+      "carbs_nfe": 2.9,
+      "carbs_dmb": 13.5,
+      "ca_p_ratio": null
+    },
+    "score": 10,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": true,
+    "has_grains": true,
+    "has_veg_protein": true,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "value_ratio": 0.51,
+    "carb_band": "10-20% DMB (Moderado)",
+    "has_material_conflict": false,
+    "raw_classification": "Completo",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.704226+00:00",
+    "reconciliation_sources": {
+      "retailer": "zooplus",
+      "pid": "673387",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "royal_canin_kitten_mousse_wet",
       "source": "verified_shared_formulation",
       "is_ranked": true
     }
@@ -22203,7 +22407,7 @@
     "value_ratio": 0.49,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934607+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.702956+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22300,7 +22504,7 @@
     "value_ratio": 0.49,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934664+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703018+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22397,7 +22601,7 @@
     "value_ratio": 0.47,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934737+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703105+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22494,7 +22698,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934797+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703176+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22591,7 +22795,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934856+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703247+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22688,7 +22892,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934916+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703311+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22785,7 +22989,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.934976+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703376+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22882,7 +23086,7 @@
     "value_ratio": 0.43,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.935053+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703444+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22979,7 +23183,7 @@
     "value_ratio": 0.4,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.935115+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.703512+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23079,180 +23283,6 @@
     "high_meat_pct": null,
     "value_ratio": null,
     "carb_band": "<10% DMB (Ideal)",
-    "has_material_conflict": false
-  },
-  {
-    "pid": "1855423",
-    "name": "PURINA ONE Junior 8 x 85 g",
-    "brand": "Purina One",
-    "price": 4.79,
-    "unit_price_kg": 7.04,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/junior/1855423?activeVariant=1855423.0",
-    "retailer": "Zooplus",
-    "ingredients": "Composição Frango : Carne e subprodutos animais (dos quais 4% frango), extratos de proteínas vegetais, peixe e subprodutos de peixe, óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Salmão : Carne e subprodutos animais, extratos de proteínas vegetais, peixe e subprodutos de peixe (salmão 4%), óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Aditivos Aditivos nutricionais: Vitamina A (1 230 UI/kg), vitamina D3 (171 UI/kg), vitamina E (300 mg/kg), sulfato ferroso mono-hidratado (14,9 mg/kg), iodato de cálcio anidro (0,43 mg/kg), sulfato de cobre penta-hidratado (1,1 mg/kg), sulfato de manganês mono-hidratado (2 mg/kg), sulfato de zinco mono-hidratado (21,4 mg/kg), taurina (700 mg/kg), Com antioxidantes. Constituintes analíticos: Frango : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,1%, DHA 0,07%. Salmão : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,09%, DHA 0,07%.",
-    "nutrition_raw": "",
-    "description": "Comida húmida criada por especialistas para gatinhos no primeiro ano de vida, pedaços saborosos em molho, ácidos gordos ómega para a pele e pelo, DHA para o bom funcionamento do cérebro, vitaminas",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição Frango : Carne e subprodutos animais (dos quais 4% frango), extratos de proteínas vegetais, peixe e subprodutos de peixe, óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Salmão : Carne e subprodutos animais, extratos de proteínas vegetais, peixe e subprodutos de peixe (salmão 4%), óleos e gorduras, subprodutos vegetais, minerais, vegetais (0,6% cenouras desidratadas, corresponde a 5,4% cenouras), açúcares diversos. Aditivos Aditivos nutricionais: Vitamina A (1 230 UI/kg), vitamina D3 (171 UI/kg), vitamina E (300 mg/kg), sulfato ferroso mono-hidratado (14,9 mg/kg), iodato de cálcio anidro (0,43 mg/kg), sulfato de cobre penta-hidratado (1,1 mg/kg), sulfato de manganês mono-hidratado (2 mg/kg), sulfato de zinco mono-hidratado (21,4 mg/kg), taurina (700 mg/kg), Com antioxidantes. Constituintes analíticos: Frango : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,1%, DHA 0,07%. Salmão : Humidade 78,0%, proteína 12,5%, gordura 4,0%, cinza bruta 2,4%, fibra bruta 0,5%, fibras solúveis 0,5%, ácidos gordos ómega 3 0,2%, ácidos gordos ómega 6 1,09%, DHA 0,07%.",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "high_meat_pct": null,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_material_conflict": false
-  },
-  {
-    "pid": "436769",
-    "name": "Royal Canin Mother & Babycat Ultra Soft Mousse",
-    "brand": "Royal Canin",
-    "price": 38.99,
-    "unit_price_kg": 16.66,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/436769?activeVariant=436769.8",
-    "retailer": "Zooplus",
-    "ingredients": "Composição: Carne e subprodutos, óleos e gorduras, cereais, leite e laticínios, subprodutos de origem vegetal, minerais, levedura. Aditivos Aditivos nutricionais: Vitamina D3 (120 UI/kg), ferro [3b103] (5 mg/kg), iodo [3b202] (0,4 mg/kg), cobre [3b405, 3b406] (3,3 mg/kg), manganês [3b502, 3b503, 3b504] (1,5 mg/kg), zinco [3b603, 3b605, 3b606] (15 mg/kg).",
-    "nutrition_raw": "",
-    "description": "Nova receita! Comida húmida especial para gatas e gatinhos em crescimento (até 4 meses), patê cremoso para a transição do leite materno para a alimentação sólida, com prebióticos.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Carne e subprodutos, óleos e gorduras, cereais, leite e laticínios, subprodutos de origem vegetal, minerais, levedura. Aditivos Aditivos nutricionais: Vitamina D3 (120 UI/kg), ferro [3b103] (5 mg/kg), iodo [3b202] (0,4 mg/kg), cobre [3b405, 3b406] (3,3 mg/kg), manganês [3b502, 3b503, 3b504] (1,5 mg/kg), zinco [3b603, 3b605, 3b606] (15 mg/kg).",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "has_sugar": false,
-    "has_grains": true,
-    "has_veg_protein": true,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "value_ratio": null,
-    "carb_band": "N/D",
     "has_material_conflict": false
   },
   {
@@ -23427,180 +23457,6 @@
     "high_meat_pct": null,
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
-    "has_material_conflict": false
-  },
-  {
-    "pid": "2513485",
-    "name": "Sheba Fillets 6 x 60 g",
-    "brand": "Sheba",
-    "price": 10.29,
-    "unit_price_kg": 28.58,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_terrinas/2513485?activeVariant=2513485.0",
-    "retailer": "Zooplus",
-    "ingredients": "Composição Pack misto I (3 variedades): rico em atum e frango: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 15%), peixe e subprodutos de peixe* (filete de atum MSC 14%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Peixe branco: Peixe e subprodutos de peixe* (filete de peixe branco ASC 26%), carne e subprodutos de origem animal* (incluindo filetes de peito de frango 5%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Aves com salmão: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 25%), peixe e subprodutos de peixe* (filete de salmão certificado ASC 4%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Pack misto II (3 variedades): Frango: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 29%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Frango com camarões e peixe do mar: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 24%), peixe e subprodutos de peixe* (filete de atum MSC 4%), moluscos e crustáceos* (camarões ASC 4%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. com salmão e atum: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 21%), peixe e subprodutos de peixe* (filete de salmão ASC 4% e filete de atum MSC 4%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Aditivos Segundo o fabricante, não contém aditivos. Constituintes analíticos rico em atum e frango: Proteína: 10,5%; teor de gordura: 0,7%; matéria inorgânica: 0,7%; fibra bruta: 0,1%; humidade: 85%, [37 kcal em 60 g] Peixe branco: Proteína: 9,5%; teor de gordura: 0,8%; matéria inorgânica: 0,8%; fibra bruta: 0,1%; humidade: 86%. [34 kcal em 60 g] Aves com salmão: Proteína: 11%; teor de gordura: 1,5%; matéria inorgânica: 0,9%; fibra bruta: 0,3%; humidade: 84,5%. [39 kcal em 60 g] Frango: Proteína: 10%; teor de gordura: 1%; matéria inorgânica: 0,8%; fibra bruta: 0,1%; humidade: 84%. [39 kcal em 60 g]. Frango com camarões e peixe do mar: Proteína: 11,5%; teor de gordura: 0,8%; matéria inorgânica: 0,8%; fibra bruta: 0,1%; humidade: 85%. [37 kcal em 60 g] com salmão e atum: Proteína: 11%; teor de gordura: 1,4%; matéria inorgânica: 1%; fibra bruta: 0,3%; humidade: 84%. [40 kcal em 60 g]",
-    "nutrition_raw": "",
-    "description": "Filetes delicados em molho aromático para o seu gato Com ingredientes naturais, sem aditivos Pack misto traz variedade à tigela de comida Alto teor de humidade Em terrinas práticas",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição Pack misto I (3 variedades): rico em atum e frango: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 15%), peixe e subprodutos de peixe* (filete de atum MSC 14%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Peixe branco: Peixe e subprodutos de peixe* (filete de peixe branco ASC 26%), carne e subprodutos de origem animal* (incluindo filetes de peito de frango 5%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Aves com salmão: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 25%), peixe e subprodutos de peixe* (filete de salmão certificado ASC 4%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Pack misto II (3 variedades): Frango: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 29%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Frango com camarões e peixe do mar: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 24%), peixe e subprodutos de peixe* (filete de atum MSC 4%), moluscos e crustáceos* (camarões ASC 4%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. com salmão e atum: Carne e subprodutos de origem animal* (incluindo filetes de peito de frango 21%), peixe e subprodutos de peixe* (filete de salmão ASC 4% e filete de atum MSC 4%), subprodutos de origem vegetal, extratos de proteínas vegetais. *Natural. Aditivos Segundo o fabricante, não contém aditivos. Constituintes analíticos rico em atum e frango: Proteína: 10,5%; teor de gordura: 0,7%; matéria inorgânica: 0,7%; fibra bruta: 0,1%; humidade: 85%, [37 kcal em 60 g] Peixe branco: Proteína: 9,5%; teor de gordura: 0,8%; matéria inorgânica: 0,8%; fibra bruta: 0,1%; humidade: 86%. [34 kcal em 60 g] Aves com salmão: Proteína: 11%; teor de gordura: 1,5%; matéria inorgânica: 0,9%; fibra bruta: 0,3%; humidade: 84,5%. [39 kcal em 60 g] Frango: Proteína: 10%; teor de gordura: 1%; matéria inorgânica: 0,8%; fibra bruta: 0,1%; humidade: 84%. [39 kcal em 60 g]. Frango com camarões e peixe do mar: Proteína: 11,5%; teor de gordura: 0,8%; matéria inorgânica: 0,8%; fibra bruta: 0,1%; humidade: 85%. [37 kcal em 60 g] com salmão e atum: Proteína: 11%; teor de gordura: 1,4%; matéria inorgânica: 1%; fibra bruta: 0,3%; humidade: 84%. [40 kcal em 60 g]",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "has_sugar": false,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": 29,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_material_conflict": false
-  },
-  {
-    "pid": "673387",
-    "name": "Royal Canin Kitten Mousse",
-    "brand": "Royal Canin",
-    "price": 19.99,
-    "unit_price_kg": 19.6,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/673387?activeVariant=673387.2",
-    "retailer": "Zooplus",
-    "ingredients": "Composição: Carne e subprodutos animais, extratos de proteínas vegetais, subprodutos vegetais, cereais, minerais, vegetais, óleos e gorduras, leveduras. Aditivos: Aditivos nutricionais: Vitamina D3: 120 UI, ferro (3b103): 3 mg, iodo (3b202): 0,42 mg, cobre (3b405, 3b406): 3,3 mg, manganês (3b502, 3b503, 3b504): 0,8 mg, zinco (3b603, 3b605, 3b606): 8 mg.",
-    "nutrition_raw": "Proteína: 12.0%; Gordura: 3.3%; Fibra: 1.3%; Cinza: 2.0%",
-    "description": "Alimento húmido para gatinhos na 2.ª fase de crescimento até aos 12 meses Mousse fácil de mastigar Pode apoiar o desenvolvimento normal do cérebro, da visão e do sistema imunitário Fornece minerais",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Carne e subprodutos animais, extratos de proteínas vegetais, subprodutos vegetais, cereais, minerais, vegetais, óleos e gorduras, leveduras. Aditivos: Aditivos nutricionais: Vitamina D3: 120 UI, ferro (3b103): 3 mg, iodo (3b202): 0,42 mg, cobre (3b405, 3b406): 3,3 mg, manganês (3b502, 3b503, 3b504): 0,8 mg, zinco (3b603, 3b605, 3b606): 8 mg.",
-    "raw_nutrition_raw": "Proteína: 12.0%; Gordura: 3.3%; Fibra: 1.3%; Cinza: 2.0%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 12.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 3.3,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 2.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 1.3,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_analytical_constituents"
-    ],
-    "has_sugar": false,
-    "has_grains": true,
-    "has_veg_protein": true,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "value_ratio": null,
-    "carb_band": "N/D",
     "has_material_conflict": false
   },
   {
@@ -24736,93 +24592,6 @@
     "has_material_conflict": false
   },
   {
-    "pid": "2175611",
-    "name": "PURINA ONE Cat Sterilized",
-    "brand": "Purina One",
-    "price": 7.79,
-    "unit_price_kg": 11.46,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/esterilizados/2175611?activeVariant=2175611.0",
-    "retailer": "Zooplus",
-    "ingredients": "Composição: Frango e feijão verde: carne e subprodutos animais (incluindo 4% de frango), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de feijão verde desidratado, ou seja, 5,4% de feijão verde), minerais, óleos e gorduras, açúcar. Salmão e cenouras: carne e subprodutos animais, extrato de proteínas vegetais, peixe e subprodutos de peixe (incluindo 4% de salmão), subprodutos vegetais, verduras (5% de cenouras desidratadas), minerais, óleos e gorduras, açúcar. Peru e feijão verde: carne e subprodutos animais (incluindo 4% de peru), extrato de proteínas vegetais, verduras (5% de feijão verde desidratado), peixe e subprodutos de peixe, subprodutos vegetais, minerais, óleos e gorduras, açúcar. Carne e cenouras: carne e subprodutos animais (incluindo 4% de vitela), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de cenouras desidratadas, ou seja, 5,4% de cenouras), minerais, óleos e gorduras, açúcar. Aditivos: Aditivos nutricionais: vitamina A (1.150 UI/kg), vitamina E (325 UI/kg), vitamina D3 (160 UI/kg), taurina (490 mg/kg), zinco (81 mg/kg), ferro (33 mg/kg), cobre (4,1 mg/kg), manganês (5,9 mg/kg), iodo (0,65 mg/kg), selênio (0,054 mg/kg).",
-    "nutrition_raw": "",
-    "description": "Alimento húmido equilibrado para gatos esterilizados ou castrados, para apoiar o metabolismo, pedaços tenros de carne com legumes em molho, com vitamina E como antioxidante, teor energético adaptado",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Frango e feijão verde: carne e subprodutos animais (incluindo 4% de frango), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de feijão verde desidratado, ou seja, 5,4% de feijão verde), minerais, óleos e gorduras, açúcar. Salmão e cenouras: carne e subprodutos animais, extrato de proteínas vegetais, peixe e subprodutos de peixe (incluindo 4% de salmão), subprodutos vegetais, verduras (5% de cenouras desidratadas), minerais, óleos e gorduras, açúcar. Peru e feijão verde: carne e subprodutos animais (incluindo 4% de peru), extrato de proteínas vegetais, verduras (5% de feijão verde desidratado), peixe e subprodutos de peixe, subprodutos vegetais, minerais, óleos e gorduras, açúcar. Carne e cenouras: carne e subprodutos animais (incluindo 4% de vitela), extrato de proteínas vegetais, peixe e subprodutos de peixe, subprodutos vegetais, verduras (0,6% de cenouras desidratadas, ou seja, 5,4% de cenouras), minerais, óleos e gorduras, açúcar. Aditivos: Aditivos nutricionais: vitamina A (1.150 UI/kg), vitamina E (325 UI/kg), vitamina D3 (160 UI/kg), taurina (490 mg/kg), zinco (81 mg/kg), ferro (33 mg/kg), cobre (4,1 mg/kg), manganês (5,9 mg/kg), iodo (0,65 mg/kg), selênio (0,054 mg/kg).",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": true,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_material_conflict": false
-  },
-  {
     "pid": "452318",
     "name": "Smilla comida tenra de aves - Pack de degustação",
     "brand": "Smilla",
@@ -24904,93 +24673,6 @@
     "has_organs": null,
     "has_carrageenan": null,
     "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_material_conflict": false
-  },
-  {
-    "pid": "2490080",
-    "name": "PURINA ONE Adult Terrine",
-    "brand": "Purina One",
-    "price": 23.99,
-    "unit_price_kg": 11.76,
-    "pack_size": "",
-    "pdp_url": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/adultos/2490080?activeVariant=2490080.1",
-    "retailer": "Zooplus",
-    "ingredients": "Composição Salmão e cenouras: Carne e subprodutos animais, peixe e subprodutos de peixe (salmão 4%), legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Frango e cenouras: Carne e subprodutos animais (dos quais frango 4%), peixe e subprodutos de peixe, legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Aditivos Aditivos nutricionais: Frango e cenouras: Vitamina A (778 UI/kg), vitamina D3 (108 UI/kg), vitamina E (304 UI/kg), ferro [como sulfato ferroso mono-hidratado] (9,4 mg/kg), iodo [como iodato de cálcio anidro] (0,27 mg/kg), cobre [na forma de sulfato de cobre penta-hidratado] (0,7 mg/kg), manganês [na forma de sulfato de manganês mono-hidratado] (1,3 mg/kg Mn), zinco [na forma de sulfato de zinco mono-hidratado] (13 mg/kg), taurina (350 mg/kg). Salmão e cenouras: Vitamina A (983 UI/kg), vitamina D3 (137 UI/kg), vitamina E (336 UI/kg), ferro [como sulfato ferroso mono-hidratado] (11,9 mg/kg), iodo [como iodato de cálcio anidro] (0,35 mg/kg), cobre [sob a forma de sulfato de cobre penta-hidratado] (0,89 mg/kg), manganês [sob a forma de sulfato de manganês mono-hidratado] (1,6 mg/kg Mn), zinco [sob a forma de sulfato de zinco mono-hidratado] (17 mg/kg), taurina (400 mg/kg). Aditivos tecnológicos: Goma de cássia (2.100 mg/kg). Aditivos organoléticos: Aromas. Constituintes analíticos Frango e cenouras: Humidade (77%), proteína bruta (12%), gordura bruta (5,5%), cinza bruta (3%), fibra bruta (0,3%), fibra solúvel (0,7%), ácidos gordos ómega 3 (0,09%), ácidos gordos ómega 6 (0,7%). Salmão e cenouras: Humidade (77%), proteína bruta (12,5%), gordura bruta (4,5%), cinza bruta (3%), fibra bruta (0,07%), fibra solúvel (0,6%), ácidos gordos ómega 3 (0,1%), ácidos gordos ómega 6 (0,7%).",
-    "nutrition_raw": "Proteína: 12.5%; Fibra: 0.07%; Cinza: 3.0%; Humidade: 77.0%; Ácidos gordos Omega-3: 0.1%; Ácidos gordos Omega-6: 0.7%",
-    "description": "Comida húmida completa para gatos adultos Fibra solúvel para ajudar a digestão Muita proteína animal e vegetais ricos em nutrientes vitais Ácidos gordos para a pele e pelo Taurina e vitaminas",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição Salmão e cenouras: Carne e subprodutos animais, peixe e subprodutos de peixe (salmão 4%), legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Frango e cenouras: Carne e subprodutos animais (dos quais frango 4%), peixe e subprodutos de peixe, legumes (1% de cenouras desidratadas, equivalente a 9% de cenouras), minerais, subprodutos de origem vegetal, açúcares diversos. Aditivos Aditivos nutricionais: Frango e cenouras: Vitamina A (778 UI/kg), vitamina D3 (108 UI/kg), vitamina E (304 UI/kg), ferro [como sulfato ferroso mono-hidratado] (9,4 mg/kg), iodo [como iodato de cálcio anidro] (0,27 mg/kg), cobre [na forma de sulfato de cobre penta-hidratado] (0,7 mg/kg), manganês [na forma de sulfato de manganês mono-hidratado] (1,3 mg/kg Mn), zinco [na forma de sulfato de zinco mono-hidratado] (13 mg/kg), taurina (350 mg/kg). Salmão e cenouras: Vitamina A (983 UI/kg), vitamina D3 (137 UI/kg), vitamina E (336 UI/kg), ferro [como sulfato ferroso mono-hidratado] (11,9 mg/kg), iodo [como iodato de cálcio anidro] (0,35 mg/kg), cobre [sob a forma de sulfato de cobre penta-hidratado] (0,89 mg/kg), manganês [sob a forma de sulfato de manganês mono-hidratado] (1,6 mg/kg Mn), zinco [sob a forma de sulfato de zinco mono-hidratado] (17 mg/kg), taurina (400 mg/kg). Aditivos tecnológicos: Goma de cássia (2.100 mg/kg). Aditivos organoléticos: Aromas. Constituintes analíticos Frango e cenouras: Humidade (77%), proteína bruta (12%), gordura bruta (5,5%), cinza bruta (3%), fibra bruta (0,3%), fibra solúvel (0,7%), ácidos gordos ómega 3 (0,09%), ácidos gordos ómega 6 (0,7%). Salmão e cenouras: Humidade (77%), proteína bruta (12,5%), gordura bruta (4,5%), cinza bruta (3%), fibra bruta (0,07%), fibra solúvel (0,6%), ácidos gordos ómega 3 (0,1%), ácidos gordos ómega 6 (0,7%).",
-    "raw_nutrition_raw": "Proteína: 12.5%; Fibra: 0.07%; Cinza: 3.0%; Humidade: 77.0%; Ácidos gordos Omega-3: 0.1%; Ácidos gordos Omega-6: 0.7%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 12.5,
-        "status": "valid"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": 77.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 3.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.07,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 23.0,
-      "protein_dmb": 54.3,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_analytical_constituents"
-    ],
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": true,
     "has_marine_omega": false,
     "high_meat_pct": null,
     "value_ratio": null,

@@ -584,7 +584,7 @@
     "value_ratio": 6.92,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.749692+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.519588+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -765,7 +765,7 @@
     "value_ratio": 10.5,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.749802+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.519693+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -862,7 +862,7 @@
     "value_ratio": 10.58,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.749840+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.519732+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1043,7 +1043,7 @@
     "value_ratio": 18.42,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.749920+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.519812+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1224,7 +1224,7 @@
     "value_ratio": 12.06,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750002+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.519889+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1321,7 +1321,7 @@
     "value_ratio": 11.24,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750045+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.519932+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1418,7 +1418,7 @@
     "value_ratio": 10.12,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750058+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.519944+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1683,7 +1683,7 @@
     "value_ratio": 12.31,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750224+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520113+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1780,7 +1780,7 @@
     "value_ratio": 9.43,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750254+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520146+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1877,7 +1877,7 @@
     "value_ratio": 8.9,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750284+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520175+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1974,7 +1974,7 @@
     "value_ratio": 8.9,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750315+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520204+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2071,7 +2071,7 @@
     "value_ratio": 6.5,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750387+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520271+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2168,7 +2168,7 @@
     "value_ratio": 6.5,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750460+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520343+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2265,7 +2265,7 @@
     "value_ratio": 6.5,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750494+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520376+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2446,7 +2446,7 @@
     "value_ratio": 13.85,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750580+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520457+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2543,7 +2543,7 @@
     "value_ratio": 8.87,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750593+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520469+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2739,7 +2739,7 @@
     "value_ratio": 12.62,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750673+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520547+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2836,7 +2836,7 @@
     "value_ratio": 8.57,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750683+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520557+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2933,7 +2933,7 @@
     "value_ratio": 6.8,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750691+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520564+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3030,7 +3030,7 @@
     "value_ratio": 9.8,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750703+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520575+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3211,7 +3211,7 @@
     "value_ratio": 10.11,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.750801+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.520680+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4039,7 +4039,7 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.751380+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.521248+00:00",
     "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
     "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
     "classification": "complete",
@@ -4137,7 +4137,7 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.751413+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.521282+00:00",
     "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
     "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
     "classification": "complete",
@@ -4236,7 +4236,7 @@
     "value_ratio": 8.83,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.751456+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.521323+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4600,7 +4600,7 @@
     "value_ratio": 5.17,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.751696+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.521557+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6519,7 +6519,7 @@
     "value_ratio": 7.56,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.753091+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.522854+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6700,7 +6700,7 @@
     "value_ratio": 5.61,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.753210+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.522967+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7499,7 +7499,7 @@
     "value_ratio": 6.67,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.753770+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.523572+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7596,7 +7596,7 @@
     "value_ratio": 6.67,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.753779+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.523582+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7792,7 +7792,7 @@
     "value_ratio": 5.34,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.753856+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.523663+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7889,7 +7889,7 @@
     "value_ratio": 5.3,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.753864+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.523671+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8452,7 +8452,7 @@
     "value_ratio": 10.88,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.754224+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.524038+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8549,7 +8549,7 @@
     "value_ratio": 8.55,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.754264+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.524080+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9501,7 +9501,7 @@
     "value_ratio": 7.64,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.754978+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.524804+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10117,7 +10117,7 @@
     "value_ratio": 7.96,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.755438+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.525267+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10580,7 +10580,7 @@
     "value_ratio": 15.95,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.755777+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.525583+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10677,7 +10677,7 @@
     "value_ratio": 15.76,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.755787+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.525593+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10873,7 +10873,7 @@
     "value_ratio": 11.04,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.755883+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.525694+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12755,7 +12755,7 @@
     "value_ratio": 13.17,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.757242+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.527072+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12852,7 +12852,7 @@
     "value_ratio": 11.09,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.757251+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.527082+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12949,7 +12949,7 @@
     "value_ratio": 10.63,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.757287+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.527120+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13046,7 +13046,7 @@
     "value_ratio": 7.23,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.757325+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.527158+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13541,105 +13541,6 @@
     "value_ratio": 4.08,
     "carb_band": "N/D",
     "has_material_conflict": false
-  },
-  {
-    "pid": "5450210",
-    "name": "Ração para Gato Gastrointestinal Fibre Response Royal Canin Veterinary Diets",
-    "brand": "Royal Canin Veterinary Diets",
-    "price": 55.68,
-    "unit_price_kg": 13.92,
-    "pack_size": "emb. 4 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-gastrointestinal-fibre-response-royal-canin-veterinary-diets-5450210",
-    "retailer": "ZU",
-    "ingredients": "Composição: proteínas de aves desidratadas*, glúten de trigo*, arroz*, fibras vegetais, milho*, gorduras animais**, proteínas animais hidrolisadas*, trigo*, glúten de milho*, sais minerais, polpa de beterraba, óleo de soja**, produtos de leveduras, óleo de peixe**, cascas e sementes de psílio (0,48%), fruto-oligossacarídeos, óleo de algas Schizochytrium sp. (fonte de DHA)**, leveduras (fonte de mano-oligossacarídeos), farinha de tagetes. Ingredientes de elevada digestibilidade: *fontes de proteínas de elevada digestibilidade: 62,7%, **fontes de gorduras de elevada digestibilidade: 7,7%. Aditivos (por kg): Aditivos nutritivos: Vitamina A: 14.320 UI, Vitamina D3: 744 UI, Vitamina E: 500 mg, Vitamina C: 275 mg, Taurina: 1,8 g, Ferro (3b103): 31 mg, Iodo (3b201, 3b202): 3,1 mg, Cobre (3b405, 3b406): 9,56 mg, Manganês (3b502, 3b504): 40,5 mg, Zinco (3b603, 3b605, 3b606): 128 mg, Selénio (3b801, 3b811, 3b812): 0,05 mg - Aditivos tecnológicos : Clinoptilolite de origem sedimentar: 10 g - Antioxidantes",
-    "nutrition_raw": "Proteína: 36.0%; Gordura: 14.0%; Fibra: 7.4%; Cinza: 9.3%; Cálcio: 1.2%; Fósforo: 1.01%; Magnésio: 0.19%; Cloreto: 1.45%; Potássio: 0.74%; Sódio: 1.0%; Ácidos gordos Omega-3: 0.82%; Ácidos gordos Omega-6: 3.49%; Energia metabolizável: 362.4kcal; EPA / DHA: 0.38%",
-    "description": "Alimento completo para gatos adultos.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: proteínas de aves desidratadas*, glúten de trigo*, arroz*, fibras vegetais, milho*, gorduras animais**, proteínas animais hidrolisadas*, trigo*, glúten de milho*, sais minerais, polpa de beterraba, óleo de soja**, produtos de leveduras, óleo de peixe**, cascas e sementes de psílio (0,48%), fruto-oligossacarídeos, óleo de algas Schizochytrium sp. (fonte de DHA)**, leveduras (fonte de mano-oligossacarídeos), farinha de tagetes. Ingredientes de elevada digestibilidade: *fontes de proteínas de elevada digestibilidade: 62,7%, **fontes de gorduras de elevada digestibilidade: 7,7%. Aditivos (por kg): Aditivos nutritivos: Vitamina A: 14.320 UI, Vitamina D3: 744 UI, Vitamina E: 500 mg, Vitamina C: 275 mg, Taurina: 1,8 g, Ferro (3b103): 31 mg, Iodo (3b201, 3b202): 3,1 mg, Cobre (3b405, 3b406): 9,56 mg, Manganês (3b502, 3b504): 40,5 mg, Zinco (3b603, 3b605, 3b606): 128 mg, Selénio (3b801, 3b811, 3b812): 0,05 mg - Aditivos tecnológicos : Clinoptilolite de origem sedimentar: 10 g - Antioxidantes",
-    "raw_nutrition_raw": "Proteína: 36.0%; Gordura: 14.0%; Fibra: 7.4%; Cinza: 9.3%; Cálcio: 1.2%; Fósforo: 1.01%; Magnésio: 0.19%; Cloreto: 1.45%; Potássio: 0.74%; Sódio: 1.0%; Ácidos gordos Omega-3: 0.82%; Ácidos gordos Omega-6: 3.49%; Energia metabolizável: 362.4kcal; EPA / DHA: 0.38%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 36.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 14.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 9.3,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 7.4,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": 1.2,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 1.01,
-        "status": "valid"
-      },
-      "magnesium": {
-        "value": 0.19,
-        "status": "valid"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": 1.19
-    },
-    "score": 49,
-    "tier": "Tier C (Básico / Cereais e Subprodutos)",
-    "is_kitten": false,
-    "is_sterilised": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "proteínas de aves desidratadas*",
-    "is_grain_free": false,
-    "is_fractionated": false,
-    "has_corn_gluten": true,
-    "has_colorants": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "value_ratio": 3.52,
-    "carb_band": "N/D",
-    "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:24:58.388048+00:00",
-    "classification": "complete",
-    "has_material_conflict": false,
-    "reconciliation_sources": {
-      "retailer": "zu",
-      "pid": "5450210",
-      "ingredients": "verified_formulation",
-      "nutrition_raw": "verified_formulation",
-      "classification": "verified_formulation"
-    },
-    "shared_assessment": {
-      "formulation_id": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_gastrointestinal_hairball_dry",
-      "source": "verified_shared_formulation",
-      "is_ranked": true
-    }
   },
   {
     "pid": "6901829",
@@ -14646,7 +14547,7 @@
     "value_ratio": 8.41,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:43:47.758533+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.528363+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15212,105 +15113,6 @@
     }
   },
   {
-    "pid": "5454076",
-    "name": "Ração para Gato Adulto Regular Fit 32 Royal Canin",
-    "brand": "Royal Canin",
-    "price": 41.2,
-    "unit_price_kg": 10.3,
-    "pack_size": "emb. 4 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-regular-fit-32-royal-canin-458124",
-    "retailer": "ZU",
-    "ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
-    "nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
-    "description": "Caraterísticas\nDescrição:\nEmbora o seu gato adulto seja ativo e esteja de com boa saúde, é importante manter a sua saúde. Mesmo os gatos saudáveis precisam de uma dieta saudável e de elevada qualidade que contenha o nível adequado de nutrientes benéficos para os suportar durante toda a sua vida adulta. O ROYAL CANIN® Fit 32 é adequado para gatos adultos a partir de 1 ano e até aos 7 anos e foi especialmente concebido para satisfazer todas as necessidades nutricionais do seu gato para apoiar e manter a situação saudável em que o seu gato se encontra. O seu gato precisa de nutrição de elevada qualidade para satisfazer todas as exigências da vida adulta ¿ é por isso que o ROYAL CANIN® Fit 32 possui um perfil nutricional ideal que contém o nível adequado de nutrientes benéficos para ajudar a apoiar e manter a boa saúde do seu gato adulto.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
-    "raw_nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 32.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 15.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 7.2,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 4.6,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": 40,
-    "tier": "Tier C (Básico / Cereais e Subprodutos)",
-    "is_kitten": false,
-    "is_sterilised": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Proteína de carne de aves (desidratada)",
-    "is_grain_free": false,
-    "is_fractionated": false,
-    "has_corn_gluten": true,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "value_ratio": 3.88,
-    "carb_band": "N/D",
-    "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:24:58.389820+00:00",
-    "classification": "complete",
-    "has_material_conflict": false,
-    "reconciliation_sources": {
-      "retailer": "zu",
-      "pid": "5454076",
-      "ingredients": "verified_formulation",
-      "nutrition_raw": "verified_formulation",
-      "classification": "verified_formulation"
-    },
-    "shared_assessment": {
-      "formulation_id": "zoo_royal_canin_royal_canin_regular_fit_dry",
-      "source": "verified_shared_formulation",
-      "is_ranked": true
-    }
-  },
-  {
     "pid": "5454015",
     "name": "Ração para Gato Adulto Active Life Outdoor Royal Canin",
     "brand": "Royal Canin",
@@ -15405,105 +15207,6 @@
     },
     "shared_assessment": {
       "formulation_id": "zoo_royal_canin_royal_canin_outdoor_dry",
-      "source": "verified_shared_formulation",
-      "is_ranked": true
-    }
-  },
-  {
-    "pid": "3691458",
-    "name": "Ração para Gato Adulto Fit Regular Royal Canin",
-    "brand": "Royal Canin",
-    "price": 5.58,
-    "unit_price_kg": 13.95,
-    "pack_size": "emb. 400 g",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-fit-regular-royal-canin-458110",
-    "retailer": "ZU",
-    "ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
-    "nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
-    "description": "Caraterísticas\nDescrição:\nEmbora o seu gato adulto seja ativo e esteja de com boa saúde, é importante manter a sua saúde. Mesmo os gatos saudáveis precisam de uma dieta saudável e de elevada qualidade que contenha o nível adequado de nutrientes benéficos para os suportar durante toda a sua vida adulta. O ROYAL CANIN® Fit 32 é adequado para gatos adultos a partir de 1 ano e até aos 7 anos e foi especialmente concebido para satisfazer todas as necessidades nutricionais do seu gato para apoiar e manter a situação saudável em que o seu gato se encontra. O seu gato precisa de nutrição de elevada qualidade para satisfazer todas as exigências da vida adulta ¿ é por isso que o ROYAL CANIN® Fit 32 possui um perfil nutricional ideal que contém o nível adequado de nutrientes benéficos para ajudar a apoiar e manter a boa saúde do seu gato adulto.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
-    "raw_nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 32.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 15.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 7.2,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 4.6,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": 40,
-    "tier": "Tier C (Básico / Cereais e Subprodutos)",
-    "is_kitten": false,
-    "is_sterilised": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Proteína de carne de aves (desidratada)",
-    "is_grain_free": false,
-    "is_fractionated": false,
-    "has_corn_gluten": true,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "value_ratio": 2.87,
-    "carb_band": "N/D",
-    "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:24:58.389892+00:00",
-    "classification": "complete",
-    "has_material_conflict": false,
-    "reconciliation_sources": {
-      "retailer": "zu",
-      "pid": "3691458",
-      "ingredients": "verified_formulation",
-      "nutrition_raw": "verified_formulation",
-      "classification": "verified_formulation"
-    },
-    "shared_assessment": {
-      "formulation_id": "zoo_royal_canin_royal_canin_regular_fit_dry",
       "source": "verified_shared_formulation",
       "is_ranked": true
     }
@@ -16058,17 +15761,17 @@
     "has_material_conflict": false
   },
   {
-    "pid": "8378417",
-    "name": "Ração para Gato Gastroenteric Sensitive Affinity Advance Veterinary Diets",
-    "brand": "Advance Veterinary Diets",
-    "price": 34.99,
-    "unit_price_kg": 12.72,
-    "pack_size": "emb. 2,75 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-gastroenteric-sensitive-affinity-advance-veterinary-diets-8378417",
+    "pid": "5454076",
+    "name": "Ração para Gato Adulto Regular Fit 32 Royal Canin",
+    "brand": "Royal Canin",
+    "price": 41.2,
+    "unit_price_kg": 10.3,
+    "pack_size": "emb. 4 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-regular-fit-32-royal-canin-458124",
     "retailer": "ZU",
-    "ingredients": "Ingredientes: Arroz (34%), proteínas desidratadas de peru (16%), proteína de ervilha (9%), ovo desidratado (8%), proteínas animais hidrolisadas (aves de capoeira, porco, peixe), ervilhas desidratadas (5%), banha, levedura, óleo de peixe, óleo de coco, celulose em pó, cloreto de potássio, fruto-oligossacáridos (0,5%);",
-    "nutrition_raw": "Constituintes Analíticos: Proteína 35,0%; Matéria gorda 14,0%; Fibra bruta 1,5%; Cinza bruta 7,5%; Cálcio 1,1%; Fósforo 0,90%; Sódio 0,40%; Potássio 0,65%; Ómega 3 0,40%; Ómega 6 2,00%; Teor de Humidade: 0.05",
-    "description": "Caraterísticas\nDescrição:\nAVET CAT GASTROENTERIC SENSITIVE 2,75 KG - Alimento completa para gatos (adultos e gatinhos) com enterite, gastrite, diarreia aguda/crónica, má digestão/má absorção, intolerâncias e outras doenças gastrointestinais; A sua fórmula contém ingredientes de elevada digestibilidade, como proteínas de peru e ovo, arroz e óleo de coco, que facilitam a absorção de nutrientes; Inclui sepiolite para controlo das fezes, prebióticos (FOS) para a microbiota saudável e é suplementado com Vitamina B12 para casos de hipocobalaminemia.\nSabor:\nPeru",
+    "ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
+    "nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
+    "description": "Caraterísticas\nDescrição:\nEmbora o seu gato adulto seja ativo e esteja de com boa saúde, é importante manter a sua saúde. Mesmo os gatos saudáveis precisam de uma dieta saudável e de elevada qualidade que contenha o nível adequado de nutrientes benéficos para os suportar durante toda a sua vida adulta. O ROYAL CANIN® Fit 32 é adequado para gatos adultos a partir de 1 ano e até aos 7 anos e foi especialmente concebido para satisfazer todas as necessidades nutricionais do seu gato para apoiar e manter a situação saudável em que o seu gato se encontra. O seu gato precisa de nutrição de elevada qualidade para satisfazer todas as exigências da vida adulta ¿ é por isso que o ROYAL CANIN® Fit 32 possui um perfil nutricional ideal que contém o nível adequado de nutrientes benéficos para ajudar a apoiar e manter a boa saúde do seu gato adulto.",
     "is_reconciled": false,
     "formulation_id": null,
     "has_conflicts": false,
@@ -16076,16 +15779,16 @@
     "reconciliation_notes": [
       "No formulation match found"
     ],
-    "raw_ingredients": "Ingredientes: Arroz (34%), proteínas desidratadas de peru (16%), proteína de ervilha (9%), ovo desidratado (8%), proteínas animais hidrolisadas (aves de capoeira, porco, peixe), ervilhas desidratadas (5%), banha, levedura, óleo de peixe, óleo de coco, celulose em pó, cloreto de potássio, fruto-oligossacáridos (0,5%);",
-    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 35,0%; Matéria gorda 14,0%; Fibra bruta 1,5%; Cinza bruta 7,5%; Cálcio 1,1%; Fósforo 0,90%; Sódio 0,40%; Potássio 0,65%; Ómega 3 0,40%; Ómega 6 2,00%; Teor de Humidade: 0.05",
+    "raw_ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
+    "raw_nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
     "nutrition_parsed": {
       "status": "valid",
       "protein": {
-        "value": 35.0,
+        "value": 32.0,
         "status": "valid"
       },
       "fat": {
-        "value": 14.0,
+        "value": 15.0,
         "status": "valid"
       },
       "moisture": {
@@ -16093,24 +15796,24 @@
         "status": "missing"
       },
       "ash": {
-        "value": 7.5,
+        "value": 7.2,
         "status": "valid"
       },
       "fiber": {
-        "value": 1.5,
+        "value": 4.6,
         "status": "valid"
       },
       "calcium": {
-        "value": 1.1,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 0.9,
-        "status": "valid"
-      },
-      "magnesium": {
         "value": null,
         "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": 45.0,
+        "status": "valid"
       },
       "taurine": {
         "value": null,
@@ -16122,24 +15825,39 @@
       "fat_dmb": null,
       "carbs_nfe": null,
       "carbs_dmb": null,
-      "ca_p_ratio": 1.22
+      "ca_p_ratio": null
     },
-    "score": 36,
+    "score": 35,
     "tier": "Tier C (Básico / Cereais e Subprodutos)",
-    "is_kitten": true,
+    "is_kitten": false,
     "is_sterilised": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Arroz (34%)",
+    "first_ingredient": "Proteína de carne de aves (desidratada)",
     "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
+    "is_fractionated": false,
+    "has_corn_gluten": true,
     "has_colorants": false,
     "has_taurine": false,
     "has_marine_omega": true,
-    "value_ratio": 2.83,
+    "value_ratio": 3.4,
     "carb_band": "N/D",
-    "has_material_conflict": false
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:24:58.389820+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "5454076",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "zoo_royal_canin_royal_canin_regular_fit_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "6808221",
@@ -16224,6 +15942,105 @@
     "value_ratio": 2.76,
     "carb_band": "22-32% (Moderado)",
     "has_material_conflict": false
+  },
+  {
+    "pid": "3691458",
+    "name": "Ração para Gato Adulto Fit Regular Royal Canin",
+    "brand": "Royal Canin",
+    "price": 5.58,
+    "unit_price_kg": 13.95,
+    "pack_size": "emb. 400 g",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-fit-regular-royal-canin-458110",
+    "retailer": "ZU",
+    "ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
+    "nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
+    "description": "Caraterísticas\nDescrição:\nEmbora o seu gato adulto seja ativo e esteja de com boa saúde, é importante manter a sua saúde. Mesmo os gatos saudáveis precisam de uma dieta saudável e de elevada qualidade que contenha o nível adequado de nutrientes benéficos para os suportar durante toda a sua vida adulta. O ROYAL CANIN® Fit 32 é adequado para gatos adultos a partir de 1 ano e até aos 7 anos e foi especialmente concebido para satisfazer todas as necessidades nutricionais do seu gato para apoiar e manter a situação saudável em que o seu gato se encontra. O seu gato precisa de nutrição de elevada qualidade para satisfazer todas as exigências da vida adulta ¿ é por isso que o ROYAL CANIN® Fit 32 possui um perfil nutricional ideal que contém o nível adequado de nutrientes benéficos para ajudar a apoiar e manter a boa saúde do seu gato adulto.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Composição: Proteína de carne de aves (desidratada), arroz, trigo, milho, gordura de origem animal, proteína de porco (desidratada)*, lignocelulose, farinha de trigo, proteína de origem animal (hidrolisada), glúten de milho, leveduras e subprodutos, polpa de beterraba, óleo de soja, óleo de peixe, minerais, psílio (casca e sementes), hidrolisado de levedura (fonte de manano-oligossacarídeos), extrato de calêndula (fonte de luteína). *L.I.P.: proteínas selecionados de fácil digestão, com alta valência biológica Aditivos: Aditivos nutricionais: vitamina A (13.000 IE/kg), vitamina D3 (700 IE/kg), E1 [ferro] (35 mg/kg), E2 [iodo] (3,5 mg/kg), E4 [cobre] (11 mg/kg), E5 [manganês] (45 mg/kg], E6 [zinco] (136 mg/kg), E8 [selénio] (0,09 mg/kg), conservantes - antioxidantes. Aditivos zootécnicos: Cloreto de amónio.",
+    "raw_nutrition_raw": "Proteína: 32.0%; Gordura: 15.0%; Fibra: 4.6%; Cinza: 7.2%; Ferro: 35.0mg; Iodo: 3.5mg; Cobre: 11.0mg; Magnésio: 45.0mg; Selénio: 0.09mg; Zinco: 136.0mg; Vitamina A: 13000.0IU; Vitamina D3: 700.0mg",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 32.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 15.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 7.2,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.6,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": 45.0,
+        "status": "valid"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 35,
+    "tier": "Tier C (Básico / Cereais e Subprodutos)",
+    "is_kitten": false,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Proteína de carne de aves (desidratada)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": true,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": 2.51,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:24:58.389892+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "3691458",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "zoo_royal_canin_royal_canin_regular_fit_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "5453982",
@@ -18728,6 +18545,90 @@
     "has_material_conflict": false
   },
   {
+    "pid": "8378417",
+    "name": "Ração para Gato Gastroenteric Sensitive Affinity Advance Veterinary Diets",
+    "brand": "Advance Veterinary Diets",
+    "price": 34.99,
+    "unit_price_kg": 12.72,
+    "pack_size": "emb. 2,75 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-gastroenteric-sensitive-affinity-advance-veterinary-diets-8378417",
+    "retailer": "ZU",
+    "ingredients": "Ingredientes: Arroz (34%), proteínas desidratadas de peru (16%), proteína de ervilha (9%), ovo desidratado (8%), proteínas animais hidrolisadas (aves de capoeira, porco, peixe), ervilhas desidratadas (5%), banha, levedura, óleo de peixe, óleo de coco, celulose em pó, cloreto de potássio, fruto-oligossacáridos (0,5%);",
+    "nutrition_raw": "Constituintes Analíticos: Proteína 35,0%; Matéria gorda 14,0%; Fibra bruta 1,5%; Cinza bruta 7,5%; Cálcio 1,1%; Fósforo 0,90%; Sódio 0,40%; Potássio 0,65%; Ómega 3 0,40%; Ómega 6 2,00%; Teor de Humidade: 0.05",
+    "description": "Caraterísticas\nDescrição:\nAVET CAT GASTROENTERIC SENSITIVE 2,75 KG - Alimento completa para gatos (adultos e gatinhos) com enterite, gastrite, diarreia aguda/crónica, má digestão/má absorção, intolerâncias e outras doenças gastrointestinais; A sua fórmula contém ingredientes de elevada digestibilidade, como proteínas de peru e ovo, arroz e óleo de coco, que facilitam a absorção de nutrientes; Inclui sepiolite para controlo das fezes, prebióticos (FOS) para a microbiota saudável e é suplementado com Vitamina B12 para casos de hipocobalaminemia.\nSabor:\nPeru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Ingredientes: Arroz (34%), proteínas desidratadas de peru (16%), proteína de ervilha (9%), ovo desidratado (8%), proteínas animais hidrolisadas (aves de capoeira, porco, peixe), ervilhas desidratadas (5%), banha, levedura, óleo de peixe, óleo de coco, celulose em pó, cloreto de potássio, fruto-oligossacáridos (0,5%);",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 35,0%; Matéria gorda 14,0%; Fibra bruta 1,5%; Cinza bruta 7,5%; Cálcio 1,1%; Fósforo 0,90%; Sódio 0,40%; Potássio 0,65%; Ómega 3 0,40%; Ómega 6 2,00%; Teor de Humidade: 0.05",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 35.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 0.05,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 7.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 1.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 1.1,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 0.9,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 100.0,
+      "protein_dmb": 35.0,
+      "fat_dmb": 14.0,
+      "carbs_nfe": 42.0,
+      "carbs_dmb": 42.0,
+      "ca_p_ratio": 1.22
+    },
+    "score": 21,
+    "tier": "Tier D (Evitar / Baixa Qualidade)",
+    "is_kitten": true,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Arroz (34%)",
+    "is_grain_free": false,
+    "is_fractionated": true,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": 1.65,
+    "carb_band": ">40% (Muito Alto)",
+    "has_material_conflict": false
+  },
+  {
     "pid": "7300158",
     "name": "Ração para Gato Skin&Coat Royal Canin Veterinary Diets",
     "brand": "Royal Canin Veterinary Diets",
@@ -19374,6 +19275,112 @@
     "value_ratio": 1.35,
     "carb_band": "N/D",
     "has_material_conflict": false
+  },
+  {
+    "pid": "7533889",
+    "name": "Ração para Gato Adulto Hyppoalergenic Affinity Advance Veterinary Diets",
+    "brand": "Advance Veterinary Diets",
+    "price": 18.99,
+    "unit_price_kg": 15.19,
+    "pack_size": "emb. 1,25 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-hyppoalergenic-affinity-advance-veterinary-diets-7533889",
+    "retailer": "ZU",
+    "ingredients": "Amido de milho purificado, proteína de soja hidrolisada, banha, óleo de soja, celulose, óleo de peixe, cloreto de potássio.",
+    "nutrition_raw": "Proteína: 32.0%, Matéria gorda: 15.0%, Fibra bruta: 2.0%, Cinza bruta: 5.5%",
+    "description": "Caraterísticas\nPorte Animal:\nPorte Pequeno",
+    "is_reconciled": true,
+    "formulation_id": "advance_vet_hypoallergenic_dry",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Amido de milho purificado, proteína de soja hidrolisada, banha, proteínas animais hidrolisadas, celulose, óleo de peixe, fosfato monocálcico, cloreto de potássio, sulfato de cálcio, óleo de soja, carbonato de cálcio, fruto-oligossacáridos, sal, citrato de potássio, óxido de magnésio.",
+        "verified_value": "Amido de milho purificado, proteína de soja hidrolisada, banha, óleo de soja, celulose, óleo de peixe, cloreto de potássio.",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation"
+    ],
+    "raw_ingredients": "Composição: Amido de milho purificado, proteína de soja hidrolisada, banha, proteínas animais hidrolisadas, celulose, óleo de peixe, fosfato monocálcico, cloreto de potássio, sulfato de cálcio, óleo de soja, carbonato de cálcio, fruto-oligossacáridos, sal, citrato de potássio, óxido de magnésio.",
+    "raw_nutrition_raw": "",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 32.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 15.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 5.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 18,
+    "tier": "Tier D (Evitar / Baixa Qualidade)",
+    "is_kitten": false,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Amido de milho purificado",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": 1.18,
+    "carb_band": "N/D",
+    "has_material_conflict": false,
+    "raw_classification": null,
+    "reconciliation_timestamp": "2026-10-27T19:48:12.534415+00:00",
+    "classification": "complete",
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7533889",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "advance_vet_hypoallergenic_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "8111656",
@@ -22616,47 +22623,62 @@
     }
   },
   {
-    "pid": "7533889",
-    "name": "Ração para Gato Adulto Hyppoalergenic Affinity Advance Veterinary Diets",
-    "brand": "Advance Veterinary Diets",
-    "price": 18.99,
-    "unit_price_kg": 15.19,
-    "pack_size": "emb. 1,25 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-hyppoalergenic-affinity-advance-veterinary-diets-7533889",
+    "pid": "5450210",
+    "name": "Ração para Gato Gastrointestinal Fibre Response Royal Canin Veterinary Diets",
+    "brand": "Royal Canin Veterinary Diets",
+    "price": 55.68,
+    "unit_price_kg": 13.92,
+    "pack_size": "emb. 4 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-gastrointestinal-fibre-response-royal-canin-veterinary-diets-5450210",
     "retailer": "ZU",
-    "ingredients": "Composição: Amido de milho purificado, proteína de soja hidrolisada, banha, proteínas animais hidrolisadas, celulose, óleo de peixe, fosfato monocálcico, cloreto de potássio, sulfato de cálcio, óleo de soja, carbonato de cálcio, fruto-oligossacáridos, sal, citrato de potássio, óxido de magnésio.",
-    "nutrition_raw": "",
-    "description": "Caraterísticas\nPorte Animal:\nPorte Pequeno",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
+    "ingredients": "Arroz, fibras vegetais, proteínas de aves desidratadas, gorduras animais, milho, glúten de milho, trigo, hidrolisado de proteínas animais, substâncias minerais, polpa de chicória, óleo de peixe, sementes e tegumentos de psyllium (6%).",
+    "nutrition_raw": "Proteína: 31.0%, Matéria gorda: 15.0%, Fibra bruta: 3.0%, Cinza bruta: 7.3%",
+    "description": "Alimento completo para gatos adultos.",
+    "is_reconciled": true,
+    "formulation_id": "royal_canin_gastrointestinal_fibre_response_dry",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: proteínas de aves desidratadas*, glúten de trigo*, arroz*, fibras vegetais, milho*, gorduras animais**, proteínas animais hidrolisadas*, trigo*, glúten de milho*, sais minerais, polpa de beterraba, óleo de soja**, produtos de leveduras, óleo de peixe**, cascas e sementes de psílio (0,48%), fruto-oligossacarídeos, óleo de algas Schizochytrium sp. (fonte de DHA)**, leveduras (fonte de mano-oligossacarídeos), farinha de tagetes. Ingredientes de elevada digestibilidade: *fontes de proteínas de elevada digestibilidade: 62,7%, **fontes de gorduras de elevada digestibilidade: 7,7%. Aditivos (por kg): Aditivos nutritivos: Vitamina A: 14.320 UI, Vitamina D3: 744 UI, Vitamina E: 500 mg, Vitamina C: 275 mg, Taurina: 1,8 g, Ferro (3b103): 31 mg, Iodo (3b201, 3b202): 3,1 mg, Cobre (3b405, 3b406): 9,56 mg, Manganês (3b502, 3b504): 40,5 mg, Zinco (3b603, 3b605, 3b606): 128 mg, Selénio (3b801, 3b811, 3b812): 0,05 mg - Aditivos tecnológicos : Clinoptilolite de origem sedimentar: 10 g - Antioxidantes",
+        "verified_value": "Arroz, fibras vegetais, proteínas de aves desidratadas, gorduras animais, milho, glúten de milho, trigo, hidrolisado de proteínas animais, substâncias minerais, polpa de chicória, óleo de peixe, sementes e tegumentos de psyllium (6%).",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Proteína: 36.0%; Gordura: 14.0%; Fibra: 7.4%; Cinza: 9.3%; Cálcio: 1.2%; Fósforo: 1.01%; Magnésio: 0.19%; Cloreto: 1.45%; Potássio: 0.74%; Sódio: 1.0%; Ácidos gordos Omega-3: 0.82%; Ácidos gordos Omega-6: 3.49%; Energia metabolizável: 362.4kcal; EPA / DHA: 0.38%",
+        "verified_value": "Proteína: 31.0%, Matéria gorda: 15.0%, Fibra bruta: 3.0%, Cinza bruta: 7.3%",
+        "resolution": "prefer_verified"
+      }
     ],
-    "raw_ingredients": "Composição: Amido de milho purificado, proteína de soja hidrolisada, banha, proteínas animais hidrolisadas, celulose, óleo de peixe, fosfato monocálcico, cloreto de potássio, sulfato de cálcio, óleo de soja, carbonato de cálcio, fruto-oligossacáridos, sal, citrato de potássio, óxido de magnésio.",
-    "raw_nutrition_raw": "",
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "Material protein divergence (36.0% vs 31.0%)"
+    ],
+    "raw_ingredients": "Composição: proteínas de aves desidratadas*, glúten de trigo*, arroz*, fibras vegetais, milho*, gorduras animais**, proteínas animais hidrolisadas*, trigo*, glúten de milho*, sais minerais, polpa de beterraba, óleo de soja**, produtos de leveduras, óleo de peixe**, cascas e sementes de psílio (0,48%), fruto-oligossacarídeos, óleo de algas Schizochytrium sp. (fonte de DHA)**, leveduras (fonte de mano-oligossacarídeos), farinha de tagetes. Ingredientes de elevada digestibilidade: *fontes de proteínas de elevada digestibilidade: 62,7%, **fontes de gorduras de elevada digestibilidade: 7,7%. Aditivos (por kg): Aditivos nutritivos: Vitamina A: 14.320 UI, Vitamina D3: 744 UI, Vitamina E: 500 mg, Vitamina C: 275 mg, Taurina: 1,8 g, Ferro (3b103): 31 mg, Iodo (3b201, 3b202): 3,1 mg, Cobre (3b405, 3b406): 9,56 mg, Manganês (3b502, 3b504): 40,5 mg, Zinco (3b603, 3b605, 3b606): 128 mg, Selénio (3b801, 3b811, 3b812): 0,05 mg - Aditivos tecnológicos : Clinoptilolite de origem sedimentar: 10 g - Antioxidantes",
+    "raw_nutrition_raw": "Proteína: 36.0%; Gordura: 14.0%; Fibra: 7.4%; Cinza: 9.3%; Cálcio: 1.2%; Fósforo: 1.01%; Magnésio: 0.19%; Cloreto: 1.45%; Potássio: 0.74%; Sódio: 1.0%; Ácidos gordos Omega-3: 0.82%; Ácidos gordos Omega-6: 3.49%; Energia metabolizável: 362.4kcal; EPA / DHA: 0.38%",
     "nutrition_parsed": {
-      "status": "missing",
+      "status": "valid",
       "protein": {
-        "value": null,
-        "status": "missing"
+        "value": 31.0,
+        "status": "valid"
       },
       "fat": {
-        "value": null,
-        "status": "missing"
+        "value": 15.0,
+        "status": "valid"
       },
       "moisture": {
         "value": null,
         "status": "missing"
       },
       "ash": {
-        "value": null,
-        "status": "missing"
+        "value": 7.3,
+        "status": "valid"
       },
       "fiber": {
-        "value": null,
-        "status": "missing"
+        "value": 3.0,
+        "status": "valid"
       },
       "calcium": {
         "value": null,
@@ -22683,23 +22705,38 @@
       "ca_p_ratio": null
     },
     "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
+    "tier": "Não classificado (Conflito)",
     "is_kitten": false,
     "is_sterilised": false,
     "is_ranked": false,
     "unranked_reasons": [
-      "missing_nutrition"
+      "material_conflict_unresolved"
     ],
-    "first_ingredient": "Amido de milho purificado",
+    "first_ingredient": "Arroz",
     "is_grain_free": false,
     "is_fractionated": false,
-    "has_corn_gluten": false,
+    "has_corn_gluten": true,
     "has_colorants": false,
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": null,
     "carb_band": "N/D",
-    "has_material_conflict": false
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:48:12.527572+00:00",
+    "classification": "complete",
+    "has_material_conflict": true,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "5450210",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "royal_canin_gastrointestinal_fibre_response_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": false
+    }
   },
   {
     "pid": "6500708",

@@ -35,7 +35,8 @@ def score_wet_product(p):
     comp_keywords = [
         'complementar', 'alimento complementar', 'complemento alimentar',
         'snack', 'petisco', 'treat', 'sopa', 'soup', 'caldo', 'broth',
-        'hydra care', 'shinycat', 'suplemento', 'iogurte', 'leite para gato', 'cat milk'
+        'hydra care', 'shinycat', 'suplemento', 'iogurte', 'leite para gato', 'cat milk',
+        'fillets', 'filetes'
     ]
     if any(k in text_to_check for k in comp_keywords):
         if 'alimento completo' not in text_to_check and '100% completa' not in text_to_check:
