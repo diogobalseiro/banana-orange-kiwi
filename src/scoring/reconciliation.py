@@ -2,27 +2,23 @@
 Reconciliation module for matching retailer products to verified formulations.
 
 This module provides:
-- Identity mapping from data/product_matches.json
-- Reconciliation of formulation facts before scoring
-- Shared assessment calculation for matched products
+- Identity mapping from data/product_matches.json (matching by PID or PDP URL)
+- Full reversibility: preservation of raw retailer observations
+- Conflict tracking (reconciliation notes, field conflicts, material conflicts)
+- Shared assessment calculation for matched products (full & minified)
 - Unmatched products remain independent
-
-Key principles:
-- Verified manufacturer/packaging evidence takes precedence
-- Contradictory declarations remain visible
-- Material conflicts mark formulation as unresolved/unranked
-- Each offer retains its own price, URL, pack size
-- Shared nutritional assessment is calculated once per formulation
 """
 
 import json
 import os
+import re
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
-# Path to the product matches configuration
-MATCHES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 
-                           'data', 'product_matches.json')
+MATCHES_PATH = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+    'data', 'product_matches.json'
+)
 
 
 class ReconciliationError(Exception):
@@ -31,12 +27,7 @@ class ReconciliationError(Exception):
 
 
 def load_product_matches() -> Dict[str, Any]:
-    """
-    Load the curated product matches configuration.
-    
-    Returns:
-        Dictionary with formulation_id -> {formulation_data, retailer_matches}
-    """
+    """Load the curated product matches configuration."""
     if not os.path.exists(MATCHES_PATH):
         return {}
     
@@ -48,31 +39,15 @@ def load_product_matches() -> Dict[str, Any]:
 
 
 def get_product_key(retailer: str, pid: str) -> str:
-    """
-    Create a stable key for identifying a retailer product observation.
-    
-    Args:
-        retailer: Retailer name (e.g., 'continente', 'zu', 'zooplus')
-        pid: Product ID from the retailer
-        
-    Returns:
-        String key: f"{retailer}:{pid}"
-    """
+    """Create a stable key for identifying a retailer product observation."""
     return f"{retailer.lower()}:{pid}"
 
 
-def find_formulation_id(retailer: str, pid: str, matches_config: Optional[Dict] = None) -> Optional[str]:
-    """
-    Find the formulation ID for a given retailer product.
-    
-    Args:
-        retailer: Retailer name
-        pid: Product ID
-        matches_config: Optional pre-loaded matches config
-        
-    Returns:
-        Formulation ID if matched, None otherwise
-    """
+def find_formulation_id(retailer: str, 
+                        pid: str, 
+                        pdp_url: Optional[str] = None, 
+                        matches_config: Optional[Dict] = None) -> Optional[str]:
+    """Find the formulation ID for a given retailer product by PID or PDP URL."""
     if matches_config is None:
         matches_config = load_product_matches()
     
@@ -80,39 +55,31 @@ def find_formulation_id(retailer: str, pid: str, matches_config: Optional[Dict] 
     
     for formulation_id, match_data in matches_config.items():
         retailer_matches = match_data.get('retailer_matches', {})
-        # Check if this retailer has matches
         if retailer_lower in retailer_matches:
-            # retailer_matches[retailer] is a list of PIDs
-            pids = retailer_matches[retailer_lower]
-            if pid in pids:
+            matches_list = retailer_matches[retailer_lower]
+            # Match against pid
+            if pid and str(pid) in [str(m) for m in matches_list]:
                 return formulation_id
+            # Match against pdp_url
+            if pdp_url:
+                for entry in matches_list:
+                    if str(entry) in pdp_url or pdp_url.rstrip('/') == str(entry).rstrip('/'):
+                        return formulation_id
     
     return None
 
 
 def get_formulation_data(formulation_id: str, matches_config: Optional[Dict] = None) -> Optional[Dict]:
-    """
-    Get the formulation data for a given ID.
-    
-    Args:
-        formulation_id: The stable formulation identifier
-        matches_config: Optional pre-loaded matches config
-        
-    Returns:
-        Formulation data dict or None if not found
-    """
+    """Get the formulation data for a given ID."""
     if matches_config is None:
         matches_config = load_product_matches()
-    
     return matches_config.get(formulation_id)
 
 
 def get_all_matched_products(matches_config: Optional[Dict] = None) -> Dict[str, List[Tuple[str, str]]]:
     """
     Get all products that are part of a formulation match.
-    
-    Returns:
-        Dict mapping formulation_id -> [(retailer, pid), ...]
+    Returns: Dict mapping formulation_id -> [(retailer, pid), ...]
     """
     if matches_config is None:
         matches_config = load_product_matches()
@@ -127,52 +94,118 @@ def get_all_matched_products(matches_config: Optional[Dict] = None) -> Dict[str,
     return result
 
 
+def get_formulation_summary(formulation_id: str, matches_config: Optional[Dict] = None) -> Optional[Dict]:
+    """Get metadata about a specific formulation."""
+    if matches_config is None:
+        matches_config = load_product_matches()
+    
+    data = matches_config.get(formulation_id)
+    if not data:
+        return None
+    
+    return {
+        'formulation_id': formulation_id,
+        'description': data.get('description', ''),
+        'brand': data.get('brand', ''),
+        'line': data.get('line', ''),
+        'category': data.get('category', 'wet'),
+        'life_stage': data.get('life_stage'),
+        'recipe': data.get('recipe'),
+        'flavour': data.get('flavour'),
+        'verified_date': data.get('verified_date'),
+        'source': data.get('source'),
+        'retailer_count': len(data.get('retailer_matches', {})),
+        'retailers': list(data.get('retailer_matches', {}).keys()),
+        'notes': data.get('notes', '')
+    }
+
+
+def group_by_formulation(products: List[Dict[str, Any]], 
+                         matches_config: Optional[Dict] = None) -> Dict[Optional[str], List[Dict[str, Any]]]:
+    """Group products by their formulation ID."""
+    groups: Dict[Optional[str], List[Dict[str, Any]]] = {}
+    for product in products:
+        fid = product.get('formulation_id') or product.get('fid')
+        if fid not in groups:
+            groups[fid] = []
+        groups[fid].append(product)
+    return groups
+
+
+def detect_material_conflict(retailer_obs: Dict[str, Any], verified: Dict[str, Any]) -> Tuple[bool, List[str]]:
+    """
+    Detects whether there is a genuine material conflict between retailer observation
+    and verified formulation (e.g. contradictory grains, sugar, or macros).
+    """
+    reasons = []
+    
+    r_class = (retailer_obs.get('classification') or '').lower()
+    v_class = (verified.get('classification') or '').lower()
+    if ('complementar' in r_class and 'complete' in v_class) or ('completo' in r_class and 'complementary' in v_class):
+        reasons.append("Contradictory classification (complete vs complementary)")
+
+    r_ingr = (retailer_obs.get('ingredients') or '').lower()
+    v_ingr = (verified.get('ingredients') or '').lower()
+
+    if r_ingr and v_ingr:
+        sugar_terms = ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope']
+        r_sugar = any(s in r_ingr for s in sugar_terms)
+        v_sugar = any(s in v_ingr for s in sugar_terms)
+        if (r_sugar and not v_sugar) or (v_sugar and 'sem açúcar' in r_ingr):
+            reasons.append("Contradictory sugar declaration")
+
+    r_nutri = retailer_obs.get('nutrition_raw') or ''
+    v_nutri = verified.get('nutrition_raw') or ''
+    if r_nutri and v_nutri:
+        m_r_prot = re.search(r'[Pp]rote[íi]na[:\s]+(\d+(?:[.,]\d+)?)', r_nutri)
+        m_v_prot = re.search(r'[Pp]rote[íi]na[:\s]+(\d+(?:[.,]\d+)?)', v_nutri)
+        if m_r_prot and m_v_prot:
+            p_r = float(m_r_prot.group(1).replace(',', '.'))
+            p_v = float(m_v_prot.group(1).replace(',', '.'))
+            if abs(p_r - p_v) > 3.0:
+                reasons.append(f"Material protein divergence ({p_r}% vs {p_v}%)")
+
+    is_material = len(reasons) > 0
+    return is_material, reasons
+
+
 def reconcile_product_evidence(product: Dict[str, Any], 
                                retailer: str, 
                                matches_config: Optional[Dict] = None) -> Dict[str, Any]:
     """
-    Reconcile a single product's evidence with verified formulation data.
-    
-    This function:
-    1. Checks if the product matches a known formulation
-    2. If matched, merges verified formulation data with retailer-specific data
-    3. Marks the product with its formulation_id
-    4. Preserves all retailer-specific fields (price, URL, pack size, retrieval time)
-    5. Handles conflicts explicitly
-    
-    Args:
-        product: The raw product dict from extraction
-        retailer: Retailer name
-        matches_config: Optional pre-loaded matches config
-        
-    Returns:
-        Reconciled product dict with:
-        - formulation_id (if matched)
-        - formulation_data (merged verified data)
-        - reconciliation_notes (conflicts, sources)
-        - is_reconciled: bool
+    Reconciles a product's evidence with verified formulation data while preserving
+    original observations for full reversibility.
     """
-    pid = product.get('pid') or product.get('id')
-    if not pid:
+    pid = str(product.get('pid') or product.get('id') or '')
+    pdp_url = product.get('pdp_url') or product.get('u')
+    
+    if not pid and not pdp_url:
         return {
             **product,
             'is_reconciled': False,
             'formulation_id': None,
-            'reconciliation_notes': ['No product ID available']
+            'has_conflicts': False,
+            'conflicts': [],
+            'reconciliation_notes': ['No product ID available'],
+            'raw_ingredients': product.get('ingredients', ''),
+            'raw_nutrition_raw': product.get('nutrition_raw', '')
         }
-    
+
     if matches_config is None:
         matches_config = load_product_matches()
     
-    formulation_id = find_formulation_id(retailer, pid, matches_config)
+    formulation_id = find_formulation_id(retailer, pid, pdp_url, matches_config)
     
     if not formulation_id:
-        # No match found - return product as-is
         return {
             **product,
             'is_reconciled': False,
             'formulation_id': None,
-            'reconciliation_notes': ['No formulation match found']
+            'has_conflicts': False,
+            'conflicts': [],
+            'reconciliation_notes': ['No formulation match found'],
+            'raw_ingredients': product.get('ingredients', ''),
+            'raw_nutrition_raw': product.get('nutrition_raw', '')
         }
     
     formulation_data = matches_config.get(formulation_id)
@@ -181,32 +214,35 @@ def reconcile_product_evidence(product: Dict[str, Any],
             **product,
             'is_reconciled': False,
             'formulation_id': formulation_id,
-            'reconciliation_notes': ['Formulation ID not found in config']
+            'has_conflicts': False,
+            'conflicts': [],
+            'reconciliation_notes': ['Formulation ID not found in config'],
+            'raw_ingredients': product.get('ingredients', ''),
+            'raw_nutrition_raw': product.get('nutrition_raw', '')
         }
     
-    # Start with a copy of the product
     reconciled = dict(product)
     
-    # Add formulation metadata
+    # 1. PRESERVE ORIGINAL OBSERVATIONS (Full Reversibility)
+    reconciled['raw_ingredients'] = product.get('ingredients', '')
+    reconciled['raw_nutrition_raw'] = product.get('nutrition_raw', '')
+    reconciled['raw_classification'] = product.get('classification')
+    
     reconciled['formulation_id'] = formulation_id
     reconciled['is_reconciled'] = True
     reconciled['reconciliation_timestamp'] = datetime.now(timezone.utc).isoformat()
     
-    # Track sources and conflicts
     notes = []
     conflicts = []
     sources = {'retailer': retailer, 'pid': pid}
     
-    # Merge verified formulation data
     verified = formulation_data.get('verified', {})
     
     # Reconcile composition/ingredients
     verified_ingredients = verified.get('ingredients')
     retailer_ingredients = product.get('ingredients', '')
-    
     if verified_ingredients:
         if retailer_ingredients and retailer_ingredients != verified_ingredients:
-            # Conflict: keep both, mark as conflicting
             conflicts.append({
                 'field': 'ingredients',
                 'retailer_value': retailer_ingredients,
@@ -216,11 +252,10 @@ def reconcile_product_evidence(product: Dict[str, Any],
             notes.append('Ingredients conflict resolved in favor of verified formulation')
         reconciled['ingredients'] = verified_ingredients
         sources['ingredients'] = 'verified_formulation'
-    
+        
     # Reconcile nutrition
     verified_nutrition = verified.get('nutrition_raw')
     retailer_nutrition = product.get('nutrition_raw', '')
-    
     if verified_nutrition:
         if retailer_nutrition and retailer_nutrition != verified_nutrition:
             conflicts.append({
@@ -232,25 +267,27 @@ def reconcile_product_evidence(product: Dict[str, Any],
             notes.append('Nutrition conflict resolved in favor of verified formulation')
         reconciled['nutrition_raw'] = verified_nutrition
         sources['nutrition_raw'] = 'verified_formulation'
-    
+
     # Reconcile classification
     verified_classification = verified.get('classification')
     if verified_classification:
         reconciled['classification'] = verified_classification
         sources['classification'] = 'verified_formulation'
-    
-    # Add formulation-level metadata
+
+    # Add formulation metadata
     if 'formulation_notes' in formulation_data:
         reconciled['formulation_notes'] = formulation_data['formulation_notes']
-    
-    # If there are conflicts, mark as unresolved
-    if conflicts:
-        reconciled['has_conflicts'] = True
-        reconciled['conflicts'] = conflicts
-        notes.append(f'{len(conflicts)} field conflicts detected')
+        
+    # Material conflict check
+    has_material, material_reasons = detect_material_conflict(product, verified)
+    if formulation_data.get('unresolved_conflict') or has_material:
+        reconciled['has_material_conflict'] = True
+        notes.extend(material_reasons)
     else:
-        reconciled['has_conflicts'] = False
-    
+        reconciled['has_material_conflict'] = False
+
+    reconciled['has_conflicts'] = bool(conflicts or reconciled['has_material_conflict'])
+    reconciled['conflicts'] = conflicts
     reconciled['reconciliation_notes'] = notes
     reconciled['reconciliation_sources'] = sources
     
@@ -258,26 +295,9 @@ def reconcile_product_evidence(product: Dict[str, Any],
 
 
 def reconcile_batch(products: List[Dict[str, Any]], 
-                   retailer: str, 
-                   matches_config: Optional[Dict] = None) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
-    """
-    Reconcile a batch of products from a single retailer.
-    
-    Args:
-        products: List of product dicts
-        retailer: Retailer name
-        matches_config: Optional pre-loaded matches config
-        
-    Returns:
-        Tuple of (reconciled_products, reconciliation_summary)
-        
-        reconciliation_summary contains:
-        - total_products: int
-        - matched_count: int
-        - unmatched_count: int
-        - conflict_count: int
-        - formulations_used: list of formulation_ids
-    """
+                    retailer: str, 
+                    matches_config: Optional[Dict] = None) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Reconciles a batch of products from a single retailer."""
     if matches_config is None:
         matches_config = load_product_matches()
     
@@ -307,210 +327,147 @@ def reconcile_batch(products: List[Dict[str, Any]],
     return reconciled, summary
 
 
-def group_by_formulation(products: List[Dict[str, Any]], 
-                         matches_config: Optional[Dict] = None) -> Dict[str, List[Dict[str, Any]]]:
-    """
-    Group reconciled products by their formulation ID.
-    
-    Products without a formulation_id are grouped under None.
-    
-    Args:
-        products: List of (potentially reconciled) product dicts
-        matches_config: Optional pre-loaded matches config (for lookup)
-        
-    Returns:
-        Dict mapping formulation_id -> [products]
-    """
-    groups = {}
-    
-    for product in products:
-        fid = product.get('formulation_id')
-        if fid not in groups:
-            groups[fid] = []
-        groups[fid].append(product)
-    
-    return groups
-
-
 def calculate_shared_score_for_formulation(formulation_id: str, 
-                                          products: List[Dict[str, Any]],
+                                          matches_config: Optional[Dict] = None,
                                           category: str = 'wet') -> Optional[Dict[str, Any]]:
     """
-    Calculate a shared score for all products in a formulation group.
-    
-    This uses the first valid (ranked) product as the reference, since
-    all matched products should have the same formulation and thus
-    the same nutritional assessment.
-    
-    Args:
-        formulation_id: The formulation identifier
-        products: List of products in this formulation group
-        category: 'wet' or 'dry'
-        
-    Returns:
-        Shared assessment dict with score, tier, and reasoning, or None
-        if no valid scoring can be performed.
+    Calculates the canonical nutritional assessment once directly from the verified formulation record.
     """
     from .wet_scorer import score_wet_product
     from .dry_scorer import score_dry_product
-    from .evidence import check_scoring_readiness
     
-    if not products:
+    if matches_config is None:
+        matches_config = load_product_matches()
+        
+    formulation_data = matches_config.get(formulation_id)
+    if not formulation_data:
         return None
+        
+    verified = formulation_data.get('verified', {})
     
-    # Use the first product with valid formulation data as reference
-    # All should have the same formulation, so we score once
-    reference_product = products[0]
-    
-    # Create a clean copy for scoring
-    scoring_input = {
-        'pid': f"formulation:{formulation_id}",
-        'name': reference_product.get('name'),
-        'brand': reference_product.get('brand'),
-        'price': reference_product.get('price'),
-        'unit_price_kg': reference_product.get('unit_price_kg'),
-        'ingredients': reference_product.get('ingredients', ''),
-        'nutrition_raw': reference_product.get('nutrition_raw', ''),
-        'nutrition_normalized': reference_product.get('nutrition_normalized'),
-        'classification': reference_product.get('classification'),
-        'pdp_url': reference_product.get('pdp_url'),
-        'retailer': reference_product.get('retailer'),
-        'formulation_id': formulation_id,
-        # Formulation-level notes if present
-        'formulation_notes': reference_product.get('formulation_notes')
-    }
-    
-    # Score based on category
-    try:
-        if category == 'dry':
-            full, mini = score_dry_product(scoring_input)
-        else:
-            full, mini = score_wet_product(scoring_input)
-    except Exception as e:
+    if formulation_data.get('unresolved_conflict'):
         return {
             'formulation_id': formulation_id,
             'score': None,
-            'tier': 'Unranked (Scoring Error)',
+            'tier': 'Não classificado (Conflito de Formulação)',
             'is_ranked': False,
-            'unranked_reasons': [f'Scoring failed: {str(e)}'],
-            'scoring_error': str(e)
+            'unranked_reasons': ['material_conflict_unresolved'],
+            'has_conflicts': True
         }
+        
+    scoring_input = {
+        'pid': f"formulation:{formulation_id}",
+        'name': formulation_data.get('description', formulation_id),
+        'brand': formulation_data.get('brand', 'Desconhecida'),
+        'ingredients': verified.get('ingredients', ''),
+        'nutrition_raw': verified.get('nutrition_raw', ''),
+        'classification': verified.get('classification', 'complete'),
+        'formulation_id': formulation_id
+    }
     
-    # Return the shared assessment
+    if category == 'dry':
+        full, _ = score_dry_product(scoring_input)
+    else:
+        full, _ = score_wet_product(scoring_input)
+        
     return {
         'formulation_id': formulation_id,
         'score': full.get('score'),
         'tier': full.get('tier'),
         'is_ranked': full.get('is_ranked'),
         'unranked_reasons': full.get('unranked_reasons', []),
-        'value_ratio': None,  # Will be calculated per-offer
-        'shared_fields': {
-            'protein_dmb': full.get('protein_dmb'),
-            'fat_dmb': full.get('fat_dmb'),
-            'carbs_dmb': full.get('carbs_dmb') if category == 'wet' else full.get('carbs_nfe'),
-            'carb_band': full.get('carb_band'),
-            'has_sugar': full.get('has_sugar'),
-            'has_grains': full.get('has_grains'),
-            'has_veg_protein': full.get('has_veg_protein'),
-            'has_organs': full.get('has_organs'),
-        }
+        'has_conflicts': False,
+        'has_sugar': full.get('has_sugar'),
+        'has_grains': full.get('has_grains'),
+        'has_veg_protein': full.get('has_veg_protein'),
+        'has_organs': full.get('has_organs'),
+        'has_carrageenan': full.get('has_carrageenan'),
+        'has_taurine': full.get('has_taurine'),
+        'carb_band': full.get('carb_band'),
+        'carbs': full.get('nutrition_parsed', {}).get('carbs_dmb' if category == 'wet' else 'carbs_nfe')
     }
 
 
 def attach_shared_assessment(products: List[Dict[str, Any]], 
-                            category: str = 'wet') -> List[Dict[str, Any]]:
+                             category: str = 'wet',
+                             matches_config: Optional[Dict] = None) -> List[Dict[str, Any]]:
     """
-    For each formulation group, calculate shared assessment and attach to all offers.
-    
-    Args:
-        products: List of reconciled products
-        category: 'wet' or 'dry'
-        
-    Returns:
-        List of products with shared assessment attached
-    """
-    # Group by formulation
-    groups = group_by_formulation(products)
-    
-    # Process each group
-    result = []
-    for formulation_id, group_products in groups.items():
-        if formulation_id is None:
-            # Unmatched products - keep as-is
-            result.extend(group_products)
-            continue
-        
-        # Calculate shared assessment
-        shared_assessment = calculate_shared_score_for_formulation(
-            formulation_id, group_products, category
-        )
-        
-        if not shared_assessment:
-            result.extend(group_products)
-            continue
-        
-        # Attach shared assessment to each offer
-        for product in group_products:
-            product_copy = dict(product)
-            
-            # Preserve offer-specific fields
-            product_copy['score'] = shared_assessment.get('score')
-            product_copy['tier'] = shared_assessment.get('tier')
-            product_copy['is_ranked'] = shared_assessment.get('is_ranked')
-            product_copy['unranked_reasons'] = shared_assessment.get('unranked_reasons', [])
-            
-            # If ranked, calculate value ratio based on this offer's price
-            if shared_assessment.get('is_ranked') and product.get('unit_price_kg'):
-                score = shared_assessment.get('score') or 0
-                pkg = product.get('unit_price_kg')
-                if pkg and pkg > 0:
-                    product_copy['value_ratio'] = round(score / pkg, 2)
-            else:
-                product_copy['value_ratio'] = None
-            
-            # Add shared assessment metadata
-            product_copy['shared_assessment'] = {
-                'formulation_id': formulation_id,
-                'score_source': 'shared_formulation',
-                'formulation_notes': product.get('formulation_notes')
-            }
-            
-            result.append(product_copy)
-    
-    return result
-
-
-def get_formulation_summary(formulation_id: str, 
-                           matches_config: Optional[Dict] = None) -> Optional[Dict]:
-    """
-    Get metadata about a specific formulation.
-    
-    Args:
-        formulation_id: The formulation identifier
-        matches_config: Optional pre-loaded matches config
-        
-    Returns:
-        Formulation metadata or None
+    Attaches shared assessment to all matched products, handling both full and minified formats.
     """
     if matches_config is None:
         matches_config = load_product_matches()
-    
-    data = matches_config.get(formulation_id)
-    if not data:
-        return None
-    
-    return {
-        'formulation_id': formulation_id,
-        'description': data.get('description', ''),
-        'brand': data.get('brand', ''),
-        'line': data.get('line', ''),
-        'category': data.get('category', 'wet'),
-        'life_stage': data.get('life_stage'),
-        'recipe': data.get('recipe'),
-        'flavour': data.get('flavour'),
-        'verified_date': data.get('verified_date'),
-        'source': data.get('source'),
-        'retailer_count': len(data.get('retailer_matches', {})),
-        'retailers': list(data.get('retailer_matches', {}).keys()),
-        'notes': data.get('notes', '')
-    }
+        
+    shared_scores = {}
+    for fid in matches_config:
+        shared_scores[fid] = calculate_shared_score_for_formulation(fid, matches_config, category)
+        
+    result = []
+    for item in products:
+        p = dict(item)
+        
+        is_minified = ('s' in p and 'n' in p and 'name' not in p)
+        
+        fid = p.get('formulation_id') or p.get('fid')
+        if not fid and is_minified:
+            fid = find_formulation_id(p.get('r', ''), str(p.get('id', '')), p.get('u'), matches_config)
+            if fid:
+                p['fid'] = fid
+                
+        if not fid or fid not in shared_scores or not shared_scores[fid]:
+            result.append(p)
+            continue
+            
+        assessment = shared_scores[fid]
+        has_material_conflict = p.get('has_material_conflict', False) or assessment.get('has_conflicts', False)
+        
+        unit_price = p.get('unit_price_kg') or p.get('pkg')
+        score = assessment['score'] if not has_material_conflict else None
+        is_ranked = assessment['is_ranked'] and not has_material_conflict
+        tier = assessment['tier'] if not has_material_conflict else 'Não classificado (Conflito)'
+        unranked_reasons = assessment['unranked_reasons'] if not has_material_conflict else ['material_conflict_unresolved']
+        
+        val_ratio = None
+        if is_ranked and unit_price and unit_price > 0 and score:
+            val_ratio = round(score / unit_price, 2)
+            
+        if is_minified:
+            p['s'] = score
+            p['t'] = tier
+            p['ir'] = is_ranked
+            p['ur'] = unranked_reasons
+            p['vr'] = val_ratio
+            p['fid'] = fid
+            p['rec'] = True
+            p['conf'] = has_material_conflict
+            if assessment.get('has_sugar') is not None:
+                p['sug'] = assessment['has_sugar']
+            if assessment.get('has_grains') is not None:
+                p['grn'] = assessment['has_grains']
+            if assessment.get('carb_band'):
+                p['cb'] = assessment['carb_band']
+            if assessment.get('carbs') is not None:
+                p['carb'] = assessment['carbs']
+        else:
+            p['score'] = score
+            p['tier'] = tier
+            p['is_ranked'] = is_ranked
+            p['unranked_reasons'] = unranked_reasons
+            p['value_ratio'] = val_ratio
+            p['formulation_id'] = fid
+            p['is_reconciled'] = True
+            p['has_material_conflict'] = has_material_conflict
+            if assessment.get('has_sugar') is not None:
+                p['has_sugar'] = assessment['has_sugar']
+            if assessment.get('has_grains') is not None:
+                p['has_grains'] = assessment['has_grains']
+            if assessment.get('carb_band'):
+                p['carb_band'] = assessment['carb_band']
+            p['shared_assessment'] = {
+                'formulation_id': fid,
+                'source': 'verified_shared_formulation',
+                'is_ranked': is_ranked
+            }
+            
+        result.append(p)
+        
+    return result

@@ -281,9 +281,9 @@
         const withSugar = verifiedComp.filter(p => p.sug === true).length;
         const sugarPct = verifiedComp.length > 0 ? Math.round((withSugar / verifiedComp.length) * 100) : 0;
 
-        const topKitten = data.filter(p => p.ir && p.k && p.s >= 70 && p.c === 'Completo').sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                          data.filter(p => p.ir && p.k && p.s >= 65).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                          data.filter(p => p.ir && p.s >= 70).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+        const topKitten = data.filter(p => p.ir && !p.conf && p.k && p.s >= 70 && p.c === 'Completo').sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                          data.filter(p => p.ir && !p.conf && p.k && p.s >= 65).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                          data.filter(p => p.ir && !p.conf && p.s >= 70).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
                           null;
 
         const topKittenTitle = topKitten ? (topKitten.n || 'N/D') : 'Nenhuma recomendação verificada';
@@ -315,9 +315,9 @@
         `;
       } else {
         const kittens = data.filter(p => p.k).length;
-        const topDry = data.filter(p => p.ir && p.s >= 80).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                       data.filter(p => p.ir).sort((a,b) => (b.s || 0) - (a.s || 0))[0] || null;
-        const bestRatio = data.filter(p => p.ir && p.s >= 60 && p.pkg && p.pkg < 15).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] || null;
+        const topDry = data.filter(p => p.ir && !p.conf && p.s >= 80).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                       data.filter(p => p.ir && !p.conf).sort((a,b) => (b.s || 0) - (a.s || 0))[0] || null;
+        const bestRatio = data.filter(p => p.ir && !p.conf && p.s >= 60 && p.pkg && p.pkg < 15).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] || null;
 
         const topDryTitle = topDry ? (topDry.n || 'N/D') : 'Nenhuma recomendação verificada';
         const topDrySub = topDry ? `Score ${topDry.s || '-'} • ${topDry.b || ''} (${topDry.r || ''})` : 'Requer 5 macronutrientes declarados';
@@ -553,6 +553,12 @@
         const unrankedBadge = (!p.ir && p.ur && p.ur.length)
           ? `<span class="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-amber-300 border border-amber-800/60 font-medium" title="${p.ur.join(', ')}">Evidência incompleta</span>`
           : '';
+        const recBadge = p.rec
+          ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-sky-950/80 text-sky-300 border border-sky-800 font-medium" title="Formulação verificada entre lojas">✓ Fórmula Verificada</span>'
+          : '';
+        const confBadge = p.conf
+          ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium" title="Conflito de formulação não resolvido">⚠ Conflito</span>'
+          : '';
 
         if (currentCategory === 'wet') {
           // Wet Food Row
@@ -610,7 +616,7 @@
                 </div>
               </td>
               <td class="py-3 px-3">
-                <div class="flex flex-wrap gap-1">${sugarBadge}${grainBadge}${organBadge}${carrBadge}${tauBadge}${unrankedBadge}</div>
+                <div class="flex flex-wrap gap-1">${sugarBadge}${grainBadge}${organBadge}${carrBadge}${tauBadge}${unrankedBadge}${recBadge}${confBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>
@@ -679,7 +685,7 @@
               </td>
               <td class="py-3 px-3">
                 <div class="text-xs text-slate-300 truncate max-w-[200px]" title="${p.fi || ''}">${p.fi || 'N/D'}</div>
-                <div class="flex flex-wrap gap-1 mt-1">${gfBadge}${fracBadge}${cgBadge}${colBadge}${unrankedBadge}</div>
+                <div class="flex flex-wrap gap-1 mt-1">${gfBadge}${fracBadge}${cgBadge}${colBadge}${unrankedBadge}${recBadge}${confBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>

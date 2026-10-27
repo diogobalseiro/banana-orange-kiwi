@@ -19,7 +19,10 @@
     "carb": 28.0,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/wild_freedom/adult/1668511?activeVariant=1668511.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1227170",
@@ -41,7 +44,10 @@
     "carb": 21.0,
     "cb": "<22% (Baixo)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/farmina/grainfree/1227170?activeVariant=1227170.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1227168",
@@ -63,7 +69,10 @@
     "carb": 17.7,
     "cb": "<22% (Baixo)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/farmina/grainfree/1227168?activeVariant=1227168.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "669385",
@@ -85,7 +94,10 @@
     "carb": 17.5,
     "cb": "<22% (Baixo)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/veterinary/669385?activeVariant=669385.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2195452",
@@ -107,7 +119,10 @@
     "carb": 36.5,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/2195452?activeVariant=2195452.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2195428",
@@ -129,7 +144,10 @@
     "carb": 36.5,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/2195428?activeVariant=2195428.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1227169",
@@ -151,7 +169,10 @@
     "carb": 19.3,
     "cb": "<22% (Baixo)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/farmina/grainfree/1227169?activeVariant=1227169.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363064",
@@ -173,7 +194,10 @@
     "carb": 18.7,
     "cb": "<22% (Baixo)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/tasteofthewild_gato/taste_of_the_wild/363064?activeVariant=363064.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1227361",
@@ -195,7 +219,10 @@
     "carb": 26.1,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/farmina/ocean/1227361?activeVariant=1227361.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362956",
@@ -217,7 +244,10 @@
     "carb": 31.3,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_sterilised/362956?activeVariant=362956.14",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "492418",
@@ -239,7 +269,10 @@
     "carb": 34.5,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/492418?activeVariant=492418.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363061",
@@ -261,7 +294,10 @@
     "carb": 29.0,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/kitten/363061?activeVariant=363061.12",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2110931",
@@ -283,7 +319,10 @@
     "carb": 25.1,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/schesir/2110931?activeVariant=2110931.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "857437",
@@ -305,7 +344,10 @@
     "carb": 36.5,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/857437?activeVariant=857437.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "997478",
@@ -327,7 +369,10 @@
     "carb": 35.0,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/997478?activeVariant=997478.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2434458",
@@ -349,7 +394,10 @@
     "carb": 36.5,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/almonature_gato/sterilised/2434458?activeVariant=2434458.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1565134",
@@ -371,7 +419,10 @@
     "carb": 34.0,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/1565134?activeVariant=1565134.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "544140",
@@ -393,7 +444,10 @@
     "carb": 29.5,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/544140?activeVariant=544140.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362964",
@@ -415,7 +469,10 @@
     "carb": 37.3,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_interior/362964?activeVariant=362964.12",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "629222",
@@ -437,7 +494,10 @@
     "carb": 29.5,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/629222?activeVariant=629222.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363058",
@@ -459,7 +519,10 @@
     "carb": 34.0,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adult/363058?activeVariant=363058.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "471922",
@@ -481,7 +544,10 @@
     "carb": 28.5,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/problemas_sobrepeso/471922?activeVariant=471922.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1114332",
@@ -503,7 +569,10 @@
     "carb": 1.4,
     "cb": "<22% (Baixo)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cat_chow/cat_chow/1114332?activeVariant=1114332.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "496632",
@@ -525,7 +594,10 @@
     "carb": 32.0,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/496632?activeVariant=496632.15",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1930606",
@@ -547,7 +619,10 @@
     "carb": 28.5,
     "cb": "22-32% (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/veterinary/1930606?activeVariant=1930606.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1323920",
@@ -569,7 +644,10 @@
     "carb": 38.0,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/senior/1323920?activeVariant=1323920.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363062",
@@ -591,7 +669,10 @@
     "carb": 41.5,
     "cb": ">40% (Muito Alto)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/363062?activeVariant=363062.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362963",
@@ -613,7 +694,10 @@
     "carb": 43.5,
     "cb": ">40% (Muito Alto)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_interior/362963?activeVariant=362963.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "760799",
@@ -635,7 +719,10 @@
     "carb": 36.0,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/veterinary/760799?activeVariant=760799.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "497055",
@@ -657,7 +744,10 @@
     "carb": 36.0,
     "cb": "32-40% (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/brekkies/esterilizados/497055?activeVariant=497055.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1868837",
@@ -681,7 +771,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/eukanuba/eukanuba_adulto/1868837?activeVariant=1868837.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362919",
@@ -705,7 +798,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/applaws_gato/kitten/362919?activeVariant=362919.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "666946",
@@ -729,7 +825,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/666946?activeVariant=666946.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1868579",
@@ -753,7 +852,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/eukanuba/eukanuba_senior/1868579?activeVariant=1868579.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "758787",
@@ -777,7 +879,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/wild_freedom/adult/758787?activeVariant=758787.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "575970",
@@ -801,7 +906,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/thrive_racao_gatos/575970?activeVariant=575970.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1784445",
@@ -825,7 +933,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/prensado_frio/1784445?activeVariant=1784445.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2095098",
@@ -849,7 +960,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cosmadry/2095098?activeVariant=2095098.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2153314",
@@ -873,7 +987,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cosmadry/2153314?activeVariant=2153314.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "434632",
@@ -897,7 +1014,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/434632?activeVariant=434632.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362918",
@@ -921,7 +1041,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/applaws_gato/adult/362918?activeVariant=362918.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2204193",
@@ -945,7 +1068,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cosmadry/2204193?activeVariant=2204193.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "492942",
@@ -969,7 +1095,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/applaws_gato/adult/492942?activeVariant=492942.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362917",
@@ -993,7 +1122,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/applaws_gato/adult/362917?activeVariant=362917.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "492940",
@@ -1017,7 +1149,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/applaws_gato/senior/492940?activeVariant=492940.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2429157",
@@ -1041,7 +1176,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/2429157?activeVariant=2429157.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2204172",
@@ -1065,7 +1203,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cosmadry/2204172?activeVariant=2204172.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2204235",
@@ -1089,7 +1230,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cosmadry/2204235?activeVariant=2204235.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2204293",
@@ -1113,7 +1257,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cosmadry/2204293?activeVariant=2204293.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1883915",
@@ -1137,7 +1284,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/1883915?activeVariant=1883915.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "586194",
@@ -1161,7 +1311,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/applaws_gato/adult/586194?activeVariant=586194.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "693837",
@@ -1185,7 +1338,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/suplementos_alimento_especial_gato/suplementos_estomago_digestao/suplementos_estomago/693837?activeVariant=693837.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1083772",
@@ -1209,7 +1365,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/natures_variety/original_no_grain/1083772?activeVariant=1083772.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2429132",
@@ -1233,7 +1392,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/2429132?activeVariant=2429132.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1428103",
@@ -1257,7 +1419,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/veterinary/1428103?activeVariant=1428103.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "760892",
@@ -1281,7 +1446,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/veterinary/760892?activeVariant=760892.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "716938",
@@ -1305,7 +1473,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/716938?activeVariant=716938.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "574453",
@@ -1329,7 +1500,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/josera_gato/necessidades_especiais/574453?activeVariant=574453.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "669375",
@@ -1353,7 +1527,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/adult/669375?activeVariant=669375.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "669374",
@@ -1377,7 +1554,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/adult/669374?activeVariant=669374.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "669384",
@@ -1401,7 +1581,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/veterinary/669384?activeVariant=669384.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "539668",
@@ -1425,7 +1608,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/applaws_gato/adult/539668?activeVariant=539668.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1889773",
@@ -1449,7 +1635,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/feringa/sterilized/1889773?activeVariant=1889773.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "666947",
@@ -1473,7 +1662,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/666947?activeVariant=666947.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2013805",
@@ -1498,7 +1690,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/packs_experimentacao/2013805?activeVariant=2013805.18",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "669383",
@@ -1522,7 +1717,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/veterinary/669383?activeVariant=669383.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2429232",
@@ -1546,7 +1744,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/2429232?activeVariant=2429232.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1322330",
@@ -1570,7 +1771,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/schesir/1322330?activeVariant=1322330.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1852737",
@@ -1594,7 +1798,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/schesir/1852737?activeVariant=1852737.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1283558",
@@ -1618,7 +1825,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_veterinary_diet/1283558?activeVariant=1283558.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1879789",
@@ -1642,7 +1852,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/schesir/1879789?activeVariant=1879789.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1494111",
@@ -1666,7 +1879,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/natures_variety/original_no_grain/1494111?activeVariant=1494111.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1082794",
@@ -1690,7 +1906,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/necessidades_especiais/1082794?activeVariant=1082794.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1459213",
@@ -1714,7 +1933,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/josera_gato/gatinhos/1459213?activeVariant=1459213.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1083775",
@@ -1738,7 +1960,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/natures_variety/original_no_grain/1083775?activeVariant=1083775.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "434633",
@@ -1762,7 +1987,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/434633?activeVariant=434633.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "669382",
@@ -1786,7 +2014,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/virbac_hpm/senior/669382?activeVariant=669382.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "707307",
@@ -1810,7 +2041,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/iams_gato/necessidades_especiais/707307?activeVariant=707307.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1925143",
@@ -1834,7 +2068,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/libra/1925143?activeVariant=1925143.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1743021",
@@ -1858,7 +2095,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/grain_free/1743021?activeVariant=1743021.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457421",
@@ -1882,7 +2122,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/kitten/457421?activeVariant=457421.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1385402",
@@ -1906,7 +2149,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_gatinhos/1385402?activeVariant=1385402.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "592461",
@@ -1930,7 +2176,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/diabetes/592461?activeVariant=592461.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2178789",
@@ -1954,7 +2203,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_veterinary_diet/2178789?activeVariant=2178789.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1855414",
@@ -1978,7 +2230,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/iams_gato/necessidades_especiais/1855414?activeVariant=1855414.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363033",
@@ -2002,7 +2257,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/iams_gato/iams_bolas_de_pelo/363033?activeVariant=363033.17",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1880251",
@@ -2026,7 +2284,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/schesir/1880251?activeVariant=1880251.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363032",
@@ -2050,7 +2311,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/iams_gato/iams_adulto/363032?activeVariant=363032.20",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1919898",
@@ -2074,7 +2338,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/esterilizados/1919898?activeVariant=1919898.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363035",
@@ -2098,7 +2365,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/iams_gato/iams_gatinhos/363035?activeVariant=363035.18",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "519783",
@@ -2122,7 +2392,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/kitten/519783?activeVariant=519783.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362928",
@@ -2146,7 +2419,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_gatinhos/362928?activeVariant=362928.13",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "667390",
@@ -2171,7 +2447,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/packs_experimentacao/667390?activeVariant=667390.13",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1083774",
@@ -2195,7 +2474,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/natures_variety/original_no_grain/1083774?activeVariant=1083774.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1632822",
@@ -2219,7 +2501,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/necessidades_especiais/1632822?activeVariant=1632822.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1083777",
@@ -2243,7 +2528,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/natures_variety/original_no_grain/1083777?activeVariant=1083777.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1412237",
@@ -2267,7 +2555,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/racas/1412237?activeVariant=1412237.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1800472",
@@ -2291,7 +2582,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/single_meat/1800472?activeVariant=1800472.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1743213",
@@ -2315,7 +2609,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/grain_free/1743213?activeVariant=1743213.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1801614",
@@ -2339,7 +2636,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/single_meat/1801614?activeVariant=1801614.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363036",
@@ -2363,7 +2663,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/iams_gato/iams_senior/363036?activeVariant=363036.17",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362930",
@@ -2387,7 +2690,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_sterilised/362930?activeVariant=362930.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363038",
@@ -2411,7 +2717,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/josera_gato/necessidades_especiais/363038?activeVariant=363038.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "431473",
@@ -2435,7 +2744,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_senior_gato/431473?activeVariant=431473.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362936",
@@ -2459,7 +2771,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_senior_gato/362936?activeVariant=362936.12",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1189809",
@@ -2483,7 +2798,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/1189809?activeVariant=1189809.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2617314",
@@ -2508,7 +2826,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/2617314?activeVariant=2617314.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362883",
@@ -2532,7 +2853,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/purinaone_junior/362883?activeVariant=362883.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1400472",
@@ -2557,7 +2881,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/adult/1400472?activeVariant=1400472.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "522756",
@@ -2581,7 +2908,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/gatinhos/522756?activeVariant=522756.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "978536",
@@ -2605,7 +2935,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/problemas_sobrepeso/978536?activeVariant=978536.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "707294",
@@ -2629,7 +2962,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/iams_gato/necessidades_especiais/707294?activeVariant=707294.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "452755",
@@ -2653,7 +2989,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima_esterilizados/452755?activeVariant=452755.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363039",
@@ -2677,7 +3016,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/josera_gato/adultos/363039?activeVariant=363039.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "438355",
@@ -2701,7 +3043,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_adulto_gato/438355?activeVariant=438355.19",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362931",
@@ -2725,7 +3070,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_cuidado_gato/362931?activeVariant=362931.10",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457417",
@@ -2749,7 +3097,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/sterilized/457417?activeVariant=457417.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362949",
@@ -2773,7 +3124,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/362949?activeVariant=362949.11",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "629223",
@@ -2797,7 +3151,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_senior/629223?activeVariant=629223.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362948",
@@ -2821,7 +3178,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_gatinhos/362948?activeVariant=362948.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362947",
@@ -2845,7 +3205,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/362947?activeVariant=362947.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363072",
@@ -2869,7 +3232,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_gastrointestinal/363072?activeVariant=363072.11",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "601967",
@@ -2893,7 +3259,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/601967?activeVariant=601967.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "918236",
@@ -2917,7 +3286,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_gatinhos/918236?activeVariant=918236.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363082",
@@ -2941,7 +3313,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/diabetes/363082?activeVariant=363082.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1108017",
@@ -2965,7 +3340,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/proplan_liveclear/1108017?activeVariant=1108017.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1108111",
@@ -2989,7 +3367,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/proplan_liveclear/1108111?activeVariant=1108111.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1108112",
@@ -3013,7 +3394,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/proplan_liveclear/1108112?activeVariant=1108112.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363040",
@@ -3037,7 +3421,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/josera_gato/necessidades_especiais/363040?activeVariant=363040.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2655496",
@@ -3061,7 +3448,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/2655496?activeVariant=2655496.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457418",
@@ -3085,7 +3475,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/sterilized/457418?activeVariant=457418.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "741922",
@@ -3109,7 +3502,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/sterilized/741922?activeVariant=741922.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "492165",
@@ -3133,7 +3529,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_perfect_weight/492165?activeVariant=492165.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2452426",
@@ -3157,7 +3556,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_adultos/2452426?activeVariant=2452426.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "522527",
@@ -3181,7 +3583,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/racas/522527?activeVariant=522527.15",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "742127",
@@ -3205,7 +3610,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/avance_vet/problemas_urinarios/742127?activeVariant=742127.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457068",
@@ -3229,7 +3637,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/expert/457068?activeVariant=457068.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "560310",
@@ -3253,7 +3664,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/sterilcat/560310?activeVariant=560310.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1962858",
@@ -3277,7 +3691,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/sterilcat/1962858?activeVariant=1962858.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "623517",
@@ -3301,7 +3718,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/sterilcat/623517?activeVariant=623517.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2073736",
@@ -3325,7 +3745,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/sterilcat/2073736?activeVariant=2073736.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1869919",
@@ -3349,7 +3772,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/purinaone_senior/1869919?activeVariant=1869919.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362889",
@@ -3373,7 +3799,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/necessidades_especiais/362889?activeVariant=362889.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1855420",
@@ -3397,7 +3826,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/purinaone_senior/1855420?activeVariant=1855420.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362951",
@@ -3421,7 +3853,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/362951?activeVariant=362951.11",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362884",
@@ -3445,7 +3880,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/purinaone_senior/362884?activeVariant=362884.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "756640",
@@ -3469,7 +3907,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_senior/756640?activeVariant=756640.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "592459",
@@ -3493,7 +3934,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/problemas_digestivos/592459?activeVariant=592459.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362975",
@@ -3517,7 +3961,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/362975?activeVariant=362975.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1086246",
@@ -3541,7 +3988,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/natures_variety/original/1086246?activeVariant=1086246.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457420",
@@ -3565,7 +4015,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/adult/457420?activeVariant=457420.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "633655",
@@ -3589,7 +4042,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima_esterilizados/633655?activeVariant=633655.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1283559",
@@ -3613,7 +4069,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_veterinary_diet/1283559?activeVariant=1283559.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363051",
@@ -3637,7 +4096,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/necessidades_especiais/363051?activeVariant=363051.12",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457424",
@@ -3661,7 +4123,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/avance_vet/problemas_urinarios/457424?activeVariant=457424.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "580905",
@@ -3685,7 +4150,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/sterilized/580905?activeVariant=580905.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "516057",
@@ -3709,7 +4177,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/expert/516057?activeVariant=516057.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362971",
@@ -3733,7 +4204,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/362971?activeVariant=362971.11",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "805082",
@@ -3757,7 +4231,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_gastrointestinal/805082?activeVariant=805082.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457358",
@@ -3782,7 +4259,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/poupanca/457358?activeVariant=457358.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2647319",
@@ -3807,7 +4287,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/2647319?activeVariant=2647319.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "452694",
@@ -3831,7 +4314,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima_esterilizados/452694?activeVariant=452694.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362946",
@@ -3855,7 +4341,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_proplan/purina_proplan_adulto/362946?activeVariant=362946.14",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "633683",
@@ -3879,7 +4368,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima_esterilizados/633683?activeVariant=633683.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "452756",
@@ -3903,7 +4395,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima/452756?activeVariant=452756.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1883340",
@@ -3927,7 +4422,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima_esterilizados/1883340?activeVariant=1883340.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1011512",
@@ -3951,7 +4449,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/necessidades_especiais/1011512?activeVariant=1011512.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "517722",
@@ -3975,7 +4476,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/adult/517722?activeVariant=517722.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457419",
@@ -3999,7 +4503,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/advance/sterilized/457419?activeVariant=457419.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362888",
@@ -4023,7 +4530,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/necessidades_especiais/362888?activeVariant=362888.13",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362981",
@@ -4047,7 +4557,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_nutricao_cuidada/362981?activeVariant=362981.21",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "789163",
@@ -4071,7 +4584,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life_veterinary_diet_gato_racao/gastrointestinal/789163?activeVariant=789163.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1901413",
@@ -4095,7 +4611,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_cuidado_gato/1901413?activeVariant=1901413.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "789093",
@@ -4119,7 +4638,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life_veterinary_diet_gato_racao/hipoalergenica/789093?activeVariant=789093.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2049918",
@@ -4143,7 +4665,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purizon/purizon_adult/2049918?activeVariant=2049918.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363073",
@@ -4167,7 +4692,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gatos_dental/363073?activeVariant=363073.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2069538",
@@ -4191,7 +4719,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_cuidado_gato/2069538?activeVariant=2069538.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362983",
@@ -4215,7 +4746,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_gatinhos/362983?activeVariant=362983.23",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363075",
@@ -4239,7 +4773,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_urinario/363075?activeVariant=363075.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1358224",
@@ -4263,7 +4800,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_digestivos/1358224?activeVariant=1358224.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "860919",
@@ -4287,7 +4827,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_digestivos/860919?activeVariant=860919.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "452757",
@@ -4311,7 +4854,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima_adult/452757?activeVariant=452757.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "742126",
@@ -4335,7 +4881,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/avance_vet/problemas_urinarios/742126?activeVariant=742126.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "432055",
@@ -4359,7 +4908,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/necessidades_especiais/432055?activeVariant=432055.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363052",
@@ -4383,7 +4935,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/necessidades_especiais/363052?activeVariant=363052.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362977",
@@ -4407,7 +4962,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/362977?activeVariant=362977.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362970",
@@ -4431,7 +4989,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/362970?activeVariant=362970.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363083",
@@ -4455,7 +5016,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_digestivos/363083?activeVariant=363083.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362973",
@@ -4479,7 +5043,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/362973?activeVariant=362973.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "700212",
@@ -4503,7 +5070,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/expert/700212?activeVariant=700212.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362974",
@@ -4527,7 +5097,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/362974?activeVariant=362974.10",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "431487",
@@ -4551,7 +5124,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/431487?activeVariant=431487.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2641846",
@@ -4575,7 +5151,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/schesir/2641846?activeVariant=2641846.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "789147",
@@ -4599,7 +5178,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life_veterinary_diet_gato_racao/controlo_peso/789147?activeVariant=789147.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "545082",
@@ -4624,7 +5206,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/pack_economico_smilla/545082?activeVariant=545082.14",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "517723",
@@ -4648,7 +5233,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima_adult/517723?activeVariant=517723.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "452695",
@@ -4672,7 +5260,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/affinity_ultima/affinity_ultima/452695?activeVariant=452695.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1962921",
@@ -4696,7 +5287,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/purinaone_adulto/1962921?activeVariant=1962921.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362885",
@@ -4720,7 +5314,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/purinaone_adulto/362885?activeVariant=362885.18",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362886",
@@ -4744,7 +5341,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/purinaone_adulto/362886?activeVariant=362886.13",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362955",
@@ -4768,7 +5368,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_adultos/362955?activeVariant=362955.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362954",
@@ -4792,7 +5395,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_adultos/362954?activeVariant=362954.12",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "931701",
@@ -4816,7 +5422,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/greenwoods/gato/931701?activeVariant=931701.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "998673",
@@ -4840,7 +5449,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_sterilised/998673?activeVariant=998673.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362972",
@@ -4864,7 +5476,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/362972?activeVariant=362972.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362961",
@@ -4888,7 +5503,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_exterior/362961?activeVariant=362961.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363081",
@@ -4912,7 +5530,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/obesidade_excesso_peso/363081?activeVariant=363081.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362984",
@@ -4936,7 +5557,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_gatinhos/362984?activeVariant=362984.19",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362978",
@@ -4960,7 +5584,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_nutricao_cuidada/362978?activeVariant=362978.10",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362982",
@@ -4984,7 +5611,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_gatinhos/362982?activeVariant=362982.15",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "431488",
@@ -5008,7 +5638,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_feline_breed/431488?activeVariant=431488.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362980",
@@ -5032,7 +5665,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_nutricao_cuidada/362980?activeVariant=362980.10",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362979",
@@ -5056,7 +5692,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_nutricao_cuidada/362979?activeVariant=362979.15",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363060",
@@ -5080,7 +5719,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adult/363060?activeVariant=363060.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "471857",
@@ -5104,7 +5746,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/problemas_sobrepeso/471857?activeVariant=471857.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363077",
@@ -5128,7 +5773,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gatos_diabetes/363077?activeVariant=363077.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "514356",
@@ -5153,7 +5801,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/packs_economicos_purina/514356?activeVariant=514356.37",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2680380",
@@ -5178,7 +5829,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/libra/2680380?activeVariant=2680380.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "756886",
@@ -5202,7 +5856,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/problemas_urinarios/756886?activeVariant=756886.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "592460",
@@ -5226,7 +5883,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/obesidade/592460?activeVariant=592460.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "435213",
@@ -5250,7 +5910,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/specific/urinario/435213?activeVariant=435213.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363076",
@@ -5274,7 +5937,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_alergias/363076?activeVariant=363076.16",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "592346",
@@ -5298,7 +5964,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/alergias/592346?activeVariant=592346.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "702554",
@@ -5322,7 +5991,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life/racas/702554?activeVariant=702554.12",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363050",
@@ -5346,7 +6018,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/sterilcat/363050?activeVariant=363050.13",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1925352",
@@ -5370,7 +6045,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/libra/libra_adult/1925352?activeVariant=1925352.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "682173",
@@ -5394,7 +6072,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/avance_vet/problemas_gastrointestinais/682173?activeVariant=682173.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "594400",
@@ -5418,7 +6099,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_alergias/594400?activeVariant=594400.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "592458",
@@ -5442,7 +6126,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/problemas_urinarios/592458?activeVariant=592458.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "789156",
@@ -5466,7 +6153,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life_veterinary_diet_gato_racao/trato_urinario/789156?activeVariant=789156.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "487894",
@@ -5490,7 +6180,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cat_chow/necessidades_especiais/487894?activeVariant=487894.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "485598",
@@ -5514,7 +6207,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cat_chow/sterilised/485598?activeVariant=485598.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1113520",
@@ -5538,7 +6234,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/expert/1113520?activeVariant=1113520.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2450726",
@@ -5562,7 +6261,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adult/2450726?activeVariant=2450726.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "497266",
@@ -5586,7 +6288,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/libra/libra_adult/497266?activeVariant=497266.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "497265",
@@ -5610,7 +6315,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/libra/libra_adult/497265?activeVariant=497265.9",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1927854",
@@ -5634,7 +6342,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/libra/libra_adult/1927854?activeVariant=1927854.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2514233",
@@ -5658,7 +6369,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/whiskas_gato/adult/2514233?activeVariant=2514233.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "607509",
@@ -5682,7 +6396,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_interior/607509?activeVariant=607509.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2450754",
@@ -5706,7 +6423,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/2450754?activeVariant=2450754.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457425",
@@ -5730,7 +6450,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/avance_vet/obesidade/457425?activeVariant=457425.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1869921",
@@ -5754,7 +6477,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purinaone/necessidades_especiais/1869921?activeVariant=1869921.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "636773",
@@ -5778,7 +6504,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_cuidado_gato/636773?activeVariant=636773.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "431977",
@@ -5802,7 +6531,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/whiskas_gato/junior/431977?activeVariant=431977.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "599979",
@@ -5826,7 +6558,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cat_chow/adult/599979?activeVariant=599979.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "487889",
@@ -5850,7 +6585,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/cat_chow/necessidades_especiais/487889?activeVariant=487889.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1318009",
@@ -5874,7 +6612,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/avance_vet/alergias_e_intolerancias/1318009?activeVariant=1318009.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "503516",
@@ -5898,7 +6639,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_nutricao_cuidada/503516?activeVariant=503516.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2105320",
@@ -5922,7 +6666,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life_veterinary_diet_gato_racao/hepatico/2105320?activeVariant=2105320.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "471926",
@@ -5946,7 +6693,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royalcanin_nutricao_cuidada/471926?activeVariant=471926.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "472052",
@@ -5970,7 +6720,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_tiroides/472052?activeVariant=472052.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "516534",
@@ -5994,7 +6747,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_digestivos/516534?activeVariant=516534.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1879955",
@@ -6018,7 +6774,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/farmina/farmina_vet_life/1879955?activeVariant=1879955.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1317910",
@@ -6042,7 +6801,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_urinario/1317910?activeVariant=1317910.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363067",
@@ -6066,7 +6828,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/whiskas_gato/adult/363067?activeVariant=363067.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362924",
@@ -6090,7 +6855,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_adulto_gato/362924?activeVariant=362924.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2072925",
@@ -6114,7 +6882,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_sterilised/2072925?activeVariant=2072925.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362934",
@@ -6138,7 +6909,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_scienceplan_gato/hills_sterilised/362934?activeVariant=362934.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "435210",
@@ -6162,7 +6936,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/specific/obesidade_e_excesso_peso/435210?activeVariant=435210.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363084",
@@ -6186,7 +6963,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_urinarios/363084?activeVariant=363084.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "545907",
@@ -6210,7 +6990,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_urinario/545907?activeVariant=545907.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362957",
@@ -6234,7 +7017,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_sterilised/362957?activeVariant=362957.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "544797",
@@ -6258,7 +7044,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_urinario/544797?activeVariant=544797.11",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "468389",
@@ -6282,7 +7071,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/brekkies/brekkies_adult/468389?activeVariant=468389.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "660074",
@@ -6306,7 +7098,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/brekkies/brekkies_adult/660074?activeVariant=660074.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "492419",
@@ -6330,7 +7125,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_gato/smilla_adulto_special/492419?activeVariant=492419.6",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "627658",
@@ -6354,7 +7152,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/friskies_racao_gatos/friskies_adultos/627658?activeVariant=627658.10",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "497056",
@@ -6378,7 +7179,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/brekkies/delicious_adult/497056?activeVariant=497056.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "721409",
@@ -6402,7 +7206,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/friskies_racao_gatos/friskies_adultos/721409?activeVariant=721409.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1283560",
@@ -6426,7 +7233,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/smilla_veterinary_diet/1283560?activeVariant=1283560.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363068",
@@ -6450,7 +7260,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/whiskas_gato/adult/363068?activeVariant=363068.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457360",
@@ -6474,7 +7287,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/avance_vet/renal/457360?activeVariant=457360.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "457205",
@@ -6498,7 +7314,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/kattovit/problemas_renais/457205?activeVariant=457205.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "592345",
@@ -6522,7 +7341,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/problemas_renais/592345?activeVariant=592345.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "438490",
@@ -6546,7 +7368,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_urinarios/438490?activeVariant=438490.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "789070",
@@ -6570,7 +7395,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/concept_for_life_veterinary_diet_gato_racao/renal/789070?activeVariant=789070.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "963658",
@@ -6594,7 +7422,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_renais/963658?activeVariant=963658.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363074",
@@ -6618,7 +7449,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_renal/363074?activeVariant=363074.7",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362962",
@@ -6642,7 +7476,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_exterior/362962?activeVariant=362962.8",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "362965",
@@ -6666,7 +7503,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_interior/362965?activeVariant=362965.12",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1403502",
@@ -6690,7 +7530,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/purina_veterinary_diets/problemas_renais/1403502?activeVariant=1403502.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2461119",
@@ -6714,7 +7557,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_sterilised/2461119?activeVariant=2461119.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2461249",
@@ -6738,7 +7584,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_adultos/2461249?activeVariant=2461249.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "435208",
@@ -6762,7 +7611,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/specific/renal/435208?activeVariant=435208.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "516646",
@@ -6786,7 +7638,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_renais/516646?activeVariant=516646.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363079",
@@ -6810,7 +7665,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/alergias_intolerancias/363079?activeVariant=363079.5",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "363085",
@@ -6834,7 +7692,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_renais/363085?activeVariant=363085.1",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "1879787",
@@ -6858,7 +7719,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/farmina/farmina_vet_life/1879787?activeVariant=1879787.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2461273",
@@ -6882,7 +7746,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_feline/royal_canin_adultos/2461273?activeVariant=2461273.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "622962",
@@ -6906,7 +7773,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_renal/622962?activeVariant=622962.3",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2567561",
@@ -6930,7 +7800,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/hills_prescriptiondiet_gato/hillsdiet_gato_renal/2567561?activeVariant=2567561.2",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "516631",
@@ -6954,7 +7827,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/problemas_renais/516631?activeVariant=516631.0",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "700211",
@@ -6978,6 +7854,9 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/racao_gato/royalcanin_veterinarydiet_gato/alergias_intolerancias/700211?activeVariant=700211.4",
-    "r": "Zooplus"
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
   }
 ]

@@ -263,6 +263,10 @@ class TestReconciliation(unittest.TestCase):
 class TestReconciliationWithGourmetGold(unittest.TestCase):
     """Test reconciliation with real Gourmet Gold Junior data."""
 
+    def setUp(self):
+        from src.scoring.reconciliation import load_product_matches
+        self.test_matches = load_product_matches()
+
     def test_gourmet_gold_junior_reconciliation(self):
         """Test that Gourmet Gold Junior gets reconciled with verified data."""
         from src.scoring.reconciliation import reconcile_product_evidence, load_product_matches
@@ -379,6 +383,113 @@ class TestReconciliationWithGourmetGold(unittest.TestCase):
         fid = find_formulation_id('zu', '5304997', matches_config=matches_config)
         self.assertEqual(fid, 'gourmet_gold_junior_veal_mousse_wet')
 
+
+    def test_reconciliation_reversibility_preserves_raw_data(self):
+        """Reconciliation must preserve raw scraped observations for full reversibility."""
+        from src.scoring.reconciliation import reconcile_product_evidence
+        
+        product = {
+            'pid': '5304997',
+            'name': 'Original Product Name',
+            'ingredients': 'Original Raw Ingredients List',
+            'nutrition_raw': 'Original Raw Nutrition 9%',
+            'classification': 'Completo',
+            'retailer': 'continente'
+        }
+        reconciled = reconcile_product_evidence(product, 'continente', matches_config=self.test_matches)
+        
+        self.assertTrue(reconciled['is_reconciled'])
+        # Verified data applied
+        self.assertIn('57%, dos quais 4% Vitela', reconciled['ingredients'])
+        # Original data preserved
+        self.assertEqual(reconciled['raw_ingredients'], 'Original Raw Ingredients List')
+        self.assertEqual(reconciled['raw_nutrition_raw'], 'Original Raw Nutrition 9%')
+        self.assertEqual(reconciled['raw_classification'], 'Completo')
+
+    def test_find_formulation_by_pdp_url(self):
+        """Formulation matching must work with full PDP URLs as well as PIDs."""
+        from src.scoring.reconciliation import find_formulation_id
+        
+        matches_with_url = {
+            'form_url_test': {
+                'retailer_matches': {
+                    'zooplus': ['/shop/gato/enlatados_gato/feringa/pure_meat/12345']
+                }
+            }
+        }
+        fid = find_formulation_id(
+            'zooplus', 
+            pid='99999', 
+            pdp_url='https://www.zooplus.pt/shop/gato/enlatados_gato/feringa/pure_meat/12345',
+            matches_config=matches_with_url
+        )
+        self.assertEqual(fid, 'form_url_test')
+
+    def test_material_conflict_gates_score_to_unranked(self):
+        """Material conflicts across formulations must result in unranked status."""
+        from src.scoring.reconciliation import (
+            detect_material_conflict, 
+            calculate_shared_score_for_formulation,
+            attach_shared_assessment
+        )
+        
+        # Test direct conflict detection
+        retailer_obs = {
+            'classification': 'complementar', # Contradicts complete
+            'ingredients': 'Frango e cereais com açúcar', # Contradicts verified sugar-free
+            'nutrition_raw': 'Proteína 6.0%' # Verified is 14% (>3% divergence)
+        }
+        verified = {
+            'classification': 'complete',
+            'ingredients': 'Frango 70%',
+            'nutrition_raw': 'Proteína 14.0%'
+        }
+        is_mat, reasons = detect_material_conflict(retailer_obs, verified)
+        self.assertTrue(is_mat)
+        self.assertTrue(len(reasons) >= 2)
+        
+        # Test unresolved conflict config
+        conflict_config = {
+            'conflict_form': {
+                'unresolved_conflict': True,
+                'verified': {
+                    'classification': 'complete',
+                    'ingredients': 'Frango 70%',
+                    'nutrition_raw': 'Proteína 12% Gordura 6% Humidade 80% Cinza 2% Fibra 0.5%'
+                },
+                'retailer_matches': {'continente': ['conf_1']}
+            }
+        }
+        assessment = calculate_shared_score_for_formulation('conflict_form', matches_config=conflict_config)
+        self.assertFalse(assessment['is_ranked'])
+        self.assertIsNone(assessment['score'])
+        self.assertIn('material_conflict_unresolved', assessment['unranked_reasons'])
+
+    def test_attach_shared_assessment_to_minified_dicts(self):
+        """Shared assessment must properly update minified data keys (s, t, vr, ir, fid, rec, conf)."""
+        from src.scoring.reconciliation import attach_shared_assessment
+        
+        minified_products = [
+            {
+                'id': '5304997',
+                'n': 'Minified Test Product',
+                'b': 'TestBrand',
+                'p': 2.0,
+                'pkg': 10.0,
+                'r': 'continente',
+                's': None,
+                't': 'Unranked',
+                'vr': None,
+                'ir': False,
+                'ur': ['missing_data']
+            }
+        ]
+        
+        updated = attach_shared_assessment(minified_products, category='wet', matches_config=self.test_matches)
+        p = updated[0]
+        self.assertEqual(p['fid'], 'gourmet_gold_junior_veal_mousse_wet')
+        self.assertTrue(p['rec'])
+        self.assertFalse(p['conf'])
 
 if __name__ == '__main__':
     unittest.main()

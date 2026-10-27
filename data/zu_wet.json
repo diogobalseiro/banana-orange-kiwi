@@ -21,7 +21,10 @@
     "carb": 8.3,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-dark-filetes-frango-e-carne-schesir-7995552",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7995554",
@@ -45,7 +48,10 @@
     "carb": 8.3,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-dark-filetes-frango-e-presunto-schesir-7995554",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7995551",
@@ -69,7 +75,10 @@
     "carb": 8.3,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-dark-filetes-frango-e-ovo-schesir-7995551",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8079996",
@@ -93,7 +102,10 @@
     "carb": 13.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-esterilizado-peru-weego-8079996",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8838779",
@@ -117,7 +129,10 @@
     "carb": 8.7,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-kitten-multipack-8x100g-purenatural-8838779",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8079998",
@@ -141,31 +156,10 @@
     "carb": 19.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-esterilizado-salmao-weego-8079998",
-    "r": "ZU"
-  },
-  {
-    "id": "5739885",
-    "n": "Comida Húmida para Gato Adulto Tartelette Vaca Tomate Purina Gourmet Gold",
-    "b": "Purina Gourmet Gold",
-    "p": 0.89,
-    "pkg": 10.47,
-    "c": "Completo",
-    "k": false,
-    "t": "Tier A (Excelente / Alto Teor Carne)",
-    "s": 76,
-    "vr": 7.26,
-    "ir": true,
-    "ur": [],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 7.3,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-vaca-tomate-purina-gourmet-gold-5739885",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7628367",
@@ -189,7 +183,37 @@
     "carb": 7.3,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-duo-purina-gourmet-gold-7628367",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": "gourmet_gold_tartelette_duo_wet",
+    "rec": true,
+    "conf": false
+  },
+  {
+    "id": "5739885",
+    "n": "Comida Húmida para Gato Adulto Tartelette Vaca Tomate Purina Gourmet Gold",
+    "b": "Purina Gourmet Gold",
+    "p": 0.89,
+    "pkg": 10.47,
+    "c": "Completo",
+    "k": false,
+    "t": "Tier A (Excelente / Alto Teor Carne)",
+    "s": 73,
+    "vr": 6.97,
+    "ir": true,
+    "ur": [],
+    "sug": false,
+    "grn": false,
+    "veg": false,
+    "org": false,
+    "carr": false,
+    "tau": false,
+    "carb": 7.3,
+    "cb": "<10% DMB (Ideal)",
+    "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-vaca-tomate-purina-gourmet-gold-5739885",
+    "r": "ZU",
+    "fid": "gourmet_gold_tartelette_vaca_tomate_wet",
+    "rec": true,
+    "conf": false
   },
   {
     "id": "7413364",
@@ -213,7 +237,10 @@
     "carb": 6.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-original-sem-cereais-peru-nature-s-variety-7413364",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7413362",
@@ -237,7 +264,10 @@
     "carb": 7.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-original-sem-cereais-frango-e-ganso-nature-s-variety-7413362",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7705743",
@@ -261,7 +291,10 @@
     "carb": 5.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicias-suculentas-peixe-do-oceano-purina-gourmet-gold-7705743",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": "gourmet_gold_delicias_peixe_oceano_wet",
+    "rec": true,
+    "conf": false
   },
   {
     "id": "7413363",
@@ -285,7 +318,10 @@
     "carb": 11.7,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-original-sem-cereais-vaca-e-frango-nature-s-variety-7413363",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7705744",
@@ -309,7 +345,10 @@
     "carb": 5.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicias-suculentas-frango-purina-gourmet-gold-7705744",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": "gourmet_gold_delicias_suculentas_frango_wet",
+    "rec": true,
+    "conf": false
   },
   {
     "id": "5304997",
@@ -333,7 +372,10 @@
     "carb": 7.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-mousse-gatinhos-vitela-purina-gourmet-gold-5304997",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": "gourmet_gold_junior_veal_mousse_wet",
+    "rec": true,
+    "conf": false
   },
   {
     "id": "7413360",
@@ -357,7 +399,10 @@
     "carb": 21.7,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-original-sem-cereais-frango-nature-s-variety-7413360",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7864274",
@@ -381,7 +426,10 @@
     "carb": 0.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-atum-e-gamba-purina-gourmet-nature-7864274",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5739886",
@@ -405,7 +453,10 @@
     "carb": 7.3,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-frango-cenouras-purina-gourmet-gold-5739886",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": "gourmet_gold_tartelette_frango_cenouras_wet",
+    "rec": true,
+    "conf": false
   },
   {
     "id": "6290678",
@@ -429,7 +480,10 @@
     "carb": 4.4,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-diabetes-management-lata-purina-pro-plan-veterinary-diets-6290678",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6819601",
@@ -453,7 +507,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicate-gelatina-nutri-savour-peixe-purina-pro-plan-6819601",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5923285",
@@ -477,7 +534,10 @@
     "carb": 17.0,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-gastrointestinal-lata-purina-pro-plan-veterinary-diets-5923285",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045859",
@@ -501,7 +561,10 @@
     "carb": 37.7,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-kidney-care-frango-e-vegetais-hill-s-prescription-diet-8045859",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "4055520",
@@ -525,7 +588,10 @@
     "carb": 9.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-finos-pedacos-em-molho-saquetas-purina-gourmet-perle-4055520",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "3584044",
@@ -549,7 +615,10 @@
     "carb": 9.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicias-do-oceano-saquetas-purina-gourmet-perle-3584044",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045770",
@@ -573,7 +642,10 @@
     "carb": 38.9,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-food-sensitivities-frango-hill-s-prescription-diet-8045770",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6817787",
@@ -597,7 +669,10 @@
     "carb": 7.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-carne-saquetas-purina-cat-chow-6817787",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6817785",
@@ -621,7 +696,10 @@
     "carb": 7.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-frango-saquetas-purina-cat-chow-6817785",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6817786",
@@ -645,7 +723,10 @@
     "carb": 7.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-salmao-saquetas-purina-cat-chow-6817786",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "3584121",
@@ -669,7 +750,10 @@
     "carb": 9.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-finos-pedacos-em-molho-saquetas-purina-gourmet-perle-3584121",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8195760",
@@ -693,7 +777,10 @@
     "carb": 7.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-frango-saquetas-purina-cat-chow-8195760",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6322582",
@@ -717,7 +804,10 @@
     "carb": 12.7,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-peru-nutri-savour-saquetas-purina-pro-plan-6322582",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7378162",
@@ -741,7 +831,10 @@
     "carb": 18.2,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-revelations-mousse-frango-terrina-purina-gourmet-revelations-7378162",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6994535",
@@ -765,7 +858,10 @@
     "carb": 13.2,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sensitive-salmao-purina-cat-chow-6994535",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6994533",
@@ -789,7 +885,10 @@
     "carb": 11.8,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-borrego-purina-cat-chow-6994533",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6817784",
@@ -813,7 +912,10 @@
     "carb": 11.7,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-peru-saquetas-purina-cat-chow-6817784",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6994537",
@@ -837,7 +939,10 @@
     "carb": 11.8,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-frango-e-beringela-purina-cat-chow-6994537",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8195786",
@@ -861,7 +966,10 @@
     "carb": 11.7,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-peru-saquetas-purina-cat-chow-8195786",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8196333",
@@ -885,7 +993,10 @@
     "carb": 11.8,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-frango-e-beringela-purina-cat-chow-8196333",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8196336",
@@ -909,7 +1020,10 @@
     "carb": 11.8,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-borrego-purina-cat-chow-8196336",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2210475",
@@ -933,7 +1047,10 @@
     "carb": 31.4,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-pedacinhos-em-molho-vaca-purina-gourmet-gold-2210475",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6322925",
@@ -957,7 +1074,10 @@
     "carb": 13.6,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicate-peru-nutri-savour-saquetas-purina-pro-plan-6322925",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6322617",
@@ -981,7 +1101,10 @@
     "carb": 14.5,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-frango-nutri-savour-saquetas-purina-pro-plan-6322617",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6322689",
@@ -1005,7 +1128,10 @@
     "carb": 14.5,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-vaca-saquetas-purina-pro-plan-6322689",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8033048",
@@ -1029,7 +1155,10 @@
     "carb": 14.5,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-vaca-saquetas-purina-pro-plan-8033048",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8153891",
@@ -1053,7 +1182,10 @@
     "carb": 10.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-peixe-purina-pro-plan-8153891",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7378163",
@@ -1077,7 +1209,10 @@
     "carb": 18.2,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-revelations-mousse-salmao-terrina-purina-gourmet-revelations-7378163",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179464",
@@ -1101,7 +1236,10 @@
     "carb": 33.3,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-bolas-de-pelo-saquetas-royal-canin-6179464",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7166054",
@@ -1125,7 +1263,10 @@
     "carb": 18.2,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-indoor-saquetas-royal-canin-7166054",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6178150",
@@ -1149,7 +1290,10 @@
     "carb": 13.7,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-loaf-royal-canin-6178150",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6177881",
@@ -1173,7 +1317,10 @@
     "carb": 7.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-instinctive-saquetas-royal-canin-6177881",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7166188",
@@ -1197,7 +1344,10 @@
     "carb": 18.2,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-indoor-saquetas-royal-canin-7166188",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7166062",
@@ -1221,7 +1371,10 @@
     "carb": 18.2,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-indoor-saquetas-royal-canin-7166062",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7166189",
@@ -1245,7 +1398,10 @@
     "carb": 18.2,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-indoor-saquetas-royal-canin-7166189",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6177999",
@@ -1269,7 +1425,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-saquetas-royal-canin-6177999",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6178398",
@@ -1293,7 +1452,10 @@
     "carb": 33.3,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-bolas-de-pelo-saquetas-royal-canin-6178398",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6986997",
@@ -1317,7 +1479,10 @@
     "carb": 19.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-urinary-royal-canin-veterinary-diets-6986997",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6178269",
@@ -1341,7 +1506,10 @@
     "carb": 19.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-urinary-saquetas-royal-canin-6178269",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179399",
@@ -1365,7 +1533,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-saquetas-royal-canin-6179399",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8838780",
@@ -1392,7 +1563,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-multipack-8x100g-purenatural-8838780",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8375238",
@@ -1418,7 +1592,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-e-pato-saquetas-smaak-8375238",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7639538",
@@ -1444,7 +1621,10 @@
     "carb": 8.1,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-mix-purina-felix-7639538",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8375397",
@@ -1470,7 +1650,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-saquetas-smaak-8375397",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8375249",
@@ -1496,7 +1679,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-sem-cereais-frango-saquetas-smaak-8375249",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8375250",
@@ -1522,7 +1708,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-e-peru-saquetas-smaak-8375250",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8375398",
@@ -1548,7 +1737,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-sem-cereais-frango-saquetas-smaak-8375398",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5304998",
@@ -1574,7 +1766,10 @@
     "carb": 10.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-mon-petit-selecao-carnes-purina-gourmet-mon-petit-5304998",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6994536",
@@ -1600,7 +1795,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-borrego-purina-cat-chow-6994536",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5305000",
@@ -1626,7 +1824,10 @@
     "carb": 11.6,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-peixe-saquetas-purina-gourmet-mon-petit-5305000",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8195787",
@@ -1652,7 +1853,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-borrego-purina-cat-chow-8195787",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "4440840",
@@ -1678,7 +1882,10 @@
     "carb": 12.3,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-saquetas-purina-gourmet-a-la-carte-4440840",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "4440839",
@@ -1704,7 +1911,10 @@
     "carb": 12.3,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-saquetas-purina-gourmet-a-la-carte-4440839",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2210476",
@@ -1730,7 +1940,10 @@
     "carb": 8.9,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-frango-terrina-purina-gourmet-gold-2210476",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2858343",
@@ -1756,7 +1969,10 @@
     "carb": 8.9,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-coelho-terrina-purina-gourmet-gold-2858343",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5305001",
@@ -1782,7 +1998,10 @@
     "carb": 11.6,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-aves-saquetas-purina-gourmet-mon-petit-5305001",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7090815",
@@ -1808,7 +2027,10 @@
     "carb": 12.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-vaca-lata-purina-gourmet-nature-7090815",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7090816",
@@ -1834,7 +2056,10 @@
     "carb": 12.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-peixe-lata-purina-gourmet-nature-7090816",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6935950",
@@ -1860,7 +2085,10 @@
     "carb": 0.0,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-jantar-peixe-organico-lily-s-kitchen-6935950",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2255635",
@@ -1886,7 +2114,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-mousse-salmao-purina-gourmet-gold-2255635",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2759629",
@@ -1912,7 +2143,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-mousse-frango-purina-gourmet-gold-2759629",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2568948",
@@ -1938,7 +2172,10 @@
     "carb": 10.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-mousse-vaca-purina-gourmet-gold-2568948",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8537299",
@@ -1964,7 +2201,10 @@
     "carb": 13.9,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-natural-frango-salmao-peru-e-atum-nature-s-variety-8537299",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6461914",
@@ -1990,7 +2230,10 @@
     "carb": 11.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-fondant-atum-purina-gourmet-gold-6461914",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6461899",
@@ -2016,7 +2259,10 @@
     "carb": 11.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-fondant-frango-purina-gourmet-gold-6461899",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7399548",
@@ -2042,7 +2288,10 @@
     "carb": 12.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-frango-purina-gourmet-nature-7399548",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "3835893",
@@ -2068,7 +2317,10 @@
     "carb": 20.3,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-duplo-prazer-peixe-do-oceano-num-molho-espinafres-purina-gourmet-gold-3835893",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "3835895",
@@ -2094,7 +2346,10 @@
     "carb": 20.3,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-duplo-prazer-vaca-e-frango-purina-gourmet-gold-3835895",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7995346",
@@ -2120,7 +2375,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-mousse-peixe-do-mar-catit-7995346",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7854236",
@@ -2147,7 +2405,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-esterilizado-adulto-salmao-e-atum-purina-pro-plan-7854236",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944665",
@@ -2174,7 +2435,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-peru-esterilizado-multipack-affinity-advance-7944665",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8153814",
@@ -2201,7 +2465,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-pato-purina-pro-plan-8153814",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7854198",
@@ -2228,7 +2495,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-esterilizado-adulto-salmao-e-atum-purina-pro-plan-7854198",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8153916",
@@ -2255,7 +2525,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-pato-purina-pro-plan-8153916",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7753011",
@@ -2282,7 +2555,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-multipack-nature-s-variety-7753011",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8041025",
@@ -2309,7 +2585,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-digestion-mix-peru-e-peixe-purina-pro-plan-8041025",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7757500",
@@ -2336,7 +2615,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tasty-cuts-lily-s-kitchen-7757500",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7757497",
@@ -2363,7 +2645,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tasty-cuts-frango-lily-s-kitchen-7757497",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7752998",
@@ -2390,7 +2675,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-wet-bites-molho-frango-nature-s-variety-7752998",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8205548",
@@ -2417,7 +2705,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-atum-pedacos-em-molho-nature-s-variety-8205548",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8716840",
@@ -2444,7 +2735,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-grain-free-atum-naturo-8716840",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8716841",
@@ -2471,7 +2765,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-esterilizado-grain-free-frango-naturo-8716841",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8716838",
@@ -2498,7 +2795,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-grain-free-salmao-naturo-8716838",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8716839",
@@ -2525,7 +2825,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-senior-grain-free-frango-naturo-8716839",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798709",
@@ -2552,7 +2855,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-senior-mousse-ageing-11-royal-canin-8798709",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798710",
@@ -2579,7 +2885,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-senior-mousse-ageing-15-royal-canin-8798710",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6383439",
@@ -2606,7 +2915,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-british-shorthair-royal-canin-6383439",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6986999",
@@ -2633,7 +2945,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-urinary-royal-canin-veterinary-diets-6986999",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7141155",
@@ -2660,7 +2975,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-gastrointestinal-royal-canin-veterinary-diets-7141155",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7142744",
@@ -2687,7 +3005,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-gastrointestinal-royal-canin-veterinary-diets-7142744",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6987067",
@@ -2714,7 +3035,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-royal-canin-veterinary-diets-6987067",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6987007",
@@ -2741,7 +3065,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-satiety-royal-canin-veterinary-diets-6987007",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5676745",
@@ -2768,7 +3095,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-diabetic-royal-canin-veterinary-diets-5676745",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798839",
@@ -2795,7 +3125,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-digestive-care-mousse-royal-canin-8798839",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798712",
@@ -2822,7 +3155,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-apetite-control-mousse-royal-canin-8798712",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798907",
@@ -2849,7 +3185,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-senior-mousse-ageing-15-royal-canin-8798907",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045091",
@@ -2876,7 +3215,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-perfect-weight-frango-e-salmao-hill-s-science-plan-8045091",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045079",
@@ -2903,7 +3245,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-frango-e-salmao-hill-s-science-plan-8045079",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045057",
@@ -2930,7 +3275,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-frango-e-peixe-do-oceano-hill-s-science-plan-8045057",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045107",
@@ -2957,7 +3305,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-esterilizado-frango-salmao-peru-e-truta-hill-s-science-plan-8045107",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045058",
@@ -2984,7 +3335,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-frango-e-peru-hill-s-science-plan-8045058",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300242",
@@ -3011,7 +3365,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-renal-pate-royal-canin-veterinary-diets-7300242",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5676779",
@@ -3038,7 +3395,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-renal-atum-royal-canin-veterinary-diets-5676779",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5677306",
@@ -3065,7 +3425,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-renal-vaca-royal-canin-veterinary-diets-5677306",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5676776",
@@ -3092,7 +3455,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-renal-frango-royal-canin-veterinary-diets-5676776",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5677303",
@@ -3119,7 +3485,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-renal-frango-royal-canin-veterinary-diets-5677303",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300241",
@@ -3146,7 +3515,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-early-renal-royal-canin-veterinary-diets-7300241",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5677308",
@@ -3173,7 +3545,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-renal-atum-royal-canin-veterinary-diets-5677308",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300820",
@@ -3200,7 +3575,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-renal-pate-royal-canin-veterinary-diets-7300820",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8037916",
@@ -3227,7 +3605,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-atum-e-salmao-lily-s-kitchen-8037916",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8642846",
@@ -3254,7 +3635,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-frango-e-arroz-purenatural-8642846",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8642856",
@@ -3281,7 +3665,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-atum-e-camarao-purenatural-8642856",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8642855",
@@ -3308,7 +3695,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-atum-purenatural-8642855",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7090818",
@@ -3335,7 +3725,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-frango-e-peru-purina-gourmet-nature-s-creations-7090818",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8282804",
@@ -3362,7 +3755,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-peixe-lata-purina-gourmet-nature-8282804",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8282805",
@@ -3389,7 +3785,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-frango-purina-gourmet-nature-8282805",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8282794",
@@ -3416,7 +3815,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-vaca-lata-purina-gourmet-nature-8282794",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8195790",
@@ -3443,7 +3845,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-salmao-saquetas-purina-cat-chow-8195790",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7992910",
@@ -3470,7 +3875,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-gastrointestinal-salmao-purina-pro-plan-veterinary-diets-7992910",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300824",
@@ -3497,7 +3905,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-controlo-de-apetite-gravy-royal-canin-7300824",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7992909",
@@ -3524,7 +3935,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-gastrointestinal-frango-purina-pro-plan-veterinary-diets-7992909",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7459083",
@@ -3551,7 +3965,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-sensory-taste-gravy-royal-canin-7459083",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6383445",
@@ -3578,7 +3995,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-british-shorthair-royal-canin-6383445",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6383424",
@@ -3605,7 +4025,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-main-coon-royal-canin-6383424",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6182326",
@@ -3632,7 +4055,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-light-weight-saquetas-royal-canin-6182326",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5677193",
@@ -3659,7 +4085,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-diabetic-royal-canin-veterinary-diets-5677193",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5369774",
@@ -3686,7 +4115,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-saquetas-royal-canin-5369774",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045767",
@@ -3713,7 +4145,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-metabolic-frango-e-vegetais-hill-s-prescription-diet-8045767",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6383396",
@@ -3740,7 +4175,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-persa-royal-canin-6383396",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5369779",
@@ -3767,7 +4205,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-ultra-light-saquetas-royal-canin-5369779",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944663",
@@ -3794,7 +4235,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-bacalhau-affinity-advance-7944663",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8623851",
@@ -3821,7 +4265,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-senior-ageing-11-em-geleia-royal-canin-8623851",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798834",
@@ -3848,7 +4295,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-light-weight-mousse-royal-canin-8798834",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7753002",
@@ -3875,7 +4325,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-wet-bites-molho-salmao-nature-s-variety-7753002",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8537298",
@@ -3902,7 +4355,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-atum-e-peru-em-molho-nature-s-variety-8537298",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8196332",
@@ -3929,7 +4385,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-sensitive-salmao-purina-cat-chow-8196332",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8195792",
@@ -3956,7 +4415,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-carne-saquetas-purina-cat-chow-8195792",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045855",
@@ -3983,7 +4445,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-care-atum-e-vegetais-hill-s-prescription-diet-8045855",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944741",
@@ -4010,7 +4475,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-frango-saquetas-affinity-advance-7944741",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455211",
@@ -4037,7 +4505,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-neutured-balance-royal-canin-veterinary-diets-7455211",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455390",
@@ -4064,7 +4535,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-mature-consult-balance-royal-canin-veterinary-diets-7455390",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455213",
@@ -4091,7 +4565,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-neutured-maintenance-royal-canin-veterinary-diets-7455213",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300809",
@@ -4118,7 +4595,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-early-renal-royal-canin-veterinary-diets-7300809",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6383415",
@@ -4145,7 +4625,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-persa-royal-canin-6383415",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6987075",
@@ -4172,7 +4655,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-royal-canin-veterinary-diets-6987075",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6182339",
@@ -4199,7 +4685,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-senior-instinctive-ageing-7-saquetas-royal-canin-6182339",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8623870",
@@ -4226,7 +4715,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-senior-ageing-15-em-molho-royal-canin-8623870",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179442",
@@ -4253,7 +4745,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-loaf-royal-canin-6179442",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179450",
@@ -4280,7 +4775,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-intense-beauty-saquetas-royal-canin-6179450",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045768",
@@ -4307,7 +4805,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-on-care-frango-e-vegetais-hill-s-prescription-diet-8045768",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6178083",
@@ -4334,7 +4835,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-instinctive-saquetas-royal-canin-6178083",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5454223",
@@ -4361,7 +4865,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-instinctive-royal-canin-5454223",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944664",
@@ -4388,7 +4895,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-frango-saquetas-affinity-advance-7944664",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7683230",
@@ -4415,7 +4925,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-cuidado-urinario-affinity-advance-veterinary-diets-7683230",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8079932",
@@ -4442,7 +4955,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-delicate-gelatina-nutri-savour-peixe-purina-pro-plan-8079932",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944666",
@@ -4469,7 +4985,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-frango-multipack-affinity-advance-7944666",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455387",
@@ -4496,7 +5015,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-mature-consult-balance-royal-canin-veterinary-diets-7455387",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7459084",
@@ -4523,7 +5045,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-sensory-feel-gravy-royal-canin-7459084",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455216",
@@ -4550,7 +5075,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-mature-consult-royal-canin-veterinary-diets-7455216",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300823",
@@ -4577,7 +5105,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-controlo-de-apetite-jelly-royal-canin-7300823",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6987098",
@@ -4604,7 +5135,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-satiety-royal-canin-veterinary-diets-6987098",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7142746",
@@ -4631,7 +5165,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-gastrointestinal-royal-canin-veterinary-diets-7142746",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6987077",
@@ -4658,7 +5195,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-royal-canin-veterinary-diets-6987077",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6987085",
@@ -4685,7 +5225,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-sensitive-control-frango-royal-canin-veterinary-diets-6987085",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300808",
@@ -4712,7 +5255,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-gastrointestinal-royal-canin-veterinary-diets-7300808",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6182329",
@@ -4739,7 +5285,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-ultra-light-saquetas-royal-canin-6182329",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6182333",
@@ -4766,7 +5315,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-intense-beauty-saquetas-royal-canin-6182333",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6182319",
@@ -4793,7 +5345,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-instinctive-royal-canin-6182319",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179437",
@@ -4820,7 +5375,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-instinctive-saquetas-royal-canin-6179437",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300017",
@@ -4847,7 +5405,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-controlo-de-apetite-gravy-royal-canin-7300017",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179462",
@@ -4874,7 +5435,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-saquetas-royal-canin-6179462",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8716837",
@@ -4901,7 +5465,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-grain-free-frango-naturo-8716837",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6383419",
@@ -4928,7 +5495,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-main-coon-royal-canin-6383419",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8537309",
@@ -4955,7 +5525,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-natural-frango-e-salmao-nature-s-variety-8537309",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798830",
@@ -4982,7 +5555,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-senior-mousse-ageing-11-royal-canin-8798830",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8212814",
@@ -5009,7 +5585,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-peru-em-molho-nature-s-variety-8212814",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8212813",
@@ -5036,7 +5615,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-atum-pedacos-em-molho-nature-s-variety-8212813",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045856",
@@ -5063,7 +5645,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-digestive-care-frango-e-vegetais-hill-s-prescription-diet-8045856",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8041024",
@@ -5090,7 +5675,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-pack-comida-humida-para-gato-esterilizado-mix-frango-vaca-purina-pro-plan-8041024",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045858",
@@ -5117,7 +5705,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-gastrointestinal-biome-frango-e-vegetais-hill-s-prescription-diet-8045858",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8033053",
@@ -5144,7 +5735,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-urinary-peru-lata-purina-pro-plan-veterinary-diets-8033053",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455215",
@@ -5171,7 +5765,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-neutured-maintenance-royal-canin-veterinary-diets-7455215",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7459082",
@@ -5198,7 +5795,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-sensory-smell-gravy-royal-canin-7459082",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455209",
@@ -5225,7 +5825,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-neutured-balance-royal-canin-veterinary-diets-7455209",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7455288",
@@ -5252,7 +5855,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-mature-consult-royal-canin-veterinary-diets-7455288",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "3830106",
@@ -5279,7 +5885,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-selecao-de-mousses-purina-goumet-gold-3830106",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179435",
@@ -5306,7 +5915,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-instinctive-saquetas-royal-canin-6179435",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7039846",
@@ -5333,7 +5945,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-tartelette-selecao-de-sabores-purina-goumet-gold-7039846",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6100902",
@@ -5360,7 +5975,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-selecao-duplo-prazer-multipack-purina-gourmet-gold-6100902",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7991355",
@@ -5387,7 +6005,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-weight-balance-affinity-advance-veterinary-diets-7991355",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6178169",
@@ -5414,7 +6035,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-intense-beauty-saquetas-royal-canin-6178169",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8986907",
@@ -5441,7 +6065,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-frango-naturea-8986907",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8986910",
@@ -5468,7 +6095,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-salmao-naturea-8986910",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8986908",
@@ -5495,7 +6125,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-frango-e-peixe-branco-naturea-8986908",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8986909",
@@ -5522,7 +6155,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-frango-e-salmao-naturea-8986909",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045797",
@@ -5549,7 +6185,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-kitten-mother-hill-s-science-plan-478175",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8509019",
@@ -5576,7 +6215,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-frango-nature-s-variety-8509019",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944661",
@@ -5603,7 +6245,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-frango-saquetas-affinity-advance-7944661",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8537300",
@@ -5630,7 +6275,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-natural-bacalhau-nature-s-variety-8537300",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8798838",
@@ -5657,7 +6305,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-apetite-control-mousse-royal-canin-8798838",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8509020",
@@ -5684,7 +6335,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-salmao-nature-s-variety-8509020",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8623876",
@@ -5711,7 +6365,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-senior-ageing-11-em-molho-royal-canin-8623876",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944662",
@@ -5738,7 +6395,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-peru-affinity-advance-7944662",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045866",
@@ -5765,7 +6425,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-food-sensitivities-frango-hill-s-prescription-diet-8045866",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045863",
@@ -5792,7 +6455,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-metabolic-frango-e-vegetais-hill-s-prescription-diet-8045863",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045865",
@@ -5819,7 +6485,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-thyroid-care-hill-s-prescription-diet-8045865",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045854",
@@ -5846,7 +6515,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-care-frango-e-vegetais-hill-s-prescription-diet-8045854",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8045864",
@@ -5873,7 +6545,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-on-care-frango-e-vegetais-hill-s-prescription-diet-8045864",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2210474",
@@ -5900,7 +6575,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-mousse-peixe-do-oceano-purina-gourmet-gold-2210474",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8033052",
@@ -5927,7 +6605,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-diabetes-management-lata-purina-pro-plan-veterinary-diets-8033052",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7378161",
@@ -5954,7 +6635,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-revelations-mousse-atum-terrina-purina-gourmet-revelations-7378161",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8032234",
@@ -5981,7 +6665,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-delicate-peru-nutri-savour-saquetas-purina-pro-plan-8032234",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8153812",
@@ -6008,7 +6695,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-peixe-purina-pro-plan-8153812",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "2210478",
@@ -6034,7 +6724,10 @@
     "carb": 31.4,
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-pedacinhos-em-molho-salmao-e-frango-purina-gourmet-gold-2210478",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8642849",
@@ -6061,7 +6754,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-e-salmao-purenatural-8642849",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8642847",
@@ -6088,7 +6784,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-purenatural-8642847",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8642848",
@@ -6115,7 +6814,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-peru-e-pato-purenatural-8642848",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "4624290",
@@ -6141,7 +6843,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-light-weight-saquetas-royal-canin-4624290",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179459",
@@ -6167,7 +6872,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-digest-sensitive-saquetas-royal-canin-6179459",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6178172",
@@ -6193,7 +6901,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-digest-sensitive-saquetas-royal-canin-6178172",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7458880",
@@ -6219,7 +6930,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-sensory-smell-gravy-royal-canin-7458880",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8157686",
@@ -6245,7 +6959,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-fantastic-purina-felix-8157686",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6474320",
@@ -6271,7 +6988,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-molho-peixe-purina-gourmet-perle-6474320",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5369769",
@@ -6297,7 +7017,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-senior-instinctive-ageing-7-saquetas-royal-canin-5369769",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6935947",
@@ -6324,7 +7047,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-jantar-peru-organico-lily-s-kitchen-6935947",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7854243",
@@ -6350,7 +7076,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-mousse-atum-purina-pro-plan-7854243",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7854199",
@@ -6376,7 +7105,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-mousse-peru-purina-pro-plan-7854199",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7854200",
@@ -6402,7 +7134,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-mousse-atum-purina-pro-plan-7854200",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7854241",
@@ -6428,7 +7163,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-mousse-peru-purina-pro-plan-7854241",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6359609",
@@ -6454,7 +7192,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-urinary-peru-lata-purina-pro-plan-veterinary-diets-6359609",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8041032",
@@ -6480,7 +7221,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-revelations-mousse-peixe-do-oceano-terrina-purina-gourmet-8041032",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944742",
@@ -6506,7 +7250,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-peru-affinity-advance-7944742",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944744",
@@ -6532,7 +7279,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-frango-saquetas-affinity-advance-7944744",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7944743",
@@ -6558,7 +7308,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-bacalhau-affinity-advance-7944743",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8205394",
@@ -6584,7 +7337,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-peru-em-molho-nature-s-variety-8205394",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6030995",
@@ -6610,7 +7366,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-urinary-frango-saquetas-purina-pro-plan-veterinary-diets-6030995",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6030997",
@@ -6636,7 +7395,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-obesity-management-frango-purina-pro-plan-veterinary-diets-6030997",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6030996",
@@ -6662,7 +7424,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-urinary-salmao-saquetas-purina-pro-plan-veterinary-diets-6030996",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5489758",
@@ -6688,7 +7453,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-cao-e-gato-recovery-royal-canin-veterinary-diets-5489758",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5369782",
@@ -6714,7 +7482,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-saquetas-gelatina-royal-canin-5369782",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300198",
@@ -6740,7 +7511,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-gastrointestinal-royal-canin-veterinary-diets-7300198",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5104922",
@@ -6766,7 +7540,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-e-mae-ultra-soft-lata-royal-canin-5104922",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6182323",
@@ -6792,7 +7569,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-saquetas-gelatina-royal-canin-6182323",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7458881",
@@ -6818,7 +7598,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-sensory-taste-gravy-royal-canin-7458881",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6182321",
@@ -6844,7 +7627,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-esterilizado-saquetas-royal-canin-6182321",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7458973",
@@ -6870,7 +7656,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-sensory-feel-gravy-royal-canin-7458973",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "4624289",
@@ -6896,7 +7685,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-intense-beauty-saquetas-royal-canin-4624289",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "5454224",
@@ -6922,7 +7714,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-saquetas-royal-canin-5454224",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6594088",
@@ -6948,7 +7743,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-esterilizado-junior-saquetas-royal-canin-6594088",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "4624287",
@@ -6974,7 +7772,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-junior-saquetas-royal-canin-4624287",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6594106",
@@ -7000,7 +7801,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-esterilizado-junior-saquetas-royal-canin-6594106",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7992914",
@@ -7026,7 +7830,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-frango-saquetas-purina-pro-plan-veterinary-diets-7992914",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7992913",
@@ -7052,7 +7859,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-urinary-salmao-saquetas-purina-pro-plan-veterinary-diets-7992913",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7992912",
@@ -7078,7 +7888,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-obesity-management-frango-purina-pro-plan-veterinary-diets-7992912",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7992911",
@@ -7104,7 +7917,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-renal-function-frango-saquetas-purina-pro-plan-veterinary-diets-7992911",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8623867",
@@ -7130,7 +7946,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-senior-ageing-11-em-molho-royal-canin-8623867",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179300",
@@ -7156,7 +7975,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-saquetas-royal-canin-6179300",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6594243",
@@ -7182,7 +8004,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-esterilizado-junior-saquetas-royal-canin-6594243",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179350",
@@ -7208,7 +8033,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-saquetas-royal-canin-6179350",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8623869",
@@ -7234,7 +8062,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-senior-ageing-11-em-geleia-royal-canin-8623869",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6594242",
@@ -7260,7 +8091,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-esterilizado-junior-saquetas-royal-canin-6594242",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8623852",
@@ -7286,7 +8120,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-senior-ageing-15-em-molho-royal-canin-8623852",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7300016",
@@ -7312,7 +8149,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-controlo-de-apetite-jelly-royal-canin-7300016",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "6179298",
@@ -7338,7 +8178,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-junior-e-mae-ultra-soft-lata-royal-canin-6179298",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7683229",
@@ -7364,7 +8207,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-cuidado-renal-affinity-advance-veterinary-diets-7683229",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "7683228",
@@ -7390,7 +8236,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-gastrointestinal-affinity-advance-veterinary-diets-7683228",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8020623",
@@ -7416,7 +8265,10 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/comida-humida-para-gato-adulto-gastrointestinal-fibre-response-royal-canin-veterinary-diets-8020623",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   },
   {
     "id": "8125406",
@@ -7442,6 +8294,9 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zu.pt/products/pack-comida-humida-para-gato-adulto-gastrointestinal-fibre-response-royal-canin-veterinary-diets-8125406",
-    "r": "ZU"
+    "r": "ZU",
+    "fid": null,
+    "rec": false,
+    "conf": false
   }
 ]

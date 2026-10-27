@@ -252,6 +252,9 @@ def score_wet_product(p):
         'carb': nutri.get('carbs_dmb'),
         'cb': cb,
         'u': p.get('pdp_url'),
-        'r': retailer
+        'r': retailer,
+        'fid': p.get('formulation_id'),
+        'rec': p.get('is_reconciled', False),
+        'conf': p.get('has_conflicts', False)
     }
     return p, minified

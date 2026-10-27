@@ -77,7 +77,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Frango 60% (estômagos 5%, fígado 5%, coração 5%), caldo de galinha 29%, carne bovina 6%, óleo de girassol refinado, amido de tapioca, minerais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 12%, gordura bruta 2%, cinza bruta 2%, fibra bruta 0,5%, humidade 82%, cálcio 0,19%, fósforo 0,18%."
   },
   {
     "pid": "7995554",
@@ -157,7 +161,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Frango 60% (estômago 5%, fígado 5%, coração 5%), caldo de galinha 29%, presunto 6%, óleo de girassol refinado, fécula de tapioca, minerais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 12%, gordura bruta 2%, cinza bruta 2%, fibra bruta 0,5%. Humidade 82%. Cálcio 0,19%, Fósforo 0,17%."
   },
   {
     "pid": "7995551",
@@ -237,7 +245,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Frango 58% (moela 5%, fígado 5%, coração 5%), caldo de galinha 31%, ovos de codorniz 6%, óleo de girassol refinado, amido de tapioca, minerais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 12%, gordura bruta 2%, cinza bruta 2%, fibra bruta 0,5%, humidade 82%. Ca 0,19%, P 0,18%."
   },
   {
     "pid": "8079996",
@@ -317,7 +329,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes: Filetes com 85% carne (66% frango, 15% fígado, 4% peru), 3% farinha de ervilha, 1,5% lignocelulose, 0,5% cloreto de sódio, 0,3% carbonato de cálcio.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta: 8,5%, Gordura bruta: 4,5%, Cinza bruta: 2%, Fibra bruta: 0,5%, Humidade: 82%, Cálcio: 0,2%, Fósforo: 0,15%, Sódio: 0,5%, Magnésio: 0,01%"
   },
   {
     "pid": "8838779",
@@ -397,7 +413,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Vaca: Composição: 70% Vaca (coração, carne, pulmão, fígado), 28,6% Caldo, 1% Minerais, 0,1% MOS, 0,1% FOS, 0,1% Pó de casca de ovo, 0,1% Óleo de linhaça.\nFrango: Composição: 68% Frango (coração, carne, fígado, estômago, pescoço), 28,6% Caldo, 2% Arroz, 1% Minerais, 0,1% Óleo de linhaça, 0,1% Pó de casca de ovo, 0,1% MOS, 0,1% FOS.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 10,8%, gordura bruta 8,5%, cinza bruta 2,2%, fibra bruta 0,4%, humidade 76%, ENN 2,1%,"
   },
   {
     "pid": "8079998",
@@ -477,7 +497,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes: Filetes com 85% carne (66% frango, 15% fígado, 4% salmão), 3% farinha de ervilha, 1,5% lignocelulose, 0,5% cloreto de sódio, 0,3% carbonato de cálcio.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta: 8%, Gordura bruta: 4%, Cinza bruta: 2%, Fibra bruta: 0,5%, Humidade: 82%, Cálcio: 0,2%, Fósforo: 0,15%, Sódio: 0,5%, Magnésio: 0,01%"
   },
   {
     "pid": "7628367",
@@ -555,27 +579,10 @@
     "unranked_reasons": [],
     "formulation_id": "gourmet_gold_tartelette_duo_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T18:21:00.154375+00:00",
-    "has_conflicts": true,
-    "conflicts": [
-      {
-        "field": "ingredients",
-        "retailer_value": "Composição: Carnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% atum, 4% peixe do oceano), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
-        "verified_value": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca), Minerais",
-        "resolution": "prefer_verified"
-      },
-      {
-        "field": "nutrition_raw",
-        "retailer_value": "Constituintes Analíticos: Humidade 74%. Proteína bruta 17%. Matéria gorda bruta 4%. Cinza bruta 2%. Fibra bruta 0,5%.",
-        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
-        "resolution": "prefer_verified"
-      }
-    ],
-    "reconciliation_notes": [
-      "Ingredients conflict resolved in favor of verified formulation",
-      "Nutrition conflict resolved in favor of verified formulation",
-      "2 field conflicts detected"
-    ],
+    "reconciliation_timestamp": "2026-10-27T18:28:39.730907+00:00",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
     "reconciliation_sources": {
       "retailer": "zu",
       "pid": "7628367",
@@ -585,9 +592,13 @@
     },
     "shared_assessment": {
       "formulation_id": "gourmet_gold_tartelette_duo_wet",
-      "score_source": "shared_formulation",
-      "formulation_notes": null
-    }
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    },
+    "raw_ingredients": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca), Minerais",
+    "raw_nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "raw_classification": "Completo",
+    "has_material_conflict": false
   },
   {
     "pid": "5739885",
@@ -665,27 +676,10 @@
     "unranked_reasons": [],
     "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T18:21:00.154378+00:00",
-    "has_conflicts": true,
-    "conflicts": [
-      {
-        "field": "ingredients",
-        "retailer_value": "Composição: Carnes e subprodutos animais (23%, dos quais 4% vaca), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1.2% tomate desidratado, equivalente a 10.8% tomate), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
-        "verified_value": "Carne e subprodutos de origem animal (40% Vaca), Tomate (4%), Minerais",
-        "resolution": "prefer_verified"
-      },
-      {
-        "field": "nutrition_raw",
-        "retailer_value": "Constituintes Analíticos: Humidade 74%; Proteína bruta 17%; Matéria gorda bruta 4%; Cinza bruta 2%; Fibra bruta 0,5%.",
-        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
-        "resolution": "prefer_verified"
-      }
-    ],
-    "reconciliation_notes": [
-      "Ingredients conflict resolved in favor of verified formulation",
-      "Nutrition conflict resolved in favor of verified formulation",
-      "2 field conflicts detected"
-    ],
+    "reconciliation_timestamp": "2026-10-27T18:28:39.730922+00:00",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
     "reconciliation_sources": {
       "retailer": "zu",
       "pid": "5739885",
@@ -695,9 +689,13 @@
     },
     "shared_assessment": {
       "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
-      "score_source": "shared_formulation",
-      "formulation_notes": null
-    }
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    },
+    "raw_ingredients": "Carne e subprodutos de origem animal (40% Vaca), Tomate (4%), Minerais",
+    "raw_nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "raw_classification": "Completo",
+    "has_material_conflict": false
   },
   {
     "pid": "7413364",
@@ -777,7 +775,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes:\nPeru* (70%), caldo de peru (28,9%), substâncias minerais, óleo de salmão. *Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos:\nProteína bruta 10,6 %, Gordura bruta 5.4 %, Fibra bruta 0.4 %, Cinza bruta 2.4 %, Humidade 80%."
   },
   {
     "pid": "7413362",
@@ -857,7 +859,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes:\nFrango* (66%), caldo de frango e ganso (28,9%), ganso* (10%), substâncias minerais, óleo de salmão. *Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos\n: Proteína bruta 10,2 %, Gordura bruta 5.2 %, Fibra bruta 0.4 %, Cinza bruta 2.8 %, Humidade 80%."
   },
   {
     "pid": "7705743",
@@ -935,27 +941,10 @@
     "unranked_reasons": [],
     "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T18:21:00.154373+00:00",
-    "has_conflicts": true,
-    "conflicts": [
-      {
-        "field": "ingredients",
-        "retailer_value": "Composição: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% peixe do oceano), substâncias minerais, subprodutos de origem vegetal, açúcares.",
-        "verified_value": "Peixes e subprodutos de peixes (40%), Carne e subprodutos de origem animal, Minerais",
-        "resolution": "prefer_verified"
-      },
-      {
-        "field": "nutrition_raw",
-        "retailer_value": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.2%, Fibra bruta: 0.05%.",
-        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
-        "resolution": "prefer_verified"
-      }
-    ],
-    "reconciliation_notes": [
-      "Ingredients conflict resolved in favor of verified formulation",
-      "Nutrition conflict resolved in favor of verified formulation",
-      "2 field conflicts detected"
-    ],
+    "reconciliation_timestamp": "2026-10-27T18:28:39.730931+00:00",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
     "reconciliation_sources": {
       "retailer": "zu",
       "pid": "7705743",
@@ -965,9 +954,13 @@
     },
     "shared_assessment": {
       "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
-      "score_source": "shared_formulation",
-      "formulation_notes": null
-    }
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    },
+    "raw_ingredients": "Peixes e subprodutos de peixes (40%), Carne e subprodutos de origem animal, Minerais",
+    "raw_nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+    "raw_classification": "Completo",
+    "has_material_conflict": false
   },
   {
     "pid": "7413363",
@@ -1047,7 +1040,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes:\nBovino* (40%), frango* (30%), caldo de carne bovina e frango (28,9%), substâncias minerais, óleo de salmão. *Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos\n: Proteína bruta 10,6 %, gordura bruta 6,9 %, fibra bruta 0,4 %, cinza bruta 2,4 %, humidade 77 %."
   },
   {
     "pid": "7705744",
@@ -1125,27 +1122,10 @@
     "unranked_reasons": [],
     "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T18:21:00.154357+00:00",
-    "has_conflicts": true,
-    "conflicts": [
-      {
-        "field": "ingredients",
-        "retailer_value": "Composição: Carnes e subprodutos animais (18%dos quais 8% frango), extractos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
-        "verified_value": "Carne e subprodutos de origem animal (40% Frango), Cereais, Extratos de origem vegetal, Minerais",
-        "resolution": "prefer_verified"
-      },
-      {
-        "field": "nutrition_raw",
-        "retailer_value": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.2%, Fibra bruta: 0.05%.",
-        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
-        "resolution": "prefer_verified"
-      }
-    ],
-    "reconciliation_notes": [
-      "Ingredients conflict resolved in favor of verified formulation",
-      "Nutrition conflict resolved in favor of verified formulation",
-      "2 field conflicts detected"
-    ],
+    "reconciliation_timestamp": "2026-10-27T18:28:39.730937+00:00",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
     "reconciliation_sources": {
       "retailer": "zu",
       "pid": "7705744",
@@ -1155,9 +1135,13 @@
     },
     "shared_assessment": {
       "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
-      "score_source": "shared_formulation",
-      "formulation_notes": null
-    }
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    },
+    "raw_ingredients": "Carne e subprodutos de origem animal (40% Frango), Cereais, Extratos de origem vegetal, Minerais",
+    "raw_nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+    "raw_classification": "Completo",
+    "has_material_conflict": false
   },
   {
     "pid": "5304997",
@@ -1235,28 +1219,11 @@
     "unranked_reasons": [],
     "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T18:21:00.154404+00:00",
+    "reconciliation_timestamp": "2026-10-27T18:28:39.730942+00:00",
     "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development.",
-    "has_conflicts": true,
-    "conflicts": [
-      {
-        "field": "ingredients",
-        "retailer_value": "Caraterísticas\nDescrição:\nMousse para Gatinhos de GOURMET , uma suave e aveludada delícia especialmente elaborada para o seu gatinho. Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nVitela",
-        "verified_value": "Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais",
-        "resolution": "prefer_verified"
-      },
-      {
-        "field": "nutrition_raw",
-        "retailer_value": "Constituintes Analíticos: Humidade 74,5%. Proteína bruta 13%. Matéria gorda bruta 7%. Cinza bruta 3,5%. Fibra bruta 0,05%.",
-        "verified_value": "Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%",
-        "resolution": "prefer_verified"
-      }
-    ],
-    "reconciliation_notes": [
-      "Ingredients conflict resolved in favor of verified formulation",
-      "Nutrition conflict resolved in favor of verified formulation",
-      "2 field conflicts detected"
-    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
     "reconciliation_sources": {
       "retailer": "zu",
       "pid": "5304997",
@@ -1266,9 +1233,13 @@
     },
     "shared_assessment": {
       "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
-      "score_source": "shared_formulation",
-      "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development."
-    }
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    },
+    "raw_ingredients": "Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais",
+    "raw_nutrition_raw": "Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%",
+    "raw_classification": "Completo",
+    "has_material_conflict": false
   },
   {
     "pid": "7413360",
@@ -1348,7 +1319,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes:\nFrango* (70%), caldo de frango (28,9%), substâncias minerais, óleo de salmão. *Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos\n: Proteína bruta 10,2 %, gordura bruta 5 %, fibra bruta 0,4 %, cinza bruta 2,4 %, humidade 77 %."
   },
   {
     "pid": "7864274",
@@ -1428,7 +1403,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Peixes e subprodutos de peixes* (44% atum), moluscos e crustáceos* (4% camarão), açúcares, substâncias minerais.*Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 85.0%, Proteína bruta: 13.5%, Matéria gorda bruta: 0.5%, Cinza bruta: 1.5%, Fibra bruta: 0.05%."
   },
   {
     "pid": "5739886",
@@ -1506,27 +1485,10 @@
     "unranked_reasons": [],
     "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T18:21:00.154367+00:00",
-    "has_conflicts": true,
-    "conflicts": [
-      {
-        "field": "ingredients",
-        "retailer_value": "Composição: Carnes e subprodutos animais (25%, dos quais 10% frango), extratos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1% (1% cenouras desidratadas, equivalente a 9% cenouras), subprodutos de origem vegetal, açúcares, substâncias minerais.",
-        "verified_value": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango), Vegetais (4% Cenoura), Minerais",
-        "resolution": "prefer_verified"
-      },
-      {
-        "field": "nutrition_raw",
-        "retailer_value": "Constituintes Analíticos: Humidade 74%; Proteína bruta 17%; Matéria gorda bruta 4%; Cinza bruta 2%; Fibra bruta 0,5%.",
-        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
-        "resolution": "prefer_verified"
-      }
-    ],
-    "reconciliation_notes": [
-      "Ingredients conflict resolved in favor of verified formulation",
-      "Nutrition conflict resolved in favor of verified formulation",
-      "2 field conflicts detected"
-    ],
+    "reconciliation_timestamp": "2026-10-27T18:28:39.730950+00:00",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
     "reconciliation_sources": {
       "retailer": "zu",
       "pid": "5739886",
@@ -1536,9 +1498,13 @@
     },
     "shared_assessment": {
       "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
-      "score_source": "shared_formulation",
-      "formulation_notes": null
-    }
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    },
+    "raw_ingredients": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango), Vegetais (4% Cenoura), Minerais",
+    "raw_nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "raw_classification": "Completo",
+    "has_material_conflict": false
   },
   {
     "pid": "6290678",
@@ -1618,7 +1584,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, Peixes e subprodutos de peixes, Subprodutos de origem vegetal, Substâncias minerais. Fontes de hidrato de carbono: amido de milho.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 77.5%, Proteína bruta: 13.8%, Matéria gorda bruta: 4.9%, Cinza bruta: 2.2%, Fibra bruta: 0.60%, Amido: 0.42%, Açúcares totais: <0.5%, EM: 1.02kcal/g."
   },
   {
     "pid": "6819601",
@@ -1698,7 +1668,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos de origem animal, extratos de proteína de origem vegetal, peixes e subprodutos de peixes (dos quais bacalhau 4%), subprodutos de origem vegetal, substâncias minerais, óleos e gorduras, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78,0%; Proteína bruta 12,6%, Matéria gorda bruta 3,8%, Cinza bruta 2,3%, Fibra bruta 0,9%; Ácidos gordos Ómega 6 1,2%."
   },
   {
     "pid": "5923285",
@@ -1778,7 +1752,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, Cereais, Substâncias minerais, Subprodutos de origem vegetal, Óleos e gorduras. Ingredientes de fácil digestão: Porco (fígado, rim), subprodutos de peru, farinha de arroz, óleo de peixe.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 77.0%, Proteína bruta: 10.5%, Matéria gorda bruta: 6.0%, Cinza bruta: 2.2%, Fibra bruta: 0.40%, Sódio: 0.14%, Potássio: 0.35%, EM: 1062kcal/kg."
   },
   {
     "pid": "8045859",
@@ -1858,7 +1836,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes\nConstituintes analíticos:\nProteína 5,8%, Teor de gordura 4,8%, Fibra bruta 0,60%, Cinza bruta 0,89%, Humidade 80,6%, Cálcio 0,14%, Fósforo 0,10%, Sódio 0,05%, Potássio 0,19%, Magnésio 0,01%; por kg: Vitamina A 15 759UI, Vitamina D3 248UI.\nAditivos:\nAditivos nutricionais: 3b103 (Ferro) 8,4mg, 3b202 (Iodo) 0,3mg, 3b405 (Cobre) 1,3mg, 3b503 (Manganês) 0,9mg, 3b603 (Zinco) 10,7mg, 3a920 (Betaína) 1,3g. Aditivos tecnológicos: Alginato de potássio 4,8g.",
+    "raw_nutrition_raw": "Proteína 5,8%, Teor de gordura 4,8%, Fibra bruta 0,60%, Cinza bruta 0,89%, Humidade 80,6%, Cálcio 0,14%, Fósforo 0,10%, Sódio 0,05%, Potássio 0,19%, Magnésio 0,01%; por kg: Vitamina A 15 759UI, Vitamina D3 248UI."
   },
   {
     "pid": "4055520",
@@ -1938,7 +1920,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição:\nCom Peixe do Oceano e Camarão: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% peixe do oceano), moluscos e crustáceos (4% camarão), substâncias minerais, açúcares.\nCom Salmão e Camarão:Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% salmão), moluscos e crustáceos (4% camarão), substâncias minerais, açúcares.\nCom Solha e Camarão:Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% solha), moluscos e crustáceos (1% camarão), substâncias minerais, açúcares.\nCom Atum e Camarão: Carnes e subprodutos animais, extratos de proteína vegetal, peixes e subprodutos de peixes (4% atum), moluscos e crustáceos (1% camarão), substâncias minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.0%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.05%."
   },
   {
     "pid": "3584044",
@@ -2018,7 +2004,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição:\nCom Peixe do Oceano e Camarão: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% peixe do oceano), moluscos e crustáceos (4% camarão), substâncias minerais, açúcares.\nCom Salmão e Camarão: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% salmão), moluscos e crustáceos (4% camarão), substâncias minerais, açúcares.\nCom Solha e Camarão:Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% solha), moluscos e crustáceos (1% camarão), substâncias minerais, açúcares.\nCom Atum e Camarão: Carnes e subprodutos animais, extratos de proteína vegetal, peixes e subprodutos de peixes (4% atum), moluscos e crustáceos (1% camarão), substâncias minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.0%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.05%."
   },
   {
     "pid": "8045770",
@@ -2098,7 +2088,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Original: fígado de frango hidrolisado, amido de milho, substâncias minerais, celulose, óleo de coco, casca de noz pecã moída, óleo de peixe, óleo de soja, vitaminas, sementes de linho, polpa de beterraba desidratada, polpa de citrinos desidratada, arandos desidratados, oligoelementos e taurina.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 9,2%, Teor de gordura 5,3%, Fibra bruta 0,60%, Cinza bruta 1,7%, Humidade 72,5%, Cálcio 0,23%, Fósforo 0,20%, Sódio 0,09%, Potássio 0,29%, Magnésio 0,02%; por kg: Vitamina A 28 419UI, Vitamina D3 480UI."
   },
   {
     "pid": "6817787",
@@ -2178,7 +2172,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (dos quais 4% vaca*), extratos de proteína vegetal, peixes e subprodutos de peixes*, substâncias minerais, legumes* (0,8% beringelas desidratadas, equivalente a 7% beringelas ), açúcares, leveduras*.\n*Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 82%; Proteína bruta 11,5%; Matéria gorda bruta 2,5%; Cinza bruta 2,5%; Fibra bruta 0,1%."
   },
   {
     "pid": "6817785",
@@ -2258,7 +2256,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (dos quais 4% frango*), extratos de proteína vegetal, peixes e subprodutos de peixes*, substâncias minerais, legumes* (0,8% courgetes desidratadas, equivalente a 7% courgetes), açúcares, leveduras*.\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 82%; Proteína bruta 11,5%; Matéria gorda bruta 2,5%; Cinza bruta 2,5%; Fibra bruta 0,1%."
   },
   {
     "pid": "6817786",
@@ -2338,7 +2340,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, extratos de proteína vegetal, peixes e subprodutos de peixes* (dos quais 4% salmão), substâncias minerais, legumes* (0,8% feijão verde desidratado, equivalente a 7% feijão verde), açúcares, leveduras*.\n*Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 82%; Proteína bruta 11,5%; Matéria gorda bruta 2,5%; Cinza bruta 2,5%; Fibra bruta 0,1%."
   },
   {
     "pid": "3584121",
@@ -2418,7 +2424,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (15%, dos quais 4% vaca), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Substâncias minerais, Açúcares.\nCarnes e subprodutos animais (17%, dos quais 6% frango), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Substâncias minerais, Açúcares.\nCarnes e subprodutos animais (14%, dos quais 4% coelho), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Substâncias minerais, Açúcares.\nCarnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% salmão), Substâncias minerais, Açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 80,0%, Proteína bruta: 13,0%, Matéria gorda bruta: 2,5%, Cinza bruta: 2,5%, Fibra bruta: 0,05%."
   },
   {
     "pid": "8195760",
@@ -2498,7 +2508,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (dos quais 4% frango*), extratos de proteína vegetal, peixes e subprodutos de peixes*, substâncias minerais, legumes* (0,8% courgetes desidratadas, equivalente a 7% courgetes), açúcares, leveduras*.\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Humidade 82%; Proteína bruta 11,5%; Matéria gorda bruta 2,5%; Cinza bruta 2,5%; Fibra bruta 0,1%."
   },
   {
     "pid": "6322582",
@@ -2578,7 +2592,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos de origem animal (dos quais 4% peru), extratos de proteínas vegetais, peixes e subprodutos de peixes, óleos e gorduras, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78,0%; Proteína bruta 12,5%; Matéria gorda bruta 4,0%; Cinza bruta 2,4%; Fibra bruta 0,3%; DHA 0,01%."
   },
   {
     "pid": "7378162",
@@ -2658,7 +2676,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (46%, dos quais 26% frango), Subprodutos de origem vegetal, Substâncias minerais, Açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 81%, Proteína bruta: 8.5%, Matéria gorda bruta: 4.5%, Cinza bruta: 2.5%, Fibra bruta: 0.05%. Com aromatizantes."
   },
   {
     "pid": "6994535",
@@ -2738,7 +2760,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, extratos de proteína vegetal, peixes e subprodutos de peixes (dos quais 4% salmão), substâncias minerais, legumes* (0,9% courgettes desidratadas, equivalente a 8% courgettes), subprodutos de origem vegetal, açúcares, leveduras*.\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 13%; Matéria gorda bruta 3,2%; Cinza bruta 2,3%; Fibra bruta 0,6%; Humidade 78%."
   },
   {
     "pid": "6994533",
@@ -2818,7 +2844,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (dos quais 4% borrego), extratos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, legumes* (0,9% feijão verde desidratado, equivalente a 8% feijão verde), subprodutos de origem vegetal, açúcares, leveduras*.\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 13,5%; Matéria gorda bruta 3%; Cinza bruta 2,3%; Fibra bruta 0,6%; Humidade 78%."
   },
   {
     "pid": "6817784",
@@ -2898,7 +2928,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (dos quais 4% perú*), extratos de proteína vegetal, peixes e subprodutos de peixes*, subprodutos de origem vegetal, substâncias minerais, legumes* (0,9% courgetes desidratadas equivalente a 8% courgetes), açúcares, leveduras*.\n*Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 76%; Proteína bruta 14,5%; Matéria gorda bruta 3,5%; Cinza bruta 2,4%; Fibra bruta 0,8%."
   },
   {
     "pid": "6994537",
@@ -2978,7 +3012,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (dos quais 4% frango), extratos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, legumes* (0,9% beringelas desidratadas, equivalente a 8% beringelas), subprodutos de origem vegetal, açúcares, leveduras*.\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 13,5%; Matéria gorda bruta 3%; Cinza bruta 2,3%; Fibra bruta 0,6%; Humidade 78%."
   },
   {
     "pid": "8195786",
@@ -3058,7 +3096,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (dos quais 4% perú*), extratos de proteína vegetal, peixes e subprodutos de peixes*, subprodutos de origem vegetal, substâncias minerais, legumes* (0,9% courgetes desidratadas equivalente a 8% courgetes), açúcares, leveduras*.\n*Ingredientes naturais.",
+    "raw_nutrition_raw": "Humidade 76%; Proteína bruta 14,5%; Matéria gorda bruta 3,5%; Cinza bruta 2,4%; Fibra bruta 0,8%."
   },
   {
     "pid": "8196333",
@@ -3138,7 +3180,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (dos quais 4% frango), extratos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, legumes* (0,9% beringelas desidratadas, equivalente a 8% beringelas), subprodutos de origem vegetal, açúcares, leveduras*.\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Proteína bruta 13,5%; Matéria gorda bruta 3%; Cinza bruta 2,3%; Fibra bruta 0,6%; Humidade 78%."
   },
   {
     "pid": "8196336",
@@ -3218,7 +3264,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (dos quais 4% borrego), extratos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, legumes* (0,9% feijão verde desidratado, equivalente a 8% feijão verde), subprodutos de origem vegetal, açúcares, leveduras*.\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Proteína bruta 13,5%; Matéria gorda bruta 3%; Cinza bruta 2,3%; Fibra bruta 0,6%; Humidade 78%."
   },
   {
     "pid": "2210475",
@@ -3298,7 +3348,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (25%, dos quais 4% Vaca), Cereais, substâncias minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 82%. Proteína bruta 7.0%. Matéria gorda bruta 2.9%. Cinza bruta 2.4%. Fibra bruta 0,05%."
   },
   {
     "pid": "6322925",
@@ -3378,7 +3432,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos de origem animal (dos quais 4% peru), extratos de proteínas vegetais, peixes e subprodutos de peixes, subprodutos de origem vegetal, substâncias minerais, óleos e gorduras, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78,0%; Proteína bruta 12,6%; Matéria gorda bruta 3,8%; Cinza bruta 2,3%; Fibra bruta 0,3%; Ácidos gordos Ómega 3 0,1%; Ácidos gordos Ómega 3 1,1%."
   },
   {
     "pid": "6322617",
@@ -3458,7 +3516,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos de origem animal (dos quais 4% frango), extratos de proteínas vegetais, peixes e subprodutos de peixes, subprodutos de origem vegetal, substâncias minerais, óleos e gorduras, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78,0%; Proteína bruta 13%; Matéria gorda bruta 3,3%; Cinza bruta 2,0%; Fibra bruta 0,5%."
   },
   {
     "pid": "6322689",
@@ -3538,7 +3600,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos de origem animal (dos quais 4% carne de vaca), extratos de proteínas vegetais, peixes e subprodutos de peixes, subprodutos de origem vegetal, substâncias minerais, óleos e gorduras, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78,0%; Proteína bruta 13%; Matéria gorda bruta 3,3%; Cinza bruta 2,0%; Fibra bruta 0,5%."
   },
   {
     "pid": "8033048",
@@ -3618,7 +3684,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos de origem animal (dos quais 4% carne de vaca), extratos de proteínas vegetais, peixes e subprodutos de peixes, subprodutos de origem vegetal, substâncias minerais, óleos e gorduras, açúcares.",
+    "raw_nutrition_raw": "Humidade 78,0%; Proteína bruta 13%; Matéria gorda bruta 3,3%; Cinza bruta 2,0%; Fibra bruta 0,5%."
   },
   {
     "pid": "8153891",
@@ -3698,7 +3768,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes (dos quais 4% peixe do oceano), subprodutos de origem vegetal, substâncias minerais, açúcares.",
+    "raw_nutrition_raw": "Humidade: 82%, Proteína bruta: 9,8%, Matéria gorda bruta: 3,3%, Cinza bruta: 2,6%, Fibra bruta: 0,5%."
   },
   {
     "pid": "7378163",
@@ -3778,7 +3852,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, Peixes e subprodutos de peixes (4% salmão), Subprodutos de origem vegetal, Substâncias minerais, Açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 81%, Proteína bruta: 8.5%, Matéria gorda bruta: 4.5%, Cinza bruta: 2.5%, Fibra bruta: 0.05%. Com aromatizantes."
   },
   {
     "pid": "6179464",
@@ -3858,7 +3936,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carne e derivados, cereais, extratos de proteínas vegetais, subprodutos vegetais, minerais, óleos e gorduras, açúcar, levedura.",
+    "raw_nutrition_raw": "Proteína 7%; Gordura 2,7%; Fibra 1%; Cinza 1,3%; Humidade 82%."
   },
   {
     "pid": "7166054",
@@ -3938,7 +4020,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, subprodutos de origem vegetal, óleos e gorduras, sais minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 9,7%; Matéria gorda bruta 3,3%; Cinza bruta 1,8%; Fibra bruta 0,9%; Humidade 80,8%; Cálcio 0,25%."
   },
   {
     "pid": "6178150",
@@ -4018,7 +4104,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, subprodutos de origem vegetal, cereais, extratos de proteínas vegetais, substâncias minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 10,8%; Matéria gorda bruta 2,4%; Cinza bruta 1,6%; Fibra bruta 1,6%; Humidade 81%."
   },
   {
     "pid": "6177881",
@@ -4098,7 +4188,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, subprodutos de origem vegetal, cereais, substâncias minerais, extratos de proteínas vegetais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 12%; Matéria gorda bruta 3,3%; Cinza bruta 2%; Fibra bruta 1,3%; Humidade 80%."
   },
   {
     "pid": "7166188",
@@ -4178,7 +4272,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, cereais, subprodutos de origem vegetal, óleos e gorduras, sais minerais, açúcares.",
+    "raw_nutrition_raw": "Proteína bruta 9,7%; Matéria gorda bruta 3,3%; Cinza bruta 1,8%; Fibra bruta 0,9%; Humidade 80,8%; Cálcio 0,25%."
   },
   {
     "pid": "7166062",
@@ -4258,7 +4356,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, subprodutos de origem vegetal, óleos e gorduras, sais minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 9,7%; Matéria gorda bruta 3,3%; Cinza bruta 1,8%; Fibra bruta 0,9%; Humidade 80,8%; Cálcio 0,25%."
   },
   {
     "pid": "7166189",
@@ -4338,7 +4440,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, cereais, subprodutos de origem vegetal, óleos e gorduras, sais minerais, açúcares.",
+    "raw_nutrition_raw": "Proteína bruta 9,7%; Matéria gorda bruta 3,3%; Cinza bruta 1,8%; Fibra bruta 0,9%; Humidade 80,8%; Cálcio 0,25%."
   },
   {
     "pid": "6177999",
@@ -4418,7 +4524,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, substâncias minerais, açúcares, leveduras, óleos e gorduras.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 12,3%; Matéria gorda bruta 4,3%; Cinza bruta 2%; Fibra bruta 1%; Humidade 78%."
   },
   {
     "pid": "6178398",
@@ -4498,7 +4608,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e derivados, cereais, extratos de proteínas vegetais, subprodutos vegetais, minerais, óleos e gorduras, açúcar, levedura.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 7%; Gordura 2,7%; Fibra 1%; Cinza 1,3%; Humidade 82%."
   },
   {
     "pid": "6986997",
@@ -4578,7 +4692,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, subprodutos de origem vegetal, substâncias minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 9,2%; Matéria gorda bruta 3%; Cinza bruta 1,4%; Fibra bruta 0,9%; Humidade 82%."
   },
   {
     "pid": "6178269",
@@ -4658,7 +4776,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, subprodutos de origem vegetal, substâncias minerais, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 9,2%; Matéria gorda bruta 3%; Cinza bruta 1,4%; Fibra bruta 0,9%; Humidade 82%."
   },
   {
     "pid": "6179399",
@@ -4738,7 +4860,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, substâncias minerais, açúcares, leveduras, óleos e gorduras.",
+    "raw_nutrition_raw": "Proteína bruta 12,3%; Matéria gorda bruta 4,3%; Cinza bruta 2%; Fibra bruta 1%; Humidade 78%."
   },
   {
     "pid": "8838780",
@@ -4821,7 +4947,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nMultipack com sabores: Peru & Pato, Frango, Porco e Frango & Salmão. O alimento húmido é muito saboroso, fácil de digerir e tem um aroma agradável! Como os gatos são carnívoros, a receita contém 70% de carne fresca e todos os nutrientes importantes de que os gatos precisam! Graças ao elevado teor de carne e à receita limpa, o alimento apoia da melhor forma o bem-estar do seu gato ¿ desde a função intestinal até à condição da pele e do pelo. A maravilhosa composição carnuda das diferentes variedades é normalmente especialmente adequada para gatos exigentes. Sirva tal e qual ou misturado com alimento seco!\nSabor:\nFrango, Porco, Frango e Salmão, Perú e Pato",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 10,2%, Óleos e gorduras brutos 5,2%, cinza bruta 2,4%, fibras brutas 0,5%, humidade 79%, ENN 2,7%,"
   },
   {
     "pid": "8375238",
@@ -4903,7 +5033,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e derivados de origem animal nos filetes (85%) (dos quais 70% de frango, 5% de pato), 4% de topinambo, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 6%, Matéria Gorda Bruta 4,5%, Cinzas brutas 0,7%, Fibras brutas 0,5%, Humidade 84%, NFE 4,3%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,"
   },
   {
     "pid": "7639538",
@@ -4985,7 +5119,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nCada receita, feita com ingredientes de qualidade, tem tenros pedaços em gelatina para uma saborosa refeição que o seu gato vai adorar! FELIX Fantastic está disponível numa variada gama de deliciosas refeições numa suculenta gelatina para satisfazer o gosto do seu gato por variedade todos os dias. Sabem mesmo tão bem como parecem!  FELIX - Apenas Irresistível!\nSabor:\nVários",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 82%, Proteína bruta: 11.5%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.05%, Ácidos gordos Ómega-6: 0.4%, Valor EM: 75/100 kcal/g."
   },
   {
     "pid": "8375397",
@@ -5067,7 +5205,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Frango e Peru: 85% de carne e derivados de origem animal  (dos quais 71% de frango, 4% de peru), 4% de cenoura, 2,7% de farinha de ervilha, 0,9% de lignocelulose. Frango e Truta: 85% de carne e derivados de origem animal  (dos quais 70% de frango, 5% de truta), 2,7% de farinha de ervilha, 0,9% de lignocelulose, 0,5% de equinácea. Frango e Pato: 85% de carne e derivados de origem animal (dos quais 70% de frango, 5% de pato), 4% de topinambo, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Frango e peru: Proteína bruta 6,5%,Matéria gorda Bruta 4,5%, cinzas brutas 0,7%, fibras brutas 0,5%, humidade 84%, NFE 3,8%, cálcio 0,2%, fósforo 0,2%, sódio 0,2%,"
   },
   {
     "pid": "8375249",
@@ -5149,7 +5291,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: 85% de carne e derivados de origem animal nos filetes (dos quais 75% de frango), 4% de cenoura preta, 3% de farinha de ervilha, 2% de lignocelulose.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nO alimento húmido completo é desenvolvido para atender às necessidades nutricionais de gatos esterilizados e de interior, que tendem a ter um metabolismo mais lento e necessitam de menos calorias. Com 50% de filetes de frango em molho e uma textura irresistível, esta receita grain-free ajuda a aumentar a ingestão de líquidos e proporciona uma refeição equilibrada e saborosa. Sem adição de açúcares, aromas artificiais ou conservantes, é uma escolha natural e saudável para o dia a dia.\nSabor:\nFrango"
   },
   {
     "pid": "8375250",
@@ -5231,7 +5377,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e derivados de origem animal (85%) (dos quais 71% de frango, 4% de peru), 4% de cenoura, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 6,5%, Matéria Gorda Bruta 4,5%, Cinzas brutas 0,7%, Fibras brutas 0,5%, Humidade 84%, NFE 3,8%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,"
   },
   {
     "pid": "8375398",
@@ -5313,7 +5463,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: 85% de carne e derivados de origem animal nos filetes (dos quais 71% de frango), 4% de brócolos, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 6%,Matéria Gorda Bruta 4%, Cinzas brutas 0,8%, Fibras brutas 0,5%, Humidade 84%, NFE 4,7%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,"
   },
   {
     "pid": "5304998",
@@ -5395,7 +5549,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nUma requintada coleção de receitas verdadeiramente deliciosas que celebram a essência do sabor. Selecionámos ingredientes de elevada qualidade e cozinhámos lentamente finos pedaços num delicioso mo\nSabor:\nCarne",
+    "raw_nutrition_raw": "Constituintes Analíticos:\nHumidade: 81,5%; Proteína bruta: 12,0%; Matéria gorda bruta: 3.0%; Cinza bruta: 1,6%; Fibra bruta: 0,05%"
   },
   {
     "pid": "6994536",
@@ -5477,7 +5635,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nO seu gatinho é fantástico. Para ajudar a mantê-lo dessa forma, PURINA CAT CHOW é formulado com proteína de qualidade e ingredientes naturais selecionados. Apoiada pela nossa experiência em nutrição felina desde 1926, PURINA CAT CHOW é uma nutrição completa e equilibrada, com tudo o que o seu gato precisa para ter uma vida naturalmente fantástica e saudável.\nSabor:\nBorrego",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 13,5%; Matéria gorda bruta 3,2%; Cinza bruta 2,3%; Fibra bruta 0,6%; Humidade 78%."
   },
   {
     "pid": "5305000",
@@ -5559,7 +5721,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nUma requintada coleção de receitas verdadeiramente deliciosas que celebram a essência do sabor. Selecionámos ingredientes de elevada qualidade e cozinhámos lentamente finos pedaços num delicioso molho realçando os sabores intensos para o seu verdadeiro apreciador. Ele vai adorar a frescura das nossas pequenas doses, para uma experiência verdadeiramente deliciosa em cada refeição. Fácil de abrir, fácil de servir, sem sobras e numa saqueta desenvolvida para ser reciclada. Todas as nossas deliciosas receitas são 100% completas e equilibradas para gatos adultos.\nSabor:\nPeixe",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 81.5%, Proteína bruta: 12.0%, Matéria gorda bruta: 2.6%, Cinza bruta: 1.7%, Fibra bruta: 0.05%"
   },
   {
     "pid": "8195787",
@@ -5641,7 +5807,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nO seu gatinho é fantástico. Para ajudar a mantê-lo dessa forma, PURINA CAT CHOW é formulado com proteína de qualidade e ingredientes naturais selecionados. Apoiada pela nossa experiência em nutrição felina desde 1926, PURINA CAT CHOW é uma nutrição completa e equilibrada, com tudo o que o seu gato precisa para ter uma vida naturalmente fantástica e saudável.\nSabor:\nBorrego",
+    "raw_nutrition_raw": "Proteína bruta 13,5%; Matéria gorda bruta 3,2%; Cinza bruta 2,3%; Fibra bruta 0,6%; Humidade 78%."
   },
   {
     "pid": "4440840",
@@ -5723,7 +5893,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nGOURMET A La Carte, todos os dias uma refinada receita inspirada pelo Chef GOURMET. Todas as receitas de GOURMET A La Carte são elaboradas com ingredientes de elevada qualidade e sem adição\nSabor:\nVários",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 80,5%, Proteína bruta: 12,0%, Matéria gorda bruta: 2,5%, Cinza bruta: 2,5%, Fibra bruta: 0,1%."
   },
   {
     "pid": "4440839",
@@ -5805,7 +5979,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nGOURMET A La Carte, todos os dias uma refinada receita inspirada pelo Chef GOURMET. Todas as receitas de GOURMET A La Carte são elaboradas com ingredientes de elevada qualidade e sem adição\nSabor:\nVários",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 80.5%, Proteína bruta: 12.0%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.1%."
   },
   {
     "pid": "2210476",
@@ -5887,7 +6065,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nGOURMET Gold Terrine é um saboroso patê com delicados pedaços, cuidadosamente cortados com frango, salmão e outros ingredientes selecionados para oferecer ao seu gato uma apetitosa combinação de texturas.\nTodas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nFrango",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78%. Proteína bruta 12%. Matéria gorda bruta 5%. Cinza bruta 3%. Fibra bruta 0,05%."
   },
   {
     "pid": "2858343",
@@ -5969,7 +6151,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nGOURMET Gold Terrine é um saboroso patê com delicados pedaços, cuidadosamente cortados com frango, salmão e outros ingredientes selecionados para oferecer ao seu gato uma apetitosa combinação de\nSabor:\nCoelho",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78%. Proteína bruta 12%. Matéria gorda bruta 5%. Cinza bruta 3%. Fibra bruta 0,05%."
   },
   {
     "pid": "5305001",
@@ -6051,7 +6237,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nUma requintada coleção de receitas verdadeiramente deliciosas que celebram a essência do sabor. Selecionámos ingredientes de elevada qualidade e cozinhámos lentamente finos pedaços num delicioso molho realçando os sabores intensos para o seu verdadeiro apreciador. Ele vai adorar a frescura das nossas pequenas doses, para uma experiência verdadeiramente deliciosa em cada refeição. Fácil de abrir, fácil de servir, sem sobras e numa saqueta desenvolvida para ser reciclada. Todas as nossas deliciosas receitas são 100% completas e equilibradas para gatos adultos.\nSabor:\nAves",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 81.5%, Proteína bruta: 12.0%, Matéria gorda bruta: 2.6%, Cinza bruta: 1.7%, Fibra bruta: 0.05%"
   },
   {
     "pid": "7090815",
@@ -6133,7 +6323,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nPURINA GOURMET Nature's Creations é uma gama de comida húmida para Gato com deliciosas receitas de inspiradas pela natureza. Estas receitas são cuidadosamente elaboradas com ingredientes naturais\nSabor:\nVaca",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 79.5%, Proteína bruta: 12.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.6%, Fibra bruta: 0.05%."
   },
   {
     "pid": "7090816",
@@ -6215,7 +6409,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nPURINA GOURMET Nature's Creations é uma gama de comida húmida para Gato com deliciosas receitas de inspiradas pela natureza. Estas receitas são cuidadosamente elaboradas com ingredientes naturais s\nSabor:\nPeixe",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 79.5%, Proteína bruta: 12.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.6%, Fibra bruta: 0.05%."
   },
   {
     "pid": "6935950",
@@ -6297,7 +6495,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nO seu gato adora um patê suave mas prefere deliciar-se com ingredientes biológicos, então é exatamente isso ele espera que lhe ofereça. Os nossos patês biológicos têm uma textura macia e su\nSabor:\nPeixe",
+    "raw_nutrition_raw": "Proteína bruta: 9.5%, Matéria gorda bruta: 6 %, Fibra bruta: 0.3 %, Cinza bruta: 2.2%, Humidade: 82%."
   },
   {
     "pid": "2255635",
@@ -6379,7 +6581,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nSuaves mousses com vaca, frango, salmão e outros sabores requintados, cuidadosamente preparados para oferecer ao seu gato o prazer de uma delicada e suave sensação. Mousse de GOURMET Gold, um macio e aveludado prazer! Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nSalmão",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 77,5%. Proteína bruta 10,5%. Matéria gorda bruta 6,5%. Cinza bruta 3,0%. Fibra bruta 0,05%."
   },
   {
     "pid": "2759629",
@@ -6461,7 +6667,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nSuaves mousses com vaca, frango, salmão e outros sabores requintados, cuidadosamente preparados para oferecer ao seu gato o prazer de uma delicada e suave sensação.Mousse de GOURMET Gold, um macio e aveludado prazer! Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nFrango",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 77,5%. Proteína bruta 10,5%. Matéria gorda bruta 6,5%. Cinza bruta 3,0%. Fibra bruta 0,05%."
   },
   {
     "pid": "2568948",
@@ -6543,7 +6753,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nSuave Mousse com Vaca, cuidadosamente preparadas para oferecer ao seu gato o prazer de uma delicada e suave sensação.\nNão quer que as refeições do seu gato se tornem monótonas, por isso procura sempre diferentes alternativas que ele irá adorar.\nÉ por isso que GOURMET Gold criou Mousse, deliciosas receitas para mimar o seu sofisticado paladar com uma experiência de sabor diferente todos os dias. Suaves mousses com vaca, frango, salmão e outros sabores requintados, cuidadosamente preparados para oferecer ao seu gato o prazer de uma delicada e suave sensação.\nMousse de GOURMET Gold, um macio e aveludado prazer! Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nVaca",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 77,5%. Proteína bruta 10,5%. Matéria gorda bruta 6,5%. Cinza bruta 3,0%. Fibra bruta 0,05%."
   },
   {
     "pid": "8537299",
@@ -6625,7 +6839,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nAlimento completo e equilibrado para gatos adultos. Elaborado com frango, salmão, peru e atum de alta qualidade como ingrediente principal.\nSabor:\nFrango, Salmão, Peru e Atum",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 8,5 %; matéria gorda bruta 4,5 %; fibra bruta 0,5 %; cinza bruta 2 %; humidade 82 %."
   },
   {
     "pid": "6461914",
@@ -6707,7 +6925,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nTodas as receitas GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais. GOURMET Gold Fondant: um delicioso recheio para um prazer surpreendente.\nSabor:\nAtum",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78,5%. Proteína bruta 10%. Matéria gorda bruta 6%. Cinza bruta 3%. Fibra bruta 0,05%."
   },
   {
     "pid": "6461899",
@@ -6789,7 +7011,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nTodas as receitas GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais. GOURMET Gold Fondant: um delicioso recheio para um prazer surpreendente.\nSabor:\nFrango",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 78,5%. Proteína bruta 10%. Matéria gorda bruta 6%. Cinza bruta 3%. Fibra bruta 0,05%"
   },
   {
     "pid": "7399548",
@@ -6871,7 +7097,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nA comida húmida Nature¿s Creations Mini Bifes está elaborada com<strong> ingredientes naturais selecionados </strong>de alta qualidade. As latas contêm carne de frango, peru, cordeiro e boi e peixe do oceano ou atum. Além do mais, as carnes e peixes combinam-se com deliciosas e saudáveis verduras como as ervilhas, as cenouras, os espinafres ou os tomates e com cereais como o arroz. Todos esses ingredientes são misturados e <strong>cozinhados lentamente</strong> para manter todo o seu sabor natural e conservar todas as suas propriedades. As receites estão enriquecidas com vitaminas e minerais que fortalecem o sistema imunológico e têm um alto conteúdo em água que contribuem para uma boa hidratação.\nExperimente as diferentes <strong>variedades de Nature¿s Creations Mini Bifes</strong>: boi, peixe do oceano, frango, atum e peru. Algumas delas em formato de pack que combina várias receitas.\nSabor:\nFrango",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 79.5%, Proteína bruta: 12.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.6%, Fibra bruta: 0.05%."
   },
   {
     "pid": "3835893",
@@ -6953,7 +7183,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nNão quer que as refeições do seu gato se tornem monótonas, por isso procura sempre diferentes alternativas que ele irá adorar. É por isso que GOURMET Gold criou Duplo Prazer, deliciosas receitas para mimar o seu sofisticado paladar com uma experiência de sabor diferente todos os dias.\nTenros pedaços combinados com finas lâminas cuidadosamente cozinhados: a combinação ideal de duas texturas diferentes numa só refeição que oferece ao seu gato o prazer de uma mistura subtil de texturas e sabores.\nDuplo Prazer de GOURMET Gold, uma dupla delícia para o seu gato! Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nPeixe",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 81,5%; Proteína bruta 10,0%; Matéria gorda bruta 2,7%; Cinza bruta 2,0%; Fibra bruta 0,05%."
   },
   {
     "pid": "3835895",
@@ -7035,7 +7269,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nTenros pedaços combinados com finas lâminas cuidadosamente cozinhados: a combinação ideal de duas texturas diferentes numa só refeição que oferece ao seu gato o prazer de uma mistura subtil de texturas e sabores. Duplo Prazer de GOURMET Gold, uma dupla delícia para o seu gato! Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nFrango",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 81,5%. Proteína bruta 10,0%. Matéria gorda bruta 2,7%. Cinza bruta 2,0%. Fibra bruta 0,05%."
   },
   {
     "pid": "7995346",
@@ -7117,7 +7355,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes: Peixe Branco (26%), Frango, Atum (4%) Salmão (4%) Óleo de Salmão, Minerais, Proteína de Peixe Hidrolisada.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7854236",
@@ -7200,7 +7442,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nAlimento completo para gatos adultos esterilizados, com atum e salmão peru.\nPURINA® PRO PLAN® Adulto DIGESTÃO DELICADA com Mousse rica em Peru para gatos adultos com digestão e pele delicadas, contém todos os nutrientes essenciais, incluindo um pré-biótico que comprovadamente promove a saúde digestiva. É altamente palatável graças à elevada qualidade dos ingredientes, e ajuda a reduzir possíveis desconfortos cutâneos associados à sensibilidade alimentar. É um alimento húmido completo e equilibrado que fornece uma excelente nutrição numa mousse suave e deliciosa, para os gatos desfrutarem. Combina uma excelente nutrição com um sabor delicioso.\nSabor:\nSalmão e Atum",
+    "raw_nutrition_raw": "Informação Adicional\nConselhos de utilização:\nPara um gato adulto com cerca de 4kg, sirva 2,5 latas ao longo do dia, no mínimo em 2 refeições separadas. As necessidades individuais podem variar e a alimentação deve ser ajustada se necessário de forma a manter o seu gato com um peso corporal magro e saudável. Servir à temperatura ambiente. Deve estar sempre disponível água fresca e limpa.\nInformação adicional:\nNutrição Baseada na Ciência. Desenvolvido por médicos veterinários Purina\nA ISFM reconhece o contributo nutricional da PURINA para o bem-estar dos gatos."
   },
   {
     "pid": "7944665",
@@ -7283,7 +7529,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8153814",
@@ -7366,7 +7616,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7854198",
@@ -7449,7 +7703,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nAlimento completo para gatos adultos esterilizados, com atum e salmão peru.\nPURINA® PRO PLAN® Adulto DIGESTÃO DELICADA com Mousse rica em Peru para gatos adultos com digestão e pele delicadas, contém todos os nutrientes essenciais, incluindo um pré-biótico que comprovadamente promove a saúde digestiva. É altamente palatável graças à elevada qualidade dos ingredientes, e ajuda a reduzir possíveis desconfortos cutâneos associados à sensibilidade alimentar. É um alimento húmido completo e equilibrado que fornece uma excelente nutrição numa mousse suave e deliciosa, para os gatos desfrutarem. Combina uma excelente nutrição com um sabor delicioso.\nSabor:\nSalmão e Atum",
+    "raw_nutrition_raw": "Informação Adicional\nInformação adicional:\nNutrição Baseada na Ciência. Desenvolvido por médicos veterinários Purina\nA ISFM reconhece o contributo nutricional da PURINA para o bem-estar dos gatos."
   },
   {
     "pid": "8153916",
@@ -7532,7 +7790,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7753011",
@@ -7615,7 +7877,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8041025",
@@ -7698,7 +7964,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nPro Plan Delicate Digestion é um alimento com tenros pedaços em molho com peixe do oceano e peru, completo e equilibrado. Adequando a gatos adultos com digestão e pele delicadas, contém todos os nutrientes essenciais, incluindo um pré-biótico que está provado que promove a saúde digestiva.\nÉ altamente palatável, graças à elevada qualidade dos ingredientes, e ajuda a reduzir possíveis desconfortos cutâneos associados à sensibilidade alimentar. Um alimento húmido completo e equilibrado que fornece uma excelente nutrição num molho delicioso, para os gatos desfrutarem.\nMultipack com 5 saquetas de 85g de peixe do oceano e 5 de peru.\nSabor:\nPeru e Peixe",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7757500",
@@ -7781,7 +8051,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7757497",
@@ -7864,7 +8138,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7752998",
@@ -7947,7 +8225,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8205548",
@@ -8030,7 +8312,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8716840",
@@ -8113,7 +8399,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8716841",
@@ -8196,7 +8486,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8716838",
@@ -8279,7 +8573,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8716839",
@@ -8362,7 +8660,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798709",
@@ -8445,7 +8747,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798710",
@@ -8528,7 +8834,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6383439",
@@ -8611,7 +8921,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6986999",
@@ -8694,7 +9008,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7141155",
@@ -8777,7 +9095,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7142744",
@@ -8860,7 +9182,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6987067",
@@ -8943,7 +9269,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6987007",
@@ -9026,7 +9356,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5676745",
@@ -9109,7 +9443,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798839",
@@ -9192,7 +9530,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798712",
@@ -9275,7 +9617,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798907",
@@ -9358,7 +9704,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045091",
@@ -9441,7 +9791,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045079",
@@ -9524,7 +9878,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045057",
@@ -9607,7 +9965,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045107",
@@ -9690,7 +10052,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045058",
@@ -9773,7 +10139,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300242",
@@ -9856,7 +10226,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5676779",
@@ -9939,7 +10313,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5677306",
@@ -10022,7 +10400,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5676776",
@@ -10105,7 +10487,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5677303",
@@ -10188,7 +10574,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300241",
@@ -10271,7 +10661,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5677308",
@@ -10354,7 +10748,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300820",
@@ -10437,7 +10835,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8037916",
@@ -10519,7 +10921,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8642846",
@@ -10601,7 +11007,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8642856",
@@ -10683,7 +11093,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8642855",
@@ -10765,7 +11179,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7090818",
@@ -10847,7 +11265,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8282804",
@@ -10929,7 +11351,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8282805",
@@ -11011,7 +11437,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8282794",
@@ -11093,7 +11523,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8195790",
@@ -11175,7 +11609,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7992910",
@@ -11257,7 +11695,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300824",
@@ -11339,7 +11781,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7992909",
@@ -11421,7 +11867,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7459083",
@@ -11503,7 +11953,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6383445",
@@ -11585,7 +12039,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6383424",
@@ -11667,7 +12125,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6182326",
@@ -11749,7 +12211,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5677193",
@@ -11831,7 +12297,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5369774",
@@ -11913,7 +12383,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045767",
@@ -11995,7 +12469,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6383396",
@@ -12077,7 +12555,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5369779",
@@ -12159,7 +12641,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944663",
@@ -12241,7 +12727,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8623851",
@@ -12323,7 +12813,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798834",
@@ -12405,7 +12899,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7753002",
@@ -12487,7 +12985,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8537298",
@@ -12569,7 +13071,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8196332",
@@ -12651,7 +13157,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8195792",
@@ -12733,7 +13243,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045855",
@@ -12815,7 +13329,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944741",
@@ -12897,7 +13415,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455211",
@@ -12979,7 +13501,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455390",
@@ -13061,7 +13587,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455213",
@@ -13143,7 +13673,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300809",
@@ -13225,7 +13759,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6383415",
@@ -13307,7 +13845,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6987075",
@@ -13389,7 +13931,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6182339",
@@ -13471,7 +14017,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8623870",
@@ -13553,7 +14103,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6179442",
@@ -13635,7 +14189,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6179450",
@@ -13717,7 +14275,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045768",
@@ -13799,7 +14361,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6178083",
@@ -13881,7 +14447,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5454223",
@@ -13963,7 +14533,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944664",
@@ -14045,7 +14619,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7683230",
@@ -14127,7 +14705,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8079932",
@@ -14209,7 +14791,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944666",
@@ -14291,7 +14877,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455387",
@@ -14373,7 +14963,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7459084",
@@ -14455,7 +15049,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455216",
@@ -14537,7 +15135,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300823",
@@ -14619,7 +15221,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6987098",
@@ -14701,7 +15307,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7142746",
@@ -14783,7 +15393,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6987077",
@@ -14865,7 +15479,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6987085",
@@ -14947,7 +15565,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300808",
@@ -15029,7 +15651,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6182329",
@@ -15111,7 +15737,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6182333",
@@ -15193,7 +15823,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6182319",
@@ -15275,7 +15909,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6179437",
@@ -15357,7 +15995,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7300017",
@@ -15439,7 +16081,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6179462",
@@ -15521,7 +16167,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8716837",
@@ -15603,7 +16253,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6383419",
@@ -15685,7 +16339,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8537309",
@@ -15767,7 +16425,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798830",
@@ -15849,7 +16511,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8212814",
@@ -15931,7 +16597,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8212813",
@@ -16013,7 +16683,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045856",
@@ -16095,7 +16769,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8041024",
@@ -16177,7 +16855,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045858",
@@ -16259,7 +16941,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8033053",
@@ -16341,7 +17027,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455215",
@@ -16423,7 +17113,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7459082",
@@ -16505,7 +17199,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455209",
@@ -16587,7 +17285,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7455288",
@@ -16669,7 +17371,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "3830106",
@@ -16751,7 +17457,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6179435",
@@ -16833,7 +17543,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7039846",
@@ -16915,7 +17629,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6100902",
@@ -16997,7 +17715,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7991355",
@@ -17079,7 +17801,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6178169",
@@ -17161,7 +17887,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8986907",
@@ -17243,7 +17973,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8986910",
@@ -17325,7 +18059,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8986908",
@@ -17407,7 +18145,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8986909",
@@ -17489,7 +18231,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045797",
@@ -17571,7 +18317,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8509019",
@@ -17653,7 +18403,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944661",
@@ -17735,7 +18489,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8537300",
@@ -17817,7 +18575,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8798838",
@@ -17899,7 +18661,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8509020",
@@ -17981,7 +18747,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8623876",
@@ -18063,7 +18833,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944662",
@@ -18145,7 +18919,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045866",
@@ -18227,7 +19005,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045863",
@@ -18309,7 +19091,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045865",
@@ -18391,7 +19177,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045854",
@@ -18473,7 +19263,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8045864",
@@ -18555,7 +19349,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "2210474",
@@ -18637,7 +19435,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8033052",
@@ -18719,7 +19521,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7378161",
@@ -18801,7 +19607,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8032234",
@@ -18883,7 +19693,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8153812",
@@ -18965,7 +19779,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "2210478",
@@ -19047,7 +19865,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nGOURMET Gold Pedacinhos em Molho são tenros pedaços com vaca, frango, salmão e outros requintados sabores, suavemente cozinhados na perfeição e imersos num apetitoso molho para oferecer ao seu gato o prazer de um sabor rico e fabuloso.\nTodas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nSalmão",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 82%. Proteína bruta 7.0%. Matéria gorda bruta 2.9%. Cinza bruta 2.4%. Fibra bruta 0,05%."
   },
   {
     "pid": "8642849",
@@ -19130,7 +19952,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nUm delicioso e natural alimento húmido completo sem cereais, especialmente concebido para gatos adultos, para promover a hidratação e oferecer variedade. Purenatural Adult Grain Free Chicken and Salmon é rico em frango altamente digestível e salmão nutritivo. É preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gato de forma saudável e saborosa.\nSabor:\nFrango e Salmão",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nUm delicioso e natural alimento húmido completo sem cereais, especialmente concebido para gatos adultos, para promover a hidratação e oferecer variedade. Purenatural Adult Grain Free Chicken and Salmon é rico em frango altamente digestível e salmão nutritivo. É preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gato de forma saudável e saborosa.\nSabor:\nFrango e Salmão"
   },
   {
     "pid": "8642847",
@@ -19213,7 +20039,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nUm delicioso e natural alimento húmido completo sem cereais, especialmente concebido para gatos adultos, para promover a hidratação e oferecer variedade. Purenatural Adult Grain Free Chicken é rico em frango altamente digestível e contém apenas uma proteína, tornando-o altamente tolerável. É preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gato de uma forma saudável e saborosa.\nSabor:\nFrango",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nUm delicioso e natural alimento húmido completo sem cereais, especialmente concebido para gatos adultos, para promover a hidratação e oferecer variedade. Purenatural Adult Grain Free Chicken é rico em frango altamente digestível e contém apenas uma proteína, tornando-o altamente tolerável. É preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gato de uma forma saudável e saborosa.\nSabor:\nFrango"
   },
   {
     "pid": "8642848",
@@ -19296,7 +20126,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nUm delicioso e natural alimento húmido completo sem cereais, especialmente concebido para gatos adultos, para promover a hidratação e oferecer variedade. Purenatural Adult Grain Free Turkey & Duck é rico em peru e pato altamente digestíveis. É preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gato de forma saudável e saborosa.\nSabor:\nPeru e Pato",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nUm delicioso e natural alimento húmido completo sem cereais, especialmente concebido para gatos adultos, para promover a hidratação e oferecer variedade. Purenatural Adult Grain Free Turkey & Duck é rico em peru e pato altamente digestíveis. É preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gato de forma saudável e saborosa.\nSabor:\nPeru e Pato"
   },
   {
     "pid": "4624290",
@@ -19378,7 +20212,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e derivados de origem animal, cereais, ovos e seus derivados, derivados de origem vegetal, minerais.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6179459",
@@ -19460,7 +20298,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carne e derivados, peixe e derivados, cereais, extratos de proteína vegetal, derivados de origem vegetal, minerais.",
+    "raw_nutrition_raw": "Proteína 9,5%; Gordura 4%; Fibra 0,6%, Cinza 1,3%; Cálcio 0,3%; Fósforo 0,2%; Magnésio 0,016%; Ácido araquidónico 0,03%."
   },
   {
     "pid": "6178172",
@@ -19542,7 +20384,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e derivados, peixe e derivados, cereais, extratos de proteína vegetal, derivados de origem vegetal, minerais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 9,5%; Gordura 4%; Fibra 0,6%, Cinza 1,3%; Cálcio 0,3%; Fósforo 0,2%; Magnésio 0,016%; Ácido araquidónico 0,03%."
   },
   {
     "pid": "7458880",
@@ -19624,7 +20470,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, peixes e subprodutos de peixes, cereais, extratos de proteínas vegetais, sais, minerais, subprodutos de origem vegetal, leveduras.",
+    "raw_nutrition_raw": "Constituintes Analíticos\n: Proteína: 11.4% - Matérias gordas: 2.7% - Cinza: 1,6% - Fibra bruta: 0,5% - Humidade: 79.6% - 3 (EPA/DHA): 0,14% - Fósforo: 0,12%."
   },
   {
     "pid": "8157686",
@@ -19706,7 +20556,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição:\nCom Atum:\nCarnes e subprodutos animais* (12%), Extratos de proteínas vegetais, Peixes e subprodutos de peixe (atum 4%), Substâncias minerais, Açúcares.\n*Pedaços: 40% Carne e subprodutos animais.\nCom Salmão:\nCarnes e subprodutos animais* (12%), Extratos de proteínas vegetais, Peixes e subprodutos de peixe (salmão 4%), Substâncias minerais, Açúcares.\n*Pedaços: 40% Carne e subprodutos animais.\nCom Bacalhau:\nCarnes e subprodutos animais* (12%), Extratos de proteínas vegetais, Peixes e subprodutos de peixe (bacalhau 4%), Substâncias minerais, Açúcares.\n*Pedaços: 40% Carne e subprodutos animais.\nCom Escamudo:\nCarnes e subprodutos animais* (12%), Extratos de proteínas vegetais, Peixes e subprodutos de peixe (escamudo 4%), Substâncias minerais, Açúcares.\n*Pedaços: 40% Carne e subprodutos animais.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6474320",
@@ -19788,7 +20642,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição:Carnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% atum), Substâncias minerais, Subprodutos de origem vegetal, Açúcares. Carnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% salmão), Substâncias minerais, Subprodutos de origem vegetal, Açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade: 820%, Proteína bruta: 11,5%, Matéria gorda bruta: 2,5%, Cinza bruta: 2,0%, Fibra bruta: 0,2%."
   },
   {
     "pid": "5369769",
@@ -19870,7 +20728,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e produtos de origem animal, peixe e derivados de peixe, cereais, extractos de proteínas vegetais, óleos e gorduras, derivados de vegetais, minerais, extratos de mariscos.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6935947",
@@ -19953,7 +20815,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Caraterísticas\nDescrição:\nO seu gato adora um patê suave mas prefere deliciar-se com ingredientes biológicos, então é exatamente isso que ele espera que lhe ofereça. Os nossos patês biológiocos têm uma textura macia e suave que os torna deliciosos, e estão repletos de proteínas de alta qualidade, tão irresistiveis que o seu gato não hesitará em saltar do sofá assim que vir o prato. Elaborado apenas com ingredientes biológicos e saudáveis: Peru, Porco, Vaca, Peixe e Frango preparados frescos, misturados com cenouras, esta receita vai saltar para o top das suas favoritas. Sem adição de açúcar, estas receitas sem cereais são nutricionalmente completas, pelo que não são apenas deliciosas - têm tudo o que o seu gato precisa para crescer saudável. Ingredientes Biológicos Elaborado com proteína de alta qualidade. Ingredientes naturais. Receitas sem cereais. Sem adição de açúcar. Receitas completas e equilibradas. Paté com textura macia.\nSabor:\nPeru",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nO seu gato adora um patê suave mas prefere deliciar-se com ingredientes biológicos, então é exatamente isso que ele espera que lhe ofereça. Os nossos patês biológiocos têm uma textura macia e suave que os torna deliciosos, e estão repletos de proteínas de alta qualidade, tão irresistiveis que o seu gato não hesitará em saltar do sofá assim que vir o prato. Elaborado apenas com ingredientes biológicos e saudáveis: Peru, Porco, Vaca, Peixe e Frango preparados frescos, misturados com cenouras, esta receita vai saltar para o top das suas favoritas. Sem adição de açúcar, estas receitas sem cereais são nutricionalmente completas, pelo que não são apenas deliciosas - têm tudo o que o seu gato precisa para crescer saudável. Ingredientes Biológicos Elaborado com proteína de alta qualidade. Ingredientes naturais. Receitas sem cereais. Sem adição de açúcar. Receitas completas e equilibradas. Paté com textura macia.\nSabor:\nPeru"
   },
   {
     "pid": "7854243",
@@ -20035,7 +20901,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes (dos quais 4% peru), óleos e gorduras, substâncias minerais, legumes, subprodutos de origem vegetal, açúcares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7854199",
@@ -20117,7 +20987,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes: Carnes e subprodutos de origem animal (dos quais 4% peru), Extratos de proteínas vegetais, Peixes e subprodutos de peixes, óleos e gorduras, Substâncias minerais, Substâncias de origem vegetal, Açúcares.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nAlimento completo para gatinhos, com peru. Recomendado para gatas gestantes e lactantes.\nPURINA® PRO PLAN® Kitten | Gatinhos HEALTHY START tenros pedaços em molho com Peru em Molho é um alimento completo e equilibrado para gatinhos para ajudar a suportar uma Visão Saudável e o Desenvolvimento Cerebral. É um alimento húmido completo e equilibrado que fornece uma excelente nutrição num molho delicioso, para os gatinhos desfrutarem. Combina uma excelente nutrição com um sabor delicioso.\nNa Purina® PRO PLAN®, a nossa equipa de nutricionistas e médicos veterinários especialistas aplicam a ciência de última geração para desenvolver a nossa combinação de nutrientes mais avançada e eficiente para o seu animal de companhia.\nEstas receitas fornecem benefícios específicos, tais como uma elevada digestibilidade e uma elevada absorção de nutrientes para suportar as defesas naturais do seu gato e a saúde a longo prazo.\nSabor:\nPeru"
   },
   {
     "pid": "7854200",
@@ -20199,7 +21073,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes: Carnes e subprodutos animais, peixes e subprodutos de peixes (dos quais 4% peru), óleos e gorduras, substâncias minerais, legumes, subprodutos de origem vegetal, açúcares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7854241",
@@ -20281,7 +21159,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos de origem animal (dos quais 4% peru), Extratos de proteínas vegetais, Peixes e subprodutos de peixes, óleos e gorduras, Substâncias minerais, Substâncias de origem vegetal, Açúcares.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nAlimento completo para gatinhos, com peru. Recomendado para gatas gestantes e lactantes.\nPURINA® PRO PLAN® Kitten | Gatinhos HEALTHY START tenros pedaços em molho com Peru em Molho é um alimento completo e equilibrado para gatinhos para ajudar a suportar uma Visão Saudável e o Desenvolvimento Cerebral. É um alimento húmido completo e equilibrado que fornece uma excelente nutrição num molho delicioso, para os gatinhos desfrutarem. Combina uma excelente nutrição com um sabor delicioso.\nNa Purina® PRO PLAN®, a nossa equipa de nutricionistas e médicos veterinários especialistas aplicam a ciência de última geração para desenvolver a nossa combinação de nutrientes mais avançada e eficiente para o seu animal de companhia.\nEstas receitas fornecem benefícios específicos, tais como uma elevada digestibilidade e uma elevada absorção de nutrientes para suportar as defesas naturais do seu gato e a saúde a longo prazo.\nSabor:\nPeru"
   },
   {
     "pid": "6359609",
@@ -20363,7 +21245,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (dos quais 12% peru), Cereais, Substâncias minerais, Subprodutos de origem vegetal, Açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Humidade 80%, proteína bruta 10%, matérias gordas brutas 5.3%, hidratos de carbono 2.5%, fibras brutas 0.5%, cálcio 0.14%, fósforo 0.14%, sódio 0.17%, potássio 0.3%, magnésio 0.02%, cloretos 0.3%, enxofre 0.21%, taurina 1480 mg/kg, vitamina E 143 mg/kg."
   },
   {
     "pid": "8041032",
@@ -20445,7 +21331,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, peixes e subprodutos de peixes (4% peixe do oceano), subprodutos de origem vegetal, substâncias minerais, açúcares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944742",
@@ -20527,7 +21417,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (incluindo peru 4%), peixes e subprodutos de peixes, subprodutos de origem vegetal, substâncias minerais, açúcares, frutas.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7944744",
@@ -20609,7 +21503,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (incluindo frango 4%), subprodutos de origem vegetal, substâncias minerais, açúcares, frutas.",
+    "raw_nutrition_raw": "Proteína 10%; Matéria gorda 5%; Fibra bruta 0,8%; Cinza bruta 2,0%; Teor de Humidade: 0.8"
   },
   {
     "pid": "7944743",
@@ -20691,7 +21589,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, Peixes e subprodutos de peixes (incluindo bacalhau 4%), Subprodutos de origem vegetal, Substâncias minerais, Açúcares e Frutas.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8205394",
@@ -20773,7 +21675,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes: Aves de capoeira* 24%, porco* 5%, peru* 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, tomate desidratado* (0,25%, equivalente a 3% de tomate fresco), feijão-verde desidratado* (0,25%, equivalente a 2% de feijãoverde fresco), açúcares. * Ingredientes naturais",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 8,5%; Matéria gorda 4,5%; Fibra bruta 0,5%; Cinza bruta 2,0%; Teor de Humidade: 0.82"
   },
   {
     "pid": "6030995",
@@ -20855,7 +21761,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos de origem animal, peixes e subprodutos de peixe (salmão 4%), substâncias minerais, cereais, açucares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6030997",
@@ -20937,7 +21847,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (dos quais 4% frango), Subprodutos de origem vegetal, Peixes e subprodutos de peixes, Substâncias minerais, Cereais.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6030996",
@@ -21019,7 +21933,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e derivados, peixe e derivados (salmão 4 %), minerais, cereais, subprodutos vegetais, açúcares.",
+    "raw_nutrition_raw": "Ingredientes\nIngredientes:\nComposição: Carne e derivados, peixe e derivados (salmão 4 %), minerais, cereais, subprodutos vegetais, açúcares.\nAditivos:\nAditivos nutricionais: Vitamina A (985 UI/kg), vitamina D3 (135 UI/kg), vitamina E (250 UI/kg), vitamina E1 (28 mg/kg), iodato de cálcio anidro [3b202] (0,55 mg/kg), vitamina E4 (3,5 mg/kg), vitamina E5 (5,08 mg/kg), sulfato de zinco monoidratado [3b605] (69 mg/kg)."
   },
   {
     "pid": "5489758",
@@ -21101,7 +22019,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: carnes e subprodutos animais, óleos e gorduras, cereais, subprodutos de origem vegetal, leite e derivados de leite, sais minerais, açúcares, leveduras. Ingredientes de elevada digestibilidade: subprodutos de aves e porco, caseinato, mistura de amido de milho.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5369782",
@@ -21183,7 +22105,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Derivados de carne e animais, cereais, extratos de proteínas vegetais, derivados de origem vegetal, minerais, açúcares variados.",
+    "raw_nutrition_raw": "Ingredientes\nIngredientes:\nComposição: Derivados de carne e animais, cereais, extratos de proteínas vegetais, derivados de origem vegetal, minerais, açúcares variados.\nAditivos:\nAditivos nutricionais: Vitamina D3: 100UI/kg, E1 (Ferro): 3mg/kg, E2 (Iodo): 0,35mg/kg, E4 (Cobre): 3mg/kg, E5 (Manganês): 1mg/kg, E6 (Zinco ): 10mg/kg. Aditivos tecnológicos: Clinoptilolite de origem sedimentar: 0,2g/kg."
   },
   {
     "pid": "7300198",
@@ -21265,7 +22191,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, óleos e gorduras, leite e derivados de leite, subprodutos de origem vegetal, cereais, sais minerais, leveduras, açúcares. Ingredientes de elevada digestibilidade: subprodutos de aves e porco, caseinato, farinha de arroz, mistura de amido de milho.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5104922",
@@ -21347,7 +22277,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, óleos e gorduras, subprodutos de origem vegetal, leite e derivados de leite, substâncias minerais, leveduras, açúcares.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nDurante as suas primeiras 3 semanas, os gatinhos dependem do leite da sua mãe. A partir daí, os gatinhos em período de desmame começarão a fazer a transição para lamber e mastigar o que a sua mãe está a comer. Por esta razão, é uma boa ideia alimentar as gatas gestantes e lactantes com um alimento nutritivo adaptado às suas necessidades nutricionais únicas e às dos seus gatinhos. O ROYAL CANIN® Mother & Babycat mouse ultra suave está especialmente adaptado para satisfazer as elevadas necessidades energéticas da sua gata durante a gestação e a lactação. É também formulado para ter uma textura suave e palatável que é ideal para gatinhos até os 4 meses de idade. Os gatinhos recém-nascidos recebem anticorpos protetores do colostro da sua mãe, mas esta proteção diminui com o tempo. O ROYAL CANIN® Mother & Babycat mousse ultra suave contém um complexo comprovado incluindo Vitaminas C e E para apoiar o desenvolvimento saudável do sistema imunitário."
   },
   {
     "pid": "6182323",
@@ -21429,7 +22363,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Derivados de carne e animais, cereais, extratos de proteínas vegetais, derivados de origem vegetal, minerais, açúcares variados.",
+    "raw_nutrition_raw": "Ingredientes\nIngredientes:\nDerivados de carne e animais, cereais, extratos de proteínas vegetais, derivados de origem vegetal, minerais, açúcares variados.\nAditivos:\nAditivos nutricionais: Vitamina D3: 100UI/kg, E1 (Ferro): 3mg/kg, E2 (Iodo): 0,35mg/kg, E4 (Cobre): 3mg/kg, E5 (Manganês): 1mg/kg, E6 (Zinco ): 10mg/kg. Aditivos tecnológicos: Clinoptilolite de origem sedimentar: 0,2g/kg."
   },
   {
     "pid": "7458881",
@@ -21511,7 +22449,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, peixes e subprodutos de peixes, cereais, extratos de proteínas vegetais, sais, minerais, subprodutos de origem vegetal, leveduras.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6182321",
@@ -21593,7 +22535,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carne e derivados de origem animal, cereais, derivados de origem animal, minerais, extrato proteico vegetal, açúcares.",
+    "raw_nutrition_raw": "Benefícios e Recomendações\nBenefícios:\n?- O alimento Sterilised ajuda a promover a saúde do sistema urinário.\n- Ajuda a manter o peso ideal, graças a um teor de gordura adaptado.\n- Tem um perfil nutricional instintivamente preferido pelos gatos adultos."
   },
   {
     "pid": "7458973",
@@ -21675,7 +22621,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, peixes e subprodutos de peixe, extratos de proteínas vegetais, sais minerais, subprodutos de origem vegetal, óleos e gorduras, açúcares.",
+    "raw_nutrition_raw": "Ingredientes\nIngredientes:\nComposição: Carnes e subprodutos animais, cereais, peixes e subprodutos de peixe, extratos de proteínas vegetais, sais minerais, subprodutos de origem vegetal, óleos e gorduras, açúcares.\nAditivos:\nAditivos nutricionais: Vitamina D3: 60 UI, Ferro (3b103): 3 mg, Iodo (3b202): 0,35 mg, Cobre (3b405, 3b406): 2,8 mg, Manganésio (3b502, 3b503, 3b504): 1 mg, Zinco (3b603, 3b605, 3b606): 10 mg."
   },
   {
     "pid": "4624289",
@@ -21757,7 +22707,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, peixes e subprodutos de peixes, cereais, extratos de proteínas vegetais, óleos e gorduras, subprodutos de origem vegetal, substâncias minerais, açúcares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "5454224",
@@ -21839,7 +22793,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, extratos de proteínas vegetais, substâncias minerais, leite e produtos lácteos, subprodutos de origem vegetal, óleos e gorduras, leveduras, açúcares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "6594088",
@@ -21921,7 +22879,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, extractos de proteínas vegetais, subprodutos de origem vegetal, leite e produtos lácteos, óleos e gorduras, substâncias minerais, leveduras, açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína: 12% - Matérias gordas: 4% - Cinza: 1,5% - Fibra bruta: 0,6% - Humidade: 79%."
   },
   {
     "pid": "4624287",
@@ -22003,7 +22965,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e derivados animais, extratos de proteínas vegetais, cereais, leite e derivados de leite, derivados de origem vegetal, minerais, leveduras, óleos e gorduras, vários açúcares.",
+    "raw_nutrition_raw": "Benefícios e Recomendações\nBenefícios:\n?- Ajuda a manter as defesas naturais graças a um conteúdo equilibrado de nutrientes.\n- Pequenos pedaços com molho.\n- Perfil nutricional instintivamente preferido pelos gatinhos."
   },
   {
     "pid": "6594106",
@@ -22085,7 +23051,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, substâncias minerais, subprodutos de origem vegetal, óleos e gorduras, leveduras, açúcares.",
+    "raw_nutrition_raw": "Benefícios e Recomendações\nBenefícios:\nSuporte do sistema imunitário: Ajuda a manter as defesas naturais dos gatinhos na 2.ª idade através da manutenção da saúde.\nDe fácil mastigação: Pequenos pedaços com molho.\nPreferido instintivamente: Formulado para corresponder ao perfil macronutricional ótimo instintivamente preferido pelos gatinhos."
   },
   {
     "pid": "7992914",
@@ -22167,7 +23137,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos de origem animal, peixes e subprodutos de peixe (salmão 4%), substâncias minerais, cereais, açucares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7992913",
@@ -22249,7 +23223,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carne e derivados, peixe e derivados (salmão 4 %), minerais, cereais, subprodutos vegetais, açúcares.",
+    "raw_nutrition_raw": "Ingredientes\nIngredientes:\nCarne e derivados, peixe e derivados (salmão 4 %), minerais, cereais, subprodutos vegetais, açúcares.\nAditivos:\nAditivos nutricionais: Vitamina A (985 UI/kg), vitamina D3 (135 UI/kg), vitamina E (250 UI/kg), vitamina E1 (28 mg/kg), iodato de cálcio anidro [3b202] (0,55 mg/kg), vitamina E4 (3,5 mg/kg), vitamina E5 (5,08 mg/kg), sulfato de zinco monoidratado [3b605] (69 mg/kg)."
   },
   {
     "pid": "7992912",
@@ -22331,7 +23309,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (dos quais 4% frango), Subprodutos de origem vegetal, Peixes e subprodutos de peixes, Substâncias minerais, Cereais.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7992911",
@@ -22413,7 +23395,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos de origem animal (dos quais 4% frango), óleos e gorduras, peixes e subprodutos de peixes, cereais, extratos de proteínas vegetais, leveduras, substâncias minerais, subprodutos de origem vegetal, açúcares. Fontes proteicas: porco (fígado, rim, traqueia, plasma em pó), glúten, frango, leveduras e salmão",
+    "raw_nutrition_raw": "Ingredientes\nIngredientes:\nCarnes e subprodutos de origem animal (dos quais 4% frango), óleos e gorduras, peixes e subprodutos de peixes, cereais, extratos de proteínas vegetais, leveduras, substâncias minerais, subprodutos de origem vegetal, açúcares. Fontes proteicas: porco (fígado, rim, traqueia, plasma em pó), glúten, frango, leveduras e salmão\nAditivos:\nAditivos nutricionais: UI/kg: Vit. A: 1710 Vit. D3: 239; mg/kg: E1: 49; 3b202: 0,96; E4: 6,1; E5: 8,8; 3b605: 121; E8: 0,09; Com antioxidantes"
   },
   {
     "pid": "8623867",
@@ -22495,7 +23481,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Ingredientes: Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,002%)), cereais, extratos de proteínas vegetais, subprodutos de origem vegetal, óleos e gorduras, sais minerais, legumes, leveduras, açúcares.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nHealthyAge7¿ Complex proporciona uma combinação nutricional concebida para ajudar a manter 7 dimensões principais da saúde e da vitalidade nos gatos com mais de 11 anos:\nApetite e Peso: de elevada palatabilidade e rica em energia para satisfazer as preferências.\nDigestão: contém fibras pré-bióticas e proteínas de elevada digestibilidade.\nMobilidade: apresenta EPA+DHA e condroitina para apoiar a saúde articular.\nPele e Pelagem: a inclusão de ácido linoleico e zinco.\nRins: contém proteínas de elevada qualidade e um teor adaptado de fósforo.\nCérebro e Visão: inclui triptofano, EPA+DHA, taurina e vitamina A.\nImunidade: contém vitaminas C e E, taurina, betacaroteno e licopeno.\nO ROYAL CANIN® AGEING 11+ está disponível em texturas diferentes, incluindo pedaços em geleia, mousse ultra suave e croquetes."
   },
   {
     "pid": "6179300",
@@ -22577,7 +23567,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e derivados animais, extratos de proteínas vegetais, cereais, leite e derivados de leite, derivados de origem vegetal, minerais, leveduras, óleos e gorduras, vários açúcares.",
+    "raw_nutrition_raw": "Benefícios e Recomendações\nBenefícios:\n?- Ajuda a manter as defesas naturais graças a um conteúdo equilibrado de nutrientes.\n- Pequenos pedaços com molho.\n- Perfil nutricional instintivamente preferido pelos gatinhos."
   },
   {
     "pid": "6594243",
@@ -22659,7 +23653,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, cereais, extratos de proteínas vegetais, substâncias minerais, subprodutos de origem vegetal, óleos e gorduras, leveduras, açúcares.",
+    "raw_nutrition_raw": "Benefícios e Recomendações\nBenefícios:\nSuporte do sistema imunitário: Ajuda a manter as defesas naturais dos gatinhos na 2.ª idade através da manutenção da saúde.\nDe fácil mastigação: Pequenos pedaços com molho.\nPreferido instintivamente: Formulado para corresponder ao perfil macronutricional ótimo instintivamente preferido pelos gatinhos."
   },
   {
     "pid": "6179350",
@@ -22741,7 +23739,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, extratos de proteínas vegetais, substâncias minerais, leite e produtos lácteos, subprodutos de origem vegetal, óleos e gorduras, leveduras, açúcares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8623869",
@@ -22823,7 +23825,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%)), extratos de proteínas vegetais, subprodutos de origem vegetal, óleos e gorduras, sais minerais, legumes, leveduras, açúcares.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nQuando os gatos entram na fase sénior, por volta dos 11 anos, as suas necessidades nutricionais alteram?se. Reconhecer estas mudanças desde o início pode ajudar a manter o seu bem-estar e a sua qualidade de vida à medida que envelhecem. O ROYAL CANIN® Ageing 11+ contém o HealthyAge7¿ Complex, desenvolvido para apoiar sete dimensões da saúde sénior.\nApetite e peso: elevada palatabilidade e energia adaptada ajudando a manter um peso saudável.\nDigestão: fibras pré?bióticas e proteínas altamente digestíveis.\nMobilidade: EPA, DHA e condroitina para suporte articular e de mobilidade.\nPele e pelagem: ácido linoleico e zinco.\nRins: teor adaptado de fósforo e proteínas de qualidade.\nCérebro e visão: triptofano, taurina, EPA+DHA e vitamina A.\nImunidade: vitaminas C e E, betacaroteno e licopeno.\nDisponível em várias texturas, incluindo pedaços em geleia, mousse ultra suave e croquetes ideal para alimentação mista e equilibrada."
   },
   {
     "pid": "6594242",
@@ -22905,7 +23911,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, cereais, extractos de proteínas vegetais, subprodutos de origem vegetal, leite e produtos lácteos, óleos e gorduras, substâncias minerais, leveduras, açúcares.",
+    "raw_nutrition_raw": "Proteína: 12% - Matérias gordas: 4% - Cinza: 1,5% - Fibra bruta: 0,6% - Humidade: 79%."
   },
   {
     "pid": "8623852",
@@ -22987,7 +23997,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%)), cereais, óleos e gorduras, subprodutos de origem vegetal, sais minerais, extratos de proteínas vegetais, legumes, leveduras, açúcares diversos.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nHealthyAge7¿ Advanced Complex, proporciona uma combinação nutricional concebida para ajudar a manter 7 dimensões principais da saúde e da vitalidade nos gatos com mais de 15 anos:\nApetite e Peso: de elevada palatabilidade e rica em energia para satisfazer as preferências.\nDigestão: contém fibras pré-bióticas e proteínas de elevada digestibilidade.\nMobilidade: apresenta mais EPA+DHA* e também contém condroitina para apoiar a saúde articular.\nPele e Pelagem: a inclusão de ácido linoleico e zinco.\nRins: contém proteínas de elevada qualidade e um teor ainda mais adaptado de fósforo*.\nCérebro e Visão: inclui triptofano, EPA+DHA, taurina e vitamina A.\nImunidade: contém vitaminas C e E, taurina, betacaroteno e licopeno.*Comparações baseadas nas diferenças entre os alimentos húmidos ROYAL CANIN® AGEING 15+ e ROYAL CANIN® AGEING 11+.\nO ROYAL CANIN® AGEING 15+ está disponível em texturas diferentes, incluindo mousse ultra suave e croquetes."
   },
   {
     "pid": "7300016",
@@ -23069,7 +24083,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais, peixes e subprodutos de peixe, cereais, subprodutos de origem vegetal, extratos de proteínas vegetais, sais minerais.",
+    "raw_nutrition_raw": "Ingredientes\nIngredientes:\nComposição: Carnes e subprodutos animais, peixes e subprodutos de peixe, cereais, subprodutos de origem vegetal, extratos de proteínas vegetais, sais minerais.\nAditivos:\nAditivos nutricionais: Vitamina D3: 110 UI, Ferro (3b103): 3 mg, Iodo (3b202): 0,26 mg, Cobre (3b405, 3b406): 2,1 mg, Manganésio (3b502, 3b503, 3b504): 1 mg, Zinco (3b603, 3b605, 3b606): 10 mg."
   },
   {
     "pid": "6179298",
@@ -23151,7 +24169,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carnes e subprodutos animais, cereais, óleos e gorduras, subprodutos de origem vegetal, leite e derivados de leite, substâncias minerais, leveduras, açúcares.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nDurante as suas primeiras 3 semanas, os gatinhos dependem do leite da sua mãe. A partir daí, os gatinhos em período de desmame começarão a fazer a transição para lamber e mastigar o que a sua mãe está a comer. Por esta razão, é uma boa ideia alimentar as gatas gestantes e lactantes com um alimento nutritivo adaptado às suas necessidades nutricionais únicas e às dos seus gatinhos. O ROYAL CANIN® Mother & Babycat mouse ultra suave está especialmente adaptado para satisfazer as elevadas necessidades energéticas da sua gata durante a gestação e a lactação. É também formulado para ter uma textura suave e palatável que é ideal para gatinhos até os 4 meses de idade. Os gatinhos recém-nascidos recebem anticorpos protetores do colostro da sua mãe, mas esta proteção diminui com o tempo. O ROYAL CANIN® Mother & Babycat mousse ultra suave contém um complexo comprovado incluindo Vitaminas C e E para apoiar o desenvolvimento saudável do sistema imunitário."
   },
   {
     "pid": "7683229",
@@ -23233,7 +24255,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carnes e subprodutos animais (frango 19%, porco 14%), subprodutos de origem vegetal (inulina de chicória 0,1%), óleos e gorduras, substâncias minerais, extratos de proteínas vegetais, açúcares.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "7683228",
@@ -23315,7 +24341,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e subprodutos animais (35% frango), subprodutos vegetais (0,1% inulina de chicória), minerais, extratos de proteínas vegetais, cereais, açúcares, óleos e gorduras.",
+    "raw_nutrition_raw": ""
   },
   {
     "pid": "8020623",
@@ -23397,7 +24427,11 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Composição: Carne e subprodutos animais*, cereais*, subprodutos vegetais (incluindo cascas e sementes de psílio; 1,2%), minerais, óleos e gorduras**, leveduras, açúcar. Matérias-primas de fácil digestão: *Fontes proteicas de fácil digestão: 41%, **Fontes de fibras de fácil digestão: 0,3%.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nROYAL CANIN® Veterinary Health Nutrition: Desde 1968 que a Royal Canin acredita que a nutrição tem um papel fundamental no apoio à saúde e ao bem-estar de gatos e de cães. É por esse motivo que criamos as dietas veterinárias ROYAL CANIN® com base na ciência nutricional comprovada, em parceria com veterinários, fornecendo a nossa melhor nutrição saudável para animais de estimação com necessidades de saúde específicas.\nROYAL CANIN® Gastrointestinal Fiber Response é uma dieta formulada para fornecer níveis de energia adequados para ajudar o seu gato a manter um peso corporal saudável. Altamente digerível é enriquecida com um equilíbrio de fibras e pré-bióticos para auxiliar uma digestão saudável e o trânsito intestinal. Para ajudar a gerir os efeitos da obstipação, esta dieta é especificamente formulada com níveis elevados de psílio. É também formulada para promover um ambiente urinário saudável."
   },
   {
     "pid": "8125406",
@@ -23479,6 +24513,10 @@
     "formulation_id": null,
     "reconciliation_notes": [
       "No formulation match found"
-    ]
+    ],
+    "has_conflicts": false,
+    "conflicts": [],
+    "raw_ingredients": "Carne e subprodutos animais*, cereais*, subprodutos vegetais (incluindo cascas e sementes de psílio; 1,2%), minerais, óleos e gorduras**, leveduras, açúcar. Matérias-primas de fácil digestão: *Fontes proteicas de fácil digestão: 41%, **Fontes de fibras de fácil digestão: 0,3%.",
+    "raw_nutrition_raw": "Caraterísticas\nDescrição:\nROYAL CANIN® Veterinary Health Nutrition: Desde 1968 que a Royal Canin acredita que a nutrição tem um papel fundamental no apoio à saúde e ao bem-estar de gatos e de cães. É por esse motivo que criamos as dietas veterinárias ROYAL CANIN® com base na ciência nutricional comprovada, em parceria com veterinários, fornecendo a nossa melhor nutrição saudável para animais de estimação com necessidades de saúde específicas.\nROYAL CANIN® Gastrointestinal Fiber Response é uma dieta formulada para fornecer níveis de energia adequados para ajudar o seu gato a manter um peso corporal saudável. Altamente digerível é enriquecida com um equilíbrio de fibras e pré-bióticos para auxiliar uma digestão saudável e o trânsito intestinal. Para ajudar a gerir os efeitos da obstipação, esta dieta é especificamente formulada com níveis elevados de psílio. É também formulada para promover um ambiente urinário saudável."
   }
 ]
