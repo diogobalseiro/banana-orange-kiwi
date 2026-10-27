@@ -41,8 +41,8 @@ def load_data(data_dir):
             name_l = (p.get('n') or '').lower()
             p['k'] = any(k in name_l for k in ['júnior', 'junior', 'kitten', 'gatinho', 'filhote'])
 
-    wet_products.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
-    dry_products.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
+    wet_products.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
+    dry_products.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
 
     return wet_products, dry_products
 

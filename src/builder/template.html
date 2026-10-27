@@ -277,13 +277,19 @@
 
       if (currentCategory === 'wet') {
         const kittens = data.filter(p => p.k).length;
-        const withSugar = data.filter(p => p.sug).length;
-        const sugarPct = count > 0 ? Math.round((withSugar / count) * 100) : 0;
+        const verifiedComp = data.filter(p => p.sug !== null && p.sug !== undefined);
+        const withSugar = verifiedComp.filter(p => p.sug === true).length;
+        const sugarPct = verifiedComp.length > 0 ? Math.round((withSugar / verifiedComp.length) * 100) : 0;
 
-        const topKitten = data.filter(p => p.k && p.s >= 70 && p.c === 'Completo').sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                          data.filter(p => p.k && p.s >= 65).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                          data.filter(p => p.s >= 70).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                          data[0] || {};
+        const topKitten = data.filter(p => p.ir && p.k && p.s >= 70 && p.c === 'Completo').sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                          data.filter(p => p.ir && p.k && p.s >= 65).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                          data.filter(p => p.ir && p.s >= 70).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                          null;
+
+        const topKittenTitle = topKitten ? (topKitten.n || 'N/D') : 'Nenhuma recomendação verificada';
+        const topKittenSubtitle = topKitten 
+          ? `Score ${topKitten.s || '-'} • ${topKitten.pkg ? topKitten.pkg.toFixed(2) + ' €/kg' : '-'} • ${topKitten.r || ''}`
+          : 'Requer composição e nutrientes completos';
 
         container.innerHTML = `
           <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
@@ -299,20 +305,25 @@
           <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
             <div class="text-xs text-slate-400 font-medium">Com Açúcares Adicionados</div>
             <div class="text-2xl font-black mt-1 text-rose-400">${withSugar}</div>
-            <div class="text-[11px] text-rose-300 mt-1">${sugarPct}% das opções auditadas</div>
+            <div class="text-[11px] text-rose-300 mt-1">${sugarPct}% das ${verifiedComp.length} opções com composição auditada</div>
           </div>
           <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
             <div class="text-xs text-slate-400 font-medium">Top Escolha Recomendada</div>
-            <div class="text-sm font-bold mt-1.5 text-sky-400 truncate" title="${topKitten.n || ''}">${topKitten.n || 'N/D'}</div>
-            <div class="text-[11px] text-slate-400 mt-1">Score ${topKitten.s || '-'} • ${topKitten.pkg ? topKitten.pkg.toFixed(2) + ' €/kg' : '-'} • ${topKitten.r || ''}</div>
+            <div class="text-sm font-bold mt-1.5 text-sky-400 truncate" title="${topKittenTitle}">${topKittenTitle}</div>
+            <div class="text-[11px] text-slate-400 mt-1">${topKittenSubtitle}</div>
           </div>
         `;
       } else {
         const kittens = data.filter(p => p.k).length;
-        const topDry = data.filter(p => p.s >= 80).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                       data.sort((a,b) => (b.s || 0) - (a.s || 0))[0] || {};
-        const bestRatio = data.filter(p => p.s >= 60 && p.pkg && p.pkg < 15).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
-                          data.sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] || {};
+        const topDry = data.filter(p => p.ir && p.s >= 80).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                       data.filter(p => p.ir).sort((a,b) => (b.s || 0) - (a.s || 0))[0] || null;
+        const bestRatio = data.filter(p => p.ir && p.s >= 60 && p.pkg && p.pkg < 15).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] || null;
+
+        const topDryTitle = topDry ? (topDry.n || 'N/D') : 'Nenhuma recomendação verificada';
+        const topDrySub = topDry ? `Score ${topDry.s || '-'} • ${topDry.b || ''} (${topDry.r || ''})` : 'Requer 5 macronutrientes declarados';
+
+        const bestRatioTitle = bestRatio ? (bestRatio.n || 'N/D') : 'Nenhuma recomendação verificada';
+        const bestRatioSub = bestRatio ? `Score ${bestRatio.s || '-'} • ${bestRatio.pkg ? bestRatio.pkg.toFixed(2) + ' €/kg' : '-'} (${bestRatio.r || ''})` : 'Preço ou score indisponível';
 
         container.innerHTML = `
           <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
@@ -327,13 +338,13 @@
           </div>
           <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
             <div class="text-xs text-slate-400 font-medium">Top 1 Biológica Absoluta</div>
-            <div class="text-sm font-bold mt-1.5 text-purple-400 truncate" title="${topDry.n || ''}">${topDry.n || 'N/D'}</div>
-            <div class="text-[11px] text-slate-400 mt-1">Score ${topDry.s || '-'} • ${topDry.b || ''} (${topDry.r || ''})</div>
+            <div class="text-sm font-bold mt-1.5 text-purple-400 truncate" title="${topDryTitle}">${topDryTitle}</div>
+            <div class="text-[11px] text-slate-400 mt-1">${topDrySub}</div>
           </div>
           <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
             <div class="text-xs text-slate-400 font-medium">Melhor Relação Qualidade/Preço</div>
-            <div class="text-sm font-bold mt-1.5 text-sky-400 truncate" title="${bestRatio.n || ''}">${bestRatio.n || 'N/D'}</div>
-            <div class="text-[11px] text-slate-400 mt-1">Score ${bestRatio.s || '-'} • ${bestRatio.pkg ? bestRatio.pkg.toFixed(2) + ' €/kg' : '-'} (${bestRatio.r || ''})</div>
+            <div class="text-sm font-bold mt-1.5 text-sky-400 truncate" title="${bestRatioTitle}">${bestRatioTitle}</div>
+            <div class="text-[11px] text-slate-400 mt-1">${bestRatioSub}</div>
           </div>
         `;
       }
@@ -459,21 +470,21 @@
         // Shared filters
         if (filters.kitten && !p.k) return false;
         if (filters.grainFree) {
-          if (currentCategory === 'wet' && p.grn) return false;
-          if (currentCategory === 'dry' && !p.gf) return false;
+          if (currentCategory === 'wet' && p.grn !== false) return false;
+          if (currentCategory === 'dry' && p.gf !== true) return false;
         }
 
         // Wet-specific filters
         if (currentCategory === 'wet') {
-          if (filters.noSugar && p.sug) return false;
-          if (filters.noCarr && p.carr) return false;
+          if (filters.noSugar && p.sug !== false) return false;
+          if (filters.noCarr && p.carr !== false) return false;
         }
 
         // Dry-specific filters
         if (currentCategory === 'dry') {
-          if (filters.noCornGluten && p.cg) return false;
-          if (filters.noColorants && p.col) return false;
-          if (filters.noFrac && p.frac) return false;
+          if (filters.noCornGluten && p.cg !== false) return false;
+          if (filters.noColorants && p.col !== false) return false;
+          if (filters.noFrac && p.fr !== false) return false;
           if (filters.nonSterilised && p.st) return false;
         }
 
@@ -482,12 +493,21 @@
 
       // Sorting
       filtered.sort((a, b) => {
+        const aRanked = a.ir ? 1 : 0;
+        const bRanked = b.ir ? 1 : 0;
+        if (sortMode === 'score_desc' || sortMode === 'vr') {
+          if (aRanked !== bRanked) return bRanked - aRanked;
+        }
         if (sortMode === 'vr') return (b.vr || 0) - (a.vr || 0);
         if (sortMode === 'score_desc') return (b.s || 0) - (a.s || 0);
         if (sortMode === 'price_asc') return (a.pkg || 999) - (b.pkg || 999);
         if (sortMode === 'price_desc') return (b.pkg || 0) - (a.pkg || 0);
         if (sortMode === 'prot_desc') return (b.prot || 0) - (a.prot || 0);
-        if (sortMode === 'carb_asc') return (a.carb || 999) - (b.carb || 999);
+        if (sortMode === 'carb_asc') {
+          const aCarb = (a.carb != null) ? a.carb : 999;
+          const bCarb = (b.carb != null) ? b.carb : 999;
+          return aCarb - bCarb;
+        }
         return 0;
       });
 
@@ -499,7 +519,7 @@
     }
 
     function getTierBadgeClass(tier) {
-      if (!tier) return 'badge-tier-c';
+      if (!tier || tier === 'Unranked' || tier.includes('Não classificado') || tier.includes('Complementar')) return 'badge-comp';
       if (tier.startsWith('Tier S')) return 'badge-tier-s';
       if (tier.startsWith('Tier A')) return 'badge-tier-a';
       if (tier.startsWith('Tier B')) return 'badge-tier-b';
@@ -527,28 +547,36 @@
         const priceStr = p.p ? `${p.p.toFixed(2)} €` : 'N/D';
         const pdpUrl = p.u || '#';
         const retBadge = getRetailerBadge(p.r);
+        const scoreDisplay = (p.ir && p.s != null) ? p.s : '—';
+        const vrDisplay = (p.ir && p.vr != null) ? p.vr.toFixed(1) : '—';
+        const tierLabel = p.t ? (p.t.includes(' (') ? p.t.split(' (')[0] : p.t) : 'Não classificado';
+        const unrankedBadge = (!p.ir && p.ur && p.ur.length)
+          ? `<span class="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-amber-300 border border-amber-800/60 font-medium" title="${p.ur.join(', ')}">Evidência incompleta</span>`
+          : '';
 
         if (currentCategory === 'wet') {
           // Wet Food Row
-          const compBadge = '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-complete">Completo</span>';
+          const compBadge = p.c === 'Completo'
+            ? '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-complete">Completo</span>'
+            : '<span class="px-2 py-0.5 rounded text-[11px] font-semibold badge-comp">Complementar</span>';
 
           const wetCarbBadge = p.cb && p.cb !== 'N/D'
             ? `<span class="px-1.5 py-0.5 rounded text-[10px] ${p.cb.includes('Ideal') ? 'bg-emerald-950/80 text-emerald-300 border border-emerald-800' : 'bg-amber-950/80 text-amber-300 border border-amber-800'} font-medium">Carb: ${p.cb}</span>`
             : '';
 
-          const sugarBadge = p.sug 
+          const sugarBadge = p.sug === true
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Açúcar</span>'
-            : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Açúcar</span>';
+            : (p.sug === false ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Açúcar</span>' : '');
 
-          const grainBadge = p.grn
+          const grainBadge = p.grn === true
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium">Cereais</span>'
-            : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais</span>';
+            : (p.grn === false ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais</span>' : '');
 
           const organBadge = p.org
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-purple-950/80 text-purple-300 border border-purple-800 font-medium">Miudezas Nobres</span>'
             : '';
 
-          const carrBadge = p.carr
+          const carrBadge = p.carr === true
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Carragenina</span>'
             : '';
 
@@ -564,8 +592,8 @@
             <tr class="hover:bg-slate-800/40 transition">
               <td class="py-3 px-4 whitespace-nowrap">
                 <div class="flex items-center gap-2">
-                  <span class="text-base font-black px-2.5 py-1 rounded-lg ${tierClass}">${p.s}</span>
-                  <span class="text-[11px] text-slate-400 hidden sm:inline">${p.t ? p.t.split(' (')[0] : ''}</span>
+                  <span class="text-base font-black px-2.5 py-1 rounded-lg ${tierClass}">${scoreDisplay}</span>
+                  <span class="text-[11px] text-slate-400 hidden sm:inline">${tierLabel}</span>
                 </div>
               </td>
               <td class="py-3 px-4">
@@ -582,14 +610,14 @@
                 </div>
               </td>
               <td class="py-3 px-3">
-                <div class="flex flex-wrap gap-1">${sugarBadge}${grainBadge}${organBadge}${carrBadge}${tauBadge}</div>
+                <div class="flex flex-wrap gap-1">${sugarBadge}${grainBadge}${organBadge}${carrBadge}${tauBadge}${unrankedBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>
                 <div class="text-[11px] text-slate-400">${priceStr}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
-                <span class="font-black text-emerald-400 text-sm">${p.vr ? p.vr.toFixed(1) : '-'}</span>
+                <span class="font-black text-emerald-400 text-sm">${vrDisplay}</span>
               </td>
               <td class="py-3 px-3 text-right whitespace-nowrap">
                 <div class="flex items-center justify-end gap-2">
@@ -610,21 +638,19 @@
             : '';
           const macroLine = [protStr, fatStr].filter(Boolean).join(' • ');
 
-          const fracBadge = p.frac
-            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium" title="Amidos ou leguminosas fracionadas para inflacionar proteína e mascarar hidratos">Amidos Fracionados</span>'
+          const fracBadge = p.fr === true
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium" title="Amidos ou leguminosas fracionadas">Amidos Fracionados</span>'
             : '';
 
-          const gfBadge = p.gf
-            ? (p.frac 
-                ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-slate-300 border border-slate-700 font-medium">Sem Cereais</span>'
-                : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais Limpo</span>')
-            : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium">Com Cereais</span>';
+          const gfBadge = p.gf === true
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">Sem Cereais</span>'
+            : (p.gf === false ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-amber-950/80 text-amber-300 border border-amber-800 font-medium">Com Cereais</span>' : '');
 
-          const cgBadge = p.cg
+          const cgBadge = p.cg === true
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Glúten Milho</span>'
             : '';
 
-          const colBadge = p.col
+          const colBadge = p.col === true
             ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium">Corantes</span>'
             : '';
 
@@ -636,8 +662,8 @@
             <tr class="hover:bg-slate-800/40 transition">
               <td class="py-3 px-4 whitespace-nowrap">
                 <div class="flex items-center gap-2">
-                  <span class="text-base font-black px-2.5 py-1 rounded-lg ${tierClass}">${p.s}</span>
-                  <span class="text-[11px] text-slate-400 hidden sm:inline">${p.t ? p.t.split(' (')[0] : ''}</span>
+                  <span class="text-base font-black px-2.5 py-1 rounded-lg ${tierClass}">${scoreDisplay}</span>
+                  <span class="text-[11px] text-slate-400 hidden sm:inline">${tierLabel}</span>
                 </div>
               </td>
               <td class="py-3 px-4">
@@ -653,14 +679,14 @@
               </td>
               <td class="py-3 px-3">
                 <div class="text-xs text-slate-300 truncate max-w-[200px]" title="${p.fi || ''}">${p.fi || 'N/D'}</div>
-                <div class="flex flex-wrap gap-1 mt-1">${gfBadge}${fracBadge}${cgBadge}${colBadge}</div>
+                <div class="flex flex-wrap gap-1 mt-1">${gfBadge}${fracBadge}${cgBadge}${colBadge}${unrankedBadge}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
                 <div class="font-bold text-white">${priceKgStr}</div>
                 <div class="text-[11px] text-slate-400">${priceStr}</div>
               </td>
               <td class="py-3 px-3 whitespace-nowrap">
-                <span class="font-black text-emerald-400 text-sm">${p.vr ? p.vr.toFixed(1) : '-'}</span>
+                <span class="font-black text-emerald-400 text-sm">${vrDisplay}</span>
               </td>
               <td class="py-3 px-3 text-right whitespace-nowrap">
                 <div class="flex items-center justify-end gap-2">
@@ -673,6 +699,9 @@
             </tr>
           `;
         }
+      }
+      tbody.innerHTML = rowsHtml;
+    }
       }
       tbody.innerHTML = rowsHtml;
     }

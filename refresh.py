@@ -38,10 +38,25 @@ def save_json(filepath, data):
 def save_csv(filepath, rows, fieldnames):
     if not rows:
         return
+    cleaned_rows = []
+    for r in rows:
+        cleaned = {}
+        for f in fieldnames:
+            v = r.get(f)
+            if v is None:
+                cleaned[f] = ""
+            elif isinstance(v, bool):
+                cleaned[f] = "true" if v else "false"
+            elif isinstance(v, list):
+                cleaned[f] = "; ".join(str(item) for item in v)
+            else:
+                cleaned[f] = v
+        cleaned_rows.append(cleaned)
+
     with open(filepath, 'w', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(cleaned_rows)
 
 def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     print(f"\n==========================================")
@@ -58,9 +73,9 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None):
         scored_full.append(p_full)
         minified.append(p_mini)
 
-    # Sort by score desc, then value ratio desc
-    scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
-    minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
+    # Sort by ranked status desc, score desc, then value ratio desc
+    scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
+    minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
 
     full_path = os.path.join(data_dir, f"{retailer_name}_wet_full.json")
     mini_path = os.path.join(data_dir, f"{retailer_name}_wet.json")
@@ -69,10 +84,16 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     save_json(full_path, scored_full)
     save_json(mini_path, minified)
 
-    csv_fields = ['pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'classification', 'is_kitten', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains', 'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'pdp_url']
+    csv_fields = [
+        'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'classification',
+        'is_kitten', 'is_ranked', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains',
+        'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'unranked_reasons', 'pdp_url'
+    ]
     save_csv(csv_path, scored_full, csv_fields)
 
-    print(f"[Pipeline] Wet food complete: {len(minified)} products processed (complementary excluded).")
+    ranked_count = sum(1 for x in minified if x.get('ir'))
+    unranked_count = len(minified) - ranked_count
+    print(f"[Pipeline] Wet food complete: {len(minified)} products processed ({ranked_count} ranked, {unranked_count} unranked).")
     return minified
 
 def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
@@ -88,8 +109,8 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
         scored_full.append(p_full)
         minified.append(p_mini)
 
-    scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
-    minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
+    scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
+    minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
 
     full_path = os.path.join(data_dir, f"{retailer_name}_dry_full.json")
     mini_path = os.path.join(data_dir, f"{retailer_name}_dry.json")
@@ -98,16 +119,30 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     save_json(full_path, scored_full)
     save_json(mini_path, minified)
 
-    csv_fields = ['pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised', 'score', 'tier', 'value_ratio', 'is_grain_free', 'is_fractionated', 'has_corn_gluten', 'has_colorants', 'pdp_url']
+    csv_fields = [
+        'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised',
+        'is_ranked', 'score', 'tier', 'value_ratio', 'is_grain_free', 'is_fractionated',
+        'has_corn_gluten', 'has_colorants', 'unranked_reasons', 'pdp_url'
+    ]
     save_csv(csv_path, scored_full, csv_fields)
 
-    print(f"[Pipeline] Dry food complete: {len(minified)} products processed.")
+    ranked_count = sum(1 for x in minified if x.get('ir'))
+    unranked_count = len(minified) - ranked_count
+    print(f"[Pipeline] Dry food complete: {len(minified)} products processed ({ranked_count} ranked, {unranked_count} unranked).")
     return minified
 
 def rescore_cached_data(data_dir):
     print("[Scorer] Re-scoring existing cached datasets with updated rules...")
-    wet_csv_fields = ['pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'classification', 'is_kitten', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains', 'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'pdp_url']
-    dry_csv_fields = ['pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised', 'score', 'tier', 'value_ratio', 'is_grain_free', 'is_fractionated', 'has_corn_gluten', 'has_colorants', 'pdp_url']
+    wet_csv_fields = [
+        'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'classification',
+        'is_kitten', 'is_ranked', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains',
+        'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'unranked_reasons', 'pdp_url'
+    ]
+    dry_csv_fields = [
+        'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised',
+        'is_ranked', 'score', 'tier', 'value_ratio', 'is_grain_free', 'is_fractionated',
+        'has_corn_gluten', 'has_colorants', 'unranked_reasons', 'pdp_url'
+    ]
 
     for ret in ['continente', 'zu', 'zooplus']:
         full_wet_path = os.path.join(data_dir, f"{ret}_wet_full.json")
@@ -122,12 +157,14 @@ def rescore_cached_data(data_dir):
                     continue
                 scored_full.append(p_full)
                 minified.append(p_mini)
-            scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
-            minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
+            scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
+            minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
             save_json(full_wet_path, scored_full)
             save_json(os.path.join(data_dir, f"{ret}_wet.json"), minified)
             save_csv(os.path.join(data_dir, f"{ret}_wet.csv"), scored_full, wet_csv_fields)
-            print(f"  [Scorer] {ret} wet food: {len(minified)} complete products scored.")
+            r_cnt = sum(1 for x in minified if x.get('ir'))
+            u_cnt = len(minified) - r_cnt
+            print(f"  [Scorer] {ret} wet food: {len(minified)} products ({r_cnt} ranked, {u_cnt} unranked).")
 
         full_dry_path = os.path.join(data_dir, f"{ret}_dry_full.json")
         if os.path.exists(full_dry_path):
@@ -139,12 +176,14 @@ def rescore_cached_data(data_dir):
                 p_full, p_mini = score_dry_product(p)
                 scored_full.append(p_full)
                 minified.append(p_mini)
-            scored_full.sort(key=lambda x: (x.get('score', 0) or 0, x.get('value_ratio', 0) or 0.0), reverse=True)
-            minified.sort(key=lambda x: (x.get('s', 0) or 0, x.get('vr', 0) or 0.0), reverse=True)
+            scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
+            minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
             save_json(full_dry_path, scored_full)
             save_json(os.path.join(data_dir, f"{ret}_dry.json"), minified)
             save_csv(os.path.join(data_dir, f"{ret}_dry.csv"), scored_full, dry_csv_fields)
-            print(f"  [Scorer] {ret} dry food: {len(minified)} products scored.")
+            r_cnt = sum(1 for x in minified if x.get('ir'))
+            u_cnt = len(minified) - r_cnt
+            print(f"  [Scorer] {ret} dry food: {len(minified)} products ({r_cnt} ranked, {u_cnt} unranked).")
 
 def main():
     parser = argparse.ArgumentParser(description="Refresh and build Cat Food Rankings")
