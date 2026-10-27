@@ -177,7 +177,7 @@ def extract_first_ingredient(text):
         return None
 
     # Only strip leading header if at the beginning of the text (allows periods in preamble)
-    m = re.match(r'^\s*(?:alimento\s+[^:\n]+)?(?:ingredientes|composição|ingredients|composition)\s*[:\-]?\s*', text, flags=re.I)
+    m = re.match(r'^\s*(?:alimento\s+[^:\n]+)?(?:ingredientes|composição|ingredients|composition)(?:\s+de\s+[^:\n]+)?[:\-]?\s*', text, flags=re.I)
     if m:
         clean = text[m.end():].strip()
     else:
@@ -215,10 +215,18 @@ def extract_total_meat_percentage(text):
         return None
     lower = text.lower()
     
-    # 1. Check explicit overall declaration first (true umbrella declarations only):
+    # 1. Check 4% EU marketing token trick first: 'carnes e subprodutos animais (dos quais 4% vitela)'
+    is_token_4pct = bool(
+        re.search(r'(?:carnes?|peixes?)\s+e\s+(?:subprodutos|derivados)[^)]*?\b4\s*%', lower) or
+        re.search(r'(?:dos\s+quais|das\s+quais|m[íi]n(?:imo)?\.?)\s*\b4\s*%', lower)
+    )
+    if is_token_4pct:
+        return 4
+
+    # 2. Check explicit overall declaration (true umbrella meat/poultry/fish declarations only):
     # Prefix: '70% aves', '70% de carne', '65% ingredientes de origem animal'
     # Suffix: 'aves 70%', 'carne (70%)'
-    meat_overall = r'carne(?:s)?(?:\s+e\s+(?:subprodutos|derivados)(?:\s+animais)?)?|aves|peixe(?:s)?|ingredientes\s+(?:de\s+origem\s+)?animais|conteúdo\s+de\s+carne|total\s+de\s+carne'
+    meat_overall = r'carne(?:s)?|aves|peixe(?:s)?|ingredientes\s+(?:de\s+origem\s+)?animais|conteúdo\s+de\s+carne|total\s+de\s+carne'
     
     m_overall_pre = re.search(rf'(\d+)\s*%\s*(?:de\s*)?(?:{meat_overall})', lower)
     if m_overall_pre and int(m_overall_pre.group(1)) >= 20:
@@ -228,15 +236,7 @@ def extract_total_meat_percentage(text):
     if m_overall_suf and int(m_overall_suf.group(1)) >= 20:
         return int(m_overall_suf.group(1))
 
-    # Check 4% EU token trick: 'carnes e subprodutos animais (dos quais 4% vitela)'
-    is_token_4pct = bool(
-        re.search(r'(?:carnes|peixes)\s+e\s+(?:subprodutos|derivados)[^)]*?\b4\s*%', lower) or
-        re.search(r'(?:dos quais|mín(?:imo)?\.?)\s*\b4\s*%', lower)
-    )
-    if is_token_4pct:
-        return 4
-
-    # 2. Check if this is a multipack with multiple recipes ('com frango:', 'com vaca:')
+    # 3. Check if this is a multipack with multiple recipes ('com frango:', 'com vaca:')
     # If multipack, take the percentage of the first recipe to prevent pouch summation
     recipes = re.split(r'(?:com|variedade)\s+[a-zá-ú\s]+:', lower)
     if len(recipes) > 1:
@@ -244,10 +244,17 @@ def extract_total_meat_percentage(text):
     else:
         text_to_eval = lower
 
-    # Strip cooking broth and oils/fats before evaluating declared meats
+    # Pre-clean sub-ingredient percentage double counting:
+    # A. Strip sub-percentages that follow an already-declared parent percentage (e.g. '16% das quais 50%')
+    text_to_eval = re.sub(r'(\d+\s*%\s*(?:,\s*)?(?:das?|dos?)\s+qua(?:is|l)\s+[^,.)]*?)\d+(?:[.,]\d+)?\s*%', r'\1', text_to_eval, flags=re.I)
+
+    # B. Strip parenthetical breakdown immediately following a percentage: '(54%) (frango fresco 26%, ...)'
+    text_to_eval = re.sub(r'(\(\d+%\))\s*\([^)]*?\d+%\s*[^)]*?\)', r'\1', text_to_eval)
+
+    # C. Strip cooking broth and oils/fats before evaluating declared meats
     text_to_eval = re.sub(r'\b(?:caldo|gordura|molho|óleo|oleo)\s+(?:de\s+)?[a-zá-ú\s]+?\d+(?:[.,]\d+)?\s*%', '', text_to_eval, flags=re.I)
 
-    # 3. Extract and sum individual declared named meats
+    # 4. Extract and sum individual declared named meats
     meat_names = (
         'carne|frango|peru|salmão|salmao|atum|vaca|peixe|pato|borrego|cordeiro|'
         'javali|coelho|aves|sardinha|arenque|truta|codorniz|veado|miudezas|'

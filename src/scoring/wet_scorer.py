@@ -124,11 +124,12 @@ def score_wet_product(p):
         is_monoproteic = any(m in text_to_check for m in ['monoproteico', 'mono-proteico', 'monoproteica', 'single protein', 'uma única fonte de proteína'])
 
         # Detrimental additives
-        has_sugar = any(s in ingr_lower for s in ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope', 'dextrose', 'melaço'])
-        if has_sugar and any(neg in ingr_lower for neg in [
+        clean_sugar_text = re.sub(r'\b(?:fibra\s+de\s+)?cana-de-a[çc][úu]car\b', '', ingr_lower, flags=re.I)
+        has_sugar = any(s in clean_sugar_text for s in ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope', 'dextrose', 'melaço'])
+        if has_sugar and any(neg in clean_sugar_text for neg in [
             'sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'não contém açúcares',
             'nao contem acucar', 'sem adição de açúcar', 'sem adição de açúcares', 'sem adicao de acucar', 'sem adicao de acucares',
-            '0% açúcar', '0% açúcares', 'isento de açúcar', 'isento de açúcares'
+            'sem açúcares adicionados', 'sem acucares adicionados', '0% açúcar', '0% açúcares', 'isento de açúcar', 'isento de açúcares'
         ]):
             has_sugar = False
 
@@ -191,6 +192,8 @@ def score_wet_product(p):
         # Penalties for low-grade slaughter derivatives and plant fillers
         if first_is_plant:
             score -= 20
+        if first_is_vague_animal:
+            score -= 8
         if is_token_4pct:
             score -= 15
         elif has_vague_byproducts:
@@ -255,6 +258,14 @@ def score_wet_product(p):
         # Reserving Tier S (80+) strictly for grain-free obligate carnivore formulas
         if has_grains and score >= 80:
             score = 79
+
+        # Formulas based on vague slaughterhouse byproducts cannot exceed Tier B (ceiling of 69)
+        if first_is_vague_animal and score >= 70:
+            score = 69
+
+        # Products relying on 4% EU marketing token trick cannot exceed Tier C (ceiling of 59)
+        if is_token_4pct and score >= 60:
+            score = 59
 
         if score >= 80:
             tier = 'Tier S (Ultra-Premium)'

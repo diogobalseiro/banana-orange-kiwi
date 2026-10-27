@@ -80,7 +80,7 @@
     "value_ratio": 12.98,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.788920+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.360046+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -184,7 +184,7 @@
     "value_ratio": 11.42,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.787311+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.360304+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -379,7 +379,7 @@
     "value_ratio": 7.15,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.787786+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.360751+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -846,7 +846,7 @@
     "value_ratio": null,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.789326+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.361878+00:00",
     "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
     "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
     "classification": "complete",
@@ -951,7 +951,7 @@
     "value_ratio": null,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.789492+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.362062+00:00",
     "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
     "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
     "classification": "complete",
@@ -1057,7 +1057,7 @@
     "value_ratio": 11.17,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.790048+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.362276+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1358,7 +1358,7 @@
     "value_ratio": 9.35,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.789861+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.363212+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1462,7 +1462,7 @@
     "value_ratio": 14.02,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.791945+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.363384+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1566,7 +1566,7 @@
     "value_ratio": 11.5,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.791047+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.363532+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1776,7 +1776,7 @@
     "value_ratio": 8.98,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.792637+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.363933+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2092,7 +2092,7 @@
     "value_ratio": 16.92,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.791805+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.364571+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2287,7 +2287,7 @@
     "value_ratio": 10.33,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.792125+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.365032+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2497,7 +2497,7 @@
     "value_ratio": 9.29,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.792267+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.365412+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2965,7 +2965,7 @@
     "value_ratio": 9.2,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.791214+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.366499+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3342,7 +3342,7 @@
     "value_ratio": 12.3,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.793245+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.367344+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3446,7 +3446,7 @@
     "value_ratio": 6.62,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.793384+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.367491+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4203,7 +4203,7 @@
     "value_ratio": 5.49,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.794945+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.369419+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4307,7 +4307,7 @@
     "value_ratio": 9.94,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.795112+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.369606+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4411,7 +4411,7 @@
     "value_ratio": 7.61,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.795276+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.369782+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4515,7 +4515,7 @@
     "value_ratio": 7.18,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.795439+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.369954+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4619,7 +4619,7 @@
     "value_ratio": 7.18,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.795600+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.370124+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4723,7 +4723,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.795955+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.370508+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4827,7 +4827,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.796321+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.370894+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4931,7 +4931,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.796483+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.371065+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5505,7 +5505,7 @@
     "value_ratio": 7.08,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.798791+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.372385+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5609,7 +5609,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.798973+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.372575+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7001,7 +7001,7 @@
     "value_ratio": 5.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.802271+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.375963+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7105,7 +7105,7 @@
     "value_ratio": 5.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.802408+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.376109+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7315,7 +7315,7 @@
     "value_ratio": 4.63,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.802843+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.376566+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7419,7 +7419,7 @@
     "value_ratio": 4.59,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.802974+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.376711+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7736,7 +7736,7 @@
     "value_ratio": 7.52,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.803654+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.377409+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10780,7 +10780,7 @@
     "value_ratio": 10.63,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.811497+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.385593+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11945,7 +11945,7 @@
     "value_ratio": 13.5,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.813974+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.388453+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12049,7 +12049,7 @@
     "value_ratio": 13.33,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.814099+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.388592+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12259,7 +12259,7 @@
     "value_ratio": 9.34,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.814478+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.388979+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13864,7 +13864,7 @@
     "value_ratio": 11.02,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.818578+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.393183+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14362,7 +14362,7 @@
     "value_ratio": 5.32,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.819670+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.394325+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15254,7 +15254,7 @@
     "value_ratio": 8.03,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.821337+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.396922+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15358,7 +15358,7 @@
     "value_ratio": 5.46,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.821515+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.397155+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15462,7 +15462,7 @@
     "value_ratio": 5.46,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.821708+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.397370+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16869,7 +16869,7 @@
     "value_ratio": 5.63,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.825135+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.400768+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16887,7 +16887,7 @@
     "protein": 40.0,
     "fat": 12.0,
     "carbs": 29.0,
-    "meat_pct": 33,
+    "meat_pct": null,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -16973,7 +16973,7 @@
     "value_ratio": 5.42,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.825308+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.400962+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18114,112 +18114,6 @@
     "fat": 10.0,
     "carbs": 32.6,
     "meat_pct": null,
-    "has_grains": true,
-    "has_sugar": false,
-    "has_organs": false
-  },
-  {
-    "pid": "5923268",
-    "name": "Ração para Gato Adulto Urinary Frango Purina Pro Plan Veterinary Diets",
-    "brand": "Purina Pro Plan Veterinary Diets",
-    "price": 17.42,
-    "unit_price_kg": 11.61,
-    "pack_size": "emb. 1,5 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-urinary-frango-purina-pro-plan-veterinary-diets-458135",
-    "retailer": "ZU",
-    "ingredients": "Composição Arroz, farinha de trigo, proteínas secas de aves (16% das quais 50% de frango), farinha de proteínas de milho, proteínas de ervilha, ovo seco, minerais, polpa de beterraba seca, gordura de porco, hidrolisado de proteínas de origem animal, milho, conservantes, óleo de peixe, vitaminas, aminoácidos, antioxidantes. Acidificante urinário: ácido fosfórico. Aditivos Aditivos nutricionais: Vitamina A (33.000 UI/kg), vitamina D3 (1. 050 UI/kg), vitamina E (700 UI/kg), ferro [como sulfato de ferro (II) mono-hidratado] (110 mg/kg), iodo [como iodato de cálcio anidro] (1,7 mg/kg), cobre [como sulfato de cobre penta-hidratado] (11 mg/kg), manganês [como sulfato de manganês mono-hidratado] (41 mg/kg), zinco [como sulfato de zinco mono-hidratado] (100 mg/kg), selénio [como selenito de sódio] (0,12 mg/kg).",
-    "nutrition_raw": "Proteína: 35.0%; Gordura: 12.0%; Fibra: 1.5%; Cinza: 8.0%; Cálcio: 0.9%; Fósforo: 0.9%; Magnésio: 0.08%; Cloreto: 2.4%; Potássio: 0.7%; Sódio: 1.2%; Taurina: 0.15%; enxofre: 0.3%",
-    "description": "Caraterísticas\nDescrição:\nFeline UR St/ Ox Urinary é uma dieta veterinária completa para ajudar no maneio de gatos com FLUTD (doença do trato urinário inferior felino). Feline UR St/ Ox Urinary é especialmente formulado para ajudar a dissolver cristais e cálculos urinários de estruvite, ajuda a prevenir a formação/recorrência de cálculos de estruvite e ajuda a reduzir a recorrência de cálculos de oxalato. Pode também ajudar no maneio nutricional da Cistite Idiopática Felina aumentando o consumo de água e promovendo a diluição da urina. De notar que Feline UR St/ Ox Urinary não é adequado para fêmeas gestantes, gatinhos em crescimento e gatos com doença renal crónica, outras condições associadas com a diurese ou retenção de fluídos como ascite e edema. Recomenda-se a consulta de um médico veterinário antes da utilização ou do prolongamento do período de utilização.\nSabor:\nFrango",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição Arroz, farinha de trigo, proteínas secas de aves (16% das quais 50% de frango), farinha de proteínas de milho, proteínas de ervilha, ovo seco, minerais, polpa de beterraba seca, gordura de porco, hidrolisado de proteínas de origem animal, milho, conservantes, óleo de peixe, vitaminas, aminoácidos, antioxidantes. Acidificante urinário: ácido fosfórico. Aditivos Aditivos nutricionais: Vitamina A (33.000 UI/kg), vitamina D3 (1. 050 UI/kg), vitamina E (700 UI/kg), ferro [como sulfato de ferro (II) mono-hidratado] (110 mg/kg), iodo [como iodato de cálcio anidro] (1,7 mg/kg), cobre [como sulfato de cobre penta-hidratado] (11 mg/kg), manganês [como sulfato de manganês mono-hidratado] (41 mg/kg), zinco [como sulfato de zinco mono-hidratado] (100 mg/kg), selénio [como selenito de sódio] (0,12 mg/kg).",
-    "raw_nutrition_raw": "Proteína: 35.0%; Gordura: 12.0%; Fibra: 1.5%; Cinza: 8.0%; Cálcio: 0.9%; Fósforo: 0.9%; Magnésio: 0.08%; Cloreto: 2.4%; Potássio: 0.7%; Sódio: 1.2%; Taurina: 0.15%; enxofre: 0.3%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 35.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 12.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 8.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 1.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": 0.9,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 0.9,
-        "status": "valid"
-      },
-      "magnesium": {
-        "value": 0.08,
-        "status": "valid"
-      },
-      "taurine": {
-        "value": 0.15,
-        "unit": "%",
-        "status": "valid"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": 1.0
-    },
-    "score": 19,
-    "tier": "Tier D (Evitar / Baixa Qualidade)",
-    "is_kitten": true,
-    "is_sterilised": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Arroz",
-    "is_grain_free": false,
-    "is_fractionated": false,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "value_ratio": 1.64,
-    "carb_band": ">35% (Muito Alto) (Est.)",
-    "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:24:58.389717+00:00",
-    "classification": "complete",
-    "has_material_conflict": false,
-    "reconciliation_sources": {
-      "retailer": "zu",
-      "pid": "5923268",
-      "ingredients": "verified_formulation",
-      "nutrition_raw": "verified_formulation",
-      "classification": "verified_formulation"
-    },
-    "shared_assessment": {
-      "formulation_id": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_veterinary_diets_ur_st_ox_urinary_frango_dry",
-      "source": "verified_shared_formulation",
-      "is_ranked": true
-    },
-    "protein": 35.0,
-    "fat": 12.0,
-    "carbs": 35.5,
-    "meat_pct": 66,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -19431,7 +19325,7 @@
     "protein": 35.0,
     "fat": 9.0,
     "carbs": 36.5,
-    "meat_pct": 25,
+    "meat_pct": null,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -19537,7 +19431,7 @@
     "protein": 32.0,
     "fat": 11.0,
     "carbs": 36.0,
-    "meat_pct": 25,
+    "meat_pct": 4,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -19628,7 +19522,7 @@
     "protein": 32.0,
     "fat": 11.0,
     "carbs": 38.5,
-    "meat_pct": 25,
+    "meat_pct": null,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -20007,7 +19901,7 @@
     "protein": 35.0,
     "fat": 9.0,
     "carbs": 36.5,
-    "meat_pct": 25,
+    "meat_pct": 4,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -21130,6 +21024,112 @@
     "fat": 10.7,
     "carbs": 42.6,
     "meat_pct": 5,
+    "has_grains": true,
+    "has_sugar": false,
+    "has_organs": false
+  },
+  {
+    "pid": "5923268",
+    "name": "Ração para Gato Adulto Urinary Frango Purina Pro Plan Veterinary Diets",
+    "brand": "Purina Pro Plan Veterinary Diets",
+    "price": 17.42,
+    "unit_price_kg": 11.61,
+    "pack_size": "emb. 1,5 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-urinary-frango-purina-pro-plan-veterinary-diets-458135",
+    "retailer": "ZU",
+    "ingredients": "Composição Arroz, farinha de trigo, proteínas secas de aves (16% das quais 50% de frango), farinha de proteínas de milho, proteínas de ervilha, ovo seco, minerais, polpa de beterraba seca, gordura de porco, hidrolisado de proteínas de origem animal, milho, conservantes, óleo de peixe, vitaminas, aminoácidos, antioxidantes. Acidificante urinário: ácido fosfórico. Aditivos Aditivos nutricionais: Vitamina A (33.000 UI/kg), vitamina D3 (1. 050 UI/kg), vitamina E (700 UI/kg), ferro [como sulfato de ferro (II) mono-hidratado] (110 mg/kg), iodo [como iodato de cálcio anidro] (1,7 mg/kg), cobre [como sulfato de cobre penta-hidratado] (11 mg/kg), manganês [como sulfato de manganês mono-hidratado] (41 mg/kg), zinco [como sulfato de zinco mono-hidratado] (100 mg/kg), selénio [como selenito de sódio] (0,12 mg/kg).",
+    "nutrition_raw": "Proteína: 35.0%; Gordura: 12.0%; Fibra: 1.5%; Cinza: 8.0%; Cálcio: 0.9%; Fósforo: 0.9%; Magnésio: 0.08%; Cloreto: 2.4%; Potássio: 0.7%; Sódio: 1.2%; Taurina: 0.15%; enxofre: 0.3%",
+    "description": "Caraterísticas\nDescrição:\nFeline UR St/ Ox Urinary é uma dieta veterinária completa para ajudar no maneio de gatos com FLUTD (doença do trato urinário inferior felino). Feline UR St/ Ox Urinary é especialmente formulado para ajudar a dissolver cristais e cálculos urinários de estruvite, ajuda a prevenir a formação/recorrência de cálculos de estruvite e ajuda a reduzir a recorrência de cálculos de oxalato. Pode também ajudar no maneio nutricional da Cistite Idiopática Felina aumentando o consumo de água e promovendo a diluição da urina. De notar que Feline UR St/ Ox Urinary não é adequado para fêmeas gestantes, gatinhos em crescimento e gatos com doença renal crónica, outras condições associadas com a diurese ou retenção de fluídos como ascite e edema. Recomenda-se a consulta de um médico veterinário antes da utilização ou do prolongamento do período de utilização.\nSabor:\nFrango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Composição Arroz, farinha de trigo, proteínas secas de aves (16% das quais 50% de frango), farinha de proteínas de milho, proteínas de ervilha, ovo seco, minerais, polpa de beterraba seca, gordura de porco, hidrolisado de proteínas de origem animal, milho, conservantes, óleo de peixe, vitaminas, aminoácidos, antioxidantes. Acidificante urinário: ácido fosfórico. Aditivos Aditivos nutricionais: Vitamina A (33.000 UI/kg), vitamina D3 (1. 050 UI/kg), vitamina E (700 UI/kg), ferro [como sulfato de ferro (II) mono-hidratado] (110 mg/kg), iodo [como iodato de cálcio anidro] (1,7 mg/kg), cobre [como sulfato de cobre penta-hidratado] (11 mg/kg), manganês [como sulfato de manganês mono-hidratado] (41 mg/kg), zinco [como sulfato de zinco mono-hidratado] (100 mg/kg), selénio [como selenito de sódio] (0,12 mg/kg).",
+    "raw_nutrition_raw": "Proteína: 35.0%; Gordura: 12.0%; Fibra: 1.5%; Cinza: 8.0%; Cálcio: 0.9%; Fósforo: 0.9%; Magnésio: 0.08%; Cloreto: 2.4%; Potássio: 0.7%; Sódio: 1.2%; Taurina: 0.15%; enxofre: 0.3%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 35.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 1.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 0.9,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 0.9,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": 0.08,
+        "status": "valid"
+      },
+      "taurine": {
+        "value": 0.15,
+        "unit": "%",
+        "status": "valid"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": 1.0
+    },
+    "score": 10,
+    "tier": "Tier D (Evitar / Baixa Qualidade)",
+    "is_kitten": true,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Arroz",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": true,
+    "has_marine_omega": true,
+    "value_ratio": 0.86,
+    "carb_band": ">35% (Muito Alto) (Est.)",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:24:58.389717+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "5923268",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_veterinary_diets_ur_st_ox_urinary_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    },
+    "protein": 35.0,
+    "fat": 12.0,
+    "carbs": 35.5,
+    "meat_pct": 16,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -22822,7 +22822,7 @@
     "carb_band": ">35% (Muito Alto) (Est.)",
     "has_material_conflict": false,
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:10:03.840640+00:00",
+    "reconciliation_timestamp": "2026-10-27T21:17:00.416439+00:00",
     "classification": "complete",
     "reconciliation_sources": {
       "retailer": "zu",

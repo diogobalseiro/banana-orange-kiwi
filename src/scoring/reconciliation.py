@@ -174,14 +174,17 @@ def detect_material_conflict(retailer_obs: Dict[str, Any], verified: Dict[str, A
     v_ingr = (verified.get('ingredients') or '').lower()
 
     if r_ingr and v_ingr:
+        r_clean_sugar = re.sub(r'\b(?:fibra\s+de\s+)?cana-de-a[çc][úu]car\b', '', r_ingr, flags=re.I)
+        v_clean_sugar = re.sub(r'\b(?:fibra\s+de\s+)?cana-de-a[çc][úu]car\b', '', v_ingr, flags=re.I)
         sugar_terms = ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope', 'dextrose', 'melaço']
         neg_terms = [
             'sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'não contém açúcares',
             'nao contem acucar', 'isento de açúcar', 'isento de açúcares', 'sem adição de açúcar', 'sem adição de açúcares',
-            'sem adicao de acucar', 'sem adicao de acucares', 'sem açúcares adicionados', '0% açúcar', '0% açúcares', 'zero açúcar'
+            'sem adicao de acucar', 'sem adicao de acucares', 'sem açúcares adicionados', 'sem acucares adicionados',
+            '0% açúcar', '0% açúcares', 'zero açúcar'
         ]
-        r_sugar = any(s in r_ingr for s in sugar_terms) and not any(neg in r_ingr for neg in neg_terms)
-        v_sugar = any(s in v_ingr for s in sugar_terms) and not any(neg in v_ingr for neg in neg_terms)
+        r_sugar = any(s in r_clean_sugar for s in sugar_terms) and not any(neg in r_clean_sugar for neg in neg_terms)
+        v_sugar = any(s in v_clean_sugar for s in sugar_terms) and not any(neg in v_clean_sugar for neg in neg_terms)
         if r_sugar != v_sugar:
             reasons.append("Contradictory sugar declaration")
 

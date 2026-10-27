@@ -125,11 +125,13 @@ def score_dry_product(p):
         ]):
             has_colorants = False
 
-        has_sugar = any(s in ingr_lower for s in ['açúcar', 'açucares', 'açúcares', 'açucar', 'sacarose', 'xarope', 'caramelo', 'dextrose', 'melaço'])
-        if has_sugar and any(neg in ingr_lower for neg in [
+        clean_sugar_text = re.sub(r'\b(?:fibra\s+de\s+)?cana-de-a[çc][úu]car\b', '', ingr_lower, flags=re.I)
+        has_sugar = any(s in clean_sugar_text for s in ['açúcar', 'açucares', 'açúcares', 'açucar', 'sacarose', 'xarope', 'caramelo', 'dextrose', 'melaço'])
+        if has_sugar and any(neg in clean_sugar_text for neg in [
             'sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'não contém açúcares',
             'nao contem acucar', 'nao contem acucares', 'sem adição de açúcar', 'sem adição de açúcares',
-            'sem adicao de acucar', 'sem adicao de acucares', '0% açúcar', '0% açúcares', 'isento de açúcar', 'isento de açúcares'
+            'sem adicao de acucar', 'sem adicao de acucares', 'sem açúcares adicionados', 'sem acucares adicionados',
+            '0% açúcar', '0% açúcares', 'isento de açúcar', 'isento de açúcares'
         ]):
             has_sugar = False
 

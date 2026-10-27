@@ -378,6 +378,52 @@ class TestEvidenceParsingRobustness(unittest.TestCase):
         meat = extract_total_meat_percentage(multipack)
         self.assertEqual(meat, 14)
 
+    def test_sugar_cane_fiber_does_not_trigger_sugar_penalty(self):
+        """Sugar cane fiber ('fibra de cana-de-açúcar') is insoluble fiber, not added sugar."""
+        p = {
+            'pid': 'uppy_nutri_test',
+            'name': 'Ração para Gato Adulto Esterilizado Sem Cereais Uppy Nutri',
+            'brand': 'Uppy Nutri',
+            'price': 25.0,
+            'unit_price_kg': 12.5,
+            'ingredients': 'Frango (54%) (frango fresco 26%, proteína de frango desidratada 26%), batata (14%), fibras vegetais (fibra de cana-de-açúcar 2%, polpa de beterraba 1,5%), ovo em pó (4%), gordura de aves, taurina',
+            'nutrition_raw': 'Proteína bruta: 38.0%, Matéria gorda bruta: 13.0%, Cinza bruta: 7.5%, Fibra bruta: 3.5%, Magnésio: 0.08%',
+            'category': 'dry'
+        }
+        full_p, min_p = score_dry_product(p)
+        self.assertFalse(full_p['has_sugar'])
+        self.assertNotIn('Açúcares Adicionados (-15)', full_p.get('cons') or [])
+        self.assertGreaterEqual(full_p['score'], 85)
+
+    def test_sub_ingredient_parenthetical_percentage_not_double_counted(self):
+        """Outer declaration 'Frango (54%) (frango fresco 26%, proteína desidratada 26%)' must return 54%, not 106%."""
+        text = "Frango (54%) (frango fresco 26%, proteína de frango desidratada 26%, proteína de frango hidrolisada 2%), batata (14%)"
+        meat = extract_total_meat_percentage(text)
+        self.assertEqual(meat, 54)
+
+    def test_sub_percentage_das_quais_not_double_counted(self):
+        """'proteínas secas de aves (16% das quais 50% de frango)' must return 16%, not 66%."""
+        text = "proteínas secas de aves (16% das quais 50% de frango), farinha de proteínas de milho"
+        meat = extract_total_meat_percentage(text)
+        self.assertEqual(meat, 16)
+
+    def test_four_percent_token_trick_capped_at_tier_c(self):
+        """Gourmet Gold with 'Carnes e subprodutos animais (57%, dos quais 4% Vitela)' must be capped at Tier C (<=59)."""
+        p = {
+            'pid': 'gourmet_token_test',
+            'name': 'Comida Húmida para Gato Júnior Mousse Gatinhos Vitela Purina Gourmet Gold',
+            'brand': 'Purina Gourmet Gold',
+            'price': 1.2,
+            'unit_price_kg': 14.1,
+            'ingredients': 'Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais',
+            'nutrition_raw': 'Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%',
+            'category': 'wet'
+        }
+        from src.scoring.wet_scorer import score_wet_product
+        full_p, min_p = score_wet_product(p)
+        self.assertLessEqual(full_p['score'], 59)
+        self.assertEqual(full_p['tier'], 'Tier C (Básico / Ingredientes Genéricos)')
+
 
 if __name__ == '__main__':
     unittest.main()
