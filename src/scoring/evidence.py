@@ -159,6 +159,47 @@ def extract_first_ingredient(text):
     res = re.sub(r'[:\-]+$', '', res).strip()
     return res if res else None
 
+def extract_total_meat_percentage(text):
+    """
+    Extracts genuine meat and animal tissue percentages from composition text.
+    Handles adjectives (fresco, desidratado, cru, etc.), sums declared named meats,
+    detects 4% EU marketing tokens, and respects overall declarations.
+    """
+    if not text or not isinstance(text, str):
+        return None
+    lower = text.lower()
+    
+    # Check 4% EU token trick first - should return 4 (token trick, not high meat)
+    is_token_4pct = bool(
+        re.search(r'(?:dos quais|mín(?:imo)?\.?)\s*4\s*%', lower) or
+        re.search(r'carnes e subprodutos animais\s*\([^)]*4\s*%', lower)
+    )
+    if is_token_4pct:
+        return 4
+
+    # 1. Check explicit overall declaration: e.g. '70% aves', '70% de carne', '65% ingredientes de origem animal'
+    m_overall = re.search(r'(\d+)\s*%\s*(?:de\s*)?(?:carne|miudezas|ingredientes\s+(?:de\s+origem\s+)?animais|aves|peixe)', lower)
+    if m_overall and int(m_overall.group(1)) >= 20:
+        return int(m_overall.group(1))
+
+    # 2. Extract and sum individual declared named meats
+    meat_names = 'carne|frango|peru|salmão|salmao|atum|vaca|peixe|pato|borrego|javali|coelho|aves|sardinha|arenque|truta|codorniz|veado|miudezas|bovino|vitela'
+    adjectives = r'(?:\s+(?:fresco|fresca|desidratado|desidratada|cru|crua|inteiro|inteira|desossado|desossada|seco|seca|limpo|limpa|hidrolisado|hidrolisada|sem\s+espinhas|de\s+capoeira)){0,2}'
+
+    pat_before = rf'(\d+)\s*%\s*(?:de\s*)?(?:{meat_names})'
+    pat_after = rf'(?:{meat_names}){adjectives}\s*(?:\([^)]*?\))?\s*(?:m[íi]n\.?\s*)?\(?(\d+)\s*%\)?'
+    
+    matches = re.findall(rf'(?:{pat_before}|{pat_after})', lower)
+    pcts = []
+    for g1, g2 in matches:
+        v = g1 or g2
+        if v and int(v) > 4:
+            pcts.append(int(v))
+            
+    if pcts:
+        return min(100, sum(pcts))
+    return None
+
 def normalize_nutrients(raw_text, category='wet'):
     """
     Parses analytical constituents from raw nutrition text without imputation.

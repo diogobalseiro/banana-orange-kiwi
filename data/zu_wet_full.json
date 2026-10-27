@@ -83,7 +83,9 @@
     "value_ratio": 4.11,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango 60% (estômagos 5%, fígado 5%, coração 5%)"
+    "first_ingredient": "Frango 60% (estômagos 5%, fígado 5%, coração 5%)",
+    "protein": 12.0,
+    "fat": 2.0
   },
   {
     "pid": "7995621",
@@ -169,7 +171,9 @@
     "value_ratio": 4.11,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango 60% (estômago 5%, fígado 5%, coração 5%)"
+    "first_ingredient": "Frango 60% (estômago 5%, fígado 5%, coração 5%)",
+    "protein": 12.0,
+    "fat": 2.0
   },
   {
     "pid": "7995618",
@@ -251,11 +255,13 @@
     "has_carrageenan": false,
     "has_taurine": false,
     "has_marine_omega": false,
-    "high_meat_pct": 58,
+    "high_meat_pct": 64,
     "value_ratio": 4.11,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango 58% (moela 5%, fígado 5%, coração 5%)"
+    "first_ingredient": "Frango 58% (moela 5%, fígado 5%, coração 5%)",
+    "protein": 12.0,
+    "fat": 2.0
   },
   {
     "pid": "7995552",
@@ -341,7 +347,9 @@
     "value_ratio": 3.87,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango 60% (estômagos 5%, fígado 5%, coração 5%)"
+    "first_ingredient": "Frango 60% (estômagos 5%, fígado 5%, coração 5%)",
+    "protein": 12.0,
+    "fat": 2.0
   },
   {
     "pid": "7995554",
@@ -427,7 +435,9 @@
     "value_ratio": 3.87,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango 60% (estômago 5%, fígado 5%, coração 5%)"
+    "first_ingredient": "Frango 60% (estômago 5%, fígado 5%, coração 5%)",
+    "protein": 12.0,
+    "fat": 2.0
   },
   {
     "pid": "5739885",
@@ -446,7 +456,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T20:20:17.071425+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.685799+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -525,7 +535,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de origem animal (40% Vaca)"
+    "first_ingredient": "Carne e subprodutos de origem animal (40% Vaca)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "7628367",
@@ -544,7 +556,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_duo_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T20:20:17.071441+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.685815+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -623,7 +635,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca)"
+    "first_ingredient": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "6935947",
@@ -709,7 +723,9 @@
     "value_ratio": 4.98,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Peru biológico 26%"
+    "first_ingredient": "Peru biológico 26%",
+    "protein": 9.5,
+    "fat": 6.0
   },
   {
     "pid": "7757500",
@@ -793,7 +809,7 @@
     "value_ratio": 5.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.071573+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.685942+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -807,7 +823,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango 34%"
+    "first_ingredient": "Frango 34%",
+    "protein": 9.0,
+    "fat": 4.5
   },
   {
     "pid": "7757497",
@@ -891,7 +909,7 @@
     "value_ratio": 5.45,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.071641+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.686014+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -905,7 +923,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango 34%"
+    "first_ingredient": "Frango 34%",
+    "protein": 9.0,
+    "fat": 4.5
   },
   {
     "pid": "6935950",
@@ -991,7 +1011,9 @@
     "value_ratio": 4.76,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Peixe biológico 26%"
+    "first_ingredient": "Peixe biológico 26%",
+    "protein": 9.5,
+    "fat": 6.0
   },
   {
     "pid": "8157686",
@@ -1091,7 +1113,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Escamudo e salmão: carne e subprodutos* (12%)"
+    "first_ingredient": "Escamudo e salmão: carne e subprodutos* (12%)",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "7705744",
@@ -1110,7 +1134,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T20:20:17.071767+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.686141+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -1189,7 +1213,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de origem animal (40% Frango)"
+    "first_ingredient": "Carne e subprodutos de origem animal (40% Frango)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "8195760",
@@ -1290,7 +1316,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de origem animal (40% Frango)"
+    "first_ingredient": "Carne e subprodutos de origem animal (40% Frango)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "6100902",
@@ -1391,7 +1419,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de origem animal (40% Frango)"
+    "first_ingredient": "Carne e subprodutos de origem animal (40% Frango)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "5304997",
@@ -1410,7 +1440,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T20:20:17.071905+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.686269+00:00",
     "classification": "Completo",
     "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development.",
     "has_material_conflict": false,
@@ -1490,7 +1520,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (57%, dos quais 4% Vitela)"
+    "first_ingredient": "Carnes e subprodutos animais (57%, dos quais 4% Vitela)",
+    "protein": 13.0,
+    "fat": 7.0
   },
   {
     "pid": "8195786",
@@ -1592,7 +1624,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (57%, dos quais 4% Vitela)"
+    "first_ingredient": "Carnes e subprodutos animais (57%, dos quais 4% Vitela)",
+    "protein": 13.0,
+    "fat": 7.0
   },
   {
     "pid": "7864274",
@@ -1678,7 +1712,9 @@
     "value_ratio": 3.63,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Peixes e subprodutos de peixes* (44% atum)"
+    "first_ingredient": "Peixes e subprodutos de peixes* (44% atum)",
+    "protein": 13.5,
+    "fat": 0.5
   },
   {
     "pid": "8509020",
@@ -1778,7 +1814,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango: Frango* (32%)"
+    "first_ingredient": "Frango: Frango* (32%)",
+    "protein": 10.0,
+    "fat": 5.0
   },
   {
     "pid": "6474320",
@@ -1878,7 +1916,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Peixes e subprodutos de peixes (40%)"
+    "first_ingredient": "Peixes e subprodutos de peixes (40%)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "8041032",
@@ -1978,7 +2018,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Peixes e subprodutos de peixes (40%)"
+    "first_ingredient": "Peixes e subprodutos de peixes (40%)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "7705743",
@@ -1997,7 +2039,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T20:20:17.072258+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.686592+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -2076,7 +2118,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Peixes e subprodutos de peixes (40%)"
+    "first_ingredient": "Peixes e subprodutos de peixes (40%)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "5739886",
@@ -2095,7 +2139,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T20:20:17.072264+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.686597+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -2174,7 +2218,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango)"
+    "first_ingredient": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango)",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "8537309",
@@ -2260,7 +2306,9 @@
     "value_ratio": 3.59,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango:Frango* (32%)"
+    "first_ingredient": "Frango:Frango* (32%)",
+    "protein": 10.0,
+    "fat": 5.0
   },
   {
     "pid": "8509019",
@@ -2346,7 +2394,9 @@
     "value_ratio": 2.71,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango* (32%)"
+    "first_ingredient": "Frango* (32%)",
+    "protein": 10.0,
+    "fat": 5.0
   },
   {
     "pid": "7683230",
@@ -2429,7 +2479,7 @@
     "value_ratio": null,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.072466+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.686797+00:00",
     "ingredients": "Carnes e subprodutos animais (frango 35%), subprodutos de origem vegetal, substâncias minerais, óleos e gorduras.",
     "nutrition_raw": "Proteína: 8.2%, Matéria gorda: 4.0%, Fibra bruta: 0.3%, Cinza bruta: 1.6%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -2445,7 +2495,97 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (frango 35%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 35%)",
+    "protein": 8.2,
+    "fat": 4.0
+  },
+  {
+    "pid": "8537299",
+    "name": "Comida Húmida para Gato Adulto Natural Frango Salmão Peru e Atum Nature'S Variety",
+    "brand": "Nature's Variety",
+    "price": 10.52,
+    "unit_price_kg": 10.31,
+    "pack_size": "emb. 12 x 85 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-natural-frango-salmao-peru-e-atum-nature-s-variety-8537299",
+    "retailer": "ZU",
+    "ingredients": "Ingredientes: Frango 16%, aves 12%, porco 5%, amido de milho, proteínas bovina e suína, minerais, cenoura desidratada (0,5%, equivalente a 3,4% cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.; Aves 24%, porco 5%, salmão 4%, amido de milho, proteínas de porco e vaca, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5% , equivalente a 1,8% de ervilhas frescas),açúcares; Aves de capoeira 24%, porco 5%, peru 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, tomate desidratado (0,25%, equivalente a 3% de tomate fresco), feijão-verde desidratado (0,25%, equivalente a 2% de feijão verde fresco), açúcares; Aves de capoeira 24%, porco 5%, atum 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.",
+    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 8,5 %; matéria gorda bruta 4,5 %; fibra bruta 0,5 %; cinza bruta 2 %; humidade 82 %.",
+    "description": "Caraterísticas\nDescrição:\nAlimento completo e equilibrado para gatos adultos. Elaborado com frango, salmão, peru e atum de alta qualidade como ingrediente principal.\nSabor:\nFrango, Salmão, Peru e Atum",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Ingredientes: Frango 16%, aves 12%, porco 5%, amido de milho, proteínas bovina e suína, minerais, cenoura desidratada (0,5%, equivalente a 3,4% cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.; Aves 24%, porco 5%, salmão 4%, amido de milho, proteínas de porco e vaca, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5% , equivalente a 1,8% de ervilhas frescas),açúcares; Aves de capoeira 24%, porco 5%, peru 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, tomate desidratado (0,25%, equivalente a 3% de tomate fresco), feijão-verde desidratado (0,25%, equivalente a 2% de feijão verde fresco), açúcares; Aves de capoeira 24%, porco 5%, atum 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 8,5 %; matéria gorda bruta 4,5 %; fibra bruta 0,5 %; cinza bruta 2 %; humidade 82 %.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 82.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 18.0,
+      "protein_dmb": 47.2,
+      "fat_dmb": 25.0,
+      "carbs_nfe": 2.5,
+      "carbs_dmb": 13.9,
+      "ca_p_ratio": null
+    },
+    "score": 47,
+    "tier": "Tier C (Básico / Ingredientes Genéricos)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": true,
+    "has_grains": true,
+    "has_veg_protein": false,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": 100,
+    "value_ratio": 4.56,
+    "carb_band": "10-20% DMB (Moderado)",
+    "has_material_conflict": false,
+    "first_ingredient": "Frango 16%",
+    "protein": 8.5,
+    "fat": 4.5
   },
   {
     "pid": "5369769",
@@ -2545,7 +2685,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "4624289",
@@ -2645,7 +2787,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6182319",
@@ -2745,7 +2889,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455209",
@@ -2845,7 +2991,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455215",
@@ -2945,7 +3093,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6178172",
@@ -3045,7 +3195,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7300823",
@@ -3145,7 +3297,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6182333",
@@ -3245,7 +3399,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6178169",
@@ -3345,7 +3501,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455387",
@@ -3445,7 +3603,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455288",
@@ -3545,7 +3705,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455216",
@@ -3645,7 +3807,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7300016",
@@ -3746,7 +3910,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7300824",
@@ -3847,7 +4013,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6179459",
@@ -3948,7 +4116,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6383396",
@@ -4049,7 +4219,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455213",
@@ -4150,7 +4322,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6383415",
@@ -4251,7 +4425,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6182339",
@@ -4352,7 +4528,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7300017",
@@ -4453,7 +4631,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455390",
@@ -4554,7 +4734,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "7455211",
@@ -4655,7 +4837,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6179450",
@@ -4756,7 +4940,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "6178083",
@@ -4857,7 +5043,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "5454223",
@@ -4958,7 +5146,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.9,
+    "fat": 4.5
   },
   {
     "pid": "5454224",
@@ -5058,7 +5248,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.5,
+    "fat": 3.5
   },
   {
     "pid": "4624287",
@@ -5158,7 +5350,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.5,
+    "fat": 3.5
   },
   {
     "pid": "6179300",
@@ -5258,7 +5452,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.5,
+    "fat": 3.5
   },
   {
     "pid": "6179350",
@@ -5358,93 +5554,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
-  },
-  {
-    "pid": "8537299",
-    "name": "Comida Húmida para Gato Adulto Natural Frango Salmão Peru e Atum Nature'S Variety",
-    "brand": "Nature's Variety",
-    "price": 10.52,
-    "unit_price_kg": 10.31,
-    "pack_size": "emb. 12 x 85 g",
-    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-natural-frango-salmao-peru-e-atum-nature-s-variety-8537299",
-    "retailer": "ZU",
-    "ingredients": "Ingredientes: Frango 16%, aves 12%, porco 5%, amido de milho, proteínas bovina e suína, minerais, cenoura desidratada (0,5%, equivalente a 3,4% cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.; Aves 24%, porco 5%, salmão 4%, amido de milho, proteínas de porco e vaca, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5% , equivalente a 1,8% de ervilhas frescas),açúcares; Aves de capoeira 24%, porco 5%, peru 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, tomate desidratado (0,25%, equivalente a 3% de tomate fresco), feijão-verde desidratado (0,25%, equivalente a 2% de feijão verde fresco), açúcares; Aves de capoeira 24%, porco 5%, atum 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.",
-    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 8,5 %; matéria gorda bruta 4,5 %; fibra bruta 0,5 %; cinza bruta 2 %; humidade 82 %.",
-    "description": "Caraterísticas\nDescrição:\nAlimento completo e equilibrado para gatos adultos. Elaborado com frango, salmão, peru e atum de alta qualidade como ingrediente principal.\nSabor:\nFrango, Salmão, Peru e Atum",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Ingredientes: Frango 16%, aves 12%, porco 5%, amido de milho, proteínas bovina e suína, minerais, cenoura desidratada (0,5%, equivalente a 3,4% cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.; Aves 24%, porco 5%, salmão 4%, amido de milho, proteínas de porco e vaca, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5% , equivalente a 1,8% de ervilhas frescas),açúcares; Aves de capoeira 24%, porco 5%, peru 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, tomate desidratado (0,25%, equivalente a 3% de tomate fresco), feijão-verde desidratado (0,25%, equivalente a 2% de feijão verde fresco), açúcares; Aves de capoeira 24%, porco 5%, atum 4%, amido de milho, proteínas de vaca e de porco, substâncias minerais, cenoura desidratada (0,5%, equivalente a 3,4% de cenoura fresca), ervilhas desidratadas (0,5%, equivalente a 1,8% de ervilhas frescas), açúcares.",
-    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 8,5 %; matéria gorda bruta 4,5 %; fibra bruta 0,5 %; cinza bruta 2 %; humidade 82 %.",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 8.5,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 4.5,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 82.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 2.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 18.0,
-      "protein_dmb": 47.2,
-      "fat_dmb": 25.0,
-      "carbs_nfe": 2.5,
-      "carbs_dmb": 13.9,
-      "ca_p_ratio": null
-    },
-    "score": 33,
-    "tier": "Tier D (Evitar / Açúcares e Cereais)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "has_sugar": true,
-    "has_grains": true,
-    "has_veg_protein": false,
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": 52,
-    "value_ratio": 3.2,
-    "carb_band": "10-20% DMB (Moderado)",
-    "has_material_conflict": false,
-    "first_ingredient": "Frango 16%"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.5,
+    "fat": 3.5
   },
   {
     "pid": "6461899",
@@ -5530,7 +5642,9 @@
     "value_ratio": 3.15,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (45%, dos quais 17% frango)"
+    "first_ingredient": "Carnes e subprodutos animais (45%, dos quais 17% frango)",
+    "protein": 10.0,
+    "fat": 6.0
   },
   {
     "pid": "6290678",
@@ -5616,7 +5730,9 @@
     "value_ratio": 2.37,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 13.8,
+    "fat": 4.9
   },
   {
     "pid": "8033052",
@@ -5702,7 +5818,9 @@
     "value_ratio": 1.95,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 13.8,
+    "fat": 4.9
   },
   {
     "pid": "7992911",
@@ -5802,7 +5920,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo 4% de frango)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo 4% de frango)",
+    "protein": 13.0,
+    "fat": 4.5
   },
   {
     "pid": "6359609",
@@ -5902,7 +6022,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.7,
+    "fat": 6.0
   },
   {
     "pid": "7854199",
@@ -6002,7 +6124,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.7,
+    "fat": 6.0
   },
   {
     "pid": "8033053",
@@ -6102,7 +6226,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.7,
+    "fat": 6.0
   },
   {
     "pid": "7854243",
@@ -6202,7 +6328,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.7,
+    "fat": 6.0
   },
   {
     "pid": "7854200",
@@ -6302,7 +6430,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.7,
+    "fat": 6.0
   },
   {
     "pid": "7854241",
@@ -6403,7 +6533,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.7,
+    "fat": 6.0
   },
   {
     "pid": "7992910",
@@ -6504,7 +6636,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.7,
+    "fat": 6.0
   },
   {
     "pid": "7399548",
@@ -6590,7 +6724,9 @@
     "value_ratio": 2.39,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais* (21%dos quais 14% frango)"
+    "first_ingredient": "Carnes e subprodutos animais* (21%dos quais 14% frango)",
+    "protein": 12.5,
+    "fat": 2.8
   },
   {
     "pid": "7090815",
@@ -6676,7 +6812,9 @@
     "value_ratio": 2.15,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais* (22%dos quais 14% vaca)"
+    "first_ingredient": "Carnes e subprodutos animais* (22%dos quais 14% vaca)",
+    "protein": 12.5,
+    "fat": 2.8
   },
   {
     "pid": "7090818",
@@ -6762,7 +6900,9 @@
     "value_ratio": 2.15,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Frango: Carnes e subprodutos animais* (21%dos quais 14% frango)"
+    "first_ingredient": "Frango: Carnes e subprodutos animais* (21%dos quais 14% frango)",
+    "protein": 12.5,
+    "fat": 2.8
   },
   {
     "pid": "8282805",
@@ -6848,7 +6988,9 @@
     "value_ratio": 2.15,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais* (21%dos quais 14% frango)"
+    "first_ingredient": "Carnes e subprodutos animais* (21%dos quais 14% frango)",
+    "protein": 12.5,
+    "fat": 2.8
   },
   {
     "pid": "8282794",
@@ -6934,7 +7076,9 @@
     "value_ratio": 2.15,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "naturais."
+    "first_ingredient": "naturais.",
+    "protein": 12.5,
+    "fat": 2.8
   },
   {
     "pid": "8041025",
@@ -7034,7 +7178,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Peru Carne e subprodutos de origem animal (dos quais peru 4%)"
+    "first_ingredient": "Peru Carne e subprodutos de origem animal (dos quais peru 4%)",
+    "protein": 12.6,
+    "fat": 3.8
   },
   {
     "pid": "5923285",
@@ -7120,7 +7266,9 @@
     "value_ratio": 1.89,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.5,
+    "fat": 6.0
   },
   {
     "pid": "8079932",
@@ -7221,7 +7369,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Peru Carne e subprodutos de origem animal (dos quais peru 4%)"
+    "first_ingredient": "Peru Carne e subprodutos de origem animal (dos quais peru 4%)",
+    "protein": 12.6,
+    "fat": 3.8
   },
   {
     "pid": "8032234",
@@ -7322,7 +7472,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Peru Carne e subprodutos de origem animal (dos quais peru 4%)"
+    "first_ingredient": "Peru Carne e subprodutos de origem animal (dos quais peru 4%)",
+    "protein": 12.6,
+    "fat": 3.8
   },
   {
     "pid": "7039846",
@@ -7408,7 +7560,9 @@
     "value_ratio": 2.35,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Vaca com Tomate: Carnes e subprodutos animais (23%)"
+    "first_ingredient": "Vaca com Tomate: Carnes e subprodutos animais (23%)",
+    "protein": 17.0,
+    "fat": 4.0
   },
   {
     "pid": "6594088",
@@ -7508,7 +7662,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 3.5
   },
   {
     "pid": "6594106",
@@ -7608,7 +7764,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 3.5
   },
   {
     "pid": "4624290",
@@ -7708,7 +7866,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 2.2
   },
   {
     "pid": "6594243",
@@ -7808,7 +7968,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 3.5
   },
   {
     "pid": "7459083",
@@ -7909,7 +8071,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.5,
+    "fat": 2.8
   },
   {
     "pid": "6594242",
@@ -8010,7 +8174,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 3.5
   },
   {
     "pid": "6182326",
@@ -8111,7 +8277,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 2.2
   },
   {
     "pid": "5369779",
@@ -8212,7 +8380,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 2.2
   },
   {
     "pid": "8798834",
@@ -8313,7 +8483,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.0,
+    "fat": 2.2
   },
   {
     "pid": "2759629",
@@ -8399,7 +8571,9 @@
     "value_ratio": 2.01,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (58%, dos quais 12% Frango)"
+    "first_ingredient": "Carnes e subprodutos animais (58%, dos quais 12% Frango)",
+    "protein": 10.5,
+    "fat": 6.5
   },
   {
     "pid": "6461914",
@@ -8485,7 +8659,9 @@
     "value_ratio": 2.01,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.0,
+    "fat": 6.0
   },
   {
     "pid": "9011424",
@@ -8571,7 +8747,9 @@
     "value_ratio": 0.79,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "de fácil digestão: Peru"
+    "first_ingredient": "de fácil digestão: Peru",
+    "protein": 13.1,
+    "fat": 8.6
   },
   {
     "pid": "3584044",
@@ -8657,7 +8835,9 @@
     "value_ratio": 2.59,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 13.0,
+    "fat": 2.5
   },
   {
     "pid": "7459082",
@@ -8757,7 +8937,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.4,
+    "fat": 2.7
   },
   {
     "pid": "7458880",
@@ -8857,7 +9039,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 11.4,
+    "fat": 2.7
   },
   {
     "pid": "7142744",
@@ -8957,7 +9141,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 8.1,
+    "fat": 5.7
   },
   {
     "pid": "7141155",
@@ -9057,7 +9243,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 8.1,
+    "fat": 5.7
   },
   {
     "pid": "8045866",
@@ -9143,7 +9331,9 @@
     "value_ratio": 0.98,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Original: fígado de frango hidrolisado"
+    "first_ingredient": "Original: fígado de frango hidrolisado",
+    "protein": 9.2,
+    "fat": 5.3
   },
   {
     "pid": "8045770",
@@ -9229,7 +9419,9 @@
     "value_ratio": 0.92,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Original: fígado de frango hidrolisado"
+    "first_ingredient": "Original: fígado de frango hidrolisado",
+    "protein": 9.2,
+    "fat": 5.3
   },
   {
     "pid": "7142746",
@@ -9330,7 +9522,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 8.1,
+    "fat": 5.7
   },
   {
     "pid": "6182321",
@@ -9430,7 +9624,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.4,
+    "fat": 2.9
   },
   {
     "pid": "5369774",
@@ -9531,7 +9727,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.4,
+    "fat": 2.9
   },
   {
     "pid": "6179442",
@@ -9632,7 +9830,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.4,
+    "fat": 2.9
   },
   {
     "pid": "8537300",
@@ -9718,7 +9918,9 @@
     "value_ratio": 1.19,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Aves de capoeira* 25%"
+    "first_ingredient": "Aves de capoeira* 25%",
+    "protein": 8.5,
+    "fat": 4.5
   },
   {
     "pid": "7639538",
@@ -9804,7 +10006,9 @@
     "value_ratio": 3.42,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais* (14%, dos quais 8% frango)"
+    "first_ingredient": "Carnes e subprodutos animais* (14%, dos quais 8% frango)",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "3584121",
@@ -9890,7 +10094,9 @@
     "value_ratio": 2.2,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (15%, dos quais 4% vaca)"
+    "first_ingredient": "Carnes e subprodutos animais (15%, dos quais 4% vaca)",
+    "protein": 13.0,
+    "fat": 2.5
   },
   {
     "pid": "6817787",
@@ -9974,7 +10180,7 @@
     "value_ratio": 2.09,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.077670+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.691947+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -9988,7 +10194,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% vaca)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% vaca)",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "6817785",
@@ -10074,7 +10282,9 @@
     "value_ratio": 2.09,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% frango*)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% frango*)",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "6817786",
@@ -10160,7 +10370,9 @@
     "value_ratio": 2.09,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "6994535",
@@ -10244,7 +10456,7 @@
     "value_ratio": 2.09,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.077889+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.692199+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -10258,7 +10470,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "5304998",
@@ -10344,7 +10558,9 @@
     "value_ratio": 1.46,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% de carne de vaca)"
+    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% de carne de vaca)",
+    "protein": 12.0,
+    "fat": 3.0
   },
   {
     "pid": "7944666",
@@ -10444,7 +10660,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo frango 4%)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo frango 4%)",
+    "protein": 10.0,
+    "fat": 5.0
   },
   {
     "pid": "7944742",
@@ -10544,7 +10762,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo peru 4%)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo peru 4%)",
+    "protein": 9.0,
+    "fat": 5.0
   },
   {
     "pid": "7944744",
@@ -10644,7 +10864,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo frango 4%)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo frango 4%)",
+    "protein": 10.0,
+    "fat": 5.0
   },
   {
     "pid": "6030997",
@@ -10744,7 +10966,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 10.6,
+    "fat": 2.5
   },
   {
     "pid": "7992912",
@@ -10844,7 +11068,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 10.6,
+    "fat": 2.5
   },
   {
     "pid": "7944664",
@@ -10945,7 +11171,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo frango 4%)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo frango 4%)",
+    "protein": 10.0,
+    "fat": 5.0
   },
   {
     "pid": "7944662",
@@ -11046,7 +11274,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo peru 4%)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo peru 4%)",
+    "protein": 9.0,
+    "fat": 5.0
   },
   {
     "pid": "8196332",
@@ -11129,7 +11359,7 @@
     "value_ratio": null,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.078478+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.692822+00:00",
     "ingredients": "Carnes e subprodutos animais, extratos de proteínas vegetais, peixes e subprodutos de peixes (dos quais 4% salmão), substâncias minerais, legumes, açúcares, leveduras.",
     "nutrition_raw": "Humidade: 82.0%, Proteína bruta: 11.5%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.7%",
     "has_material_conflict": false,
@@ -11145,7 +11375,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "8195792",
@@ -11228,7 +11460,7 @@
     "value_ratio": null,
     "carb_band": "<10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.078542+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.692893+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais 4% vaca), extratos de proteínas vegetais, substâncias minerais, legumes, açúcares, leveduras.",
     "nutrition_raw": "Humidade: 82.0%, Proteína bruta: 11.5%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.7%",
     "has_material_conflict": false,
@@ -11244,7 +11476,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% vaca)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% vaca)",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "5369782",
@@ -11344,7 +11578,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 9.7,
+    "fat": 3.3
   },
   {
     "pid": "8798709",
@@ -11444,7 +11680,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "8798710",
@@ -11544,7 +11782,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "6182323",
@@ -11644,7 +11884,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 9.7,
+    "fat": 3.3
   },
   {
     "pid": "6986999",
@@ -11744,7 +11986,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "6987067",
@@ -11844,7 +12088,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "5676745",
@@ -11944,7 +12190,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de animais"
+    "first_ingredient": "Carne e subprodutos de animais",
+    "protein": 8.9,
+    "fat": 3.2
   },
   {
     "pid": "8798839",
@@ -12044,7 +12292,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "8798838",
@@ -12144,7 +12394,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "8798830",
@@ -12244,7 +12496,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "9011425",
@@ -12330,7 +12584,9 @@
     "value_ratio": 0.73,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (frango 35%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 35%)",
+    "protein": 9.0,
+    "fat": 5.2
   },
   {
     "pid": "8798907",
@@ -12431,7 +12687,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "8798712",
@@ -12532,7 +12790,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "6987075",
@@ -12633,7 +12893,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "5677193",
@@ -12734,7 +12996,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de animais"
+    "first_ingredient": "Carne e subprodutos de animais",
+    "protein": 8.9,
+    "fat": 3.2
   },
   {
     "pid": "6987077",
@@ -12835,7 +13099,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "6179462",
@@ -12936,7 +13202,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais"
+    "first_ingredient": "Pedaços de molho: Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 3.5
   },
   {
     "pid": "7991355",
@@ -13022,7 +13290,9 @@
     "value_ratio": 0.87,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carne e subprodutos animais (19% porco, 13% frango)"
+    "first_ingredient": "Carne e subprodutos animais (19% porco, 13% frango)",
+    "protein": 7.7,
+    "fat": 1.8
   },
   {
     "pid": "8153814",
@@ -13122,7 +13392,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 12.6,
+    "fat": 3.3
   },
   {
     "pid": "7854236",
@@ -13222,7 +13494,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 12.6,
+    "fat": 3.3
   },
   {
     "pid": "7854198",
@@ -13322,7 +13596,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 12.6,
+    "fat": 3.3
   },
   {
     "pid": "8153916",
@@ -13423,7 +13699,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 12.6,
+    "fat": 3.3
   },
   {
     "pid": "4440839",
@@ -13524,7 +13802,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango com espinafres e massa: Carne e subprodutos animais (17%, dos quais 4% de frango)"
+    "first_ingredient": "Frango com espinafres e massa: Carne e subprodutos animais (17%, dos quais 4% de frango)",
+    "protein": 11.5,
+    "fat": 2.5
   },
   {
     "pid": "8153812",
@@ -13625,7 +13905,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 12.6,
+    "fat": 3.3
   },
   {
     "pid": "8041024",
@@ -13726,7 +14008,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)"
+    "first_ingredient": "Frango : Carne e subprodutos animais (dos quais 4% de frango)",
+    "protein": 12.6,
+    "fat": 3.3
   },
   {
     "pid": "5305000",
@@ -13812,7 +14096,9 @@
     "value_ratio": 1.49,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 12.0,
+    "fat": 2.6
   },
   {
     "pid": "4440840",
@@ -13898,7 +14184,9 @@
     "value_ratio": 1.27,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 12.0,
+    "fat": 2.5
   },
   {
     "pid": "7378162",
@@ -13984,7 +14272,9 @@
     "value_ratio": 1.13,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (46%, dos quais 26% frango)"
+    "first_ingredient": "Carnes e subprodutos animais (46%, dos quais 26% frango)",
+    "protein": 8.5,
+    "fat": 4.5
   },
   {
     "pid": "6322582",
@@ -14070,7 +14360,9 @@
     "value_ratio": 0.88,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% peru)"
+    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% peru)",
+    "protein": 12.5,
+    "fat": 4.0
   },
   {
     "pid": "6819601",
@@ -14156,7 +14448,9 @@
     "value_ratio": 0.79,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos de origem animal"
+    "first_ingredient": "Carnes e subprodutos de origem animal",
+    "protein": 12.6,
+    "fat": 3.8
   },
   {
     "pid": "6987007",
@@ -14256,7 +14550,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 7.6,
+    "fat": 2.3
   },
   {
     "pid": "8623869",
@@ -14356,7 +14652,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))"
+    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))",
+    "protein": 9.5,
+    "fat": 4.5
   },
   {
     "pid": "6987098",
@@ -14457,7 +14755,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 7.6,
+    "fat": 2.3
   },
   {
     "pid": "8623851",
@@ -14558,7 +14858,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))"
+    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))",
+    "protein": 9.5,
+    "fat": 4.5
   },
   {
     "pid": "3830106",
@@ -14644,7 +14946,9 @@
     "value_ratio": 1.12,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.5,
+    "fat": 6.5
   },
   {
     "pid": "6994533",
@@ -14728,7 +15032,7 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.080852+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.695261+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -14742,7 +15046,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)",
+    "protein": 9.0,
+    "fat": 3.5
   },
   {
     "pid": "6817784",
@@ -14828,7 +15134,9 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% perú*)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% perú*)",
+    "protein": 14.5,
+    "fat": 3.5
   },
   {
     "pid": "6994537",
@@ -14912,7 +15220,7 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.080992+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.695394+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -14926,7 +15234,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)",
+    "protein": 9.0,
+    "fat": 3.5
   },
   {
     "pid": "8195787",
@@ -15012,7 +15322,9 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% borrego)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% borrego)",
+    "protein": 13.5,
+    "fat": 3.2
   },
   {
     "pid": "6994536",
@@ -15098,7 +15410,9 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% borrego)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% borrego)",
+    "protein": 13.5,
+    "fat": 3.2
   },
   {
     "pid": "8196333",
@@ -15182,7 +15496,7 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.081198+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.695594+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -15196,7 +15510,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)",
+    "protein": 9.0,
+    "fat": 3.5
   },
   {
     "pid": "5305001",
@@ -15282,7 +15598,9 @@
     "value_ratio": 1.15,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (18%, dos quais 5% frango)"
+    "first_ingredient": "Carnes e subprodutos animais (18%, dos quais 5% frango)",
+    "protein": 12.0,
+    "fat": 2.6
   },
   {
     "pid": "2568948",
@@ -15368,7 +15686,9 @@
     "value_ratio": 1.06,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (57%, dos quais 4% vaca)"
+    "first_ingredient": "Carnes e subprodutos animais (57%, dos quais 4% vaca)",
+    "protein": 10.5,
+    "fat": 6.5
   },
   {
     "pid": "2210474",
@@ -15454,7 +15774,9 @@
     "value_ratio": 1.06,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.5,
+    "fat": 6.5
   },
   {
     "pid": "2255635",
@@ -15540,7 +15862,9 @@
     "value_ratio": 0.96,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.5,
+    "fat": 6.5
   },
   {
     "pid": "2210478",
@@ -15626,7 +15950,9 @@
     "value_ratio": 0.96,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (21%, dos quais 4% Frango)"
+    "first_ingredient": "Carnes e subprodutos animais (21%, dos quais 4% Frango)",
+    "protein": 7.0,
+    "fat": 2.9
   },
   {
     "pid": "3835893",
@@ -15712,7 +16038,9 @@
     "value_ratio": 0.96,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.0,
+    "fat": 2.7
   },
   {
     "pid": "2210476",
@@ -15798,7 +16126,9 @@
     "value_ratio": 0.96,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (55%, dos quais 14% Frango)"
+    "first_ingredient": "Carnes e subprodutos animais (55%, dos quais 14% Frango)",
+    "protein": 12.0,
+    "fat": 5.0
   },
   {
     "pid": "3835895",
@@ -15884,7 +16214,9 @@
     "value_ratio": 0.96,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (20%, dos quais 4% vaca e 4% frango)"
+    "first_ingredient": "Carnes e subprodutos animais (20%, dos quais 4% vaca e 4% frango)",
+    "protein": 10.0,
+    "fat": 2.7
   },
   {
     "pid": "2858343",
@@ -15970,7 +16302,9 @@
     "value_ratio": 0.96,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (54%, dos quais 4% coelho)"
+    "first_ingredient": "Carnes e subprodutos animais (54%, dos quais 4% coelho)",
+    "protein": 12.0,
+    "fat": 5.0
   },
   {
     "pid": "2210475",
@@ -16056,7 +16390,9 @@
     "value_ratio": 0.96,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (25%, dos quais 4% Vaca)"
+    "first_ingredient": "Carnes e subprodutos animais (25%, dos quais 4% Vaca)",
+    "protein": 7.0,
+    "fat": 2.9
   },
   {
     "pid": "7378163",
@@ -16142,7 +16478,9 @@
     "value_ratio": 0.87,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 8.5,
+    "fat": 4.5
   },
   {
     "pid": "7378161",
@@ -16228,7 +16566,9 @@
     "value_ratio": 0.87,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 8.5,
+    "fat": 4.5
   },
   {
     "pid": "7090816",
@@ -16314,7 +16654,9 @@
     "value_ratio": 0.86,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Peixes e subprodutos de peixes* (4% peixe do oceano)"
+    "first_ingredient": "Peixes e subprodutos de peixes* (4% peixe do oceano)",
+    "protein": 12.5,
+    "fat": 2.8
   },
   {
     "pid": "8282804",
@@ -16400,7 +16742,9 @@
     "value_ratio": 0.86,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Peixes e subprodutos de peixes* (4% peixe do oceano)"
+    "first_ingredient": "Peixes e subprodutos de peixes* (4% peixe do oceano)",
+    "protein": 12.5,
+    "fat": 2.8
   },
   {
     "pid": "7944743",
@@ -16484,7 +16828,7 @@
     "value_ratio": 0.68,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.082179+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.696605+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -16498,7 +16842,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.0,
+    "fat": 4.0
   },
   {
     "pid": "6322617",
@@ -16584,7 +16930,9 @@
     "value_ratio": 0.67,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% frango)"
+    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% frango)",
+    "protein": 13.0,
+    "fat": 3.3
   },
   {
     "pid": "6322925",
@@ -16670,7 +17018,9 @@
     "value_ratio": 0.67,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% peru)"
+    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% peru)",
+    "protein": 12.6,
+    "fat": 3.8
   },
   {
     "pid": "6322689",
@@ -16756,7 +17106,9 @@
     "value_ratio": 0.67,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% carne de vaca)"
+    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% carne de vaca)",
+    "protein": 13.0,
+    "fat": 3.3
   },
   {
     "pid": "5489758",
@@ -16856,7 +17208,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 12.7,
+    "fat": 6.4
   },
   {
     "pid": "8045856",
@@ -16938,7 +17292,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 7,
     "value_ratio": 0.64,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -16956,7 +17310,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne de porco"
+    "first_ingredient": "Carne de porco",
+    "protein": 9.0,
+    "fat": 7.0
   },
   {
     "pid": "8045864",
@@ -17038,7 +17394,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 7,
     "value_ratio": 0.64,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -17056,7 +17412,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne de porco"
+    "first_ingredient": "Carne de porco",
+    "protein": 9.0,
+    "fat": 7.0
   },
   {
     "pid": "8045863",
@@ -17138,7 +17496,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 7,
     "value_ratio": 0.64,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -17156,7 +17514,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne de porco"
+    "first_ingredient": "Carne de porco",
+    "protein": 9.0,
+    "fat": 7.0
   },
   {
     "pid": "8045854",
@@ -17238,7 +17598,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 22,
     "value_ratio": 0.64,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -17256,7 +17616,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": false
     },
-    "first_ingredient": "Frango: Frango (22%)"
+    "first_ingredient": "Frango: Frango (22%)",
+    "protein": 8.4,
+    "fat": 4.0
   },
   {
     "pid": "7166054",
@@ -17342,7 +17704,9 @@
     "value_ratio": 0.62,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.7,
+    "fat": 3.3
   },
   {
     "pid": "6178150",
@@ -17428,7 +17792,9 @@
     "value_ratio": 0.62,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.8,
+    "fat": 2.4
   },
   {
     "pid": "5104922",
@@ -17514,7 +17880,9 @@
     "value_ratio": 0.62,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 10.5,
+    "fat": 5.5
   },
   {
     "pid": "6177881",
@@ -17600,7 +17968,9 @@
     "value_ratio": 0.62,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 12.0,
+    "fat": 3.3
   },
   {
     "pid": "7300198",
@@ -17700,7 +18070,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 11.0,
+    "fat": 5.4
   },
   {
     "pid": "6383439",
@@ -17800,7 +18172,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 9.1,
+    "fat": 3.2
   },
   {
     "pid": "8153891",
@@ -17886,7 +18260,9 @@
     "value_ratio": 0.61,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.8,
+    "fat": 3.3
   },
   {
     "pid": "8033048",
@@ -17972,7 +18348,9 @@
     "value_ratio": 0.61,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% carne de vaca)"
+    "first_ingredient": "Carnes e subprodutos de origem animal (dos quais 4% carne de vaca)",
+    "protein": 13.0,
+    "fat": 3.3
   },
   {
     "pid": "6383419",
@@ -18072,7 +18450,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 4.3
   },
   {
     "pid": "6177999",
@@ -18158,7 +18538,9 @@
     "value_ratio": 0.58,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 12.3,
+    "fat": 4.3
   },
   {
     "pid": "6030995",
@@ -18258,7 +18640,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo 4% de carne de frango)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo 4% de carne de frango)",
+    "protein": 9.5,
+    "fat": 4.5
   },
   {
     "pid": "6030996",
@@ -18358,7 +18742,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 9.5,
+    "fat": 4.5
   },
   {
     "pid": "8045797",
@@ -18444,7 +18830,9 @@
     "value_ratio": 0.56,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (peru 18%, frango 10%)"
+    "first_ingredient": "Carnes e subprodutos animais (peru 18%, frango 10%)",
+    "protein": 10.4,
+    "fat": 8.0
   },
   {
     "pid": "6178398",
@@ -18530,7 +18918,9 @@
     "value_ratio": 0.54,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carne e derivados"
+    "first_ingredient": "Carne e derivados",
+    "protein": 7.0,
+    "fat": 2.7
   },
   {
     "pid": "6178269",
@@ -18616,7 +19006,9 @@
     "value_ratio": 0.54,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.2,
+    "fat": 3.0
   },
   {
     "pid": "7166188",
@@ -18702,7 +19094,9 @@
     "value_ratio": 0.54,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.7,
+    "fat": 3.3
   },
   {
     "pid": "7166062",
@@ -18788,7 +19182,9 @@
     "value_ratio": 0.54,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.7,
+    "fat": 3.3
   },
   {
     "pid": "7166189",
@@ -18874,7 +19270,9 @@
     "value_ratio": 0.54,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.7,
+    "fat": 3.3
   },
   {
     "pid": "6179437",
@@ -18960,7 +19358,9 @@
     "value_ratio": 0.54,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 12.0,
+    "fat": 3.3
   },
   {
     "pid": "6179435",
@@ -19046,7 +19446,9 @@
     "value_ratio": 0.54,
     "carb_band": "<10% DMB (Ideal)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 12.0,
+    "fat": 3.3
   },
   {
     "pid": "7458973",
@@ -19146,7 +19548,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.5,
+    "fat": 2.8
   },
   {
     "pid": "7992914",
@@ -19246,7 +19650,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (incluindo 4% de carne de frango)"
+    "first_ingredient": "Carne e subprodutos animais (incluindo 4% de carne de frango)",
+    "protein": 9.5,
+    "fat": 4.5
   },
   {
     "pid": "7992913",
@@ -19346,7 +19752,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 9.5,
+    "fat": 4.5
   },
   {
     "pid": "6986997",
@@ -19432,7 +19840,9 @@
     "value_ratio": 0.51,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.2,
+    "fat": 3.0
   },
   {
     "pid": "6179399",
@@ -19518,7 +19928,9 @@
     "value_ratio": 0.51,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 12.3,
+    "fat": 4.3
   },
   {
     "pid": "8623867",
@@ -19618,7 +20030,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))"
+    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))",
+    "protein": 9.6,
+    "fat": 4.5
   },
   {
     "pid": "7300808",
@@ -19718,7 +20132,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 11.0,
+    "fat": 5.4
   },
   {
     "pid": "6179464",
@@ -19804,7 +20220,9 @@
     "value_ratio": 0.49,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carne e derivados"
+    "first_ingredient": "Carne e derivados",
+    "protein": 7.0,
+    "fat": 2.7
   },
   {
     "pid": "6182329",
@@ -19890,7 +20308,9 @@
     "value_ratio": 0.49,
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 11.0,
+    "fat": 2.0
   },
   {
     "pid": "8045079",
@@ -19990,7 +20410,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango: Carne e subprodutos animais (frango 24%)"
+    "first_ingredient": "Frango: Carne e subprodutos animais (frango 24%)",
+    "protein": 7.8,
+    "fat": 3.0
   },
   {
     "pid": "8045107",
@@ -20090,7 +20512,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango: Carne e subprodutos animais (frango 24%)"
+    "first_ingredient": "Frango: Carne e subprodutos animais (frango 24%)",
+    "protein": 7.8,
+    "fat": 3.0
   },
   {
     "pid": "8623852",
@@ -20190,7 +20614,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))"
+    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))",
+    "protein": 9.6,
+    "fat": 4.5
   },
   {
     "pid": "8623876",
@@ -20290,7 +20716,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))"
+    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))",
+    "protein": 9.6,
+    "fat": 4.5
   },
   {
     "pid": "8045865",
@@ -20372,7 +20800,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 7,
     "value_ratio": 0.49,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -20390,7 +20818,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne de porco"
+    "first_ingredient": "Carne de porco",
+    "protein": 9.0,
+    "fat": 7.0
   },
   {
     "pid": "8045091",
@@ -20472,7 +20902,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 27,
     "value_ratio": 0.49,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -20490,7 +20920,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango (27%)"
+    "first_ingredient": "Frango (27%)",
+    "protein": 7.3,
+    "fat": 2.6
   },
   {
     "pid": "7300242",
@@ -20590,7 +21022,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "5676779",
@@ -20690,7 +21124,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "5676776",
@@ -20790,7 +21226,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "5677306",
@@ -20890,7 +21328,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "5677303",
@@ -20990,7 +21430,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "7300241",
@@ -21090,7 +21532,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "5677308",
@@ -21190,7 +21634,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "7300820",
@@ -21290,7 +21736,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "9011186",
@@ -21376,7 +21824,9 @@
     "value_ratio": 0.47,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "de fácil digestão: Frango"
+    "first_ingredient": "de fácil digestão: Frango",
+    "protein": 8.3,
+    "fat": 5.2
   },
   {
     "pid": "9011427",
@@ -21462,7 +21912,9 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (frango 38%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 38%)",
+    "protein": 7.4,
+    "fat": 4.9
   },
   {
     "pid": "9011426",
@@ -21548,7 +22000,9 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.6
   },
   {
     "pid": "7683229",
@@ -21648,7 +22102,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (19% frango, 14% carne de porco)"
+    "first_ingredient": "Carne e subprodutos animais (19% frango, 14% carne de porco)",
+    "protein": 6.5,
+    "fat": 5.7
   },
   {
     "pid": "7683228",
@@ -21732,7 +22188,7 @@
     "value_ratio": 0.45,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.085885+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.700349+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -21746,7 +22202,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (frango 35%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 35%)",
+    "protein": 8.2,
+    "fat": 3.6
   },
   {
     "pid": "8020623",
@@ -21846,7 +22304,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 7.1,
+    "fat": 3.2
   },
   {
     "pid": "8125406",
@@ -21946,7 +22406,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 7.1,
+    "fat": 3.2
   },
   {
     "pid": "9011430",
@@ -22032,7 +22494,9 @@
     "value_ratio": 0.43,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (frango 13%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 13%)",
+    "protein": 8.6,
+    "fat": 2.8
   },
   {
     "pid": "9011428",
@@ -22118,7 +22582,9 @@
     "value_ratio": 0.43,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (frango 14%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 14%)",
+    "protein": 9.1,
+    "fat": 3.5
   },
   {
     "pid": "9011429",
@@ -22204,7 +22670,9 @@
     "value_ratio": 0.43,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.4,
+    "fat": 3.5
   },
   {
     "pid": "9011423",
@@ -22290,7 +22758,9 @@
     "value_ratio": 0.38,
     "carb_band": ">20% DMB (Elevado)",
     "has_material_conflict": false,
-    "first_ingredient": "Carnes e subprodutos animais (frango 13%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 13%)",
+    "protein": 8.6,
+    "fat": 3.0
   },
   {
     "pid": "9011422",
@@ -22390,7 +22860,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": false
     },
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 6.4,
+    "fat": 5.3
   },
   {
     "pid": "9011421",
@@ -22490,7 +22962,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": false
     },
-    "first_ingredient": "Carnes e subprodutos animais (frango 18%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 18%)",
+    "protein": 6.3,
+    "fat": 4.8
   },
   {
     "pid": "9011420",
@@ -22590,7 +23064,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": false
     },
-    "first_ingredient": "Carnes e subprodutos animais (frango 11%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 11%)",
+    "protein": 9.3,
+    "fat": 4.8
   },
   {
     "pid": "9011419",
@@ -22690,7 +23166,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": false
     },
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.2,
+    "fat": 4.4
   },
   {
     "pid": "9011418",
@@ -22790,7 +23268,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": false
     },
-    "first_ingredient": "Carnes e subprodutos animais (frango 11%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 11%)",
+    "protein": 9.4,
+    "fat": 4.8
   },
   {
     "pid": "6179298",
@@ -22891,7 +23371,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais*"
+    "first_ingredient": "Carne e subprodutos animais*",
+    "protein": 11.0,
+    "fat": 5.4
   },
   {
     "pid": "6383445",
@@ -22992,7 +23474,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 9.1,
+    "fat": 3.2
   },
   {
     "pid": "7300809",
@@ -23093,7 +23577,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 8.5,
+    "fat": 5.0
   },
   {
     "pid": "8045859",
@@ -23194,7 +23680,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos de origem animal (frango 17%)"
+    "first_ingredient": "Carne e subprodutos de origem animal (frango 17%)",
+    "protein": 6.2,
+    "fat": 4.4
   },
   {
     "pid": "6383424",
@@ -23295,7 +23783,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.0,
+    "fat": 4.3
   },
   {
     "pid": "7992909",
@@ -23396,7 +23886,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais (dos quais 4% frango)"
+    "first_ingredient": "Carne e subprodutos animais (dos quais 4% frango)",
+    "protein": 11.0,
+    "fat": 6.3
   },
   {
     "pid": "7459084",
@@ -23497,7 +23989,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 10.5,
+    "fat": 2.8
   },
   {
     "pid": "8623870",
@@ -23598,7 +24092,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))"
+    "first_ingredient": "Carnes e subprodutos animais (incluindo cartilagem hidrolisada (fonte de condroitina 0,003%))",
+    "protein": 9.6,
+    "fat": 4.5
   },
   {
     "pid": "8045767",
@@ -23679,7 +24175,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 7,
     "value_ratio": null,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -23699,7 +24195,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne de porco"
+    "first_ingredient": "Carne de porco",
+    "protein": 9.0,
+    "fat": 7.0
   },
   {
     "pid": "8045855",
@@ -23780,7 +24278,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 22,
     "value_ratio": null,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -23800,7 +24298,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Frango: Frango (22%)"
+    "first_ingredient": "Frango: Frango (22%)",
+    "protein": 8.4,
+    "fat": 4.0
   },
   {
     "pid": "6987085",
@@ -23881,7 +24381,7 @@
     "has_carrageenan": false,
     "has_taurine": false,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 38,
     "value_ratio": null,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -23901,7 +24401,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne e subprodutos animais"
+    "first_ingredient": "Carne e subprodutos animais",
+    "protein": 7.0,
+    "fat": 6.0
   },
   {
     "pid": "8045768",
@@ -23982,7 +24484,7 @@
     "has_carrageenan": false,
     "has_taurine": true,
     "has_marine_omega": true,
-    "high_meat_pct": null,
+    "high_meat_pct": 7,
     "value_ratio": null,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
@@ -24002,7 +24504,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carne de porco"
+    "first_ingredient": "Carne de porco",
+    "protein": 9.0,
+    "fat": 7.0
   },
   {
     "pid": "8196336",
@@ -24085,7 +24589,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.087412+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.701896+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais 4% carne), subprodutos de origem vegetal, substâncias minerais, legumes (0,9% feijão-verde desidratado), açúcares.",
     "nutrition_raw": "Proteína bruta: 9.0%, Matéria gorda bruta: 3.5%, Cinza bruta: 2.0%, Fibra bruta: 0.7%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24101,7 +24605,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)",
+    "protein": 9.0,
+    "fat": 3.5
   },
   {
     "pid": "8195790",
@@ -24184,7 +24690,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.087441+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.701922+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais 4% carne), subprodutos de origem vegetal, substâncias minerais, legumes (0,9% feijão-verde desidratado), açúcares.",
     "nutrition_raw": "Proteína bruta: 9.0%, Matéria gorda bruta: 3.5%, Cinza bruta: 2.0%, Fibra bruta: 0.7%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24200,7 +24706,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais 4% carne)",
+    "protein": 9.0,
+    "fat": 3.5
   },
   {
     "pid": "7944663",
@@ -24283,7 +24791,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.087508+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.701994+00:00",
     "ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes (bacalhau 4%), subprodutos de origem vegetal, substâncias minerais, açúcares.",
     "nutrition_raw": "Proteína: 9.0%, Matéria gorda: 4.0%, Fibra bruta: 0.8%, Cinza bruta: 2.0%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24299,7 +24807,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "protein": 9.0,
+    "fat": 4.0
   },
   {
     "pid": "7944741",
@@ -24382,7 +24892,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.087579+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.702062+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais frango 4%), subprodutos de origem vegetal, substâncias minerais, açúcares.",
     "nutrition_raw": "Proteína: 9.0%, Matéria gorda: 4.0%, Fibra bruta: 0.8%, Cinza bruta: 2.0%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24398,7 +24908,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais frango 4%)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais frango 4%)",
+    "protein": 9.0,
+    "fat": 4.0
   },
   {
     "pid": "7944661",
@@ -24481,7 +24993,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T20:20:17.087647+00:00",
+    "reconciliation_timestamp": "2026-10-27T20:26:05.702130+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais frango 4%), subprodutos de origem vegetal, substâncias minerais, açúcares.",
     "nutrition_raw": "Proteína: 9.0%, Matéria gorda: 4.0%, Fibra bruta: 0.8%, Cinza bruta: 2.0%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24497,7 +25009,9 @@
       "source": "verified_shared_formulation",
       "is_ranked": true
     },
-    "first_ingredient": "Carnes e subprodutos animais (dos quais frango 4%)"
+    "first_ingredient": "Carnes e subprodutos animais (dos quais frango 4%)",
+    "protein": 9.0,
+    "fat": 4.0
   },
   {
     "pid": "8045057",
@@ -24586,7 +25100,9 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   },
   {
     "pid": "8045058",
@@ -24675,7 +25191,9 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   },
   {
     "pid": "7944665",
@@ -24764,7 +25282,9 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   },
   {
     "pid": "8642846",
@@ -24852,7 +25372,9 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   },
   {
     "pid": "8642855",
@@ -24940,7 +25462,9 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   },
   {
     "pid": "8037916",
@@ -25028,7 +25552,9 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   },
   {
     "pid": "8642856",
@@ -25116,7 +25642,9 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   },
   {
     "pid": "8986907",
@@ -25204,6 +25732,8 @@
     "value_ratio": null,
     "carb_band": "N/D",
     "has_material_conflict": false,
-    "first_ingredient": null
+    "first_ingredient": null,
+    "protein": null,
+    "fat": null
   }
 ]

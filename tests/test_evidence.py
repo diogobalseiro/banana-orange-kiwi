@@ -123,5 +123,56 @@ class TestEvidenceContract(unittest.TestCase):
         self.assertEqual(parsed['moisture']['value'], 9.0)
         self.assertEqual(parsed['carbs_nfe'], 40.0)
 
+    def test_extract_total_meat_percentage(self):
+        """extract_total_meat_percentage correctly parses and sums meat percentages."""
+        from src.scoring.evidence import extract_total_meat_percentage
+
+        # Case 1: Suffix percentage with adjectives
+        acana = "Frango fresco (19%), frango desidratado (13%), arenque desidratado (13%), Peru desidratado (5%)"
+        self.assertEqual(extract_total_meat_percentage(acana), 50)
+
+        # Case 2: Explicit overall percentage
+        feringa = "70% aves (frango 40%, peru 30%), 28.5% caldo, 1% minerais"
+        self.assertEqual(extract_total_meat_percentage(feringa), 70)
+
+        # Case 3: Token 4% trick
+        felix = "Carnes e subprodutos animais (dos quais 4% vitela), substâncias minerais"
+        self.assertEqual(extract_total_meat_percentage(felix), 4)
+
+    def test_extract_first_ingredient(self):
+        """extract_first_ingredient strips preambles and respects parenthetical nesting."""
+        from src.scoring.evidence import extract_first_ingredient
+
+        raw = "Alimento completo para gatinhos Composição: com frango: carne e subprodutos animais (20% aves, 20% frango), peixe"
+        self.assertEqual(extract_first_ingredient(raw), "carne e subprodutos animais (20% aves, 20% frango)")
+
+        dry = "Frango fresco (19%), frango desidratado (13%)"
+        self.assertEqual(extract_first_ingredient(dry), "Frango fresco (19%)")
+
+    def test_minified_keys_include_protein_and_fat(self):
+        """Both wet and dry scorers must provide prot and fat in minified dict for UI display."""
+        from src.scoring.dry_scorer import score_dry_product
+        from src.scoring.wet_scorer import score_wet_product
+
+        dry_p = {
+            'pid': 'd1', 'name': 'Dry Test', 'brand': 'BrandX', 'price': 10.0, 'unit_price_kg': 5.0,
+            'ingredients': 'Frango fresco (30%), arroz (20%)',
+            'nutrition_raw': 'Proteína 32.0% Gordura 14.0% Fibra 2.5% Cinza 7.0%'
+        }
+        _, dry_mini = score_dry_product(dry_p)
+        self.assertEqual(dry_mini['prot'], 32.0)
+        self.assertEqual(dry_mini['fat'], 14.0)
+        self.assertIn('(Est.)', dry_mini['cb'])
+
+        wet_p = {
+            'pid': 'w1', 'name': 'Wet Test Completo', 'brand': 'BrandX', 'price': 1.0, 'unit_price_kg': 10.0,
+            'description': 'Alimento completo para gatos',
+            'ingredients': 'Frango 70%, caldo 28%',
+            'nutrition_raw': 'Proteína 10.0% Gordura 5.0% Fibra 0.5% Cinza 2.0% Humidade 80.0%'
+        }
+        _, wet_mini = score_wet_product(wet_p)
+        self.assertEqual(wet_mini['prot'], 10.0)
+        self.assertEqual(wet_mini['fat'], 5.0)
+
 if __name__ == '__main__':
     unittest.main()

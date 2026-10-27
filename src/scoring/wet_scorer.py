@@ -1,5 +1,5 @@
 import re
-from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, FieldStatus
+from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, extract_total_meat_percentage, FieldStatus
 
 def parse_wet_nutrition(nutri_text):
     return normalize_nutrients(nutri_text, category='wet')
@@ -96,30 +96,13 @@ def score_wet_product(p):
             elif any(p in first_lower for p in plant_terms):
                 first_is_plant = True
 
-        # Check "4% EU token trick"
-        is_token_4pct = bool(
-            re.search(r'(?:dos quais|mín(?:imo)?\.?)\s*4\s*%', ingr_lower) or
-            re.search(r'carnes e subprodutos animais\s*\([^)]*4\s*%', ingr_lower)
-        )
-
-        # Genuine named meat percentage match
-        if not is_token_4pct:
-            m_total = re.search(r'(\d+)\s*%\s*(?:de\s*)?(?:carne|miudezas|ingredientes de origem animal|ingredientes animais|aves|peixe)', ingr_lower)
-            if m_total and int(m_total.group(1)) > 20:
-                high_meat_pct = int(m_total.group(1))
-            else:
-                meat_matches = re.findall(
-                    r'(?:(\d+)\s*%\s*(?:de\s*)?(?:carne|frango|peru|salmão|atum|vaca|peixe|pato|borrego|javali|coelho|aves|sardinha|arenque|truta|miudezas)|(?:frango|atum|salmão|carne|peru|vaca|peixe|pato|borrego|javali|coelho|aves|sardinha|arenque|truta)\s*(?:\([^)]*?\))?\s*[:\-]?\s*(\d+)\s*%)',
-                    ingr_lower
-                )
-                if meat_matches:
-                    pcts = []
-                    for g1, g2 in meat_matches:
-                        v = g1 or g2
-                        if v and int(v) > 4:
-                            pcts.append(int(v))
-                    if pcts:
-                        high_meat_pct = min(100, sum(pcts))
+        # Genuine named meat percentage & token trick match
+        raw_meat_pct = extract_total_meat_percentage(ingr_clean_text)
+        if raw_meat_pct == 4:
+            is_token_4pct = True
+            high_meat_pct = None
+        else:
+            high_meat_pct = raw_meat_pct
 
         # Organ meats
         has_organs = any(o in ingr_lower for o in [
@@ -181,7 +164,9 @@ def score_wet_product(p):
         if is_monoproteic:
             score += 3
 
-        # Penalties for low-grade slaughter derivatives
+        # Penalties for low-grade slaughter derivatives and plant fillers
+        if first_is_plant:
+            score -= 20
         if is_token_4pct:
             score -= 15
         elif has_vague_byproducts:
@@ -266,6 +251,8 @@ def score_wet_product(p):
     p['high_meat_pct'] = high_meat_pct
     p['value_ratio'] = val_ratio
     p['carb_band'] = cb
+    p['protein'] = nutri.get('protein', {}).get('value')
+    p['fat'] = nutri.get('fat', {}).get('value')
 
     retailer = p.get('retailer', 'Continente')
     p['retailer'] = retailer
@@ -292,6 +279,8 @@ def score_wet_product(p):
         'tau': has_taurine,
         'omg': has_marine_omega,
         'meat_pct': high_meat_pct,
+        'prot': nutri.get('protein', {}).get('value'),
+        'fat': nutri.get('fat', {}).get('value'),
         'carb': nutri.get('carbs_dmb'),
         'cb': cb,
         'u': p.get('pdp_url'),

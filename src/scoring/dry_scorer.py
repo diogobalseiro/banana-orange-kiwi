@@ -1,5 +1,5 @@
 import re
-from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, FieldStatus
+from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, extract_total_meat_percentage, FieldStatus
 
 def parse_dry_nutrition(nutri_text):
     return normalize_nutrients(nutri_text, category='dry')
@@ -86,11 +86,8 @@ def score_dry_product(p):
             elif any(p in first_lower for p in plant_terms):
                 first_is_plant = True
 
-        # Total animal / meat percentage match (sum declared meat percentages)
-        meat_matches = re.findall(r'(\d+)\s*%\s*(?:de\s*)?(?:carne|frango|peru|salmão|atum|vaca|peixe|pato|borrego|javali|coelho|aves|sardinha|arenque|truta|miudezas|ingredientes\s+animais)', ingr_lower)
-        if meat_matches:
-            total_sum = sum(int(m) for m in meat_matches)
-            meat_pct = min(100, total_sum)
+        # Total animal / meat percentage match
+        meat_pct = extract_total_meat_percentage(ingr_clean_text)
 
         # Grains & Starches
         grain_terms = ['trigo', 'milho', 'arroz', 'aveia', 'cevada', 'centeio', 'cereais', 'glúten', 'espelta', 'sorgo']
@@ -135,8 +132,25 @@ def score_dry_product(p):
     score = None
     tier = 'Unranked'
     val_ratio = None
-    cb = get_dry_carb_band(nutri.get('carbs_nfe'))
     pkg = p.get('unit_price_kg')
+
+    # Carbohydrate calculation (declared or estimated under EU 767/2009 reference moisture)
+    carbs = nutri.get('carbs_nfe')
+    carbs_is_estimated = False
+    if carbs is None:
+        prot_v = nutri.get('protein', {}).get('value')
+        fat_v = nutri.get('fat', {}).get('value')
+        ash_v = nutri.get('ash', {}).get('value')
+        fib_v = nutri.get('fiber', {}).get('value')
+        if all(v is not None for v in [prot_v, fat_v, ash_v, fib_v]):
+            carbs = round(max(0.0, 100.0 - (prot_v + fat_v + ash_v + fib_v + 8.0)), 1)
+            carbs_is_estimated = True
+
+    if carbs is not None:
+        cb_label = get_dry_carb_band(carbs)
+        cb = f"{cb_label} (Est.)" if carbs_is_estimated else cb_label
+    else:
+        cb = 'N/D'
 
     if is_ready:
         score = 50
@@ -222,7 +236,6 @@ def score_dry_product(p):
                 if 14.0 <= fat <= 20.0:
                     score += 4
 
-        carbs = nutri.get('carbs_nfe')
         if carbs is not None:
             if carbs <= 15.0:
                 score += 12
@@ -294,6 +307,9 @@ def score_dry_product(p):
     p['has_marine_omega'] = has_marine_omega
     p['value_ratio'] = val_ratio
     p['carb_band'] = cb
+    p['protein'] = nutri.get('protein', {}).get('value')
+    p['fat'] = nutri.get('fat', {}).get('value')
+    p['carbs'] = carbs
 
     retailer = p.get('retailer', 'Continente')
     p['retailer'] = retailer
@@ -320,7 +336,9 @@ def score_dry_product(p):
         'tau': has_taurine,
         'omg': has_marine_omega,
         'org': has_organs,
-        'carb': nutri.get('carbs_nfe'),
+        'prot': nutri.get('protein', {}).get('value'),
+        'fat': nutri.get('fat', {}).get('value'),
+        'carb': carbs,
         'cb': cb,
         'u': p.get('pdp_url'),
         'r': retailer,
