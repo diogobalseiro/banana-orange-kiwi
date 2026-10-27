@@ -1,5 +1,672 @@
 [
   {
+    "pid": "7628367",
+    "name": "Comida Húmida para Gato Adulto Tartelette Duo Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_str": "10,47€/kg",
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-tartelette-duo-purina-gourmet-gold-7628367.html",
+    "retailer": "Continente",
+    "ingredients": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca), Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "description": "Benefícios: Alimento completo para gatos adultos. Tartelette, uma deliciosa gama preparada com ingredientes de elevada qualidade com uma textura de tartelette, para uma deliciosa experiência que o seu gato irá certamente adorar. GOURMET Gold Tartelette contém pedacinhos delicadamente cortados com carne de vaca, frango ou outros sabores requintados, cuidadosamente temperados com apenas um pouco de molho. Tudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais.  Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem desta lata pode variar de país para país. Por favor, verifique o seu país no nosso site.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 79.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.5,
+      "protein_dmb": 51.2,
+      "fat_dmb": 29.3,
+      "carbs_nfe": 1.5,
+      "carbs_dmb": 7.3,
+      "ca_p_ratio": null
+    },
+    "score": 73,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 6.97,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "high_meat_pct": 30,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_tartelette_duo_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.095216+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% atum, 4% peixe do oceano), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.  Aditivos: Aditivos Nutritivos: UI/kg: Vit A:1010. Vit D3:154. mg/kg: Fe(E1):11.6. I(E2): 0.28. Cu (E4):1.0. Mn(E5):2.2. Zn(E6):20.9. Taurina: 630. Com aromatizantes.  Constituintes Analíticos: Humidade 74%. Proteína bruta 17%. Matéria gorda bruta 4%. Cinza bruta 2%. Fibra bruta 0,5%.",
+        "verified_value": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca), Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "7628367",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_tartelette_duo_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
+  },
+  {
+    "pid": "5739885",
+    "name": "Comida Húmida para Gato Adulto Tartelette Vaca Tomate Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_str": "10,47€/kg",
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-tartelette-vaca-tomate-purina-gourmet-gold-5739885.html",
+    "retailer": "Continente",
+    "ingredients": "Carne e subprodutos de origem animal (40% Vaca), Tomate (4%), Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "description": "Benefícios: Alimento completo para gatos adultos. Tartelette, uma deliciosa gama preparada com ingredientes de elevada qualidade com uma textura de tartelette, para uma deliciosa experiência que o seu gato irá certamente adorar. GOURMET Gold Tartelette contém pedacinhos delicadamente cortados com carne de vaca, frango ou outros sabores requintados, cuidadosamente temperados com apenas um pouco de molho. Tudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais. Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem desta lata pode variar de país para país. Por favor, verifique o seu país no nosso site. Conservação: Conservar em local fresco e seco, ao abrigo da luz solar. Servir à temperatura ambiente.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 79.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.5,
+      "protein_dmb": 51.2,
+      "fat_dmb": 29.3,
+      "carbs_nfe": 1.5,
+      "carbs_dmb": 7.3,
+      "ca_p_ratio": null
+    },
+    "score": 73,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 6.97,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "high_meat_pct": 40,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.095222+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais (23%, dos quais 4% vaca), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1.2% tomate desidratado, equivalente a 10.8% tomate), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
+        "verified_value": "Carne e subprodutos de origem animal (40% Vaca), Tomate (4%), Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "5739885",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
+  },
+  {
+    "pid": "7705743",
+    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Peixe do Oceano Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_str": "10,47€/kg",
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-delicias-suculentas-peixe-do-oceano-purina-gourmet-gold-7705743.html",
+    "retailer": "Continente",
+    "ingredients": "Peixes e subprodutos de peixes (40%), Carne e subprodutos de origem animal, Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+    "description": "Benefícios: - Alimento completo para gatos adultos - GOURMET™ Gold criou Delícias Suculentas, uma saborosa gama elaborada com suculentos pedaços cozinhados lentamente, com vaca, frango ou outros sabores num delicioso molho - Sem corantes. Sem aromatizantes e conservantes artificiais adicionados. Conselhos de utilização: MODO DE EMPREGO E DOSE DIÁRIA RECOMENDADA: Para um gato adulto com cerca de 4kg, sirva 3 latas durante o dia no mínimo em 2 refeições separadas. As doses médias para manutenção de gatos adultos são baseadas em gatos moderadamente ativos em temperaturas ambiente normais. As necessidades individuais podem variar e a alimentação deve ser ajustada se necessário de forma a manter o seu gato com um peso corporal magro e saudável. Servir à temperatura ambiente. Tenha sempre disponível água fresca e limpa.\n\nConsumir de preferência antes de, Número de Registo do Estabelecimento e Código lote: ver no fundo da lata. Guarde o alimento em local seco e fresco.\n\nNestlé Portugal, Unipessoal, Lda (Registado na DGAV com o NII PT3AA00826), Rua Alexandre Herculano nº 8, 2799-554 Linda-a-Velha. Portugal\n\n800 207 139 (Chamada Gratuita) \nServiço de Informação Nestlé Purina 08:30 às 20:30 (2ª a sábado, exceto feriados) faleconnosco@pt.nestle.com www.purina.pt Sugestões de Consumo: Servir à temperatura ambiente. Deve estar sempre disponível água fresca e limpa.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 80.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.0,
+      "protein_dmb": 52.5,
+      "fat_dmb": 30.0,
+      "carbs_nfe": 1.0,
+      "carbs_dmb": 5.0,
+      "ca_p_ratio": null
+    },
+    "score": 65,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 6.21,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "high_meat_pct": null,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.095225+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "COMPOSIÇÃO: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% peixe do oceano), substâncias minerais, subprodutos de origem vegetal, açúcares.",
+        "verified_value": "Peixes e subprodutos de peixes (40%), Carne e subprodutos de origem animal, Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "7705743",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
+  },
+  {
+    "pid": "7705744",
+    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Frango Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_str": "10,47€/kg",
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-delicias-suculentas-frango-purina-gourmet-gold-7705744.html",
+    "retailer": "Continente",
+    "ingredients": "Carne e subprodutos de origem animal (40% Frango), Cereais, Extratos de origem vegetal, Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+    "description": "Benefícios: - Alimento completo para gatos adultos - GOURMET™ Gold criou Delícias Suculentas, uma saborosa gama elaborada com suculentos pedaços cozinhados lentamente, com vaca, frango ou outros sabores num delicioso molho - Sem corantes. Sem aromatizantes e conservantes artificiais adicionados. Conselhos de utilização: MODO DE EMPREGO E DOSE DIÁRIA RECOMENDADA: Para um gato adulto com cerca de 4kg, sirva 3 latas durante o dia no mínimo em 2 refeições separadas. As doses médias para manutenção de gatos adultos são baseadas em gatos moderadamente ativos em temperaturas ambiente normais. As necessidades individuais podem variar e a alimentação deve ser ajustada se necessário de forma a manter o seu gato com um peso corporal magro e saudável. Servir à temperatura ambiente. Tenha sempre disponível água fresca e limpa.\n\nConsumir de preferência antes de, Número de Registo do Estabelecimento e Código lote: ver no fundo da lata. Guarde o alimento em local seco e fresco.\n\nNestlé Portugal, Unipessoal, Lda (Registado na DGAV com o NII PT3AA00826), Rua Alexandre Herculano nº 8, 2799-554 Linda-a-Velha. Portugal\n\n800 207 139 (Chamada Gratuita) \nServiço de Informação Nestlé Purina 08:30 às 20:30 (2ª a sábado, exceto feriados) faleconnosco@pt.nestle.com www.purina.pt Sugestões de Consumo: Servir à temperatura ambiente. Deve estar sempre disponível água fresca e limpa.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 80.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.0,
+      "protein_dmb": 52.5,
+      "fat_dmb": 30.0,
+      "carbs_nfe": 1.0,
+      "carbs_dmb": 5.0,
+      "ca_p_ratio": null
+    },
+    "score": 58,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": true,
+    "has_veg_protein": false,
+    "value_ratio": 5.54,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "high_meat_pct": 40,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.094995+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "COMPOSIÇÃO:\nCarnes e subprodutos animais (18%dos quais 8% frango), extractos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+        "verified_value": "Carne e subprodutos de origem animal (40% Frango), Cereais, Extratos de origem vegetal, Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "7705744",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
+  },
+  {
+    "pid": "5304997",
+    "name": "Comida Húmida para Gato Júnior Mousse Gatinhos Vitela Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_str": "10,47€/kg",
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-junior-mousse-gatinhos-vitela-purina-gourmet-gold-5304997.html",
+    "retailer": "Continente",
+    "ingredients": "Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais",
+    "nutrition_raw": "Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%",
+    "description": "Benefícios: Alimento completo para gatos adultos. Elaborado com ingredientes de elevada qualidade\nSem adição de corantes. Sem adição de aromatizantes e conservantes artificiais. Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem destas embalagens pode variar de país para país, verifique o seu país no nosso site.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 13.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 7.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 74.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 3.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 25.5,
+      "protein_dmb": 51.0,
+      "fat_dmb": 27.5,
+      "carbs_nfe": 2.0,
+      "carbs_dmb": 7.8,
+      "ca_p_ratio": null
+    },
+    "score": 57,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
+    "classification": "Completo",
+    "is_kitten": true,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 5.44,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.095227+00:00",
+    "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development.",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Substâncias Minerais, Subprodutos de Origem Vegetal, Açúcares.",
+        "verified_value": "Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
+        "verified_value": "Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "5304997",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development."
+    }
+  },
+  {
+    "pid": "5739886",
+    "name": "Comida Húmida para Gato Adulto Tartelette Frango Cenouras Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_str": "10,47€/kg",
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-tartelette-frango-cenouras-purina-gourmet-gold-5739886.html",
+    "retailer": "Continente",
+    "ingredients": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango), Vegetais (4% Cenoura), Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "description": "Benefícios: Alimento completo para gatos adultos. Tartelette, uma deliciosa gama preparada com ingredientes de elevada qualidade com uma textura de tartelette, para uma deliciosa experiência que o seu gato irá certamente adorar. GOURMET Gold Tartelette contém pedacinhos delicadamente cortados com carne de vaca, frango ou outros sabores requintados, cuidadosamente temperados com apenas um pouco de molho. Tudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais. Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem desta lata pode variar de país para país. Por favor, verifique o seu país no nosso site. Conservação: Conservar em local fresco e seco, ao abrigo da luz solar. Servir à temperatura ambiente.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 79.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.5,
+      "protein_dmb": 51.2,
+      "fat_dmb": 29.3,
+      "carbs_nfe": 1.5,
+      "carbs_dmb": 7.3,
+      "ca_p_ratio": null
+    },
+    "score": 50,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 4.78,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "high_meat_pct": null,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.095168+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais (25%, dos quais 10% frango), extratos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1% (1% cenouras desidratadas, equivalente a 9% cenouras), subprodutos de origem vegetal, açúcares, substâncias minerais.",
+        "verified_value": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango), Vegetais (4% Cenoura), Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "5739886",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
+  },
+  {
     "pid": "8375397",
     "name": "Comida Húmida para Gato Adulto Sem Cereais Frango Saquetas Smaak",
     "brand": "Smaak",
@@ -76,6 +743,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -155,6 +827,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -234,6 +911,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -313,6 +995,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -392,6 +1079,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -471,6 +1163,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -550,6 +1247,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -629,6 +1331,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -708,6 +1415,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -787,6 +1499,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -866,6 +1583,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -945,6 +1667,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1024,6 +1751,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1103,6 +1835,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1182,6 +1919,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1261,6 +2003,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1340,6 +2087,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1419,6 +2171,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1498,6 +2255,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1577,6 +2339,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1656,6 +2423,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1735,6 +2507,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1814,6 +2591,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1893,6 +2675,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -1972,6 +2759,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2051,6 +2843,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2130,6 +2927,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2209,6 +3011,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2288,6 +3095,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2367,6 +3179,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2446,6 +3263,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2525,6 +3347,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2604,6 +3431,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2683,6 +3515,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2762,6 +3599,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2841,6 +3683,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2920,6 +3767,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -2999,6 +3851,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3078,6 +3935,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3157,6 +4019,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3236,6 +4103,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3315,6 +4187,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3394,6 +4271,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3473,6 +4355,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3552,6 +4439,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3631,6 +4523,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3710,6 +4607,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3789,6 +4691,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3868,6 +4775,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -3947,6 +4859,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4026,6 +4943,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4105,6 +5027,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4184,6 +5111,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4263,6 +5195,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4342,6 +5279,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4421,6 +5363,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4500,6 +5447,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4579,6 +5531,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4658,6 +5615,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4737,6 +5699,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4816,6 +5783,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4895,6 +5867,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4974,6 +5951,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5054,6 +6036,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5134,6 +6121,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5213,6 +6205,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5292,6 +6289,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5371,6 +6373,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5451,6 +6458,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5530,6 +6542,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5609,6 +6626,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5688,6 +6710,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5767,6 +6794,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5846,6 +6878,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5925,6 +6962,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6004,6 +7046,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6084,6 +7131,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6164,6 +7216,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6243,6 +7300,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6322,6 +7384,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6402,6 +7469,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6481,6 +7553,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6560,6 +7637,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6639,6 +7721,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6718,6 +7805,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6797,6 +7889,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6877,6 +7974,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6957,6 +8059,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7037,6 +8144,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7117,6 +8229,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7196,6 +8313,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7275,6 +8397,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7354,6 +8481,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7434,6 +8566,11 @@
     "unranked_reasons": [
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7513,6 +8650,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7592,6 +8734,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7671,6 +8818,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7750,6 +8902,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7829,6 +8986,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7908,6 +9070,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7987,6 +9154,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8066,6 +9238,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8145,6 +9322,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8224,6 +9406,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8303,6 +9490,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8382,6 +9574,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8461,6 +9658,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8540,6 +9742,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8619,6 +9826,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8698,6 +9910,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8777,6 +9994,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8856,6 +10078,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8935,6 +10162,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9014,6 +10246,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9093,6 +10330,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9172,6 +10414,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9251,6 +10498,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9330,6 +10582,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9409,6 +10666,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9488,6 +10750,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9567,6 +10834,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9646,6 +10918,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9725,6 +11002,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9804,6 +11086,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9883,6 +11170,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9962,6 +11254,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10041,6 +11338,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10120,6 +11422,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10199,6 +11506,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10278,6 +11590,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10357,6 +11674,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10436,6 +11758,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10515,6 +11842,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10594,6 +11926,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10673,6 +12010,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10752,6 +12094,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10831,6 +12178,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10910,6 +12262,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10989,6 +12346,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11068,6 +12430,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11147,6 +12514,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11226,6 +12598,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11305,6 +12682,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11384,6 +12766,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11463,6 +12850,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11542,6 +12934,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11621,6 +13018,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11700,6 +13102,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11779,85 +13186,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
-    ]
-  },
-  {
-    "pid": "7705744",
-    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Frango Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_str": "10,47€/kg",
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-delicias-suculentas-frango-purina-gourmet-gold-7705744.html",
-    "retailer": "Continente",
-    "ingredients": "COMPOSIÇÃO:\nCarnes e subprodutos animais (18%dos quais 8% frango), extractos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
-    "nutrition_raw": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
-    "description": "Benefícios: - Alimento completo para gatos adultos - GOURMET™ Gold criou Delícias Suculentas, uma saborosa gama elaborada com suculentos pedaços cozinhados lentamente, com vaca, frango ou outros sabores num delicioso molho - Sem corantes. Sem aromatizantes e conservantes artificiais adicionados. Conselhos de utilização: MODO DE EMPREGO E DOSE DIÁRIA RECOMENDADA: Para um gato adulto com cerca de 4kg, sirva 3 latas durante o dia no mínimo em 2 refeições separadas. As doses médias para manutenção de gatos adultos são baseadas em gatos moderadamente ativos em temperaturas ambiente normais. As necessidades individuais podem variar e a alimentação deve ser ajustada se necessário de forma a manter o seu gato com um peso corporal magro e saudável. Servir à temperatura ambiente. Tenha sempre disponível água fresca e limpa.\n\nConsumir de preferência antes de, Número de Registo do Estabelecimento e Código lote: ver no fundo da lata. Guarde o alimento em local seco e fresco.\n\nNestlé Portugal, Unipessoal, Lda (Registado na DGAV com o NII PT3AA00826), Rua Alexandre Herculano nº 8, 2799-554 Linda-a-Velha. Portugal\n\n800 207 139 (Chamada Gratuita) \nServiço de Informação Nestlé Purina 08:30 às 20:30 (2ª a sábado, exceto feriados) faleconnosco@pt.nestle.com www.purina.pt Sugestões de Consumo: Servir à temperatura ambiente. Deve estar sempre disponível água fresca e limpa.",
-    "nutrition_parsed": {
-      "status": "invalid",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null,
-      "rejection_reason": "newsletter_footer_detected"
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "high_meat_pct": 8,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11937,85 +13270,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
-    ]
-  },
-  {
-    "pid": "5739886",
-    "name": "Comida Húmida para Gato Adulto Tartelette Frango Cenouras Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_str": "10,47€/kg",
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-tartelette-frango-cenouras-purina-gourmet-gold-5739886.html",
-    "retailer": "Continente",
-    "ingredients": "Composição: Carnes e subprodutos animais (25%, dos quais 10% frango), extratos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1% (1% cenouras desidratadas, equivalente a 9% cenouras), subprodutos de origem vegetal, açúcares, substâncias minerais.",
-    "nutrition_raw": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
-    "description": "Benefícios: Alimento completo para gatos adultos. Tartelette, uma deliciosa gama preparada com ingredientes de elevada qualidade com uma textura de tartelette, para uma deliciosa experiência que o seu gato irá certamente adorar. GOURMET Gold Tartelette contém pedacinhos delicadamente cortados com carne de vaca, frango ou outros sabores requintados, cuidadosamente temperados com apenas um pouco de molho. Tudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais. Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem desta lata pode variar de país para país. Por favor, verifique o seu país no nosso site. Conservação: Conservar em local fresco e seco, ao abrigo da luz solar. Servir à temperatura ambiente.",
-    "nutrition_parsed": {
-      "status": "invalid",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null,
-      "rejection_reason": "newsletter_footer_detected"
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "high_meat_pct": 10,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12095,6 +13354,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12174,6 +13438,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12253,6 +13522,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12332,6 +13606,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12411,6 +13690,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12490,6 +13774,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12569,6 +13858,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12648,6 +13942,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12727,6 +14026,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12806,6 +14110,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12885,6 +14194,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12964,6 +14278,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13043,6 +14362,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13122,6 +14446,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13201,6 +14530,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13280,6 +14614,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13359,6 +14698,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13438,6 +14782,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13517,6 +14866,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13596,6 +14950,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13675,6 +15034,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13754,6 +15118,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13833,6 +15202,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13912,6 +15286,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13991,6 +15370,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14070,6 +15454,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14149,6 +15538,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14228,6 +15622,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14307,6 +15706,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14386,6 +15790,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14465,6 +15874,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14544,6 +15958,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14623,6 +16042,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14702,6 +16126,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14781,6 +16210,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14860,6 +16294,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14939,6 +16378,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15018,6 +16462,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15097,6 +16546,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15176,6 +16630,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15255,6 +16714,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15334,6 +16798,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15413,6 +16882,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15492,6 +16966,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15571,6 +17050,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15650,6 +17134,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15729,6 +17218,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15808,6 +17302,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15887,6 +17386,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15966,6 +17470,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16045,6 +17554,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16124,6 +17638,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16203,6 +17722,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16282,6 +17806,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16361,6 +17890,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16440,6 +17974,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16519,6 +18058,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16598,6 +18142,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16677,6 +18226,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16756,6 +18310,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16835,85 +18394,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
-    ]
-  },
-  {
-    "pid": "7628367",
-    "name": "Comida Húmida para Gato Adulto Tartelette Duo Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_str": "10,47€/kg",
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-tartelette-duo-purina-gourmet-gold-7628367.html",
-    "retailer": "Continente",
-    "ingredients": "Composição: Carnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% atum, 4% peixe do oceano), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.  Aditivos: Aditivos Nutritivos: UI/kg: Vit A:1010. Vit D3:154. mg/kg: Fe(E1):11.6. I(E2): 0.28. Cu (E4):1.0. Mn(E5):2.2. Zn(E6):20.9. Taurina: 630. Com aromatizantes.  Constituintes Analíticos: Humidade 74%. Proteína bruta 17%. Matéria gorda bruta 4%. Cinza bruta 2%. Fibra bruta 0,5%.",
-    "nutrition_raw": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
-    "description": "Benefícios: Alimento completo para gatos adultos. Tartelette, uma deliciosa gama preparada com ingredientes de elevada qualidade com uma textura de tartelette, para uma deliciosa experiência que o seu gato irá certamente adorar. GOURMET Gold Tartelette contém pedacinhos delicadamente cortados com carne de vaca, frango ou outros sabores requintados, cuidadosamente temperados com apenas um pouco de molho. Tudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais.  Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem desta lata pode variar de país para país. Por favor, verifique o seu país no nosso site.",
-    "nutrition_parsed": {
-      "status": "invalid",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null,
-      "rejection_reason": "newsletter_footer_detected"
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "high_meat_pct": null,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16993,6 +18478,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17072,6 +18562,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17151,164 +18646,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
-    ]
-  },
-  {
-    "pid": "5739885",
-    "name": "Comida Húmida para Gato Adulto Tartelette Vaca Tomate Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_str": "10,47€/kg",
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-tartelette-vaca-tomate-purina-gourmet-gold-5739885.html",
-    "retailer": "Continente",
-    "ingredients": "Composição: Carnes e subprodutos animais (23%, dos quais 4% vaca), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1.2% tomate desidratado, equivalente a 10.8% tomate), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
-    "nutrition_raw": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
-    "description": "Benefícios: Alimento completo para gatos adultos. Tartelette, uma deliciosa gama preparada com ingredientes de elevada qualidade com uma textura de tartelette, para uma deliciosa experiência que o seu gato irá certamente adorar. GOURMET Gold Tartelette contém pedacinhos delicadamente cortados com carne de vaca, frango ou outros sabores requintados, cuidadosamente temperados com apenas um pouco de molho. Tudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais. Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem desta lata pode variar de país para país. Por favor, verifique o seu país no nosso site. Conservação: Conservar em local fresco e seco, ao abrigo da luz solar. Servir à temperatura ambiente.",
-    "nutrition_parsed": {
-      "status": "invalid",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null,
-      "rejection_reason": "newsletter_footer_detected"
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "high_meat_pct": null,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "invalid_nutrition (newsletter_footer_detected)"
-    ]
-  },
-  {
-    "pid": "7705743",
-    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Peixe do Oceano Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_str": "10,47€/kg",
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-adulto-delicias-suculentas-peixe-do-oceano-purina-gourmet-gold-7705743.html",
-    "retailer": "Continente",
-    "ingredients": "COMPOSIÇÃO: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% peixe do oceano), substâncias minerais, subprodutos de origem vegetal, açúcares.",
-    "nutrition_raw": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
-    "description": "Benefícios: - Alimento completo para gatos adultos - GOURMET™ Gold criou Delícias Suculentas, uma saborosa gama elaborada com suculentos pedaços cozinhados lentamente, com vaca, frango ou outros sabores num delicioso molho - Sem corantes. Sem aromatizantes e conservantes artificiais adicionados. Conselhos de utilização: MODO DE EMPREGO E DOSE DIÁRIA RECOMENDADA: Para um gato adulto com cerca de 4kg, sirva 3 latas durante o dia no mínimo em 2 refeições separadas. As doses médias para manutenção de gatos adultos são baseadas em gatos moderadamente ativos em temperaturas ambiente normais. As necessidades individuais podem variar e a alimentação deve ser ajustada se necessário de forma a manter o seu gato com um peso corporal magro e saudável. Servir à temperatura ambiente. Tenha sempre disponível água fresca e limpa.\n\nConsumir de preferência antes de, Número de Registo do Estabelecimento e Código lote: ver no fundo da lata. Guarde o alimento em local seco e fresco.\n\nNestlé Portugal, Unipessoal, Lda (Registado na DGAV com o NII PT3AA00826), Rua Alexandre Herculano nº 8, 2799-554 Linda-a-Velha. Portugal\n\n800 207 139 (Chamada Gratuita) \nServiço de Informação Nestlé Purina 08:30 às 20:30 (2ª a sábado, exceto feriados) faleconnosco@pt.nestle.com www.purina.pt Sugestões de Consumo: Servir à temperatura ambiente. Deve estar sempre disponível água fresca e limpa.",
-    "nutrition_parsed": {
-      "status": "invalid",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null,
-      "rejection_reason": "newsletter_footer_detected"
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "high_meat_pct": null,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17388,85 +18730,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
-    ]
-  },
-  {
-    "pid": "5304997",
-    "name": "Comida Húmida para Gato Júnior Mousse Gatinhos Vitela Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_str": "10,47€/kg",
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.continente.pt/produto/comida-humida-para-gato-junior-mousse-gatinhos-vitela-purina-gourmet-gold-5304997.html",
-    "retailer": "Continente",
-    "ingredients": "Composição: Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Substâncias Minerais, Subprodutos de Origem Vegetal, Açúcares.",
-    "nutrition_raw": "As novidades mais frescas no seu e-mail! Subscreva e descubra campanhas exclusivas, ofertas e novidades para si. Subscrição realizada com sucesso Insira o seu e-mail Subscrever Consinto que a Modelo Continente Hipermercados, S.A. (MCH) me envie comunicações informativas e de marketing direto alusivas às suas marcas. Fale Connosco Formulário de Contacto 218 247 247 (Chamada para a rede fixa nacional) Descubra Mais Regresso às Aulas Livros Escolares Singles' Day Black Friday Cyber Monday Marcas Links Rápidos Ajuda Folhetos Receitas Sustentabilidade Lojas Cartão Continente Cartão Dá EntregaZero Mapa do Site Sobre Nós Continente Negócios MC Sonae Trabalhar na MC Continente Siga Plug&Charge Missão Continente Inscrição Co-Lab Intermediação de Crédito © 2026 Modelo Continente Hipermercados, S.A. Todos os direitos reservados Acessibilidade Política de Serviços Política de Cookies Centro de Privacidade Política de Privacidade",
-    "description": "Benefícios: Alimento completo para gatos adultos. Elaborado com ingredientes de elevada qualidade\nSem adição de corantes. Sem adição de aromatizantes e conservantes artificiais. Esta lata foi desenvolvida para ser reciclável. A disponibilidade do fluxo de reciclagem destas embalagens pode variar de país para país, verifique o seu país no nosso site.",
-    "nutrition_parsed": {
-      "status": "invalid",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null,
-      "rejection_reason": "newsletter_footer_detected"
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": true,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17546,6 +18814,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17625,6 +18898,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17704,6 +18982,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17783,6 +19066,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17862,6 +19150,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17941,6 +19234,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18020,6 +19318,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18099,6 +19402,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18178,6 +19486,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18257,6 +19570,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18336,6 +19654,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18415,6 +19738,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18494,6 +19822,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18573,6 +19906,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   }
 ]

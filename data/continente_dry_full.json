@@ -77,7 +77,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne Fresca de Aves (30%)"
+    "first_ingredient": "Carne Fresca de Aves (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6787158",
@@ -157,7 +162,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne Fresca de Aves (30%)"
+    "first_ingredient": "Carne Fresca de Aves (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7830233",
@@ -237,7 +247,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão preparado fresco 18"
+    "first_ingredient": "Salmão preparado fresco 18",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7968171",
@@ -317,7 +332,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de aves (25 %)"
+    "first_ingredient": "Carne fresca de aves (25 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306915",
@@ -397,7 +417,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (17%)"
+    "first_ingredient": "Frango fresco (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306932",
@@ -477,7 +502,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (16%)"
+    "first_ingredient": "Frango fresco (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7288346",
@@ -557,7 +587,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (9%)"
+    "first_ingredient": "Frango fresco (9%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306909",
@@ -637,7 +672,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (19%)"
+    "first_ingredient": "Frango fresco (19%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306914",
@@ -717,7 +757,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (17%)"
+    "first_ingredient": "Frango fresco (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306931",
@@ -797,7 +842,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (16%)"
+    "first_ingredient": "Frango fresco (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "477271",
@@ -877,7 +927,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (16%)"
+    "first_ingredient": "Frango fresco (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306908",
@@ -957,7 +1012,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (19%)"
+    "first_ingredient": "Frango fresco (19%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "477272",
@@ -1037,7 +1097,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (19%)"
+    "first_ingredient": "Frango fresco (19%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6068498",
@@ -1117,7 +1182,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (9%)"
+    "first_ingredient": "Frango fresco (9%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "477273",
@@ -1197,7 +1267,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (9%)"
+    "first_ingredient": "Frango fresco (9%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306912",
@@ -1277,7 +1352,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (17%)"
+    "first_ingredient": "Frango fresco (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306678",
@@ -1357,7 +1437,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (9%)"
+    "first_ingredient": "Frango fresco (9%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8375244",
@@ -1437,7 +1522,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango 63% (frango desidratado 34%"
+    "first_ingredient": "Frango 63% (frango desidratado 34%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7830232",
@@ -1517,7 +1607,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango desidratado 20"
+    "first_ingredient": "Frango desidratado 20",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8375245",
@@ -1597,7 +1692,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango 63% (frango desidratado 34%"
+    "first_ingredient": "Frango 63% (frango desidratado 34%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "458095",
@@ -1677,7 +1777,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango 63% (frango desidratado 34%"
+    "first_ingredient": "Frango 63% (frango desidratado 34%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7830231",
@@ -1757,7 +1862,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango desidratado 18"
+    "first_ingredient": "Frango desidratado 18",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306927",
@@ -1837,7 +1947,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão cru inteiro (15%)"
+    "first_ingredient": "Salmão cru inteiro (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306926",
@@ -1917,7 +2032,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão cru inteiro (15%)"
+    "first_ingredient": "Salmão cru inteiro (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "477270",
@@ -1997,7 +2117,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão cru inteiro (15%)"
+    "first_ingredient": "Salmão cru inteiro (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8375243",
@@ -2077,7 +2202,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango 70% (frango desidratado 35%"
+    "first_ingredient": "Frango 70% (frango desidratado 35%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7391320",
@@ -2157,7 +2287,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (54%) (Frango fresco 26%"
+    "first_ingredient": "Frango (54%) (Frango fresco 26%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7391318",
@@ -2237,7 +2372,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (54%) (frango fresco 26%"
+    "first_ingredient": "Frango (54%) (frango fresco 26%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "467656",
@@ -2317,7 +2457,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (54%) (frango fresco 26%"
+    "first_ingredient": "Frango (54%) (frango fresco 26%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7391348",
@@ -2397,7 +2542,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão fresco (26%)"
+    "first_ingredient": "Salmão fresco (26%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7391341",
@@ -2477,7 +2627,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão fresco (26%)"
+    "first_ingredient": "Salmão fresco (26%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469266",
@@ -2557,7 +2712,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão fresco (26%)"
+    "first_ingredient": "Salmão fresco (26%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7630692",
@@ -2637,7 +2797,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de frango"
+    "first_ingredient": "Carne fresca de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7630689",
@@ -2717,7 +2882,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de frango"
+    "first_ingredient": "Carne fresca de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7631351",
@@ -2797,7 +2967,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de frango"
+    "first_ingredient": "Carne fresca de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225965",
@@ -2877,7 +3052,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (20%)"
+    "first_ingredient": "Frango fresco (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225882",
@@ -2957,7 +3137,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (20%)"
+    "first_ingredient": "Frango fresco (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8060932",
@@ -3037,7 +3222,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de frango 25%"
+    "first_ingredient": "Carne fresca de frango 25%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8060935",
@@ -3117,7 +3307,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de frango 30%"
+    "first_ingredient": "Carne fresca de frango 30%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8060936",
@@ -3197,7 +3392,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de frango 30%"
+    "first_ingredient": "Carne fresca de frango 30%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8060931",
@@ -3277,7 +3477,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de frango (25%)"
+    "first_ingredient": "Carne fresca de frango (25%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8060933",
@@ -3357,7 +3562,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de peru 40%"
+    "first_ingredient": "Carne fresca de peru 40%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7739997",
@@ -3437,7 +3647,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Contém um conjunto equilibrado de nutrientes essenciais"
+    "first_ingredient": "Benefícios: Contém um conjunto equilibrado de nutrientes essenciais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306698",
@@ -3517,7 +3732,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Pato fresco (11%)"
+    "first_ingredient": "Pato fresco (11%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225883",
@@ -3597,7 +3817,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (20%)"
+    "first_ingredient": "Frango fresco (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306697",
@@ -3677,7 +3902,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Pato fresco (11%)"
+    "first_ingredient": "Pato fresco (11%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6068481",
@@ -3757,7 +3987,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Pato fresco (11%)"
+    "first_ingredient": "Pato fresco (11%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7646580",
@@ -3837,7 +4072,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (32%)"
+    "first_ingredient": "Frango fresco (32%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7646592",
@@ -3917,7 +4157,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (31%)"
+    "first_ingredient": "Frango fresco (31%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225875",
@@ -3997,7 +4242,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (20%)"
+    "first_ingredient": "Frango fresco (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7646595",
@@ -4077,7 +4327,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (32%)"
+    "first_ingredient": "Frango fresco (32%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7646588",
@@ -4157,7 +4412,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (31%)"
+    "first_ingredient": "Frango fresco (31%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225527",
@@ -4237,7 +4497,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (20%)"
+    "first_ingredient": "Frango fresco (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7646589",
@@ -4317,7 +4582,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (32%)"
+    "first_ingredient": "Frango fresco (32%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7153195",
@@ -4397,7 +4667,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (57%) (farinha de frango 29%"
+    "first_ingredient": "Frango (57%) (farinha de frango 29%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8289762",
@@ -4477,7 +4752,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (57%) (Farinha de frango 29%"
+    "first_ingredient": "Frango (57%) (Farinha de frango 29%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7932795",
@@ -4557,7 +4837,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de peru (min. 20%)"
+    "first_ingredient": "Carne fresca de peru (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7229918",
@@ -4637,7 +4922,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne E Derivados Animais (38%)"
+    "first_ingredient": "Carne E Derivados Animais (38%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6812538",
@@ -4717,7 +5007,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne e Derivados Animais (42%"
+    "first_ingredient": "Carne e Derivados Animais (42%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7153196",
@@ -4797,7 +5092,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (57%) (farinha de frango 29%"
+    "first_ingredient": "Frango (57%) (farinha de frango 29%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "467655",
@@ -4877,7 +5177,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (57%) (farinha de frango 29%"
+    "first_ingredient": "Frango (57%) (farinha de frango 29%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6812548",
@@ -4957,7 +5262,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne E Derivados Animais (38%)"
+    "first_ingredient": "Carne E Derivados Animais (38%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "466016",
@@ -5037,7 +5347,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne E Derivados Animais (38%)"
+    "first_ingredient": "Carne E Derivados Animais (38%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7932794",
@@ -5117,7 +5432,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de peru (min. 20%)"
+    "first_ingredient": "Carne fresca de peru (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7153193",
@@ -5197,7 +5517,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (63%) (farinha de frango 35%"
+    "first_ingredient": "Frango (63%) (farinha de frango 35%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469265",
@@ -5277,7 +5602,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (63%) (farinha de frango 35%"
+    "first_ingredient": "Frango (63%) (farinha de frango 35%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7630690",
@@ -5357,7 +5687,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de frango desidratada (42 %)"
+    "first_ingredient": "Carne de frango desidratada (42 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607741",
@@ -5437,7 +5772,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Probióticos e Prebióticos"
+    "first_ingredient": "Benefícios: Probióticos e Prebióticos",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607742",
@@ -5517,7 +5857,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Probióticos e Prebióticos"
+    "first_ingredient": "Benefícios: Probióticos e Prebióticos",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8289761",
@@ -5597,7 +5942,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Promove a integridade intestinal"
+    "first_ingredient": "Benefícios: Promove a integridade intestinal",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7153198",
@@ -5677,7 +6027,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: - Fibra natural que promove uma libertação lenta de energia. - Favorece o desenvolvimento equilibrado da flora intestinal. - Melhora na digestibilidade e menor odor das fezes. - Promove a redução de desenvolvimento de alergias. - Antioxidante natural que ajuda a fortalecer o sistema imunitário. - Beneficia o cuidado oral"
+    "first_ingredient": "Benefícios: - Fibra natural que promove uma libertação lenta de energia. - Favorece o desenvolvimento equilibrado da flora intestinal. - Melhora na digestibilidade e menor odor das fezes. - Promove a redução de desenvolvimento de alergias. - Antioxidante natural que ajuda a fortalecer o sistema imunitário. - Beneficia o cuidado oral",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8289760",
@@ -5757,7 +6112,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Desenvolvimento do cérebro e visão"
+    "first_ingredient": "Benefícios: Desenvolvimento do cérebro e visão",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7153194",
@@ -5837,7 +6197,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: - Fibra natural que promove uma libertação lenta de energia. - Favorece o desenvolvimento equilibrado da flora intestinal. - Melhora na digestibilidade e menor odor das fezes. - Promove a redução de desenvolvimento de alergias. - Antioxidante natural que ajuda a fortalecer o sistema imunitário. - Beneficia o cuidado oral"
+    "first_ingredient": "Benefícios: - Fibra natural que promove uma libertação lenta de energia. - Favorece o desenvolvimento equilibrado da flora intestinal. - Melhora na digestibilidade e menor odor das fezes. - Promove a redução de desenvolvimento de alergias. - Antioxidante natural que ajuda a fortalecer o sistema imunitário. - Beneficia o cuidado oral",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469264",
@@ -5917,7 +6282,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: - Fibra natural que promove uma libertação lenta de energia. - Favorece o desenvolvimento equilibrado da flora intestinal. - Melhora na digestibilidade e menor odor das fezes. - Promove a redução de desenvolvimento de alergias. - Antioxidante natural que ajuda a fortalecer o sistema imunitário. - Beneficia o cuidado oral"
+    "first_ingredient": "Benefícios: - Fibra natural que promove uma libertação lenta de energia. - Favorece o desenvolvimento equilibrado da flora intestinal. - Melhora na digestibilidade e menor odor das fezes. - Promove a redução de desenvolvimento de alergias. - Antioxidante natural que ajuda a fortalecer o sistema imunitário. - Beneficia o cuidado oral",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6821583",
@@ -5997,7 +6367,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original."
+    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8857534",
@@ -6077,7 +6452,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. Sugestões de Consumo: Servir à temperatura ambiente. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. Sugestões de Consumo: Servir à temperatura ambiente. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8480158",
@@ -6157,7 +6537,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne e subprodutos animais (frango e bovino mínimo 20%)"
+    "first_ingredient": "Carne e subprodutos animais (frango e bovino mínimo 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8480276",
@@ -6237,7 +6622,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne e subprodutos animais (frango e bovino mínimo 20%)"
+    "first_ingredient": "Carne e subprodutos animais (frango e bovino mínimo 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471267",
@@ -6317,7 +6707,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne e subprodutos animais (frango e bovino mínimo 20%)"
+    "first_ingredient": "Carne e subprodutos animais (frango e bovino mínimo 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575849",
@@ -6397,7 +6792,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575848",
@@ -6477,7 +6877,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575851",
@@ -6557,7 +6962,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575852",
@@ -6637,7 +7047,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "458112",
@@ -6717,7 +7132,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "458153",
@@ -6797,7 +7217,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7630684",
@@ -6877,7 +7302,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (40 %)"
+    "first_ingredient": "Frango fresco (40 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7631350",
@@ -6957,7 +7387,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango fresco (40 %)"
+    "first_ingredient": "Frango fresco (40 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225878",
@@ -7037,7 +7472,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de vaca crua (11%)"
+    "first_ingredient": "Carne de vaca crua (11%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8480247",
@@ -7117,7 +7557,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carnes e subprodutos animais (aves no mínimo 20%)"
+    "first_ingredient": "Carnes e subprodutos animais (aves no mínimo 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8480284",
@@ -7197,7 +7642,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carnes e subprodutos animais (aves no mínimo 20%)"
+    "first_ingredient": "Carnes e subprodutos animais (aves no mínimo 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471193",
@@ -7277,7 +7727,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carnes e subprodutos animais (aves no mínimo 20%)"
+    "first_ingredient": "Carnes e subprodutos animais (aves no mínimo 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8821615",
@@ -7357,7 +7812,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (incluindo cabeça"
+    "first_ingredient": "Salmão (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7073991",
@@ -7437,7 +7897,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) proteínas desidratadas de porco proteína de milho farinha de milho cevada integral (7%) milho integral (4%) trigo integral (4%) proteínas desidratadas de aves ervilhas desidratadas (4%) polpa de beterraba proteínas anima is hidrolisadas fibras vegetais gordura de origem animal substâncias minerais inulina (0 7%) óleo de peixe cenoura desidratada (0 5% equivalente a 4% de cenoura fresca)."
+    "first_ingredient": "Frango (17%) proteínas desidratadas de porco proteína de milho farinha de milho cevada integral (7%) milho integral (4%) trigo integral (4%) proteínas desidratadas de aves ervilhas desidratadas (4%) polpa de beterraba proteínas anima is hidrolisadas fibras vegetais gordura de origem animal substâncias minerais inulina (0 7%) óleo de peixe cenoura desidratada (0 5% equivalente a 4% de cenoura fresca).",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7836753",
@@ -7517,7 +7982,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne fresca de aves (25%)"
+    "first_ingredient": "Carne fresca de aves (25%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "467319",
@@ -7597,7 +8067,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (17%) proteínas desidratadas de aves proteína de milho arroz (10%) ervilhas desidratadas (6%) proteínas desidratadas de porco trigo integral (5%) milho integral (4%) proteína de soja gordura de origem animal farinha de milho fi bras vegetais proteínas animais hidrolisadas polpa de beterraba óleo de peixe substâncias minerais inulina (0 7%) cenoura desidratada (0 5% equivalente a 4% de cenoura fresca)."
+    "first_ingredient": "Peru (17%) proteínas desidratadas de aves proteína de milho arroz (10%) ervilhas desidratadas (6%) proteínas desidratadas de porco trigo integral (5%) milho integral (4%) proteína de soja gordura de origem animal farinha de milho fi bras vegetais proteínas animais hidrolisadas polpa de beterraba óleo de peixe substâncias minerais inulina (0 7%) cenoura desidratada (0 5% equivalente a 4% de cenoura fresca).",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7340553",
@@ -7677,7 +8152,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (17%) proteínas desidratadas de aves proteína de milho arroz (10%) ervilhas desidratadas (6%) proteínas desidratadas de porco trigo integral (5%) milho integral (4%) proteína de soja gordura de origem animal farinha de milho fi bras vegetais proteínas animais hidrolisadas polpa de beterraba óleo de peixe substâncias minerais inulina (0 7%) cenoura desidratada (0 5% equivalente a 4% de cenoura fresca)."
+    "first_ingredient": "Peru (17%) proteínas desidratadas de aves proteína de milho arroz (10%) ervilhas desidratadas (6%) proteínas desidratadas de porco trigo integral (5%) milho integral (4%) proteína de soja gordura de origem animal farinha de milho fi bras vegetais proteínas animais hidrolisadas polpa de beterraba óleo de peixe substâncias minerais inulina (0 7%) cenoura desidratada (0 5% equivalente a 4% de cenoura fresca).",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7340618",
@@ -7757,7 +8237,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) proteínas desidratadas de porco proteína de milho farinha de milho cevada integral (7%) milho integral (4%) trigo integral (4%) proteínas desidratadas de aves ervilhas desidratadas (4%) polpa de beterraba proteínas anima is hidrolisadas fibras vegetais gordura de origem animal substâncias minerais inulina (0 7%) óleo de peixe cenoura desidratada (0 5% equivalente a 4% de cenoura fresca)."
+    "first_ingredient": "Frango (17%) proteínas desidratadas de porco proteína de milho farinha de milho cevada integral (7%) milho integral (4%) trigo integral (4%) proteínas desidratadas de aves ervilhas desidratadas (4%) polpa de beterraba proteínas anima is hidrolisadas fibras vegetais gordura de origem animal substâncias minerais inulina (0 7%) óleo de peixe cenoura desidratada (0 5% equivalente a 4% de cenoura fresca).",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "467320",
@@ -7837,7 +8322,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) proteínas desidratadas de porco proteína de milho farinha de milho cevada integral (7%) milho integral (4%) trigo integral (4%) proteínas desidratadas de aves ervilhas desidratadas (4%) polpa de beterraba proteínas anima is hidrolisadas fibras vegetais gordura de origem animal substâncias minerais inulina (0 7%) óleo de peixe cenoura desidratada (0 5% equivalente a 4% de cenoura fresca)."
+    "first_ingredient": "Frango (17%) proteínas desidratadas de porco proteína de milho farinha de milho cevada integral (7%) milho integral (4%) trigo integral (4%) proteínas desidratadas de aves ervilhas desidratadas (4%) polpa de beterraba proteínas anima is hidrolisadas fibras vegetais gordura de origem animal substâncias minerais inulina (0 7%) óleo de peixe cenoura desidratada (0 5% equivalente a 4% de cenoura fresca).",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7830234",
@@ -7917,7 +8407,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Porco ibérico desidratado 13"
+    "first_ingredient": "Porco ibérico desidratado 13",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5758515",
@@ -7997,7 +8492,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6812546",
@@ -8077,7 +8577,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (26%)"
+    "first_ingredient": "Frango (26%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7836755",
@@ -8157,7 +8662,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão fresco (25%)"
+    "first_ingredient": "Salmão fresco (25%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607602",
@@ -8237,7 +8747,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Vitalidade e Boa Forma"
+    "first_ingredient": "Benefícios: Vitalidade e Boa Forma",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607740",
@@ -8317,7 +8832,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Digestão Equilibrada"
+    "first_ingredient": "Benefícios: Digestão Equilibrada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607726",
@@ -8397,7 +8917,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Digestão Equilibrada"
+    "first_ingredient": "Benefícios: Digestão Equilibrada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607725",
@@ -8477,7 +9002,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Vitalidade e Boa Forma"
+    "first_ingredient": "Benefícios: Vitalidade e Boa Forma",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607734",
@@ -8557,7 +9087,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Vitalidade e Boa Forma"
+    "first_ingredient": "Benefícios: Vitalidade e Boa Forma",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607739",
@@ -8637,7 +9172,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Digestão Equilibrada"
+    "first_ingredient": "Benefícios: Digestão Equilibrada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471196",
@@ -8717,7 +9257,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Digestão Equilibrada"
+    "first_ingredient": "Benefícios: Digestão Equilibrada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607601",
@@ -8797,7 +9342,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Vitalidade e Boa Forma"
+    "first_ingredient": "Benefícios: Vitalidade e Boa Forma",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471194",
@@ -8877,7 +9427,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Vitalidade e Boa Forma"
+    "first_ingredient": "Benefícios: Vitalidade e Boa Forma",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607727",
@@ -8957,7 +9512,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Reforço Imunitário"
+    "first_ingredient": "Benefícios: Reforço Imunitário",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607605",
@@ -9037,7 +9597,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Reforço Imunitário"
+    "first_ingredient": "Benefícios: Reforço Imunitário",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6921617",
@@ -9117,7 +9682,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (15%)"
+    "first_ingredient": "Peru (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7200036",
@@ -9197,7 +9767,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%)"
+    "first_ingredient": "Salmão (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8297357",
@@ -9277,7 +9852,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7719100",
@@ -9357,7 +9937,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (18%) (incluindo osso"
+    "first_ingredient": "Peru (18%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7719097",
@@ -9437,7 +10022,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7719092",
@@ -9517,7 +10107,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%) (incluindo cabeça"
+    "first_ingredient": "Salmão (15%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6101510",
@@ -9597,7 +10192,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%) (incluindo cabeça"
+    "first_ingredient": "Salmão (15%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4027259",
@@ -9677,7 +10277,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Pulmão de vaca (16%)"
+    "first_ingredient": "Pulmão de vaca (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7714810",
@@ -9757,7 +10362,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6898748",
@@ -9837,7 +10447,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5338218",
@@ -9917,7 +10532,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (15%)"
+    "first_ingredient": "Peru (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5758527",
@@ -9997,7 +10617,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (18%)"
+    "first_ingredient": "Frango (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6812539",
@@ -10077,7 +10702,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Proteínas De Aves Desidratadas (Inclui 20% Galinha)"
+    "first_ingredient": "Proteínas De Aves Desidratadas (Inclui 20% Galinha)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "464369",
@@ -10157,7 +10787,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (15%)"
+    "first_ingredient": "Peru (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7960965",
@@ -10237,7 +10872,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (15%)"
+    "first_ingredient": "Peru (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7960966",
@@ -10317,7 +10957,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (15%"
+    "first_ingredient": "Frango (15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "467317",
@@ -10397,7 +11042,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (15%"
+    "first_ingredient": "Frango (15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6812547",
@@ -10477,7 +11127,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Proteínas De Aves Desidratadas (Inclui 20% Galinha)"
+    "first_ingredient": "Proteínas De Aves Desidratadas (Inclui 20% Galinha)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "466015",
@@ -10557,7 +11212,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Proteínas De Aves Desidratadas (Inclui 20% Galinha)"
+    "first_ingredient": "Proteínas De Aves Desidratadas (Inclui 20% Galinha)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5052448",
@@ -10637,7 +11297,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4651495",
@@ -10717,7 +11382,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5304989",
@@ -10797,7 +11467,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8059764",
@@ -10877,7 +11552,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (incluindo cabeça"
+    "first_ingredient": "Salmão (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5304991",
@@ -10957,7 +11637,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (18%) (incluindo osso"
+    "first_ingredient": "Peru (18%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2725470",
@@ -11037,7 +11722,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3642975",
@@ -11117,7 +11807,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Pulmão de vaca (16%)"
+    "first_ingredient": "Pulmão de vaca (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469964",
@@ -11197,7 +11892,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (18%) (incluindo osso"
+    "first_ingredient": "Peru (18%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469569",
@@ -11277,7 +11977,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469268",
@@ -11357,7 +12062,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4875139",
@@ -11437,7 +12147,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%) (incluindo cabeça"
+    "first_ingredient": "Salmão (15%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469966",
@@ -11517,7 +12232,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Pulmão de vaca (16%)"
+    "first_ingredient": "Pulmão de vaca (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469967",
@@ -11597,7 +12317,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%) (incluindo cabeça"
+    "first_ingredient": "Salmão (15%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607736",
@@ -11677,7 +12402,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Crescimento Equilibrado e Digestão Equilibrada. Conservação: Conservar em local fresco e seco"
+    "first_ingredient": "Benefícios: Crescimento Equilibrado e Digestão Equilibrada. Conservação: Conservar em local fresco e seco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607735",
@@ -11757,7 +12487,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Digestão Equilibrada"
+    "first_ingredient": "Benefícios: Digestão Equilibrada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607603",
@@ -11837,7 +12572,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Crescimento Equilibrado e Digestão Equilibrada Conservação: Conservar em local fresco e seco"
+    "first_ingredient": "Benefícios: Crescimento Equilibrado e Digestão Equilibrada Conservação: Conservar em local fresco e seco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471195",
@@ -11917,7 +12657,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Crescimento Equilibrado e Digestão Equilibrada Conservação: Conservar em local fresco e seco"
+    "first_ingredient": "Benefícios: Crescimento Equilibrado e Digestão Equilibrada Conservação: Conservar em local fresco e seco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8607737",
@@ -11997,7 +12742,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Articulações saudáveis"
+    "first_ingredient": "Benefícios: Articulações saudáveis",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7295591",
@@ -12077,7 +12827,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8297358",
@@ -12157,7 +12912,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8433814",
@@ -12237,7 +12997,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa. Nome do produtor: AFFINITY PETCARE PORTUGAL Produtos para animais domésticos – Unipessoal Lda. Morada do produtor: Avenida da Liberdade"
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa. Nome do produtor: AFFINITY PETCARE PORTUGAL Produtos para animais domésticos – Unipessoal Lda. Morada do produtor: Avenida da Liberdade",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8433804",
@@ -12317,7 +13082,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8421368",
@@ -12397,7 +13167,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8385322",
@@ -12477,7 +13252,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8421360",
@@ -12557,7 +13337,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8433812",
@@ -12637,7 +13422,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8421359",
@@ -12717,7 +13507,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8421369",
@@ -12797,7 +13592,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8421361",
@@ -12877,7 +13677,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469965",
@@ -12957,7 +13762,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7719096",
@@ -13037,7 +13847,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7719093",
@@ -13117,7 +13932,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7702557",
@@ -13197,7 +14017,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Pulmão de vaca (16%)"
+    "first_ingredient": "Pulmão de vaca (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7719099",
@@ -13277,7 +14102,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (15%) (incluindo osso"
+    "first_ingredient": "Frango (15%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7719089",
@@ -13357,7 +14187,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8755192",
@@ -13437,7 +14272,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Guardar fechado"
+    "first_ingredient": "Conservação: Guardar fechado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "463816",
@@ -13517,7 +14357,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Guardar fechado"
+    "first_ingredient": "Conservação: Guardar fechado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2932623",
@@ -13597,7 +14442,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (17%) (incluindo osso"
+    "first_ingredient": "Peru (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2725449",
@@ -13677,7 +14527,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2725406",
@@ -13757,7 +14612,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%) (incluindo osso"
+    "first_ingredient": "Frango (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7595709",
@@ -13837,7 +14697,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peixe do oceano (15%) (incluindo cabeça"
+    "first_ingredient": "Peixe do oceano (15%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5505120",
@@ -13917,7 +14782,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%)"
+    "first_ingredient": "Salmão (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4871409",
@@ -13997,7 +14867,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%)"
+    "first_ingredient": "Salmão (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4871411",
@@ -14077,7 +14952,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "464366",
@@ -14157,7 +15037,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%)"
+    "first_ingredient": "Salmão (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "464367",
@@ -14237,7 +15122,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6899037",
@@ -14317,7 +15207,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original."
+    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7785006",
@@ -14397,7 +15292,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Vísceras de vaca (17.0%)"
+    "first_ingredient": "Vísceras de vaca (17.0%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7754946",
@@ -14477,7 +15377,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (incluindo cabeça"
+    "first_ingredient": "Salmão (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7754945",
@@ -14557,7 +15462,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (incluindo osso"
+    "first_ingredient": "Frango (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7754942",
@@ -14637,7 +15547,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (incluindo cabeça"
+    "first_ingredient": "Salmão (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "470164",
@@ -14717,7 +15632,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (incluindo cabeça"
+    "first_ingredient": "Salmão (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6100985",
@@ -14797,7 +15717,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original."
+    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6100967",
@@ -14877,7 +15802,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original."
+    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "466517",
@@ -14957,7 +15887,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de vaca (14%)"
+    "first_ingredient": "Carne de vaca (14%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7960961",
@@ -15037,7 +15972,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Carne de vaca (14%)"
+    "first_ingredient": "Carne de vaca (14%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "464368",
@@ -15117,7 +16057,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%)"
+    "first_ingredient": "Salmão (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7960959",
@@ -15197,7 +16142,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "467318",
@@ -15277,7 +16227,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7960960",
@@ -15357,7 +16312,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (15%)"
+    "first_ingredient": "Salmão (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8385312",
@@ -15437,7 +16397,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "466516",
@@ -15517,7 +16482,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa."
+    "first_ingredient": "Conservação: Conservar num local seco e fresco. O animal deve ter sempre disponível água fresca numa taça limpa.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6586790",
@@ -15598,7 +16568,12 @@
       "invalid_composition",
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7926565",
@@ -15679,7 +16654,12 @@
       "missing_composition",
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8033572",
@@ -15759,7 +16739,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Ele está sempre ao seu lado"
+    "first_ingredient": "Benefícios: Ele está sempre ao seu lado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8033571",
@@ -15839,7 +16824,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Benefícios: Ele está sempre ao seu lado"
+    "first_ingredient": "Benefícios: Ele está sempre ao seu lado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6821584",
@@ -15919,7 +16909,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original."
+    "first_ingredient": "Conservação: Armazenar num local seco e à temperatura ambiente. Manter o produto na embalagem original.",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8821602",
@@ -15999,7 +16994,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (incluindo cabeça"
+    "first_ingredient": "Salmão (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8821612",
@@ -16079,7 +17079,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (incluindo cabeça"
+    "first_ingredient": "Salmão (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469568",
@@ -16159,7 +17164,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5481686",
@@ -16239,7 +17249,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (15%) (incluindo osso"
+    "first_ingredient": "Frango (15%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2759642",
@@ -16319,7 +17334,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (17%) (incluindo osso"
+    "first_ingredient": "Peru (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469570",
@@ -16399,7 +17419,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Peru (17%) (incluindo osso"
+    "first_ingredient": "Peru (17%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2598210",
@@ -16479,7 +17504,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2597735",
@@ -16559,7 +17589,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469567",
@@ -16639,7 +17674,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469968",
@@ -16719,7 +17759,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (15%) (incluindo osso"
+    "first_ingredient": "Frango (15%) (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8821618",
@@ -16799,7 +17844,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Frango (incluindo osso"
+    "first_ingredient": "Frango (incluindo osso",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6068505",
@@ -16879,7 +17929,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Arenque do Pacífico inteiro cru (14%)"
+    "first_ingredient": "Arenque do Pacífico inteiro cru (14%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225884",
@@ -16959,7 +18014,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Sardinha crua inteira (28%)"
+    "first_ingredient": "Sardinha crua inteira (28%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225876",
@@ -17039,7 +18099,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Sardinha crua inteira (28%)"
+    "first_ingredient": "Sardinha crua inteira (28%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225531",
@@ -17119,7 +18184,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Sardinha crua inteira (28%)"
+    "first_ingredient": "Sardinha crua inteira (28%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575850",
@@ -17199,7 +18269,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão fresco (min. 20%)"
+    "first_ingredient": "Salmão fresco (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "458104",
@@ -17279,7 +18354,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão fresco (min. 20%)"
+    "first_ingredient": "Salmão fresco (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575853",
@@ -17359,7 +18439,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Salmão fresco (min. 20%)"
+    "first_ingredient": "Salmão fresco (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6101514",
@@ -17439,7 +18524,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7173400",
@@ -17519,7 +18609,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6101497",
@@ -17599,7 +18694,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4749786",
@@ -17679,7 +18779,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "470165",
@@ -17759,7 +18864,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "469267",
@@ -17839,7 +18949,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2390753",
@@ -17919,7 +19034,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7684548",
@@ -17999,7 +19119,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7684546",
@@ -18079,7 +19204,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7684547",
@@ -18159,7 +19289,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7684643",
@@ -18239,7 +19374,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "463817",
@@ -18319,7 +19459,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7684543",
@@ -18399,7 +19544,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7684544",
@@ -18479,7 +19629,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "463815",
@@ -18559,7 +19714,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "cereais"
+    "first_ingredient": "cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8913749",
@@ -18639,7 +19799,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3868280",
@@ -18719,7 +19884,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4651489",
@@ -18799,7 +19969,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2632992",
@@ -18879,7 +20054,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2601696",
@@ -18959,7 +20139,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "470166",
@@ -19039,7 +20224,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2210639",
@@ -19119,7 +20309,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2210651",
@@ -19199,7 +20394,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2210640",
@@ -19279,7 +20479,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2210641",
@@ -19359,7 +20564,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6462084",
@@ -19439,7 +20649,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "468820",
@@ -19519,7 +20734,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "468818",
@@ -19599,7 +20819,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2210638",
@@ -19679,7 +20904,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2210637",
@@ -19759,7 +20989,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "468819",
@@ -19839,7 +21074,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2230936",
@@ -19919,7 +21159,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "468816",
@@ -19999,7 +21244,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "468817",
@@ -20079,7 +21329,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7390434",
@@ -20159,7 +21414,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais (entre outros 4% 4% de milho e trigo)"
+    "first_ingredient": "Cereais (entre outros 4% 4% de milho e trigo)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6938971",
@@ -20239,7 +21499,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Truta (16%)"
+    "first_ingredient": "Truta (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7390421",
@@ -20319,7 +21584,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais (entre outros 4% 4% e o milho de trigo)"
+    "first_ingredient": "Cereais (entre outros 4% 4% e o milho de trigo)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7424499",
@@ -20399,7 +21669,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Bacalhau (15%) (incluindo cabeça"
+    "first_ingredient": "Bacalhau (15%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7520331",
@@ -20479,7 +21754,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Truta (15%) (incluindo cabeça"
+    "first_ingredient": "Truta (15%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7295594",
@@ -20559,7 +21839,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Truta (15%)"
+    "first_ingredient": "Truta (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7779824",
@@ -20639,7 +21924,12 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais (10% trigo"
+    "first_ingredient": "Cereais (10% trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7779825",
@@ -20719,6 +22009,11 @@
     "unranked_reasons": [
       "invalid_nutrition (newsletter_footer_detected)"
     ],
-    "first_ingredient": "Cereais (10% trigo"
+    "first_ingredient": "Cereais (10% trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   }
 ]

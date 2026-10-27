@@ -23,6 +23,12 @@ from src.scrapers.zu import ZUScraper
 from src.scrapers.zooplus import ZooplusScraper
 from src.scoring.wet_scorer import score_wet_product
 from src.scoring.dry_scorer import score_dry_product
+from src.scoring.reconciliation import (
+    load_product_matches,
+    reconcile_batch,
+    attach_shared_assessment,
+    group_by_formulation
+)
 from src.builder.build_site import generate_html, load_data
 
 SCRAPERS = {
@@ -64,14 +70,32 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     print(f"==========================================")
     raw_products = scraper.scrape_wet(max_pages=max_pages)
     
+    # Load product matches configuration
+    matches_config = load_product_matches()
+    
+    # Step 1: Reconcile products with verified formulations
+    print(f"[Reconciliation] Matching {len(raw_products)} products against {len(matches_config)} formulations...")
+    reconciled_products, reconciliation_summary = reconcile_batch(
+        raw_products, retailer_name, matches_config
+    )
+    
+    matched_count = reconciliation_summary.get('matched_count', 0)
+    print(f"[Reconciliation] {matched_count} products matched to verified formulations, {reconciliation_summary.get('unmatched_count', 0)} unmatched.")
+    
+    # Step 2: Score products (with reconciled data)
     scored_full = []
     minified = []
-    for p in raw_products:
+    for p in reconciled_products:
         p_full, p_mini = score_wet_product(p)
         if p_full is None or p_mini is None:
             continue
         scored_full.append(p_full)
         minified.append(p_mini)
+
+    # Step 3: Group by formulation and attach shared assessments
+    print(f"[Reconciliation] Attaching shared assessments to matched formulations...")
+    scored_full = attach_shared_assessment(scored_full, category='wet')
+    minified = attach_shared_assessment(minified, category='wet')
 
     # Sort by ranked status desc, score desc, then value ratio desc
     scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
@@ -87,7 +111,8 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     csv_fields = [
         'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'classification',
         'is_kitten', 'is_ranked', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains',
-        'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'unranked_reasons', 'pdp_url'
+        'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'unranked_reasons',
+        'pdp_url', 'formulation_id', 'is_reconciled'
     ]
     save_csv(csv_path, scored_full, csv_fields)
 
@@ -101,13 +126,31 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     print(f"  Starting DRY Food Pipeline ({retailer_name})")
     print(f"==========================================")
     raw_products = scraper.scrape_dry(max_pages=max_pages)
-
+    
+    # Load product matches configuration
+    matches_config = load_product_matches()
+    
+    # Step 1: Reconcile products with verified formulations
+    print(f"[Reconciliation] Matching {len(raw_products)} products against {len(matches_config)} formulations...")
+    reconciled_products, reconciliation_summary = reconcile_batch(
+        raw_products, retailer_name, matches_config
+    )
+    
+    matched_count = reconciliation_summary.get('matched_count', 0)
+    print(f"[Reconciliation] {matched_count} products matched to verified formulations, {reconciliation_summary.get('unmatched_count', 0)} unmatched.")
+    
+    # Step 2: Score products (with reconciled data)
     scored_full = []
     minified = []
-    for p in raw_products:
+    for p in reconciled_products:
         p_full, p_mini = score_dry_product(p)
         scored_full.append(p_full)
         minified.append(p_mini)
+
+    # Step 3: Group by formulation and attach shared assessments
+    print(f"[Reconciliation] Attaching shared assessments to matched formulations...")
+    scored_full = attach_shared_assessment(scored_full, category='dry')
+    minified = attach_shared_assessment(minified, category='dry')
 
     scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
     minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
@@ -122,7 +165,8 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     csv_fields = [
         'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised',
         'is_ranked', 'score', 'tier', 'value_ratio', 'is_grain_free', 'is_fractionated',
-        'has_corn_gluten', 'has_colorants', 'unranked_reasons', 'pdp_url'
+        'has_corn_gluten', 'has_colorants', 'unranked_reasons', 'pdp_url',
+        'formulation_id', 'is_reconciled'
     ]
     save_csv(csv_path, scored_full, csv_fields)
 
@@ -132,31 +176,46 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None):
     return minified
 
 def rescore_cached_data(data_dir):
-    print("[Scorer] Re-scoring existing cached datasets with updated rules...")
+    print("[Scorer] Re-scoring existing cached datasets with updated rules and reconciliation...")
+    matches_config = load_product_matches()
+    
     wet_csv_fields = [
         'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'classification',
         'is_kitten', 'is_ranked', 'score', 'tier', 'value_ratio', 'has_sugar', 'has_grains',
-        'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'unranked_reasons', 'pdp_url'
+        'has_veg_protein', 'has_organs', 'has_carrageenan', 'has_taurine', 'unranked_reasons',
+        'pdp_url', 'formulation_id', 'is_reconciled'
     ]
     dry_csv_fields = [
         'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_kg', 'is_kitten', 'is_sterilised',
         'is_ranked', 'score', 'tier', 'value_ratio', 'is_grain_free', 'is_fractionated',
-        'has_corn_gluten', 'has_colorants', 'unranked_reasons', 'pdp_url'
+        'has_corn_gluten', 'has_colorants', 'unranked_reasons', 'pdp_url',
+        'formulation_id', 'is_reconciled'
     ]
 
     for ret in ['continente', 'zu', 'zooplus']:
+        # Wet food
         full_wet_path = os.path.join(data_dir, f"{ret}_wet_full.json")
         if os.path.exists(full_wet_path):
             with open(full_wet_path, 'r', encoding='utf-8') as f:
                 raw = json.load(f)
+            
+            # Reconcile
+            reconciled, summary = reconcile_batch(raw, ret, matches_config)
+            print(f"  [Reconciliation] {ret} wet: {summary.get('matched_count', 0)} matched, {summary.get('unmatched_count', 0)} unmatched.")
+            
             scored_full = []
             minified = []
-            for p in raw:
+            for p in reconciled:
                 p_full, p_mini = score_wet_product(p)
                 if p_full is None or p_mini is None:
                     continue
                 scored_full.append(p_full)
                 minified.append(p_mini)
+            
+            # Attach shared assessments
+            scored_full = attach_shared_assessment(scored_full, category='wet')
+            minified = attach_shared_assessment(minified, category='wet')
+            
             scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
             minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
             save_json(full_wet_path, scored_full)
@@ -166,16 +225,27 @@ def rescore_cached_data(data_dir):
             u_cnt = len(minified) - r_cnt
             print(f"  [Scorer] {ret} wet food: {len(minified)} products ({r_cnt} ranked, {u_cnt} unranked).")
 
+        # Dry food
         full_dry_path = os.path.join(data_dir, f"{ret}_dry_full.json")
         if os.path.exists(full_dry_path):
             with open(full_dry_path, 'r', encoding='utf-8') as f:
                 raw = json.load(f)
+            
+            # Reconcile
+            reconciled, summary = reconcile_batch(raw, ret, matches_config)
+            print(f"  [Reconciliation] {ret} dry: {summary.get('matched_count', 0)} matched, {summary.get('unmatched_count', 0)} unmatched.")
+            
             scored_full = []
             minified = []
-            for p in raw:
+            for p in reconciled:
                 p_full, p_mini = score_dry_product(p)
                 scored_full.append(p_full)
                 minified.append(p_mini)
+            
+            # Attach shared assessments
+            scored_full = attach_shared_assessment(scored_full, category='dry')
+            minified = attach_shared_assessment(minified, category='dry')
+            
             scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
             minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
             save_json(full_dry_path, scored_full)

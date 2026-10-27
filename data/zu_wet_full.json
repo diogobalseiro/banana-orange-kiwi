@@ -72,7 +72,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 60,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7995554",
@@ -147,7 +152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 60,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7995551",
@@ -222,7 +232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 58,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8079996",
@@ -297,7 +312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 85,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8838779",
@@ -372,7 +392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 70,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8079998",
@@ -447,7 +472,232 @@
     "has_marine_omega": false,
     "high_meat_pct": 85,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
+  },
+  {
+    "pid": "7628367",
+    "name": "Comida Húmida para Gato Adulto Tartelette Duo Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-duo-purina-gourmet-gold-7628367",
+    "retailer": "ZU",
+    "ingredients": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca), Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "description": "Caraterísticas\nDescrição:\nNão quer que as refeições do seu gato se tornem monótonas, por isso procura sempre diferentes alternativas que ele irá adorar. É por isso que GOURMET GOLD criou Tartelette, uma deliciosa gama prep\nSabor:\nPeixe do Oceano",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 79.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.5,
+      "protein_dmb": 51.2,
+      "fat_dmb": 29.3,
+      "carbs_nfe": 1.5,
+      "carbs_dmb": 7.3,
+      "ca_p_ratio": null
+    },
+    "score": 73,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 6.97,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": 30,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_tartelette_duo_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.154375+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% atum, 4% peixe do oceano), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
+        "verified_value": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca), Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Constituintes Analíticos: Humidade 74%. Proteína bruta 17%. Matéria gorda bruta 4%. Cinza bruta 2%. Fibra bruta 0,5%.",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7628367",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_tartelette_duo_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
+  },
+  {
+    "pid": "5739885",
+    "name": "Comida Húmida para Gato Adulto Tartelette Vaca Tomate Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-vaca-tomate-purina-gourmet-gold-5739885",
+    "retailer": "ZU",
+    "ingredients": "Carne e subprodutos de origem animal (40% Vaca), Tomate (4%), Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+    "description": "Caraterísticas\nDescrição:\nGOURMET Gold Tartelette contém pedacinhos delicadamente cortados com vaca, frango ou outros sabores requintados e um toque de legumes selecionados, cuidadosamente temperados com apenas um pouco de molho.\nTudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais.\nSabor:\nVaca",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 79.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.5,
+      "protein_dmb": 51.2,
+      "fat_dmb": 29.3,
+      "carbs_nfe": 1.5,
+      "carbs_dmb": 7.3,
+      "ca_p_ratio": null
+    },
+    "score": 73,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 6.97,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "high_meat_pct": 40,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.154378+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais (23%, dos quais 4% vaca), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1.2% tomate desidratado, equivalente a 10.8% tomate), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
+        "verified_value": "Carne e subprodutos de origem animal (40% Vaca), Tomate (4%), Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Constituintes Analíticos: Humidade 74%; Proteína bruta 17%; Matéria gorda bruta 4%; Cinza bruta 2%; Fibra bruta 0,5%.",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "5739885",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
   },
   {
     "pid": "7413364",
@@ -522,7 +772,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7413362",
@@ -597,7 +852,122 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
+  },
+  {
+    "pid": "7705743",
+    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Peixe do Oceano Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicias-suculentas-peixe-do-oceano-purina-gourmet-gold-7705743",
+    "retailer": "ZU",
+    "ingredients": "Peixes e subprodutos de peixes (40%), Carne e subprodutos de origem animal, Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+    "description": "Caraterísticas\nDescrição:\nGOURMET Gold criou Delícias Suculentas: uma receita deliciosa com suculentos pedaços cozinhados lentamente para deliciar o seu gato.\nSabor:\nPeixe",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 80.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.0,
+      "protein_dmb": 52.5,
+      "fat_dmb": 30.0,
+      "carbs_nfe": 1.0,
+      "carbs_dmb": 5.0,
+      "ca_p_ratio": null
+    },
+    "score": 65,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 6.21,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.154373+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% peixe do oceano), substâncias minerais, subprodutos de origem vegetal, açúcares.",
+        "verified_value": "Peixes e subprodutos de peixes (40%), Carne e subprodutos de origem animal, Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.2%, Fibra bruta: 0.05%.",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7705743",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
   },
   {
     "pid": "7413363",
@@ -672,7 +1042,233 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
+  },
+  {
+    "pid": "7705744",
+    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Frango Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicias-suculentas-frango-purina-gourmet-gold-7705744",
+    "retailer": "ZU",
+    "ingredients": "Carne e subprodutos de origem animal (40% Frango), Cereais, Extratos de origem vegetal, Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+    "description": "Caraterísticas\nDescrição:\nGOURMET Gold criou Delícias Suculentas: uma receita deliciosa com suculentos pedaços cozinhados lentamente  para deliciar o seu gato.\nSabor:\nFrango",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 10.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 80.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 20.0,
+      "protein_dmb": 52.5,
+      "fat_dmb": 30.0,
+      "carbs_nfe": 1.0,
+      "carbs_dmb": 5.0,
+      "ca_p_ratio": null
+    },
+    "score": 58,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "has_sugar": false,
+    "has_grains": true,
+    "has_veg_protein": false,
+    "value_ratio": 5.54,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": 40,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.154357+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais (18%dos quais 8% frango), extractos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
+        "verified_value": "Carne e subprodutos de origem animal (40% Frango), Cereais, Extratos de origem vegetal, Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.2%, Fibra bruta: 0.05%.",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7705744",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
+  },
+  {
+    "pid": "5304997",
+    "name": "Comida Húmida para Gato Júnior Mousse Gatinhos Vitela Purina Gourmet Gold",
+    "brand": "Purina Gourmet Gold",
+    "price": 0.89,
+    "unit_price_kg": 10.47,
+    "pack_size": "emb. 85 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-junior-mousse-gatinhos-vitela-purina-gourmet-gold-5304997",
+    "retailer": "ZU",
+    "ingredients": "Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais",
+    "nutrition_raw": "Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%",
+    "description": "Caraterísticas\nDescrição:\nMousse para Gatinhos de GOURMET , uma suave e aveludada delícia especialmente elaborada para o seu gatinho. Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nVitela",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 13.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 7.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 74.5,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 3.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 25.5,
+      "protein_dmb": 51.0,
+      "fat_dmb": 27.5,
+      "carbs_nfe": 2.0,
+      "carbs_dmb": 7.8,
+      "ca_p_ratio": null
+    },
+    "score": 57,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
+    "classification": "Completo",
+    "is_kitten": true,
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "value_ratio": 5.44,
+    "carb_band": "<10% DMB (Ideal)",
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.154404+00:00",
+    "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development.",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Caraterísticas\nDescrição:\nMousse para Gatinhos de GOURMET , uma suave e aveludada delícia especialmente elaborada para o seu gatinho. Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nVitela",
+        "verified_value": "Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Constituintes Analíticos: Humidade 74,5%. Proteína bruta 13%. Matéria gorda bruta 7%. Cinza bruta 3,5%. Fibra bruta 0,05%.",
+        "verified_value": "Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "5304997",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development."
+    }
   },
   {
     "pid": "7413360",
@@ -747,7 +1343,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7864274",
@@ -822,82 +1423,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 44,
     "is_ranked": true,
-    "unranked_reasons": []
-  },
-  {
-    "pid": "7705744",
-    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Frango Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicias-suculentas-frango-purina-gourmet-gold-7705744",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carnes e subprodutos animais (18%dos quais 8% frango), extractos de proteína vegetal, peixes e subprodutos de peixes, substâncias minerais, subprodutos de origem vegetal, açúcares.",
-    "nutrition_raw": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.2%, Fibra bruta: 0.05%.",
-    "description": "Caraterísticas\nDescrição:\nGOURMET Gold criou Delícias Suculentas: uma receita deliciosa com suculentos pedaços cozinhados lentamente  para deliciar o seu gato.\nSabor:\nFrango",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 13.5,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 2.8,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 80.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 2.2,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.05,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 20.0,
-      "protein_dmb": 67.5,
-      "fat_dmb": 14.0,
-      "carbs_nfe": 1.5,
-      "carbs_dmb": 7.3,
-      "ca_p_ratio": null
-    },
-    "score": 32,
-    "tier": "Tier D (Evitar / Açúcares e Cereais)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": 3.06,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": 8,
-    "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5739886",
@@ -908,21 +1439,21 @@
     "pack_size": "emb. 85 g",
     "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-frango-cenouras-purina-gourmet-gold-5739886",
     "retailer": "ZU",
-    "ingredients": "Composição: Carnes e subprodutos animais (25%, dos quais 10% frango), extratos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1% (1% cenouras desidratadas, equivalente a 9% cenouras), subprodutos de origem vegetal, açúcares, substâncias minerais.",
-    "nutrition_raw": "Constituintes Analíticos: Humidade 74%; Proteína bruta 17%; Matéria gorda bruta 4%; Cinza bruta 2%; Fibra bruta 0,5%.",
+    "ingredients": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango), Vegetais (4% Cenoura), Minerais",
+    "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
     "description": "Caraterísticas\nDescrição:\nNão quer que as refeições do seu gato se tornem monótonas, por isso procura sempre diferentes alternativas que ele irá adorar. É por isso que GOURMET GOLD criou Tartelette, uma deliciosa gama prep\nSabor:\nFrango",
     "nutrition_parsed": {
       "status": "valid",
       "protein": {
-        "value": 17.0,
+        "value": 10.5,
         "status": "valid"
       },
       "fat": {
-        "value": 4.0,
+        "value": 6.0,
         "status": "valid"
       },
       "moisture": {
-        "value": 74.0,
+        "value": 79.5,
         "status": "valid"
       },
       "ash": {
@@ -950,29 +1481,64 @@
         "unit": null,
         "status": "missing"
       },
-      "dm_pct": 26.0,
-      "protein_dmb": 65.4,
-      "fat_dmb": 15.4,
-      "carbs_nfe": 2.5,
-      "carbs_dmb": 9.6,
+      "dm_pct": 20.5,
+      "protein_dmb": 51.2,
+      "fat_dmb": 29.3,
+      "carbs_nfe": 1.5,
+      "carbs_dmb": 7.3,
       "ca_p_ratio": null
     },
-    "score": 32,
-    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "score": 50,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
     "classification": "Completo",
     "is_kitten": false,
-    "has_sugar": true,
+    "has_sugar": false,
     "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": 3.06,
+    "has_veg_protein": false,
+    "value_ratio": 4.78,
     "carb_band": "<10% DMB (Ideal)",
     "has_organs": false,
     "has_carrageenan": false,
     "has_taurine": false,
     "has_marine_omega": false,
-    "high_meat_pct": 10,
+    "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
+    "is_reconciled": true,
+    "reconciliation_timestamp": "2026-10-27T18:21:00.154367+00:00",
+    "has_conflicts": true,
+    "conflicts": [
+      {
+        "field": "ingredients",
+        "retailer_value": "Composição: Carnes e subprodutos animais (25%, dos quais 10% frango), extratos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1% (1% cenouras desidratadas, equivalente a 9% cenouras), subprodutos de origem vegetal, açúcares, substâncias minerais.",
+        "verified_value": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango), Vegetais (4% Cenoura), Minerais",
+        "resolution": "prefer_verified"
+      },
+      {
+        "field": "nutrition_raw",
+        "retailer_value": "Constituintes Analíticos: Humidade 74%; Proteína bruta 17%; Matéria gorda bruta 4%; Cinza bruta 2%; Fibra bruta 0,5%.",
+        "verified_value": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+        "resolution": "prefer_verified"
+      }
+    ],
+    "reconciliation_notes": [
+      "Ingredients conflict resolved in favor of verified formulation",
+      "Nutrition conflict resolved in favor of verified formulation",
+      "2 field conflicts detected"
+    ],
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "5739886",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
+      "score_source": "shared_formulation",
+      "formulation_notes": null
+    }
   },
   {
     "pid": "6290678",
@@ -1047,7 +1613,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6819601",
@@ -1122,7 +1693,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923285",
@@ -1197,7 +1773,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045859",
@@ -1272,7 +1853,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4055520",
@@ -1347,7 +1933,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3584044",
@@ -1422,232 +2013,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
-  },
-  {
-    "pid": "7705743",
-    "name": "Comida Húmida para Gato Adulto Delícias Suculentas Peixe do Oceano Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-delicias-suculentas-peixe-do-oceano-purina-gourmet-gold-7705743",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carnes e subprodutos animais, extractos de proteína vegetal, peixes e subprodutos de peixes (4% peixe do oceano), substâncias minerais, subprodutos de origem vegetal, açúcares.",
-    "nutrition_raw": "Constituintes Analíticos: Humidade: 80.0%, Proteína bruta: 13.5%, Matéria gorda bruta: 2.8%, Cinza bruta: 2.2%, Fibra bruta: 0.05%.",
-    "description": "Caraterísticas\nDescrição:\nGOURMET Gold criou Delícias Suculentas: uma receita deliciosa com suculentos pedaços cozinhados lentamente para deliciar o seu gato.\nSabor:\nPeixe",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 13.5,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 2.8,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 80.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 2.2,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.05,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 20.0,
-      "protein_dmb": 67.5,
-      "fat_dmb": 14.0,
-      "carbs_nfe": 1.5,
-      "carbs_dmb": 7.3,
-      "ca_p_ratio": null
-    },
-    "score": 20,
-    "tier": "Tier D (Evitar / Açúcares e Cereais)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": 1.91,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "is_ranked": true,
-    "unranked_reasons": []
-  },
-  {
-    "pid": "7628367",
-    "name": "Comida Húmida para Gato Adulto Tartelette Duo Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-duo-purina-gourmet-gold-7628367",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carnes e subprodutos animais, Extractos de proteína vegetal, Peixes e subprodutos de peixes (4% atum, 4% peixe do oceano), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
-    "nutrition_raw": "Constituintes Analíticos: Humidade 74%. Proteína bruta 17%. Matéria gorda bruta 4%. Cinza bruta 2%. Fibra bruta 0,5%.",
-    "description": "Caraterísticas\nDescrição:\nNão quer que as refeições do seu gato se tornem monótonas, por isso procura sempre diferentes alternativas que ele irá adorar. É por isso que GOURMET GOLD criou Tartelette, uma deliciosa gama prep\nSabor:\nPeixe do Oceano",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 17.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 4.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 74.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 2.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 26.0,
-      "protein_dmb": 65.4,
-      "fat_dmb": 15.4,
-      "carbs_nfe": 2.5,
-      "carbs_dmb": 9.6,
-      "ca_p_ratio": null
-    },
-    "score": 20,
-    "tier": "Tier D (Evitar / Açúcares e Cereais)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": 1.91,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "is_ranked": true,
-    "unranked_reasons": []
-  },
-  {
-    "pid": "5739885",
-    "name": "Comida Húmida para Gato Adulto Tartelette Vaca Tomate Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-tartelette-vaca-tomate-purina-gourmet-gold-5739885",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carnes e subprodutos animais (23%, dos quais 4% vaca), Extractos de proteína vegetal, Peixes e subprodutos de peixes, Legumes (1.2% tomate desidratado, equivalente a 10.8% tomate), Subprodutos de origem vegetal, Açúcares, Substâncias minerais.",
-    "nutrition_raw": "Constituintes Analíticos: Humidade 74%; Proteína bruta 17%; Matéria gorda bruta 4%; Cinza bruta 2%; Fibra bruta 0,5%.",
-    "description": "Caraterísticas\nDescrição:\nGOURMET Gold Tartelette contém pedacinhos delicadamente cortados com vaca, frango ou outros sabores requintados e um toque de legumes selecionados, cuidadosamente temperados com apenas um pouco de molho.\nTudo se junta numa deliciosa tartelette para o seu gato saborear cada pedaço. Todas as receitas GOURMET Gold são preparadas sem adição de corantes, conservantes e aromatizantes artificiais.\nSabor:\nVaca",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 17.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 4.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 74.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 2.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 26.0,
-      "protein_dmb": 65.4,
-      "fat_dmb": 15.4,
-      "carbs_nfe": 2.5,
-      "carbs_dmb": 9.6,
-      "ca_p_ratio": null
-    },
-    "score": 20,
-    "tier": "Tier D (Evitar / Açúcares e Cereais)",
-    "classification": "Completo",
-    "is_kitten": false,
-    "has_sugar": true,
-    "has_grains": false,
-    "has_veg_protein": true,
-    "value_ratio": 1.91,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_organs": false,
-    "has_carrageenan": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "high_meat_pct": null,
-    "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045770",
@@ -1722,7 +2093,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6817787",
@@ -1797,7 +2173,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6817785",
@@ -1872,7 +2253,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6817786",
@@ -1947,7 +2333,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3584121",
@@ -2022,7 +2413,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8195760",
@@ -2097,7 +2493,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6322582",
@@ -2172,7 +2573,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7378162",
@@ -2247,7 +2653,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 26,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6994535",
@@ -2322,7 +2733,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6994533",
@@ -2397,7 +2813,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6817784",
@@ -2472,7 +2893,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6994537",
@@ -2547,7 +2973,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8195786",
@@ -2622,7 +3053,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8196333",
@@ -2697,7 +3133,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8196336",
@@ -2772,7 +3213,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2210475",
@@ -2847,7 +3293,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6322925",
@@ -2922,7 +3373,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6322617",
@@ -2997,7 +3453,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6322689",
@@ -3072,7 +3533,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8033048",
@@ -3147,7 +3613,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8153891",
@@ -3222,7 +3693,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7378163",
@@ -3297,7 +3773,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6179464",
@@ -3372,7 +3853,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7166054",
@@ -3447,7 +3933,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6178150",
@@ -3522,7 +4013,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6177881",
@@ -3597,7 +4093,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7166188",
@@ -3672,7 +4173,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7166062",
@@ -3747,7 +4253,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7166189",
@@ -3822,7 +4333,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6177999",
@@ -3897,7 +4413,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6178398",
@@ -3972,7 +4493,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6986997",
@@ -4047,7 +4573,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6178269",
@@ -4122,7 +4653,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6179399",
@@ -4197,7 +4733,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8838780",
@@ -4275,6 +4816,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4352,6 +4898,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4429,6 +4980,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4506,6 +5062,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4583,6 +5144,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4660,6 +5226,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4737,6 +5308,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4814,83 +5390,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
-    ]
-  },
-  {
-    "pid": "5304997",
-    "name": "Comida Húmida para Gato Júnior Mousse Gatinhos Vitela Purina Gourmet Gold",
-    "brand": "Purina Gourmet Gold",
-    "price": 0.89,
-    "unit_price_kg": 10.47,
-    "pack_size": "emb. 85 g",
-    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-junior-mousse-gatinhos-vitela-purina-gourmet-gold-5304997",
-    "retailer": "ZU",
-    "ingredients": "Caraterísticas\nDescrição:\nMousse para Gatinhos de GOURMET , uma suave e aveludada delícia especialmente elaborada para o seu gatinho. Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nVitela",
-    "nutrition_raw": "Constituintes Analíticos: Humidade 74,5%. Proteína bruta 13%. Matéria gorda bruta 7%. Cinza bruta 3,5%. Fibra bruta 0,05%.",
-    "description": "Caraterísticas\nDescrição:\nMousse para Gatinhos de GOURMET , uma suave e aveludada delícia especialmente elaborada para o seu gatinho. Todas as receitas de GOURMET Gold são elaboradas com ingredientes de elevada qualidade e sem adição de corantes, sem adição de aromatizantes artificiais e sem adição de conservantes artificiais.\nSabor:\nVitela",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 13.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 7.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 74.5,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 3.5,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 0.05,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 25.5,
-      "protein_dmb": 51.0,
-      "fat_dmb": 27.5,
-      "carbs_nfe": 2.0,
-      "carbs_dmb": 7.6,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "classification": "Completo",
-    "is_kitten": true,
-    "has_sugar": null,
-    "has_grains": null,
-    "has_veg_protein": null,
-    "value_ratio": null,
-    "carb_band": "<10% DMB (Ideal)",
-    "has_organs": null,
-    "has_carrageenan": null,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "high_meat_pct": null,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -4968,6 +5472,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5045,6 +5554,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5122,6 +5636,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5199,6 +5718,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5276,6 +5800,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5353,6 +5882,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5430,6 +5964,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5507,6 +6046,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5584,6 +6128,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5661,6 +6210,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5738,6 +6292,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5815,6 +6374,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5892,6 +6456,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -5969,6 +6538,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6046,6 +6620,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6123,6 +6702,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6200,6 +6784,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6277,6 +6866,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6354,6 +6948,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6431,6 +7030,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6508,6 +7112,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6586,6 +7195,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6664,6 +7278,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6742,6 +7361,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6820,6 +7444,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6898,6 +7527,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -6976,6 +7610,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7054,6 +7693,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7132,6 +7776,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7210,6 +7859,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7288,6 +7942,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7366,6 +8025,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7444,6 +8108,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7522,6 +8191,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7600,6 +8274,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7678,6 +8357,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7756,6 +8440,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7834,6 +8523,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7912,6 +8606,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -7990,6 +8689,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8068,6 +8772,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8146,6 +8855,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8224,6 +8938,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8302,6 +9021,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8380,6 +9104,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8458,6 +9187,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8536,6 +9270,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8614,6 +9353,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8692,6 +9436,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8770,6 +9519,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8848,6 +9602,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -8926,6 +9685,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9004,6 +9768,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9082,6 +9851,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9160,6 +9934,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9238,6 +10017,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9316,6 +10100,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9394,6 +10183,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9472,6 +10266,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9550,6 +10349,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9628,6 +10432,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9705,6 +10514,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9782,6 +10596,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9859,6 +10678,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -9936,6 +10760,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10013,6 +10842,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10090,6 +10924,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10167,6 +11006,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10244,6 +11088,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10321,6 +11170,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10398,6 +11252,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10475,6 +11334,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10552,6 +11416,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10629,6 +11498,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10706,6 +11580,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10783,6 +11662,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10860,6 +11744,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -10937,6 +11826,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11014,6 +11908,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11091,6 +11990,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11168,6 +12072,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11245,6 +12154,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11322,6 +12236,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11399,6 +12318,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11476,6 +12400,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11553,6 +12482,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11630,6 +12564,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11707,6 +12646,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11784,6 +12728,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11861,6 +12810,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -11938,6 +12892,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12015,6 +12974,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12092,6 +13056,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12169,6 +13138,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12246,6 +13220,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12323,6 +13302,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12400,6 +13384,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12477,6 +13466,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12554,6 +13548,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12631,6 +13630,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12708,6 +13712,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12785,6 +13794,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12862,6 +13876,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -12939,6 +13958,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13016,6 +14040,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13093,6 +14122,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13170,6 +14204,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13247,6 +14286,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13324,6 +14368,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13401,6 +14450,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13478,6 +14532,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13555,6 +14614,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13632,6 +14696,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13709,6 +14778,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13786,6 +14860,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13863,6 +14942,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -13940,6 +15024,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14017,6 +15106,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14094,6 +15188,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14171,6 +15270,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14248,6 +15352,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14325,6 +15434,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14402,6 +15516,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14479,6 +15598,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14556,6 +15680,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14633,6 +15762,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14710,6 +15844,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14787,6 +15926,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14864,6 +16008,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -14941,6 +16090,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15018,6 +16172,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15095,6 +16254,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15172,6 +16336,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15249,6 +16418,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15326,6 +16500,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15403,6 +16582,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15480,6 +16664,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15557,6 +16746,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15634,6 +16828,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15711,6 +16910,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15788,6 +16992,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15865,6 +17074,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -15942,6 +17156,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16019,6 +17238,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16096,6 +17320,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16173,6 +17402,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16250,6 +17484,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16327,6 +17566,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16404,6 +17648,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16481,6 +17730,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16558,6 +17812,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16635,6 +17894,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16712,6 +17976,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16789,6 +18058,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16866,6 +18140,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16943,6 +18222,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17020,6 +18304,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17097,6 +18386,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17174,6 +18468,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17251,6 +18550,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17328,6 +18632,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17405,6 +18714,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17482,6 +18796,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17559,6 +18878,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17636,6 +18960,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17713,6 +19042,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17791,6 +19125,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17869,6 +19208,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17947,6 +19291,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18024,6 +19373,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18101,6 +19455,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18178,6 +19537,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18255,6 +19619,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18332,6 +19701,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18409,6 +19783,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18486,6 +19865,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18564,6 +19948,11 @@
     "unranked_reasons": [
       "invalid_composition",
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18641,6 +20030,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18718,6 +20112,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18795,6 +20194,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18872,6 +20276,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18949,6 +20358,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19026,6 +20440,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19103,6 +20522,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19180,6 +20604,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19257,6 +20686,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19334,6 +20768,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19411,6 +20850,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19488,6 +20932,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19565,6 +21014,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19642,6 +21096,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19719,6 +21178,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19796,6 +21260,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19873,6 +21342,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -19950,6 +21424,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20027,6 +21506,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20104,6 +21588,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20181,6 +21670,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20258,6 +21752,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20335,6 +21834,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20412,6 +21916,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20489,6 +21998,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20566,6 +22080,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20643,6 +22162,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20720,6 +22244,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20797,6 +22326,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20874,6 +22408,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -20951,6 +22490,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21028,6 +22572,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21105,6 +22654,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21182,6 +22736,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21259,6 +22818,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21336,6 +22900,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21413,6 +22982,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21490,6 +23064,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21567,6 +23146,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21644,6 +23228,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21721,6 +23310,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21798,6 +23392,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -21875,6 +23474,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   }
 ]

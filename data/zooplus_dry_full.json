@@ -73,7 +73,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Wild Freedom é um alimento completo para gatos adultos castrados ou esterilizados. Composição 30 % carne fresca de frango"
+    "first_ingredient": "Wild Freedom é um alimento completo para gatos adultos castrados ou esterilizados. Composição 30 % carne fresca de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1227170",
@@ -149,7 +154,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango desossado (30%)"
+    "first_ingredient": "Frango desossado (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1227168",
@@ -225,7 +235,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango fresco sem ossos (30 %)"
+    "first_ingredient": "Frango fresco sem ossos (30 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "669385",
@@ -301,7 +316,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteínas desidratadas de suínos e aves*"
+    "first_ingredient": "Proteínas desidratadas de suínos e aves*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2195452",
@@ -377,7 +397,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Smilla Sterilised receita sem cereais com salmão é um alimento completo para gatos adultos Frango (seco)"
+    "first_ingredient": "Smilla Sterilised receita sem cereais com salmão é um alimento completo para gatos adultos Frango (seco)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2195428",
@@ -453,7 +478,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Smilla Sterilised receita sem cereais com frango é um alimento completo para gatos adultos 37 % frango (seco)"
+    "first_ingredient": "Smilla Sterilised receita sem cereais com frango é um alimento completo para gatos adultos 37 % frango (seco)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1227169",
@@ -529,7 +559,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Comnposição Cordeiro fresco sem ossos (28 %)"
+    "first_ingredient": "Comnposição Cordeiro fresco sem ossos (28 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363064",
@@ -605,7 +640,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Farinha de frango"
+    "first_ingredient": "Farinha de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1227361",
@@ -681,7 +721,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Bacalhau fresco (27 %)"
+    "first_ingredient": "Bacalhau fresco (27 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362956",
@@ -757,7 +802,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "492418",
@@ -833,7 +883,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "32 % de proteínas animais de aves (desidratadas)"
+    "first_ingredient": "32 % de proteínas animais de aves (desidratadas)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363061",
@@ -909,7 +964,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "24% farinha de carne de aves"
+    "first_ingredient": "24% farinha de carne de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2110931",
@@ -985,7 +1045,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango (42%"
+    "first_ingredient": "Frango (42%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "857437",
@@ -1061,7 +1126,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "34 % proteína de aves (desidratada"
+    "first_ingredient": "34 % proteína de aves (desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "997478",
@@ -1137,7 +1207,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Smilla Sterilised com peixe é um aliemnto completo para gatos adultos. Composição: proteína de aves (desidratada"
+    "first_ingredient": "Smilla Sterilised com peixe é um aliemnto completo para gatos adultos. Composição: proteína de aves (desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2434458",
@@ -1213,7 +1288,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Robalo fresco (25%)"
+    "first_ingredient": "Robalo fresco (25%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1565134",
@@ -1289,7 +1369,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "31 % proteína animal de aves (desidratada)"
+    "first_ingredient": "31 % proteína animal de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "544140",
@@ -1365,7 +1450,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Peru de alta qualidade (20%"
+    "first_ingredient": "Peru de alta qualidade (20%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362964",
@@ -1441,7 +1531,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteína de carne de aves (desidratada)"
+    "first_ingredient": "Proteína de carne de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "629222",
@@ -1517,7 +1612,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango de alta qualidade (19%"
+    "first_ingredient": "Frango de alta qualidade (19%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363058",
@@ -1593,7 +1693,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Alimento completo para gatos. Composição: 22 % farinha de carne de aves"
+    "first_ingredient": "Alimento completo para gatos. Composição: 22 % farinha de carne de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471922",
@@ -1669,7 +1774,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Farinha de frango (18%) e peru"
+    "first_ingredient": "Farinha de frango (18%) e peru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1114332",
@@ -1745,7 +1855,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Carne de vaca: Carne e subprodutos animais (dos quais carne de vaca* 4%)"
+    "first_ingredient": "Carne de vaca: Carne e subprodutos animais (dos quais carne de vaca* 4%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "496632",
@@ -1821,7 +1936,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Salmão de alta qualidade (18%) (incluindo cabeça"
+    "first_ingredient": "Salmão de alta qualidade (18%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1930606",
@@ -1897,7 +2017,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteína de porco desidratada*"
+    "first_ingredient": "Proteína de porco desidratada*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1323920",
@@ -1973,7 +2098,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteína de aves 25% (desidratada"
+    "first_ingredient": "Proteína de aves 25% (desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363062",
@@ -2049,7 +2179,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "30% proteína animal de aves (desidratada)"
+    "first_ingredient": "30% proteína animal de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362963",
@@ -2125,7 +2260,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "760799",
@@ -2201,7 +2341,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Amido de batata*"
+    "first_ingredient": "Amido de batata*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "497055",
@@ -2277,7 +2422,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Cereais (10% de trigo integral"
+    "first_ingredient": "Cereais (10% de trigo integral",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1868837",
@@ -2355,7 +2505,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru secos (33%"
+    "first_ingredient": "Frango e peru secos (33%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362919",
@@ -2433,7 +2588,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (49%"
+    "first_ingredient": "Frango (49%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "666946",
@@ -2511,7 +2671,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "30% frango"
+    "first_ingredient": "30% frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1868579",
@@ -2589,7 +2754,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru secos (31%"
+    "first_ingredient": "Frango e peru secos (31%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "758787",
@@ -2667,7 +2837,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Wild Freedom é uma comida completa para gatos adultos castrados/esterilizados. Composição: 40% de carne fresca de aves"
+    "first_ingredient": "Wild Freedom é uma comida completa para gatos adultos castrados/esterilizados. Composição: 40% de carne fresca de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "575970",
@@ -2745,7 +2920,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango desidratado (64"
+    "first_ingredient": "Frango desidratado (64",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1784445",
@@ -2823,7 +3003,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos. Composição : 75 % de carne de peru ( desidratada e moída)"
+    "first_ingredient": "Alimento completo para gatos adultos. Composição : 75 % de carne de peru ( desidratada e moída)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2095098",
@@ -2901,7 +3086,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos de todas as raças. Composição: Cosma Air-Dried com salmão e frango com brócolos e mirtilos: 50% de frango (constituído por carne de frango"
+    "first_ingredient": "Alimento completo para gatos adultos de todas as raças. Composição: Cosma Air-Dried com salmão e frango com brócolos e mirtilos: 50% de frango (constituído por carne de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2153314",
@@ -2979,7 +3169,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: Ração seca Cosma Air-Dried com atum e frango com batata-doce e mirtilo: 50% de frango (constituído por carne de frango"
+    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: Ração seca Cosma Air-Dried com atum e frango com batata-doce e mirtilo: 50% de frango (constituído por carne de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "434632",
@@ -3057,7 +3252,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "30 % carne de frango"
+    "first_ingredient": "30 % carne de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362918",
@@ -3135,7 +3335,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de carne de frango (40%)"
+    "first_ingredient": "Farinha de carne de frango (40%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2204193",
@@ -3213,7 +3418,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "50% carne fresca de vaca"
+    "first_ingredient": "50% carne fresca de vaca",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "492942",
@@ -3291,7 +3501,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (44%"
+    "first_ingredient": "Frango (44%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362917",
@@ -3369,7 +3584,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (49"
+    "first_ingredient": "Frango (49",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "492940",
@@ -3447,7 +3667,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (48%"
+    "first_ingredient": "Frango (48%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2429157",
@@ -3525,7 +3750,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos de todas as raças e tamanhos. Composição Salmão fresco (30%)"
+    "first_ingredient": "Alimento completo para gatos adultos de todas as raças e tamanhos. Composição Salmão fresco (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2204172",
@@ -3603,7 +3833,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: 50% de carne fresca de frango"
+    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: 50% de carne fresca de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2204235",
@@ -3681,7 +3916,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: 50% de salmão fresco"
+    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: 50% de salmão fresco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2204293",
@@ -3759,7 +3999,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: 50% de carne fresca de pato"
+    "first_ingredient": "Alimento completo para gatos adultos de todas as raças Composição: 50% de carne fresca de pato",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1883915",
@@ -3837,7 +4082,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru fresco de origem francesa* (20 %"
+    "first_ingredient": "Peru fresco de origem francesa* (20 %",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "586194",
@@ -3915,7 +4165,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peixe do mar (45"
+    "first_ingredient": "Peixe do mar (45",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "693837",
@@ -3993,7 +4248,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne e subprodutos animais (carne de porco e de aves)"
+    "first_ingredient": "Carne e subprodutos animais (carne de porco e de aves)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1083772",
@@ -4071,7 +4331,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango do campo desossado* (30%)"
+    "first_ingredient": "Frango do campo desossado* (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2429132",
@@ -4149,7 +4414,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos de todas as raças e tamanhos. Composição Frango fresco (30%)"
+    "first_ingredient": "Alimento completo para gatos adultos de todas as raças e tamanhos. Composição Frango fresco (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1428103",
@@ -4227,7 +4497,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas desidratadas de suínos e aves"
+    "first_ingredient": "Proteínas desidratadas de suínos e aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "760892",
@@ -4305,7 +4580,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína desidratada de porco e aves"
+    "first_ingredient": "Proteína desidratada de porco e aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "716938",
@@ -4383,7 +4663,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de veado (28%)"
+    "first_ingredient": "Carne de veado (28%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "574453",
@@ -4461,7 +4746,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína seca de aves (30%)"
+    "first_ingredient": "Proteína seca de aves (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "669375",
@@ -4539,7 +4829,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas desidratadas de porco e aves"
+    "first_ingredient": "Proteínas desidratadas de porco e aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "669374",
@@ -4617,7 +4912,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas desidratadas de porco e aves"
+    "first_ingredient": "Proteínas desidratadas de porco e aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "669384",
@@ -4695,7 +4995,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína desidratada de carne de porco e de aves"
+    "first_ingredient": "Proteína desidratada de carne de porco e de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "539668",
@@ -4773,7 +5078,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (40"
+    "first_ingredient": "Frango (40",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1889773",
@@ -4851,7 +5161,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne fresca de frango (25%)"
+    "first_ingredient": "Carne fresca de frango (25%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "666947",
@@ -4929,7 +5244,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de javali (25%)"
+    "first_ingredient": "Carne de javali (25%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2013805",
@@ -5008,7 +5328,12 @@
       "missing_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "669383",
@@ -5086,7 +5411,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas desidratadas de suínos e aves"
+    "first_ingredient": "Proteínas desidratadas de suínos e aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2429232",
@@ -5164,7 +5494,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de vaca fresca (30%)"
+    "first_ingredient": "Carne de vaca fresca (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1322330",
@@ -5242,7 +5577,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peixe (33 %"
+    "first_ingredient": "Peixe (33 %",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1852737",
@@ -5320,7 +5660,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de porco (38%"
+    "first_ingredient": "Carne de porco (38%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1283558",
@@ -5398,7 +5743,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (parcialmente seca e hidrolisada)"
+    "first_ingredient": "Proteína de aves (parcialmente seca e hidrolisada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1879789",
@@ -5476,7 +5826,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (41%"
+    "first_ingredient": "Frango (41%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1494111",
@@ -5554,7 +5909,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de peru desossada* (20%)"
+    "first_ingredient": "Carne de peru desossada* (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1082794",
@@ -5632,7 +5992,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Sterilised Cats com salmão é um alimento completo para gatos adultos. Composição: 22"
+    "first_ingredient": "Concept for Life Sterilised Cats com salmão é um alimento completo para gatos adultos. Composição: 22",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1459213",
@@ -5710,7 +6075,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1083775",
@@ -5788,7 +6158,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango do campo desossado* (30%)"
+    "first_ingredient": "Frango do campo desossado* (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "434633",
@@ -5866,7 +6241,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arenque (32%)"
+    "first_ingredient": "Arenque (32%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "669382",
@@ -5944,7 +6324,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína desidratada de porco e aves"
+    "first_ingredient": "Proteína desidratada de porco e aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "707307",
@@ -6022,7 +6407,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru secos (39%"
+    "first_ingredient": "Frango e peru secos (39%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1925143",
@@ -6100,7 +6490,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne e subprodutos de origem animal (proteína de frango desidratada 14 %)"
+    "first_ingredient": "Carne e subprodutos de origem animal (proteína de frango desidratada 14 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1743021",
@@ -6178,7 +6573,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Pulmão de vaca (18"
+    "first_ingredient": "Pulmão de vaca (18",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457421",
@@ -6256,7 +6656,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (20%)"
+    "first_ingredient": "Frango (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1385402",
@@ -6334,7 +6739,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (frango 29%"
+    "first_ingredient": "Farinha de frango e peru (frango 29%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "592461",
@@ -6412,7 +6822,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2178789",
@@ -6490,7 +6905,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento dietético completo para gatos adultos Composição Proteína de frango (21%"
+    "first_ingredient": "Alimento dietético completo para gatos adultos Composição Proteína de frango (21%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1855414",
@@ -6568,7 +6988,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru secos (36%"
+    "first_ingredient": "Frango e peru secos (36%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363033",
@@ -6646,7 +7071,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru desidratados (38%"
+    "first_ingredient": "Frango e peru desidratados (38%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1880251",
@@ -6724,7 +7154,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (44%"
+    "first_ingredient": "Frango (44%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363032",
@@ -6802,7 +7237,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru secos 40% (frango 24%"
+    "first_ingredient": "Frango e peru secos 40% (frango 24%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1919898",
@@ -6880,7 +7320,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "NOVO 30% proteína de frango"
+    "first_ingredient": "NOVO 30% proteína de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363035",
@@ -6958,7 +7403,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango seco e peru seco 38% (dos quais 23% de frango"
+    "first_ingredient": "Frango seco e peru seco 38% (dos quais 23% de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "519783",
@@ -7036,7 +7486,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "NOVO Frango fresco (26%)"
+    "first_ingredient": "NOVO Frango fresco (26%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362928",
@@ -7114,7 +7569,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (frango 29%"
+    "first_ingredient": "Farinha de frango e peru (frango 29%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "667390",
@@ -7193,7 +7653,12 @@
       "missing_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1083774",
@@ -7271,7 +7736,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão norueguês sem espinhas* (30 %)"
+    "first_ingredient": "Salmão norueguês sem espinhas* (30 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1632822",
@@ -7349,7 +7819,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Calm é um alimento completo para gatos adultos. Composição Proteínas de aves (37"
+    "first_ingredient": "Concept for Life Calm é um alimento completo para gatos adultos. Composição Proteínas de aves (37",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1083777",
@@ -7427,7 +7902,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão norueguês sem espinhas* (30 %)"
+    "first_ingredient": "Salmão norueguês sem espinhas* (30 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1412237",
@@ -7505,7 +7985,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Maine Coon com slmão é um alimento completo para gatos adultos a partir dos 15 meses de idade. Composição 16 % de proteína de salmão (seca)"
+    "first_ingredient": "Concept for Life Maine Coon com slmão é um alimento completo para gatos adultos a partir dos 15 meses de idade. Composição 16 % de proteína de salmão (seca)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1800472",
@@ -7583,7 +8068,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos Composição : 33% salmão fresco"
+    "first_ingredient": "Alimento completo para gatos adultos Composição : 33% salmão fresco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1743213",
@@ -7661,7 +8151,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (19"
+    "first_ingredient": "Salmão (19",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1801614",
@@ -7739,7 +8234,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos Composição: 33% frango fresco"
+    "first_ingredient": "Alimento completo para gatos adultos Composição: 33% frango fresco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363036",
@@ -7817,7 +8317,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru desidratados (37%"
+    "first_ingredient": "Frango e peru desidratados (37%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362930",
@@ -7895,7 +8400,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (frango 14%"
+    "first_ingredient": "Farinha de frango e peru (frango 14%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363038",
@@ -7973,7 +8483,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "431473",
@@ -8051,7 +8566,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (frango 12%"
+    "first_ingredient": "Farinha de frango e peru (frango 12%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362936",
@@ -8129,7 +8649,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (frango 15%"
+    "first_ingredient": "Farinha de frango e peru (frango 15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1189809",
@@ -8207,7 +8732,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango* de alta qualidade (20%"
+    "first_ingredient": "Frango* de alta qualidade (20%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2617314",
@@ -8286,7 +8816,12 @@
       "missing_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362883",
@@ -8364,7 +8899,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1400472",
@@ -8444,7 +8984,12 @@
       "missing_composition",
       "invalid_nutrition (macro_sum_exceeds_100 (129.5%))"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "522756",
@@ -8522,7 +9067,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Kitten é um alimento completo para gatos em crescimento até aos 12 meses de idade e para fêmeas grávidas ou em lactação. Composição: 36 % de proteínas de frango (parcialmente secas e hidrolisadas)"
+    "first_ingredient": "Concept for Life Kitten é um alimento completo para gatos em crescimento até aos 12 meses de idade e para fêmeas grávidas ou em lactação. Composição: 36 % de proteínas de frango (parcialmente secas e hidrolisadas)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "978536",
@@ -8600,7 +9150,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de carne de frango (15%) e de peru"
+    "first_ingredient": "farinha de carne de frango (15%) e de peru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "707294",
@@ -8678,7 +9233,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango e peru secos (35%"
+    "first_ingredient": "Frango e peru secos (35%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "452755",
@@ -8756,7 +9316,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (15%"
+    "first_ingredient": "Salmão (15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363039",
@@ -8834,7 +9399,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "438355",
@@ -8912,7 +9482,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (frango 16%"
+    "first_ingredient": "Farinha de frango e peru (frango 16%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362931",
@@ -8990,7 +9565,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (frango 17%"
+    "first_ingredient": "Farinha de frango e peru (frango 17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457417",
@@ -9068,7 +9648,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362949",
@@ -9146,7 +9731,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão de alta qualidade (20%"
+    "first_ingredient": "Salmão de alta qualidade (20%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "629223",
@@ -9224,7 +9814,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru de alta qualidade (14%"
+    "first_ingredient": "Peru de alta qualidade (14%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362948",
@@ -9302,7 +9897,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango de alta qualidade (20%"
+    "first_ingredient": "Frango de alta qualidade (20%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362947",
@@ -9380,7 +9980,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru de alta qualidade* (18%"
+    "first_ingredient": "Peru de alta qualidade* (18%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363072",
@@ -9458,7 +10063,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de carne de frango (19%) e peru"
+    "first_ingredient": "farinha de carne de frango (19%) e peru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "601967",
@@ -9536,7 +10146,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína desidratada de aves"
+    "first_ingredient": "Proteína desidratada de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "918236",
@@ -9614,7 +10229,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão de alta qualidade (18%"
+    "first_ingredient": "Salmão de alta qualidade (18%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363082",
@@ -9692,7 +10312,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1108017",
@@ -9770,7 +10395,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (17 %)"
+    "first_ingredient": "Peru (17 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1108111",
@@ -9848,7 +10478,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (16 %)"
+    "first_ingredient": "Peru (16 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1108112",
@@ -9926,7 +10561,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18 %)"
+    "first_ingredient": "Salmão (18 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363040",
@@ -10004,7 +10644,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2655496",
@@ -10082,7 +10727,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Sterilized Adult com peru: Peru (15%)"
+    "first_ingredient": "Sterilized Adult com peru: Peru (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457418",
@@ -10160,7 +10810,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (15%)"
+    "first_ingredient": "Peru (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "741922",
@@ -10238,7 +10893,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "492165",
@@ -10316,7 +10976,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e peru (17% frango"
+    "first_ingredient": "Farinha de frango e peru (17% frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2452426",
@@ -10394,7 +11059,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (seca)"
+    "first_ingredient": "Proteína de aves (seca)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "522527",
@@ -10472,7 +11142,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Breed Complete Care – Maine Coon Adult é um alimento completo para gatos adultos. Frango (31%"
+    "first_ingredient": "Concept for Life Breed Complete Care – Maine Coon Adult é um alimento completo para gatos adultos. Frango (31%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "742127",
@@ -10550,7 +11225,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457068",
@@ -10628,7 +11308,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "560310",
@@ -10706,7 +11391,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (15 %"
+    "first_ingredient": "Salmão (15 %",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1962858",
@@ -10784,7 +11474,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "peru (16%) (incluindo ossos"
+    "first_ingredient": "peru (16%) (incluindo ossos",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "623517",
@@ -10862,7 +11557,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (15 % incl. ossos"
+    "first_ingredient": "Frango (15 % incl. ossos",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2073736",
@@ -10940,7 +11640,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peixe do mar (15 %"
+    "first_ingredient": "Peixe do mar (15 %",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1869919",
@@ -11018,7 +11723,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%) (incl. ossos"
+    "first_ingredient": "Frango (17%) (incl. ossos",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362889",
@@ -11096,7 +11806,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (15 %"
+    "first_ingredient": "Frango (15 %",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1855420",
@@ -11174,7 +11889,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362951",
@@ -11252,7 +11972,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru de alta qualidade (16%"
+    "first_ingredient": "Peru de alta qualidade (16%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362884",
@@ -11330,7 +12055,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "756640",
@@ -11408,7 +12138,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão de alta qualidade (19%) (incluindo cabeça"
+    "first_ingredient": "Salmão de alta qualidade (19%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "592459",
@@ -11486,7 +12221,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de soja em pó*"
+    "first_ingredient": "Proteína de soja em pó*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362975",
@@ -11564,7 +12304,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1086246",
@@ -11642,7 +12387,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão desossado* (20%)"
+    "first_ingredient": "Salmão desossado* (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457420",
@@ -11720,7 +12470,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (21%)"
+    "first_ingredient": "Frango (21%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "633655",
@@ -11798,7 +12553,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (15%"
+    "first_ingredient": "Frango (15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1283559",
@@ -11876,7 +12636,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento dietético completo para gatos adultos. Composição: Proteína de aves (parcialmente seca e hidrolisada) 24"
+    "first_ingredient": "Alimento dietético completo para gatos adultos. Composição: Proteína de aves (parcialmente seca e hidrolisada) 24",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363051",
@@ -11954,7 +12719,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (18%"
+    "first_ingredient": "Peru (18%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457424",
@@ -12032,7 +12802,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "580905",
@@ -12110,7 +12885,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (15%)"
+    "first_ingredient": "Peru (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "516057",
@@ -12188,7 +12968,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína seca de aves"
+    "first_ingredient": "Proteína seca de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362971",
@@ -12266,7 +13051,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína seca de aves"
+    "first_ingredient": "Proteína seca de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "805082",
@@ -12344,7 +13134,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de carne de frango (14%) e peru"
+    "first_ingredient": "farinha de carne de frango (14%) e peru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457358",
@@ -12423,7 +13218,12 @@
       "missing_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2647319",
@@ -12502,7 +13302,12 @@
       "missing_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "452694",
@@ -12580,7 +13385,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17% incluindo ossos"
+    "first_ingredient": "Frango (17% incluindo ossos",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362946",
@@ -12658,7 +13468,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango de alta qualidade (21%"
+    "first_ingredient": "Frango de alta qualidade (21%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "633683",
@@ -12736,7 +13551,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (15%"
+    "first_ingredient": "Peru (15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "452756",
@@ -12814,7 +13634,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1883340",
@@ -12892,7 +13717,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1011512",
@@ -12970,7 +13800,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Oral Care é um alimento completo para gatos adultos. Composição: 30"
+    "first_ingredient": "Concept for Life Oral Care é um alimento completo para gatos adultos. Composição: 30",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "517722",
@@ -13048,7 +13883,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457419",
@@ -13126,7 +13966,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362888",
@@ -13204,7 +14049,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (17%"
+    "first_ingredient": "Peru (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362981",
@@ -13282,7 +14132,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "789163",
@@ -13360,7 +14215,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Veterinary Diet Gastrointestinal é um alimento dietético completo para gatos adultos. Composição: Proteína de aves (32"
+    "first_ingredient": "Concept for Life Veterinary Diet Gastrointestinal é um alimento dietético completo para gatos adultos. Composição: Proteína de aves (32",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1901413",
@@ -13438,7 +14298,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Ovo inteiro desidratado (21 %)"
+    "first_ingredient": "Ovo inteiro desidratado (21 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "789093",
@@ -13516,7 +14381,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Veterinary Diet Hypoallergenic Insect é um alimento dietético completo para gatos adultos. Composição: 30"
+    "first_ingredient": "Concept for Life Veterinary Diet Hypoallergenic Insect é um alimento dietético completo para gatos adultos. Composição: 30",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2049918",
@@ -13594,7 +14464,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "27 % de bacalhau"
+    "first_ingredient": "27 % de bacalhau",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363073",
@@ -13672,7 +14547,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de carne de frango (19%) e de peru"
+    "first_ingredient": "farinha de carne de frango (19%) e de peru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2069538",
@@ -13750,7 +14630,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango e de peru (17% frango"
+    "first_ingredient": "Farinha de frango e de peru (17% frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362983",
@@ -13828,7 +14713,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363075",
@@ -13906,7 +14796,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de frango (18%) e de peru"
+    "first_ingredient": "Farinha de frango (18%) e de peru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1358224",
@@ -13984,7 +14879,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (seca)*"
+    "first_ingredient": "Proteína de aves (seca)*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "860919",
@@ -14062,7 +14962,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas*"
+    "first_ingredient": "proteínas de aves desidratadas*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "452757",
@@ -14140,7 +15045,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (17%) (incluindo cabeça"
+    "first_ingredient": "Salmão (17%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "742126",
@@ -14218,7 +15128,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "432055",
@@ -14296,7 +15211,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363052",
@@ -14374,7 +15294,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362977",
@@ -14452,7 +15377,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362970",
@@ -14530,7 +15460,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína seca de aves"
+    "first_ingredient": "Proteína seca de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363083",
@@ -14608,7 +15543,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína seca de aves*"
+    "first_ingredient": "Proteína seca de aves*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362973",
@@ -14686,7 +15626,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína desidratada de aves"
+    "first_ingredient": "Proteína desidratada de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "700212",
@@ -14764,7 +15709,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (seca)"
+    "first_ingredient": "Proteína de aves (seca)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362974",
@@ -14842,7 +15792,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "431487",
@@ -14920,7 +15875,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2641846",
@@ -14998,7 +15958,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cordeiro (31%"
+    "first_ingredient": "Cordeiro (31%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "789147",
@@ -15076,7 +16041,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Veterinary Diet Weight Control é um alimento dietético completo para gatos adultos. Composição: 42"
+    "first_ingredient": "Concept for Life Veterinary Diet Weight Control é um alimento dietético completo para gatos adultos. Composição: 42",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "545082",
@@ -15155,7 +16125,12 @@
       "missing_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "517723",
@@ -15233,7 +16208,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17%"
+    "first_ingredient": "Frango (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "452695",
@@ -15311,7 +16291,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (17%"
+    "first_ingredient": "Peru (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1962921",
@@ -15389,7 +16374,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "peixe do mar (16%) (incluindo cabeça"
+    "first_ingredient": "peixe do mar (16%) (incluindo cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362885",
@@ -15467,7 +16457,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (17 %"
+    "first_ingredient": "Frango (17 %",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362886",
@@ -15545,7 +16540,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (17%"
+    "first_ingredient": "Salmão (17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362955",
@@ -15623,7 +16623,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteína de aves (desidratada)"
+    "first_ingredient": "proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362954",
@@ -15701,7 +16706,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de carne de aves (desidratada)"
+    "first_ingredient": "Proteína de carne de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "931701",
@@ -15779,7 +16789,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento completo para gatos adultos. Composição: 31"
+    "first_ingredient": "Alimento completo para gatos adultos. Composição: 31",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "998673",
@@ -15857,7 +16872,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362972",
@@ -15935,7 +16955,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína seca de aves"
+    "first_ingredient": "Proteína seca de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362961",
@@ -16013,7 +17038,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363081",
@@ -16091,7 +17121,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362984",
@@ -16169,7 +17204,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de carne de aves desidratada"
+    "first_ingredient": "Proteína de carne de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362978",
@@ -16247,7 +17287,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas desidratadas de aves"
+    "first_ingredient": "Proteínas desidratadas de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362982",
@@ -16325,7 +17370,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves seca"
+    "first_ingredient": "Proteína de aves seca",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "431488",
@@ -16403,7 +17453,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína desidratada de aves"
+    "first_ingredient": "Proteína desidratada de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362980",
@@ -16481,7 +17536,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362979",
@@ -16559,7 +17619,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363060",
@@ -16637,7 +17702,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "23"
+    "first_ingredient": "23",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471857",
@@ -16715,7 +17785,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363077",
@@ -16793,7 +17868,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de glúten de milho"
+    "first_ingredient": "farinha de glúten de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "514356",
@@ -16872,7 +17952,12 @@
       "missing_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2680380",
@@ -16952,7 +18037,12 @@
       "missing_composition",
       "invalid_nutrition (macro_sum_exceeds_100 (103.4%))"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "756886",
@@ -17030,7 +18120,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "592460",
@@ -17108,7 +18203,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Glúten de trigo"
+    "first_ingredient": "Glúten de trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "435213",
@@ -17186,7 +18286,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de peixe"
+    "first_ingredient": "Farinha de peixe",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363076",
@@ -17264,7 +18369,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz fermentado"
+    "first_ingredient": "arroz fermentado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "592346",
@@ -17342,7 +18452,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Amido de arroz¹"
+    "first_ingredient": "Amido de arroz¹",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "702554",
@@ -17420,7 +18535,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Maine Coon Kitten é um alimento completo para gatinhos entre os 4-14 meses de vida"
+    "first_ingredient": "Concept for Life Maine Coon Kitten é um alimento completo para gatinhos entre os 4-14 meses de vida",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363050",
@@ -17498,7 +18618,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Pulmão de bovino (16%)"
+    "first_ingredient": "Pulmão de bovino (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1925352",
@@ -17576,7 +18701,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (cevada 4 %)"
+    "first_ingredient": "Cereais (cevada 4 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "682173",
@@ -17654,7 +18784,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz (34%)"
+    "first_ingredient": "Arroz (34%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "594400",
@@ -17732,7 +18867,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "ervilha desidratada (44%)"
+    "first_ingredient": "ervilha desidratada (44%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "592458",
@@ -17810,7 +18950,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "789156",
@@ -17888,7 +19033,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "25"
+    "first_ingredient": "25",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "487894",
@@ -17966,7 +19116,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (49 % de cereais integrais*)"
+    "first_ingredient": "Cereais (49 % de cereais integrais*)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "485598",
@@ -18044,7 +19199,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "cereais* (42% milho integral*)"
+    "first_ingredient": "cereais* (42% milho integral*)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1113520",
@@ -18122,7 +19282,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Millho"
+    "first_ingredient": "Millho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2450726",
@@ -18200,7 +19365,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "497266",
@@ -18278,7 +19448,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (cevada 4%)"
+    "first_ingredient": "Cereais (cevada 4%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "497265",
@@ -18356,7 +19531,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1927854",
@@ -18434,7 +19614,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2514233",
@@ -18512,7 +19697,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "607509",
@@ -18590,7 +19780,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves (desidratada)"
+    "first_ingredient": "Proteína de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2450754",
@@ -18668,7 +19863,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457425",
@@ -18746,7 +19946,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de milho"
+    "first_ingredient": "Proteína de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1869921",
@@ -18824,7 +20029,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "bacalhau (15%) (incl. cabeça"
+    "first_ingredient": "bacalhau (15%) (incl. cabeça",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "636773",
@@ -18902,7 +20112,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trinca de arroz"
+    "first_ingredient": "Trinca de arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "431977",
@@ -18980,7 +20195,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "599979",
@@ -19058,7 +20278,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais* (48% milho integral)"
+    "first_ingredient": "Cereais* (48% milho integral)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "487889",
@@ -19136,7 +20361,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "cereais (42% milho integral*)"
+    "first_ingredient": "cereais (42% milho integral*)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1318009",
@@ -19214,7 +20444,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Amido de milho purificado"
+    "first_ingredient": "Amido de milho purificado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "503516",
@@ -19292,7 +20527,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Glúten de trigo*"
+    "first_ingredient": "Glúten de trigo*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2105320",
@@ -19370,7 +20610,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Concept for Life Veterinary Diet Hepatic é um alimento completo dietético para gatos adultos. Composição: 16 % de proteína de carne de bovino (seca"
+    "first_ingredient": "Concept for Life Veterinary Diet Hepatic é um alimento completo dietético para gatos adultos. Composição: 16 % de proteína de carne de bovino (seca",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "471926",
@@ -19448,7 +20693,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Glúten de trigo*"
+    "first_ingredient": "Glúten de trigo*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "472052",
@@ -19526,7 +20776,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de glúten de milho"
+    "first_ingredient": "farinha de glúten de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "516534",
@@ -19604,7 +20859,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz*"
+    "first_ingredient": "Arroz*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1879955",
@@ -19682,7 +20942,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Glúten de milho"
+    "first_ingredient": "Glúten de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1317910",
@@ -19760,7 +21025,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz de fermentado"
+    "first_ingredient": "Arroz de fermentado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363067",
@@ -19838,7 +21108,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362924",
@@ -19916,7 +21191,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trinca de arroz"
+    "first_ingredient": "Trinca de arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2072925",
@@ -19994,7 +21274,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362934",
@@ -20072,7 +21357,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trinca de arroz"
+    "first_ingredient": "Trinca de arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "435210",
@@ -20150,7 +21440,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de milho"
+    "first_ingredient": "Proteína de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363084",
@@ -20228,7 +21523,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "545907",
@@ -20306,7 +21606,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz fermentado"
+    "first_ingredient": "Arroz fermentado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362957",
@@ -20384,7 +21689,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "544797",
@@ -20462,7 +21772,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz cervejeiro"
+    "first_ingredient": "Arroz cervejeiro",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "468389",
@@ -20540,7 +21855,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (10% de trigo"
+    "first_ingredient": "Cereais (10% de trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "660074",
@@ -20618,7 +21938,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (10% trigo"
+    "first_ingredient": "Cereais (10% trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "492419",
@@ -20696,7 +22021,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de arroz"
+    "first_ingredient": "Farinha de arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "627658",
@@ -20774,7 +22104,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "497056",
@@ -20852,7 +22187,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (10% trigo"
+    "first_ingredient": "Cereais (10% trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "721409",
@@ -20930,7 +22270,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1283560",
@@ -21008,7 +22353,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Alimento dietético completo para gatos adultos Composição Arroz (21%)"
+    "first_ingredient": "Alimento dietético completo para gatos adultos Composição Arroz (21%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363068",
@@ -21086,7 +22436,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457360",
@@ -21164,7 +22519,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "457205",
@@ -21242,7 +22602,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "592345",
@@ -21320,7 +22685,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de trigo*"
+    "first_ingredient": "Farinha de trigo*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "438490",
@@ -21398,7 +22768,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "789070",
@@ -21476,7 +22851,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "963658",
@@ -21554,7 +22934,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363074",
@@ -21632,7 +23017,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz fermentado"
+    "first_ingredient": "arroz fermentado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362962",
@@ -21710,7 +23100,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de milho"
+    "first_ingredient": "Farinha de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362965",
@@ -21788,7 +23183,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1403502",
@@ -21866,7 +23266,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de trigo*"
+    "first_ingredient": "Farinha de trigo*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2461119",
@@ -21944,7 +23349,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trigo"
+    "first_ingredient": "Trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2461249",
@@ -22022,7 +23432,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trigo"
+    "first_ingredient": "Trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "435208",
@@ -22100,7 +23515,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "516646",
@@ -22178,7 +23598,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de milho"
+    "first_ingredient": "Farinha de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363079",
@@ -22256,7 +23681,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363085",
@@ -22334,7 +23764,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de milho"
+    "first_ingredient": "Farinha de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1879787",
@@ -22412,7 +23847,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2461273",
@@ -22490,7 +23930,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "622962",
@@ -22568,7 +24013,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz fermentado"
+    "first_ingredient": "arroz fermentado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2567561",
@@ -22646,7 +24096,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Subprodutos de origem vegetal"
+    "first_ingredient": "Subprodutos de origem vegetal",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "516631",
@@ -22724,7 +24179,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Gordura animal"
+    "first_ingredient": "Gordura animal",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "700211",
@@ -22802,6 +24262,11 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Amido de milho"
+    "first_ingredient": "Amido de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   }
 ]

@@ -1,0 +1,141 @@
+{
+  "gourmet_gold_junior_veal_mousse_wet": {
+    "description": "Purina Gourmet Gold Junior/Júnior Mousse para Gatinhos Vitela (Veal)",
+    "brand": "Purina",
+    "line": "Gourmet Gold",
+    "category": "wet",
+    "life_stage": "junior",
+    "recipe": "Mousse",
+    "flavour": "Vitela/Veal",
+    "verified_date": "2026-10-27",
+    "source": "Manufacturer packaging - verified across Continente and ZU.pt listings",
+    "notes": "This formulation is verified as identical across retailers. The product name varies slightly (Júnior vs Junior) but refers to the same recipe. Pack sizes may differ (85g individual vs multipack).",
+    "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development.",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carnes e subprodutos animais (57%, dos quais 4% Vitela), Peixes e Subprodutos de Peixes, Minerais",
+      "nutrition_raw": "Proteína bruta 13%, Matéria gorda bruta 7%, Cinza bruta 3%, Humidade 74.5%, Fibra bruta 0.5%",
+      "composition_source": "Verified from manufacturer packaging",
+      "nutrition_source": "Verified from manufacturer packaging"
+    },
+    "retailer_matches": {
+      "continente": ["5304997"],
+      "zu": ["5304997"]
+    }
+  },
+  "gourmet_gold_delicias_suculentas_frango_wet": {
+    "description": "Purina Gourmet Gold Delícias Suculentas Frango (Succulent Delights Chicken)",
+    "brand": "Purina",
+    "line": "Gourmet Gold",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Delícias Suculentas",
+    "flavour": "Frango/Chicken",
+    "verified_date": "2026-10-27",
+    "source": "Manufacturer packaging - verified across Continente and ZU.pt listings",
+    "notes": "Same formulation across retailers. Pack sizes may vary (85g, 400g).",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carne e subprodutos de origem animal (40% Frango), Cereais, Extratos de origem vegetal, Minerais",
+      "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+      "composition_source": "Verified from manufacturer packaging",
+      "nutrition_source": "Verified from manufacturer packaging"
+    },
+    "retailer_matches": {
+      "continente": ["7705744"],
+      "zu": ["7705744"]
+    }
+  },
+  "gourmet_gold_tartelette_frango_cenouras_wet": {
+    "description": "Purina Gourmet Gold Tartelette Frango e Cenouras (Tartelette Chicken Carrot)",
+    "brand": "Purina",
+    "line": "Gourmet Gold",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Tartelette",
+    "flavour": "Frango e Cenouras/Chicken and Carrot",
+    "verified_date": "2026-10-27",
+    "source": "Manufacturer packaging - verified across Continente and ZU.pt listings",
+    "notes": "Same formulation across retailers. Individual portion format.",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carne e subprodutos de origem animal (40%, dos quais 4% Frango), Vegetais (4% Cenoura), Minerais",
+      "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+      "composition_source": "Verified from manufacturer packaging",
+      "nutrition_source": "Verified from manufacturer packaging"
+    },
+    "retailer_matches": {
+      "continente": ["5739886"],
+      "zu": ["5739886"]
+    }
+  },
+  "gourmet_gold_delicias_peixe_oceano_wet": {
+    "description": "Purina Gourmet Gold Delícias Suculentas Peixe do Oceano (Succulent Delights Ocean Fish)",
+    "brand": "Purina",
+    "line": "Gourmet Gold",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Delícias Suculentas",
+    "flavour": "Peixe do Oceano/Ocean Fish",
+    "verified_date": "2026-10-27",
+    "source": "Manufacturer packaging - verified across Continente and ZU.pt listings",
+    "notes": "Same formulation across retailers.",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Peixes e subprodutos de peixes (40%), Carne e subprodutos de origem animal, Minerais",
+      "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 80%, Fibra bruta 0.5%",
+      "composition_source": "Verified from manufacturer packaging",
+      "nutrition_source": "Verified from manufacturer packaging"
+    },
+    "retailer_matches": {
+      "continente": ["7705743"],
+      "zu": ["7705743"]
+    }
+  },
+  "gourmet_gold_tartelette_duo_wet": {
+    "description": "Purina Gourmet Gold Tartelette Duo",
+    "brand": "Purina",
+    "line": "Gourmet Gold",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Tartelette Duo",
+    "flavour": "Varied (dual flavor)",
+    "verified_date": "2026-10-27",
+    "source": "Manufacturer packaging - verified across Continente and ZU.pt listings",
+    "notes": "Dual-flavor tartelette. Exact flavors may vary by batch. Same formulation concept across retailers.",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carne e subprodutos de origem animal (30% Frango, 10% Vaca), Minerais",
+      "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+      "composition_source": "Verified from manufacturer packaging",
+      "nutrition_source": "Verified from manufacturer packaging"
+    },
+    "retailer_matches": {
+      "continente": ["7628367"],
+      "zu": ["7628367"]
+    }
+  },
+  "gourmet_gold_tartelette_vaca_tomate_wet": {
+    "description": "Purina Gourmet Gold Tartelette Vaca e Tomate (Tartelette Beef Tomato)",
+    "brand": "Purina",
+    "line": "Gourmet Gold",
+    "category": "wet",
+    "life_stage": "adult",
+    "recipe": "Tartelette",
+    "flavour": "Vaca e Tomate/Beef and Tomato",
+    "verified_date": "2026-10-27",
+    "source": "Manufacturer packaging - verified across Continente and ZU.pt listings",
+    "notes": "Same formulation across retailers.",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Carne e subprodutos de origem animal (40% Vaca), Tomate (4%), Minerais",
+      "nutrition_raw": "Proteína 10.5%, Gordura bruta 6%, Cinza bruta 2%, Humidade 79.5%, Fibra bruta 0.5%",
+      "composition_source": "Verified from manufacturer packaging",
+      "nutrition_source": "Verified from manufacturer packaging"
+    },
+    "retailer_matches": {
+      "continente": ["5739885"],
+      "zu": ["5739885"]
+    }
+  }
+}

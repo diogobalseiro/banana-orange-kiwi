@@ -72,7 +72,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 70,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1399777",
@@ -147,7 +152,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 70,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "565077",
@@ -222,7 +232,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 70,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "565076",
@@ -297,7 +312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 69,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "857716",
@@ -372,7 +392,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 70,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "704013",
@@ -447,7 +472,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 62,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1743424",
@@ -522,7 +552,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 51,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "757278",
@@ -597,7 +632,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 60,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1866343",
@@ -672,7 +712,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 70,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1257624",
@@ -747,7 +792,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 63,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363150",
@@ -822,7 +872,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 88,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1882108",
@@ -897,7 +952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 64,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "660332",
@@ -972,7 +1032,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 64,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "660331",
@@ -1047,7 +1112,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 64,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "868381",
@@ -1122,7 +1192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 70,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1610014",
@@ -1197,7 +1272,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 75,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2223796",
@@ -1272,7 +1352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 50,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "619363",
@@ -1347,7 +1432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 75,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "435964",
@@ -1422,7 +1512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 75,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "435885",
@@ -1497,7 +1592,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 75,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "577946",
@@ -1572,7 +1672,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "660303",
@@ -1647,7 +1752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 45,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "437093",
@@ -1722,7 +1832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 20,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1975794",
@@ -1797,7 +1912,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 42,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1967923",
@@ -1872,7 +1992,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 42,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1411732",
@@ -1947,7 +2072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "438504",
@@ -2022,7 +2152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 14,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "435988",
@@ -2097,7 +2232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363108",
@@ -2172,7 +2312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363107",
@@ -2247,7 +2392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "796851",
@@ -2322,7 +2472,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1784909",
@@ -2397,7 +2552,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 65,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1739261",
@@ -2472,7 +2632,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "714737",
@@ -2547,7 +2712,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1113536",
@@ -2622,7 +2792,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "714469",
@@ -2697,7 +2872,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1739266",
@@ -2772,7 +2952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2221391",
@@ -2847,7 +3032,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1113535",
@@ -2922,7 +3112,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363132",
@@ -2997,7 +3192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "620709",
@@ -3072,7 +3272,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 14,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2012715",
@@ -3147,7 +3352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 16,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363148",
@@ -3222,7 +3432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363149",
@@ -3297,7 +3512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2318247",
@@ -3372,7 +3592,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1852552",
@@ -3447,7 +3672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363145",
@@ -3522,7 +3752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "503402",
@@ -3597,7 +3832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "761255",
@@ -3672,7 +3912,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363331",
@@ -3747,7 +3992,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 32,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1770276",
@@ -3822,7 +4072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 40,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1061412",
@@ -3897,7 +4152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 5,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "708153",
@@ -3972,7 +4232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 20,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362897",
@@ -4047,7 +4312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "362891",
@@ -4122,7 +4392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "453033",
@@ -4197,7 +4472,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363278",
@@ -4272,7 +4552,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1829438",
@@ -4347,7 +4632,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1101197",
@@ -4422,7 +4712,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1631703",
@@ -4497,7 +4792,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "495944",
@@ -4572,7 +4872,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2152843",
@@ -4647,7 +4952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "436825",
@@ -4722,7 +5032,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "724855",
@@ -4797,7 +5112,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2207205",
@@ -4872,7 +5192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363952",
@@ -4947,7 +5272,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 5,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "859220",
@@ -5022,7 +5352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 24,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "857707",
@@ -5097,7 +5432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 24,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "757156",
@@ -5172,7 +5512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2422380",
@@ -5247,7 +5592,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 100,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2522765",
@@ -5322,7 +5672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 5,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2519724",
@@ -5397,7 +5752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 17,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2219494",
@@ -5472,7 +5832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 18,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "673901",
@@ -5547,7 +5912,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 14,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "757273",
@@ -5622,7 +5992,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 46,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1192116",
@@ -5697,7 +6072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363276",
@@ -5772,7 +6152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "436770",
@@ -5847,7 +6232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1204975",
@@ -5922,7 +6312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "686843",
@@ -5997,7 +6392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "914217",
@@ -6072,7 +6472,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "913745",
@@ -6147,7 +6552,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "897209",
@@ -6222,7 +6632,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2318280",
@@ -6297,7 +6712,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1462709",
@@ -6372,7 +6792,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "515497",
@@ -6447,7 +6872,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1192117",
@@ -6522,7 +6952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "897359",
@@ -6597,7 +7032,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "616832",
@@ -6672,7 +7112,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 23,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "521746",
@@ -6747,7 +7192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1739273",
@@ -6822,7 +7272,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1740210",
@@ -6897,7 +7352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1740211",
@@ -6972,7 +7432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1856288",
@@ -7047,7 +7512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2184547",
@@ -7122,7 +7592,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "437257",
@@ -7197,7 +7672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "515496",
@@ -7272,7 +7752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "700710",
@@ -7347,7 +7832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "897711",
@@ -7422,7 +7912,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "897710",
@@ -7497,7 +7992,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "684904",
@@ -7572,7 +8072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "753939",
@@ -7647,7 +8152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1866251",
@@ -7722,7 +8232,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 6,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2091692",
@@ -7797,7 +8312,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2172817",
@@ -7872,7 +8392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2007489",
@@ -7947,7 +8472,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1232810",
@@ -8022,7 +8552,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1391593",
@@ -8097,7 +8632,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1403503",
@@ -8172,7 +8712,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 8,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "688985",
@@ -8247,7 +8792,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2154344",
@@ -8322,7 +8872,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "853209",
@@ -8397,7 +8952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "685042",
@@ -8472,7 +9032,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 8,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "436112",
@@ -8547,7 +9112,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "437091",
@@ -8622,7 +9192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "455555",
@@ -8697,7 +9272,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2007463",
@@ -8772,7 +9352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1019716",
@@ -8847,7 +9432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1393894",
@@ -8922,7 +9512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2449126",
@@ -8997,7 +9592,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1369689",
@@ -9072,7 +9672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "494125",
@@ -9147,7 +9752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "770676",
@@ -9222,7 +9832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1856264",
@@ -9297,7 +9912,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1856261",
@@ -9372,7 +9992,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363328",
@@ -9447,7 +10072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "560237",
@@ -9522,7 +10152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1806843",
@@ -9597,7 +10232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1560827",
@@ -9672,7 +10312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1114332",
@@ -9747,7 +10392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "558608",
@@ -9822,7 +10472,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "515498",
@@ -9897,7 +10552,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363281",
@@ -9972,7 +10632,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "565691",
@@ -10047,7 +10712,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "620820",
@@ -10122,7 +10792,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363341",
@@ -10197,7 +10872,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363342",
@@ -10272,7 +10952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "684642",
@@ -10347,7 +11032,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1358142",
@@ -10422,7 +11112,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1739280",
@@ -10497,7 +11192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 13,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1866228",
@@ -10572,7 +11272,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 27,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1866262",
@@ -10647,7 +11352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 27,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "673998",
@@ -10722,7 +11432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 14,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1010527",
@@ -10797,7 +11512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 25,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1856616",
@@ -10872,7 +11592,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 14,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1398003",
@@ -10947,7 +11672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 35,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1398005",
@@ -11022,7 +11752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 35,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1856365",
@@ -11097,7 +11832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "560236",
@@ -11172,7 +11912,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1251398",
@@ -11247,7 +11992,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1357895",
@@ -11322,7 +12072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1856528",
@@ -11397,7 +12152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "745201",
@@ -11472,7 +12232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1856412",
@@ -11547,7 +12312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1160704",
@@ -11622,7 +12392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "560243",
@@ -11697,7 +12472,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "623430",
@@ -11772,7 +12552,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2157923",
@@ -11847,7 +12632,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "437187",
@@ -11922,7 +12712,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2159471",
@@ -11997,7 +12792,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "492044",
@@ -12072,7 +12872,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "492042",
@@ -12147,7 +12952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "762832",
@@ -12222,7 +13032,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1102135",
@@ -12297,7 +13112,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "436775",
@@ -12372,7 +13192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "436776",
@@ -12447,7 +13272,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2461380",
@@ -12522,7 +13352,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363284",
@@ -12597,7 +13432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "555906",
@@ -12672,7 +13512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "436781",
@@ -12747,7 +13592,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "555977",
@@ -12822,7 +13672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "872209",
@@ -12897,7 +13752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "681866",
@@ -12972,7 +13832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "963675",
@@ -13047,7 +13912,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "596493",
@@ -13122,7 +13992,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1579892",
@@ -13197,7 +14072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1399908",
@@ -13272,7 +14152,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2523522",
@@ -13347,7 +14232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "608395",
@@ -13422,7 +14312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2220299",
@@ -13497,7 +14392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1325040",
@@ -13572,7 +14472,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "509823",
@@ -13647,7 +14552,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1325179",
@@ -13722,7 +14632,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2533182",
@@ -13797,7 +14712,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 5,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2523655",
@@ -13872,7 +14792,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2531596",
@@ -13947,7 +14872,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 5,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2523671",
@@ -14022,7 +14952,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "852641",
@@ -14097,7 +15032,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 5,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1866212",
@@ -14172,7 +15112,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 12,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "674003",
@@ -14247,7 +15192,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1122509",
@@ -14322,7 +15272,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1116768",
@@ -14397,7 +15352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "536600",
@@ -14472,7 +15432,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 12,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1116767",
@@ -14547,7 +15512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "610054",
@@ -14622,7 +15592,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1019650",
@@ -14697,7 +15672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363257",
@@ -14772,7 +15752,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 24,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363356",
@@ -14847,7 +15832,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "757148",
@@ -14922,7 +15912,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "363279",
@@ -14997,7 +15992,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1192118",
@@ -15072,7 +16072,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "757152",
@@ -15147,7 +16152,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "963663",
@@ -15222,7 +16232,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "673386",
@@ -15297,7 +16312,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "757146",
@@ -15372,7 +16392,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 7,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1403610",
@@ -15447,7 +16472,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 6,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1403612",
@@ -15522,7 +16552,12 @@
     "has_marine_omega": true,
     "high_meat_pct": 8,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "537785",
@@ -15597,7 +16632,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2461356",
@@ -15672,7 +16712,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "515870",
@@ -15747,7 +16792,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 20,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "515916",
@@ -15822,7 +16872,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2461400",
@@ -15897,7 +16952,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1398004",
@@ -15972,7 +17032,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 19,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "537699",
@@ -16047,7 +17112,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "565112",
@@ -16122,7 +17192,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2557722",
@@ -16197,7 +17272,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "2144299",
@@ -16272,7 +17352,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "633047",
@@ -16347,7 +17432,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "555978",
@@ -16422,7 +17512,12 @@
     "has_marine_omega": false,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "805127",
@@ -16497,7 +17592,12 @@
     "has_marine_omega": true,
     "high_meat_pct": null,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1866357",
@@ -16572,7 +17672,12 @@
     "has_marine_omega": false,
     "high_meat_pct": 6,
     "is_ranked": true,
-    "unranked_reasons": []
+    "unranked_reasons": [],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "1976164",
@@ -16649,6 +17754,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16726,6 +17836,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16803,6 +17918,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16880,6 +18000,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -16957,6 +18082,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17034,6 +18164,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17111,6 +18246,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17188,6 +18328,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17265,6 +18410,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17342,6 +18492,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17419,6 +18574,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17496,6 +18656,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17573,6 +18738,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17650,6 +18820,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17727,6 +18902,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17804,6 +18984,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17882,6 +19067,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "invalid_nutrition (macro_sum_exceeds_100 (102.5%))"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -17960,6 +19150,11 @@
     "unranked_reasons": [
       "missing_composition",
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18037,6 +19232,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18114,6 +19314,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18191,6 +19396,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_analytical_constituents"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18268,6 +19478,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18345,6 +19560,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18422,6 +19642,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18499,6 +19724,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18576,6 +19806,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   },
   {
@@ -18653,6 +19888,11 @@
     "is_ranked": false,
     "unranked_reasons": [
       "missing_nutrition"
+    ],
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
     ]
   }
 ]

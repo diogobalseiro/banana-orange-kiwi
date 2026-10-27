@@ -73,7 +73,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango 63% (farinha de frango 30%"
+    "first_ingredient": "Frango 63% (farinha de frango 30%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872254",
@@ -149,7 +154,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Peixe fresco 50% (peixe branco como arenque"
+    "first_ingredient": "Peixe fresco 50% (peixe branco como arenque",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872244",
@@ -225,7 +235,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Peixe fresco 50% (peixe branco como arenque"
+    "first_ingredient": "Peixe fresco 50% (peixe branco como arenque",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306915",
@@ -301,7 +316,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "frango fresco(17%)"
+    "first_ingredient": "frango fresco(17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8375243",
@@ -377,7 +397,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango 70% (frango desidratado 35%"
+    "first_ingredient": "Frango 70% (frango desidratado 35%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5757979",
@@ -453,7 +478,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Carnes e subprodutos animais (frango 18%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872246",
@@ -529,7 +559,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango e peru frescos 50% (peru fresco"
+    "first_ingredient": "Frango e peru frescos 50% (peru fresco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872245",
@@ -605,7 +640,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango e peru frescos 50% (peru fresco"
+    "first_ingredient": "Frango e peru frescos 50% (peru fresco",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7141151",
@@ -681,7 +721,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteína de carne de aves (desidratada)"
+    "first_ingredient": "Proteína de carne de aves (desidratada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872248",
@@ -757,7 +802,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Porco 50% (carne fresca e órgãos)"
+    "first_ingredient": "Porco 50% (carne fresca e órgãos)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872247",
@@ -833,7 +883,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Porco 50% (carne fresca e órgãos)"
+    "first_ingredient": "Porco 50% (carne fresca e órgãos)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6068479",
@@ -909,7 +964,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Arenque do Pacífico inteiro cru (14%)"
+    "first_ingredient": "Arenque do Pacífico inteiro cru (14%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8062102",
@@ -985,7 +1045,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Carnes 36% (carnes desidratadas 26%"
+    "first_ingredient": "Carnes 36% (carnes desidratadas 26%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8062103",
@@ -1061,7 +1126,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Carnes 36% (carnes desidratadas 26%"
+    "first_ingredient": "Carnes 36% (carnes desidratadas 26%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6030072",
@@ -1137,7 +1207,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Frango (17%)"
+    "first_ingredient": "Frango (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8062104",
@@ -1213,7 +1288,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Carnes 38% (carnes desidratadas 28%"
+    "first_ingredient": "Carnes 38% (carnes desidratadas 28%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6661172",
@@ -1289,7 +1369,12 @@
     "has_marine_omega": false,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Cereais (cevada 4%)"
+    "first_ingredient": "Cereais (cevada 4%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5928576",
@@ -1365,7 +1450,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "frango: arroz para cerveja"
+    "first_ingredient": "frango: arroz para cerveja",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6808221",
@@ -1441,7 +1531,12 @@
     "has_marine_omega": true,
     "is_ranked": true,
     "unranked_reasons": [],
-    "first_ingredient": "Proteína de milho"
+    "first_ingredient": "Proteína de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7413217",
@@ -1520,7 +1615,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7932794",
@@ -1598,7 +1698,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne fresca de peru (min. 20%)"
+    "first_ingredient": "Carne fresca de peru (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7630689",
@@ -1676,7 +1781,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne fresca de frango"
+    "first_ingredient": "Carne fresca de frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7413214",
@@ -1755,7 +1865,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5657107",
@@ -1834,7 +1949,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3690303",
@@ -1912,7 +2032,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne e subprodutos animais (carnes 14%"
+    "first_ingredient": "Carne e subprodutos animais (carnes 14%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8031173",
@@ -1990,7 +2115,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carnes desidratadas (38%)"
+    "first_ingredient": "Carnes desidratadas (38%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7991771",
@@ -2068,7 +2198,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carnes desidratadas (38%)"
+    "first_ingredient": "Carnes desidratadas (38%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306931",
@@ -2146,7 +2281,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6691243",
@@ -2224,7 +2364,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru e cevada"
+    "first_ingredient": "Peru e cevada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8375245",
@@ -2302,7 +2447,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango 63% (frango desidratado 34%"
+    "first_ingredient": "Frango 63% (frango desidratado 34%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044958",
@@ -2380,7 +2530,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carnes e subprodutos animais (frango 18%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5928519",
@@ -2458,7 +2613,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carnes e subprodutos animais (frango 16%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044937",
@@ -2536,7 +2696,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carnes e subprodutos animais (frango 15%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450960",
@@ -2614,7 +2779,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (20%)"
+    "first_ingredient": "Peru (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044868",
@@ -2693,7 +2863,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8291033",
@@ -2771,7 +2946,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de salmão da Noruega sem espinhas* (30%)"
+    "first_ingredient": "Carne de salmão da Noruega sem espinhas* (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306914",
@@ -2849,7 +3029,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5997559",
@@ -2927,7 +3112,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteína de aves desidratada"
+    "first_ingredient": "proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045059",
@@ -3005,7 +3195,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de frango e peru desidratada (frango 29%"
+    "first_ingredient": "Proteína de frango e peru desidratada (frango 29%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451052",
@@ -3083,7 +3278,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (20%)"
+    "first_ingredient": "Peru (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451031",
@@ -3161,7 +3361,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7400259",
@@ -3239,7 +3444,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (16%)"
+    "first_ingredient": "Peru (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575852",
@@ -3317,7 +3527,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575851",
@@ -3395,7 +3610,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de frango fresca (min. 20%)"
+    "first_ingredient": "Carne de frango fresca (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7739997",
@@ -3473,7 +3693,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Rico em sardinha fresca - 20% - (para mais apetência)"
+    "first_ingredient": "Rico em sardinha fresca - 20% - (para mais apetência)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451050",
@@ -3551,7 +3776,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (20%)"
+    "first_ingredient": "Salmão (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6773314",
@@ -3629,7 +3859,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (19%)"
+    "first_ingredient": "Salmão (19%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450958",
@@ -3707,7 +3942,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (20%)"
+    "first_ingredient": "Salmão (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306926",
@@ -3785,7 +4025,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044882",
@@ -3863,7 +4108,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Extractos de proteínas vegetais"
+    "first_ingredient": "Extractos de proteínas vegetais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7400260",
@@ -3941,7 +4191,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (17%)"
+    "first_ingredient": "Peru (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7400261",
@@ -4019,7 +4274,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044872",
@@ -4098,7 +4358,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044871",
@@ -4177,7 +4442,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6787158",
@@ -4255,7 +4525,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "carne fresca de aves(30%)"
+    "first_ingredient": "carne fresca de aves(30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7944652",
@@ -4333,7 +4608,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carne de frango criado ao ar livre desossada* (30%)"
+    "first_ingredient": "Carne de frango criado ao ar livre desossada* (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451622",
@@ -4411,7 +4691,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7122440",
@@ -4490,7 +4775,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7944636",
@@ -4568,7 +4858,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carne de peru desossada* (20%)"
+    "first_ingredient": "Carne de peru desossada* (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7075554",
@@ -4647,7 +4942,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7075553",
@@ -4726,7 +5026,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8623846",
@@ -4804,7 +5109,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carnes e subprodutos animais"
+    "first_ingredient": "Carnes e subprodutos animais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691476",
@@ -4882,7 +5192,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7723271",
@@ -4960,7 +5275,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8031179",
@@ -5039,7 +5359,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7400266",
@@ -5117,7 +5442,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (14%)"
+    "first_ingredient": "Peru (14%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7400262",
@@ -5195,7 +5525,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (14%)"
+    "first_ingredient": "Peru (14%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6068498",
@@ -5273,7 +5608,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7992370",
@@ -5352,7 +5692,12 @@
       "invalid_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6500708",
@@ -5430,7 +5775,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044885",
@@ -5508,7 +5858,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carnes e subprodutos animais (frango 16%)"
+    "first_ingredient": "Carnes e subprodutos animais (frango 16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7991786",
@@ -5586,7 +5941,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carne de salmão da Noruega sem espinhas* (30%)"
+    "first_ingredient": "Carne de salmão da Noruega sem espinhas* (30%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451673",
@@ -5665,7 +6025,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7413205",
@@ -5743,7 +6108,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de frango desossada* (21%)"
+    "first_ingredient": "Carne de frango desossada* (21%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6586790",
@@ -5821,7 +6191,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Presunto"
+    "first_ingredient": "Presunto",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4304438",
@@ -5900,7 +6275,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872236",
@@ -5978,7 +6358,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451652",
@@ -6056,7 +6441,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451633",
@@ -6134,7 +6524,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango 21%"
+    "first_ingredient": "Frango 21%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451661",
@@ -6212,7 +6607,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru 15%"
+    "first_ingredient": "Peru 15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451657",
@@ -6290,7 +6690,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru 15%"
+    "first_ingredient": "Peru 15%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045094",
@@ -6368,7 +6773,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de frango e peru desidratada"
+    "first_ingredient": "Proteína de frango e peru desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6056998",
@@ -6447,7 +6857,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691470",
@@ -6525,7 +6940,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves de capoeira desidratadas"
+    "first_ingredient": "proteínas de aves de capoeira desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7992367",
@@ -6603,7 +7023,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carnes 36% (carnes desidratadas 26%"
+    "first_ingredient": "Carnes 36% (carnes desidratadas 26%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450954",
@@ -6681,7 +7106,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Peru (18%**)"
+    "first_ingredient": "Peru (18%**)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7276059",
@@ -6759,7 +7189,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691472",
@@ -6837,7 +7272,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691469",
@@ -6915,7 +7355,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451049",
@@ -6993,7 +7438,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451048",
@@ -7071,7 +7521,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (21%)"
+    "first_ingredient": "Frango (21%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451037",
@@ -7149,7 +7604,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (21%)"
+    "first_ingredient": "Frango (21%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451011",
@@ -7227,7 +7687,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (21%)"
+    "first_ingredient": "Frango (21%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451013",
@@ -7305,7 +7770,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450957",
@@ -7383,7 +7853,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (20%)"
+    "first_ingredient": "Frango (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923233",
@@ -7461,7 +7936,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6901832",
@@ -7539,7 +8019,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7306698",
@@ -7617,7 +8102,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6901831",
@@ -7695,7 +8185,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6068481",
@@ -7773,7 +8268,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450955",
@@ -7851,7 +8351,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão (15%)"
+    "first_ingredient": "Salmão (15%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7416737",
@@ -7929,7 +8434,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas desidratadas de aves"
+    "first_ingredient": "proteínas desidratadas de aves",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8378417",
@@ -8008,7 +8518,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045071",
@@ -8086,7 +8601,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de frango e peru desidratada"
+    "first_ingredient": "Proteína de frango e peru desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045097",
@@ -8164,7 +8684,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de frango e peru desidratada (frango 17%"
+    "first_ingredient": "Proteína de frango e peru desidratada (frango 17%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8986905",
@@ -8243,7 +8768,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4451983",
@@ -8322,7 +8852,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7454041",
@@ -8401,7 +8936,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7422673",
@@ -8479,7 +9019,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salmão sem espinhas* (20 %)"
+    "first_ingredient": "Salmão sem espinhas* (20 %)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7638033",
@@ -8557,7 +9102,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6901829",
@@ -8635,7 +9185,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango"
+    "first_ingredient": "Frango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454117",
@@ -8713,7 +9268,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de aves desidratada"
+    "first_ingredient": "Carne de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691465",
@@ -8791,7 +9351,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de aves desidratada"
+    "first_ingredient": "Carne de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044894",
@@ -8869,7 +9434,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Extractos de proteínas vegetais"
+    "first_ingredient": "Extractos de proteínas vegetais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044895",
@@ -8948,7 +9518,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044896",
@@ -9027,7 +9602,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6703335",
@@ -9106,7 +9686,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7575853",
@@ -9184,7 +9769,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Salma?o fresco (min. 20%)"
+    "first_ingredient": "Salma?o fresco (min. 20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6773318",
@@ -9262,7 +9852,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango (20%)"
+    "first_ingredient": "Frango (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7723265",
@@ -9340,7 +9935,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Borrego (17%)"
+    "first_ingredient": "Borrego (17%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454076",
@@ -9418,7 +10018,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7276060",
@@ -9496,7 +10101,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7466801",
@@ -9574,7 +10184,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves de capoeira desidratadas"
+    "first_ingredient": "proteínas de aves de capoeira desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5471873",
@@ -9652,7 +10267,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Frango (16"
+    "first_ingredient": "Frango (16",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5085900",
@@ -9730,7 +10350,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450194",
@@ -9808,7 +10433,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5449881",
@@ -9886,7 +10516,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7735704",
@@ -9964,7 +10599,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves de capoeira desidratadas"
+    "first_ingredient": "proteínas de aves de capoeira desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5449888",
@@ -10042,7 +10682,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5449812",
@@ -10120,7 +10765,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteína de aves desidratada"
+    "first_ingredient": "proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454015",
@@ -10198,7 +10848,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450204",
@@ -10276,7 +10931,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas*"
+    "first_ingredient": "proteínas de aves desidratadas*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7141147",
@@ -10354,7 +11014,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carne de aves desidratada"
+    "first_ingredient": "Carne de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5201073",
@@ -10432,7 +11097,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454116",
@@ -10510,7 +11180,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691458",
@@ -10588,7 +11263,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de aves desidratada"
+    "first_ingredient": "Carne de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450196",
@@ -10666,7 +11346,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691437",
@@ -10744,7 +11429,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454119",
@@ -10822,7 +11512,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454107",
@@ -10900,7 +11595,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4480145",
@@ -10978,7 +11678,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Carne de aves desidratada"
+    "first_ingredient": "Carne de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450192",
@@ -11056,7 +11761,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691474",
@@ -11134,7 +11844,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450281",
@@ -11212,7 +11927,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de aves desidratadas"
+    "first_ingredient": "Proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454192",
@@ -11290,7 +12010,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5502252",
@@ -11368,7 +12093,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de aves desidratada"
+    "first_ingredient": "Proteína de aves desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450195",
@@ -11446,7 +12176,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7299952",
@@ -11524,7 +12259,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "proteínas de aves de capoeira desidratadas"
+    "first_ingredient": "proteínas de aves de capoeira desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7991828",
@@ -11603,7 +12343,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7992057",
@@ -11682,7 +12427,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7992365",
@@ -11761,7 +12511,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7992364",
@@ -11840,7 +12595,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8699834",
@@ -11919,7 +12679,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8699833",
@@ -11998,7 +12763,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7729744",
@@ -12077,7 +12847,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7730028",
@@ -12156,7 +12931,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7944639",
@@ -12235,7 +13015,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7630684",
@@ -12314,7 +13099,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8031180",
@@ -12393,7 +13183,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7944653",
@@ -12472,7 +13267,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8031171",
@@ -12551,7 +13351,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8623848",
@@ -12630,7 +13435,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7944638",
@@ -12708,7 +13518,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Carne de salmão sem espinhas* (20%)"
+    "first_ingredient": "Carne de salmão sem espinhas* (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451670",
@@ -12786,7 +13601,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Salmão (18%)"
+    "first_ingredient": "Salmão (18%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8031178",
@@ -12865,7 +13685,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7413206",
@@ -12944,7 +13769,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8252827",
@@ -13022,7 +13852,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (20%)"
+    "first_ingredient": "Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (20%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8252820",
@@ -13100,7 +13935,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (24%)"
+    "first_ingredient": "Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (24%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7300158",
@@ -13179,7 +14019,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6225883",
@@ -13258,7 +14103,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045065",
@@ -13337,7 +14187,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6121153",
@@ -13416,7 +14271,12 @@
       "missing_composition",
       "missing_nutrition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5997660",
@@ -13494,7 +14354,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "glúten de trigo"
+    "first_ingredient": "glúten de trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5453982",
@@ -13572,7 +14437,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "proteínas de aves desidratadas"
+    "first_ingredient": "proteínas de aves desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5451623",
@@ -13650,7 +14520,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Frango 28%"
+    "first_ingredient": "Frango 28%",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045100",
@@ -13728,7 +14603,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de frango e peru desidratada"
+    "first_ingredient": "Proteína de frango e peru desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045105",
@@ -13806,7 +14686,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de frango e peru desidratada"
+    "first_ingredient": "Proteína de frango e peru desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7949536",
@@ -13885,7 +14770,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045096",
@@ -13963,7 +14853,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Ovo inteiro desidratado (21%)"
+    "first_ingredient": "Ovo inteiro desidratado (21%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6027244",
@@ -14041,7 +14936,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923266",
@@ -14119,7 +15019,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Amido de arroz purificado1"
+    "first_ingredient": "Amido de arroz purificado1",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4304372",
@@ -14197,7 +15102,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044912",
@@ -14275,7 +15185,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044892",
@@ -14353,7 +15268,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450201",
@@ -14431,7 +15351,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872239",
@@ -14509,7 +15434,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4304443",
@@ -14587,7 +15517,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Perú (16%)"
+    "first_ingredient": "Perú (16%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872238",
@@ -14665,7 +15600,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7743102",
@@ -14743,7 +15683,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (4% cevada)"
+    "first_ingredient": "Cereais (4% cevada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3690330",
@@ -14821,7 +15766,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (42% cereais integrais)"
+    "first_ingredient": "Cereais (42% cereais integrais)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7204325",
@@ -14899,7 +15849,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (4% cevada)"
+    "first_ingredient": "Cereais (4% cevada)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5757976",
@@ -14977,7 +15932,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8642837",
@@ -15056,7 +16016,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8642838",
@@ -15135,7 +16100,12 @@
       "invalid_composition",
       "missing_analytical_constituents"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450199",
@@ -15213,7 +16183,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7204323",
@@ -15291,7 +16266,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (cevada 4%)"
+    "first_ingredient": "Cereais (cevada 4%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8872249",
@@ -15369,7 +16349,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3690315",
@@ -15447,7 +16432,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (44% cereais integrais)"
+    "first_ingredient": "Cereais (44% cereais integrais)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5757971",
@@ -15525,7 +16515,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (arroz 4%)"
+    "first_ingredient": "Cereais (arroz 4%)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4651502",
@@ -15603,7 +16598,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais*"
+    "first_ingredient": "Cereais*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3690321",
@@ -15681,7 +16681,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais* (48% cereais integrais)"
+    "first_ingredient": "Cereais* (48% cereais integrais)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3690375",
@@ -15759,7 +16764,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (38% cereais integrais)"
+    "first_ingredient": "Cereais (38% cereais integrais)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5777356",
@@ -15837,7 +16847,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (44% cereais integrais)"
+    "first_ingredient": "Cereais (44% cereais integrais)",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5997603",
@@ -15915,7 +16930,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "glúten de trigo"
+    "first_ingredient": "glúten de trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4311780",
@@ -15993,7 +17013,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteína de ave desidratada"
+    "first_ingredient": "Proteína de ave desidratada",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7174876",
@@ -16071,7 +17096,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de ave desidratadas"
+    "first_ingredient": "Proteínas de ave desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450275",
@@ -16149,7 +17179,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de ave desidratadas"
+    "first_ingredient": "Proteínas de ave desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4311788",
@@ -16227,7 +17262,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Isolato proteico vegetal*"
+    "first_ingredient": "Isolato proteico vegetal*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7300237",
@@ -16305,7 +17345,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "gorduras animais"
+    "first_ingredient": "gorduras animais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "3691448",
@@ -16383,7 +17428,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Proteínas de ave desidratadas"
+    "first_ingredient": "Proteínas de ave desidratadas",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923274",
@@ -16461,7 +17511,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7533889",
@@ -16539,7 +17594,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Amido de milho purificado"
+    "first_ingredient": "Amido de milho purificado",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4875154",
@@ -16617,7 +17677,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5757980",
@@ -16695,7 +17760,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais (entre outros 10% milho"
+    "first_ingredient": "Cereais (entre outros 10% milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044936",
@@ -16773,7 +17843,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045083",
@@ -16851,7 +17926,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8145004",
@@ -16929,7 +18009,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045082",
@@ -17007,7 +18092,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045080",
@@ -17085,7 +18175,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923268",
@@ -17163,7 +18258,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045081",
@@ -17241,7 +18341,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045085",
@@ -17319,7 +18424,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8111646",
@@ -17397,7 +18507,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8111656",
@@ -17475,7 +18590,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045101",
@@ -17553,7 +18673,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8045090",
@@ -17631,7 +18756,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de glúten de milho"
+    "first_ingredient": "Farinha de glúten de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5832342",
@@ -17709,7 +18839,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8062107",
@@ -17787,7 +18922,12 @@
     "unranked_reasons": [
       "invalid_composition"
     ],
-    "first_ingredient": null
+    "first_ingredient": null,
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "6808222",
@@ -17865,7 +19005,12 @@
     "unranked_reasons": [
       "missing_nutrition"
     ],
-    "first_ingredient": "Proteína de milho"
+    "first_ingredient": "Proteína de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044877",
@@ -17943,7 +19088,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923231",
@@ -18021,7 +19171,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450270",
@@ -18099,7 +19254,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7455386",
@@ -18177,7 +19337,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "milho"
+    "first_ingredient": "milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454007",
@@ -18255,7 +19420,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "milho"
+    "first_ingredient": "milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923267",
@@ -18333,7 +19503,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Farinha de trigo*"
+    "first_ingredient": "Farinha de trigo*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8623842",
@@ -18411,7 +19586,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trigo"
+    "first_ingredient": "Trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8623845",
@@ -18489,7 +19669,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trigo"
+    "first_ingredient": "Trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450207",
@@ -18567,7 +19752,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz*"
+    "first_ingredient": "arroz*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450210",
@@ -18645,7 +19835,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Arroz"
+    "first_ingredient": "Arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7300200",
@@ -18723,7 +19918,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "milho"
+    "first_ingredient": "milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450283",
@@ -18801,7 +20001,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Glúten de trigo*"
+    "first_ingredient": "Glúten de trigo*",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8044876",
@@ -18879,7 +20084,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5454082",
@@ -18957,7 +20167,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8623841",
@@ -19035,7 +20250,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trigo"
+    "first_ingredient": "Trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5923416",
@@ -19113,7 +20333,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Cereais"
+    "first_ingredient": "Cereais",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450268",
@@ -19191,7 +20416,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450279",
@@ -19269,7 +20499,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de milho"
+    "first_ingredient": "farinha de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450209",
@@ -19347,7 +20582,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8623838",
@@ -19425,7 +20665,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "4966808",
@@ -19503,7 +20748,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Milho"
+    "first_ingredient": "Milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "5450211",
@@ -19581,7 +20831,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "arroz"
+    "first_ingredient": "arroz",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7300219",
@@ -19659,7 +20914,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de milho"
+    "first_ingredient": "farinha de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "7300217",
@@ -19737,7 +20997,12 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "farinha de milho"
+    "first_ingredient": "farinha de milho",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   },
   {
     "pid": "8623843",
@@ -19815,6 +21080,11 @@
     "unranked_reasons": [
       "missing_analytical_constituents"
     ],
-    "first_ingredient": "Trigo"
+    "first_ingredient": "Trigo",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "reconciliation_notes": [
+      "No formulation match found"
+    ]
   }
 ]
