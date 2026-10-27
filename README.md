@@ -41,11 +41,39 @@ python3 refresh.py --retailer zooplus --type all
 
 # Refresh specific category (wet or dry)
 python3 refresh.py --retailer zu --type wet
-python3 refresh.py --retailer zooplus --type dry --max-pages 4
 
-# Recalculate scores and rebuild index.html from local cache (instant)
+# Diagnostic run with limited pagination (requires --allow-partial to publish)
+python3 refresh.py --retailer zooplus --type dry --max-pages 4 --allow-partial
+
+# Recalculate scores and rebuild index.html from local cache (preserves original retrieval dates)
 python3 refresh.py --skip-scrape
 ```
+
+---
+
+## 🛡️ Reliability & Evidence Architecture
+
+The dashboard implements the Pareto Reliability Model:
+
+1. **Zero Nutrient Imputation Policy**:
+   - The parser extracts declared analytical constituents (protein, fat, fibre, ash, moisture) without assuming default values.
+   - Missing declared moisture or analytical values produces unavailable carbohydrate/dry-matter estimates rather than artificial precision.
+
+2. **Honest Uncertainty & Ranking Eligibility**:
+   - Products require complete composition and verified core macronutrients to enter ranked leaderboards.
+   - Products with missing declarations or complementary classification remain visible in catalog searches with an explicit `Unranked` status and transparent diagnostics explaining missing inputs.
+
+3. **Reconciled Product Formulations (`data/product_matches.json`)**:
+   - Cross-retailer identical recipes (e.g. Purina Gourmet Gold varieties across Continente and ZU) share identical nutritional assessments derived from verified manufacturer declarations.
+   - Retailer-specific prices, pack sizes, and value ratios remain independent.
+
+4. **Publication Quality Gates & Generation Manifests**:
+   - File-based mutex lock (`.refresh.lock`) serializes refresh runs and prevents concurrent write corruption.
+   - Candidate datasets are evaluated against the active baseline: zero counts, >30% drops, or >40% field loss are rejected and logged to `last_rejected_candidate.json`.
+   - The active manifest (`data/manifest.json`) and `index.html` are swapped atomically. In the event of a scrape failure, previous accepted snapshots are retained and displayed with freshness notices.
+
+5. **Limitations**:
+   - Scores represent an algorithmic biological heuristic based on declared commercial pet food labels, not a certified clinical or laboratory feed analysis.
 
 ---
 

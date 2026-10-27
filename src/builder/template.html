@@ -52,6 +52,7 @@
           <p id="headerSubtitle" class="text-sm text-slate-400 mt-1">
             Auditoria biológica e nutricional unificada dos catálogos Continente, ZU.pt e Zooplus.pt
           </p>
+          <div id="generationBadge" class="text-[11px] text-slate-500 mt-1 flex flex-wrap items-center gap-2"></div>
         </div>
       </div>
     </div>
@@ -189,6 +190,7 @@
   <script>
     const WET_DATA = /*__WET_DATA__*/ [];
     const DRY_DATA = /*__DRY_DATA__*/ [];
+    const MANIFEST_DATA = /*__MANIFEST_DATA__*/ {};
 
     let currentCategory = 'wet'; // 'wet' | 'dry'
     let currentRetailerFilter = 'all'; // 'all' | 'Continente' | 'ZU' | 'Zooplus'
@@ -708,11 +710,22 @@
       }
       tbody.innerHTML = rowsHtml;
     }
-      }
-      tbody.innerHTML = rowsHtml;
-    }
 
     // Init
+    if (MANIFEST_DATA && MANIFEST_DATA.active_generation_id) {
+      const genEl = document.getElementById('generationBadge');
+      if (genEl) {
+        const lastDate = MANIFEST_DATA.last_accepted_timestamp ? new Date(MANIFEST_DATA.last_accepted_timestamp).toLocaleDateString('pt-PT') : 'N/D';
+        let badgesHtml = `<span class="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-400">Publicação validada: <strong class="text-sky-400">${MANIFEST_DATA.active_generation_id}</strong> (${lastDate})</span>`;
+        if (MANIFEST_DATA.last_rejection) {
+          const rej = MANIFEST_DATA.last_rejection;
+          const rejDate = rej.rejected_at ? new Date(rej.rejected_at).toLocaleTimeString('pt-PT', {hour: '2-digit', minute:'2-digit'}) : '';
+          badgesHtml += `<span class="px-2 py-0.5 rounded bg-amber-950/70 border border-amber-800 text-amber-300" title="${rej.rejection_reason || ''}">⚠️ Atualização de ${rej.dataset_key} retida (${rejDate}): dados aceites mantidos</span>`;
+        }
+        genEl.innerHTML = badgesHtml;
+      }
+    }
+
     document.getElementById('wetCountPill').innerText = WET_DATA.length;
     document.getElementById('dryCountPill').innerText = DRY_DATA.length;
     document.getElementById('searchInput').addEventListener('input', applyFilters);
