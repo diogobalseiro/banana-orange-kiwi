@@ -80,7 +80,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 13.42,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "8872244",
@@ -163,7 +164,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 9.63,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "7306931",
@@ -246,7 +248,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 7.42,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "6068498",
@@ -329,7 +332,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 5.56,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "7306915",
@@ -412,7 +416,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 8.33,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "7306914",
@@ -495,7 +500,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 7.18,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "6225883",
@@ -578,7 +584,7 @@
     "value_ratio": 6.92,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.869540+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.749692+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -675,7 +681,105 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 13.7,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
+  },
+  {
+    "pid": "8642838",
+    "name": "Ração para Gato Júnior Pato Purenatural",
+    "brand": "Purenatural",
+    "price": 3.39,
+    "unit_price_kg": 8.48,
+    "pack_size": "emb. 400 g",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-pato-purenatural-8642838",
+    "retailer": "ZU",
+    "ingredients": "Pato fresco (28%), pato desidratado (20%), arroz branco, aveia, gordura de aves, polpa de beterraba, óleo de salmão, minerais.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 18.0%, Fibra bruta: 2.0%, Cinza bruta: 7.5%",
+    "description": "Caraterísticas\nDescrição:\nUm alimento completo, delicioso e natural, especialmente concebido para apoiar o crescimento saudável do seu gatinho até aproximadamente aos 12 meses de idade. Purenatural Kitten contém pato altamente digestível e salmão nutritivo. É produzido na Finlândia e preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gatinho de forma saudável e saborosa.\nSabor:\nPato",
+    "is_reconciled": true,
+    "formulation_id": "purenatural_junior_pato_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Pato fresco (28%), pato desidratado (20%), arroz branco, aveia, gordura de aves, polpa de beterraba, óleo de salmão, minerais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 33,0 %, gordura bruta 19,0 %, fibra bruta 2,0 %, cinza bruta 10,5 %, humidade 7,0 %, NFE (carboidratos) 28,5 %,",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 18.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 7.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 2.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 89,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": true,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Pato fresco (28%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": 10.5,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.749802+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "8642838",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "purenatural_junior_pato_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "7630689",
@@ -758,7 +862,7 @@
     "value_ratio": 10.58,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.869654+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.749840+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -855,7 +959,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 6.87,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "8872237",
@@ -938,7 +1043,7 @@
     "value_ratio": 18.42,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.869734+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.749920+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1035,7 +1140,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 16.07,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "6787158",
@@ -1118,7 +1224,7 @@
     "value_ratio": 12.06,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.869809+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750002+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1215,7 +1321,7 @@
     "value_ratio": 11.24,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.869847+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750045+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1312,7 +1418,7 @@
     "value_ratio": 10.12,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.869859+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750058+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1409,106 +1515,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 6.8,
-    "carb_band": "22-32% (Moderado)"
-  },
-  {
-    "pid": "8252820",
-    "name": "Ração para Gato Júnior Peixe Branco Nature'S Variety",
-    "brand": "Nature's Variety",
-    "price": 15.95,
-    "unit_price_kg": 12.76,
-    "pack_size": "emb. 1,25 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-peixe-branco-nature-s-variety-8252820",
-    "retailer": "ZU",
-    "ingredients": "Composição Frango do campo desossado* (30%), proteína de frango desidratada (29%), ervilhas desidratadas* (10%), amido de ervilha*, gordura de aves* (4%), grão-de-bico desidratado* (4%), batata desidratada (4%), proteínas animais hidrolisadas (aves, porco, peixe) (3%), proteína de ervilha*, proteína de peru desidratada (0,7%), proteína de batata, cenoura desidratada* (0,5% equivalente a 4% de cenoura fresca), óleo de peixe* (0,5%), maçã desidratada* (0,3% equivalente a 2% de maçã fresca), minerais, algas desidratadas (0,01%), alecrim desidratado* (0,01%). = Ingredientes naturais. Aditivos Aditivos nutricionais e fisiológicos: Vitamina A (27.000 UI/kg), vitamina D3 (1.200 UI/kg), vitamina E (650 mg/kg), vitamina C (200 mg/kg), taurina (1. 000 mg/kg), sulfato de ferro (II) mono-hidratado (260 mg/kg), iodeto de potássio (1,9 mg/kg), sulfato de cobre (II) penta-hidratado (33 mg/kg), sulfato de manganês mono-hidratado (123 mg/kg), sulfato de zinco mono-hidratado (338 mg/kg), selenito de sódio (0,24 mg/kg).",
-    "nutrition_raw": "Proteína: 40.0%; Gordura: 19.0%; Fibra: 2.5%; Cinza: 8.0%; Ácidos gordos Omega-3: 0.4%; Ácidos gordos Omega-6: 2.9%; ácido docosahexaenóico: 0.1%",
-    "description": "Caraterísticas\nSabor:\nPeixe branco",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição Frango do campo desossado* (30%), proteína de frango desidratada (29%), ervilhas desidratadas* (10%), amido de ervilha*, gordura de aves* (4%), grão-de-bico desidratado* (4%), batata desidratada (4%), proteínas animais hidrolisadas (aves, porco, peixe) (3%), proteína de ervilha*, proteína de peru desidratada (0,7%), proteína de batata, cenoura desidratada* (0,5% equivalente a 4% de cenoura fresca), óleo de peixe* (0,5%), maçã desidratada* (0,3% equivalente a 2% de maçã fresca), minerais, algas desidratadas (0,01%), alecrim desidratado* (0,01%). = Ingredientes naturais. Aditivos Aditivos nutricionais e fisiológicos: Vitamina A (27.000 UI/kg), vitamina D3 (1.200 UI/kg), vitamina E (650 mg/kg), vitamina C (200 mg/kg), taurina (1. 000 mg/kg), sulfato de ferro (II) mono-hidratado (260 mg/kg), iodeto de potássio (1,9 mg/kg), sulfato de cobre (II) penta-hidratado (33 mg/kg), sulfato de manganês mono-hidratado (123 mg/kg), sulfato de zinco mono-hidratado (338 mg/kg), selenito de sódio (0,24 mg/kg).",
-    "raw_nutrition_raw": "Proteína: 40.0%; Gordura: 19.0%; Fibra: 2.5%; Cinza: 8.0%; Ácidos gordos Omega-3: 0.4%; Ácidos gordos Omega-6: 2.9%; ácido docosahexaenóico: 0.1%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 40.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 19.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 8.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 2.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": 86,
-    "tier": "Tier S (Ultra-Premium)",
-    "is_kitten": true,
-    "is_sterilised": false,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Frango do campo desossado* (30%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "value_ratio": 6.74,
-    "carb_band": "N/D",
-    "raw_classification": null,
-    "reconciliation_timestamp": "2026-10-27T19:26:00.236453+00:00",
-    "classification": "complete",
-    "has_material_conflict": false,
-    "reconciliation_sources": {
-      "retailer": "zu",
-      "pid": "8252820",
-      "ingredients": "verified_formulation",
-      "nutrition_raw": "verified_formulation",
-      "classification": "verified_formulation"
-    },
-    "shared_assessment": {
-      "formulation_id": "zoo_nature_s_variety_nature_s_variety_no_grain_kitten_frango_do_campo_dry",
-      "source": "verified_shared_formulation",
-      "is_ranked": true
-    }
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "6068481",
@@ -1591,7 +1599,687 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 4.4,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
+  },
+  {
+    "pid": "7422673",
+    "name": "Ração para Gato Adulto Esterilizado Original Salmão Nature'S Variety",
+    "brand": "Nature's Variety",
+    "price": 47.16,
+    "unit_price_kg": 6.74,
+    "pack_size": "emb. 7 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-original-salmao-nature-s-variety-7422673",
+    "retailer": "ZU",
+    "ingredients": "Salmão desossado (20%), proteína desidratada de salmão (12%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba, maçã desidratada, cenoura desidratada.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "description": "Caraterísticas\nDescrição:\nOs gatos exigentes que adoram o aroma e o sabor do peixe, dificilmente conseguirão resistir a Nature's Variety Original Sterilised salmão. Esta ração está preparada com bastante salmão e é ideal para gatos esterilizados e castrados graças ao seu teor equilibrado de energia e nutrientes.\nPara além do peixe de alta qualidade, que serve como fonte de proteína animal, contém também arroz e vegetais como fontes de energia. Nature's Variety Original Sterilised salmão tem uma receita rica em substâncias vitais que oferece ao seu gato valiosos minerais, vitaminas e fibra e facilita o controlo do peso.\nSabor:\nSalmão",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_original_salmao_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Ingredientes: Salmão sem espinhas* (20 %), arroz integral* (13,5 %), proteína de salmão desidratado (13 %), proteína de milho, ervilhas desidratadas* (10,5 %), proteína de batata, proteína de atum desidratado (4 %), aveia* (4 %), gorduras de aves* (3,5 %), fibra de ervilhas*, proteína hidrolisada (3 %), polpa de beterraba*, minerais, cenoura desidratada* (0,5 % correspondendo a 4 % de cenoura fresca), maçã desidratada* (0,3 %, correspondendo a 2 % de maçã fresca).\n* = Ingredientes naturais.",
+    "raw_nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 83,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Salmão desossado (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": 12.31,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750224+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7422673",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_original_salmao_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "7944653",
+    "name": "Ração para Gato Esterilizado Salmão Nature's Variety",
+    "brand": "Nature's Variety",
+    "price": 26.39,
+    "unit_price_kg": 8.8,
+    "pack_size": "emb. 3 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-esterilizado-salmao-nature-s-variety-7944653",
+    "retailer": "ZU",
+    "ingredients": "Salmão desossado (20%), proteína desidratada de salmão (12%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba, maçã desidratada, cenoura desidratada.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "description": "",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_original_salmao_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Salmão desossado (20%), proteína desidratada de salmão (12%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba, maçã desidratada, cenoura desidratada.",
+    "raw_nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 83,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Salmão desossado (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 9.43,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750254+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7944653",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_original_salmao_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "7944652",
+    "name": "Ração para Gato Esterilizado Frango Nature's Variety",
+    "brand": "Nature's Variety",
+    "price": 27.99,
+    "unit_price_kg": 9.33,
+    "pack_size": "emb. 3 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-esterilizado-frango-nature-s-variety-7944652",
+    "retailer": "ZU",
+    "ingredients": "Carne de frango desossada (20%), proteína desidratada de frango (19%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba, maçã desidratada.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.0%",
+    "description": "Caraterísticas\nSabor:\nFrango",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_original_frango_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição: Carne de frango criado ao ar livre desossada* (30%), proteína desidratada de frango (26%), ervilhas desidratadas* (9%), amido de ervilha*, grão-de- bico desidratado* (5%), fibra de ervilha*, batata-doce desidratada* (4%), proteína de batata, hidrolisado de proteína (3%), gordura de aves de capoeira* (2,5%), raiz de chicória desidratada*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), brócolos desidratados* (0,5%, equivalente a 4% de brócolos frescos), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca), alga desidratada* (0,01%), alecrim desidratado* (0,01%). *Ingredientes naturais.",
+    "raw_nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.0%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 83,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Carne de frango desossada (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 8.9,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750284+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7944652",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_original_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "7944638",
+    "name": "Ração para Gato Esterilizado Salmão Nature's Variety",
+    "brand": "Nature's Variety",
+    "price": 27.99,
+    "unit_price_kg": 9.33,
+    "pack_size": "emb. 3 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-esterilizado-salmao-nature-s-variety-7944638",
+    "retailer": "ZU",
+    "ingredients": "Salmão desossado (20%), proteína desidratada de salmão (12%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba, maçã desidratada, cenoura desidratada.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "description": "Caraterísticas\nSabor:\nSalmão",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_original_salmao_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição: Carne de salmão sem espinhas* (20%), arroz integral* (13,5%), proteína desidratada de salmão (13%), proteína de milho, ervilhas desidratadas* (10,5%), proteína de batata, proteína desidratada de atum (4%), aveia* (4%), gordura de aves de capoeira* (3,5%), fibra de ervilha*, hidrolisado de proteína (3%), polpa de beterraba*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca)., *Ingredientes naturais.",
+    "raw_nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 83,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Salmão desossado (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 8.9,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750315+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7944638",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_original_salmao_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "8252820",
+    "name": "Ração para Gato Júnior Peixe Branco Nature'S Variety",
+    "brand": "Nature's Variety",
+    "price": 15.95,
+    "unit_price_kg": 12.76,
+    "pack_size": "emb. 1,25 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-peixe-branco-nature-s-variety-8252820",
+    "retailer": "ZU",
+    "ingredients": "Peixe branco desossado (20%), proteína desidratada de atum (15%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "description": "Caraterísticas\nSabor:\nPeixe branco",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_original_peixe_branco_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição Frango do campo desossado* (30%), proteína de frango desidratada (29%), ervilhas desidratadas* (10%), amido de ervilha*, gordura de aves* (4%), grão-de-bico desidratado* (4%), batata desidratada (4%), proteínas animais hidrolisadas (aves, porco, peixe) (3%), proteína de ervilha*, proteína de peru desidratada (0,7%), proteína de batata, cenoura desidratada* (0,5% equivalente a 4% de cenoura fresca), óleo de peixe* (0,5%), maçã desidratada* (0,3% equivalente a 2% de maçã fresca), minerais, algas desidratadas (0,01%), alecrim desidratado* (0,01%). = Ingredientes naturais. Aditivos Aditivos nutricionais e fisiológicos: Vitamina A (27.000 UI/kg), vitamina D3 (1.200 UI/kg), vitamina E (650 mg/kg), vitamina C (200 mg/kg), taurina (1. 000 mg/kg), sulfato de ferro (II) mono-hidratado (260 mg/kg), iodeto de potássio (1,9 mg/kg), sulfato de cobre (II) penta-hidratado (33 mg/kg), sulfato de manganês mono-hidratado (123 mg/kg), sulfato de zinco mono-hidratado (338 mg/kg), selenito de sódio (0,24 mg/kg).",
+    "raw_nutrition_raw": "Proteína: 40.0%; Gordura: 19.0%; Fibra: 2.5%; Cinza: 8.0%; Ácidos gordos Omega-3: 0.4%; Ácidos gordos Omega-6: 2.9%; ácido docosahexaenóico: 0.1%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 83,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": true,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Peixe branco desossado (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 6.5,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750387+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "8252820",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_original_peixe_branco_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "7413206",
+    "name": "Ração para Gato Adulto Esterilizado Salmão Nature's Variety",
+    "brand": "Nature's Variety",
+    "price": 15.95,
+    "unit_price_kg": 12.76,
+    "pack_size": "emb. 1,25 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-salmao-nature-s-variety-7413206",
+    "retailer": "ZU",
+    "ingredients": "Salmão desossado (20%), proteína desidratada de salmão (12%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba, maçã desidratada, cenoura desidratada.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "description": "Caraterísticas\nDescrição:\nEste alimento seco é elaborado com ingredientes naturais de primeira qualidade, o salmão e o atum, que são combinados com uma seleção de frutas e verduras que ajudam o seu gato a ter um estado de saúde ótimo, ao mesmo tempo em que aprecia o excelente sabor da ração Nature's Variety.\nO sistema imunológico ficará protegido e melhorado com as vitaminas E, vitamina C e selênio, substâncias com um alto nível de antioxidantes. O zinco e as proteínas também vão contribuir para que o seu gato tenha uma função imunológica ótima.\nMas os benefícios deste alimento não estão somente por dentro, também serão refletidos no aspecto externo do seu gato, graças aos ácidos gordos essenciais ómega 3 e ómega 6, que melhoram a qualidade e a saúde do pelo e da pele do seu gato.\nAs rações Nature's Variety são desenvolvidas por profissionais do mundo animal para dar resposta às necessidades nutricionais de gatos de diferentes idades e estados de saúde.\nSabor:\nSalmão",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_original_salmao_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Ingredientes:\nCarne de salmão sem espinhos* (20%), arroz integral* (13,5%), proteína desidratada de salmão (13%), proteína de milho, ervilhas desidratadas* (10,5%), proteína de batata, proteína desidratada de atum (4%), aveia* (4%), gordura avícola* (3,5%), fibra de ervilha*, hidrolisado de proteína (3%), polpa de beterraba*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca). *Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos\n: Proteína bruta 36%, gordura bruta 14%, fibra bruta 4%, cinza bruta 8%, ?3 0,8%, ?6 2,4%.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 83,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Salmão desossado (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 6.5,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750460+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7413206",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_original_salmao_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "8252827",
+    "name": "Ração para Gato Adulto Esterilizado Peixe Branco Nature'S Variety",
+    "brand": "Nature's Variety",
+    "price": 15.95,
+    "unit_price_kg": 12.76,
+    "pack_size": "emb. 1,25 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-peixe-branco-nature-s-variety-8252827",
+    "retailer": "ZU",
+    "ingredients": "Peixe branco desossado (20%), proteína desidratada de atum (15%), ervilhas desidratadas, arroz integral, aveia, cevada integral, gordura de aves, polpa de beterraba.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "description": "Caraterísticas\nSabor:\nPeixe branco",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_original_peixe_branco_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição: Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (20%), proteína desidratada de atum (13%), ervilhas desidratadas* (13%), proteína de milho, proteína de batata, arroz integral* (6%), aveia* (6%), gordura de aves de capoeira* (4%), polpa de beterraba*, proteínas animais hidrolisadas (aves de capoeira, porco, peixe) (3%), fibra de ervilha*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% maçã fresca), algas marinhas desidratadas (kelp)* (0,01%), alecrim desidratado* (0,01%).\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Proteína bruta: 36.0%, Matéria gorda bruta: 14.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 14.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 83,
+    "tier": "Tier S (Ultra-Premium)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Peixe branco desossado (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 6.5,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750494+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "8252827",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_original_peixe_branco_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "7413214",
@@ -1674,7 +2362,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 6.12,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8031173",
@@ -1757,7 +2446,7 @@
     "value_ratio": 13.85,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870126+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750580+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1854,7 +2543,7 @@
     "value_ratio": 8.87,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870139+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750593+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2050,7 +2739,7 @@
     "value_ratio": 12.62,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870211+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750673+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2147,7 +2836,7 @@
     "value_ratio": 8.57,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870222+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750683+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2244,7 +2933,7 @@
     "value_ratio": 6.8,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870230+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750691+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2341,7 +3030,7 @@
     "value_ratio": 9.8,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870242+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750703+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2438,7 +3127,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.87,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7630684",
@@ -2521,7 +3211,7 @@
     "value_ratio": 10.11,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870346+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.750801+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2618,7 +3308,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 13.85,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "4311780",
@@ -2998,7 +3689,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.63,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5928519",
@@ -3081,7 +3773,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.61,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8044937",
@@ -3164,7 +3857,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.17,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7299952",
@@ -3266,6 +3960,202 @@
     }
   },
   {
+    "pid": "8872249",
+    "name": "Ração para Gato Adulto Mini Carne Vermelha Wilder Purenatural",
+    "brand": "Purenatural",
+    "price": 24.64,
+    "unit_price_kg": null,
+    "pack_size": "",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-mini-carne-vermelha-wilder-purenatural-8872249",
+    "retailer": "ZU",
+    "body_html": "<p>Alimento completo delicioso, natural e sem cereais, cheio de sabor, com 54% de porco fresco e rena, vegetais e frutos nórdicos. Produzido com ingredientes reais e puros, sem adição de aromas, corantes ou conservantes artificiais. Purenatural Wilder satisfaz as necessidades nutricionais do seu cão de forma saudável e saborosa.</p>",
+    "fetch_error": "Fetch failed for https://www.zu.pt/products/racao-para-gato-adulto-mini-carne-vermelha-wilder-purenatural-8872249 [status: 429]: Exhausted 4 retries: HTTP Error 429: Too Many Requests",
+    "is_reconciled": true,
+    "formulation_id": "purenatural_wilder_carne_vermelha_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
+    "raw_nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 16.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 2.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 69,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": false,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Carne fresca de javali (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": null,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.751380+00:00",
+    "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "8872249",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "purenatural_wilder_carne_vermelha_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "8872248",
+    "name": "Ração para Gato Adulto Carne Vermelha Wilder Purenatural",
+    "brand": "Purenatural",
+    "price": 39.09,
+    "unit_price_kg": null,
+    "pack_size": "",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-carne-vermelha-wilder-purenatural-8872248",
+    "retailer": "ZU",
+    "body_html": "<p>Alimento completo delicioso, natural e sem cereais, cheio de sabor, à base de porco, borrego e rena. Contribui para a saúde do coração, do pelo, da digestão e do trato urinário, sendo adequado para gatos adultos de todas as raças.</p>",
+    "fetch_error": "Fetch failed for https://www.zu.pt/products/racao-para-gato-adulto-carne-vermelha-wilder-purenatural-8872248 [status: 429]: Exhausted 4 retries: HTTP Error 429: Too Many Requests",
+    "is_reconciled": true,
+    "formulation_id": "purenatural_wilder_carne_vermelha_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
+    "raw_nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 36.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 16.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 2.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 69,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": false,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Carne fresca de javali (20%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": null,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.751413+00:00",
+    "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
+    "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "8872248",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "purenatural_wilder_carne_vermelha_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
     "pid": "7739997",
     "name": "Ração para Gato Adulto Esterilizado Sardinha Grain Free Happyone Mediterraneum",
     "brand": "happyOne Mediterraneum",
@@ -3346,7 +4236,7 @@
     "value_ratio": 8.83,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.870906+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.751456+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3443,7 +4333,8 @@
     "has_taurine": true,
     "has_marine_omega": false,
     "value_ratio": 10.28,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "8031180",
@@ -3625,7 +4516,105 @@
     "has_taurine": true,
     "has_marine_omega": false,
     "value_ratio": 6.8,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
+  },
+  {
+    "pid": "7944636",
+    "name": "Ração para Gato Adulto Esterilizado Sem Cereais Peru Nature'S Variety",
+    "brand": "Nature's Variety",
+    "price": 15.95,
+    "unit_price_kg": 12.76,
+    "pack_size": "emb. 1,25 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-sem-cereais-peru-nature-s-variety-7944636",
+    "retailer": "ZU",
+    "ingredients": "Carne de peru desossada (20%), proteína desidratada de peru (18%), ervilhas desidratadas, batata desidratada, proteína de ervilha, gordura de aves, maçã desidratada, cenoura desidratada.",
+    "nutrition_raw": "Proteína bruta: 37.0%, Matéria gorda bruta: 15.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "description": "Caraterísticas\nSabor:\nPeru",
+    "is_reconciled": true,
+    "formulation_id": "natures_variety_no_grain_peru_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição: Carne de peru desossada* (20%), proteína desidratada de frango (19%), ervilhas desidratadas* (13%), proteína desidratada de porco (9%), batata desidratada* (7%), amido de ervilha*, grão-de-bico desidratado* (4%), gordura de aves de capoeira* (3%), polpa de beterraba*, proteínas animais hidrolisadas (aves de capoeira, porco, peixe) (3%), proteína desidratada de peru (2%), substâncias minerais, fibra de ervilha*, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% maçã fresca), algas marinhas desidratadas (kelp)* (0,01%), alecrim desidratado* (0,01%).\n*Ingredientes naturais",
+    "raw_nutrition_raw": "Proteína bruta: 37.0%, Matéria gorda bruta: 15.0%, Fibra bruta: 4.0%, Cinza bruta: 8.5%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 37.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 15.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 66,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Carne de peru desossada (20%)",
+    "is_grain_free": true,
+    "is_fractionated": true,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 5.17,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.751696+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7944636",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "natures_variety_no_grain_peru_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "7141151",
@@ -3708,7 +4697,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 3.57,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "8045065",
@@ -4089,7 +5079,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 5.2,
-    "carb_band": "32-40% (Elevado)"
+    "carb_band": "32-40% (Elevado)",
+    "has_material_conflict": false
   },
   {
     "pid": "8623846",
@@ -4172,7 +5163,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.35,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "3691469",
@@ -4255,7 +5247,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.81,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5454007",
@@ -5526,7 +6519,7 @@
     "value_ratio": 7.56,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.872455+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.753091+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5623,7 +6616,8 @@
     "has_taurine": true,
     "has_marine_omega": false,
     "value_ratio": 6.39,
-    "carb_band": "32-40% (Elevado)"
+    "carb_band": "32-40% (Elevado)",
+    "has_material_conflict": false
   },
   {
     "pid": "5451622",
@@ -5706,7 +6700,7 @@
     "value_ratio": 5.61,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.872575+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.753210+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5803,7 +6797,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 3.63,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "8062102",
@@ -5886,7 +6881,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 15.16,
-    "carb_band": "32-40% (Elevado)"
+    "carb_band": "32-40% (Elevado)",
+    "has_material_conflict": false
   },
   {
     "pid": "8062103",
@@ -5969,7 +6965,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 12.47,
-    "carb_band": "32-40% (Elevado)"
+    "carb_band": "32-40% (Elevado)",
+    "has_material_conflict": false
   },
   {
     "pid": "5451052",
@@ -6151,7 +7148,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 9.37,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8291033",
@@ -6234,7 +7232,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 5.4,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6030072",
@@ -6317,7 +7316,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 5.38,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "7729744",
@@ -6499,7 +7499,7 @@
     "value_ratio": 6.67,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.873120+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.753770+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6596,7 +7596,7 @@
     "value_ratio": 6.67,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.873135+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.753779+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6792,7 +7792,7 @@
     "value_ratio": 5.34,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.873218+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.753856+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6889,7 +7889,7 @@
     "value_ratio": 5.3,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.873228+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.753864+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7085,7 +8085,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.76,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7400259",
@@ -7168,7 +8169,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.45,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5451670",
@@ -7370,6 +8372,103 @@
     }
   },
   {
+    "pid": "3690303",
+    "name": "Ração para Gato Júnior Frango Purina Cat Chow",
+    "brand": "Purina Cat Chow",
+    "price": 8.0,
+    "unit_price_kg": 5.33,
+    "pack_size": "emb. 1,5 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-frango-purina-cat-chow-458154",
+    "retailer": "ZU",
+    "ingredients": "Carnes e subprodutos animais (33%, dos quais 14% Frango), Cereais (32% cereais integrais), Extratos de proteínas vegetais, Óleos e gorduras, Subprodutos de origem vegetal, Legumes (raiz de chicória desidratada 2%, cenouras 0,27%, espinafres 0,27%), Substâncias minerais, Leveduras.",
+    "nutrition_raw": "Proteína bruta: 40.0%, Matéria gorda bruta: 12.0%, Cinza bruta: 8.5%, Fibra bruta: 2.5%",
+    "description": "Caraterísticas\nDescrição:\nPurina® Cat Chow® Urinary Tract Health é um alimento completo para gatos que inclui Naturium¿ ajuda a manter o pH urinário e promove a saúde do trato urinário devido ao nível equilibrado de minerais. Contém óleo de peixe que ajuda a prevenir a inflamação do trato urinário.\nSabor:\nFrango",
+    "is_reconciled": true,
+    "formulation_id": "cat_chow_junior_frango_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição: Carne e subprodutos animais (carnes 14%, frango 4%), cereais*, extratos de proteínas vegetais, óleos e gorduras, peixe e subprodutos de peixes, substâncias minerais, verduras* (cenoura 1,3%, espinafre 1,3%, ervilha 1,3%), leveduras*, subprodutos de origem vegetal (salsa* 0,4%).\n*Ingredientes naturais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 40,0%; Óleos e gorduras brutas 12,0%; Cinza bruta 9,5%; Fibras brutas 1,5%; DHA 0,03%.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 40.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 8.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 2.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 58,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
+    "is_kitten": true,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Carnes e subprodutos animais (33%",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": true,
+    "value_ratio": 10.88,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.754224+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "3690303",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "cat_chow_junior_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
     "pid": "7575851",
     "name": "Ração para Gato Júnior Frango e Ovos Weego",
     "brand": "Weego",
@@ -7450,7 +8549,7 @@
     "value_ratio": 8.55,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.873589+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.754264+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7547,7 +8646,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 10.75,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8062104",
@@ -7630,7 +8730,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 10.67,
-    "carb_band": "32-40% (Elevado)"
+    "carb_band": "32-40% (Elevado)",
+    "has_material_conflict": false
   },
   {
     "pid": "6773318",
@@ -7713,7 +8814,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 6.73,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6773314",
@@ -7796,7 +8898,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 6.73,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5657107",
@@ -7879,7 +8982,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 5.32,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5449812",
@@ -8061,7 +9165,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.6,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7075554",
@@ -8144,7 +9249,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.52,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7400260",
@@ -8227,7 +9333,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.23,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7400261",
@@ -8310,7 +9417,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.23,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7932794",
@@ -8393,7 +9501,7 @@
     "value_ratio": 7.64,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.874263+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.754978+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8490,7 +9598,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 8.61,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5923233",
@@ -8573,7 +9682,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 5.5,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7122440",
@@ -8656,7 +9766,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.99,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6901832",
@@ -8739,7 +9850,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.44,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6901831",
@@ -8822,7 +9934,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.62,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450281",
@@ -9004,7 +10117,7 @@
     "value_ratio": 7.96,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.874696+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.755438+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9101,7 +10214,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 4.73,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "3691476",
@@ -9184,7 +10298,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.99,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5454192",
@@ -9465,7 +10580,7 @@
     "value_ratio": 15.95,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.874975+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.755777+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9562,7 +10677,7 @@
     "value_ratio": 15.76,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.874999+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.755787+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9758,7 +10873,7 @@
     "value_ratio": 11.04,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.875108+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.755883+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9855,7 +10970,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 6.14,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7400266",
@@ -9938,7 +11054,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.51,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5997559",
@@ -10021,7 +11138,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.48,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045094",
@@ -10104,7 +11222,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.39,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450954",
@@ -10286,7 +11405,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.85,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045071",
@@ -10369,7 +11489,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 3.8,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450196",
@@ -10551,7 +11672,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 3.71,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045100",
@@ -10634,7 +11756,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 3.61,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045105",
@@ -10717,7 +11840,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 3.41,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450195",
@@ -11097,7 +12221,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 3.84,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7413205",
@@ -11180,7 +12305,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.61,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450194",
@@ -11362,7 +12488,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 3.93,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "5450192",
@@ -11544,7 +12671,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 2.93,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "7992365",
@@ -11627,7 +12755,7 @@
     "value_ratio": 13.17,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.876372+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.757242+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11724,7 +12852,7 @@
     "value_ratio": 11.09,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.876382+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.757251+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11821,7 +12949,7 @@
     "value_ratio": 10.63,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.876412+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.757287+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11918,7 +13046,7 @@
     "value_ratio": 7.23,
     "carb_band": "N/D",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T19:26:31.876443+00:00",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.757325+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12411,7 +13539,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.08,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450210",
@@ -12593,7 +13722,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.23,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045097",
@@ -12676,7 +13806,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 2.77,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7735704",
@@ -12759,90 +13890,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.11,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "7413206",
-    "name": "Ração para Gato Adulto Esterilizado Salmão Nature's Variety",
-    "brand": "Nature's Variety",
-    "price": 15.95,
-    "unit_price_kg": 12.76,
-    "pack_size": "emb. 1,25 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-salmao-nature-s-variety-7413206",
-    "retailer": "ZU",
-    "ingredients": "Ingredientes:\nCarne de salmão sem espinhos* (20%), arroz integral* (13,5%), proteína desidratada de salmão (13%), proteína de milho, ervilhas desidratadas* (10,5%), proteína de batata, proteína desidratada de atum (4%), aveia* (4%), gordura avícola* (3,5%), fibra de ervilha*, hidrolisado de proteína (3%), polpa de beterraba*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca). *Ingredientes naturais.",
-    "nutrition_raw": "Constituintes Analíticos\n: Proteína bruta 36%, gordura bruta 14%, fibra bruta 4%, cinza bruta 8%, ?3 0,8%, ?6 2,4%.",
-    "description": "Caraterísticas\nDescrição:\nEste alimento seco é elaborado com ingredientes naturais de primeira qualidade, o salmão e o atum, que são combinados com uma seleção de frutas e verduras que ajudam o seu gato a ter um estado de saúde ótimo, ao mesmo tempo em que aprecia o excelente sabor da ração Nature's Variety.\nO sistema imunológico ficará protegido e melhorado com as vitaminas E, vitamina C e selênio, substâncias com um alto nível de antioxidantes. O zinco e as proteínas também vão contribuir para que o seu gato tenha uma função imunológica ótima.\nMas os benefícios deste alimento não estão somente por dentro, também serão refletidos no aspecto externo do seu gato, graças aos ácidos gordos essenciais ómega 3 e ómega 6, que melhoram a qualidade e a saúde do pelo e da pele do seu gato.\nAs rações Nature's Variety são desenvolvidas por profissionais do mundo animal para dar resposta às necessidades nutricionais de gatos de diferentes idades e estados de saúde.\nSabor:\nSalmão",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Ingredientes:\nCarne de salmão sem espinhos* (20%), arroz integral* (13,5%), proteína desidratada de salmão (13%), proteína de milho, ervilhas desidratadas* (10,5%), proteína de batata, proteína desidratada de atum (4%), aveia* (4%), gordura avícola* (3,5%), fibra de ervilha*, hidrolisado de proteína (3%), polpa de beterraba*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca). *Ingredientes naturais.",
-    "raw_nutrition_raw": "Constituintes Analíticos\n: Proteína bruta 36%, gordura bruta 14%, fibra bruta 4%, cinza bruta 8%, ?3 0,8%, ?6 2,4%.",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 36.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 14.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 8.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 4.0,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": 48,
-    "tier": "Tier C (Básico / Cereais e Subprodutos)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Carne de salmão sem espinhos* (20%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": true,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": 3.76,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "3691470",
@@ -12925,7 +13974,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 2.93,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5451049",
@@ -13008,7 +14058,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 7.97,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5451048",
@@ -13091,7 +14142,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 7.97,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5451037",
@@ -13174,7 +14226,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 5.43,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450957",
@@ -13257,7 +14310,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.72,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5451011",
@@ -13340,7 +14394,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.65,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5451013",
@@ -13423,7 +14478,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.65,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8044894",
@@ -13506,7 +14562,105 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 2.76,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
+  },
+  {
+    "pid": "7204323",
+    "name": "Ração para Gato Adulto Esterilizado Atum Libra",
+    "brand": "Libra",
+    "price": 8.03,
+    "unit_price_kg": 5.35,
+    "pack_size": "emb. 1,5 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-atum-libra-458089",
+    "retailer": "ZU",
+    "ingredients": "Cereais (cevada integral 4%), carnes e subprodutos animais, extratos de proteínas vegetais, peixes e subprodutos de peixes (atum desidratado 10%), óleos e gorduras, substâncias minerais.",
+    "nutrition_raw": "Proteína bruta: 35.0%, Matéria gorda bruta: 12.0%, Fibra bruta: 4.0%, Cinza bruta: 7.5%",
+    "description": "Caraterísticas\nDescrição:\nLibra Esterilizado é um alimento balanceado e completo desenvolvido para gatos adultos, principalmente os esterilizados, com o objetivo de prevenir problemas urinários e excesso de peso.\nSabor:\nAtum",
+    "is_reconciled": true,
+    "formulation_id": "affinity_libra_esterilizado_atum_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição: Cereais (cevada 4%), carnes e subprodutos animais, extratos de proteínas vegetais, peixes e subprodutos de peixes (atum desidratado 10%), subprodutos de origem vegetal, óleos e gorduras, legumes, substâncias minerais.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 35%; Humidade 6%; Gordura 11,7%; Fibra bruta 5%; Minerais 7,5%; Cálcio 1%; Fósforo 0,8%; Sódio 0,7%; Potássio 0,8%; Magnésio 0,14%; Ómega 3 0,22%; Ómega 6 1,5%.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 35.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": null,
+        "status": "missing"
+      },
+      "ash": {
+        "value": 7.5,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": null,
+        "status": "missing"
+      },
+      "phosphorus": {
+        "value": null,
+        "status": "missing"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": null,
+      "protein_dmb": null,
+      "fat_dmb": null,
+      "carbs_nfe": null,
+      "carbs_dmb": null,
+      "ca_p_ratio": null
+    },
+    "score": 45,
+    "tier": "Tier C (Básico / Cereais e Subprodutos)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Cereais (cevada integral 4%)",
+    "is_grain_free": false,
+    "is_fractionated": false,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 8.41,
+    "carb_band": "N/D",
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-27T19:43:47.758533+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "7204323",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "affinity_libra_esterilizado_atum_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "7276060",
@@ -13688,7 +14842,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 3.47,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5454119",
@@ -13870,7 +15025,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 2.85,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7416737",
@@ -13953,7 +15109,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 2.85,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5085900",
@@ -14630,7 +15787,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 8.15,
-    "carb_band": "32-40% (Elevado)"
+    "carb_band": "32-40% (Elevado)",
+    "has_material_conflict": false
   },
   {
     "pid": "7075553",
@@ -14713,7 +15871,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.02,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8044885",
@@ -14895,7 +16054,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 2.31,
-    "carb_band": ">40% (Muito Alto)"
+    "carb_band": ">40% (Muito Alto)",
+    "has_material_conflict": false
   },
   {
     "pid": "8378417",
@@ -14978,7 +16138,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 2.83,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6808221",
@@ -15061,7 +16222,8 @@
     "has_taurine": true,
     "has_marine_omega": true,
     "value_ratio": 2.76,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "22-32% (Moderado)",
+    "has_material_conflict": false
   },
   {
     "pid": "5453982",
@@ -15144,7 +16306,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 2.2,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5923266",
@@ -15326,7 +16489,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 2.08,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8044895",
@@ -15409,7 +16573,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.96,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5757971",
@@ -15492,7 +16657,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 9.32,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "4304438",
@@ -15575,7 +16741,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.9,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5923268",
@@ -15757,7 +16924,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 3.15,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6027244",
@@ -15939,7 +17107,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 2.21,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8044892",
@@ -16022,7 +17191,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 2.15,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7455386",
@@ -16204,7 +17374,23 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 5.25,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "raw_classification": null,
+    "reconciliation_timestamp": "2026-10-27T19:38:26.681001+00:00",
+    "classification": "complete",
+    "has_material_conflict": false,
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "4451983",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "cat_chow_wet_esterilizado_borrego",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "7454041",
@@ -16287,7 +17473,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 5.25,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "4304372",
@@ -16370,7 +17557,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 5.25,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5757976",
@@ -16453,7 +17641,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 5.05,
-    "carb_band": "32-40% (Elevado)"
+    "carb_band": "32-40% (Elevado)",
+    "has_material_conflict": false
   },
   {
     "pid": "4304443",
@@ -16536,7 +17725,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 3.19,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5757980",
@@ -16619,7 +17809,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.86,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5923274",
@@ -16900,7 +18091,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 4.69,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7204325",
@@ -17280,7 +18472,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.4,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "3690315",
@@ -17363,7 +18556,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.4,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5777356",
@@ -17446,7 +18640,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.4,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "3690375",
@@ -17529,7 +18724,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 4.13,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7300158",
@@ -17909,7 +19105,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.94,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6808222",
@@ -18091,7 +19288,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.6,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8111646",
@@ -18174,7 +19372,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.35,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8111656",
@@ -18257,7 +19456,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.12,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5502252",
@@ -18439,7 +19639,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.0,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450270",
@@ -18819,7 +20020,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 0.88,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8623842",
@@ -19199,7 +20401,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.69,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045080",
@@ -19282,7 +20485,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.49,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045082",
@@ -19365,7 +20569,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.4,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8045081",
@@ -19448,7 +20653,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 1.16,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5832342",
@@ -19531,7 +20737,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 0.81,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8044872",
@@ -19614,7 +20821,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 0.81,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "4311788",
@@ -19796,7 +21004,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 0.61,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5997660",
@@ -19978,7 +21187,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 0.94,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5923267",
@@ -20160,7 +21370,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 0.81,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5923231",
@@ -20243,7 +21454,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 0.79,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "7300200",
@@ -20524,7 +21736,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 0.71,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450283",
@@ -20706,7 +21919,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": 0.65,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "5450279",
@@ -21402,91 +22616,6 @@
     }
   },
   {
-    "pid": "7204323",
-    "name": "Ração para Gato Adulto Esterilizado Atum Libra",
-    "brand": "Libra",
-    "price": 8.03,
-    "unit_price_kg": 5.35,
-    "pack_size": "emb. 1,5 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-atum-libra-458089",
-    "retailer": "ZU",
-    "ingredients": "Composição: Cereais (cevada 4%), carnes e subprodutos animais, extratos de proteínas vegetais, peixes e subprodutos de peixes (atum desidratado 10%), subprodutos de origem vegetal, óleos e gorduras, legumes, substâncias minerais.",
-    "nutrition_raw": "Constituintes Analíticos: Proteína 35%; Humidade 6%; Gordura 11,7%; Fibra bruta 5%; Minerais 7,5%; Cálcio 1%; Fósforo 0,8%; Sódio 0,7%; Potássio 0,8%; Magnésio 0,14%; Ómega 3 0,22%; Ómega 6 1,5%.",
-    "description": "Caraterísticas\nDescrição:\nLibra Esterilizado é um alimento balanceado e completo desenvolvido para gatos adultos, principalmente os esterilizados, com o objetivo de prevenir problemas urinários e excesso de peso.\nSabor:\nAtum",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Cereais (cevada 4%), carnes e subprodutos animais, extratos de proteínas vegetais, peixes e subprodutos de peixes (atum desidratado 10%), subprodutos de origem vegetal, óleos e gorduras, legumes, substâncias minerais.",
-    "raw_nutrition_raw": "Constituintes Analíticos: Proteína 35%; Humidade 6%; Gordura 11,7%; Fibra bruta 5%; Minerais 7,5%; Cálcio 1%; Fósforo 0,8%; Sódio 0,7%; Potássio 0,8%; Magnésio 0,14%; Ómega 3 0,22%; Ómega 6 1,5%.",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 35.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 11.7,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 6.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": 5.0,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": 1.0,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 0.8,
-        "status": "valid"
-      },
-      "magnesium": {
-        "value": 0.14,
-        "status": "valid"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 94.0,
-      "protein_dmb": 37.2,
-      "fat_dmb": 12.4,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": 1.25
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_analytical_constituents"
-    ],
-    "first_ingredient": "Cereais (cevada 4%)",
-    "is_grain_free": false,
-    "is_fractionated": false,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
     "pid": "7533889",
     "name": "Ração para Gato Adulto Hyppoalergenic Affinity Advance Veterinary Diets",
     "brand": "Advance Veterinary Diets",
@@ -21569,518 +22698,8 @@
     "has_taurine": false,
     "has_marine_omega": true,
     "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "3690303",
-    "name": "Ração para Gato Júnior Frango Purina Cat Chow",
-    "brand": "Purina Cat Chow",
-    "price": 8.0,
-    "unit_price_kg": 5.33,
-    "pack_size": "emb. 1,5 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-frango-purina-cat-chow-458154",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carne e subprodutos animais (carnes 14%, frango 4%), cereais*, extratos de proteínas vegetais, óleos e gorduras, peixe e subprodutos de peixes, substâncias minerais, verduras* (cenoura 1,3%, espinafre 1,3%, ervilha 1,3%), leveduras*, subprodutos de origem vegetal (salsa* 0,4%).\n*Ingredientes naturais.",
-    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 40,0%; Óleos e gorduras brutas 12,0%; Cinza bruta 9,5%; Fibras brutas 1,5%; DHA 0,03%.",
-    "description": "Caraterísticas\nDescrição:\nPurina® Cat Chow® Urinary Tract Health é um alimento completo para gatos que inclui Naturium¿ ajuda a manter o pH urinário e promove a saúde do trato urinário devido ao nível equilibrado de minerais. Contém óleo de peixe que ajuda a prevenir a inflamação do trato urinário.\nSabor:\nFrango",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Carne e subprodutos animais (carnes 14%, frango 4%), cereais*, extratos de proteínas vegetais, óleos e gorduras, peixe e subprodutos de peixes, substâncias minerais, verduras* (cenoura 1,3%, espinafre 1,3%, ervilha 1,3%), leveduras*, subprodutos de origem vegetal (salsa* 0,4%).\n*Ingredientes naturais.",
-    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 40,0%; Óleos e gorduras brutas 12,0%; Cinza bruta 9,5%; Fibras brutas 1,5%; DHA 0,03%.",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 40.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": 9.5,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": true,
-    "is_sterilised": false,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_analytical_constituents"
-    ],
-    "first_ingredient": "Carne e subprodutos animais (carnes 14%",
-    "is_grain_free": false,
-    "is_fractionated": false,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "7422673",
-    "name": "Ração para Gato Adulto Esterilizado Original Salmão Nature'S Variety",
-    "brand": "Nature's Variety",
-    "price": 47.16,
-    "unit_price_kg": 6.74,
-    "pack_size": "emb. 7 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-original-salmao-nature-s-variety-7422673",
-    "retailer": "ZU",
-    "ingredients": "Ingredientes: Salmão sem espinhas* (20 %), arroz integral* (13,5 %), proteína de salmão desidratado (13 %), proteína de milho, ervilhas desidratadas* (10,5 %), proteína de batata, proteína de atum desidratado (4 %), aveia* (4 %), gorduras de aves* (3,5 %), fibra de ervilhas*, proteína hidrolisada (3 %), polpa de beterraba*, minerais, cenoura desidratada* (0,5 % correspondendo a 4 % de cenoura fresca), maçã desidratada* (0,3 %, correspondendo a 2 % de maçã fresca).\n* = Ingredientes naturais.",
-    "nutrition_raw": "",
-    "description": "Caraterísticas\nDescrição:\nOs gatos exigentes que adoram o aroma e o sabor do peixe, dificilmente conseguirão resistir a Nature's Variety Original Sterilised salmão. Esta ração está preparada com bastante salmão e é ideal para gatos esterilizados e castrados graças ao seu teor equilibrado de energia e nutrientes.\nPara além do peixe de alta qualidade, que serve como fonte de proteína animal, contém também arroz e vegetais como fontes de energia. Nature's Variety Original Sterilised salmão tem uma receita rica em substâncias vitais que oferece ao seu gato valiosos minerais, vitaminas e fibra e facilita o controlo do peso.\nSabor:\nSalmão",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Ingredientes: Salmão sem espinhas* (20 %), arroz integral* (13,5 %), proteína de salmão desidratado (13 %), proteína de milho, ervilhas desidratadas* (10,5 %), proteína de batata, proteína de atum desidratado (4 %), aveia* (4 %), gorduras de aves* (3,5 %), fibra de ervilhas*, proteína hidrolisada (3 %), polpa de beterraba*, minerais, cenoura desidratada* (0,5 % correspondendo a 4 % de cenoura fresca), maçã desidratada* (0,3 %, correspondendo a 2 % de maçã fresca).\n* = Ingredientes naturais.",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "first_ingredient": "Salmão sem espinhas* (20 %)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": true,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "7944652",
-    "name": "Ração para Gato Esterilizado Frango Nature's Variety",
-    "brand": "Nature's Variety",
-    "price": 27.99,
-    "unit_price_kg": 9.33,
-    "pack_size": "emb. 3 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-esterilizado-frango-nature-s-variety-7944652",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carne de frango criado ao ar livre desossada* (30%), proteína desidratada de frango (26%), ervilhas desidratadas* (9%), amido de ervilha*, grão-de- bico desidratado* (5%), fibra de ervilha*, batata-doce desidratada* (4%), proteína de batata, hidrolisado de proteína (3%), gordura de aves de capoeira* (2,5%), raiz de chicória desidratada*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), brócolos desidratados* (0,5%, equivalente a 4% de brócolos frescos), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca), alga desidratada* (0,01%), alecrim desidratado* (0,01%). *Ingredientes naturais.",
-    "nutrition_raw": "",
-    "description": "Caraterísticas\nSabor:\nFrango",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Carne de frango criado ao ar livre desossada* (30%), proteína desidratada de frango (26%), ervilhas desidratadas* (9%), amido de ervilha*, grão-de- bico desidratado* (5%), fibra de ervilha*, batata-doce desidratada* (4%), proteína de batata, hidrolisado de proteína (3%), gordura de aves de capoeira* (2,5%), raiz de chicória desidratada*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), brócolos desidratados* (0,5%, equivalente a 4% de brócolos frescos), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca), alga desidratada* (0,01%), alecrim desidratado* (0,01%). *Ingredientes naturais.",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "first_ingredient": "Carne de frango criado ao ar livre desossada* (30%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "8252827",
-    "name": "Ração para Gato Adulto Esterilizado Peixe Branco Nature'S Variety",
-    "brand": "Nature's Variety",
-    "price": 15.95,
-    "unit_price_kg": 12.76,
-    "pack_size": "emb. 1,25 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-peixe-branco-nature-s-variety-8252827",
-    "retailer": "ZU",
-    "ingredients": "Composição: Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (20%), proteína desidratada de atum (13%), ervilhas desidratadas* (13%), proteína de milho, proteína de batata, arroz integral* (6%), aveia* (6%), gordura de aves de capoeira* (4%), polpa de beterraba*, proteínas animais hidrolisadas (aves de capoeira, porco, peixe) (3%), fibra de ervilha*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% maçã fresca), algas marinhas desidratadas (kelp)* (0,01%), alecrim desidratado* (0,01%).\n*Ingredientes naturais",
-    "nutrition_raw": "",
-    "description": "Caraterísticas\nSabor:\nPeixe branco",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (20%), proteína desidratada de atum (13%), ervilhas desidratadas* (13%), proteína de milho, proteína de batata, arroz integral* (6%), aveia* (6%), gordura de aves de capoeira* (4%), polpa de beterraba*, proteínas animais hidrolisadas (aves de capoeira, porco, peixe) (3%), fibra de ervilha*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% maçã fresca), algas marinhas desidratadas (kelp)* (0,01%), alecrim desidratado* (0,01%).\n*Ingredientes naturais",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "first_ingredient": "Peixe branco sem espinhas* (bacalhau e outros peixes sazonais) (20%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": true,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "7944653",
-    "name": "Ração para Gato Esterilizado Salmão Nature's Variety",
-    "brand": "Nature's Variety",
-    "price": 26.39,
-    "unit_price_kg": 8.8,
-    "pack_size": "emb. 3 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-esterilizado-salmao-nature-s-variety-7944653",
-    "retailer": "ZU",
-    "ingredients": "",
-    "nutrition_raw": "",
-    "description": "",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_composition",
-      "missing_nutrition"
-    ],
-    "first_ingredient": null,
-    "is_grain_free": null,
-    "is_fractionated": null,
-    "has_corn_gluten": null,
-    "has_colorants": null,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "7944636",
-    "name": "Ração para Gato Adulto Esterilizado Sem Cereais Peru Nature'S Variety",
-    "brand": "Nature's Variety",
-    "price": 15.95,
-    "unit_price_kg": 12.76,
-    "pack_size": "emb. 1,25 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-sem-cereais-peru-nature-s-variety-7944636",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carne de peru desossada* (20%), proteína desidratada de frango (19%), ervilhas desidratadas* (13%), proteína desidratada de porco (9%), batata desidratada* (7%), amido de ervilha*, grão-de-bico desidratado* (4%), gordura de aves de capoeira* (3%), polpa de beterraba*, proteínas animais hidrolisadas (aves de capoeira, porco, peixe) (3%), proteína desidratada de peru (2%), substâncias minerais, fibra de ervilha*, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% maçã fresca), algas marinhas desidratadas (kelp)* (0,01%), alecrim desidratado* (0,01%).\n*Ingredientes naturais",
-    "nutrition_raw": "",
-    "description": "Caraterísticas\nSabor:\nPeru",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Carne de peru desossada* (20%), proteína desidratada de frango (19%), ervilhas desidratadas* (13%), proteína desidratada de porco (9%), batata desidratada* (7%), amido de ervilha*, grão-de-bico desidratado* (4%), gordura de aves de capoeira* (3%), polpa de beterraba*, proteínas animais hidrolisadas (aves de capoeira, porco, peixe) (3%), proteína desidratada de peru (2%), substâncias minerais, fibra de ervilha*, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% maçã fresca), algas marinhas desidratadas (kelp)* (0,01%), alecrim desidratado* (0,01%).\n*Ingredientes naturais",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "first_ingredient": "Carne de peru desossada* (20%)",
-    "is_grain_free": true,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "6500708",
@@ -22165,92 +22784,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "7944638",
-    "name": "Ração para Gato Esterilizado Salmão Nature's Variety",
-    "brand": "Nature's Variety",
-    "price": 27.99,
-    "unit_price_kg": 9.33,
-    "pack_size": "emb. 3 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-esterilizado-salmao-nature-s-variety-7944638",
-    "retailer": "ZU",
-    "ingredients": "Composição: Carne de salmão sem espinhas* (20%), arroz integral* (13,5%), proteína desidratada de salmão (13%), proteína de milho, ervilhas desidratadas* (10,5%), proteína de batata, proteína desidratada de atum (4%), aveia* (4%), gordura de aves de capoeira* (3,5%), fibra de ervilha*, hidrolisado de proteína (3%), polpa de beterraba*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca)., *Ingredientes naturais.",
-    "nutrition_raw": "",
-    "description": "Caraterísticas\nSabor:\nSalmão",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Carne de salmão sem espinhas* (20%), arroz integral* (13,5%), proteína desidratada de salmão (13%), proteína de milho, ervilhas desidratadas* (10,5%), proteína de batata, proteína desidratada de atum (4%), aveia* (4%), gordura de aves de capoeira* (3,5%), fibra de ervilha*, hidrolisado de proteína (3%), polpa de beterraba*, substâncias minerais, cenoura desidratada* (0,5%, equivalente a 4% de cenoura fresca), maçã desidratada* (0,3%, equivalente a 2% de maçã fresca)., *Ingredientes naturais.",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_nutrition"
-    ],
-    "first_ingredient": "Carne de salmão sem espinhas* (20%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": true,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8699834",
@@ -22336,92 +22871,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "8642838",
-    "name": "Ração para Gato Júnior Pato Purenatural",
-    "brand": "Purenatural",
-    "price": 3.39,
-    "unit_price_kg": 8.48,
-    "pack_size": "emb. 400 g",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-pato-purenatural-8642838",
-    "retailer": "ZU",
-    "ingredients": "",
-    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 33,0 %, gordura bruta 19,0 %, fibra bruta 2,0 %, cinza bruta 10,5 %, humidade 7,0 %, NFE (carboidratos) 28,5 %,",
-    "description": "Caraterísticas\nDescrição:\nUm alimento completo, delicioso e natural, especialmente concebido para apoiar o crescimento saudável do seu gatinho até aproximadamente aos 12 meses de idade. Purenatural Kitten contém pato altamente digestível e salmão nutritivo. É produzido na Finlândia e preparado com ingredientes reais e puros, sem adição de aromas sintéticos, corantes ou conservantes. Purenatural satisfaz as necessidades nutricionais do seu gatinho de forma saudável e saborosa.\nSabor:\nPato",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "",
-    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 33,0 %, gordura bruta 19,0 %, fibra bruta 2,0 %, cinza bruta 10,5 %, humidade 7,0 %, NFE (carboidratos) 28,5 %,",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 33.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 19.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 7.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 10.5,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 2.0,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 93.0,
-      "protein_dmb": 35.5,
-      "fat_dmb": 20.4,
-      "carbs_nfe": 28.5,
-      "carbs_dmb": 30.6,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": true,
-    "is_sterilised": false,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_composition"
-    ],
-    "first_ingredient": null,
-    "is_grain_free": null,
-    "is_fractionated": null,
-    "has_corn_gluten": null,
-    "has_colorants": null,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "value_ratio": null,
-    "carb_band": "22-32% (Moderado)"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8699833",
@@ -22506,92 +22957,8 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "8872249",
-    "name": "Ração para Gato Adulto Mini Carne Vermelha Wilder Purenatural",
-    "brand": "Purenatural",
-    "price": 24.64,
-    "unit_price_kg": null,
-    "pack_size": "",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-mini-carne-vermelha-wilder-purenatural-8872249",
-    "retailer": "ZU",
-    "body_html": "<p>Alimento completo delicioso, natural e sem cereais, cheio de sabor, com 54% de porco fresco e rena, vegetais e frutos nórdicos. Produzido com ingredientes reais e puros, sem adição de aromas, corantes ou conservantes artificiais. Purenatural Wilder satisfaz as necessidades nutricionais do seu cão de forma saudável e saborosa.</p>",
-    "fetch_error": "Fetch failed for https://www.zu.pt/products/racao-para-gato-adulto-mini-carne-vermelha-wilder-purenatural-8872249 [status: 429]: Exhausted 4 retries: HTTP Error 429: Too Many Requests",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": false,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_composition",
-      "missing_nutrition"
-    ],
-    "first_ingredient": null,
-    "is_grain_free": null,
-    "is_fractionated": null,
-    "has_corn_gluten": null,
-    "has_colorants": null,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   },
   {
     "pid": "8375243",
@@ -22676,91 +23043,7 @@
     "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": null,
-    "carb_band": "N/D"
-  },
-  {
-    "pid": "8872248",
-    "name": "Ração para Gato Adulto Carne Vermelha Wilder Purenatural",
-    "brand": "Purenatural",
-    "price": 39.09,
-    "unit_price_kg": null,
-    "pack_size": "",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-carne-vermelha-wilder-purenatural-8872248",
-    "retailer": "ZU",
-    "body_html": "<p>Alimento completo delicioso, natural e sem cereais, cheio de sabor, à base de porco, borrego e rena. Contribui para a saúde do coração, do pelo, da digestão e do trato urinário, sendo adequado para gatos adultos de todas as raças.</p>",
-    "fetch_error": "Fetch failed for https://www.zu.pt/products/racao-para-gato-adulto-carne-vermelha-wilder-purenatural-8872248 [status: 429]: Exhausted 4 retries: HTTP Error 429: Too Many Requests",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": false,
-    "is_sterilised": false,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_composition",
-      "missing_nutrition"
-    ],
-    "first_ingredient": null,
-    "is_grain_free": null,
-    "is_fractionated": null,
-    "has_corn_gluten": null,
-    "has_colorants": null,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D"
+    "carb_band": "N/D",
+    "has_material_conflict": false
   }
 ]

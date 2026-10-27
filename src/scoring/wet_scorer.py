@@ -25,11 +25,22 @@ def score_wet_product(p):
     brand_lower = brand.lower()
     name_lower = name.lower()
 
+    # 0. Non-food items mistakenly crawled into food categories
+    non_food_markers = ['arranhador', 'tapete para', 'comedouro', 'bebedouro', 'brinquedo', 'tampa para lata', 'areia para', 'toalhete', 'escova', 'coleira']
+    if any(k in name_lower for k in non_food_markers):
+        return None, None
+
     # 1. Classification: Complete vs Complementary
     is_complementary = False
-    if any(k in text_to_check for k in ['complementar', 'alimento complementar', 'snack', 'petisco', 'treat', 'sopa para gato']):
-        is_complementary = True
-    elif any(b in brand_lower for b in ['schesir', 'ciao', 'churu', 'applaws', 'fish4cats', 'inaba', 'thrive']):
+    comp_keywords = [
+        'complementar', 'alimento complementar', 'complemento alimentar',
+        'snack', 'petisco', 'treat', 'sopa', 'soup', 'caldo', 'broth',
+        'hydra care', 'shinycat', 'suplemento', 'iogurte', 'leite para gato', 'cat milk'
+    ]
+    if any(k in text_to_check for k in comp_keywords):
+        if 'alimento completo' not in text_to_check and '100% completa' not in text_to_check:
+            is_complementary = True
+    elif any(b in brand_lower for b in ['schesir', 'ciao', 'churu', 'applaws', 'fish4cats', 'inaba', 'thrive', 'encore', 'cosma']):
         if 'alimento completo' not in text_to_check and '100% completa' not in text_to_check:
             is_complementary = True
 

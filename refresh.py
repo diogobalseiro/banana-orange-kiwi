@@ -92,7 +92,7 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     # Step 1: Reconcile products with verified formulations
     print(f"[Reconciliation] Matching {len(raw_products)} products against {len(matches_config)} formulations...")
     reconciled_products, reconciliation_summary = reconcile_batch(
-        raw_products, retailer_name, matches_config
+        raw_products, retailer_name, matches_config, category='wet'
     )
     
     matched_count = reconciliation_summary.get('matched_count', 0)
@@ -187,7 +187,7 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     # Step 1: Reconcile products with verified formulations
     print(f"[Reconciliation] Matching {len(raw_products)} products against {len(matches_config)} formulations...")
     reconciled_products, reconciliation_summary = reconcile_batch(
-        raw_products, retailer_name, matches_config
+        raw_products, retailer_name, matches_config, category='dry'
     )
     
     matched_count = reconciliation_summary.get('matched_count', 0)
@@ -274,7 +274,7 @@ def rescore_cached_data(data_dir, manifest=None, generation_id=None):
                 raw = json.load(f)
             
             # Reconcile
-            reconciled, summary = reconcile_batch(raw, ret, matches_config)
+            reconciled, summary = reconcile_batch(raw, ret, matches_config, category='wet')
             print(f"  [Reconciliation] {ret} wet: {summary.get('matched_count', 0)} matched, {summary.get('unmatched_count', 0)} unmatched.")
             
             scored_full = []
@@ -322,7 +322,7 @@ def rescore_cached_data(data_dir, manifest=None, generation_id=None):
                 raw = json.load(f)
             
             # Reconcile
-            reconciled, summary = reconcile_batch(raw, ret, matches_config)
+            reconciled, summary = reconcile_batch(raw, ret, matches_config, category='dry')
             print(f"  [Reconciliation] {ret} dry: {summary.get('matched_count', 0)} matched, {summary.get('unmatched_count', 0)} unmatched.")
             
             scored_full = []

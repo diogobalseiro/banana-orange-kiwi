@@ -47,7 +47,8 @@ def find_formulation_id(retailer: str,
                         pid: str, 
                         pdp_url: Optional[str] = None, 
                         matches_config: Optional[Dict] = None,
-                        product_name: Optional[str] = None) -> Optional[str]:
+                        product_name: Optional[str] = None,
+                        category: Optional[str] = None) -> Optional[str]:
     """Find the formulation ID for a given retailer product by PID, PDP URL, or alias."""
     if matches_config is None:
         matches_config = load_product_matches()
@@ -56,6 +57,9 @@ def find_formulation_id(retailer: str,
     
     # 1. Exact match against PID or PDP URL in retailer_matches
     for formulation_id, match_data in matches_config.items():
+        f_cat = match_data.get('category')
+        if category and f_cat and category != f_cat:
+            continue
         retailer_matches = match_data.get('retailer_matches', {})
         if retailer_lower in retailer_matches:
             matches_list = retailer_matches[retailer_lower]
@@ -72,6 +76,9 @@ def find_formulation_id(retailer: str,
     if product_name:
         name_lower = product_name.lower()
         for formulation_id, match_data in matches_config.items():
+            f_cat = match_data.get('category')
+            if category and f_cat and category != f_cat:
+                continue
             brand = (match_data.get('brand') or '').lower()
             if brand and brand in name_lower:
                 aliases = match_data.get('aliases', [])
@@ -184,7 +191,8 @@ def detect_material_conflict(retailer_obs: Dict[str, Any], verified: Dict[str, A
 
 def reconcile_product_evidence(product: Dict[str, Any], 
                                retailer: str, 
-                               matches_config: Optional[Dict] = None) -> Dict[str, Any]:
+                               matches_config: Optional[Dict] = None,
+                               category: Optional[str] = None) -> Dict[str, Any]:
     """
     Reconciles a product's evidence with verified formulation data while preserving
     original observations for full reversibility.
@@ -207,8 +215,9 @@ def reconcile_product_evidence(product: Dict[str, Any],
     if matches_config is None:
         matches_config = load_product_matches()
     
+    cat = category or product.get('category')
     product_name = product.get('name')
-    formulation_id = find_formulation_id(retailer, pid, pdp_url, matches_config, product_name=product_name)
+    formulation_id = find_formulation_id(retailer, pid, pdp_url, matches_config, product_name=product_name, category=cat)
     
     if not formulation_id:
         return {
@@ -238,9 +247,9 @@ def reconcile_product_evidence(product: Dict[str, Any],
     reconciled = dict(product)
     
     # 1. PRESERVE ORIGINAL OBSERVATIONS (Full Reversibility)
-    reconciled['raw_ingredients'] = product.get('ingredients', '')
-    reconciled['raw_nutrition_raw'] = product.get('nutrition_raw', '')
-    reconciled['raw_classification'] = product.get('classification')
+    reconciled['raw_ingredients'] = product.get('raw_ingredients') or product.get('ingredients', '')
+    reconciled['raw_nutrition_raw'] = product.get('raw_nutrition_raw') or product.get('nutrition_raw', '')
+    reconciled['raw_classification'] = product.get('raw_classification') or product.get('classification')
     
     reconciled['formulation_id'] = formulation_id
     reconciled['is_reconciled'] = True
@@ -310,7 +319,8 @@ def reconcile_product_evidence(product: Dict[str, Any],
 
 def reconcile_batch(products: List[Dict[str, Any]], 
                     retailer: str, 
-                    matches_config: Optional[Dict] = None) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+                    matches_config: Optional[Dict] = None,
+                    category: Optional[str] = None) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     """Reconciles a batch of products from a single retailer."""
     if matches_config is None:
         matches_config = load_product_matches()
@@ -325,7 +335,7 @@ def reconcile_batch(products: List[Dict[str, Any]],
     }
     
     for product in products:
-        r = reconcile_product_evidence(product, retailer, matches_config)
+        r = reconcile_product_evidence(product, retailer, matches_config, category=category)
         reconciled.append(r)
         
         if r.get('is_reconciled'):
@@ -343,7 +353,7 @@ def reconcile_batch(products: List[Dict[str, Any]],
 
 def calculate_shared_score_for_formulation(formulation_id: str, 
                                           matches_config: Optional[Dict] = None,
-                                          category: str = 'wet') -> Optional[Dict[str, Any]]:
+                                          category: Optional[str] = None) -> Optional[Dict[str, Any]]:
     """
     Calculates the canonical nutritional assessment once directly from the verified formulation record.
     """
@@ -379,10 +389,14 @@ def calculate_shared_score_for_formulation(formulation_id: str,
         'formulation_id': formulation_id
     }
     
-    if category == 'dry':
+    f_cat = formulation_data.get('category') or category or 'wet'
+    if f_cat == 'dry':
         full, _ = score_dry_product(scoring_input)
     else:
         full, _ = score_wet_product(scoring_input)
+        
+    if not full:
+        return None
         
     return {
         'formulation_id': formulation_id,
@@ -398,7 +412,7 @@ def calculate_shared_score_for_formulation(formulation_id: str,
         'has_carrageenan': full.get('has_carrageenan'),
         'has_taurine': full.get('has_taurine'),
         'carb_band': full.get('carb_band'),
-        'carbs': full.get('nutrition_parsed', {}).get('carbs_dmb' if category == 'wet' else 'carbs_nfe')
+        'carbs': full.get('nutrition_parsed', {}).get('carbs_dmb' if f_cat == 'wet' else 'carbs_nfe')
     }
 
 
@@ -424,17 +438,24 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
         is_minified = ('s' in p and 'n' in p and 'name' not in p)
         
         fid = p.get('formulation_id') or p.get('fid')
-        if not fid and is_minified:
-            fid = find_formulation_id(p.get('r', ''), str(p.get('id', '')), p.get('u'), matches_config)
+        if not fid:
+            r = p.get('r') or p.get('retailer', '')
+            pid = str(p.get('id') or p.get('pid', ''))
+            u = p.get('u') or p.get('pdp_url')
+            name = p.get('n') or p.get('name')
+            fid = find_formulation_id(r, pid, u, matches_config, product_name=name, category=category)
             if fid:
-                p['fid'] = fid
+                if is_minified:
+                    p['fid'] = fid
+                else:
+                    p['formulation_id'] = fid
                 
         if not fid or fid not in shared_scores or not shared_scores[fid]:
             result.append(p)
             continue
             
         assessment = shared_scores[fid]
-        has_material_conflict = p.get('has_material_conflict', False) or assessment.get('has_conflicts', False)
+        has_material_conflict = p.get('has_material_conflict', False) or p.get('conf', False) or assessment.get('has_conflicts', False)
         
         unit_price = p.get('unit_price_kg') or p.get('pkg')
         score = assessment['score'] if not has_material_conflict else None

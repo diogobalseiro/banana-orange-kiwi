@@ -26,6 +26,11 @@ def score_dry_product(p):
     text_to_check = f"{name} {desc} {ingr} {nutri_raw}".lower()
     name_lower = name.lower()
 
+    # Non-food items or supplements mistakenly crawled into food categories
+    non_food_markers = ['arranhador', 'tapete para', 'comedouro', 'bebedouro', 'brinquedo', 'suplemento', 'megaderm']
+    if any(k in name_lower for k in non_food_markers):
+        return None, None
+
     # Classification check: exclude complementary dry products (snacks, treats)
     is_complementary = False
     if 'alimento complementar' in text_to_check or 'snack' in text_to_check:
