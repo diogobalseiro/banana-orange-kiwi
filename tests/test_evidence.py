@@ -99,5 +99,29 @@ class TestEvidenceContract(unittest.TestCase):
         self.assertIn('missing_composition', reasons2)
         self.assertIn('missing_analytical_constituents', reasons2)
 
+    def test_dry_food_without_declared_moisture_does_not_impute(self):
+        """Dry food carb calculation must not substitute 8% when moisture is undeclared."""
+        from src.scoring.evidence import normalize_nutrients, FieldStatus
+
+        raw_text = "Proteína 32.0% Gordura 15.0% Fibra 3.0% Cinza 7.0%"
+        parsed = normalize_nutrients(raw_text, category='dry')
+        self.assertIsNone(parsed['moisture']['value'])
+        self.assertEqual(parsed['moisture']['status'], FieldStatus.MISSING)
+        # Without declared moisture, carbs cannot be calculated
+        self.assertIsNone(parsed['carbs_nfe'])
+
+    def test_label_synonyms(self):
+        """Synonyms like Matéria gorda bruta, Matéria inorgânica, and Matéria fibrosa are recognized."""
+        from src.scoring.evidence import normalize_nutrients
+
+        raw_text = "Proteína bruta 30% Matéria gorda bruta 12% Matéria fibrosa 2.5% Matéria inorgânica 6.5% Teor de humidade 9%"
+        parsed = normalize_nutrients(raw_text, category='dry')
+        self.assertEqual(parsed['protein']['value'], 30.0)
+        self.assertEqual(parsed['fat']['value'], 12.0)
+        self.assertEqual(parsed['fiber']['value'], 2.5)
+        self.assertEqual(parsed['ash']['value'], 6.5)
+        self.assertEqual(parsed['moisture']['value'], 9.0)
+        self.assertEqual(parsed['carbs_nfe'], 40.0)
+
 if __name__ == '__main__':
     unittest.main()
