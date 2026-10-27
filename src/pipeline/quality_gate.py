@@ -9,6 +9,19 @@ from typing import Any, Dict, List, Optional, Tuple
 MAX_ALLOWED_DROP_RATIO = 0.30  # Max 30% drop in total product count
 MAX_ALLOWED_FIELD_LOSS = 0.40  # Max 40% loss in populated ingredient/nutrition fields
 
+def is_valid_field_text(text: Any) -> bool:
+    """Distinguishes genuine extraction from empty strings, marketing copy, or footer newsletter traps."""
+    if not text:
+        return False
+    s = str(text).strip()
+    if not s:
+        return False
+    if 'novidades mais frescas' in s or 'Subscreva e descubra' in s:
+        return False
+    if s.startswith('Caraterísticas') or s.startswith('Descrição') or s.startswith('Benefícios'):
+        return False
+    return True
+
 class QualityGateError(Exception):
     """Raised when a candidate dataset fails quality verification."""
     def __init__(self, dataset_key: str, reasons: List[str]):
@@ -56,8 +69,8 @@ def validate_candidate_dataset(candidate_products: List[Dict[str, Any]],
             )
 
     # 5. Field coverage check (ingredients and nutrition)
-    curr_ingr = sum(1 for p in candidate_products if p.get('ingredients') and str(p['ingredients']).strip())
-    curr_nutri = sum(1 for p in candidate_products if p.get('nutrition_raw') and str(p['nutrition_raw']).strip())
+    curr_ingr = sum(1 for p in candidate_products if is_valid_field_text(p.get('ingredients')))
+    curr_nutri = sum(1 for p in candidate_products if is_valid_field_text(p.get('nutrition_raw')))
 
     if not is_limited_run and last_accepted_entry:
         prev_ingr = last_accepted_entry.get("valid_ingredients_count", 0)
@@ -102,8 +115,8 @@ def extract_dataset_summary(products: List[Dict[str, Any]], is_partial: bool = F
     """
     return {
         "product_count": len(products),
-        "valid_ingredients_count": sum(1 for p in products if p.get('ingredients') and str(p['ingredients']).strip()),
-        "valid_nutrition_count": sum(1 for p in products if p.get('nutrition_raw') and str(p['nutrition_raw']).strip()),
+        "valid_ingredients_count": sum(1 for p in products if is_valid_field_text(p.get('ingredients'))),
+        "valid_nutrition_count": sum(1 for p in products if is_valid_field_text(p.get('nutrition_raw'))),
         "ranked_count": sum(1 for p in products if p.get('is_ranked') or p.get('ir')),
         "unranked_count": sum(1 for p in products if not (p.get('is_ranked') or p.get('ir'))),
         "is_partial": is_partial

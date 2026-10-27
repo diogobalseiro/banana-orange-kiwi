@@ -132,7 +132,7 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     if not is_valid:
         reason_str = "; ".join(reasons)
         summary = extract_dataset_summary(scored_full, is_partial=is_limited)
-        record_rejection(data_dir, dataset_key, summary, reason_str)
+        record_rejection(data_dir, dataset_key, summary, reason_str, manifest=manifest)
         print(f"❌ [Quality Gate] Candidate REJECTED for {dataset_key}: {reason_str}")
         print(f"⚠️ [Quality Gate] Retaining previous accepted snapshot for {dataset_key}.")
         return None
@@ -224,7 +224,7 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     if not is_valid:
         reason_str = "; ".join(reasons)
         summary = extract_dataset_summary(scored_full, is_partial=is_limited)
-        record_rejection(data_dir, dataset_key, summary, reason_str)
+        record_rejection(data_dir, dataset_key, summary, reason_str, manifest=manifest)
         print(f"❌ [Quality Gate] Candidate REJECTED for {dataset_key}: {reason_str}")
         print(f"⚠️ [Quality Gate] Retaining previous accepted snapshot for {dataset_key}.")
         return None

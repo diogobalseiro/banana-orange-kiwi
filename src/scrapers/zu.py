@@ -184,10 +184,10 @@ class ZUScraper(BaseScraper):
                         ingredients_text = cand
 
             # Look strictly for analytical constituents section
-            m_nut = re.search(r'(?:Constituintes\s+anal[íi]ticos|Análise|Informação\s+nutricional):\s*(.*?)(?=(?:Aditivos|Energia|$))', tab_text, re.I | re.S)
+            m_nut = re.search(r'(?:Constituintes\s+anal[íi]ticos|Análise|Informação\s+nutricional|Componentes\s+anal[íi]ticos|Composição\s+anal[íi]tica):\s*(.*?)(?=(?:Aditivos|Energia|$))', tab_text, re.I | re.S)
             if m_nut and not nutrition_text:
                 nutrition_text = m_nut.group(1).strip()
-            elif any(k in tab_lower for k in ['constituintes analíticos', 'informação nutricional']) and not nutrition_text:
+            elif any(k in tab_lower for k in ['constituintes analíticos', 'informação nutricional', 'componentes analíticos', 'composição analítica']) and not nutrition_text:
                 # Only use tab if it contains actual analytical values (e.g. %)
                 if '%' in tab_text and any(k in tab_lower for k in ['proteína', 'proteina', 'humidade', 'gordura']):
                     nutrition_text = tab_text
@@ -202,14 +202,29 @@ class ZUScraper(BaseScraper):
             m_ing = re.search(r'(?:Ingredientes|Composição):\s*(.*?)(?=(?:Constituintes|Aditivos|$))', b_text, re.I | re.S)
             if m_ing:
                 cand = m_ing.group(1).strip()
-                if not cand.startswith('Caraterísticas') and not cand.startswith('Descrição:'):
+                if not cand.startswith('Caraterísticas') and not cand.startswith('Descrição:') and not cand.startswith('Benefícios'):
                     ingredients_text = cand
 
-        # Final sanity check: if ingredients field somehow contains marketing description header, clear it
-        if ingredients_text.startswith('Caraterísticas') or ingredients_text.startswith('Descrição:'):
+        if not nutrition_text and p.get('body_html'):
+            b_soup = BeautifulSoup(p['body_html'], 'html.parser')
+            b_text = b_soup.get_text(separator='\n', strip=True)
+            m_nut = re.search(r'(?:Constituintes\s+anal[íi]ticos|Análise|Informação\s+nutricional|Componentes\s+anal[íi]ticos|Composição\s+anal[íi]tica):\s*(.*?)(?=(?:Aditivos|Energia|$))', b_text, re.I | re.S)
+            if m_nut:
+                nutrition_text = m_nut.group(1).strip()
+            elif any(k in b_text.lower() for k in ['constituintes analíticos', 'informação nutricional', 'componentes analíticos', 'composição analítica']) and not nutrition_text:
+                if '%' in b_text and any(k in b_text.lower() for k in ['proteína', 'proteina', 'humidade', 'gordura']):
+                    nutrition_text = b_text
+
+        # Final sanity check: if ingredients or nutrition field somehow contains marketing description header, clear it
+        if ingredients_text.startswith('Caraterísticas') or ingredients_text.startswith('Descrição:') or ingredients_text.startswith('Benefícios'):
             if not description_text:
                 description_text = ingredients_text
             ingredients_text = ""
+
+        if nutrition_text.startswith('Caraterísticas') or nutrition_text.startswith('Descrição:') or nutrition_text.startswith('Benefícios'):
+            if not description_text:
+                description_text = nutrition_text
+            nutrition_text = ""
 
         # Clean up temporary field
         p.pop('body_html', None)

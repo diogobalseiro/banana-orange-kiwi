@@ -185,7 +185,8 @@ def update_manifest_dataset(manifest: Dict[str, Any],
 def record_rejection(data_dir: str, 
                      dataset_key: str, 
                      candidate_summary: Dict[str, Any], 
-                     reason: str):
+                     reason: str,
+                     manifest: Optional[Dict[str, Any]] = None):
     """
     Records a rejected candidate with diagnostic reasons for inspection without publishing it.
     """
@@ -203,8 +204,12 @@ def record_rejection(data_dir: str,
         print(f"[Publication Gate] Warning: could not write rejection log: {e}")
 
     try:
-        manifest = load_manifest(data_dir)
-        manifest["last_rejection"] = rejected_data
-        save_manifest(data_dir, manifest)
+        if manifest is not None:
+            manifest["last_rejection"] = rejected_data
+            save_manifest(data_dir, manifest)
+        else:
+            loaded_manifest = load_manifest(data_dir)
+            loaded_manifest["last_rejection"] = rejected_data
+            save_manifest(data_dir, loaded_manifest)
     except Exception as e:
         print(f"[Publication Gate] Warning: could not update manifest with rejection: {e}")
