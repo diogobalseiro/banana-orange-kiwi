@@ -346,8 +346,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/1866343?activeVariant=1866343.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_sensitive_comida_h_mida_hipoalerg_nica_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -1399,8 +1399,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/natures_variety/1113536?activeVariant=1113536.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_nature_s_variety_nature_s_variety_original_pat_no_grain_24_x_70_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -1480,8 +1480,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/alergias_e_intolerancias/573296?activeVariant=573296.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_sensitive_em_latas_12_x_185_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -1642,8 +1642,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/natures_variety/1113535?activeVariant=1113535.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_nature_s_variety_nature_s_variety_pat_no_grain_adult_12_x_70_g_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -1668,33 +1668,6 @@
     "carb": 15.3,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/animonda_carny_gato/carny_adult/363104?activeVariant=363104.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1770227",
-    "n": "Felix Deliciously Sliced 24 x 80 g - Pack económico",
-    "b": "Felix",
-    "p": 12.29,
-    "pkg": 6.4,
-    "c": "Completo",
-    "k": false,
-    "t": "Tier B (Médio-Alto / Boa Relação)",
-    "s": 62,
-    "vr": 9.69,
-    "ir": true,
-    "ur": [],
-    "sug": true,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 9.1,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/deliciously_sliced/1770227?activeVariant=1770227.1",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -1755,6 +1728,33 @@
     "conf": false
   },
   {
+    "id": "2010580",
+    "n": "Feringa Cat Soup 12 x 70 g",
+    "b": "Feringa",
+    "p": 8.99,
+    "pkg": 10.7,
+    "c": "Completo",
+    "k": false,
+    "t": "Tier B (Médio-Alto / Boa Relação)",
+    "s": 62,
+    "vr": 5.79,
+    "ir": true,
+    "ur": [],
+    "sug": false,
+    "grn": false,
+    "veg": false,
+    "org": false,
+    "carr": false,
+    "tau": false,
+    "carb": null,
+    "cb": "N/D",
+    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/feringa/feringa_soup/2010580?activeVariant=2010580.0",
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
+  },
+  {
     "id": "2012691",
     "n": "Gourmet Nature's Creations Gravy Heart 24 x 85 g - Pack económico",
     "b": "Gourmet",
@@ -1777,8 +1777,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/natures_creation/2012691?activeVariant=2012691.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_nature_s_creations_gravy_heart_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -1831,8 +1831,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/natures_creation/2012715?activeVariant=2012715.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_nature_s_creations_gravy_heart_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2020,8 +2020,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/363331?activeVariant=363331.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_fantastic_duplamente_bom_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2047,8 +2047,35 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/deliciously_sliced/1770276?activeVariant=1770276.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_deliciously_sliced_48_x_80_g_pack_econ_mico_wet",
+    "rec": true,
+    "conf": false
+  },
+  {
+    "id": "1770227",
+    "n": "Felix Deliciously Sliced 24 x 80 g - Pack económico",
+    "b": "Felix",
+    "p": 12.29,
+    "pkg": 6.4,
+    "c": "Completo",
+    "k": false,
+    "t": "Tier B (Médio-Alto / Boa Relação)",
+    "s": 59,
+    "vr": 9.22,
+    "ir": true,
+    "ur": [],
+    "sug": true,
+    "grn": false,
+    "veg": false,
+    "org": false,
+    "carr": false,
+    "tau": true,
+    "carb": 9.1,
+    "cb": "<10% DMB (Ideal)",
+    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/deliciously_sliced/1770227?activeVariant=1770227.1",
+    "r": "Zooplus",
+    "fid": "zoo_felix_felix_deliciously_sliced_24_x_80_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2074,8 +2101,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/deliciously_sliced/1770053?activeVariant=1770053.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_deliciously_sliced_12_x_80_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2236,8 +2263,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_adulto/363278?activeVariant=363278.7",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_instinctive_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2371,8 +2398,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/natures_variety/2337922?activeVariant=2337922.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_nature_s_variety_nature_s_variety_kitten_bites_em_molho_44_x_70_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2398,8 +2425,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/vitalcare/1425614?activeVariant=1425614.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_vital_care_kattovit_vital_care_anti_hairball_com_salm_o_em_saquetas_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2424,6 +2451,33 @@
     "carb": 16.6,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/almonature_humidos/almonature_classico/363091?activeVariant=363091.7",
+    "r": "Zooplus",
+    "fid": null,
+    "rec": false,
+    "conf": false
+  },
+  {
+    "id": "697063",
+    "n": "Concept for Life 4 x 85 g - Pack de degustação",
+    "b": "Concept for Life",
+    "p": 2.79,
+    "pkg": 8.21,
+    "c": "Completo",
+    "k": true,
+    "t": "Tier B (Médio-Alto / Boa Relação)",
+    "s": 52,
+    "vr": 6.33,
+    "ir": true,
+    "ur": [],
+    "sug": false,
+    "grn": false,
+    "veg": true,
+    "org": true,
+    "carr": false,
+    "tau": true,
+    "carb": null,
+    "cb": "N/D",
+    "u": "https://www.zooplus.pt/shop/gato/comida_sem_cereais_gato/concept_for_life/697063?activeVariant=697063.2",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -2506,8 +2560,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sterilised/2152843?activeVariant=2152843.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_sterilized_kitten_em_geleia_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2533,8 +2587,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/436825?activeVariant=436825.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_kitten_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2587,8 +2641,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/suplementos_alimento_especial_gato/renal_gatos/kattovit_renal/724855?activeVariant=724855.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_drink_renal_bebida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2614,8 +2668,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/suplementos_alimento_especial_gato/renal_gatos/kattovit_renal/724856?activeVariant=724856.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_special_drink_ph_control_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2803,8 +2857,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/natures_creation/859220?activeVariant=859220.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_nature_s_creation_mousse_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2830,8 +2884,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/natures_creation/857707?activeVariant=857707.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_nature_s_creation_mousse_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2884,8 +2938,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/diabetes_management/757156?activeVariant=757156.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_dm_st_ox_diabetes_management_veterinary_diets_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2911,8 +2965,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/491715?activeVariant=491715.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_sensitive_em_saquetas_hipoalerg_nica_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2938,8 +2992,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/dietas_vet/dietas_gatos/purina_veterinary_diets/gastrointestinal/2237500?activeVariant=2237500.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_veterinary_diets_feline_en_st_ox_gastrointestinal_mousse_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2965,8 +3019,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/whiskas_senior/715745?activeVariant=715745.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_11_saquetas_48_x_85_100_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -2992,8 +3046,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/felix_saquetas/1855988?activeVariant=1855988.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_saquetas_em_gelatina_24_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3019,8 +3073,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_interior_cremoso/2522765?activeVariant=2522765.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_recheio_cremoso_16_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3046,8 +3100,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_interior_cremoso/681667?activeVariant=681667.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_recheio_cremoso_4_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3073,8 +3127,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_interior_cremoso/2521431?activeVariant=2521431.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_recheio_cremoso_48_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3100,8 +3154,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_interior_cremoso/2519724?activeVariant=2519724.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_recheio_cremoso_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3127,8 +3181,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/revelations/2219494?activeVariant=2219494.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_revelations_fine_cuts_12_x_57_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3154,8 +3208,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/scculents_delight/1918268?activeVariant=1918268.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_del_cias_suculentas_em_tiras_finas_48_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3181,8 +3235,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/adultos/2184547?activeVariant=2184547.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_cat_adult_delicate_digestion_10_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3208,8 +3262,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/junior/673901?activeVariant=673901.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_kitten_healthy_start_24_x_85_g_latas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3235,8 +3289,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/problemas_renais/457349?activeVariant=457349.7",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_niere_renal_em_latas_185_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3289,8 +3343,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sensory_feel/1192116?activeVariant=1192116.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_sensory_taste_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3370,8 +3424,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_adulto/363276?activeVariant=363276.7",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_instinctive_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3397,8 +3451,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/436770?activeVariant=436770.11",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_kitten_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3424,8 +3478,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/light/913745?activeVariant=913745.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_care_nutrition_royal_canin_light_weight_care_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3451,8 +3505,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/hairball_care/686843?activeVariant=686843.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_care_nutrition_royal_canin_hairball_care_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3478,8 +3532,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sterilised/1204975?activeVariant=1204975.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_kitten_sterilised_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3505,8 +3559,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/light/914217?activeVariant=914217.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_care_nutrition_royal_canin_light_weight_care_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3559,8 +3613,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/brekkies/2574040?activeVariant=2574040.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_brekkies_brekkies_daily_delice_adult_cat_160_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3591,33 +3645,6 @@
     "conf": false
   },
   {
-    "id": "1462709",
-    "n": "PURINA ONE Junior",
-    "b": "Purina One",
-    "p": 12.69,
-    "pkg": 9.33,
-    "c": "Completo",
-    "k": true,
-    "t": "Tier D (Evitar / Açúcares e Cereais)",
-    "s": 32,
-    "vr": 3.43,
-    "ir": true,
-    "ur": [],
-    "sug": true,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 11.8,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/junior/1462709?activeVariant=1462709.2",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "1009502",
     "n": "Kattovit Urinary latas 12 x 85 g",
     "b": "Kattovit",
@@ -3640,8 +3667,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/problemas_urinarios/1009502?activeVariant=1009502.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_urinary_latas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3667,8 +3694,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sensory_feel/1192117?activeVariant=1192117.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_sensory_smell_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3694,8 +3721,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/gastrointestinais/515497?activeVariant=515497.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_gastrointestinal_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3721,8 +3748,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_mature/363281?activeVariant=363281.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_instinctive_7_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3748,8 +3775,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/indoor/897359?activeVariant=897359.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_indoor_sterilised_7_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3775,8 +3802,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_soup/616832?activeVariant=616832.8",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_classic_soup_40_x_40_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3802,8 +3829,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_fresh_and_fine/521746?activeVariant=521746.22",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_fresh_fine_saquetas_12_x_50_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3829,8 +3856,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/advance/1739273?activeVariant=1739273.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_advance_advance_kitten_com_frango_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3856,8 +3883,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/advance/1740211?activeVariant=1740211.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_advance_advance_feline_sterilized_com_bacalhau_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3883,8 +3910,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/advance/1740210?activeVariant=1740210.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_advance_advance_feline_sterilized_com_peru_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3910,8 +3937,35 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/adultos/1856288?activeVariant=1856288.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_adult_40_x_85_g_pack_misto_wet",
+    "rec": true,
+    "conf": false
+  },
+  {
+    "id": "1462709",
+    "n": "PURINA ONE Junior",
+    "b": "Purina One",
+    "p": 12.69,
+    "pkg": 9.33,
+    "c": "Completo",
+    "k": true,
+    "t": "Tier D (Evitar / Açúcares e Cereais)",
+    "s": 29,
+    "vr": 3.11,
+    "ir": true,
+    "ur": [],
+    "sug": true,
+    "grn": false,
+    "veg": true,
+    "org": false,
+    "carr": false,
+    "tau": true,
+    "carb": 11.8,
+    "cb": "10-20% DMB (Moderado)",
+    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/junior/1462709?activeVariant=1462709.2",
+    "r": "Zooplus",
+    "fid": "zoo_purina_one_purina_one_junior_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3937,8 +3991,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_saquetas/1975253?activeVariant=1975253.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_kitten_variedades_em_saquetas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3964,8 +4018,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/senior/737754?activeVariant=737754.9",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_senior_7_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -3991,8 +4045,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/necessidades_especiais/437257?activeVariant=437257.8",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_sensitive_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4018,8 +4072,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/adultos/673902?activeVariant=673902.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_cat_adult_maintenance_24_x_85_g_latas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4045,8 +4099,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/urinarios/700710?activeVariant=700710.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_urinary_s_o_em_molho_ou_mousse_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4072,8 +4126,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/diabetes/515496?activeVariant=515496.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_diabetic_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4099,8 +4153,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/urinarios/560121?activeVariant=560121.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_urinary_s_o_moderate_calorie_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4126,8 +4180,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/indoor/897710?activeVariant=897710.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_indoor_sterilised_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4153,8 +4207,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/indoor/897711?activeVariant=897711.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_indoor_sterilised_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4207,8 +4261,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/fresh_cuisine/1019649?activeVariant=1019649.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_fresh_cuisine_taste_of_paris_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4234,8 +4288,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/felix_saquetas/684904?activeVariant=684904.6",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_classic_saquetas_120_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4261,62 +4315,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/753939?activeVariant=753939.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1866251",
-    "n": "Kattovit Special Cream Low Protein",
-    "b": "Kattovit",
-    "p": 10.29,
-    "pkg": 28.58,
-    "c": "Completo",
-    "k": false,
-    "t": "Tier D (Evitar / Açúcares e Cereais)",
-    "s": 26,
-    "vr": 0.91,
-    "ir": true,
-    "ur": [],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 20.0,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/1866251?activeVariant=1866251.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2091692",
-    "n": "Pack misto de saquetas Sheba Fresh & Fine 50 x 50 g",
-    "b": "Sheba",
-    "p": 22.49,
-    "pkg": 9.0,
-    "c": "Completo",
-    "k": false,
-    "t": "Tier D (Evitar / Açúcares e Cereais)",
-    "s": 25,
-    "vr": 2.78,
-    "ir": true,
-    "ur": [],
-    "sug": true,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 11.1,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_fresh_and_fine/2091692?activeVariant=2091692.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_as_good_as_it_looks_saquetas_80_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4342,8 +4342,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/adultos/2172817?activeVariant=2172817.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_difficult_appetite_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4369,8 +4369,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/soup/1232810?activeVariant=1232810.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_soup_time_tender_strips_6_x_48_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4396,8 +4396,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/feline_hydra_care/1391593?activeVariant=1391593.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_hydra_care_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4423,8 +4423,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/renal/1403503?activeVariant=1403503.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_nf_early_care_veterinary_diets_com_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4477,8 +4477,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/urinary/2154344?activeVariant=2154344.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_care_nutrition_royal_canin_fcn_urinary_care_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4504,8 +4504,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/obesidade/853209?activeVariant=853209.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_satiety_weight_management_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4531,8 +4531,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/felix_saquetas/685042?activeVariant=685042.7",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_classic_saquetas_80_x_85_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4558,8 +4558,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/vitalcare/1425611?activeVariant=1425611.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_vital_care_kattovit_vital_care_digestive_com_frango_em_saquetas_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4585,8 +4585,35 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/436112?activeVariant=436112.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_fantastic_duplamente_bom_24_x_85_g_100_g_pack_econ_mico_wet",
+    "rec": true,
+    "conf": false
+  },
+  {
+    "id": "1866251",
+    "n": "Kattovit Special Cream Low Protein",
+    "b": "Kattovit",
+    "p": 10.29,
+    "pkg": 28.58,
+    "c": "Completo",
+    "k": false,
+    "t": "Tier D (Evitar / Açúcares e Cereais)",
+    "s": 23,
+    "vr": 0.8,
+    "ir": true,
+    "ur": [],
+    "sug": false,
+    "grn": true,
+    "veg": false,
+    "org": false,
+    "carr": false,
+    "tau": false,
+    "carb": 20.0,
+    "cb": "10-20% DMB (Moderado)",
+    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/1866251?activeVariant=1866251.1",
+    "r": "Zooplus",
+    "fid": "zoo_kattovit_kattovit_special_cream_low_protein_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4639,8 +4666,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_fresh_and_fine/437091?activeVariant=437091.24",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_fresh_fine_saquetas_6_x_50_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4666,35 +4693,35 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/ultima/esterilizado/1108251?activeVariant=1108251.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_ultima_ultima_delicious_adult_sterilized_48_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
-    "id": "455555",
-    "n": "Gourmet Mon Petit saquetas",
-    "b": "Gourmet",
-    "p": 11.29,
-    "pkg": 9.41,
+    "id": "2091692",
+    "n": "Pack misto de saquetas Sheba Fresh & Fine 50 x 50 g",
+    "b": "Sheba",
+    "p": 22.49,
+    "pkg": 9.0,
     "c": "Completo",
     "k": false,
     "t": "Tier D (Evitar / Açúcares e Cereais)",
     "s": 22,
-    "vr": 2.34,
+    "vr": 2.44,
     "ir": true,
     "ur": [],
     "sug": true,
     "grn": false,
     "veg": true,
-    "org": true,
+    "org": false,
     "carr": false,
     "tau": true,
     "carb": 11.1,
     "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/monpetit/455555?activeVariant=455555.26",
+    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_fresh_and_fine/2091692?activeVariant=2091692.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_pack_misto_de_saquetas_sheba_fresh_fine_50_x_50_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4720,8 +4747,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/fresh_cuisine/1019716?activeVariant=1019716.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_fresh_cuisine_taste_of_rome_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4747,8 +4774,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/natures_collection/1976910?activeVariant=1976910.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_nature_s_collection_em_molho_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4774,8 +4801,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/1369689?activeVariant=1369689.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_fantastic_88_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4801,8 +4828,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/1393894?activeVariant=1393894.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_fantastic_132_x_85_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4828,8 +4855,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/sensations/770676?activeVariant=770676.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sensations_120_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4855,8 +4882,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/1856264?activeVariant=1856264.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_fantastic_gravy_lover_48_x_85_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4882,8 +4909,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/felix_saquetas/2449126?activeVariant=2449126.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_as_good_as_it_looks_saquetas_88_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4909,8 +4936,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/1856261?activeVariant=1856261.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_fantastic_gravy_lover_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4936,8 +4963,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/494125?activeVariant=494125.7",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_as_good_as_it_looks_44_x_85_g_megapack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4963,8 +4990,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/sensations/558480?activeVariant=558480.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sensations_extras_saquetas_24_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -4990,8 +5017,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/senior/560237?activeVariant=560237.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_as_good_as_it_looks_senior_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5017,8 +5044,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/1856363?activeVariant=1856363.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_as_good_as_it_looks_gravy_lover_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5044,8 +5071,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/363328?activeVariant=363328.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_as_good_as_it_looks_saquetas_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5071,8 +5098,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/scculents_delight/1806843?activeVariant=1806843.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_del_cias_suculentas_em_tiras_finas_96_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5098,8 +5125,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/scculents_delight/1560827?activeVariant=1560827.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_del_cias_suculentas_em_tiras_finas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5125,8 +5152,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_gold_ragout/558608?activeVariant=558608.12",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_ragout_refinado_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5179,8 +5206,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/gastrointestinais/515498?activeVariant=515498.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_gastrointestinal_moderate_calorie_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5206,8 +5233,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/alergias_intolerancias/565691?activeVariant=565691.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_z_d_food_sensitivities_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5233,8 +5260,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/fantastic/620820?activeVariant=620820.13",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_as_good_as_it_looks_em_gelatina_120_x_85g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5260,8 +5287,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_gold_mousse/363341?activeVariant=363341.18",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_gold_mousse_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5287,8 +5314,35 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/monpetit/684642?activeVariant=684642.22",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_mon_petit_48_x_50_g_pack_econ_mico_wet",
+    "rec": true,
+    "conf": false
+  },
+  {
+    "id": "455555",
+    "n": "Gourmet Mon Petit saquetas",
+    "b": "Gourmet",
+    "p": 11.29,
+    "pkg": 9.41,
+    "c": "Completo",
+    "k": false,
+    "t": "Tier D (Evitar / Açúcares e Cereais)",
+    "s": 19,
+    "vr": 2.02,
+    "ir": true,
+    "ur": [],
+    "sug": true,
+    "grn": false,
+    "veg": true,
+    "org": true,
+    "carr": false,
+    "tau": true,
+    "carb": 11.1,
+    "cb": "10-20% DMB (Moderado)",
+    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/monpetit/455555?activeVariant=455555.26",
+    "r": "Zooplus",
+    "fid": "zoo_gourmet_gourmet_mon_petit_saquetas_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5314,8 +5368,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_gold_mousse/363342?activeVariant=363342.11",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_gold_mousse_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5341,8 +5395,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/gastrointestinais/1358142?activeVariant=1358142.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_gastrointestinal_kitten_ultra_soft_mousse_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5368,8 +5422,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/advance_veterinary_diets/weight_control/1739280?activeVariant=1739280.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_advance_veterinary_diets_advance_veterinary_diets_cat_weight_balance_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5395,8 +5449,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/virbac/1358147?activeVariant=1358147.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_virbac_virbac_veterinary_cat_adult_neutered_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5449,8 +5503,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/1866228?activeVariant=1866228.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_feline_gastro_24_x_85_g_em_saquetas_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5476,8 +5530,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/1866262?activeVariant=1866262.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_gastro_saquetas_12_x_85_g_pack_misto_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5503,8 +5557,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/problemas_renais/1010527?activeVariant=1010527.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_niere_renal_latas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5530,35 +5584,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/adultos/673998?activeVariant=673998.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1856616",
-    "n": "Gourmet Nature's Creations 8 x 85 g",
-    "b": "Gourmet",
-    "p": 11.99,
-    "pkg": 17.63,
-    "c": "Completo",
-    "k": false,
-    "t": "Tier D (Evitar / Açúcares e Cereais)",
-    "s": 17,
-    "vr": 0.96,
-    "ir": true,
-    "ur": [],
-    "sug": true,
-    "grn": true,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 12.4,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/natures_creation/1856616?activeVariant=1856616.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_delicate_em_latas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5584,8 +5611,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/obesity_management/757153?activeVariant=757153.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_veterinary_diets_om_st_ox_obesity_management_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5611,8 +5638,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/advance_veterinary_diets/urinary/1398003?activeVariant=1398003.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_advance_veterinary_diets_advance_veterinary_diets_cat_urinary_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5638,8 +5665,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/advance_veterinary_diets/gastroenteric/1398005?activeVariant=1398005.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_advance_veterinary_diets_advance_veterinary_diets_cat_gastroenteric_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5665,8 +5692,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/sensations/1856365?activeVariant=1856365.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sensations_48_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5692,8 +5719,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/junior/560236?activeVariant=560236.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_fantastic_junior_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5719,8 +5746,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/sensations/1251398?activeVariant=1251398.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sensations_saquetas_24_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5746,8 +5773,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/tasty_shreds/1660611?activeVariant=1660611.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_tasty_shreds_120_x_80_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5773,8 +5800,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/tasty_shreds/1357895?activeVariant=1357895.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_tasty_shreds_80_x_80_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5800,8 +5827,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_perle/1856528?activeVariant=1856528.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_perle_em_saquetas_48_x_85_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5827,8 +5854,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_a_la_carte_gato/745201?activeVariant=745201.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_a_la_carte_60_x_85_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5854,8 +5881,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_perle/1856412?activeVariant=1856412.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_perle_em_saquetas_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5881,8 +5908,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_perle/1160704?activeVariant=1160704.7",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_perle_em_saquetas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5908,8 +5935,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_perle/623430?activeVariant=623430.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_perle_60_x_85_g_pack_misto_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5935,8 +5962,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/adultos/2108267?activeVariant=2108267.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_adult_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5962,8 +5989,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/esterilizados/2157923?activeVariant=2157923.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_sterilcat_40_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -5989,8 +6016,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_a_la_carte_gato/1283524?activeVariant=1283524.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_a_la_carte_26_x_85_g_megapack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6016,8 +6043,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_packs_de_experimentacao/560243?activeVariant=560243.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_perle_em_saquetas_4_x_85_g_pack_misto_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6043,8 +6070,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/esterilizados/437187?activeVariant=437187.21",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_sterilcat_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6070,8 +6097,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/seniores/674003?activeVariant=674003.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_cat_senior_longevis_24_x_85_g_em_latas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6097,8 +6124,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/adultos/492044?activeVariant=492044.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_cat_adult_delicate_digestion_em_saquetas_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6124,8 +6151,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/adultos/492042?activeVariant=492042.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_sterilised_adult_maintenance_em_saquetas_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6151,8 +6178,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_terrinas/514633?activeVariant=514633.11",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_terrinas_22_x_85_g_megapack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6178,8 +6205,35 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/sterilised/2131162?activeVariant=2131162.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_sterilised_adult_40_x_85_g_wet",
+    "rec": true,
+    "conf": false
+  },
+  {
+    "id": "1856616",
+    "n": "Gourmet Nature's Creations 8 x 85 g",
+    "b": "Gourmet",
+    "p": 11.99,
+    "pkg": 17.63,
+    "c": "Completo",
+    "k": false,
+    "t": "Tier D (Evitar / Açúcares e Cereais)",
+    "s": 14,
+    "vr": 0.79,
+    "ir": true,
+    "ur": [],
+    "sug": true,
+    "grn": true,
+    "veg": true,
+    "org": false,
+    "carr": false,
+    "tau": true,
+    "carb": 12.4,
+    "cb": "10-20% DMB (Moderado)",
+    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/natures_creation/1856616?activeVariant=1856616.1",
+    "r": "Zooplus",
+    "fid": "zoo_gourmet_gourmet_nature_s_creations_8_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6205,8 +6259,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/pro_plan/sterilised/2159471?activeVariant=2159471.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_pro_plan_purina_pro_plan_cat_sterilised_adult_maintenance_10_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6232,8 +6286,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/perfect_portions/1461093?activeVariant=1461093.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_perfect_portions_16_x_37_5_g_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6259,8 +6313,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/perfect_portions/762832?activeVariant=762832.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_perfect_portions_6_x_37_5_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6286,8 +6340,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/urinary/555906?activeVariant=555906.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_care_nutrition_royal_canin_urinary_care_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6313,8 +6367,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sterilised/1102135?activeVariant=1102135.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_care_nutrition_royal_canin_appetite_control_care_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6340,8 +6394,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sterilised/436775?activeVariant=436775.11",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_sterilised_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6367,8 +6421,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sterilised/436776?activeVariant=436776.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_sterilised_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6394,8 +6448,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/virbac/1926946?activeVariant=1926946.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_virbac_virbac_veterinary_hpm_cat_kidney_joint_kj2_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6421,8 +6475,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_mature/2461380?activeVariant=2461380.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_ageing_11_em_geleia_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6448,8 +6502,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_adulto/436781?activeVariant=436781.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_hair_skin_care_em_gelatina_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6475,8 +6529,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_sensitive/363284?activeVariant=363284.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_care_nutrition_royal_canin_digestive_care_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6502,8 +6556,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/breed/555977?activeVariant=555977.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_breed_royal_canin_british_shorthair_adult_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6529,8 +6583,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_gold_mousse/872209?activeVariant=872209.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_gold_96_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6556,8 +6610,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_perle/681866?activeVariant=681866.19",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_perle_em_saquetas_96_x_85_g_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6583,8 +6637,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/renais/963675?activeVariant=963675.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_early_renal_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6610,8 +6664,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/whiskas_especialidades/1579892?activeVariant=1579892.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_tasty_mix_48_x_85_g_pack_misto_em_saquetas_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6637,8 +6691,8 @@
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/sensations/606504?activeVariant=606504.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sensations_crunchy_saquetas_20_x_85_g_80_g_topping_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6664,8 +6718,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/naturallydelicious/1399908?activeVariant=1399908.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_naturally_delicious_10_x_80_g_pack_misto_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6691,8 +6745,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/adulto/2237876?activeVariant=2237876.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_adult_saquetas_sele_o_de_aves_em_gelatina_120_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6718,8 +6772,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/whiskas_junior/2519026?activeVariant=2519026.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_junior_saquetas_84_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6745,8 +6799,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/adulto/2523522?activeVariant=2523522.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_1_adult_saquetas_84_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6772,8 +6826,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/whiskas_junior/608395?activeVariant=608395.9",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_junior_saquetas_48_x_85_g_megapack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6799,8 +6853,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/adulto/2220299?activeVariant=2220299.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_1_aromatic_selection_48_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6826,8 +6880,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_gold_terrine/1325040?activeVariant=1325040.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_terrine_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6853,8 +6907,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/adulto/596493?activeVariant=596493.33",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_1_adult_saquetas_48_x_85_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6880,8 +6934,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_tenros_pedacos/438794?activeVariant=438794.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_gold_tenros_peda_os_12_24_48_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6907,8 +6961,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/adulto/580191?activeVariant=580191.14",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_multipack_whiskas_1_adult_saquetas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6934,8 +6988,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/whiskas_senior/363366?activeVariant=363366.22",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_senior_12_x_85_g_saquetas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6961,8 +7015,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/whiskas_junior/509823?activeVariant=509823.9",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_junior_saquetas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -6988,8 +7042,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/felix_saquetas/2533182?activeVariant=2533182.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sauce_time_24_x_40_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7015,8 +7069,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_duplo_prazer/1325179?activeVariant=1325179.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_gold_duo_delice_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7042,8 +7096,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/felix_saquetas/2531596?activeVariant=2531596.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sauce_time_12_x_40_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7069,8 +7123,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet_gold/gourmet_tenros_pedacos/363347?activeVariant=363347.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_purina_gourmet_gold_tenros_peda_os_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7096,8 +7150,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sopa/gourmet/2523655?activeVariant=2523655.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_soup_royale_24_x_45_g_megapack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7123,8 +7177,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/felix/felix_saquetas/2531611?activeVariant=2531611.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_felix_felix_sauce_time_6_x_40_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7150,8 +7204,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_saquetas/633435?activeVariant=633435.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_variedades_saquetas_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7177,8 +7231,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/sheba_saquetas/610054?activeVariant=610054.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_variedades_em_saquetas_12_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7204,8 +7258,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sopa/gourmet/2523671?activeVariant=2523671.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_soup_royale_6_x_45_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7231,8 +7285,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/problemas_renais/852641?activeVariant=852641.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_niere_renal_em_saquetas_24_x_85_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7258,8 +7312,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/esterilizados/2490093?activeVariant=2490093.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_one_purina_one_sterilcat_terrine_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7285,8 +7339,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/1866212?activeVariant=1866212.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_kidney_renal_em_saquetas_12_x_85_g_pack_misto_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7312,8 +7366,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/problemas_renais/536600?activeVariant=536600.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_renal_em_saquetas_6_x_85_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7339,8 +7393,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/fresh_cuisine/1019650?activeVariant=1019650.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_sheba_sheba_fresh_cuisine_taste_of_tokyo_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7366,8 +7420,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_scienceplan/sterilised/363257?activeVariant=363257.8",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_science_plan_hill_s_science_plan_adult_sterilised_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7420,8 +7474,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/revelations/1122509?activeVariant=1122509.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_revelations_mousse_48_x_57_g_megapack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7447,8 +7501,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/revelations/1116768?activeVariant=1116768.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_mousse_gourmet_revelations_12_x_57_g_pack_econ_mico_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7474,8 +7528,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/revelations/1116767?activeVariant=1116767.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_gourmet_gourmet_revelations_mousse_4_x_57_g_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7501,8 +7555,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/renal/2227382?activeVariant=2227382.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_veterinary_diets_feline_nf_advanced_care_mousse_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7528,8 +7582,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_adulto/363279?activeVariant=363279.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_hair_skin_care_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7555,8 +7609,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sensory_feel/1192118?activeVariant=1192118.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_sensory_feel_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7582,8 +7636,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/problemas_pele_pelo/516095?activeVariant=516095.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_skin_coat_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7609,8 +7663,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/renais/963663?activeVariant=963663.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_renal_mousse_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7636,8 +7690,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/gastrointestinal/757152?activeVariant=757152.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_veterinary_diets_en_st_ox_gastrointestinal_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7663,8 +7717,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/urinary/757148?activeVariant=757148.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_ur_st_ox_urinary_veterinary_diets_com_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7690,8 +7744,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/renal/1403610?activeVariant=1403610.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_nf_advance_care_veterinary_diets_com_salm_o_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7717,8 +7771,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/renal/1403612?activeVariant=1403612.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_nf_advance_care_veterinary_diets_com_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7744,8 +7798,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/urinarios/537785?activeVariant=537785.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_c_d_multicare_urinary_care_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7771,8 +7825,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/renais/515870?activeVariant=515870.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_renal_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7798,8 +7852,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_veterinary_diets_gato_humida/urinary/757146?activeVariant=757146.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_purina_pro_plan_veterinary_diets_purina_pro_plan_feline_ur_st_ox_urinary_veterinary_diets_com_salm_o_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7825,8 +7879,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/caes/enlatados_saquetas_cao/royal_canin_veterinary_diet/recuperacao/700810?activeVariant=700810.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_recovery_ultra_soft_mousse_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7852,8 +7906,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/advance_veterinary_diets/renal/1398004?activeVariant=1398004.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_affinity_advance_veterinary_diets_advance_veterinary_diets_cat_renal_comida_h_mida_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7879,8 +7933,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/hills_gatos_problemas_tiroide/537699?activeVariant=537699.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_y_d_thyroid_care_com_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7906,8 +7960,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/urinarios/565112?activeVariant=565112.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_c_d_urinary_stress_saquetas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7960,8 +8014,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/alergias/515916?activeVariant=515916.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_sensitivity_control_frango_e_arroz_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -7987,8 +8041,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/sterilised/673386?activeVariant=673386.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_sterilised_mousse_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8014,8 +8068,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_mature/2461400?activeVariant=2461400.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_ageing_15_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8041,8 +8095,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/adulto/2557722?activeVariant=2557722.3",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_whiskas_whiskas_1_saquetas_144_x_85_g_jumbopack_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8095,8 +8149,8 @@
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_mature/2461356?activeVariant=2461356.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_royal_canin_ageing_11_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8122,8 +8176,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/problemas_excesso_peso/633047?activeVariant=633047.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_metabolic_weight_management_saquetas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8149,8 +8203,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/hillsdiet_humida_gato_renal/363268?activeVariant=363268.8",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_k_d_kidney_care_com_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8176,8 +8230,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/breed/555978?activeVariant=555978.5",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_breed_royal_canin_maine_coon_adult_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8203,8 +8257,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/problemas_excesso_peso/599155?activeVariant=599155.4",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_c_d_urinary_stress_metabolic_saquetas_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8230,8 +8284,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/problemas_excesso_peso/1919962?activeVariant=1919962.0",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_metabolic_com_peixe_de_mar_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8257,8 +8311,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royal_canin_vet_diet/gastrointestinais/1897573?activeVariant=1897573.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_royal_canin_veterinary_diet_royal_canin_veterinary_feline_gastrointestinal_fiber_response_em_molho_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8284,8 +8338,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/hills_prescriptiondiet/hillsdiet_humida_gato_intestinal/805127?activeVariant=805127.1",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_hill_s_prescription_diet_hill_s_prescription_diet_gastrointestinal_biome_ensopado_para_gatos_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8311,8 +8365,8 @@
     "cb": ">20% DMB (Elevado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/kattovit/1866357?activeVariant=1866357.2",
     "r": "Zooplus",
-    "fid": null,
-    "rec": false,
+    "fid": "zoo_kattovit_kattovit_special_cream_urinary_com_frango_wet",
+    "rec": true,
     "conf": false
   },
   {
@@ -8374,35 +8428,6 @@
     "conf": false
   },
   {
-    "id": "363353",
-    "n": "Gourmet A La Carte 4 x 85 g - Pack de degustação misto",
-    "b": "Gourmet",
-    "p": 2.99,
-    "pkg": 8.79,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": true,
-    "grn": true,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 12.3,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/gourmet/gourmet_gold_a_la_carte_gato/363353?activeVariant=363353.2",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "1822811",
     "n": "Purizon 200 g para gatos - Pack de degustação",
     "b": "Purizon",
@@ -8432,64 +8457,6 @@
     "conf": false
   },
   {
-    "id": "798380",
-    "n": "Felix Soup Time Original 6 x 48 g",
-    "b": "Felix",
-    "p": 7.99,
-    "pkg": 9.25,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": true,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 12.0,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/felix_snacks/soups/798380?activeVariant=798380.3",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "593727",
-    "n": "Applaws Cat Loin lombo inteiro de atum",
-    "b": "Applaws",
-    "p": 6.69,
-    "pkg": 74.33,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/applaws/593727?activeVariant=593727.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "760304",
     "n": "Cosma Soup 4 x 40 g - Pack de degustação misto",
     "b": "Cosma",
@@ -8513,65 +8480,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cosma/cosma_packs_experimentacao/760304?activeVariant=760304.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2314704",
-    "n": "Schesir Complete Nutrition filete em gelatina em latas 6 x 85 g",
-    "b": "Schesir",
-    "p": 9.69,
-    "pkg": 19.0,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": true,
-    "carb": 5.6,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_pequeno/2314704?activeVariant=2314704.5",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2314824",
-    "n": "Schesir Complements em caldo 6 x 70 g",
-    "b": "Schesir",
-    "p": 8.99,
-    "pkg": 21.4,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_nutrition",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/packs_experimentacao/2314824?activeVariant=2314824.0",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -8630,94 +8538,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/436769?activeVariant=436769.8",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "363881",
-    "n": "Felix Party Mix snacks para gatos",
-    "b": "Felix",
-    "p": 3.99,
-    "pkg": 22.17,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_analytical_constituents",
-      "complementary_food_excluded"
-    ],
-    "sug": true,
-    "grn": true,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/felix_snacks/party_mix/363881?activeVariant=363881.14",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1005581",
-    "n": "Gourmet Nature's Creations Snack 5 x 10 g",
-    "b": "Gourmet",
-    "p": 2.29,
-    "pkg": 45.8,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 23.1,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/purina_gourmet/natures_creations/1005581?activeVariant=1005581.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2333444",
-    "n": "Schesir Complements filete em gelatina 6 x 70 g em saquetas",
-    "b": "Schesir",
-    "p": 8.99,
-    "pkg": 21.4,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 2.7,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_pequeno/2333444?activeVariant=2333444.1",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -8783,93 +8603,6 @@
     "conf": false
   },
   {
-    "id": "363125",
-    "n": "Applaws em caldo 6 x 70 g",
-    "b": "Applaws",
-    "p": 8.99,
-    "pkg": 21.4,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/363125?activeVariant=363125.23",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2333164",
-    "n": "Schesir After Dark 12 x 80 g",
-    "b": "Schesir",
-    "p": 19.69,
-    "pkg": 20.51,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": true,
-    "carb": 8.3,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/latas/2333164?activeVariant=2333164.4",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2314841",
-    "n": "Schesir Complements em gelatina em latas 6 x 70 g",
-    "b": "Schesir",
-    "p": 9.19,
-    "pkg": 21.88,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 2.7,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_pequeno/2314841?activeVariant=2314841.3",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "1321496",
     "n": "Gourmet Mon Petit 24 x 50 g saquetas em promoção: 18 + 6 grátis!",
     "b": "Gourmet",
@@ -8928,35 +8661,6 @@
     "conf": false
   },
   {
-    "id": "363210",
-    "n": "Schesir Kitten 6 x 85 g para gatos",
-    "b": "Schesir",
-    "p": 8.79,
-    "pkg": 17.24,
-    "c": "Complementar",
-    "k": true,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 22.0,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/kitten/363210?activeVariant=363210.4",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "673387",
     "n": "Royal Canin Kitten Mousse",
     "b": "Royal Canin",
@@ -8980,93 +8684,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/royalcanin_gatos/royalcanin_gatinhos/673387?activeVariant=673387.2",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1929896",
-    "n": "Applaws em caldo 24 x 70 g - Pack económico",
-    "b": "Applaws",
-    "p": 33.49,
-    "pkg": 19.93,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/1929896?activeVariant=1929896.3",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "726428",
-    "n": "Sheba Creamy Snacks - Pack misto",
-    "b": "Sheba",
-    "p": 13.19,
-    "pkg": 61.06,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 22.7,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/pastas_gato/sheba/726428?activeVariant=726428.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2314859",
-    "n": "Schesir Complete Nutrition filete em gelatina 6 x 140 g em latas",
-    "b": "Schesir",
-    "p": 13.69,
-    "pkg": 16.3,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 5.6,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_pequeno/2314859?activeVariant=2314859.3",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -9102,94 +8719,6 @@
     "conf": false
   },
   {
-    "id": "2533265",
-    "n": "Schesir Complements em caldo 24 x 70 g - pack económico",
-    "b": "Schesir",
-    "p": 34.49,
-    "pkg": 20.53,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 24.1,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/latas/2533265?activeVariant=2533265.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2427184",
-    "n": "PURINA ONE Hydralife Líquido para gatos 12 x 50 g",
-    "b": "Purina One",
-    "p": 13.49,
-    "pkg": 22.48,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": true,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 46.3,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/snacks_funcionais/2427184?activeVariant=2427184.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "535116",
-    "n": "Applaws Adult latas 12 x 70 g - Pack misto",
-    "b": "Applaws",
-    "p": 17.69,
-    "pkg": 21.06,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_nutrition",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/535116?activeVariant=535116.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "785711",
     "n": "Cosma Nature saquetas 6 x 50 g",
     "b": "Cosma",
@@ -9213,152 +8742,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cosma/cosma_nature/785711?activeVariant=785711.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "798566",
-    "n": "PURINA Dentalife snacks para a higiene dentária dos gatos",
-    "b": "Dentalife",
-    "p": 10.99,
-    "pkg": 39.25,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_analytical_constituents",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/dentalife/798566?activeVariant=798566.11",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2333292",
-    "n": "Schesir Sopa para gatos em saquetas 12 x 40 g",
-    "b": "Schesir",
-    "p": 11.79,
-    "pkg": 24.56,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 23.0,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sopa/2333292?activeVariant=2333292.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2324349",
-    "n": "Schesir Complete Nutrition filete em caldo em latas 6 x 85 g",
-    "b": "Schesir",
-    "p": 10.99,
-    "pkg": 21.55,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 5.6,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/latas/2324349?activeVariant=2324349.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "608268",
-    "n": "Whiskas Senior saquetas 48 x 85 g - Megapack económico",
-    "b": "Whiskas",
-    "p": 30.99,
-    "pkg": 7.6,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": true,
-    "grn": true,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 11.5,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/whiskas_senior/608268?activeVariant=608268.18",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2333414",
-    "n": "Schesir Complete Nutrition filete em gelatina saquetas 6 x 85 g",
-    "b": "Schesir",
-    "p": 9.49,
-    "pkg": 18.61,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 5.6,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_pequeno/2333414?activeVariant=2333414.3",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -9423,36 +8806,6 @@
     "conf": false
   },
   {
-    "id": "1889695",
-    "n": "Greenwoods Delight Atum 6 x 70 g - Pack misto de degustação",
-    "b": "Greenwoods",
-    "p": 6.49,
-    "pkg": 15.45,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_nutrition",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/greenwoods_comida_humida/packs_de_experimentacao/1889695?activeVariant=1889695.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "884635",
     "n": "Purina Gourmet Nature's Creations 12 x 85 g",
     "b": "Gourmet",
@@ -9505,35 +8858,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/wild_freedom_humida/packs_experimentacao_wild_freedom/876209?activeVariant=876209.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "363124",
-    "n": "Applaws em caldo 6 x 156 g",
-    "b": "Applaws",
-    "p": 15.79,
-    "pkg": 16.87,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/363124?activeVariant=363124.21",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -9598,95 +8922,6 @@
     "conf": false
   },
   {
-    "id": "1356457",
-    "n": "Sheba Feine Filets 16 x 60 g comida húmida para gatos",
-    "b": "Sheba",
-    "p": 33.99,
-    "pkg": 35.41,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 20.0,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/sheba/scheba_pate_filete/1356457?activeVariant=1356457.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "676908",
-    "n": "Applaws Cat Loin lombo inteiro de salmão",
-    "b": "Applaws",
-    "p": 6.19,
-    "pkg": 68.78,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "invalid_nutrition (macro_sum_exceeds_100 (103.1%))",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/applaws/676908?activeVariant=676908.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "587770",
-    "n": "Schesir Kitten - Pack económico: 24 x 85 g",
-    "b": "Schesir",
-    "p": 33.49,
-    "pkg": 16.42,
-    "c": "Complementar",
-    "k": true,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_composition",
-      "complementary_food_excluded"
-    ],
-    "sug": null,
-    "grn": null,
-    "veg": null,
-    "org": null,
-    "carr": null,
-    "tau": false,
-    "carb": 22.0,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/kitten/587770?activeVariant=587770.8",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "1926722",
     "n": "Ultima 48 x 85 g comida húmida para gatos em promoção: 38 + 10 grátis!",
     "b": "Affinity Ultima",
@@ -9710,94 +8945,6 @@
     "carb": 14.4,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/ultima/1926722?activeVariant=1926722.2",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1426184",
-    "n": "Greenwoods Delight 6 x 70 g em latas - Pack misto",
-    "b": "Greenwoods",
-    "p": 6.49,
-    "pkg": 15.45,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_nutrition",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/greenwoods_comida_humida/delight/1426184?activeVariant=1426184.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1889693",
-    "n": "Greenwoods Delight Filete de atum com anchovas",
-    "b": "Greenwoods",
-    "p": 6.99,
-    "pkg": 16.64,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/greenwoods_comida_humida/delight/1889693?activeVariant=1889693.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1920271",
-    "n": "Cosma Drink bebida para gatos 6 x 100 g",
-    "b": "Cosma",
-    "p": 7.49,
-    "pkg": 12.48,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": false,
-    "carb": 5.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cosma/drink/1920271?activeVariant=1920271.0",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -9833,64 +8980,6 @@
     "conf": false
   },
   {
-    "id": "637281",
-    "n": "Applaws Cat Loin lombo inteiro de cavala",
-    "b": "Applaws",
-    "p": 6.69,
-    "pkg": 74.33,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/applaws/637281?activeVariant=637281.3",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2464650",
-    "n": "Schesir Cat Soup em saquetas 24 x 40 g - Pack económico",
-    "b": "Schesir",
-    "p": 21.99,
-    "pkg": 22.91,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 23.0,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_saquetas/2464650?activeVariant=2464650.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "1555409",
     "n": "Encore em gelatina em saquetas 20 x 50 g para gatos - Pack económico misto",
     "b": "Encore",
@@ -9914,93 +9003,6 @@
     "carb": 3.1,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/encore/packs_economicos/1555409?activeVariant=1555409.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2010580",
-    "n": "Feringa Cat Soup 12 x 70 g",
-    "b": "Feringa",
-    "p": 8.99,
-    "pkg": 10.7,
-    "c": "Completo",
-    "k": false,
-    "t": "Não classificado (Dados insuficientes)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_analytical_constituents"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/feringa/feringa_soup/2010580?activeVariant=2010580.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1929898",
-    "n": "Applaws em caldo 24 x 156 g - Pack económico",
-    "b": "Applaws",
-    "p": 41.49,
-    "pkg": 11.08,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/1929898?activeVariant=1929898.18",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1012072",
-    "n": "Schesir em gelatina 6 x 85 g",
-    "b": "Schesir",
-    "p": 9.49,
-    "pkg": 18.61,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 17.0,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_saquetas/1012072?activeVariant=1012072.16",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -10037,64 +9039,6 @@
     "conf": false
   },
   {
-    "id": "2557589",
-    "n": "Whiskas 1+ Adult saquetas  96 x 85 g - Jumbopack",
-    "b": "Whiskas",
-    "p": 55.99,
-    "pkg": 6.86,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": true,
-    "grn": true,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 11.5,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/whiskas/adulto/2557589?activeVariant=2557589.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1426097",
-    "n": "Greenwoods Delight filete de atum em latas para gatos",
-    "b": "Greenwoods",
-    "p": 6.99,
-    "pkg": 16.64,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.8,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/greenwoods_comida_humida/delight/1426097?activeVariant=1426097.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "432166",
     "n": "Cosma Asia em gelatina 12 x 400 g - Pack económico",
     "b": "Cosma",
@@ -10118,36 +9062,6 @@
     "carb": 3.1,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cosma/cosma_packs_economicos/432166?activeVariant=432166.14",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "524112",
-    "n": "Applaws em caldo - Pack económico: 12 x 70 g",
-    "b": "Applaws",
-    "p": 16.99,
-    "pkg": 20.23,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_composition",
-      "complementary_food_excluded"
-    ],
-    "sug": null,
-    "grn": null,
-    "veg": null,
-    "org": null,
-    "carr": null,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/524112?activeVariant=524112.23",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -10241,64 +9155,6 @@
     "conf": false
   },
   {
-    "id": "697063",
-    "n": "Concept for Life 4 x 85 g - Pack de degustação",
-    "b": "Concept for Life",
-    "p": 2.79,
-    "pkg": 8.21,
-    "c": "Completo",
-    "k": true,
-    "t": "Não classificado (Dados insuficientes)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_analytical_constituents"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": true,
-    "org": true,
-    "carr": false,
-    "tau": true,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/comida_sem_cereais_gato/concept_for_life/697063?activeVariant=697063.2",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2578090",
-    "n": "Felix Deli Moments Multipack",
-    "b": "Felix",
-    "p": 6.19,
-    "pkg": 0.05,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": true,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 24.6,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/snacks_guloseimas/felix_snacks/2578090?activeVariant=2578090.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "565075",
     "n": "Feringa em saquetas 24 x 85 g - Pack económico",
     "b": "Feringa",
@@ -10323,35 +9179,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/feringa/feringa_packs_economicos/565075?activeVariant=565075.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1426102",
-    "n": "Greenwoods Delight filete de atum com camarão em latas para gatos",
-    "b": "Greenwoods",
-    "p": 6.49,
-    "pkg": 15.45,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.9,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/greenwoods_comida_humida/delight/1426102?activeVariant=1426102.2",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -10387,36 +9214,6 @@
     "conf": false
   },
   {
-    "id": "639288",
-    "n": "Applaws em gelatina 12 x 70 g - Pack económico",
-    "b": "Applaws",
-    "p": 16.69,
-    "pkg": 19.87,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_composition",
-      "complementary_food_excluded"
-    ],
-    "sug": null,
-    "grn": null,
-    "veg": null,
-    "org": null,
-    "carr": null,
-    "tau": false,
-    "carb": 10.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/639288?activeVariant=639288.8",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "750232",
     "n": "Cosma tampa para latas",
     "b": "Cosma",
@@ -10441,65 +9238,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/bebedouros_comedouros_gato/armazenamento_comida/750232?activeVariant=750232.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "594625",
-    "n": "Applaws Cat Pouch em caldo 12 x 70 g - Pack de degustação",
-    "b": "Applaws",
-    "p": 19.99,
-    "pkg": 23.8,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_nutrition",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_saquetas/594625?activeVariant=594625.2",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2330121",
-    "n": "Schesir Silver Mousse 12 x 80 g",
-    "b": "Schesir",
-    "p": 21.49,
-    "pkg": 22.39,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 10.6,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_saquetas/2330121?activeVariant=2330121.0",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -10564,93 +9302,6 @@
     "conf": false
   },
   {
-    "id": "1925490",
-    "n": "Applaws Senior 6 x 70 g",
-    "b": "Applaws",
-    "p": 9.49,
-    "pkg": 22.6,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 12.7,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/1925490?activeVariant=1925490.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "363317",
-    "n": "Thrive Complete 6 x 75 g",
-    "b": "Thrive",
-    "p": 12.99,
-    "pkg": 28.87,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": true,
-    "carb": 26.7,
-    "cb": ">20% DMB (Elevado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/thrive_complete/363317?activeVariant=363317.4",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2464995",
-    "n": "Schesir Complete Nutrition Filete em geleia 24 x 85 g - Pack economico",
-    "b": "Schesir",
-    "p": 37.49,
-    "pkg": 18.38,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": true,
-    "carb": 5.6,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_pequeno/2464995?activeVariant=2464995.12",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "2141321",
     "n": "IAMS 48 x 85 g comida húmida para gatos em promoção: 36 + 12 grátis!",
     "b": "IAMS",
@@ -10680,35 +9331,6 @@
     "conf": false
   },
   {
-    "id": "2331324",
-    "n": "Schesir Special Skin & Coat 12 x 70 g",
-    "b": "Schesir",
-    "p": 19.99,
-    "pkg": 23.8,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 10.6,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_saquetas/2331324?activeVariant=2331324.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "523139",
     "n": "Almo Nature 12 x 70 g - Pack económico",
     "b": "Almo Nature 70g",
@@ -10732,66 +9354,6 @@
     "carb": 19.1,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/almonature_humidos/almonature_legend/523139?activeVariant=523139.82",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "542507",
-    "n": "Applaws Kitten 6 x 70 g",
-    "b": "Applaws",
-    "p": 9.49,
-    "pkg": 22.6,
-    "c": "Complementar",
-    "k": true,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_nutrition",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/542507?activeVariant=542507.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "363122",
-    "n": "Applaws Cat Pot 8 x 60 g - Pack de degustação",
-    "b": "Applaws",
-    "p": 13.29,
-    "pkg": 27.69,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_nutrition",
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": null,
-    "cb": "N/D",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_tasty/363122?activeVariant=363122.0",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -10850,35 +9412,6 @@
     "carb": null,
     "cb": "N/D",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/purina_one/esterilizados/2175611?activeVariant=2175611.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1426086",
-    "n": "Greenwoods Delight filete de frango em latas para gatos",
-    "b": "Greenwoods",
-    "p": 6.99,
-    "pkg": 16.64,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/greenwoods_comida_humida/delight/1426086?activeVariant=1426086.0",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -10967,93 +9500,6 @@
     "carb": 11.7,
     "cb": "10-20% DMB (Moderado)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/brekkies/2687431?activeVariant=2687431.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "363146",
-    "n": "Cosma Original em gelatina 6 x 85 g",
-    "b": "Cosma",
-    "p": 6.99,
-    "pkg": 13.71,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 5.6,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cosma/cosma_original/363146?activeVariant=363146.7",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "1920399",
-    "n": "Cosma Drink bebida para gatos 24 x 100 g - Pack económico",
-    "b": "Cosma",
-    "p": 26.99,
-    "pkg": 11.25,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": false,
-    "carb": 5.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cosma/cosma_packs_economicos/1920399?activeVariant=1920399.1",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "363127",
-    "n": "Applaws Cat Natural em caldo 12 x 70 g",
-    "b": "Applaws",
-    "p": 21.49,
-    "pkg": 25.58,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": false,
-    "carb": 15.2,
-    "cb": "10-20% DMB (Moderado)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_saquetas/363127?activeVariant=363127.5",
     "r": "Zooplus",
     "fid": null,
     "rec": false,
@@ -11205,35 +9651,6 @@
     "conf": false
   },
   {
-    "id": "2330246",
-    "n": "Schesir After Dark Velvet Mousse 12 x 80 g",
-    "b": "Schesir",
-    "p": 22.99,
-    "pkg": 23.95,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": false,
-    "veg": false,
-    "org": true,
-    "carr": false,
-    "tau": true,
-    "carb": 7.5,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/mousse/2330246?activeVariant=2330246.0",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
     "id": "991007",
     "n": "Cosma Original ou Asia 24 x 400 g - Pack económico",
     "b": "Cosma",
@@ -11257,65 +9674,6 @@
     "carb": 3.8,
     "cb": "<10% DMB (Ideal)",
     "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/cosma/cosma_packs_economicos/991007?activeVariant=991007.8",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "524113",
-    "n": "Applaws em caldo 12 x 156 g - Pack económico",
-    "b": "Applaws",
-    "p": 30.99,
-    "pkg": 16.57,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "missing_composition",
-      "complementary_food_excluded"
-    ],
-    "sug": null,
-    "grn": null,
-    "veg": null,
-    "org": null,
-    "carr": null,
-    "tau": false,
-    "carb": 0.0,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/applaws_humido_gato/applaws_latas/524113?activeVariant=524113.15",
-    "r": "Zooplus",
-    "fid": null,
-    "rec": false,
-    "conf": false
-  },
-  {
-    "id": "2314880",
-    "n": "Schesir Complete Nutrition filete em gelatina em latas 6 x 50 g",
-    "b": "Schesir",
-    "p": 7.99,
-    "pkg": 26.63,
-    "c": "Complementar",
-    "k": false,
-    "t": "Complementar (Excluído)",
-    "s": null,
-    "vr": null,
-    "ir": false,
-    "ur": [
-      "complementary_food_excluded"
-    ],
-    "sug": false,
-    "grn": true,
-    "veg": false,
-    "org": false,
-    "carr": false,
-    "tau": true,
-    "carb": 5.6,
-    "cb": "<10% DMB (Ideal)",
-    "u": "https://www.zooplus.pt/shop/gato/enlatados_gato/schesir/schesir_pequeno/2314880?activeVariant=2314880.6",
     "r": "Zooplus",
     "fid": null,
     "rec": false,

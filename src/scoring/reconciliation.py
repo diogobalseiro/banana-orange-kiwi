@@ -46,13 +46,15 @@ def get_product_key(retailer: str, pid: str) -> str:
 def find_formulation_id(retailer: str, 
                         pid: str, 
                         pdp_url: Optional[str] = None, 
-                        matches_config: Optional[Dict] = None) -> Optional[str]:
-    """Find the formulation ID for a given retailer product by PID or PDP URL."""
+                        matches_config: Optional[Dict] = None,
+                        product_name: Optional[str] = None) -> Optional[str]:
+    """Find the formulation ID for a given retailer product by PID, PDP URL, or alias."""
     if matches_config is None:
         matches_config = load_product_matches()
     
     retailer_lower = retailer.lower()
     
+    # 1. Exact match against PID or PDP URL in retailer_matches
     for formulation_id, match_data in matches_config.items():
         retailer_matches = match_data.get('retailer_matches', {})
         if retailer_lower in retailer_matches:
@@ -66,6 +68,17 @@ def find_formulation_id(retailer: str,
                     if str(entry) in pdp_url or pdp_url.rstrip('/') == str(entry).rstrip('/'):
                         return formulation_id
     
+    # 2. Match by brand + aliases if product_name is provided
+    if product_name:
+        name_lower = product_name.lower()
+        for formulation_id, match_data in matches_config.items():
+            brand = (match_data.get('brand') or '').lower()
+            if brand and brand in name_lower:
+                aliases = match_data.get('aliases', [])
+                for alias in aliases:
+                    if alias.lower() in name_lower:
+                        return formulation_id
+
     return None
 
 
@@ -194,7 +207,8 @@ def reconcile_product_evidence(product: Dict[str, Any],
     if matches_config is None:
         matches_config = load_product_matches()
     
-    formulation_id = find_formulation_id(retailer, pid, pdp_url, matches_config)
+    product_name = product.get('name')
+    formulation_id = find_formulation_id(retailer, pid, pdp_url, matches_config, product_name=product_name)
     
     if not formulation_id:
         return {
@@ -403,6 +417,8 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
         
     result = []
     for item in products:
+        if item is None:
+            continue
         p = dict(item)
         
         is_minified = ('s' in p and 'n' in p and 'name' not in p)

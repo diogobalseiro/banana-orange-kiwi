@@ -33,7 +33,11 @@ def score_wet_product(p):
         if 'alimento completo' not in text_to_check and '100% completa' not in text_to_check:
             is_complementary = True
 
-    classification = 'Complementar' if is_complementary else 'Completo'
+    if is_complementary or p.get('classification') in ['Complementar', 'complementary']:
+        # Exclude complementary foods (snacks, treats, soups) entirely to focus on complete diets
+        return None, None
+
+    classification = 'Completo'
 
     # Target: Kitten / Junior
     is_kitten = any(k in f"{name_lower} {desc.lower()}" for k in ['júnior', 'junior', 'kitten', 'gatinho', 'filhote', 'crescimento'])

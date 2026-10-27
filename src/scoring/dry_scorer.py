@@ -26,6 +26,15 @@ def score_dry_product(p):
     text_to_check = f"{name} {desc} {ingr} {nutri_raw}".lower()
     name_lower = name.lower()
 
+    # Classification check: exclude complementary dry products (snacks, treats)
+    is_complementary = False
+    if 'alimento complementar' in text_to_check or 'snack' in text_to_check:
+        if 'alimento completo' not in text_to_check and '100% completo' not in text_to_check:
+            is_complementary = True
+
+    if is_complementary or p.get('classification') in ['Complementar', 'complementary']:
+        return None, None
+
     # Target demographics
     is_kitten = any(k in f"{name_lower} {desc.lower()}" for k in ['júnior', 'junior', 'kitten', 'gatinho', 'filhote', 'crescimento'])
     is_sterilised = any(s in f"{name_lower} {desc.lower()}" for s in ['esterilizado', 'esterilizados', 'sterilised', 'sterilized'])

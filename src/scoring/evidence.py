@@ -227,8 +227,14 @@ def check_scoring_readiness(product, category='wet'):
     elif nutri.get('status') == FieldStatus.MISSING:
         reasons.append('missing_nutrition')
     else:
-        # Check required analytical constituents (protein, fat, moisture, ash, fibre support carbs and dry matter)
-        required = ['protein', 'fat', 'moisture', 'ash', 'fiber']
+        # Check required analytical constituents
+        if category == 'dry':
+            # EU Reg 767/2009: moisture is optional on dry kibble (<= 14%). Core requirements: protein, fat, ash, fiber.
+            required = ['protein', 'fat', 'ash', 'fiber']
+        else:
+            # Wet food: moisture is mandatory (> 14%). Fiber is negligible (<0.5%) and optional.
+            required = ['protein', 'fat', 'moisture', 'ash']
+
         missing_constituents = [k for k in required if nutri.get(k, {}).get('value') is None]
         if missing_constituents:
             reasons.append('missing_analytical_constituents')

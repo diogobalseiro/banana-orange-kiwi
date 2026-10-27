@@ -42,8 +42,8 @@ class TestScoringReadiness(unittest.TestCase):
         self.assertIsNone(full['has_grains'])
         self.assertIsNone(mini['sug'])
 
-    def test_complementary_wet_food_is_retained_as_unranked(self):
-        """Complementary wet food is no longer dropped as None; it is retained with unranked status."""
+    def test_complementary_wet_food_is_excluded_entirely(self):
+        """Complementary wet food (snacks, soups, toppers) is excluded entirely from the complete-food catalog."""
         p = {
             'pid': 'test-3',
             'name': 'Alimento Complementar Sopa Frango',
@@ -54,14 +54,11 @@ class TestScoringReadiness(unittest.TestCase):
             'nutrition_raw': 'Proteína: 5.0% Gordura: 0.5% Humidade: 92.0% Cinza: 1.0% Fibra: 0.1%'
         }
         full, mini = score_wet_product(p)
-        self.assertIsNotNone(full)
-        self.assertFalse(full['is_ranked'])
-        self.assertIsNone(full['score'])
-        self.assertEqual(full['classification'], 'Complementar')
-        self.assertIn('complementary_food_excluded', full['unranked_reasons'])
+        self.assertIsNone(full)
+        self.assertIsNone(mini)
 
-    def test_dry_product_missing_moisture_does_not_impute_carbs(self):
-        """Dry food missing moisture must have carbs=None and be unranked."""
+    def test_dry_product_with_declared_macros_is_ranked_without_optional_moisture(self):
+        """Under EU Reg 767/2009, dry food with protein, fat, fibre, ash is ranked with standard moisture allowance."""
         p = {
             'pid': 'test-4',
             'name': 'Ração Seca Gato Adulto',
@@ -69,13 +66,13 @@ class TestScoringReadiness(unittest.TestCase):
             'price': 15.0,
             'unit_price_kg': 5.0,
             'ingredients': 'Frango desidratado 40%, arroz 20%',
-            'nutrition_raw': 'Proteína: 32.0% Gordura: 14.0% Fibra: 2.5% Cinza: 7.0%' # missing moisture
+            'nutrition_raw': 'Proteína: 32.0% Gordura: 14.0% Fibra: 2.5% Cinza: 7.0%' # missing moisture (optional <=14%)
         }
         full, mini = score_dry_product(p)
-        self.assertFalse(full['is_ranked'])
-        self.assertIsNone(full['score'])
+        self.assertTrue(full['is_ranked'])
+        self.assertIsNotNone(full['score'])
         self.assertIsNone(full['nutrition_parsed']['carbs_nfe'])
-        self.assertIsNone(mini['carb'])
+        self.assertEqual(mini['ir'], True)
 
     def test_valid_dry_product_receives_score(self):
         """A complete dry product with verified composition and all 5 macros is ranked."""

@@ -198,6 +198,8 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     minified = []
     for p in reconciled_products:
         p_full, p_mini = score_dry_product(p)
+        if p_full is None or p_mini is None:
+            continue
         scored_full.append(p_full)
         minified.append(p_mini)
 
@@ -327,6 +329,8 @@ def rescore_cached_data(data_dir, manifest=None, generation_id=None):
             minified = []
             for p in reconciled:
                 p_full, p_mini = score_dry_product(p)
+                if p_full is None or p_mini is None:
+                    continue
                 scored_full.append(p_full)
                 minified.append(p_mini)
             
