@@ -65,12 +65,27 @@ class TestScraperExtraction(unittest.TestCase):
     def test_zooplus_multi_recipe_table_no_flattening(self):
         """Zooplus should not blindly flatten multiple recipe columns into one single row of values."""
         html = load_fixture('zooplus_multi_recipe.html')
-        p = {'pdp_url': 'http://dummy.url'}
+        # Test 1: Ambiguous product name (multipack)
+        p_amb = {'pdp_url': 'http://dummy.url', 'name': 'Feringa Pure Meat 6 x 200 g'}
         self.zooplus.fetch_url = lambda url, **kwargs: html
-        res = self.zooplus._fetch_details(p)
-        
-        # When multiple recipe columns exist, labels and values must not be scrambled
-        self.assertTrue(len(res.get('nutrition_raw', '')) > 0)
+        res_amb = self.zooplus._fetch_details(p_amb)
+        self.assertIn('Multi-recipe table:', res_amb.get('nutrition_raw', ''))
+        self.assertIn('[Frango]', res_amb.get('nutrition_raw', ''))
+        self.assertIn('[Salmão]', res_amb.get('nutrition_raw', ''))
+
+        # Test 2: Specific recipe product name
+        p_spec = {'pdp_url': 'http://dummy.url', 'name': 'Feringa Frango com abóbora 200 g'}
+        res_spec = self.zooplus._fetch_details(p_spec)
+        self.assertIn('Receita: Frango', res_spec.get('nutrition_raw', ''))
+        self.assertIn('10.8 %', res_spec.get('nutrition_raw', ''))
+        self.assertNotIn('Multi-recipe table:', res_spec.get('nutrition_raw', ''))
+
+    def test_base_scraper_raises_explicit_fetch_error(self):
+        """BaseScraper raises ScraperFetchError on exhausted failures."""
+        from src.scrapers.base import ScraperFetchError
+        # Test with invalid url/port
+        with self.assertRaises(ScraperFetchError):
+            self.continente.fetch_url('http://127.0.0.1:1/nonexistent', timeout=0.1, max_retries=1)
 
 if __name__ == '__main__':
     unittest.main()

@@ -110,19 +110,36 @@ class ContinenteScraper(BaseScraper):
         nutrition_text = ""
         description_text = ""
 
-        for el in soup.find_all(['p', 'div', 'span']):
+        # Scope search to description container to prevent matching whole page / footer elements
+        desc_container = (
+            soup.find('div', class_='ct-pdp--description-wrapper') or
+            soup.find('div', class_='ct-pdp--description-container') or
+            soup.find('div', class_='product-description') or
+            soup.find('div', class_='tabContainer') or
+            soup
+        )
+
+        # Look strictly for section headers (short text labels, not large parent wrappers)
+        for el in desc_container.find_all(['p', 'span', 'strong', 'b', 'h2', 'h3', 'h4', 'h5']):
             t = el.get_text(strip=True)
-            if t.startswith('Ingredientes:') and not ingredients_text:
+            if len(t) > 50:
+                continue
+
+            if t.lower().startswith('ingredientes') and not ingredients_text:
                 nxt = el.find_next_sibling()
-                if nxt:
-                    ingredients_text = nxt.get_text(strip=True, separator=' ')
-            elif ('Informa' in t and 'Nutricional' in t and ':' in t) and not nutrition_text:
+                if nxt and nxt.name != 'footer':
+                    nxt_text = nxt.get_text(strip=True, separator=' ')
+                    if 'As novidades mais frescas' not in nxt_text:
+                        ingredients_text = nxt_text
+            elif any(k in t.lower() for k in ['informação nutricional', 'informacao nutricional']) and not nutrition_text:
                 nxt = el.find_next_sibling()
-                if nxt:
-                    nutrition_text = nxt.get_text(strip=True, separator=' ')
-            elif t.startswith('Descrição:') and not description_text:
+                if nxt and nxt.name != 'footer':
+                    nxt_text = nxt.get_text(strip=True, separator=' ')
+                    if 'As novidades mais frescas' not in nxt_text:
+                        nutrition_text = nxt_text
+            elif t.lower().startswith('descrição:') and not description_text:
                 nxt = el.find_next_sibling()
-                if nxt:
+                if nxt and nxt.name != 'footer':
                     description_text = nxt.get_text(strip=True, separator=' ')
 
         desc_wrap = soup.find('div', class_='ct-pdp--description-wrapper')
@@ -131,11 +148,21 @@ class ContinenteScraper(BaseScraper):
             if not ingredients_text:
                 m_ing = re.search(r'Ingredientes:\s*\n(.*?)(?=\n[A-Z][a-z]+:|$)', all_text, re.DOTALL)
                 if m_ing:
-                    ingredients_text = m_ing.group(1).strip()
+                    candidate = m_ing.group(1).strip()
+                    if 'As novidades mais frescas' not in candidate:
+                        ingredients_text = candidate
             if not nutrition_text:
                 m_nut = re.search(r'Informaç.*?Nutricional:\s*\n(.*?)(?=\n[A-Z][a-z]+:|$)', all_text, re.DOTALL)
                 if m_nut:
-                    nutrition_text = m_nut.group(1).strip()
+                    candidate = m_nut.group(1).strip()
+                    if 'As novidades mais frescas' not in candidate:
+                        nutrition_text = candidate
+
+        # Discard any corrupted footer/newsletter text
+        if 'As novidades mais frescas' in nutrition_text or 'Subscreva e descubra' in nutrition_text:
+            nutrition_text = ""
+        if 'As novidades mais frescas' in ingredients_text or 'Subscreva e descubra' in ingredients_text:
+            ingredients_text = ""
 
         p['ingredients'] = ingredients_text
         p['nutrition_raw'] = nutrition_text

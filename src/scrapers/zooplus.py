@@ -126,6 +126,51 @@ class ZooplusScraper(BaseScraper):
         print(f"[Zooplus] Finished cataloging '{path}': {len(products)} products.")
         return products
 
+    def _parse_analytical_table(self, table, prod_name=''):
+        """Extracts analytical constituents without flattening multi-recipe columns."""
+        rows = table.find_all('tr')
+        if not rows:
+            return ''
+
+        headers = [th.get_text(strip=True) for th in rows[0].find_all(['th', 'td'])]
+
+        # Check if multi-column recipe table
+        if len(headers) > 2:
+            col_names = headers[1:]
+            selected_col = None
+            p_name_l = prod_name.lower()
+            for idx, col_name in enumerate(col_names, start=1):
+                if col_name.lower() in p_name_l:
+                    selected_col = idx
+                    break
+
+            if selected_col is not None:
+                lines = [f'Receita: {headers[selected_col]}']
+                for r in rows[1:]:
+                    cells = [c.get_text(strip=True) for c in r.find_all(['th', 'td'])]
+                    if len(cells) > selected_col:
+                        lines.append(f'{cells[0]}: {cells[selected_col]}')
+                return '; '.join(lines)
+            else:
+                lines = ['Multi-recipe table:']
+                for idx, col_name in enumerate(col_names, start=1):
+                    col_vals = []
+                    for r in rows[1:]:
+                        cells = [c.get_text(strip=True) for c in r.find_all(['th', 'td'])]
+                        if len(cells) > idx:
+                            col_vals.append(f'{cells[0]}: {cells[idx]}')
+                    lines.append(f'[{col_name}] ' + ', '.join(col_vals))
+                return '\n'.join(lines)
+        else:
+            # Single recipe column
+            lines = []
+            start_row = 1 if len(rows) > 1 and headers and any(k in headers[0].lower() for k in ['constituinte', 'anal']) else 0
+            for r in rows[start_row:]:
+                cells = [c.get_text(strip=True) for c in r.find_all(['th', 'td'])]
+                if len(cells) >= 2:
+                    lines.append(f'{cells[0]}: {cells[1]}')
+            return '; '.join(lines)
+
     def _fetch_details(self, p):
         url = p.get('pdp_url')
         if not url:
@@ -157,7 +202,6 @@ class ZooplusScraper(BaseScraper):
                 pass
 
         if not brand and p.get('pdp_url'):
-            # Path often has /shop/gato/category/brand/...
             m_b = re.search(r'/shop/gato/(?:enlatados_gato|racao_gato)/([^/]+)/', p['pdp_url'])
             if m_b:
                 brand = m_b.group(1).replace('_', ' ').title()
@@ -175,7 +219,7 @@ class ZooplusScraper(BaseScraper):
         if nutri_td:
             nutri_table = nutri_td.find_parent('table')
             if nutri_table:
-                nutrition_text = nutri_table.get_text(separator=' ', strip=True)
+                nutrition_text = self._parse_analytical_table(nutri_table, prod_name=p.get('name', ''))
 
         if not nutrition_text:
             nutri_el = soup.find(attrs={'data-zta': 'productAnalyticalConstituents'})

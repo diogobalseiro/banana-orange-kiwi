@@ -170,22 +170,27 @@ class ZUScraper(BaseScraper):
             tab_text = el.get_text(separator='\n', strip=True)
             tab_lower = tab_text.lower()
 
+            # Separate description first
+            if any(k in tab_lower for k in ['caraterísticas', 'descrição']) and not description_text:
+                description_text = tab_text
+
+            # Look strictly for composition section
             if any(k in tab_lower for k in ['ingrediente', 'composição']):
                 m_ing = re.search(r'(?:Ingredientes|Composição):\s*(.*?)(?=(?:Constituintes\s+anal[íi]ticos|Aditivos|Energia|$))', tab_text, re.I | re.S)
                 if m_ing and not ingredients_text:
-                    ingredients_text = m_ing.group(1).strip()
-                elif not ingredients_text:
-                    ingredients_text = tab_text
+                    cand = m_ing.group(1).strip()
+                    # Must not be marketing copy
+                    if not cand.startswith('Caraterísticas') and not cand.startswith('Descrição:'):
+                        ingredients_text = cand
 
-                m_nut = re.search(r'(?:Constituintes\s+anal[íi]ticos|Análise|Informação\s+nutricional):\s*(.*?)(?=(?:Aditivos|Energia|$))', tab_text, re.I | re.S)
-                if m_nut and not nutrition_text:
-                    nutrition_text = m_nut.group(1).strip()
-
-            if ('constituintes' in tab_lower or 'analítico' in tab_lower or 'nutricion' in tab_lower) and not nutrition_text:
-                nutrition_text = tab_text
-
-            if any(k in tab_lower for k in ['caraterísticas', 'descrição']) and not description_text:
-                description_text = tab_text
+            # Look strictly for analytical constituents section
+            m_nut = re.search(r'(?:Constituintes\s+anal[íi]ticos|Análise|Informação\s+nutricional):\s*(.*?)(?=(?:Aditivos|Energia|$))', tab_text, re.I | re.S)
+            if m_nut and not nutrition_text:
+                nutrition_text = m_nut.group(1).strip()
+            elif any(k in tab_lower for k in ['constituintes analíticos', 'informação nutricional']) and not nutrition_text:
+                # Only use tab if it contains actual analytical values (e.g. %)
+                if '%' in tab_text and any(k in tab_lower for k in ['proteína', 'proteina', 'humidade', 'gordura']):
+                    nutrition_text = tab_text
 
         # Fallback to body_html if available
         if not description_text and p.get('body_html'):
@@ -196,7 +201,15 @@ class ZUScraper(BaseScraper):
             b_text = b_soup.get_text(separator='\n', strip=True)
             m_ing = re.search(r'(?:Ingredientes|Composição):\s*(.*?)(?=(?:Constituintes|Aditivos|$))', b_text, re.I | re.S)
             if m_ing:
-                ingredients_text = m_ing.group(1).strip()
+                cand = m_ing.group(1).strip()
+                if not cand.startswith('Caraterísticas') and not cand.startswith('Descrição:'):
+                    ingredients_text = cand
+
+        # Final sanity check: if ingredients field somehow contains marketing description header, clear it
+        if ingredients_text.startswith('Caraterísticas') or ingredients_text.startswith('Descrição:'):
+            if not description_text:
+                description_text = ingredients_text
+            ingredients_text = ""
 
         # Clean up temporary field
         p.pop('body_html', None)
