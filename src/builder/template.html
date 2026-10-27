@@ -493,13 +493,12 @@
         return true;
       });
 
-      // Sorting
+      // Sorting - ranked products always precede unranked products
       filtered.sort((a, b) => {
         const aRanked = a.ir ? 1 : 0;
         const bRanked = b.ir ? 1 : 0;
-        if (sortMode === 'score_desc' || sortMode === 'vr') {
-          if (aRanked !== bRanked) return bRanked - aRanked;
-        }
+        if (aRanked !== bRanked) return bRanked - aRanked;
+
         if (sortMode === 'vr') return (b.vr || 0) - (a.vr || 0);
         if (sortMode === 'score_desc') return (b.s || 0) - (a.s || 0);
         if (sortMode === 'price_asc') return (a.pkg || 999) - (b.pkg || 999);

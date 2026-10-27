@@ -8,7 +8,7 @@ def get_wet_carb_band(carbs_dmb):
     if carbs_dmb is None:
         return 'N/D'
     if carbs_dmb <= 10.0:
-        return '<10% DMB (Ideal)'
+        return '<=10% DMB (Ideal)'
     elif carbs_dmb <= 20.0:
         return '10-20% DMB (Moderado)'
     else:
@@ -33,19 +33,19 @@ def score_wet_product(p):
 
     # 1. Classification: Complete vs Complementary
     # Broth/soup/fillets indicate complementary food when in title/description, NOT when in ingredients (cooking broth)
+    # Word boundaries prevent false matches like "ensopado" matching "sopa"
     is_complementary = False
-    title_comp_keywords = [
-        'sopa', 'soup', 'caldo', 'broth',
-        'hydra care', 'shinycat', 'suplemento', 'iogurte', 'leite para gato', 'cat milk',
-        'fillets', 'filetes', 'snack', 'petisco', 'treat'
-    ]
+    title_comp_pattern = r'\b(?:sopa|soup|caldo|broth|hydra\s+care|shinycat|suplemento|iogurte|leite\s+para\s+gato|cat\s+milk|fillets|filetes|snack|petisco|treat)\b'
     general_comp_keywords = [
         'complementar', 'alimento complementar', 'complemento alimentar'
     ]
 
-    is_complete_declared = bool(re.search(r'\b(?:alimento\s+complet[oa]|100%\s*complet[oa]|complete\s+pet\s+food)\b', text_to_check, re.I))
+    is_complete_declared = bool(re.search(
+        r'\b(?:alimento\s+(?:\w+\s+){0,2}complet[oa]|100%\s*complete?|complete\s+(?:\w+\s+){0,2}(?:pet\s+food|cat\s+food|food|diet))\b',
+        text_to_check, re.I
+    ))
 
-    if any(k in text_to_check for k in general_comp_keywords) or any(k in title_desc for k in title_comp_keywords):
+    if any(k in text_to_check for k in general_comp_keywords) or re.search(title_comp_pattern, title_desc, re.I):
         if not is_complete_declared:
             is_complementary = True
     elif any(b in brand_lower for b in ['schesir', 'ciao', 'churu', 'applaws', 'fish4cats', 'inaba', 'thrive', 'encore', 'cosma']):
@@ -96,11 +96,11 @@ def score_wet_product(p):
                 'suíno', 'bacalhau', 'galinha', 'cavala', 'pescada', 'anchova', 'codorniz', 'caça', 'cervo', 'ovo', 'ovos'
             ]
             fresh_terms = ['fresco', 'fresca', 'desossado', 'desossada', 'frescos', 'frescas', 'cru', 'crua', 'crus', 'cruas', 'filete', 'filetes', 'lombo', 'peito']
-            plant_terms = ['milho', 'trigo', 'cereais', 'arroz', 'ervilha', 'batata', 'farinha', 'glúten', 'proteína vegetal', 'cevada']
+            plant_terms = ['milho', 'trigo', 'cereais', 'arroz', 'ervilha', 'batata', 'farinha', 'glúten', 'proteína vegetal', 'cevada', 'subprodutos de origem vegetal', 'subprodutos vegetais', 'soja', 'aveia', 'legumes']
 
             if any(f in first_lower for f in fresh_terms) and any(a in first_lower for a in animal_terms):
                 first_is_fresh_animal = True
-            elif ('carne e subprodutos' in first_lower or 'carnes e subprodutos' in first_lower or 'subprodutos animais' in first_lower):
+            elif ('carne e subprodutos' in first_lower or 'carnes e subprodutos' in first_lower or 'subprodutos animais' in first_lower or 'subprodutos de aves' in first_lower):
                 first_is_vague_animal = True
             elif any(a in first_lower for a in animal_terms):
                 first_is_named_meat = True
@@ -117,7 +117,7 @@ def score_wet_product(p):
 
         # Organ meats
         has_organs = any(o in ingr_lower for o in [
-            'coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'pulmão', 'pulmões', 'estômago', 'estômagos', 'rins', 'rim'
+            'coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'pulmão', 'pulmões', 'estômago', 'estômagos', 'rins', 'rim', 'miudezas'
         ])
 
         # Monoproteic
@@ -125,21 +125,27 @@ def score_wet_product(p):
 
         # Detrimental additives
         has_sugar = any(s in ingr_lower for s in ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope', 'dextrose', 'melaço'])
-        if has_sugar and any(neg in ingr_lower for neg in ['sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'nao contem acucar']):
+        if has_sugar and any(neg in ingr_lower for neg in [
+            'sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'não contém açúcares',
+            'nao contem acucar', 'sem adição de açúcar', 'sem adição de açúcares', 'sem adicao de acucar', 'sem adicao de acucares',
+            '0% açúcar', '0% açúcares', 'isento de açúcar', 'isento de açúcares'
+        ]):
             has_sugar = False
 
-        has_grains = any(g in ingr_lower for g in ['cereais', 'trigo', 'milho', 'arroz', 'farinha de trigo', 'farinha de milho', 'aveia', 'cevada', 'centeio', 'sorgo'])
-        has_veg_protein = any(v in ingr_lower for v in [
-            'subprodutos de origem vegetal',
-            'subprodutos vegetais',
-            'extractos de proteínas vegetais',
-            'extractos de proteína vegetal',
-            'extratos de proteína vegetal',
-            'extratos de proteínas vegetais',
-            'concentrado de proteína vegetal'
-        ])
-        has_vague_byproducts = ('carnes e subprodutos' in ingr_lower or 'carne e subprodutos' in ingr_lower or 'subprodutos animais' in ingr_lower) and (not high_meat_pct or high_meat_pct < 50) and not is_token_4pct
+        neg_grain_pat = r'\b(?:0%|zero%?|sem|isento\s+de|não\s+contém|nao\s+contem|livre\s+de)\s+(?:adição\s+de\s+|adicao\s+de\s+|de\s+)?(?:cereais|grãos|graos|glúten|gluten|trigo|milho|arroz|aveia|soja)(?:\s*(?:,|nem|ou|e)\s*(?:adição\s+de\s+|adicao\s+de\s+|de\s+)?(?:trigo|milho|arroz|aveia|soja|cereais|glúten|gluten|grãos|graos))*\b'
+        clean_grain_text = re.sub(neg_grain_pat, '', ingr_lower, flags=re.I)
+        has_grains = bool(re.search(r'\b(?:cereais|trigo|milho|arroz|farinha\s+de\s+trigo|farinha\s+de\s+milho|aveia|cevada|centeio|sorgo)\b', clean_grain_text, re.I))
+
+        has_veg_protein = bool(re.search(r'\b(?:subprodutos\s+de\s+origem\s+vegetal|subprodutos\s+vegetais|extra[ct]+os?\s+de\s+prote[íi]na(?:s)?\s+vegeta(?:l|is)|concentrados?\s+de\s+prote[íi]na(?:s)?\s+vegeta(?:l|is))\b', ingr_lower, re.I))
+
+        # Check slaughterhouse byproducts & derivatives (meat and fish), suppressed only if meat >= 50%
+        has_vague_derivs = bool(re.search(r'\b(?:carnes?|peixes?)\s+e\s+(?:subprodutos|derivados)|subprodutos\s+(?:animais|de\s+peixe)\b', ingr_lower, re.I))
+        has_vague_byproducts = has_vague_derivs and (not high_meat_pct or high_meat_pct < 50) and not is_token_4pct
+
         has_carrageenan = any(c in ingr_lower for c in ['carragenina', 'carragenano', 'carrageenan', 'e407'])
+        if has_carrageenan and any(neg in ingr_lower for neg in ['sem carragenina', 'sem carragenano', 'carrageenan free', 'isento de carragenina']):
+            has_carrageenan = False
+
         has_gums = any(g in ingr_lower for g in ['goma cássia', 'goma cassia', 'cassia gum', 'e499'])
 
     # Beneficial micronutrients
@@ -231,7 +237,24 @@ def score_wet_product(p):
             else:
                 score -= 12
 
+        # 5. Mineral balance (if declared)
+        phos_dmb = nutri.get('phosphorus_dmb')
+        if phos_dmb is not None and phos_dmb > 1.3 and not is_kitten:
+            score -= 8
+
+        ca_p = nutri.get('ca_p_ratio')
+        if ca_p is not None:
+            if 1.0 <= ca_p <= 1.5:
+                score += 4
+            elif ca_p > 1.8 or ca_p < 0.9:
+                score -= 6
+
         score = max(10, min(95, score))
+
+        # Grain-inclusive wet food cannot exceed Tier A (ceiling of 79)
+        # Reserving Tier S (80+) strictly for grain-free obligate carnivore formulas
+        if has_grains and score >= 80:
+            score = 79
 
         if score >= 80:
             tier = 'Tier S (Ultra-Premium)'

@@ -87,10 +87,10 @@ def score_dry_product(p):
 
             if any(f in first_lower for f in fresh_terms) and any(a in first_lower for a in animal_terms):
                 first_is_fresh_animal = True
+            elif any(v in first_lower for v in ['subprodutos', 'derivados de carne', 'carne e subprodutos', 'carnes e subprodutos', 'subprodutos animais', 'farinha de subprodutos']):
+                first_is_vague_animal = True
             elif any(d in first_lower for d in ['desidratad', 'farinha de', 'proteína de aves', 'proteína de frango', 'proteína de salmão', 'proteína desidratada', 'proteínas desidratadas']) and any(a in first_lower for a in animal_terms):
                 first_is_dehydrated_animal = True
-            elif ('carne e subprodutos' in first_lower or 'carnes e subprodutos' in first_lower):
-                first_is_vague_animal = True
             elif any(a in first_lower for a in animal_terms) and not any(p in first_lower for p in ['proteína de ervilha', 'proteína de batata', 'amido']):
                 first_is_dehydrated_animal = True
             elif any(p in first_lower for p in plant_terms):
@@ -100,25 +100,42 @@ def score_dry_product(p):
         meat_pct = extract_total_meat_percentage(ingr_clean_text)
 
         # Grains & Starches - Factual composition is strictly authoritative
-        grain_terms = ['trigo', 'milho', 'arroz', 'aveia', 'cevada', 'centeio', 'cereais', 'glúten', 'espelta', 'sorgo']
-        has_grains = any(g in ingr_lower for g in grain_terms)
+        # Strip negated marketing claims like "0% cereais", "sem milho", "isento de trigo", "sem adição de cereais"
+        neg_grain_pat = r'\b(?:0%|zero%?|sem|isento\s+de|não\s+contém|nao\s+contem|livre\s+de)\s+(?:adição\s+de\s+|adicao\s+de\s+|de\s+)?(?:cereais|grãos|graos|glúten|gluten|trigo|milho|arroz|aveia|soja)(?:\s*(?:,|nem|ou|e)\s*(?:adição\s+de\s+|adicao\s+de\s+|de\s+)?(?:trigo|milho|arroz|aveia|soja|cereais|glúten|gluten|grãos|graos))*\b'
+        clean_grain_text = re.sub(neg_grain_pat, '', ingr_lower, flags=re.I)
+
+        # Word boundaries eliminate substring collisions (e.g. tomilho -> milho)
+        has_grains = bool(re.search(r'\b(?:trigo|milho|arroz|aveia|cevada|centeio|cereais|glúten|gluten|espelta|sorgo)\b', clean_grain_text, re.I))
         is_grain_free = not has_grains
 
-        has_cheap_grains = any(cg in ingr_lower for cg in ['trigo', 'milho', 'farinha de trigo', 'farinha de milho', 'cevada cervejeira', 'glúten de milho', 'glúten de trigo'])
-        has_quality_grains = any(qg in ingr_lower for qg in ['aveia', 'cevada integral', 'arroz integral', 'centeio'])
-        has_corn_gluten = any(cg in ingr_lower for cg in ['glúten de milho', 'gluten de milho', 'proteína de milho', 'proteina de milho', 'glúten'])
-        if has_corn_gluten and any(neg in ingr_lower for neg in ['sem glúten', 'sem gluten', 'isento de glúten', 'isento de gluten', 'zero glúten', 'gluten free']):
+        has_cheap_grains = bool(re.search(r'\b(?:trigo|milho|farinha\s+de\s+trigo|farinha\s+de\s+milho|cevada\s+cervejeira|glúten\s+de\s+milho|gluten\s+de\s+milho|glúten\s+de\s+trigo|gluten\s+de\s+trigo)\b', clean_grain_text, re.I))
+        has_quality_grains = bool(re.search(r'\b(?:aveia|cevada\s+integral|arroz\s+integral|centeio)\b', clean_grain_text, re.I))
+
+        has_corn_gluten = bool(re.search(r'\b(?:glúten\s+de\s+milho|gluten\s+de\s+milho|proteína\s+de\s+milho|proteina\s+de\s+milho|glúten|gluten)\b', ingr_lower, re.I))
+        if has_corn_gluten and any(neg in ingr_lower for neg in [
+            'sem glúten', 'sem gluten', 'isento de glúten', 'isento de gluten', 'zero glúten', 'gluten free',
+            'não contém glúten', 'nao contem gluten', 'sem adição de glúten', 'sem adicao de gluten'
+        ]):
             has_corn_gluten = False
 
         has_colorants = any(c in ingr_lower for c in ['corantes', 'corante', 'óxido de ferro', 'oxido de ferro', 'tartrazina', 'dióxido de titânio'])
-        if has_colorants and any(neg in ingr_lower for neg in ['sem corante', 'sem corantes', 'não contém corante', 'nao contem corante', 'isento de corante', 'isento de corantes']):
+        if has_colorants and any(neg in ingr_lower for neg in [
+            'sem corante', 'sem corantes', 'não contém corante', 'não contém corantes', 'nao contem corante', 'nao contem corantes',
+            'isento de corante', 'isento de corantes', 'sem adição de corante', 'sem adição de corantes', 'sem adicao de corantes'
+        ]):
             has_colorants = False
 
-        has_sugar = any(s in ingr_lower for s in ['açúcar', 'açucares', 'açúcares', 'açucar', 'sacarose', 'xarope', 'caramelo'])
-        if has_sugar and any(neg in ingr_lower for neg in ['sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'nao contem acucar']):
+        has_sugar = any(s in ingr_lower for s in ['açúcar', 'açucares', 'açúcares', 'açucar', 'sacarose', 'xarope', 'caramelo', 'dextrose', 'melaço'])
+        if has_sugar and any(neg in ingr_lower for neg in [
+            'sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'não contém açúcares',
+            'nao contem acucar', 'nao contem acucares', 'sem adição de açúcar', 'sem adição de açúcares',
+            'sem adicao de acucar', 'sem adicao de acucares', '0% açúcar', '0% açúcares', 'isento de açúcar', 'isento de açúcares'
+        ]):
             has_sugar = False
 
-        has_artificial_preservatives = any(p in text_to_check for p in ['bha', 'bht', 'galato de propilo', 'butil-hidroxianisol', 'butil-hidroxitolueno', 'etoxiquina', 'ethoxyquin', 'e320', 'e321', 'e310'])
+        has_artificial_preservatives = bool(re.search(r'\b(?:bha|bht|galato\s+de\s+propilo|butil-hidroxianisol|butil-hidroxitolueno|etoxiquina|ethoxyquin|e320|e321|e310)\b', text_to_check, re.I))
+        if has_artificial_preservatives and any(neg in text_to_check for neg in ['sem bha', 'sem bht', 'sem conservantes artificiais', 'isento de conservantes artificiais']):
+            has_artificial_preservatives = False
 
         # Fractionation
         legume_starch_markers = [
@@ -135,7 +152,7 @@ def score_dry_product(p):
     has_urinary_support = any(u in text_to_check for u in ['arando', 'mirtilo', 'cranberry', 'dl-metionina', 'metionina', 'saúde urinária', 'trato urinário', 'controlo de ph'])
     has_taurine = any(t in text_to_check for t in ['taurina', 'taurine'])
     has_marine_omega = bool(re.search(r'\b(?:epa|dha)\b', text_to_check, re.I)) or any(o in text_to_check for o in ['óleo de salmão', 'oleo de salmao', 'óleo de peixe', 'oleo de peixe', 'ómega-3', 'omega-3', 'salmon oil', 'fish oil', 'óleo de escamudo'])
-    has_organs = any(o in ingr_lower for o in ['coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'rins', 'miudezas']) if has_valid_composition else False
+    has_organs = any(o in ingr_lower for o in ['coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'pulmão', 'pulmões', 'estômago', 'estômagos', 'rins', 'rim', 'miudezas']) if has_valid_composition else False
 
     # 2. Parse analytical components using Evidence Contract
     nutri = normalize_nutrients(nutri_raw, category='dry')
@@ -294,7 +311,7 @@ def score_dry_product(p):
                 score -= 6
 
         phos = nutri.get('phosphorus', {}).get('value')
-        if phos is not None and phos > 1.3:
+        if phos is not None and phos > 1.3 and not is_kitten:
             score -= 8
 
         score = max(10, min(95, score))
@@ -363,6 +380,8 @@ def score_dry_product(p):
         'ir': is_ready,
         'ur': unranked_reasons,
         'gf': is_grain_free,
+        'grn': has_grains,
+        'sug': has_sugar,
         'fr': is_fractionated,
         'cg': has_corn_gluten,
         'col': has_colorants,

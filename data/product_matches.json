@@ -990,8 +990,8 @@
     "verified_date": "2026-10-27",
     "source": "Affinity Advance official packaging declaration",
     "aliases": [
-      "bola de pelo",
-      "hairball"
+      "esterilizado hairball",
+      "hairball bola de pelo"
     ],
     "verified": {
       "classification": "complete",
@@ -1514,8 +1514,9 @@
     "verified_date": "2026-10-27",
     "source": "Champion Petfoods official declaration",
     "aliases": [
+      "orijen kitten",
       "júnior orijen",
-      "kitten"
+      "junior orijen"
     ],
     "verified": {
       "classification": "complete",
@@ -1643,7 +1644,7 @@
     "source": "PetMaxi official packaging declaration",
     "aliases": [
       "adulto grain free",
-      "frango"
+      "adult grain free"
     ],
     "verified": {
       "classification": "complete",
@@ -3210,10 +3211,10 @@
       ]
     }
   },
-  "zoo_cat_chow_cat_chow_26_x_85_g_comida_h_mida_para_gatos_dry": {
+  "zoo_cat_chow_cat_chow_26_x_85_g_comida_h_mida_para_gatos_wet": {
     "description": "Cat Chow Cat Chow 26 x 85 g comida húmida para gatos",
     "brand": "Cat Chow",
-    "category": "dry",
+    "category": "wet",
     "recipe": "Cat Chow 26 x 85 g comida húmida para gatos",
     "verified_date": "2026-10-27",
     "source": "Zooplus verified analytical table and composition (PID 1114332)",
@@ -11077,8 +11078,8 @@
     "verified_date": "2026-10-27",
     "source": "Naturo Pet Foods official declaration",
     "aliases": [
-      "salmão",
-      "salmao"
+      "grain free salmão",
+      "grain free salmao"
     ],
     "verified": {
       "classification": "complete",
@@ -11105,7 +11106,7 @@
     "verified_date": "2026-10-27",
     "source": "Naturo Pet Foods official declaration",
     "aliases": [
-      "atum"
+      "grain free atum"
     ],
     "verified": {
       "classification": "complete",

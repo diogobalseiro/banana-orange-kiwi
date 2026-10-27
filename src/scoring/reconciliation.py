@@ -80,7 +80,7 @@ def find_formulation_id(retailer: str,
             if category and f_cat and category != f_cat:
                 continue
             brand = (match_data.get('brand') or '').lower()
-            if brand and brand in name_lower:
+            if brand and re.search(rf'\b{re.escape(brand)}\b', name_lower):
                 aliases = match_data.get('aliases', [])
                 for alias in aliases:
                     if alias.lower() in name_lower:
@@ -174,8 +174,12 @@ def detect_material_conflict(retailer_obs: Dict[str, Any], verified: Dict[str, A
     v_ingr = (verified.get('ingredients') or '').lower()
 
     if r_ingr and v_ingr:
-        sugar_terms = ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope']
-        neg_terms = ['sem açúcar', 'sem acucar', 'não contém açúcar', 'nao contem acucar', 'isento de açúcar']
+        sugar_terms = ['açúcar', 'açúcares', 'açucar', 'açucares', 'caramelo', 'xarope', 'dextrose', 'melaço']
+        neg_terms = [
+            'sem açúcar', 'sem açucares', 'sem açúcares', 'sem acucar', 'não contém açúcar', 'não contém açúcares',
+            'nao contem acucar', 'isento de açúcar', 'isento de açúcares', 'sem adição de açúcar', 'sem adição de açúcares',
+            'sem adicao de acucar', 'sem adicao de acucares', 'sem açúcares adicionados', '0% açúcar', '0% açúcares', 'zero açúcar'
+        ]
         r_sugar = any(s in r_ingr for s in sugar_terms) and not any(neg in r_ingr for neg in neg_terms)
         v_sugar = any(s in v_ingr for s in sugar_terms) and not any(neg in v_ingr for neg in neg_terms)
         if r_sugar != v_sugar:
@@ -468,7 +472,7 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
             continue
             
         assessment = shared_scores[fid]
-        has_material_conflict = bool(p.get('has_material_conflict', False) or assessment.get('has_conflicts', False))
+        has_material_conflict = bool(p.get('has_material_conflict', False) or p.get('conf', False) or assessment.get('has_conflicts', False))
         
         unit_price = p.get('unit_price_kg') or p.get('pkg')
         score = assessment['score'] if not has_material_conflict else None
@@ -503,6 +507,8 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
                 p['veg'] = assessment['has_veg_protein']
             if assessment.get('has_organs') is not None:
                 p['org'] = assessment['has_organs']
+            if assessment.get('has_carrageenan') is not None:
+                p['carr'] = assessment['has_carrageenan']
             if assessment.get('has_taurine') is not None:
                 p['tau'] = assessment['has_taurine']
             if assessment.get('has_marine_omega') is not None:
@@ -538,6 +544,12 @@ def attach_shared_assessment(products: List[Dict[str, Any]],
                 p['has_veg_protein'] = assessment['has_veg_protein']
             if assessment.get('has_organs') is not None:
                 p['has_organs'] = assessment['has_organs']
+            if assessment.get('has_carrageenan') is not None:
+                p['has_carrageenan'] = assessment['has_carrageenan']
+            if assessment.get('has_taurine') is not None:
+                p['has_taurine'] = assessment['has_taurine']
+            if assessment.get('has_marine_omega') is not None:
+                p['has_marine_omega'] = assessment['has_marine_omega']
             if assessment.get('protein') is not None:
                 p['protein'] = assessment['protein']
             if assessment.get('fat') is not None:
