@@ -227,10 +227,8 @@ def check_scoring_readiness(product, category='wet'):
     elif nutri.get('status') == FieldStatus.MISSING:
         reasons.append('missing_nutrition')
     else:
-        # Check required analytical constituents
-        required = ['protein', 'fat', 'ash', 'fiber']
-        if category == 'wet':
-            required.append('moisture')
+        # Check required analytical constituents (protein, fat, moisture, ash, fibre support carbs and dry matter)
+        required = ['protein', 'fat', 'moisture', 'ash', 'fiber']
         missing_constituents = [k for k in required if nutri.get(k, {}).get('value') is None]
         if missing_constituents:
             reasons.append('missing_analytical_constituents')
