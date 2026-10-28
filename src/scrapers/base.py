@@ -1,4 +1,5 @@
 import abc
+import random
 import time
 import urllib.request
 import urllib.error
@@ -29,7 +30,7 @@ class BaseScraper(abc.ABC):
         self.rate_limit_delay = rate_limit_delay
 
     def fetch_url(self, url, timeout=15, max_retries=4):
-        """Fetch URL with exponential retry on 429/timeouts and user-agent spoofing."""
+        """Fetch URL with exponential backoff + jitter on 429/503/timeouts and fast-fail on 4xx."""
         last_error = None
         last_status = None
 
@@ -41,17 +42,33 @@ class BaseScraper(abc.ABC):
             except urllib.error.HTTPError as e:
                 last_error = e
                 last_status = e.code
-                if e.code == 429:
-                    wait_time = 2.0 * (2 ** attempt)
+
+                # Fast fail on non-retryable client errors
+                if e.code in (400, 401, 403, 404, 410):
+                    raise ScraperFetchError(url, status_code=last_status, message=str(e)) from e
+
+                # Check Retry-After header
+                retry_after = e.headers.get('Retry-After') if hasattr(e, 'headers') else None
+                if retry_after and retry_after.isdigit():
+                    ra_val = float(retry_after)
+                    if ra_val > 8:
+                        # Server cooldown is too long; fail fast to allow fallback instead of blocking workers
+                        raise ScraperFetchError(url, status_code=last_status, message=f"Server requested {ra_val}s cooldown: {e}") from e
+                    wait_time = ra_val + random.uniform(0.1, 0.5)
+                elif e.code in (429, 502, 503, 504):
+                    wait_time = (2.0 * (2 ** attempt)) + random.uniform(0.1, 0.7)
+                else:
+                    wait_time = (1.0 * (attempt + 1)) + random.uniform(0.1, 0.5)
+
+                if attempt < max_retries - 1:
                     time.sleep(wait_time)
-                elif attempt < max_retries - 1:
-                    time.sleep(1.0 * (attempt + 1))
                 else:
                     raise ScraperFetchError(url, status_code=last_status, message=str(e)) from e
             except Exception as e:
                 last_error = e
+                wait_time = (1.5 * (2 ** attempt)) + random.uniform(0.1, 0.5)
                 if attempt < max_retries - 1:
-                    time.sleep(1.0 * (attempt + 1))
+                    time.sleep(wait_time)
                 else:
                     raise ScraperFetchError(url, status_code=last_status, message=str(e)) from e
 

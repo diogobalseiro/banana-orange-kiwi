@@ -433,7 +433,7 @@
     "value_ratio": 9.17,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.077347+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.660373+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -1327,7 +1327,7 @@
     "value_ratio": 5.31,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.079687+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.662382+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -1517,7 +1517,7 @@
     "value_ratio": 6.43,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.080097+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.662734+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -2499,7 +2499,7 @@
     "value_ratio": 4.89,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.082383+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.664998+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -2952,7 +2952,7 @@
     "value_ratio": 3.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.083416+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.666036+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3054,7 +3054,7 @@
     "value_ratio": 3.51,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.083573+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.666185+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3156,7 +3156,7 @@
     "value_ratio": 3.55,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.083742+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.666345+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3258,7 +3258,7 @@
     "value_ratio": 3.35,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.083885+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.666495+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3448,7 +3448,7 @@
     "value_ratio": 2.01,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.084272+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.666864+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3549,7 +3549,7 @@
     "value_ratio": 2.62,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.084417+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.667018+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3651,7 +3651,7 @@
     "value_ratio": 4.92,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.084598+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.667180+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3753,7 +3753,7 @@
     "value_ratio": 3.0,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.084814+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.667403+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3854,7 +3854,7 @@
     "value_ratio": 2.08,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.084941+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.667537+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -3955,7 +3955,7 @@
     "value_ratio": 1.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.085084+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.667673+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4144,7 +4144,7 @@
     "value_ratio": 4.96,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.085523+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.668084+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4246,7 +4246,7 @@
     "value_ratio": 4.84,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.085780+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.668333+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4348,7 +4348,7 @@
     "value_ratio": 4.59,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.086010+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.668574+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4626,7 +4626,7 @@
     "value_ratio": 2.3,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.086692+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.669254+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4728,7 +4728,7 @@
     "value_ratio": 5.42,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.086876+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.669442+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -4917,7 +4917,7 @@
     "value_ratio": 4.09,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.087321+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.669867+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5195,7 +5195,7 @@
     "value_ratio": 1.81,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.087935+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.670475+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5385,7 +5385,7 @@
     "value_ratio": 1.16,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.088308+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.670835+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5486,7 +5486,7 @@
     "value_ratio": 1.51,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.088434+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.670971+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5588,7 +5588,7 @@
     "value_ratio": 3.74,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.088607+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.671130+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5689,7 +5689,7 @@
     "value_ratio": 2.52,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.088838+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.671361+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -5791,7 +5791,7 @@
     "value_ratio": 1.36,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.089050+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.671579+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6068,7 +6068,7 @@
     "value_ratio": 1.13,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.089665+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.672175+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6257,7 +6257,7 @@
     "value_ratio": 0.9,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.090038+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.672548+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6358,7 +6358,7 @@
     "value_ratio": 3.06,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.090239+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.672731+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6459,7 +6459,7 @@
     "value_ratio": 0.92,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.090606+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.673089+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6648,7 +6648,7 @@
     "value_ratio": 1.43,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.091023+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.673502+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6749,7 +6749,7 @@
     "value_ratio": 1.09,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.091217+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.673682+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6851,7 +6851,7 @@
     "value_ratio": 2.71,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.091366+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.673837+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -6952,7 +6952,7 @@
     "value_ratio": 0.98,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.091617+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.674099+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7053,7 +7053,7 @@
     "value_ratio": 0.81,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.091757+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.674223+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7154,7 +7154,7 @@
     "value_ratio": 0.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.091886+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.674360+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7255,7 +7255,7 @@
     "value_ratio": 0.71,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.092031+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.674507+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7356,7 +7356,7 @@
     "value_ratio": 0.68,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.092176+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.674640+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7457,7 +7457,7 @@
     "value_ratio": 3.12,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.092323+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.674788+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7558,7 +7558,7 @@
     "value_ratio": 2.66,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.092690+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.675146+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7660,7 +7660,7 @@
     "value_ratio": 2.0,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.093017+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.675487+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7762,7 +7762,7 @@
     "value_ratio": 1.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.093178+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.675630+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7864,7 +7864,7 @@
     "value_ratio": 1.59,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.093330+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.675782+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -7966,7 +7966,7 @@
     "value_ratio": 1.51,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.093505+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.675958+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8067,7 +8067,7 @@
     "value_ratio": 1.36,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.093710+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.676150+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8168,7 +8168,7 @@
     "value_ratio": 1.26,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.093962+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.676420+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8270,7 +8270,7 @@
     "value_ratio": 1.22,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.094127+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.676576+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8372,7 +8372,7 @@
     "value_ratio": 0.75,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.094327+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.676766+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8474,7 +8474,7 @@
     "value_ratio": 2.74,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.094534+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.676972+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8576,7 +8576,7 @@
     "value_ratio": 2.67,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.094762+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.677185+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8678,7 +8678,7 @@
     "value_ratio": 2.43,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.094976+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.677412+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8780,7 +8780,7 @@
     "value_ratio": 2.41,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.095196+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.677619+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8881,7 +8881,7 @@
     "value_ratio": 2.4,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.095386+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.677814+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -8983,7 +8983,7 @@
     "value_ratio": 2.35,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.095698+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.678037+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9084,7 +9084,7 @@
     "value_ratio": 2.31,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.096045+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.678219+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9186,7 +9186,7 @@
     "value_ratio": 2.21,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.096260+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.678429+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9288,7 +9288,7 @@
     "value_ratio": 2.21,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.096432+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.678603+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9389,7 +9389,7 @@
     "value_ratio": 1.66,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.096683+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.678785+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9491,7 +9491,7 @@
     "value_ratio": 1.66,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.096942+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.679045+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9593,7 +9593,7 @@
     "value_ratio": 1.63,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.097107+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.679203+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9694,7 +9694,7 @@
     "value_ratio": 1.62,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.097277+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.679391+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9795,7 +9795,7 @@
     "value_ratio": 1.0,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.097452+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.679572+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9897,7 +9897,7 @@
     "value_ratio": 0.74,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.097608+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.679732+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -9998,7 +9998,7 @@
     "value_ratio": 0.74,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.097752+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.679885+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10099,7 +10099,7 @@
     "value_ratio": 2.04,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.097899+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.680039+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10201,7 +10201,7 @@
     "value_ratio": 1.44,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.098248+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.680396+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10303,7 +10303,7 @@
     "value_ratio": 1.37,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.098460+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.680623+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10404,7 +10404,7 @@
     "value_ratio": 1.29,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.098753+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.680939+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10505,7 +10505,7 @@
     "value_ratio": 1.17,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.098995+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.681175+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10606,7 +10606,7 @@
     "value_ratio": 1.13,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.099243+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.681443+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10708,7 +10708,7 @@
     "value_ratio": 0.58,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.099441+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.681646+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10809,7 +10809,7 @@
     "value_ratio": 2.06,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.099589+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.681800+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -10911,7 +10911,7 @@
     "value_ratio": 2.04,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.099839+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.682048+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11012,7 +11012,7 @@
     "value_ratio": 2.01,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.100019+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.682231+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11113,7 +11113,7 @@
     "value_ratio": 1.81,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.100360+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.682592+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11215,7 +11215,7 @@
     "value_ratio": 1.78,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.100549+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.682776+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11317,7 +11317,7 @@
     "value_ratio": 1.67,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.100890+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.683114+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11419,7 +11419,7 @@
     "value_ratio": 1.66,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.101090+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.683320+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11520,7 +11520,7 @@
     "value_ratio": 1.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.101315+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.683541+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11622,7 +11622,7 @@
     "value_ratio": 1.55,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.101743+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.683967+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11724,7 +11724,7 @@
     "value_ratio": 1.54,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.101953+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.684170+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11825,7 +11825,7 @@
     "value_ratio": 1.46,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.102192+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.684426+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -11927,7 +11927,7 @@
     "value_ratio": 1.46,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.102438+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.684671+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12029,7 +12029,7 @@
     "value_ratio": 1.44,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.102684+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.684911+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12130,7 +12130,7 @@
     "value_ratio": 1.43,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.102957+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.685179+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12231,7 +12231,7 @@
     "value_ratio": 1.43,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.103278+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.685495+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12434,7 +12434,7 @@
     "value_ratio": 1.42,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.103948+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.686150+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12535,7 +12535,7 @@
     "value_ratio": 1.41,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.104173+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.686369+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12637,7 +12637,7 @@
     "value_ratio": 1.39,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.104437+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.686627+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12738,7 +12738,7 @@
     "value_ratio": 1.36,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.104770+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.686958+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12840,7 +12840,7 @@
     "value_ratio": 1.34,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.105162+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.687322+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -12942,7 +12942,7 @@
     "value_ratio": 1.33,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.105421+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.687586+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13043,7 +13043,7 @@
     "value_ratio": 1.31,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.105830+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.687990+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13145,7 +13145,7 @@
     "value_ratio": 1.28,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.106017+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.688170+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13247,7 +13247,7 @@
     "value_ratio": 1.28,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.106355+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.688496+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13348,7 +13348,7 @@
     "value_ratio": 1.28,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.106542+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.688654+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13449,7 +13449,7 @@
     "value_ratio": 1.24,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.106759+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.688866+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13550,7 +13550,7 @@
     "value_ratio": 1.21,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.106965+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.689071+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13651,7 +13651,7 @@
     "value_ratio": 1.16,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.107138+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.689232+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13753,7 +13753,7 @@
     "value_ratio": 1.16,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.107417+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.689516+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13854,7 +13854,7 @@
     "value_ratio": 1.13,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.107597+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.689680+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -13955,7 +13955,7 @@
     "value_ratio": 1.12,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.107833+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.689915+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14056,7 +14056,7 @@
     "value_ratio": 1.11,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.108080+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.690149+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14158,7 +14158,7 @@
     "value_ratio": 1.11,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.108348+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.690411+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14259,7 +14259,7 @@
     "value_ratio": 1.11,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.108563+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.690624+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14360,7 +14360,7 @@
     "value_ratio": 1.1,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.108835+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.690894+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14462,7 +14462,7 @@
     "value_ratio": 1.07,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.109135+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.691179+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14563,7 +14563,7 @@
     "value_ratio": 1.02,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.109361+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.691406+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14665,7 +14665,7 @@
     "value_ratio": 1.02,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.109563+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.691596+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14766,7 +14766,7 @@
     "value_ratio": 0.95,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.109769+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.691791+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -14955,7 +14955,7 @@
     "value_ratio": 0.93,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.110241+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.692252+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15056,7 +15056,7 @@
     "value_ratio": 0.91,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.110687+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.692674+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15157,7 +15157,7 @@
     "value_ratio": 0.91,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.110865+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.692854+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15259,7 +15259,7 @@
     "value_ratio": 0.91,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.111084+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.693061+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15361,7 +15361,7 @@
     "value_ratio": 0.91,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.111440+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.693406+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15462,7 +15462,7 @@
     "value_ratio": 0.9,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.111648+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.693600+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15563,7 +15563,7 @@
     "value_ratio": 0.87,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.111850+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.693802+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15664,7 +15664,7 @@
     "value_ratio": 0.87,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.112051+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.693998+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15868,7 +15868,7 @@
     "value_ratio": 0.86,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.112598+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.694358+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -15970,7 +15970,7 @@
     "value_ratio": 0.86,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.112801+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.694536+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16071,7 +16071,7 @@
     "value_ratio": 0.85,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.113049+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.694778+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16172,7 +16172,7 @@
     "value_ratio": 0.85,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.113247+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.694941+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16363,7 +16363,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.113877+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.695547+00:00",
     "reconciliation_sources": {
       "retailer": "zooplus",
       "pid": "2490080",
@@ -16463,7 +16463,7 @@
     "value_ratio": 0.82,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.114056+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.695711+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16565,7 +16565,7 @@
     "value_ratio": 0.81,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.114261+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.695909+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16666,7 +16666,7 @@
     "value_ratio": 0.8,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.114433+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.696078+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16767,7 +16767,7 @@
     "value_ratio": 0.8,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.114664+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.696301+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16869,7 +16869,7 @@
     "value_ratio": 0.8,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.115039+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.696665+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -16970,7 +16970,7 @@
     "value_ratio": 0.77,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.115192+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.696813+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17071,7 +17071,7 @@
     "value_ratio": 0.74,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.115526+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.697141+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17173,7 +17173,7 @@
     "value_ratio": 0.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.115691+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.697301+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17274,7 +17274,7 @@
     "value_ratio": 0.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.115889+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.697497+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17375,7 +17375,7 @@
     "value_ratio": 0.72,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.116115+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.697705+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17477,7 +17477,7 @@
     "value_ratio": 0.72,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.116288+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.697872+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17579,7 +17579,7 @@
     "value_ratio": 0.71,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.116467+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.698049+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17681,7 +17681,7 @@
     "value_ratio": 0.7,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.116665+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.698243+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17782,7 +17782,7 @@
     "value_ratio": 0.69,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.116843+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.698419+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17883,7 +17883,7 @@
     "value_ratio": 0.68,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.117049+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.698611+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -17984,7 +17984,7 @@
     "value_ratio": 0.67,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.117194+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.698750+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18086,7 +18086,7 @@
     "value_ratio": 0.67,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.117379+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.698914+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18187,7 +18187,7 @@
     "value_ratio": 0.67,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.117567+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.699096+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18288,7 +18288,7 @@
     "value_ratio": 0.66,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.117798+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.699315+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18390,7 +18390,7 @@
     "value_ratio": 0.66,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.118115+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.699621+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18491,7 +18491,7 @@
     "value_ratio": 0.66,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.118282+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.699777+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18592,7 +18592,7 @@
     "value_ratio": 0.65,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.118467+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.699960+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18693,7 +18693,7 @@
     "value_ratio": 0.65,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.118691+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.700196+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18794,7 +18794,7 @@
     "value_ratio": 0.64,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.118853+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.700354+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18895,7 +18895,7 @@
     "value_ratio": 0.64,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.119051+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.700546+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -18996,7 +18996,7 @@
     "value_ratio": 0.63,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.119241+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.700729+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19097,7 +19097,7 @@
     "value_ratio": 0.63,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.119461+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.700945+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19199,7 +19199,7 @@
     "value_ratio": 0.63,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.119665+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.701134+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19300,7 +19300,7 @@
     "value_ratio": 0.62,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.119863+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.701317+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19401,7 +19401,7 @@
     "value_ratio": 0.61,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.120049+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.701492+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19591,7 +19591,7 @@
     "value_ratio": 0.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.120439+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.701867+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19693,7 +19693,7 @@
     "value_ratio": 0.6,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.120620+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.702042+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19794,7 +19794,7 @@
     "value_ratio": 0.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.120866+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.702271+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19895,7 +19895,7 @@
     "value_ratio": 0.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.121052+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.702452+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -19997,7 +19997,7 @@
     "value_ratio": 0.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.121261+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.702641+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20100,7 +20100,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.121630+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.703007+00:00",
     "reconciliation_sources": {
       "retailer": "zooplus",
       "pid": "436769",
@@ -20200,7 +20200,7 @@
     "value_ratio": 0.59,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.121790+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.703163+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20302,7 +20302,7 @@
     "value_ratio": 0.58,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.121995+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.703367+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20404,7 +20404,7 @@
     "value_ratio": 0.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.122190+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.703555+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20505,7 +20505,7 @@
     "value_ratio": 0.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.122353+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.703706+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20606,7 +20606,7 @@
     "value_ratio": 0.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.122529+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.703864+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20708,7 +20708,7 @@
     "value_ratio": 0.57,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.122747+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.704072+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20809,7 +20809,7 @@
     "value_ratio": 0.57,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.122915+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.704229+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -20910,7 +20910,7 @@
     "value_ratio": 0.57,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.123131+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.704438+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21012,7 +21012,7 @@
     "value_ratio": 0.57,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.123362+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.704664+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21114,7 +21114,7 @@
     "value_ratio": 0.56,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.123558+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.704845+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21215,7 +21215,7 @@
     "value_ratio": 0.55,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.123778+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.705056+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21404,7 +21404,7 @@
     "value_ratio": 0.55,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.124272+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.705533+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21505,7 +21505,7 @@
     "value_ratio": 0.55,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.124452+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.705700+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21607,7 +21607,7 @@
     "value_ratio": 0.55,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.124667+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.705909+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21709,7 +21709,7 @@
     "value_ratio": 0.54,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.124875+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.706100+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21810,7 +21810,7 @@
     "value_ratio": 0.53,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.125039+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.706275+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -21911,7 +21911,7 @@
     "value_ratio": 0.52,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.125263+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.706492+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22012,7 +22012,7 @@
     "value_ratio": 0.52,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.125436+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.706654+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22114,7 +22114,7 @@
     "value_ratio": 0.51,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.125660+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.706871+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22216,7 +22216,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.125979+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.707191+00:00",
     "reconciliation_sources": {
       "retailer": "zooplus",
       "pid": "673387",
@@ -22316,7 +22316,7 @@
     "value_ratio": 0.5,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.126125+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.707332+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22417,7 +22417,7 @@
     "value_ratio": 0.5,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.126412+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.707600+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22519,7 +22519,7 @@
     "value_ratio": 0.49,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.126621+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.707799+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22621,7 +22621,7 @@
     "value_ratio": 0.49,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.126985+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.708151+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22722,7 +22722,7 @@
     "value_ratio": 0.49,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.127215+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.708373+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22823,7 +22823,7 @@
     "value_ratio": 0.49,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.127439+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.708589+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -22924,7 +22924,7 @@
     "value_ratio": 0.47,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.127665+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.708804+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23025,7 +23025,7 @@
     "value_ratio": 0.47,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.127852+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.708968+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23126,7 +23126,7 @@
     "value_ratio": 0.47,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.128035+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.709134+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23227,7 +23227,7 @@
     "value_ratio": 0.46,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.128259+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.709352+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23329,7 +23329,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.128488+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.709581+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23431,7 +23431,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.128704+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.709791+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23533,7 +23533,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.128898+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.709977+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23634,7 +23634,7 @@
     "value_ratio": 0.46,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.129163+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.710165+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23736,7 +23736,7 @@
     "value_ratio": 0.43,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.129406+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.710369+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23837,7 +23837,7 @@
     "value_ratio": 0.4,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.129621+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.710571+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -23938,7 +23938,7 @@
     "value_ratio": 0.39,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.129849+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.710759+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -24039,7 +24039,7 @@
     "value_ratio": 0.36,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.130022+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.710934+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -24140,7 +24140,7 @@
     "value_ratio": 0.35,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-28T07:55:28.130216+00:00",
+    "reconciliation_timestamp": "2026-10-28T09:33:11.711118+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zooplus",

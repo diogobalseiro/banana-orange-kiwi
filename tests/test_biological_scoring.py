@@ -442,6 +442,36 @@ class TestEvidenceParsingRobustness(unittest.TestCase):
         self.assertIsNotNone(full_p)
         self.assertTrue(full_p['is_ranked'])
 
+    def test_continente_pet_care_bolas_de_pelo_salmao_capped_at_tier_b(self):
+        """Continente Pet Care Bolas de Pelo Salmão (PID 8607741) must score in Tier B (<=64) and not get fake organs."""
+        p = {
+            'pid': '8607741',
+            'name': 'Ração para Gato Adulto Bolas de Pelo Salmão Continente Pet Care',
+            'brand': 'Continente Pet Care',
+            'price': 5.99,
+            'unit_price_kg': 3.99,
+            'ingredients': 'Peixe (salmão fresco min. 26%; peixe desidratado min. 10%), proteínas animais hidrolisadas (aves min. 20%), batata, amido de ervilha, gordura de frango (fonte de ácidos graxos -6), proteína de ervilha, óleo de salmão rico em -3, polpa de beterraba, levedura de cerveja Saccharomyces cerevisiae, hidrolisado de fígado de frango, lignocelulose, minerais, frutas e vegetais, taurina, prebióticos.',
+            'nutrition_raw': 'Constituintes analíticos: Proteína Bruta 33,0%; Fibra Bruta 4,5%; Matéria Gorda Bruta 20,0%; Cinza Bruta 7,5%; Humidade 10,0%; Taurina 1500 mg/kg',
+            'category': 'dry'
+        }
+        full, mini = score_dry_product(p)
+        self.assertFalse(full['has_organs'])
+        self.assertEqual(full['meat_pct'], 36)
+        self.assertTrue(full['is_fractionated'])
+        self.assertLessEqual(full['score'], 64)
+        self.assertEqual(full['tier'], 'Tier B (Médio-Alto / Boa Relação)')
+
+    def test_hydrolysate_sub_percentages_and_palatant_digests_never_treated_as_meat_or_organs(self):
+        """Enzymatic palatant digests and hydrolysate fractions must not trigger meat % or organs."""
+        text = "Peixe (salmão fresco min. 26%; peixe desidratado min. 10%), proteínas animais hidrolisadas (aves min. 20%), hidrolisado de fígado de frango"
+        from src.scoring.evidence import extract_total_meat_percentage, check_has_organs
+        self.assertEqual(extract_total_meat_percentage(text), 36)
+        self.assertFalse(check_has_organs(text))
+
+        real_organ_text = "Frango fresco (50%), fígado de frango (10%), coração de frango (5%)"
+        self.assertEqual(extract_total_meat_percentage(real_organ_text), 65)
+        self.assertTrue(check_has_organs(real_organ_text))
+
 
 if __name__ == '__main__':
     unittest.main()

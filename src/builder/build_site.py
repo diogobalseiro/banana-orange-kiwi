@@ -1,6 +1,27 @@
 import json
+import math
 import os
+import sys
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
 from src.pipeline.manifest import load_manifest, atomic_replace
+
+def sanitize_for_json(obj):
+    """
+    Recursively replaces NaN, Inf, and -Inf with None for RFC 8259 compliant JSON.
+    """
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return obj
+    elif isinstance(obj, dict):
+        return {k: sanitize_for_json(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [sanitize_for_json(v) for v in obj]
+    return obj
 
 def load_data(data_dir, manifest=None):
     if manifest is None:
@@ -15,6 +36,7 @@ def load_data(data_dir, manifest=None):
 
     wet_products = []
     dry_products = []
+    litter_products = []
 
     datasets = manifest.get("datasets", {})
     if datasets:
@@ -35,10 +57,13 @@ def load_data(data_dir, manifest=None):
                     wet_products.extend(prods)
                 elif key.endswith('_dry'):
                     dry_products.extend(prods)
+                elif key.endswith('_litter'):
+                    litter_products.extend(prods)
     else:
         for prefix, display_name in known_retailers:
             w_path = os.path.join(data_dir, f"{prefix}_wet.json")
             d_path = os.path.join(data_dir, f"{prefix}_dry.json")
+            l_path = os.path.join(data_dir, f"{prefix}_litter.json")
 
             if os.path.exists(w_path):
                 with open(w_path, 'r', encoding='utf-8') as f:
@@ -56,6 +81,14 @@ def load_data(data_dir, manifest=None):
                             p['r'] = display_name
                     dry_products.extend(prods)
 
+            if os.path.exists(l_path):
+                with open(l_path, 'r', encoding='utf-8') as f:
+                    prods = json.load(f)
+                    for p in prods:
+                        if not p.get('r'):
+                            p['r'] = display_name
+                    litter_products.extend(prods)
+
     # Ensure kitten flag consistency
     for p in wet_products:
         if 'k' not in p:
@@ -69,22 +102,30 @@ def load_data(data_dir, manifest=None):
 
     wet_products.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
     dry_products.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
+    litter_products.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
 
-    return wet_products, dry_products
+    return wet_products, dry_products, litter_products
 
-def generate_html(wet_products, dry_products, output_path, manifest_data=None):
+def generate_html(wet_products, dry_products, litter_products, output_path, manifest_data=None):
     builder_dir = os.path.dirname(os.path.abspath(__file__))
     template_path = os.path.join(builder_dir, 'template.html')
 
     with open(template_path, 'r', encoding='utf-8') as f:
         template_content = f.read()
 
-    wet_json_str = json.dumps(wet_products, ensure_ascii=False)
-    dry_json_str = json.dumps(dry_products, ensure_ascii=False)
-    manifest_json_str = json.dumps(manifest_data or {}, ensure_ascii=False)
+    wet_clean = sanitize_for_json(wet_products)
+    dry_clean = sanitize_for_json(dry_products)
+    litter_clean = sanitize_for_json(litter_products)
+    manifest_clean = sanitize_for_json(manifest_data or {})
+
+    wet_json_str = json.dumps(wet_clean, ensure_ascii=False, allow_nan=False)
+    dry_json_str = json.dumps(dry_clean, ensure_ascii=False, allow_nan=False)
+    litter_json_str = json.dumps(litter_clean, ensure_ascii=False, allow_nan=False)
+    manifest_json_str = json.dumps(manifest_clean, ensure_ascii=False, allow_nan=False)
 
     html_content = template_content.replace('/*__WET_DATA__*/ []', wet_json_str)
     html_content = html_content.replace('/*__DRY_DATA__*/ []', dry_json_str)
+    html_content = html_content.replace('/*__LITTER_DATA__*/ []', litter_json_str)
     html_content = html_content.replace('/*__MANIFEST_DATA__*/ {}', manifest_json_str)
 
     # Atomic write to protect against interrupted publication
@@ -100,9 +141,9 @@ def main():
     output_path = os.path.join(base_dir, 'index.html')
     
     manifest = load_manifest(data_dir)
-    wet, dry = load_data(data_dir, manifest=manifest)
-    print(f"[Builder] Loaded {len(wet)} wet products and {len(dry)} dry products.")
-    generate_html(wet, dry, output_path, manifest_data=manifest)
+    wet, dry, litter = load_data(data_dir, manifest=manifest)
+    print(f"[Builder] Loaded {len(wet)} wet, {len(dry)} dry, and {len(litter)} litter products.")
+    generate_html(wet, dry, litter, output_path, manifest_data=manifest)
 
 if __name__ == '__main__':
     main()

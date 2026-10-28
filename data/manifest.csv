@@ -1,0 +1,10 @@
+dataset_key,status,generation_id,retrieved_at,product_count,ranked_count,unranked_count,avg_score,is_partial
+continente_wet,accepted,gen_20261028_093309,2026-10-27T18:40:48.353002+00:00,213,200,13,,false
+continente_dry,accepted,gen_20261028_093309,2026-10-27T18:41:47.939240+00:00,262,259,3,,false
+zu_wet,accepted,gen_20261028_093309,2026-10-27T18:52:47.208932+00:00,270,262,8,,false
+zu_dry,accepted,gen_20261028_093309,2026-10-27T19:05:23.270045+00:00,252,249,3,,false
+zooplus_wet,accepted,gen_20261028_093309,2026-10-27T19:00:59.705613+00:00,264,244,20,,false
+zooplus_dry,accepted,gen_20261028_093309,2026-10-27T19:02:02.448465+00:00,405,392,13,,false
+continente_litter,accepted,gen_20261028_093309,2026-10-28T08:50:51.385030+00:00,35,35,0,64.3,true
+zooplus_litter,accepted,gen_20261028_093309,2026-10-28T09:30:53.380209+00:00,39,38,1,73.6,true
+zu_litter,accepted,gen_20261028_093338,2026-10-28T09:33:38.266570+00:00,52,52,0,66.4,false

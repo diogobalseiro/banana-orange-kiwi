@@ -57,17 +57,22 @@
       </div>
     </div>
 
-    <!-- Mode Selector Tabs (Dry vs Wet) -->
-    <div class="flex items-center gap-2 bg-slate-900 p-1.5 rounded-2xl border border-slate-800 shadow-inner">
-      <button id="tabWet" onclick="switchCategory('wet')" class="nav-tab flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 text-slate-400 hover:text-white border border-transparent">
+    <!-- Mode Selector Tabs (Dry vs Wet vs Cat Litter) -->
+    <div class="flex flex-wrap items-center gap-2 bg-slate-900 p-1.5 rounded-2xl border border-slate-800 shadow-inner">
+      <button id="tabWet" onclick="switchCategory('wet')" class="nav-tab flex items-center gap-2 px-4 md:px-5 py-2 md:py-2.5 rounded-xl font-semibold text-xs md:text-sm transition-all duration-200 text-slate-400 hover:text-white border border-transparent">
         <span>🥫</span>
         <span>Comida Húmida</span>
         <span id="wetCountPill" class="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">0</span>
       </button>
-      <button id="tabDry" onclick="switchCategory('dry')" class="nav-tab flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 text-slate-400 hover:text-white border border-transparent">
+      <button id="tabDry" onclick="switchCategory('dry')" class="nav-tab flex items-center gap-2 px-4 md:px-5 py-2 md:py-2.5 rounded-xl font-semibold text-xs md:text-sm transition-all duration-200 text-slate-400 hover:text-white border border-transparent">
         <span>🥣</span>
         <span>Comida Seca (Ração)</span>
         <span id="dryCountPill" class="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">0</span>
+      </button>
+      <button id="tabLitter" onclick="switchCategory('litter')" class="nav-tab flex items-center gap-2 px-4 md:px-5 py-2 md:py-2.5 rounded-xl font-semibold text-xs md:text-sm transition-all duration-200 text-slate-400 hover:text-white border border-transparent">
+        <span>✨</span>
+        <span>Areia para Gato</span>
+        <span id="litterCountPill" class="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">0</span>
       </button>
     </div>
   </header>
@@ -89,20 +94,27 @@
     <div class="flex flex-col md:flex-row gap-3 items-stretch md:items-center justify-between">
       <div class="relative flex-1">
         <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 text-slate-400">🔍</span>
-        <input id="searchInput" type="text" placeholder="Pesquisar produto, marca, frango, sem cereais, loja..." 
-               class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-800/80 border border-slate-700 text-white placeholder-slate-400 text-sm focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition">
+        <input id="searchInput" type="text" placeholder="Pesquisar produto, marca, frango, tofu, bentonite, inodoro, loja..." 
+               class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-800/80 border border-slate-700 text-white placeholder-slate-400 text-base md:text-sm focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition">
       </div>
 
-      <div class="flex items-center gap-2">
-        <label for="sortSelect" class="text-xs text-slate-400 whitespace-nowrap font-medium">Ordenar por:</label>
-        <select id="sortSelect" class="px-3.5 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
-          <option value="vr">Melhor Relação Qualidade / Preço</option>
-          <option value="score_desc">Maior Pontuação Biológica</option>
-          <option value="price_asc">Menor Preço (€/kg)</option>
-          <option value="price_desc">Maior Preço (€/kg)</option>
-          <option value="prot_desc">Maior Proteína %</option>
-          <option value="carb_asc">Menor Hidratos de Carbono % (Seca)</option>
-        </select>
+      <div class="flex items-center gap-2.5 flex-wrap">
+        <button id="clearFiltersBtn" onclick="resetFilters()" class="hidden px-3 py-2 rounded-xl text-xs font-semibold bg-rose-950/60 text-rose-300 border border-rose-800/80 hover:bg-rose-900 transition flex items-center gap-1.5 shadow">
+          <span>✕</span> <span>Limpar Filtros</span>
+          <span id="activeFilterBadge" class="px-1.5 py-0.2 rounded-full bg-rose-800 text-[10px] text-white font-bold">0</span>
+        </button>
+
+        <div class="flex items-center gap-2">
+          <label for="sortSelect" class="text-xs text-slate-400 whitespace-nowrap font-medium">Ordenar por:</label>
+          <select id="sortSelect" class="px-3.5 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
+            <option value="vr">Melhor Relação Qualidade / Preço</option>
+            <option value="score_desc">Maior Pontuação de Qualidade</option>
+            <option value="price_asc">Menor Preço (€/kg ou €/L)</option>
+            <option value="price_desc">Maior Preço (€/kg ou €/L)</option>
+            <option value="prot_desc" class="food-only">Maior Proteína %</option>
+            <option value="carb_asc" class="dry-only">Menor Hidratos de Carbono % (Seca)</option>
+          </select>
+        </div>
       </div>
     </div>
 
@@ -126,13 +138,24 @@
       <button onclick="setTierFilter('Tier D')" class="tier-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-rose-300 border border-slate-700 hover:border-rose-500" data-tier="Tier D">Tier D (Evitar)</button>
     </div>
 
+    <!-- Substrate Material Row (Litter Only) -->
+    <div id="substrateFilterRow" class="hidden flex flex-wrap items-center gap-2 pt-2 border-t border-slate-800">
+      <span class="text-xs text-slate-400 mr-1 font-semibold uppercase tracking-wider">Substrato:</span>
+      <button onclick="setMaterialFilter('all')" class="mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-600 text-white border border-sky-500 shadow" data-mat="all">Todos os Materiais</button>
+      <button onclick="setMaterialFilter('Tofu / Vegetal')" class="mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-emerald-300 border border-slate-700 hover:border-emerald-500" data-mat="Tofu / Vegetal">Tofu / Vegetal</button>
+      <button onclick="setMaterialFilter('Bentonite')" class="mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-amber-300 border border-slate-700 hover:border-amber-500" data-mat="Bentonite">Argila Bentonite</button>
+      <button onclick="setMaterialFilter('Madeira')" class="mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-orange-300 border border-slate-700 hover:border-orange-500" data-mat="Madeira">Madeira / Pinho</button>
+      <button onclick="setMaterialFilter('Sílica')" class="mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-cyan-300 border border-slate-700 hover:border-cyan-500" data-mat="Sílica">Sílica</button>
+      <button onclick="setMaterialFilter('Sepiolite')" class="mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-rose-300 border border-slate-700 hover:border-rose-500" data-mat="Sepiolite">Sepiolite</button>
+    </div>
+
     <!-- Bottom Row: Specific Toggle Filters -->
     <div id="filterPills" class="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-800 text-xs">
-      <!-- Shared Toggles -->
-      <button id="toggleKitten" onclick="toggleFilter('kitten')" class="filter-toggle px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+      <!-- Food Shared Toggles -->
+      <button id="toggleKitten" onclick="toggleFilter('kitten')" class="food-only filter-toggle px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
         <span>🍼</span> <span>Apenas Júnior / Gatinhos</span>
       </button>
-      <button id="toggleGrainFree" onclick="toggleFilter('grainFree')" class="filter-toggle px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+      <button id="toggleGrainFree" onclick="toggleFilter('grainFree')" class="food-only filter-toggle px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
         <span>🌾</span> <span>Sem Cereais (Grain-Free)</span>
       </button>
 
@@ -157,6 +180,23 @@
       <button id="toggleNonSterilised" onclick="toggleFilter('nonSterilised')" class="dry-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
         <span>✨</span> <span>Não Esterilizado (Gordura Integral)</span>
       </button>
+
+      <!-- Cat Litter Specific Toggles -->
+      <button id="toggleClumping" onclick="toggleFilter('clumping')" class="litter-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+        <span>🧱</span> <span>Apenas Aglomerante</span>
+      </button>
+      <button id="toggleUnscented" onclick="toggleFilter('unscented')" class="litter-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+        <span>👃</span> <span>100% Inodoro (Sem Perfume)</span>
+      </button>
+      <button id="toggleLowDust" onclick="toggleFilter('lowDust')" class="litter-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+        <span>💨</span> <span>Baixo Pó (Dust-Free)</span>
+      </button>
+      <button id="toggleBiodegradable" onclick="toggleFilter('biodegradable')" class="litter-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+        <span>🌱</span> <span>Biodegradável / Ecológica</span>
+      </button>
+      <button id="toggleActiveCarbon" onclick="toggleFilter('activeCarbon')" class="litter-only filter-toggle hidden px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-1.5">
+        <span>⬛</span> <span>Com Carvão Ativado</span>
+      </button>
     </div>
   </div>
 
@@ -171,7 +211,7 @@
   </div>
 
   <!-- Products Container (Table / Cards) -->
-  <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60 shadow-xl">
+  <div class="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60 shadow-xl" style="-webkit-overflow-scrolling: touch;">
     <table class="w-full text-left text-xs md:text-sm border-collapse">
       <thead id="tableHeader" class="bg-slate-900 border-b border-slate-800 text-slate-400 font-semibold uppercase tracking-wider text-[11px]"></thead>
       <tbody id="tableBody" class="divide-y divide-slate-800/60 text-slate-300"></tbody>
@@ -190,11 +230,13 @@
   <script>
     const WET_DATA = /*__WET_DATA__*/ [];
     const DRY_DATA = /*__DRY_DATA__*/ [];
+    const LITTER_DATA = /*__LITTER_DATA__*/ [];
     const MANIFEST_DATA = /*__MANIFEST_DATA__*/ {};
 
-    let currentCategory = 'wet'; // 'wet' | 'dry'
+    let currentCategory = 'wet'; // 'wet' | 'dry' | 'litter'
     let currentRetailerFilter = 'all'; // 'all' | 'Continente' | 'ZU' | 'Zooplus'
     let currentTierFilter = 'all';
+    let currentMaterialFilter = 'all';
     let filters = {
       kitten: false,
       grainFree: false,
@@ -203,24 +245,54 @@
       noCornGluten: false,
       noColorants: false,
       noFrac: false,
-      nonSterilised: false
+      nonSterilised: false,
+      clumping: false,
+      unscented: false,
+      lowDust: false,
+      biodegradable: false,
+      activeCarbon: false
     };
+
+    function getInitialCategory() {
+      const hash = (window.location.hash || '').toLowerCase();
+      if (hash === '#litter') return 'litter';
+      if (hash === '#dry') return 'dry';
+      return 'wet';
+    }
 
     function switchCategory(cat) {
       currentCategory = cat;
+      if (window.location.hash !== '#' + cat) {
+        history.replaceState(null, '', '#' + cat);
+      }
       document.getElementById('tabWet').classList.toggle('active', cat === 'wet');
       document.getElementById('tabDry').classList.toggle('active', cat === 'dry');
+      document.getElementById('tabLitter').classList.toggle('active', cat === 'litter');
 
-      document.getElementById('headerSubtitle').innerText = cat === 'wet'
-        ? 'Auditoria nutricional e biológica individual de comida húmida (Continente, ZU e Zooplus)'
-        : 'Auditoria de ingredientes e perfis macronutricionais de rações secas (Continente, ZU e Zooplus)';
+      const sub = document.getElementById('headerSubtitle');
+      if (cat === 'wet') {
+        sub.innerText = 'Auditoria nutricional e biológica individual de comida húmida (Continente, ZU e Zooplus)';
+      } else if (cat === 'dry') {
+        sub.innerText = 'Auditoria de ingredientes e perfis macronutricionais de rações secas (Continente, ZU e Zooplus)';
+      } else {
+        sub.innerText = 'Auditoria de segurança respiratória, aglomeração e controlo de odor em areias para gato (Continente, ZU e Zooplus)';
+      }
 
-      document.querySelectorAll('.wet-only').forEach(el => {
-        if (cat === 'wet') el.classList.remove('hidden'); else el.classList.add('hidden');
-      });
-      document.querySelectorAll('.dry-only').forEach(el => {
-        if (cat === 'dry') el.classList.remove('hidden'); else el.classList.add('hidden');
-      });
+      document.querySelectorAll('.food-only').forEach(el => el.classList.toggle('hidden', cat === 'litter'));
+      document.querySelectorAll('.wet-only').forEach(el => el.classList.toggle('hidden', cat !== 'wet'));
+      document.querySelectorAll('.dry-only').forEach(el => el.classList.toggle('hidden', cat !== 'dry'));
+      document.querySelectorAll('.litter-only').forEach(el => el.classList.toggle('hidden', cat !== 'litter'));
+      const matRow = document.getElementById('substrateFilterRow');
+      if (matRow) matRow.classList.toggle('hidden', cat !== 'litter');
+
+      const sortSelect = document.getElementById('sortSelect');
+      sortSelect.querySelectorAll('.food-only').forEach(el => el.disabled = (cat === 'litter'));
+      sortSelect.querySelectorAll('.dry-only').forEach(el => el.disabled = (cat !== 'dry'));
+      if (cat === 'litter' && (sortSelect.value === 'carb_asc' || sortSelect.value === 'prot_desc')) {
+        sortSelect.value = 'vr';
+      } else if (cat === 'wet' && sortSelect.value === 'carb_asc') {
+        sortSelect.value = 'vr';
+      }
 
       renderKPIs();
       updateKittenAlert();
@@ -242,7 +314,7 @@
             <th class="py-3.5 px-3 text-right">Loja & Link</th>
           </tr>
         `;
-      } else {
+      } else if (currentCategory === 'dry') {
         header.innerHTML = `
           <tr>
             <th class="py-3.5 px-4">Pontuação</th>
@@ -250,6 +322,18 @@
             <th class="py-3.5 px-3">Perfil Nutricional</th>
             <th class="py-3.5 px-3">1º Ingrediente & Fórmulas</th>
             <th class="py-3.5 px-3">Preço / Kg</th>
+            <th class="py-3.5 px-3">Rácio Q/P</th>
+            <th class="py-3.5 px-3 text-right">Loja & Link</th>
+          </tr>
+        `;
+      } else {
+        header.innerHTML = `
+          <tr>
+            <th class="py-3.5 px-4">Pontuação</th>
+            <th class="py-3.5 px-4 min-w-[280px]">Produto & Marca</th>
+            <th class="py-3.5 px-3">Substrato & Higiene</th>
+            <th class="py-3.5 px-3">Propriedades & Aditivos</th>
+            <th class="py-3.5 px-3">Preço / Formato</th>
             <th class="py-3.5 px-3">Rácio Q/P</th>
             <th class="py-3.5 px-3 text-right">Loja & Link</th>
           </tr>
@@ -270,7 +354,7 @@
 
     function renderKPIs() {
       const container = document.getElementById('kpiContainer');
-      const baseData = currentCategory === 'wet' ? WET_DATA : DRY_DATA;
+      const baseData = currentCategory === 'wet' ? WET_DATA : (currentCategory === 'dry' ? DRY_DATA : LITTER_DATA);
       const data = currentRetailerFilter === 'all' 
         ? baseData 
         : baseData.filter(p => (p.r || 'Continente').toLowerCase() === currentRetailerFilter.toLowerCase());
@@ -315,7 +399,7 @@
             <div class="text-[11px] text-slate-400 mt-1">${topKittenSubtitle}</div>
           </div>
         `;
-      } else {
+      } else if (currentCategory === 'dry') {
         const kittens = data.filter(p => p.k).length;
         const topDry = data.filter(p => p.ir && !p.conf && p.s >= 80).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
                        data.filter(p => p.ir && !p.conf).sort((a,b) => (b.s || 0) - (a.s || 0))[0] || null;
@@ -349,13 +433,64 @@
             <div class="text-[11px] text-slate-400 mt-1">${bestRatioSub}</div>
           </div>
         `;
+      } else {
+        const naturalCount = data.filter(p => p.mat === 'Tofu / Vegetal' || p.mat === 'Madeira').length;
+        const unscentedCount = data.filter(p => p.unscent === true).length;
+        const topLitter = data.filter(p => p.ir && p.s >= 85).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                          data.filter(p => p.ir).sort((a,b) => (b.s || 0) - (a.s || 0))[0] || null;
+        const bestRatio = data.filter(p => p.ir && p.s >= 70 && (p.pl || p.pkg)).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] ||
+                          data.filter(p => p.ir && (p.pl || p.pkg)).sort((a,b) => (b.vr || 0) - (a.vr || 0))[0] || null;
+
+        const topTitle = topLitter ? (topLitter.n || 'N/D') : 'Nenhuma areia recomendada';
+        const topParts = [];
+        if (topLitter) {
+          topParts.push(`Score ${topLitter.s}`);
+          if (topLitter.t) topParts.push(topLitter.t.split(' (')[0]);
+          const up = topLitter.pl ? `${topLitter.pl.toFixed(2)} €/L` : (topLitter.pkg ? `${topLitter.pkg.toFixed(2)} €/kg` : null);
+          if (up) topParts.push(up);
+          if (topLitter.r) topParts.push(topLitter.r);
+        }
+        const topSub = topLitter ? topParts.join(' • ') : 'Classificação pendente';
+
+        const bestRatioTitle = bestRatio ? (bestRatio.n || 'N/D') : 'Nenhuma recomendação';
+        const brParts = [];
+        if (bestRatio) {
+          brParts.push(`Score ${bestRatio.s}`);
+          const up = bestRatio.pl ? `${bestRatio.pl.toFixed(2)} €/L` : (bestRatio.pkg ? `${bestRatio.pkg.toFixed(2)} €/kg` : null);
+          if (up) brParts.push(up);
+          if (bestRatio.r) brParts.push(bestRatio.r);
+        }
+        const bestRatioSub = bestRatio ? brParts.join(' • ') : 'Preço ou score indisponível';
+
+        container.innerHTML = `
+          <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
+            <div class="text-xs text-slate-400 font-medium">Total Areias Analisadas</div>
+            <div class="text-2xl font-black mt-1 text-white">${count}</div>
+            <div class="text-[11px] text-emerald-400 mt-1">${storeLabel}</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
+            <div class="text-xs text-slate-400 font-medium">Substratos Vegetais / Tofu</div>
+            <div class="text-2xl font-black mt-1 text-emerald-400">${naturalCount}</div>
+            <div class="text-[11px] text-slate-400 mt-1">${unscentedCount} opções 100% inodoras</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
+            <div class="text-xs text-slate-400 font-medium">Top Escolha Ótima (Tier S)</div>
+            <div class="text-sm font-bold mt-1.5 text-purple-400 truncate" title="${topTitle}">${topTitle}</div>
+            <div class="text-[11px] text-slate-400 mt-1">${topSub}</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 shadow">
+            <div class="text-xs text-slate-400 font-medium">Melhor Relação Qualidade / Preço</div>
+            <div class="text-sm font-bold mt-1.5 text-sky-400 truncate" title="${bestRatioTitle}">${bestRatioTitle}</div>
+            <div class="text-[11px] text-slate-400 mt-1">${bestRatioSub}</div>
+          </div>
+        `;
       }
     }
 
     function updateKittenAlert() {
       const alert = document.getElementById('kittenAlert');
       const content = document.getElementById('kittenAlertContent');
-      if (!filters.kitten) {
+      if (currentCategory === 'litter' || !filters.kitten) {
         alert.classList.add('hidden');
         return;
       }
@@ -396,6 +531,25 @@
       applyFilters();
     }
 
+    function setMaterialFilter(mat) {
+      currentMaterialFilter = mat;
+      document.querySelectorAll('.mat-btn').forEach(btn => {
+        const bMat = btn.getAttribute('data-mat');
+        if (bMat === mat) {
+          btn.className = 'mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-600 text-white border border-sky-500 shadow';
+        } else {
+          let colorClass = 'text-slate-300';
+          if (bMat === 'Tofu / Vegetal') colorClass = 'text-emerald-300';
+          else if (bMat === 'Bentonite') colorClass = 'text-amber-300';
+          else if (bMat === 'Madeira') colorClass = 'text-orange-300';
+          else if (bMat === 'Sílica') colorClass = 'text-cyan-300';
+          else if (bMat === 'Sepiolite') colorClass = 'text-rose-300';
+          btn.className = `mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 ${colorClass} border border-slate-700 hover:border-slate-500`;
+        }
+      });
+      applyFilters();
+    }
+
     function setTierFilter(tier) {
       currentTierFilter = tier;
       document.querySelectorAll('.tier-btn').forEach(btn => {
@@ -419,7 +573,12 @@
         noCornGluten: 'toggleNoCornGluten',
         noColorants: 'toggleNoColorants',
         noFrac: 'toggleNoFrac',
-        nonSterilised: 'toggleNonSterilised'
+        nonSterilised: 'toggleNonSterilised',
+        clumping: 'toggleClumping',
+        unscented: 'toggleUnscented',
+        lowDust: 'toggleLowDust',
+        biodegradable: 'toggleBiodegradable',
+        activeCarbon: 'toggleActiveCarbon'
       };
 
       const btn = document.getElementById(btnIdMap[filterKey]);
@@ -438,10 +597,82 @@
       applyFilters();
     }
 
+    function resetFilters() {
+      document.getElementById('searchInput').value = '';
+      currentRetailerFilter = 'all';
+      currentTierFilter = 'all';
+      currentMaterialFilter = 'all';
+      for (let k in filters) filters[k] = false;
+      document.querySelectorAll('.filter-toggle').forEach(btn => {
+        btn.classList.remove('bg-sky-600', 'text-white', 'border-sky-500');
+        btn.classList.add('bg-slate-800', 'text-slate-300', 'border-slate-700');
+      });
+      document.querySelectorAll('.ret-btn').forEach(btn => {
+        const bRet = btn.getAttribute('data-ret');
+        if (bRet === 'all') {
+          btn.className = 'ret-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-600 text-white border border-sky-500 shadow';
+        } else {
+          let colorClass = 'text-slate-300';
+          if (bRet === 'Continente') colorClass = 'text-sky-400';
+          else if (bRet === 'ZU') colorClass = 'text-amber-400';
+          else if (bRet === 'Zooplus') colorClass = 'text-emerald-400';
+          btn.className = `ret-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 ${colorClass} border border-slate-700 hover:border-slate-500`;
+        }
+      });
+      document.querySelectorAll('.tier-btn').forEach(btn => {
+        const bTier = btn.getAttribute('data-tier');
+        if (bTier === 'all') {
+          btn.className = 'tier-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-600 text-white border border-sky-500 shadow';
+        } else {
+          btn.className = 'tier-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 border border-slate-700 hover:border-slate-500';
+        }
+      });
+      document.querySelectorAll('.mat-btn').forEach(btn => {
+        const bMat = btn.getAttribute('data-mat');
+        if (bMat === 'all') {
+          btn.className = 'mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-600 text-white border border-sky-500 shadow';
+        } else {
+          let colorClass = 'text-slate-300';
+          if (bMat === 'Tofu / Vegetal') colorClass = 'text-emerald-300';
+          else if (bMat === 'Bentonite') colorClass = 'text-amber-300';
+          else if (bMat === 'Madeira') colorClass = 'text-orange-300';
+          else if (bMat === 'Sílica') colorClass = 'text-cyan-300';
+          else if (bMat === 'Sepiolite') colorClass = 'text-rose-300';
+          btn.className = `mat-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 ${colorClass} border border-slate-700 hover:border-slate-500`;
+        }
+      });
+      updateKittenAlert();
+      applyFilters();
+    }
+
     function applyFilters() {
       const query = (document.getElementById('searchInput').value || '').toLowerCase().trim();
       const sortMode = document.getElementById('sortSelect').value;
-      const data = currentCategory === 'wet' ? WET_DATA : DRY_DATA;
+      const data = currentCategory === 'wet' ? WET_DATA : (currentCategory === 'dry' ? DRY_DATA : LITTER_DATA);
+
+      // Active filter count and Clear Button visibility
+      let activeFilterCount = 0;
+      if (query) activeFilterCount++;
+      if (currentRetailerFilter !== 'all') activeFilterCount++;
+      if (currentTierFilter !== 'all') activeFilterCount++;
+      if (currentCategory === 'litter' && currentMaterialFilter !== 'all') activeFilterCount++;
+      for (let k in filters) {
+        if (filters[k]) {
+          if (currentCategory === 'litter' && ['clumping','unscented','lowDust','biodegradable','activeCarbon'].includes(k)) activeFilterCount++;
+          if (currentCategory === 'wet' && ['kitten','grainFree','noSugar','noCarr'].includes(k)) activeFilterCount++;
+          if (currentCategory === 'dry' && ['kitten','grainFree','noCornGluten','noColorants','noFrac','nonSterilised'].includes(k)) activeFilterCount++;
+        }
+      }
+      const clearBtn = document.getElementById('clearFiltersBtn');
+      const badge = document.getElementById('activeFilterBadge');
+      if (clearBtn) {
+        if (activeFilterCount > 0) {
+          clearBtn.classList.remove('hidden');
+          if (badge) badge.innerText = activeFilterCount;
+        } else {
+          clearBtn.classList.add('hidden');
+        }
+      }
 
       let filtered = data.filter(p => {
         // Store filter
@@ -451,15 +682,24 @@
           }
         }
 
-        // Search query
+        // Search query (enhanced with litter features)
         if (query) {
           const name = (p.n || '').toLowerCase();
           const brand = (p.b || '').toLowerCase();
           const fi = (p.fi || '').toLowerCase();
+          const mat = (p.mat || '').toLowerCase();
+          const scentN = (p.scent_n || '').toLowerCase();
           const ret = (p.r || '').toLowerCase();
-          if (!name.includes(query) && !brand.includes(query) && !fi.includes(query) && !ret.includes(query)) {
-            return false;
+          let match = name.includes(query) || brand.includes(query) || fi.includes(query) || ret.includes(query) || mat.includes(query) || scentN.includes(query);
+          if (!match && currentCategory === 'litter') {
+            if (query.includes('aglomer') && p.clump) match = true;
+            if ((query.includes('inodor') || query.includes('sem perfume')) && (p.unscent || !p.scent)) match = true;
+            if ((query.includes('po') || query.includes('pó')) && p.dust) match = true;
+            if ((query.includes('carva') || query.includes('carvão')) && p.carb) match = true;
+            if (query.includes('sanita') && p.flush) match = true;
+            if (query.includes('bio') && p.bio) match = true;
           }
+          if (!match) return false;
         }
 
         // Tier filter
@@ -469,11 +709,13 @@
           }
         }
 
-        // Shared filters
-        if (filters.kitten && !p.k) return false;
-        if (filters.grainFree) {
-          if (currentCategory === 'wet' && p.grn !== false) return false;
-          if (currentCategory === 'dry' && p.gf !== true) return false;
+        // Shared food filters
+        if (currentCategory !== 'litter') {
+          if (filters.kitten && !p.k) return false;
+          if (filters.grainFree) {
+            if (currentCategory === 'wet' && p.grn !== false) return false;
+            if (currentCategory === 'dry' && p.gf !== true) return false;
+          }
         }
 
         // Wet-specific filters
@@ -490,24 +732,42 @@
           if (filters.nonSterilised && p.st) return false;
         }
 
+        // Cat litter filters
+        if (currentCategory === 'litter') {
+          if (currentMaterialFilter !== 'all' && p.mat !== currentMaterialFilter) return false;
+          if (filters.clumping && !p.clump) return false;
+          if (filters.unscented && p.scent) return false;
+          if (filters.lowDust && !p.dust) return false;
+          if (filters.biodegradable && !p.bio) return false;
+          if (filters.activeCarbon && !p.carb) return false;
+        }
+
         return true;
       });
 
-      // Sorting - ranked products always precede unranked products
+      // Sorting - ranked products always precede unranked products (with deterministic tie-breakers)
       filtered.sort((a, b) => {
         const aRanked = a.ir ? 1 : 0;
         const bRanked = b.ir ? 1 : 0;
         if (aRanked !== bRanked) return bRanked - aRanked;
 
-        if (sortMode === 'vr') return (b.vr || 0) - (a.vr || 0);
-        if (sortMode === 'score_desc') return (b.s || 0) - (a.s || 0);
-        if (sortMode === 'price_asc') return (a.pkg || 999) - (b.pkg || 999);
-        if (sortMode === 'price_desc') return (b.pkg || 0) - (a.pkg || 0);
-        if (sortMode === 'prot_desc') return (b.prot || 0) - (a.prot || 0);
+        if (sortMode === 'vr') return (b.vr || 0) - (a.vr || 0) || (b.s || 0) - (a.s || 0);
+        if (sortMode === 'score_desc') return (b.s || 0) - (a.s || 0) || (b.vr || 0) - (a.vr || 0);
+        if (sortMode === 'price_asc') {
+          const aPrice = (currentCategory === 'litter' ? (a.pl || a.pkg) : a.pkg) || 999;
+          const bPrice = (currentCategory === 'litter' ? (b.pl || b.pkg) : b.pkg) || 999;
+          return aPrice - bPrice || (b.s || 0) - (a.s || 0);
+        }
+        if (sortMode === 'price_desc') {
+          const aPrice = (currentCategory === 'litter' ? (a.pl || a.pkg) : a.pkg) || 0;
+          const bPrice = (currentCategory === 'litter' ? (b.pl || b.pkg) : b.pkg) || 0;
+          return bPrice - aPrice || (b.s || 0) - (a.s || 0);
+        }
+        if (sortMode === 'prot_desc') return (b.prot || 0) - (a.prot || 0) || (b.s || 0) - (a.s || 0);
         if (sortMode === 'carb_asc') {
           const aCarb = (a.carb != null) ? a.carb : 999;
           const bCarb = (b.carb != null) ? b.carb : 999;
-          return aCarb - bCarb;
+          return aCarb - bCarb || (b.s || 0) - (a.s || 0);
         }
         return 0;
       });
@@ -534,7 +794,12 @@
         tbody.innerHTML = `
           <tr>
             <td colspan="7" class="py-12 text-center text-slate-500">
-              Nenhum produto encontrado com os filtros atuais.
+              <div class="space-y-3">
+                <p>Nenhum produto encontrado com os filtros atuais.</p>
+                <button onclick="resetFilters()" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold bg-sky-600/80 text-white hover:bg-sky-600 transition">
+                  Limpar Todos os Filtros
+                </button>
+              </div>
             </td>
           </tr>
         `;
@@ -655,7 +920,7 @@
               </td>
             </tr>
           `;
-        } else {
+        } else if (currentCategory === 'dry') {
           // Dry Food Row
           const protStr = p.prot ? `${p.prot}% Prot` : '-';
           const fatStr = p.fat ? `${p.fat}% Gord` : '';
@@ -748,6 +1013,91 @@
               </td>
             </tr>
           `;
+        } else {
+          // Cat Litter Row
+          const matColorMap = {
+            'Tofu / Vegetal': 'bg-emerald-950/80 text-emerald-300 border-emerald-800',
+            'Madeira': 'bg-orange-950/80 text-orange-300 border-orange-800',
+            'Bentonite': 'bg-amber-950/80 text-amber-300 border-amber-800',
+            'Sílica': 'bg-cyan-950/80 text-cyan-300 border-cyan-800',
+            'Sepiolite': 'bg-rose-950/80 text-rose-300 border-rose-800'
+          };
+          const matClass = matColorMap[p.mat] || 'bg-slate-800 text-slate-300 border-slate-700';
+          const matBadge = `<span class="px-2 py-0.5 rounded text-[11px] font-semibold border ${matClass}">${p.mat || 'Argila Mineral'}</span>`;
+
+          const clumpBadge = p.clump
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">🧱 Aglomerante</span>'
+            : '<span class="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-slate-400 border border-slate-700 font-medium">Não Aglomerante</span>';
+
+          const scentBadge = p.unscent
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-emerald-950/80 text-emerald-300 border border-emerald-800 font-medium">👃 Inodoro</span>'
+            : (p.scent ? `<span class="px-1.5 py-0.5 rounded text-[10px] bg-rose-950/80 text-rose-300 border border-rose-800 font-medium" title="Fragrância sintética: ${p.scent_n || 'Perfumado'}">⚠️ ${p.scent_n || 'Perfumado'}</span>` : '');
+
+          const dustBadge = p.dust
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-sky-950/80 text-sky-300 border border-sky-800 font-medium">💨 Baixo Pó</span>'
+            : '';
+
+          const carbBadge = p.carb
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-slate-800 text-slate-200 border border-slate-600 font-medium">⬛ Carvão Ativado</span>'
+            : '';
+
+          const bioBadge = p.bio
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-teal-950/80 text-teal-300 border border-teal-800 font-medium">🌱 Biodegradável</span>'
+            : '';
+
+          const flushBadge = p.flush
+            ? '<span class="px-1.5 py-0.5 rounded text-[10px] bg-teal-950/80 text-teal-300 border border-teal-800 font-medium">🚽 Sanita</span>'
+            : '';
+
+          const volStr = p.vol ? `${p.vol} L` : '';
+          const wtStr = p.wt ? `${p.wt} kg` : '';
+          const formatStr = [volStr, wtStr].filter(Boolean).join(' • ');
+
+          const unitP = (p.pl && p.pkg)
+            ? `${p.pl.toFixed(2)} €/L <span class="text-[11px] text-slate-400 font-normal">(${p.pkg.toFixed(2)} €/kg)</span>`
+            : (p.pl ? `${p.pl.toFixed(2)} €/L` : (p.pkg ? `${p.pkg.toFixed(2)} €/kg` : 'N/D'));
+
+          rowsHtml += `
+            <tr class="hover:bg-slate-800/40 transition">
+              <td class="py-3 px-4 whitespace-nowrap">
+                <div class="flex items-center gap-2">
+                  <span class="text-base font-black px-2.5 py-1 rounded-lg ${tierClass}">${scoreDisplay}</span>
+                  <span class="text-[11px] text-slate-400 hidden sm:inline">${tierLabel}</span>
+                </div>
+              </td>
+              <td class="py-3 px-4">
+                <div class="font-semibold text-white leading-tight">${p.n}</div>
+                <div class="flex items-center gap-2 mt-1">
+                  <span class="text-xs text-sky-400 font-medium">${p.b}</span>
+                  ${formatStr ? `<span class="text-[11px] text-slate-400 font-medium">• ${formatStr}</span>` : ''}
+                </div>
+              </td>
+              <td class="py-3 px-3 whitespace-nowrap">
+                <div class="flex flex-col gap-1 items-start">
+                  ${matBadge}
+                  ${clumpBadge}
+                </div>
+              </td>
+              <td class="py-3 px-3">
+                <div class="flex flex-wrap gap-1">${scentBadge}${dustBadge}${carbBadge}${bioBadge}${flushBadge}${unrankedBadge}</div>
+              </td>
+              <td class="py-3 px-3 whitespace-nowrap">
+                <div class="font-bold text-white">${unitP}</div>
+                <div class="text-[11px] text-slate-400">${priceStr}</div>
+              </td>
+              <td class="py-3 px-3 whitespace-nowrap">
+                <span class="font-black text-emerald-400 text-sm">${vrDisplay}</span>
+              </td>
+              <td class="py-3 px-3 text-right whitespace-nowrap">
+                <div class="flex items-center justify-end gap-2">
+                  ${retBadge}
+                  <a href="${pdpUrl}" target="_blank" class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-200 border border-slate-700 text-xs font-semibold hover:bg-slate-700 hover:text-white transition inline-block">
+                    Ver ↗
+                  </a>
+                </div>
+              </td>
+            </tr>
+          `;
         }
       }
       tbody.innerHTML = rowsHtml;
@@ -770,11 +1120,16 @@
 
     document.getElementById('wetCountPill').innerText = WET_DATA.length;
     document.getElementById('dryCountPill').innerText = DRY_DATA.length;
+    document.getElementById('litterCountPill').innerText = LITTER_DATA.length;
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     document.getElementById('sortSelect').addEventListener('change', applyFilters);
+    window.addEventListener('hashchange', () => {
+      const cat = getInitialCategory();
+      if (cat !== currentCategory) switchCategory(cat);
+    });
 
     // Initial render
-    switchCategory('wet');
+    switchCategory(getInitialCategory());
   </script>
 </body>
 </html>

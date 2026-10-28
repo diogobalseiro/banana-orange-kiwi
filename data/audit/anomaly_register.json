@@ -1,0 +1,39 @@
+{
+  "total_products": 1666,
+  "total_ranked": 1606,
+  "total_violations": 0,
+  "rule_summary": {},
+  "file_stats": {
+    "continente_dry_full.json": {
+      "total": 262,
+      "ranked": 259,
+      "violations": 0
+    },
+    "continente_wet_full.json": {
+      "total": 213,
+      "ranked": 200,
+      "violations": 0
+    },
+    "zu_dry_full.json": {
+      "total": 252,
+      "ranked": 249,
+      "violations": 0
+    },
+    "zu_wet_full.json": {
+      "total": 270,
+      "ranked": 262,
+      "violations": 0
+    },
+    "zooplus_dry_full.json": {
+      "total": 405,
+      "ranked": 392,
+      "violations": 0
+    },
+    "zooplus_wet_full.json": {
+      "total": 264,
+      "ranked": 244,
+      "violations": 0
+    }
+  },
+  "violations": []
+}

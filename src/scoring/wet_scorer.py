@@ -1,5 +1,5 @@
 import re
-from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, extract_total_meat_percentage, FieldStatus
+from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, extract_total_meat_percentage, check_has_organs, FieldStatus
 
 def parse_wet_nutrition(nutri_text):
     return normalize_nutrients(nutri_text, category='wet')
@@ -115,10 +115,8 @@ def score_wet_product(p):
         else:
             high_meat_pct = raw_meat_pct
 
-        # Organ meats
-        has_organs = any(o in ingr_lower for o in [
-            'coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'pulmão', 'pulmões', 'estômago', 'estômagos', 'rins', 'rim', 'miudezas'
-        ])
+        # Organ meats (genuine whole organs, excluding flavour digests)
+        has_organs = check_has_organs(ingr_clean_text)
 
         # Monoproteic
         is_monoproteic = any(m in text_to_check for m in ['monoproteico', 'mono-proteico', 'monoproteica', 'single protein', 'uma única fonte de proteína'])

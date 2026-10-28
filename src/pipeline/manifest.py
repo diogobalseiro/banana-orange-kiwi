@@ -8,16 +8,20 @@ import json
 import os
 import tempfile
 from datetime import datetime, timezone
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 SCHEMA_VERSION = "1.0"
 SCORER_VERSION = "2.0-biological-reliable"
 
 MANIFEST_FILENAME = "manifest.json"
+MANIFEST_CSV_FILENAME = "manifest.csv"
 REJECTED_FILENAME = "last_rejected_candidate.json"
 
 def get_manifest_path(data_dir: str) -> str:
     return os.path.join(data_dir, MANIFEST_FILENAME)
+
+def get_manifest_csv_path(data_dir: str) -> str:
+    return os.path.join(data_dir, MANIFEST_CSV_FILENAME)
 
 def get_rejected_path(data_dir: str) -> str:
     return os.path.join(data_dir, REJECTED_FILENAME)
@@ -49,8 +53,6 @@ def atomic_save_csv(filepath: str, rows: List[Dict[str, Any]], fieldnames: List[
     """
     Atomically writes CSV rows to a file via temporary file and atomic swap.
     """
-    if not rows:
-        return
     dir_name = os.path.dirname(os.path.abspath(filepath))
     os.makedirs(dir_name, exist_ok=True)
     temp_fd, temp_path = tempfile.mkstemp(dir=dir_name, prefix=".tmp_csv_")
@@ -58,21 +60,24 @@ def atomic_save_csv(filepath: str, rows: List[Dict[str, Any]], fieldnames: List[
         with open(temp_fd, 'w', encoding='utf-8', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
             writer.writeheader()
-            cleaned_rows = []
-            for r in rows:
-                cleaned = {}
-                for fn in fieldnames:
-                    v = r.get(fn)
-                    if v is None:
-                        cleaned[fn] = ""
-                    elif isinstance(v, bool):
-                        cleaned[fn] = "true" if v else "false"
-                    elif isinstance(v, list):
-                        cleaned[fn] = "; ".join(str(item) for item in v)
-                    else:
-                        cleaned[fn] = v
-                cleaned_rows.append(cleaned)
-            writer.writerows(cleaned_rows)
+            if rows:
+                cleaned_rows = []
+                for r in rows:
+                    cleaned = {}
+                    for fn in fieldnames:
+                        v = r.get(fn)
+                        if v is None:
+                            cleaned[fn] = ""
+                        elif isinstance(v, bool):
+                            cleaned[fn] = "true" if v else "false"
+                        elif isinstance(v, (dict, list)):
+                            cleaned[fn] = json.dumps(v, ensure_ascii=False)
+                        else:
+                            cleaned[fn] = v
+                    cleaned_rows.append(cleaned)
+                writer.writerows(cleaned_rows)
+            f.flush()
+            os.fsync(temp_fd)
         atomic_replace(temp_path, filepath)
     except Exception:
         if os.path.exists(temp_path):
@@ -102,12 +107,49 @@ def load_manifest(data_dir: str) -> Dict[str, Any]:
         "previous_generation_id": None
     }
 
+def generate_manifest_csv_rows(manifest: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[str]]:
+    """
+    Generates tabular summary rows for manifest.csv export.
+    """
+    fieldnames = [
+        "dataset_key", "status", "generation_id", "retrieved_at", "product_count",
+        "ranked_count", "unranked_count", "avg_score", "is_partial"
+    ]
+    rows = []
+    datasets = manifest.get("datasets", {})
+    for key, meta in datasets.items():
+        row = {
+            "dataset_key": key,
+            "status": meta.get("status", ""),
+            "generation_id": meta.get("generation_id", ""),
+            "retrieved_at": meta.get("retrieved_at", ""),
+            "product_count": meta.get("product_count", meta.get("total_products", 0)),
+            "ranked_count": meta.get("ranked_count", 0),
+            "unranked_count": meta.get("unranked_count", 0),
+            "avg_score": meta.get("avg_score", ""),
+            "is_partial": "true" if meta.get("is_partial") else "false"
+        }
+        rows.append(row)
+    return rows, fieldnames
+
+def save_manifest_csv(data_dir: str, manifest: Dict[str, Any]):
+    """
+    Atomically writes manifest summary to data_dir/manifest.csv.
+    """
+    rows, fieldnames = generate_manifest_csv_rows(manifest)
+    path = get_manifest_csv_path(data_dir)
+    atomic_save_csv(path, rows, fieldnames)
+
 def save_manifest(data_dir: str, manifest: Dict[str, Any]):
     """
-    Atomically persists manifest to data_dir/manifest.json.
+    Atomically persists manifest to data_dir/manifest.json and data_dir/manifest.csv.
     """
     path = get_manifest_path(data_dir)
     atomic_save_json(path, manifest)
+    try:
+        save_manifest_csv(data_dir, manifest)
+    except Exception as e:
+        print(f"[Manifest] Warning: could not write manifest.csv: {e}")
 
 def load_last_rejection(data_dir: str) -> Optional[Dict[str, Any]]:
     """

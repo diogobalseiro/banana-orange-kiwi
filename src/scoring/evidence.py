@@ -254,6 +254,10 @@ def extract_total_meat_percentage(text):
     # C. Strip cooking broth and oils/fats before evaluating declared meats
     text_to_eval = re.sub(r'\b(?:caldo|gordura|molho|óleo|oleo)\s+(?:de\s+)?[a-zá-ú\s]+?\d+(?:[.,]\d+)?\s*%', '', text_to_eval, flags=re.I)
 
+    # D. Strip hydrolysates / digests and their sub-percentages (e.g. 'proteínas animais hidrolisadas (aves min. 20%)')
+    text_to_eval = re.sub(r'\b(?:proteínas?\s+(?:animais\s+)?hidrolisadas?|hidrolisad[oa]\s+de\s+[a-zá-ú\s]+)\s*\([^)]*?\d+(?:[.,]\d+)?\s*%\)', '', text_to_eval, flags=re.I)
+    text_to_eval = re.sub(r'\b(?:proteínas?\s+(?:animais\s+)?hidrolisadas?|hidrolisad[oa]\s+de\s+[a-zá-ú\s]+)\s*(?:m[íi]n\.?\s*)?\d+(?:[.,]\d+)?\s*%', '', text_to_eval, flags=re.I)
+
     # 4. Extract and sum individual declared named meats
     meat_names = (
         'carne|frango|peru|salmão|salmao|atum|vaca|peixe|pato|borrego|cordeiro|'
@@ -275,6 +279,23 @@ def extract_total_meat_percentage(text):
     if pcts:
         return min(100, sum(pcts))
     return None
+
+def check_has_organs(ingr_text):
+    """
+    Evaluates whether genuine feline organ superfoods (liver, heart, gizzard, lung, kidney)
+    are present in the composition.
+    Enzymatic palatability hydrolysates and digests (e.g. 'hidrolisado de fígado de frango',
+    'digest de fígado') are strictly excluded as they are flavor additives, not whole organ meats.
+    """
+    if not ingr_text or not isinstance(ingr_text, str):
+        return False
+    lower = ingr_text.lower()
+    cleaned = re.sub(r'\b(?:hidrolisad[oa]\s+de\s+|fígado\s+hidrolisado|figado\s+hidrolisado|digest\s+de\s+|fígado\s+desidratado\s+em\s+pó\s+como\s+aroma)[a-zá-ú\s]+', '', lower)
+    organ_terms = [
+        'coração', 'corações', 'fígado', 'figado', 'moela', 'moelas',
+        'pulmão', 'pulmões', 'estômago', 'estômagos', 'rins', 'rim', 'miudezas'
+    ]
+    return any(o in cleaned for o in organ_terms)
 
 def normalize_nutrients(raw_text, category='wet'):
     """

@@ -16,6 +16,7 @@ class ZooplusScraper(BaseScraper):
     BASE_URL = 'https://www.zooplus.pt'
     WET_PATH = '/shop/gato/enlatados_gato'
     DRY_PATH = '/shop/gato/racao_gato'
+    LITTER_PATH = '/shop/gato/areia_gatos'
 
     def _parse_weight_from_text(self, text):
         if not text:
@@ -61,11 +62,15 @@ class ZooplusScraper(BaseScraper):
                 print(f"[Zooplus] No cards found on page {page}.")
                 break
 
+            new_cards_this_page = 0
             for c in cards:
-                pid = c.get('id') or c.get('data-variant-id')
-                if not pid or pid in seen_pids:
+                product_id = c.get('id')
+                variant_id = c.get('data-variant-id')
+                unique_card_id = f"{product_id}_{variant_id}" if (product_id and variant_id) else (variant_id or product_id)
+                if not unique_card_id or unique_card_id in seen_pids:
                     continue
-                seen_pids.add(pid)
+                seen_pids.add(unique_card_id)
+                new_cards_this_page += 1
 
                 # Name
                 title_elem = c.find('span', attrs={'data-zta': 'product-link'}) or c.find(attrs={'data-zta': 'product-title'})
@@ -82,6 +87,11 @@ class ZooplusScraper(BaseScraper):
                 if pdp_url and pdp_url.startswith('/'):
                     pdp_url = self.BASE_URL + pdp_url
 
+                # Append activeVariant if variant_id present
+                if pdp_url and variant_id and 'activeVariant' not in pdp_url:
+                    sep = '&' if '?' in pdp_url else '?'
+                    pdp_url = f"{pdp_url}{sep}activeVariant={variant_id}"
+
                 # Price
                 price_val = None
                 price_elem = c.find('span', class_=re.compile(r'PriceAmount')) or c.find('span', class_=re.compile(r'amount'))
@@ -94,13 +104,17 @@ class ZooplusScraper(BaseScraper):
                     if m:
                         price_val = float(m.group(1).replace(',', '.'))
 
-                # Unit price (€/kg)
+                # Unit price (€/kg or €/l)
                 unit_price_val = None
+                unit_price_l = None
                 suffix_elem = c.find(attrs={'data-zta': 'reducedPriceSuffix'}) or c.find(class_=re.compile(r'note--suffix'))
                 suffix_str = suffix_elem.get_text(strip=True) if suffix_elem else c.get_text()
-                m_up = re.search(r'(\d+[.,]\d+)\s*€\s*/\s*kg', suffix_str)
-                if m_up:
-                    unit_price_val = float(m_up.group(1).replace(',', '.'))
+                m_up_kg = re.search(r'(\d+[.,]\d+)\s*€\s*/\s*kg', suffix_str, re.I)
+                if m_up_kg:
+                    unit_price_val = float(m_up_kg.group(1).replace(',', '.'))
+                m_up_l = re.search(r'(\d+[.,]\d+)\s*€\s*/\s*(?:l|lt|litros?)\b', suffix_str, re.I)
+                if m_up_l:
+                    unit_price_l = float(m_up_l.group(1).replace(',', '.'))
 
                 # Fallback compute unit price
                 if not unit_price_val and price_val:
@@ -109,17 +123,21 @@ class ZooplusScraper(BaseScraper):
                         unit_price_val = round(price_val / weight_kg, 2)
 
                 products.append({
-                    'pid': str(pid),
-                    'name': name or f'Produto {pid}',
+                    'pid': str(unique_card_id),
+                    'name': name or f'Produto {unique_card_id}',
                     'brand': 'Desconhecida',
                     'price': price_val,
                     'unit_price_kg': unit_price_val,
+                    'unit_price_l': unit_price_l,
                     'pack_size': '',
                     'pdp_url': pdp_url,
                     'retailer': 'Zooplus'
                 })
 
             print(f"[Zooplus] Page {page}: found {len(cards)} cards (cataloged so far: {len(products)})")
+            if page > 1 and new_cards_this_page == 0:
+                print(f"[Zooplus] Page {page} yielded 0 new cards (catalog wraparound detected). Halting pagination.")
+                break
             page += 1
             time.sleep(self.rate_limit_delay)
 
@@ -202,12 +220,49 @@ class ZooplusScraper(BaseScraper):
                 pass
 
         if not brand and p.get('pdp_url'):
-            m_b = re.search(r'/shop/gato/(?:enlatados_gato|racao_gato)/([^/]+)/', p['pdp_url'])
-            if m_b:
-                brand = m_b.group(1).replace('_', ' ').title()
+            CATEGORY_SLUGS = {'areia_aglomerante', 'areia_biodegradavel', 'areia_silica', 'areia_bentonita', 'areia_naoaglomerante_gato', 'areia_vegetal', 'outras_marcas'}
+            m_parts = re.findall(r'/shop/gato/areia_gatos/([^/]+)(?:/([^/]+))?', p['pdp_url'])
+            if m_parts:
+                slug1, slug2 = m_parts[0]
+                candidate = slug2 if slug1 in CATEGORY_SLUGS and slug2 and not slug2.isdigit() else slug1
+                if candidate not in CATEGORY_SLUGS:
+                    clean_brand = re.sub(r'_areia$', '', candidate).replace('_', ' ').title()
+                    brand = clean_brand
+            else:
+                m_b = re.search(r'/shop/gato/(?:enlatados_gato|racao_gato)/([^/]+)/', p['pdp_url'])
+                if m_b:
+                    brand = m_b.group(1).replace('_', ' ').title()
+
+        if not brand:
+            KNOWN_LITTER_BRANDS = ["Cat's Best", "Tigerino", "Sanicat", "Biokat's", "Ever Clean", "KittyBay", "Benek", "Golden Grey", "Catsan", "Almo Nature", "Intersand"]
+            for kb in KNOWN_LITTER_BRANDS:
+                if kb.lower() in p.get('name', '').lower():
+                    brand = kb
+                    break
 
         if brand:
             p['brand'] = brand
+
+        # Subtitle / Variant pack size (critical for cat litter: e.g. '10 l (6 kg)')
+        subtitle_el = soup.find(attrs={'data-zta': 'ProductTitle__Subtitle'}) or soup.find(class_=re.compile(r'ProductTitle__Subtitle'))
+        if subtitle_el:
+            sub_text = subtitle_el.get_text(strip=True)
+            if sub_text:
+                p['pack_size'] = sub_text
+
+        # SelectedArticleBox for unit price per liter / kg if either is missing
+        if not p.get('unit_price_l') or not p.get('unit_price_kg'):
+            box_el = soup.find(attrs={'data-zta': 'SelectedArticleBox'}) or soup.find(attrs={'data-zta': 'SelectedArticleBox__TopSection'})
+            if box_el:
+                box_text = box_el.get_text()
+                if not p.get('unit_price_l'):
+                    m_box_l = re.search(r'(\d+[.,]\d+)\s*€\s*/\s*(?:l|lt|litros?)\b', box_text, re.I)
+                    if m_box_l:
+                        p['unit_price_l'] = float(m_box_l.group(1).replace(',', '.'))
+                if not p.get('unit_price_kg'):
+                    m_box_kg = re.search(r'(\d+[.,]\d+)\s*€\s*/\s*kg\b', box_text, re.I)
+                    if m_box_kg:
+                        p['unit_price_kg'] = float(m_box_kg.group(1).replace(',', '.'))
 
         # Ingredients
         ing_el = soup.find(attrs={'data-zta': 'productIngredients'})
@@ -254,4 +309,8 @@ class ZooplusScraper(BaseScraper):
 
     def scrape_dry(self, max_pages=None, max_workers=6):
         catalog = self._get_catalog(self.DRY_PATH, max_pages=max_pages)
+        return self._enrich_with_details(catalog, max_workers=max_workers)
+
+    def scrape_litter(self, max_pages=None, max_workers=6):
+        catalog = self._get_catalog(self.LITTER_PATH, max_pages=max_pages)
         return self._enrich_with_details(catalog, max_workers=max_workers)

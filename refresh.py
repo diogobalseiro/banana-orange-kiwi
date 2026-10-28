@@ -24,6 +24,7 @@ from src.scrapers.zu import ZUScraper
 from src.scrapers.zooplus import ZooplusScraper
 from src.scoring.wet_scorer import score_wet_product
 from src.scoring.dry_scorer import score_dry_product
+from src.scoring.litter_scorer import score_litter_product
 from src.scoring.reconciliation import (
     load_product_matches,
     reconcile_batch,
@@ -65,6 +66,14 @@ DRY_CSV_FIELDS = [
     'is_ranked', 'score', 'tier', 'value_ratio', 'is_grain_free', 'is_fractionated',
     'has_corn_gluten', 'has_colorants', 'unranked_reasons', 'pdp_url',
     'formulation_id', 'is_reconciled'
+]
+
+LITTER_CSV_FIELDS = [
+    'pid', 'name', 'brand', 'retailer', 'price', 'unit_price_l', 'unit_price_kg',
+    'volume_l', 'weight_kg', 'material', 'is_clumping', 'has_perfume', 'is_unscented',
+    'scent_name', 'is_low_dust', 'has_active_carbon', 'has_baking_soda',
+    'is_biodegradable', 'is_flushable', 'is_ranked', 'score', 'tier',
+    'value_ratio', 'unranked_reasons', 'pdp_url'
 ]
 
 def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_partial=False, manifest=None, generation_id=None):
@@ -131,7 +140,7 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
 
     if not is_valid:
         reason_str = "; ".join(reasons)
-        summary = extract_dataset_summary(scored_full, is_partial=is_limited)
+        summary = extract_dataset_summary(scored_full, is_partial=is_limited, dataset_key=dataset_key)
         record_rejection(data_dir, dataset_key, summary, reason_str, manifest=manifest)
         print(f"❌ [Quality Gate] Candidate REJECTED for {dataset_key}: {reason_str}")
         print(f"⚠️ [Quality Gate] Retaining previous accepted snapshot for {dataset_key}.")
@@ -147,7 +156,7 @@ def run_wet_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     atomic_save_csv(csv_path, scored_full, WET_CSV_FIELDS)
 
     snapshot_rel = save_snapshot(data_dir, dataset_key, generation_id, minified)
-    summary = extract_dataset_summary(scored_full, is_partial=is_limited)
+    summary = extract_dataset_summary(scored_full, is_partial=is_limited, dataset_key=dataset_key)
     summary["snapshot_file"] = snapshot_rel
     summary["file_mini"] = f"{retailer_name}_wet.json"
     summary["file_full"] = f"{retailer_name}_wet_full.json"
@@ -225,7 +234,7 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
 
     if not is_valid:
         reason_str = "; ".join(reasons)
-        summary = extract_dataset_summary(scored_full, is_partial=is_limited)
+        summary = extract_dataset_summary(scored_full, is_partial=is_limited, dataset_key=dataset_key)
         record_rejection(data_dir, dataset_key, summary, reason_str, manifest=manifest)
         print(f"❌ [Quality Gate] Candidate REJECTED for {dataset_key}: {reason_str}")
         print(f"⚠️ [Quality Gate] Retaining previous accepted snapshot for {dataset_key}.")
@@ -241,7 +250,7 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     atomic_save_csv(csv_path, scored_full, DRY_CSV_FIELDS)
 
     snapshot_rel = save_snapshot(data_dir, dataset_key, generation_id, minified)
-    summary = extract_dataset_summary(scored_full, is_partial=is_limited)
+    summary = extract_dataset_summary(scored_full, is_partial=is_limited, dataset_key=dataset_key)
     summary["snapshot_file"] = snapshot_rel
     summary["file_mini"] = f"{retailer_name}_dry.json"
     summary["file_full"] = f"{retailer_name}_dry_full.json"
@@ -254,6 +263,83 @@ def run_dry_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_par
     ranked_count = sum(1 for x in minified if x.get('ir'))
     unranked_count = len(minified) - ranked_count
     print(f"[Pipeline] Dry food complete: {len(minified)} products processed ({ranked_count} ranked, {unranked_count} unranked).")
+    return minified
+
+def run_litter_pipeline(retailer_name, scraper, data_dir, max_pages=None, allow_partial=False, manifest=None, generation_id=None):
+    if manifest is None:
+        manifest = load_manifest(data_dir)
+    if generation_id is None:
+        generation_id = f"gen_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}"
+
+    dataset_key = f"{retailer_name}_litter"
+    print(f"\n==========================================")
+    print(f"  Starting CAT LITTER Pipeline ({retailer_name})")
+    print(f"==========================================")
+
+    scraper_status = "COMPLETED"
+    raw_products = []
+    try:
+        raw_products = scraper.scrape_litter(max_pages=max_pages)
+    except Exception as e:
+        scraper_status = f"FAILED: {e}"
+        print(f"❌ [Scraper Error] {retailer_name} cat litter scrape failed: {e}")
+
+    scored_full = []
+    minified = []
+    for p in raw_products:
+        p_full, p_mini = score_litter_product(p)
+        if p_full is None or p_mini is None:
+            continue
+        scored_full.append(p_full)
+        minified.append(p_mini)
+
+    # Sort by ranked desc, score desc, then value_ratio desc
+    scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
+    minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
+
+    # Quality Gate Verification
+    is_limited = (max_pages is not None)
+    last_accepted = manifest.get("datasets", {}).get(dataset_key)
+    is_valid, reasons = validate_candidate_dataset(
+        candidate_products=scored_full,
+        dataset_key=dataset_key,
+        last_accepted_entry=last_accepted,
+        is_limited_run=is_limited,
+        allow_partial=allow_partial,
+        scraper_status=scraper_status
+    )
+
+    if not is_valid:
+        reason_str = "; ".join(reasons)
+        summary = extract_dataset_summary(scored_full, is_partial=is_limited, dataset_key=dataset_key)
+        record_rejection(data_dir, dataset_key, summary, reason_str, manifest=manifest)
+        print(f"❌ [Quality Gate] Candidate REJECTED for {dataset_key}: {reason_str}")
+        print(f"⚠️ [Quality Gate] Retaining previous accepted snapshot for {dataset_key}.")
+        return None
+
+    # Atomic publication
+    full_path = os.path.join(data_dir, f"{retailer_name}_litter_full.json")
+    mini_path = os.path.join(data_dir, f"{retailer_name}_litter.json")
+    csv_path = os.path.join(data_dir, f"{retailer_name}_litter.csv")
+
+    atomic_save_json(full_path, scored_full)
+    atomic_save_json(mini_path, minified)
+    atomic_save_csv(csv_path, scored_full, LITTER_CSV_FIELDS)
+
+    snapshot_rel = save_snapshot(data_dir, dataset_key, generation_id, minified)
+    summary = extract_dataset_summary(scored_full, is_partial=is_limited, dataset_key=dataset_key)
+    summary["snapshot_file"] = snapshot_rel
+    summary["file_mini"] = f"{retailer_name}_litter.json"
+    summary["file_full"] = f"{retailer_name}_litter_full.json"
+    summary["file_csv"] = f"{retailer_name}_litter.csv"
+
+    update_manifest_dataset(manifest, dataset_key, summary, generation_id)
+    save_manifest(data_dir, manifest)
+    prune_old_snapshots(data_dir, [manifest.get("active_generation_id"), manifest.get("previous_generation_id")])
+
+    ranked_count = sum(1 for x in minified if x.get('ir'))
+    unranked_count = len(minified) - ranked_count
+    print(f"[Pipeline] Cat litter complete: {len(minified)} products processed ({ranked_count} ranked, {unranked_count} unranked).")
     return minified
 
 def rescore_cached_data(data_dir, manifest=None, generation_id=None):
@@ -301,7 +387,7 @@ def rescore_cached_data(data_dir, manifest=None, generation_id=None):
             retrieved_at = prev_entry.get("retrieved_at", "2026-10-27T00:00:00Z")
             snapshot_rel = save_snapshot(data_dir, dataset_key_wet, generation_id, minified)
 
-            ds_summary = extract_dataset_summary(scored_full, is_partial=prev_entry.get("is_partial", False))
+            ds_summary = extract_dataset_summary(scored_full, is_partial=prev_entry.get("is_partial", False), dataset_key=dataset_key_wet)
             ds_summary["retrieved_at"] = retrieved_at
             ds_summary["rescored_at"] = datetime.now(timezone.utc).isoformat()
             ds_summary["snapshot_file"] = snapshot_rel
@@ -349,7 +435,7 @@ def rescore_cached_data(data_dir, manifest=None, generation_id=None):
             retrieved_at = prev_entry.get("retrieved_at", "2026-10-27T00:00:00Z")
             snapshot_rel = save_snapshot(data_dir, dataset_key_dry, generation_id, minified)
 
-            ds_summary = extract_dataset_summary(scored_full, is_partial=prev_entry.get("is_partial", False))
+            ds_summary = extract_dataset_summary(scored_full, is_partial=prev_entry.get("is_partial", False), dataset_key=dataset_key_dry)
             ds_summary["retrieved_at"] = retrieved_at
             ds_summary["rescored_at"] = datetime.now(timezone.utc).isoformat()
             ds_summary["snapshot_file"] = snapshot_rel
@@ -362,14 +448,56 @@ def rescore_cached_data(data_dir, manifest=None, generation_id=None):
             u_cnt = len(minified) - r_cnt
             print(f"  [Scorer] {ret} dry food: {len(minified)} products ({r_cnt} ranked, {u_cnt} unranked).")
 
+        # Cat litter
+        dataset_key_litter = f"{ret}_litter"
+        full_litter_path = os.path.join(data_dir, f"{ret}_litter_full.json")
+        if os.path.exists(full_litter_path):
+            with open(full_litter_path, 'r', encoding='utf-8') as f:
+                raw = json.load(f)
+            
+            scored_full = []
+            minified = []
+            for p in raw:
+                p_full, p_mini = score_litter_product(p)
+                if p_full is None or p_mini is None:
+                    continue
+                scored_full.append(p_full)
+                minified.append(p_mini)
+            
+            scored_full.sort(key=lambda x: (1 if x.get('is_ranked') else 0, x.get('score') or 0, x.get('value_ratio') or 0.0), reverse=True)
+            minified.sort(key=lambda x: (1 if x.get('ir') else 0, x.get('s') or 0, x.get('vr') or 0.0), reverse=True)
+
+            atomic_save_json(full_litter_path, scored_full)
+            atomic_save_json(os.path.join(data_dir, f"{ret}_litter.json"), minified)
+            atomic_save_csv(os.path.join(data_dir, f"{ret}_litter.csv"), scored_full, LITTER_CSV_FIELDS)
+
+            prev_entry = manifest.get("datasets", {}).get(dataset_key_litter, {})
+            retrieved_at = prev_entry.get("retrieved_at", "2026-10-27T00:00:00Z")
+            snapshot_rel = save_snapshot(data_dir, dataset_key_litter, generation_id, minified)
+
+            ds_summary = extract_dataset_summary(scored_full, is_partial=prev_entry.get("is_partial", False), dataset_key=dataset_key_litter)
+            ds_summary["retrieved_at"] = retrieved_at
+            ds_summary["rescored_at"] = datetime.now(timezone.utc).isoformat()
+            ds_summary["snapshot_file"] = snapshot_rel
+            ds_summary["file_mini"] = f"{ret}_litter.json"
+            ds_summary["file_full"] = f"{ret}_litter_full.json"
+            ds_summary["file_csv"] = f"{ret}_litter.csv"
+
+            update_manifest_dataset(manifest, dataset_key_litter, ds_summary, generation_id)
+            r_cnt = sum(1 for x in minified if x.get('ir'))
+            u_cnt = len(minified) - r_cnt
+            print(f"  [Scorer] {ret} cat litter: {len(minified)} products ({r_cnt} ranked, {u_cnt} unranked).")
+
     save_manifest(data_dir, manifest)
     prune_old_snapshots(data_dir, [manifest.get("active_generation_id"), manifest.get("previous_generation_id")])
     return manifest
 
 def main():
-    parser = argparse.ArgumentParser(description="Refresh and build Cat Food Rankings")
+    parser = argparse.ArgumentParser(description="Refresh and build Cat Food & Cat Litter Rankings")
     parser.add_argument('--retailer', choices=['continente', 'zu', 'zooplus', 'all'], default='continente', help="Retailer to scrape")
-    parser.add_argument('--type', choices=['wet', 'dry', 'all'], default='all', help="Food category to refresh")
+    parser.add_argument('--type', choices=['wet', 'dry', 'litter', 'all'], default=None, help="Product type to refresh")
+    parser.add_argument('--category', choices=['food', 'litter', 'all'], default=None, help="High-level category to refresh")
+    parser.add_argument('--all', dest='run_all', action='store_true', help="Refresh all retailers and all categories")
     parser.add_argument('--max-pages', type=int, default=None, help="Limit catalog pagination (for quick test runs)")
     parser.add_argument('--allow-partial', action='store_true', help="Allow publication of partial/limited catalog scrape")
     parser.add_argument('--skip-scrape', action='store_true', help="Skip scraping and rebuild index.html from existing data")
@@ -379,6 +507,26 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
     lock_path = os.path.join(data_dir, '.refresh.lock')
 
+    # Determine types to refresh (--type takes precedence over --category)
+    if args.run_all:
+        types_to_run = ['wet', 'dry', 'litter']
+    elif args.type == 'all':
+        types_to_run = ['wet', 'dry', 'litter']
+    elif args.type == 'litter':
+        types_to_run = ['litter']
+    elif args.type == 'wet':
+        types_to_run = ['wet']
+    elif args.type == 'dry':
+        types_to_run = ['dry']
+    elif args.category == 'all':
+        types_to_run = ['wet', 'dry', 'litter']
+    elif args.category == 'litter':
+        types_to_run = ['litter']
+    elif args.category == 'food':
+        types_to_run = ['wet', 'dry']
+    else:
+        types_to_run = ['wet', 'dry']
+
     try:
         with RefreshLock(lock_path):
             manifest = load_manifest(data_dir)
@@ -386,7 +534,7 @@ def main():
             failed_datasets = []
 
             if not args.skip_scrape:
-                target_retailers = ['continente', 'zu', 'zooplus'] if args.retailer == 'all' else [args.retailer]
+                target_retailers = ['continente', 'zu', 'zooplus'] if (args.retailer == 'all' or args.run_all) else [args.retailer]
 
                 for ret in target_retailers:
                     scraper_cls = SCRAPERS.get(ret)
@@ -394,7 +542,7 @@ def main():
                         raise NotImplementedError(f"Scraper for {ret} is not available.")
                     scraper = scraper_cls()
 
-                    if args.type in ['wet', 'all']:
+                    if 'wet' in types_to_run:
                         res = run_wet_pipeline(
                             ret, scraper, data_dir, 
                             max_pages=args.max_pages, 
@@ -405,7 +553,7 @@ def main():
                         if res is None:
                             failed_datasets.append(f"{ret}_wet")
 
-                    if args.type in ['dry', 'all']:
+                    if 'dry' in types_to_run:
                         res = run_dry_pipeline(
                             ret, scraper, data_dir, 
                             max_pages=args.max_pages, 
@@ -415,14 +563,25 @@ def main():
                         )
                         if res is None:
                             failed_datasets.append(f"{ret}_dry")
+
+                    if 'litter' in types_to_run:
+                        res = run_litter_pipeline(
+                            ret, scraper, data_dir,
+                            max_pages=args.max_pages,
+                            allow_partial=args.allow_partial,
+                            manifest=manifest,
+                            generation_id=generation_id
+                        )
+                        if res is None:
+                            failed_datasets.append(f"{ret}_litter")
             else:
                 manifest = rescore_cached_data(data_dir, manifest=manifest, generation_id=generation_id)
 
             # Rebuild unified HTML site
             print("\n[Builder] Recompiling unified GitHub Pages dashboard...")
-            wet_products, dry_products = load_data(data_dir, manifest=manifest)
+            wet_products, dry_products, litter_products = load_data(data_dir, manifest=manifest)
             index_html = os.path.join(BASE_DIR, 'index.html')
-            generate_html(wet_products, dry_products, index_html, manifest_data=manifest)
+            generate_html(wet_products, dry_products, litter_products, index_html, manifest_data=manifest)
 
             if failed_datasets:
                 print(f"\n❌ Refresh ended with candidate rejections: {failed_datasets}")

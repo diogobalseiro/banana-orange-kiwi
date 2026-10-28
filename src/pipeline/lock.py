@@ -19,11 +19,15 @@ class RefreshLock:
 
     def acquire(self):
         os.makedirs(os.path.dirname(os.path.abspath(self.lock_file_path)), exist_ok=True)
-        self._fd = open(self.lock_file_path, 'w')
+        # Open in append/read-write mode without truncating existing active lock file
+        self._fd = open(self.lock_file_path, 'a+')
         start = time.time()
         while True:
             try:
                 fcntl.flock(self._fd.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                # Acquired: truncate and write PID safely
+                self._fd.seek(0)
+                self._fd.truncate(0)
                 self._fd.write(f"pid: {os.getpid()}\ntime: {time.time()}\n")
                 self._fd.flush()
                 return self
@@ -45,11 +49,7 @@ class RefreshLock:
                 pass
             finally:
                 self._fd = None
-                try:
-                    if os.path.exists(self.lock_file_path):
-                        os.remove(self.lock_file_path)
-                except OSError:
-                    pass
+                # Retaining lock file on POSIX prevents inode deletion races while maintaining clean fd locks
 
     def __enter__(self):
         return self.acquire()

@@ -1,5 +1,5 @@
 import re
-from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, extract_total_meat_percentage, FieldStatus
+from .evidence import normalize_nutrients, validate_composition, check_scoring_readiness, extract_first_ingredient, extract_total_meat_percentage, check_has_organs, FieldStatus
 
 def parse_dry_nutrition(nutri_text):
     return normalize_nutrients(nutri_text, category='dry')
@@ -154,7 +154,7 @@ def score_dry_product(p):
     has_urinary_support = any(u in text_to_check for u in ['arando', 'mirtilo', 'cranberry', 'dl-metionina', 'metionina', 'saúde urinária', 'trato urinário', 'controlo de ph'])
     has_taurine = any(t in text_to_check for t in ['taurina', 'taurine'])
     has_marine_omega = bool(re.search(r'\b(?:epa|dha)\b', text_to_check, re.I)) or any(o in text_to_check for o in ['óleo de salmão', 'oleo de salmao', 'óleo de peixe', 'oleo de peixe', 'ómega-3', 'omega-3', 'salmon oil', 'fish oil', 'óleo de escamudo'])
-    has_organs = any(o in ingr_lower for o in ['coração', 'corações', 'fígado', 'figado', 'moela', 'moelas', 'pulmão', 'pulmões', 'estômago', 'estômagos', 'rins', 'rim', 'miudezas']) if has_valid_composition else False
+    has_organs = check_has_organs(ingr_clean_text) if has_valid_composition else False
 
     # 2. Parse analytical components using Evidence Contract
     nutri = normalize_nutrients(nutri_raw, category='dry')
@@ -257,11 +257,15 @@ def score_dry_product(p):
         prot = nutri.get('protein', {}).get('value')
         if prot is not None:
             if prot >= 40.0:
-                score += 10
-            elif prot >= 35.0:
-                score += 5
-            elif prot < 30.0:
-                score -= 15
+                score += 12
+            elif prot >= 36.0:
+                score += 6
+            elif prot >= 32.0:
+                score += 0
+            elif prot >= 28.0:
+                score -= 8
+            else:
+                score -= 18
 
         fat = nutri.get('fat', {}).get('value')
         if fat is not None:
@@ -280,14 +284,16 @@ def score_dry_product(p):
                     score += 4
 
         if carbs is not None:
-            if carbs <= 15.0:
-                score += 12
-            elif carbs <= 25.0:
-                score += 4
-            elif carbs <= 35.0:
-                score -= 5
+            if carbs <= 18.0:
+                score += 14
+            elif carbs <= 24.0:
+                score += 6
+            elif carbs <= 30.0:
+                score -= 4
+            elif carbs <= 38.0:
+                score -= 10
             else:
-                score -= 15
+                score -= 18
 
         # 4. Mineral balance
         mg = nutri.get('magnesium', {}).get('value')
@@ -318,10 +324,47 @@ def score_dry_product(p):
 
         score = max(10, min(95, score))
 
-        # Grain-inclusive dry kibble cannot exceed Tier A (ceiling of 79)
-        # Feline obligate carnivore biology reserves Tier S (80+) strictly for grain-free formulas
-        if not is_grain_free and score >= 80:
-            score = 79
+        # Hard Biological Ceilings for Obligate Carnivores:
+        # 1. Tier S Ceiling (Cap at 79 / Tier A):
+        # Strict biological requirements for Tier S (80+):
+        # - Truly Grain-Free
+        # - Crude Protein >= 38.0% (or >= 36.0% for sterilised)
+        # - Carbs (NFE) <= 30.0% (or <= 35.0% for sterilised)
+        # - Non-fractionated (no split pea/potato starches/proteins)
+        # - Not a private label supermarket brand without verified formulation
+        private_labels = {'continente', 'continente pet', 'continente pet care', 'continente pet premium', 'continente pet basic', 'pingo doce', 'auchan', 'mercadona', 'compy'}
+
+        min_tier_s_prot = 36.0 if is_sterilised else 38.0
+        max_tier_s_carbs = 35.0 if is_sterilised else 30.0
+
+        if score >= 80:
+            if not is_grain_free:
+                score = 79
+            elif is_fractionated:
+                score = 79
+            elif prot is not None and prot < min_tier_s_prot:
+                score = 79
+            elif carbs is not None and carbs > max_tier_s_carbs:
+                score = 79
+            elif any(pl in name_lower or pl in brand.lower() for pl in private_labels):
+                score = 79
+
+        # 2. Tier A Biological Ceilings (Cap at 64 / Tier B):
+        # - Private label supermarket brands that rely on starch fractionation, have low meat (<50%), or protein < 35%
+        # - Any formula with crude protein < 33.0% (cannot qualify as "Alto Teor Carne")
+        # - Any formula with excessive carbohydrates (> 36.0%)
+        if score >= 65:
+            is_private_label = any(pl in name_lower or pl in brand.lower() for pl in private_labels)
+            if is_private_label and (is_fractionated or (meat_pct is not None and meat_pct < 50) or (prot is not None and prot < 35.0)):
+                score = 64
+            elif prot is not None and prot < 33.0:
+                score = 64
+            elif carbs is not None and carbs > 36.0:
+                score = 64
+
+        # 3. Cheap grains & corn gluten ceiling (Cap at 54 / Tier C):
+        if (has_cheap_grains or has_corn_gluten) and score >= 55:
+            score = 54
 
         if score >= 80:
             tier = 'Tier S (Ultra-Premium)'
