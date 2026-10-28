@@ -80,7 +80,7 @@
     "value_ratio": 12.98,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.360046+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.560167+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -184,7 +184,7 @@
     "value_ratio": 11.42,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.360304+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.560391+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -379,7 +379,7 @@
     "value_ratio": 7.15,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.360751+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.560806+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -846,7 +846,7 @@
     "value_ratio": null,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.361878+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.561896+00:00",
     "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
     "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
     "classification": "complete",
@@ -951,7 +951,7 @@
     "value_ratio": null,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.362062+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.562070+00:00",
     "ingredients": "Carne fresca de javali (20%), borrego desidratado (18%), carne desidratada de porco (15%), batata, ervilha, gordura de aves, óleo de salmão, maçã fresca, arando.",
     "nutrition_raw": "Proteína bruta: 36.0%, Gordura bruta: 16.0%, Fibra bruta: 2.5%, Cinza bruta: 8.0%",
     "classification": "complete",
@@ -1057,7 +1057,7 @@
     "value_ratio": 11.17,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.362276+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.562313+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1358,7 +1358,7 @@
     "value_ratio": 9.35,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.363212+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.562976+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1462,7 +1462,7 @@
     "value_ratio": 14.02,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.363384+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.563106+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1566,7 +1566,7 @@
     "value_ratio": 11.5,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.363532+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.563227+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1776,7 +1776,7 @@
     "value_ratio": 8.98,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.363933+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.563578+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2092,7 +2092,7 @@
     "value_ratio": 16.92,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.364571+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.564151+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2287,7 +2287,7 @@
     "value_ratio": 10.33,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.365032+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.564559+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2497,7 +2497,7 @@
     "value_ratio": 9.29,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.365412+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.564895+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2885,6 +2885,111 @@
     "has_organs": true
   },
   {
+    "pid": "8375243",
+    "name": "Ração para Gato Júnior Frango Smaak",
+    "brand": "Smaak",
+    "price": 11.99,
+    "unit_price_kg": null,
+    "pack_size": "",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-frango-smaak-8375243",
+    "retailer": "ZU",
+    "body_html": "<p>Alimento seco irresistível para gatinhos, com croquetes estaladiços e receita rica em frango fresco para um crescimento saudável e energia diária.</p>",
+    "fetch_error": "Fetch failed for https://www.zu.pt/products/racao-para-gato-junior-frango-smaak-8375243 [status: 429]: Exhausted 4 retries: HTTP Error 429: Too Many Requests",
+    "is_reconciled": true,
+    "formulation_id": "smaak_junior_frango_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Frango 70% (frango desidratado 35%, frango fresco 25%, gordura de frango 8%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, mananoligossacarídeos, frutoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "raw_nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 20,0%, Cinzas 7%, Fibra bruta 3,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 38.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 20.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 7.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 3.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 1.7,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 1.1,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 92.0,
+      "protein_dmb": 41.3,
+      "fat_dmb": 21.7,
+      "carbs_nfe": 23.5,
+      "carbs_dmb": 25.5,
+      "ca_p_ratio": 1.55
+    },
+    "score": 79,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": true,
+    "is_sterilised": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Frango 70% (frango desidratado 35%, frango fresco 25%, gordura de frango 8%, caldo de galinha 2%)",
+    "is_grain_free": false,
+    "is_fractionated": true,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": null,
+    "carb_band": "15-25% (Moderado)",
+    "has_material_conflict": false,
+    "protein": 38.0,
+    "fat": 20.0,
+    "carbs": 23.5,
+    "meat_pct": 100,
+    "has_grains": true,
+    "has_sugar": false,
+    "has_organs": false,
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.565882+00:00",
+    "ingredients": "Frango 70% (frango desidratado 35%, frango fresco 25%, gordura de frango 8%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, mananoligossacarídeos, frutoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 20,0%, Cinzas 7%, Fibra bruta 3,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+    "classification": "complete",
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "8375243",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "smaak_junior_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
     "pid": "8642838",
     "name": "Ração para Gato Júnior Pato Purenatural",
     "brand": "Purenatural",
@@ -2965,7 +3070,7 @@
     "value_ratio": 9.2,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.366499+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.566027+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2984,97 +3089,6 @@
     "fat": 18.0,
     "carbs": 28.5,
     "meat_pct": 48,
-    "has_grains": true,
-    "has_sugar": false,
-    "has_organs": false
-  },
-  {
-    "pid": "8375245",
-    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
-    "brand": "Smaak",
-    "price": 11.99,
-    "unit_price_kg": 6.57,
-    "pack_size": "emb. 7 kg",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-frango-smaak-458095",
-    "retailer": "ZU",
-    "ingredients": "Composição: Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
-    "description": "Caraterísticas\nDescrição:\nA ração de gato foi especialmente desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a precisar de menos calorias. Com frango fresco, gordura de frango e molho de frango, garante um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde oral. Enriquecida com óleo de salmão para um pelo brilhante, esta receita inclui ainda hidratos de aveia e batata, arandos para suporte do trato urinário e yucca para reduzir odores nas fezes.\nSabor:\nFrango",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Composição: Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 38.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 12.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 8.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 7.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 4.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": 1.7,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 1.1,
-        "status": "valid"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": 92.0,
-      "protein_dmb": 41.3,
-      "fat_dmb": 13.0,
-      "carbs_nfe": 30.5,
-      "carbs_dmb": 33.2,
-      "ca_p_ratio": 1.55
-    },
-    "score": 77,
-    "tier": "Tier A (Excelente / Alto Teor Carne)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": false,
-    "has_marine_omega": true,
-    "value_ratio": 11.72,
-    "carb_band": "25-35% (Elevado)",
-    "has_material_conflict": false,
-    "protein": 38.0,
-    "fat": 12.0,
-    "carbs": 30.5,
-    "meat_pct": 100,
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
@@ -3342,7 +3356,7 @@
     "value_ratio": 12.3,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.367344+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.566608+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3446,7 +3460,7 @@
     "value_ratio": 6.62,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.367491+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.566749+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3650,6 +3664,110 @@
     "has_grains": true,
     "has_sugar": false,
     "has_organs": false
+  },
+  {
+    "pid": "8375245",
+    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
+    "brand": "Smaak",
+    "price": 11.99,
+    "unit_price_kg": 6.57,
+    "pack_size": "emb. 7 kg",
+    "pdp_url": "https://www.zu.pt/products/racao-para-gato-adulto-esterilizado-frango-smaak-458095",
+    "retailer": "ZU",
+    "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+    "description": "Caraterísticas\nDescrição:\nA ração de gato foi especialmente desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a precisar de menos calorias. Com frango fresco, gordura de frango e molho de frango, garante um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde oral. Enriquecida com óleo de salmão para um pelo brilhante, esta receita inclui ainda hidratos de aveia e batata, arandos para suporte do trato urinário e yucca para reduzir odores nas fezes.\nSabor:\nFrango",
+    "is_reconciled": true,
+    "formulation_id": "smaak_adult_esterilizado_frango_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Composição: Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 38.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 7.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 1.7,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 1.1,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 92.0,
+      "protein_dmb": 41.3,
+      "fat_dmb": 13.0,
+      "carbs_nfe": 30.5,
+      "carbs_dmb": 33.2,
+      "ca_p_ratio": 1.55
+    },
+    "score": 74,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
+    "is_grain_free": false,
+    "is_fractionated": true,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 11.26,
+    "carb_band": "25-35% (Elevado)",
+    "has_material_conflict": false,
+    "protein": 38.0,
+    "fat": 12.0,
+    "carbs": 30.5,
+    "meat_pct": 100,
+    "has_grains": true,
+    "has_sugar": false,
+    "has_organs": false,
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.567358+00:00",
+    "classification": "complete",
+    "reconciliation_sources": {
+      "retailer": "zu",
+      "pid": "8375245",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "smaak_adult_esterilizado_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "8872246",
@@ -4203,7 +4321,7 @@
     "value_ratio": 5.49,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.369419+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.568743+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4307,7 +4425,7 @@
     "value_ratio": 9.94,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.369606+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.568900+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4411,7 +4529,7 @@
     "value_ratio": 7.61,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.369782+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.569058+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4515,7 +4633,7 @@
     "value_ratio": 7.18,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.369954+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.569227+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4619,7 +4737,7 @@
     "value_ratio": 7.18,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.370124+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.569381+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4723,7 +4841,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.370508+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.569757+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4827,7 +4945,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.370894+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.570121+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4931,7 +5049,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.371065+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.570284+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5505,7 +5623,7 @@
     "value_ratio": 7.08,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.372385+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.571560+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5609,7 +5727,7 @@
     "value_ratio": 5.25,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.372575+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.571745+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7001,7 +7119,7 @@
     "value_ratio": 5.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.375963+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.575071+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7105,7 +7223,7 @@
     "value_ratio": 5.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.376109+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.575213+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7315,7 +7433,7 @@
     "value_ratio": 4.63,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.376566+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.575648+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7419,7 +7537,7 @@
     "value_ratio": 4.59,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.376711+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.575781+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7736,7 +7854,7 @@
     "value_ratio": 7.52,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.377409+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.576457+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10780,7 +10898,7 @@
     "value_ratio": 10.63,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.385593+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.584225+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11945,7 +12063,7 @@
     "value_ratio": 13.5,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.388453+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.587004+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12049,7 +12167,7 @@
     "value_ratio": 13.33,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.388592+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.587135+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12259,7 +12377,7 @@
     "value_ratio": 9.34,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.388979+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.587517+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13864,7 +13982,7 @@
     "value_ratio": 11.02,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.393183+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.591693+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14362,7 +14480,7 @@
     "value_ratio": 5.32,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.394325+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.592833+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15254,7 +15372,7 @@
     "value_ratio": 8.03,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.396922+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.595012+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15358,7 +15476,7 @@
     "value_ratio": 5.46,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.397155+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.595201+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15462,7 +15580,7 @@
     "value_ratio": 5.46,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.397370+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.595401+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16869,7 +16987,7 @@
     "value_ratio": 5.63,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.400768+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.598526+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16973,7 +17091,7 @@
     "value_ratio": 5.42,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.400962+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.598703+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22822,7 +22940,7 @@
     "carb_band": ">35% (Muito Alto) (Est.)",
     "has_material_conflict": false,
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:00.416439+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.613089+00:00",
     "classification": "complete",
     "reconciliation_sources": {
       "retailer": "zu",
@@ -24707,99 +24825,6 @@
     "tier": "Não classificado (Dados insuficientes)",
     "is_kitten": false,
     "is_sterilised": true,
-    "is_ranked": false,
-    "unranked_reasons": [
-      "missing_composition",
-      "missing_nutrition"
-    ],
-    "first_ingredient": null,
-    "is_grain_free": null,
-    "is_fractionated": null,
-    "has_corn_gluten": null,
-    "has_colorants": null,
-    "has_taurine": false,
-    "has_marine_omega": false,
-    "value_ratio": null,
-    "carb_band": "N/D",
-    "has_material_conflict": false,
-    "protein": null,
-    "fat": null,
-    "carbs": null,
-    "meat_pct": null,
-    "has_grains": false,
-    "has_sugar": null,
-    "has_organs": false
-  },
-  {
-    "pid": "8375243",
-    "name": "Ração para Gato Júnior Frango Smaak",
-    "brand": "Smaak",
-    "price": 11.99,
-    "unit_price_kg": null,
-    "pack_size": "",
-    "pdp_url": "https://www.zu.pt/products/racao-para-gato-junior-frango-smaak-8375243",
-    "retailer": "ZU",
-    "body_html": "<p>Alimento seco irresistível para gatinhos, com croquetes estaladiços e receita rica em frango fresco para um crescimento saudável e energia diária.</p>",
-    "fetch_error": "Fetch failed for https://www.zu.pt/products/racao-para-gato-junior-frango-smaak-8375243 [status: 429]: Exhausted 4 retries: HTTP Error 429: Too Many Requests",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "",
-    "raw_nutrition_raw": "",
-    "nutrition_parsed": {
-      "status": "missing",
-      "protein": {
-        "value": null,
-        "status": "missing"
-      },
-      "fat": {
-        "value": null,
-        "status": "missing"
-      },
-      "moisture": {
-        "value": null,
-        "status": "missing"
-      },
-      "ash": {
-        "value": null,
-        "status": "missing"
-      },
-      "fiber": {
-        "value": null,
-        "status": "missing"
-      },
-      "calcium": {
-        "value": null,
-        "status": "missing"
-      },
-      "phosphorus": {
-        "value": null,
-        "status": "missing"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": null,
-        "unit": null,
-        "status": "missing"
-      },
-      "dm_pct": null,
-      "protein_dmb": null,
-      "fat_dmb": null,
-      "carbs_nfe": null,
-      "carbs_dmb": null,
-      "ca_p_ratio": null
-    },
-    "score": null,
-    "tier": "Não classificado (Dados insuficientes)",
-    "is_kitten": true,
-    "is_sterilised": false,
     "is_ranked": false,
     "unranked_reasons": [
       "missing_composition",

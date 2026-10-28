@@ -640,7 +640,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:58.776462+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.084168+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -743,7 +743,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_duo_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:58.775945+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.087094+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -846,7 +846,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:58.776342+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.087215+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -1216,7 +1216,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:58.771296+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.087996+00:00",
     "classification": "Completo",
     "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development.",
     "has_material_conflict": false,
@@ -1474,7 +1474,7 @@
     "value_ratio": 3.86,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.774422+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.088346+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -1577,7 +1577,7 @@
     "value_ratio": 3.86,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.774571+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.088473+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -1615,7 +1615,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:58.777601+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.088588+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -1871,7 +1871,7 @@
     "value_ratio": 3.63,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.774710+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.088918+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -1909,7 +1909,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:58.777953+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.089036+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -3946,7 +3946,7 @@
     "value_ratio": 2.9,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.786455+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.093737+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -4048,7 +4048,7 @@
     "value_ratio": 2.9,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.786649+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.093858+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -4698,7 +4698,7 @@
     "value_ratio": 2.27,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.775304+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.095219+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -4801,7 +4801,7 @@
     "value_ratio": 2.2,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.777326+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.095658+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -5349,7 +5349,7 @@
     "value_ratio": 2.6,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.793426+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.097236+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -5451,7 +5451,7 @@
     "value_ratio": 2.15,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.794315+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.097372+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -5553,7 +5553,7 @@
     "value_ratio": 2.15,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.794443+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.097493+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -5655,7 +5655,7 @@
     "value_ratio": 2.03,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.794570+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.097608+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -5757,7 +5757,7 @@
     "value_ratio": 1.91,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.794694+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.097726+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -5859,7 +5859,7 @@
     "value_ratio": 1.61,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.777463+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.097856+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -6052,7 +6052,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.797115+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.098435+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "7144887",
@@ -6154,7 +6154,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.797528+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.098768+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "7144884",
@@ -9590,7 +9590,7 @@
     "value_ratio": 1.52,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.790311+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.107416+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -11216,7 +11216,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.811221+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.111244+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "7684565",
@@ -11318,7 +11318,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.811563+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.111538+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "7684560",
@@ -11509,7 +11509,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.812097+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.112053+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "7684558",
@@ -11610,7 +11610,7 @@
     "value_ratio": 1.52,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.812230+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.112190+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -12158,7 +12158,7 @@
     "value_ratio": 1.42,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.790452+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.113749+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -12261,7 +12261,7 @@
     "value_ratio": 1.42,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.812409+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.113898+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -12631,7 +12631,7 @@
     "value_ratio": 1.34,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.790586+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.114634+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -13001,7 +13001,7 @@
     "value_ratio": 1.3,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.813162+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.115429+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -13103,7 +13103,7 @@
     "value_ratio": 1.3,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.813378+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.115573+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -13768,7 +13768,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.813725+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.117117+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "7684622",
@@ -13870,7 +13870,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.814090+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.117433+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "7684569",
@@ -14594,7 +14594,7 @@
     "value_ratio": 1.07,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.814901+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.119037+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -15230,7 +15230,7 @@
     "value_ratio": 1.02,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.815778+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.120580+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -15777,7 +15777,7 @@
     "value_ratio": 0.97,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.808690+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.121797+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -16058,7 +16058,7 @@
     "value_ratio": 0.97,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.816404+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.122386+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -16160,7 +16160,7 @@
     "value_ratio": 0.97,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.816557+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.122554+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -16262,7 +16262,7 @@
     "value_ratio": 0.97,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.816735+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.122694+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -16365,7 +16365,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.817081+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.122975+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "5128275",
@@ -17446,7 +17446,7 @@
     "value_ratio": 0.96,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.818694+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.125627+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",
@@ -17549,7 +17549,7 @@
     "carb_band": "10-20% DMB (Moderado)",
     "has_material_conflict": false,
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.819016+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.125918+00:00",
     "reconciliation_sources": {
       "retailer": "continente",
       "pid": "8755178",
@@ -18541,7 +18541,7 @@
     "value_ratio": 0.72,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:58.820686+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.128409+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "continente",

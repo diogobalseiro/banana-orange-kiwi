@@ -444,7 +444,7 @@
     "value_ratio": 13.31,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.423417+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.540658+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1822,7 +1822,7 @@
     "value_ratio": 6.48,
     "carb_band": "<=15% (Baixo / Ideal)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.427799+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.544618+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3473,7 +3473,7 @@
     "value_ratio": 6.34,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.432887+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.549427+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3759,7 +3759,7 @@
     "value_ratio": 12.85,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.433320+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.550093+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5046,7 +5046,7 @@
     "value_ratio": 8.02,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.437008+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.553651+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5241,7 +5241,7 @@
     "value_ratio": 12.92,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.437520+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.554100+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5345,7 +5345,7 @@
     "value_ratio": 0.09,
     "carb_band": "<=15% (Baixo / Ideal) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.437739+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.554310+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5540,7 +5540,7 @@
     "value_ratio": 6.31,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.438122+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.554690+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5917,7 +5917,7 @@
     "value_ratio": 10.99,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.439119+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.555646+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6021,7 +6021,7 @@
     "value_ratio": 10.67,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.439340+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.555854+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6216,7 +6216,7 @@
     "value_ratio": 13.39,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.439803+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.556297+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6593,7 +6593,7 @@
     "value_ratio": 7.52,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.440817+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.557285+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6697,7 +6697,7 @@
     "value_ratio": 7.06,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.441025+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.557490+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6892,7 +6892,7 @@
     "value_ratio": 5.93,
     "carb_band": "15-25% (Moderado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.441492+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.557939+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7087,7 +7087,7 @@
     "value_ratio": 5.78,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.441991+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.558420+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7646,7 +7646,7 @@
     "value_ratio": 7.09,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.443639+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.560032+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8114,7 +8114,7 @@
     "value_ratio": 5.64,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.444902+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.561252+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8218,7 +8218,7 @@
     "value_ratio": 10.13,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.445136+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.561475+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8413,7 +8413,7 @@
     "value_ratio": 5.97,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.445608+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.561929+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8517,7 +8517,7 @@
     "value_ratio": 5.58,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.446188+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.562136+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8621,7 +8621,7 @@
     "value_ratio": 7.5,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.446545+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.562536+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -8725,7 +8725,7 @@
     "value_ratio": 7.14,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.446773+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.562740+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9375,7 +9375,7 @@
     "value_ratio": 5.34,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.448592+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.564497+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9843,7 +9843,7 @@
     "value_ratio": 4.74,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.449939+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.565811+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9947,7 +9947,7 @@
     "value_ratio": 6.57,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.450121+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.565991+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10051,7 +10051,7 @@
     "value_ratio": 5.3,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.450340+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.566205+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10155,7 +10155,7 @@
     "value_ratio": 15.84,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.450549+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.566404+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10532,7 +10532,7 @@
     "value_ratio": 4.02,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.451563+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.567376+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10818,7 +10818,7 @@
     "value_ratio": 9.22,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.452323+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.568095+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11104,7 +11104,7 @@
     "value_ratio": 13.98,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.453043+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.568773+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11208,7 +11208,7 @@
     "value_ratio": 13.98,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.453239+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.568953+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11312,7 +11312,7 @@
     "value_ratio": 13.83,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.453432+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.569140+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11416,7 +11416,7 @@
     "value_ratio": 12.38,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.453625+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.569325+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11520,7 +11520,7 @@
     "value_ratio": 10.38,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.453815+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.569511+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11624,7 +11624,7 @@
     "value_ratio": 10.27,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.454006+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.569696+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12092,7 +12092,7 @@
     "value_ratio": 12.31,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.455220+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.570864+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12287,7 +12287,7 @@
     "value_ratio": 4.65,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.455715+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.571339+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12755,7 +12755,7 @@
     "value_ratio": 4.73,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.456909+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.572471+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12950,7 +12950,7 @@
     "value_ratio": 8.31,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.457371+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.572917+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13054,7 +13054,7 @@
     "value_ratio": 7.16,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.457607+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.573150+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13158,7 +13158,7 @@
     "value_ratio": 14.19,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.457846+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.573375+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13262,7 +13262,7 @@
     "value_ratio": 6.91,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.458055+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.573577+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13366,7 +13366,7 @@
     "value_ratio": 5.47,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.458260+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.573777+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13561,7 +13561,7 @@
     "value_ratio": 7.06,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.458718+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.574216+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13665,7 +13665,7 @@
     "value_ratio": 6.52,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.458905+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.574391+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13951,7 +13951,7 @@
     "value_ratio": 6.81,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.459666+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.575121+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14055,7 +14055,7 @@
     "value_ratio": 6.68,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.459850+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.575296+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14250,7 +14250,7 @@
     "value_ratio": 4.94,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.460241+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.575673+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14354,7 +14354,7 @@
     "value_ratio": 4.73,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.460549+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.575972+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14458,7 +14458,7 @@
     "value_ratio": 4.58,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.460737+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.576154+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14562,7 +14562,7 @@
     "value_ratio": 3.62,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.460990+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.576388+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14666,7 +14666,7 @@
     "value_ratio": 6.46,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.461268+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.576649+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14770,7 +14770,7 @@
     "value_ratio": 5.38,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.461470+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.576840+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14965,7 +14965,7 @@
     "value_ratio": 3.35,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.461915+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.577271+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15160,7 +15160,7 @@
     "value_ratio": 7.42,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.462374+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.577709+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15355,7 +15355,7 @@
     "value_ratio": 11.96,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.463254+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.578184+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15459,7 +15459,7 @@
     "value_ratio": 6.11,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.463473+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.578370+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15654,7 +15654,7 @@
     "value_ratio": 8.08,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.463961+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.578833+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15758,7 +15758,7 @@
     "value_ratio": 7.42,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.464183+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.579284+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -15862,7 +15862,7 @@
     "value_ratio": 3.79,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.464405+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.579519+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16057,7 +16057,7 @@
     "value_ratio": 3.79,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.464857+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.579996+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16252,7 +16252,7 @@
     "value_ratio": 5.89,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.465346+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.580451+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16356,7 +16356,7 @@
     "value_ratio": 8.06,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.465553+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.580637+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16460,7 +16460,7 @@
     "value_ratio": 6.38,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.465746+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.580814+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16564,7 +16564,7 @@
     "value_ratio": 3.4,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.465939+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.580992+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16759,7 +16759,7 @@
     "value_ratio": 6.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.466366+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.581398+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16863,7 +16863,7 @@
     "value_ratio": 5.68,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.466572+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.581586+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16967,7 +16967,7 @@
     "value_ratio": 4.94,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.466770+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.581785+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17071,7 +17071,7 @@
     "value_ratio": 4.48,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.466959+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.581956+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17175,7 +17175,7 @@
     "value_ratio": 4.41,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.467163+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.582139+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17279,7 +17279,7 @@
     "value_ratio": 4.35,
     "carb_band": ">35% (Muito Alto)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.467377+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.582332+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17383,7 +17383,7 @@
     "value_ratio": 3.85,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.467715+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.582642+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17669,7 +17669,7 @@
     "value_ratio": 5.55,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.468505+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.583371+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17864,7 +17864,7 @@
     "value_ratio": 4.45,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.468977+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.583824+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17968,7 +17968,7 @@
     "value_ratio": 3.5,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.469190+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.584014+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18163,7 +18163,7 @@
     "value_ratio": 8.81,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.469638+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.584423+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18267,7 +18267,7 @@
     "value_ratio": 8.81,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.469807+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.584583+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18462,7 +18462,7 @@
     "value_ratio": 5.8,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.470233+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.584980+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18566,7 +18566,7 @@
     "value_ratio": 5.65,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.470433+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.585176+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18670,7 +18670,7 @@
     "value_ratio": 5.54,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.470657+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.585386+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18774,7 +18774,7 @@
     "value_ratio": 5.54,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.470810+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.585528+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18878,7 +18878,7 @@
     "value_ratio": 4.46,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.470972+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.585687+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18982,7 +18982,7 @@
     "value_ratio": 3.2,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.471139+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.585848+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19086,7 +19086,7 @@
     "value_ratio": 3.2,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.471343+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.586036+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19190,7 +19190,7 @@
     "value_ratio": 10.06,
     "carb_band": "<=15% (Baixo / Ideal) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.471633+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.586328+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19385,7 +19385,7 @@
     "value_ratio": 10.62,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.472052+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.586733+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19489,7 +19489,7 @@
     "value_ratio": 9.79,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.472318+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.586984+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19593,7 +19593,7 @@
     "value_ratio": 8.44,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.472542+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.587200+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19697,7 +19697,7 @@
     "value_ratio": 6.44,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.472794+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.587434+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19801,7 +19801,7 @@
     "value_ratio": 6.17,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.472994+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.587630+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19905,7 +19905,7 @@
     "value_ratio": 5.99,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.473231+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.587858+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20009,7 +20009,7 @@
     "value_ratio": 5.91,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.473470+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.588086+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20113,7 +20113,7 @@
     "value_ratio": 5.87,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.473695+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.588308+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20217,7 +20217,7 @@
     "value_ratio": 5.86,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.473927+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.588526+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20321,7 +20321,7 @@
     "value_ratio": 5.6,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.474145+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.588740+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20425,7 +20425,7 @@
     "value_ratio": 5.44,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.474373+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.588961+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20620,7 +20620,7 @@
     "value_ratio": 3.91,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.474911+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.589482+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20724,7 +20724,7 @@
     "value_ratio": 3.12,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.475135+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.589699+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20919,7 +20919,7 @@
     "value_ratio": 9.68,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.475601+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.590152+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21023,7 +21023,7 @@
     "value_ratio": 5.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.475829+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.590371+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21127,7 +21127,7 @@
     "value_ratio": 4.29,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.476044+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.590583+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21231,7 +21231,7 @@
     "value_ratio": 3.51,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.476251+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.590785+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21335,7 +21335,7 @@
     "value_ratio": 3.38,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.476490+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.591015+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21439,7 +21439,7 @@
     "value_ratio": 3.33,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.476693+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.591213+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21543,7 +21543,7 @@
     "value_ratio": 2.86,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.476956+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.591463+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21829,7 +21829,7 @@
     "value_ratio": 3.59,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.477627+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.592133+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21933,7 +21933,7 @@
     "value_ratio": 8.11,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.477840+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.592341+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22037,7 +22037,7 @@
     "value_ratio": 7.75,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.478048+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.592543+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22141,7 +22141,7 @@
     "value_ratio": 7.75,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.478217+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.592709+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22245,7 +22245,7 @@
     "value_ratio": 7.5,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.478405+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.592886+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22349,7 +22349,7 @@
     "value_ratio": 7.05,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.478610+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.593085+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22453,7 +22453,7 @@
     "value_ratio": 6.37,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.478802+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.593274+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22557,7 +22557,7 @@
     "value_ratio": 4.97,
     "carb_band": "25-35% (Elevado)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.479022+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.593467+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22661,7 +22661,7 @@
     "value_ratio": 4.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.479570+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.593660+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22765,7 +22765,7 @@
     "value_ratio": 4.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.479904+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.593838+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22869,7 +22869,7 @@
     "value_ratio": 3.52,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.480116+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.594009+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -22973,7 +22973,7 @@
     "value_ratio": 2.87,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.480334+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.594215+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23077,7 +23077,7 @@
     "value_ratio": 2.77,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.480550+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.594420+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23181,7 +23181,7 @@
     "value_ratio": 9.7,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.480756+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.594623+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23285,7 +23285,7 @@
     "value_ratio": 7.92,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.481050+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.594903+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23389,7 +23389,7 @@
     "value_ratio": 6.72,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.481280+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.595128+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23493,7 +23493,7 @@
     "value_ratio": 5.74,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.481508+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.595351+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23597,7 +23597,7 @@
     "value_ratio": 5.73,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.481732+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.595590+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23701,7 +23701,7 @@
     "value_ratio": 5.63,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.481957+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.595989+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23805,7 +23805,7 @@
     "value_ratio": 5.09,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.482187+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.596208+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23909,7 +23909,7 @@
     "value_ratio": 4.92,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.482423+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.596448+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24013,7 +24013,7 @@
     "value_ratio": 4.57,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.482657+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.596675+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24117,7 +24117,7 @@
     "value_ratio": 3.23,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.482932+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.596931+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24221,7 +24221,7 @@
     "value_ratio": 8.82,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.483127+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.597108+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24325,7 +24325,7 @@
     "value_ratio": 6.16,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.483387+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.597323+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24429,7 +24429,7 @@
     "value_ratio": 5.89,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.483634+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.597529+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24533,7 +24533,7 @@
     "value_ratio": 5.58,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.483863+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.597744+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24637,7 +24637,7 @@
     "value_ratio": 4.97,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.484096+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.597957+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24741,7 +24741,7 @@
     "value_ratio": 4.81,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.484340+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.598176+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24846,7 +24846,7 @@
     "carb_band": ">35% (Muito Alto) (Est.)",
     "has_material_conflict": false,
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.484820+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.598610+00:00",
     "classification": "complete",
     "reconciliation_sources": {
       "retailer": "zooplus",
@@ -25040,7 +25040,7 @@
     "value_ratio": 3.64,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.485279+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.599038+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25144,7 +25144,7 @@
     "value_ratio": 3.15,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.485529+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.599283+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25248,7 +25248,7 @@
     "value_ratio": 2.8,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.485761+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.599492+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25549,7 +25549,7 @@
     "value_ratio": 6.39,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.486491+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.600182+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25653,7 +25653,7 @@
     "value_ratio": 5.17,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.486718+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.600395+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25757,7 +25757,7 @@
     "value_ratio": 4.57,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.486950+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.600614+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25952,7 +25952,7 @@
     "value_ratio": 4.22,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.487411+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.601054+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26056,7 +26056,7 @@
     "value_ratio": 10.19,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.487611+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.601253+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26160,7 +26160,7 @@
     "value_ratio": 6.91,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.487799+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.601428+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26264,7 +26264,7 @@
     "value_ratio": 6.56,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.487995+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.601621+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26368,7 +26368,7 @@
     "value_ratio": 5.92,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.488226+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.601842+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26472,7 +26472,7 @@
     "value_ratio": 4.66,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.488419+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.602019+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26576,7 +26576,7 @@
     "value_ratio": 3.75,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.488686+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.602280+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26680,7 +26680,7 @@
     "value_ratio": 3.55,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.488914+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.602492+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26784,7 +26784,7 @@
     "value_ratio": 2.92,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.489133+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.602714+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26888,7 +26888,7 @@
     "value_ratio": 2.67,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.489373+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.602941+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -26992,7 +26992,7 @@
     "value_ratio": 2.38,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.489674+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.603236+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27096,7 +27096,7 @@
     "value_ratio": 2.28,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.489874+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.603429+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27200,7 +27200,7 @@
     "value_ratio": 2.36,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.490061+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.603610+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27395,7 +27395,7 @@
     "value_ratio": 6.0,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.490524+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.604055+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27499,7 +27499,7 @@
     "value_ratio": 3.04,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.490796+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.604321+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27603,7 +27603,7 @@
     "value_ratio": 4.47,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.490976+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.604490+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27707,7 +27707,7 @@
     "value_ratio": 4.02,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.491164+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.604671+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27811,7 +27811,7 @@
     "value_ratio": 3.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.491400+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.604891+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -27915,7 +27915,7 @@
     "value_ratio": 3.11,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.491602+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.605087+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -28019,7 +28019,7 @@
     "value_ratio": 2.89,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.491811+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.605293+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -28396,7 +28396,7 @@
     "value_ratio": 7.11,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.492867+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.606324+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -28500,7 +28500,7 @@
     "value_ratio": 7.13,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.493111+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.606564+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -28604,7 +28604,7 @@
     "value_ratio": 3.94,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.493331+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.606785+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -28708,7 +28708,7 @@
     "value_ratio": 3.73,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.493540+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.606979+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -28812,7 +28812,7 @@
     "value_ratio": 3.4,
     "carb_band": ">35% (Muito Alto)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.493792+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.607228+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29098,7 +29098,7 @@
     "value_ratio": 9.09,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.494656+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.608082+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29202,7 +29202,7 @@
     "value_ratio": 2.39,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.495071+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.608272+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29306,7 +29306,7 @@
     "value_ratio": 1.89,
     "carb_band": ">35% (Muito Alto)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.495292+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.608486+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29410,7 +29410,7 @@
     "value_ratio": 7.36,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.495514+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.608705+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29514,7 +29514,7 @@
     "value_ratio": 1.88,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.495924+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.608911+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29618,7 +29618,7 @@
     "value_ratio": 2.29,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.496578+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.609140+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29722,7 +29722,7 @@
     "value_ratio": 5.68,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.496818+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.609346+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29826,7 +29826,7 @@
     "value_ratio": 2.41,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.497037+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.609550+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -29930,7 +29930,7 @@
     "value_ratio": 2.39,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.497279+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.609785+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -30034,7 +30034,7 @@
     "value_ratio": 1.65,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.497503+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.609998+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -30138,7 +30138,7 @@
     "value_ratio": 1.77,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.498040+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.610236+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -30242,7 +30242,7 @@
     "value_ratio": 1.82,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.498260+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.610447+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -30437,7 +30437,7 @@
     "value_ratio": 1.85,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.494841+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.610927+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -30723,7 +30723,7 @@
     "value_ratio": 1.61,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.499350+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.611694+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -30827,7 +30827,7 @@
     "value_ratio": 1.26,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.499602+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.611924+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -30931,7 +30931,7 @@
     "value_ratio": 1.64,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.499842+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.612157+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -31126,7 +31126,7 @@
     "value_ratio": 0.99,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.500330+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.612784+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -31321,7 +31321,7 @@
     "value_ratio": 0.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.500835+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.613302+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -31607,7 +31607,7 @@
     "value_ratio": 2.24,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.501700+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.614077+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -31711,7 +31711,7 @@
     "value_ratio": 1.16,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.501905+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.614261+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -31906,7 +31906,7 @@
     "value_ratio": 3.5,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.502387+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.614689+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32010,7 +32010,7 @@
     "value_ratio": 3.18,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.502649+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.614920+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32205,7 +32205,7 @@
     "value_ratio": 2.89,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.503142+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.615351+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32309,7 +32309,7 @@
     "value_ratio": 2.83,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.503350+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.615536+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32413,7 +32413,7 @@
     "value_ratio": 2.83,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.503545+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.615712+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32517,7 +32517,7 @@
     "value_ratio": 2.78,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.503737+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.615892+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32621,7 +32621,7 @@
     "value_ratio": 2.72,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.503930+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.616073+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32725,7 +32725,7 @@
     "value_ratio": 2.7,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.504165+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.616294+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32829,7 +32829,7 @@
     "value_ratio": 2.67,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.504362+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.616469+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -32933,7 +32933,7 @@
     "value_ratio": 2.64,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.504577+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.616659+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -33037,7 +33037,7 @@
     "value_ratio": 2.6,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.504783+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.616853+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -33141,7 +33141,7 @@
     "value_ratio": 2.58,
     "carb_band": ">35% (Muito Alto)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.505000+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.617045+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -33245,7 +33245,7 @@
     "value_ratio": 2.54,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.505202+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.617228+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -33349,7 +33349,7 @@
     "value_ratio": 2.38,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.505459+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.617464+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -33453,7 +33453,7 @@
     "value_ratio": 2.19,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.505655+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.617640+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -33557,7 +33557,7 @@
     "value_ratio": 1.95,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.505856+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.617832+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -33752,7 +33752,7 @@
     "value_ratio": 1.89,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.506357+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.618290+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34038,7 +34038,7 @@
     "value_ratio": 1.63,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.506880+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.619029+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34233,7 +34233,7 @@
     "value_ratio": 1.6,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.507352+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.619466+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34337,7 +34337,7 @@
     "value_ratio": 1.41,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.507572+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.619665+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34441,7 +34441,7 @@
     "value_ratio": 1.34,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.507788+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.619873+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34545,7 +34545,7 @@
     "value_ratio": 1.32,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.508003+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.620082+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34649,7 +34649,7 @@
     "value_ratio": 1.28,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.508243+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.620308+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34753,7 +34753,7 @@
     "value_ratio": 1.22,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.508503+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.620538+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34857,7 +34857,7 @@
     "value_ratio": 1.18,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.508725+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.620746+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -34961,7 +34961,7 @@
     "value_ratio": 1.18,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.508957+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.620964+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35156,7 +35156,7 @@
     "value_ratio": 1.14,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.509437+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.621403+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35260,7 +35260,7 @@
     "value_ratio": 1.09,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.509696+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.621643+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35364,7 +35364,7 @@
     "value_ratio": 1.05,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.509947+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.621884+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35468,7 +35468,7 @@
     "value_ratio": 1.03,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.510158+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.622086+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35572,7 +35572,7 @@
     "value_ratio": 0.99,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.510383+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.622310+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35676,7 +35676,7 @@
     "value_ratio": 0.98,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.510577+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.622483+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35780,7 +35780,7 @@
     "value_ratio": 0.98,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.511117+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.623000+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35884,7 +35884,7 @@
     "value_ratio": 0.95,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.511360+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.623234+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -35988,7 +35988,7 @@
     "value_ratio": 0.95,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.511654+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.623505+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -36365,7 +36365,7 @@
     "value_ratio": 0.9,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.513051+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.624425+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -36469,7 +36469,7 @@
     "value_ratio": 0.86,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.513382+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.624643+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -36573,7 +36573,7 @@
     "value_ratio": 0.79,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.513627+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.624865+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -36677,7 +36677,7 @@
     "value_ratio": 0.78,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.513873+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.625087+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -36781,7 +36781,7 @@
     "value_ratio": 0.78,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.514168+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.625369+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -36976,7 +36976,7 @@
     "value_ratio": 0.76,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.514711+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.625866+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37080,7 +37080,7 @@
     "value_ratio": 0.76,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.514960+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.626093+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37184,7 +37184,7 @@
     "value_ratio": 0.74,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.515156+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.626282+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37288,7 +37288,7 @@
     "value_ratio": 0.73,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.515443+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.626547+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37392,7 +37392,7 @@
     "value_ratio": 0.71,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.515731+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.626825+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37496,7 +37496,7 @@
     "value_ratio": 0.71,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.516005+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.627079+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37600,7 +37600,7 @@
     "value_ratio": 0.71,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.516294+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.627357+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37795,7 +37795,7 @@
     "value_ratio": 0.69,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.516781+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.627823+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -37899,7 +37899,7 @@
     "value_ratio": 0.65,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.517035+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.628059+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38003,7 +38003,7 @@
     "value_ratio": 0.65,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.517338+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.628350+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38107,7 +38107,7 @@
     "value_ratio": 0.65,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.517655+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.628645+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38211,7 +38211,7 @@
     "value_ratio": 0.64,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.517947+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.628953+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38315,7 +38315,7 @@
     "value_ratio": 0.63,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.518183+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.629351+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38419,7 +38419,7 @@
     "value_ratio": 0.62,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.518432+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.629595+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38523,7 +38523,7 @@
     "value_ratio": 0.61,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.518734+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.629906+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38718,7 +38718,7 @@
     "value_ratio": 0.59,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.519260+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.630397+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -38822,7 +38822,7 @@
     "value_ratio": 0.49,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:17:01.519467+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:28.630584+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {

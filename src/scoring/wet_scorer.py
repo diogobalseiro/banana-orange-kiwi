@@ -41,7 +41,7 @@ def score_wet_product(p):
     ]
 
     is_complete_declared = bool(re.search(
-        r'\b(?:alimento\s+(?:\w+\s+){0,2}complet[oa]|100%\s*complete?|complete\s+(?:\w+\s+){0,2}(?:pet\s+food|cat\s+food|food|diet))\b',
+        r'\b(?:(?:alimento|alimenta[çc][ãa]o|refei[çc][ãa]o|nutri[çc][ãa]o|dieta)\s+(?:\w+\s+){0,2}complet[oa]|100%\s*complete?|complete\s+(?:\w+\s+){0,2}(?:pet\s+food|cat\s+food|food|diet))\b',
         text_to_check, re.I
     ))
 

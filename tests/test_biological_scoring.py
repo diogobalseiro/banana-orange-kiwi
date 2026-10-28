@@ -424,6 +424,24 @@ class TestEvidenceParsingRobustness(unittest.TestCase):
         self.assertLessEqual(full_p['score'], 59)
         self.assertEqual(full_p['tier'], 'Tier C (Básico / Ingredientes Genéricos)')
 
+    def test_complete_fillets_in_gravy_not_excluded_as_complementary(self):
+        """Complete wet foods mentioning 'filetes' but declared as complete meals must be scored."""
+        p = {
+            'pid': '8375238',
+            'name': 'Comida Húmida para Gato Adulto Sem Cereais Frango e Pato Saquetas Smaak',
+            'brand': 'Smaak',
+            'price': 0.85,
+            'unit_price_kg': 8.5,
+            'description': 'O alimento húmido completo, preparado com suculentos filetes de frango e pato em molho (50% filetes / 50% molho), garante uma refeição saborosa e equilibrada.',
+            'ingredients': 'Composição: Carne e derivados de origem animal nos filetes (85%) (dos quais 70% de frango, 5% de pato), 4% de topinambo, 2,7% de farinha de ervilha, 0,9% de lignocelulose.',
+            'nutrition_raw': 'Constituintes Analíticos: Proteína bruta 6%, Matéria Gorda Bruta 4,5%, Cinzas brutas 0,7%, Fibras brutas 0,5%, Humidade 84%, Cálcio 0,2%, Fósforo 0,2%',
+            'category': 'wet'
+        }
+        from src.scoring.wet_scorer import score_wet_product
+        full_p, min_p = score_wet_product(p)
+        self.assertIsNotNone(full_p)
+        self.assertTrue(full_p['is_ranked'])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -521,7 +521,7 @@
     "value_ratio": 5.73,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.809038+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.050200+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -623,7 +623,7 @@
     "value_ratio": 5.45,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.809385+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.050559+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -818,6 +818,94 @@
     "first_ingredient": "Peixe biológico 26%",
     "protein": 9.5,
     "fat": 6.0
+  },
+  {
+    "pid": "8375398",
+    "name": "Comida Húmida para Gato Júnior Sem Cereais Frango Saquetas Smaak",
+    "brand": "Smaak",
+    "price": 0.85,
+    "unit_price_kg": 8.5,
+    "pack_size": "emb. 100 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-junior-sem-cereais-frango-saquetas-smaak-8375398",
+    "retailer": "ZU",
+    "ingredients": "Composição: 85% de carne e derivados de origem animal nos filetes (dos quais 71% de frango), 4% de brócolos, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 6%,Matéria Gorda Bruta 4%, Cinzas brutas 0,8%, Fibras brutas 0,5%, Humidade 84%, NFE 4,7%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "description": "Caraterísticas\nDescrição:\nA saqueta de frango é um alimento húmido completo, desenvolvido para apoiar o crescimento saudável dos gatinhos de todas as raças. A receita grain-free é composta por 50% de suculentos filetes e 50% de molho, garantindo uma refeição nutritiva, equilibrada e irresistível. Pode ser servido como refeição única ou combinado com ração seca, oferecendo versatilidade na alimentação diária. Livre de cereais, açúcares adicionados, corantes e conservantes artificiais, é a escolha ideal para proporcionar ao seu gatinho os nutrientes essenciais e um sabor que ele vai adorar.\nSabor:\nFrango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Composição: 85% de carne e derivados de origem animal nos filetes (dos quais 71% de frango), 4% de brócolos, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 6%,Matéria Gorda Bruta 4%, Cinzas brutas 0,8%, Fibras brutas 0,5%, Humidade 84%, NFE 4,7%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 84.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 0.8,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 16.0,
+      "protein_dmb": 37.5,
+      "fat_dmb": 25.0,
+      "carbs_nfe": 4.7,
+      "carbs_dmb": 29.4,
+      "ca_p_ratio": 1.0
+    },
+    "score": 64,
+    "tier": "Tier B (Médio-Alto / Boa Relação)",
+    "classification": "Completo",
+    "is_kitten": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": 85,
+    "value_ratio": 7.53,
+    "carb_band": ">20% DMB (Elevado)",
+    "has_material_conflict": false,
+    "first_ingredient": "85% de carne e derivados de origem animal nos filetes (dos quais 71% de frango)",
+    "protein": 6.0,
+    "fat": 4.0
   },
   {
     "pid": "6474320",
@@ -1040,7 +1128,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_delicias_peixe_oceano_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:59.810685+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.051713+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -1244,7 +1332,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_vaca_tomate_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:59.810444+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.052029+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -1346,7 +1434,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_duo_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:59.810567+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.052152+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -1608,6 +1696,94 @@
     "fat": 5.0
   },
   {
+    "pid": "8375249",
+    "name": "Comida Húmida para Gato Adulto Esterilizado Sem Cereais Frango Saquetas Smaak",
+    "brand": "Smaak",
+    "price": 0.85,
+    "unit_price_kg": 8.5,
+    "pack_size": "emb. 100 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-esterilizado-sem-cereais-frango-saquetas-smaak-8375249",
+    "retailer": "ZU",
+    "ingredients": "Composição: 85% de carne e derivados de origem animal nos filetes (dos quais 75% de frango), 4% de cenoura preta, 3% de farinha de ervilha, 2% de lignocelulose.",
+    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 5,5%, Matéria Gorda Bruta 3,5%, Cinzas brutas 0,8%, Fibras brutas 0,5%, Humidade 84%, NFE 5,7%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "description": "Caraterísticas\nDescrição:\nO alimento húmido completo é desenvolvido para atender às necessidades nutricionais de gatos esterilizados e de interior, que tendem a ter um metabolismo mais lento e necessitam de menos calorias. Com 50% de filetes de frango em molho e uma textura irresistível, esta receita grain-free ajuda a aumentar a ingestão de líquidos e proporciona uma refeição equilibrada e saborosa. Sem adição de açúcares, aromas artificiais ou conservantes, é uma escolha natural e saudável para o dia a dia.\nSabor:\nFrango",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Composição: 85% de carne e derivados de origem animal nos filetes (dos quais 75% de frango), 4% de cenoura preta, 3% de farinha de ervilha, 2% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 5,5%, Matéria Gorda Bruta 3,5%, Cinzas brutas 0,8%, Fibras brutas 0,5%, Humidade 84%, NFE 5,7%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 5.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 3.5,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 84.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 0.8,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 16.0,
+      "protein_dmb": 34.4,
+      "fat_dmb": 21.9,
+      "carbs_nfe": 5.7,
+      "carbs_dmb": 35.6,
+      "ca_p_ratio": 1.0
+    },
+    "score": 49,
+    "tier": "Tier C (Básico / Ingredientes Genéricos)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": 85,
+    "value_ratio": 5.76,
+    "carb_band": ">20% DMB (Elevado)",
+    "has_material_conflict": false,
+    "first_ingredient": "85% de carne e derivados de origem animal nos filetes (dos quais 75% de frango)",
+    "protein": 5.5,
+    "fat": 3.5
+  },
+  {
     "pid": "5304997",
     "name": "Comida Húmida para Gato Júnior Mousse Gatinhos Vitela Purina Gourmet Gold",
     "brand": "Purina Gourmet Gold",
@@ -1624,7 +1800,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_junior_veal_mousse_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:59.808402+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.052902+00:00",
     "classification": "Completo",
     "formulation_notes": "Kitten formula with elevated protein and fat for growth. Contains taurine for eye and heart development.",
     "has_material_conflict": false,
@@ -2007,7 +2183,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_tartelette_frango_cenouras_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:59.811020+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.053670+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -2108,7 +2284,7 @@
     "raw_classification": "Completo",
     "formulation_id": "gourmet_gold_delicias_suculentas_frango_wet",
     "is_reconciled": true,
-    "reconciliation_timestamp": "2026-10-27T21:16:59.811840+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.053785+00:00",
     "classification": "Completo",
     "has_material_conflict": false,
     "has_conflicts": false,
@@ -5371,6 +5547,270 @@
     "fat": 3.5
   },
   {
+    "pid": "8375238",
+    "name": "Comida Húmida para Gato Adulto Sem Cereais Frango e Pato Saquetas Smaak",
+    "brand": "Smaak",
+    "price": 0.85,
+    "unit_price_kg": 8.5,
+    "pack_size": "emb. 100 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-e-pato-saquetas-smaak-8375238",
+    "retailer": "ZU",
+    "ingredients": "Composição: Carne e derivados de origem animal nos filetes (85%) (dos quais 70% de frango, 5% de pato), 4% de topinambo, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 6%, Matéria Gorda Bruta 4,5%, Cinzas brutas 0,7%, Fibras brutas 0,5%, Humidade 84%, NFE 4,3%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "description": "Caraterísticas\nDescrição:\nO alimento húmido completo, preparado com suculentos filetes de frango e pato em molho (50% filetes / 50% molho), garante uma refeição saborosa e equilibrada. Esta receita grain-free é indicada para gatos de todas as idades e raças, ajudando a manter uma boa hidratação e fornecendo proteínas de alta qualidade. Sem adição de açúcares, conservantes ou corantes artificiais, é uma opção saudável e natural para o dia a dia.\nSabor:\nFrango e Pato",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Composição: Carne e derivados de origem animal nos filetes (85%) (dos quais 70% de frango, 5% de pato), 4% de topinambo, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 6%, Matéria Gorda Bruta 4,5%, Cinzas brutas 0,7%, Fibras brutas 0,5%, Humidade 84%, NFE 4,3%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 6.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 84.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 0.7,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 16.0,
+      "protein_dmb": 37.5,
+      "fat_dmb": 28.1,
+      "carbs_nfe": 4.3,
+      "carbs_dmb": 26.9,
+      "ca_p_ratio": 1.0
+    },
+    "score": 30,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "value_ratio": 3.53,
+    "carb_band": ">20% DMB (Elevado)",
+    "has_material_conflict": false,
+    "first_ingredient": "Carne e derivados de origem animal nos filetes (85%) (dos quais 70% de frango, 5% de pato)",
+    "protein": 6.0,
+    "fat": 4.5
+  },
+  {
+    "pid": "8375250",
+    "name": "Comida Húmida para Gato Adulto Sem Cereais Frango e Peru Saquetas Smaak",
+    "brand": "Smaak",
+    "price": 0.85,
+    "unit_price_kg": 8.5,
+    "pack_size": "emb. 100 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-e-peru-saquetas-smaak-8375250",
+    "retailer": "ZU",
+    "ingredients": "Composição: Carne e derivados de origem animal (85%) (dos quais 71% de frango, 4% de peru), 4% de cenoura, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "nutrition_raw": "Constituintes Analíticos: Proteína bruta 6,5%, Matéria Gorda Bruta 4,5%, Cinzas brutas 0,7%, Fibras brutas 0,5%, Humidade 84%, NFE 3,8%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "description": "Caraterísticas\nDescrição:\nO alimento para gato é uma refeição húmida de alta qualidade, especialmente desenvolvida para garantir a nutrição diária completa de gatos adultos de todas as raças. Com uma combinação saborosa de 50% filetes e 50% molho, esta receita grain-free é perfeita para gatos que necessitam de uma maior ingestão de líquidos, ajudando na hidratação natural.\nSabor:\nFrango e Peru",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Composição: Carne e derivados de origem animal (85%) (dos quais 71% de frango, 4% de peru), 4% de cenoura, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Proteína bruta 6,5%, Matéria Gorda Bruta 4,5%, Cinzas brutas 0,7%, Fibras brutas 0,5%, Humidade 84%, NFE 3,8%, Cálcio 0,2%, Fósforo 0,2%, Sódio 0,2%,",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 6.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 84.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 0.7,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 16.0,
+      "protein_dmb": 40.6,
+      "fat_dmb": 28.1,
+      "carbs_nfe": 3.8,
+      "carbs_dmb": 23.7,
+      "ca_p_ratio": 1.0
+    },
+    "score": 30,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "value_ratio": 3.53,
+    "carb_band": ">20% DMB (Elevado)",
+    "has_material_conflict": false,
+    "first_ingredient": "Carne e derivados de origem animal (85%) (dos quais 71% de frango, 4% de peru)",
+    "protein": 6.5,
+    "fat": 4.5
+  },
+  {
+    "pid": "8375397",
+    "name": "Comida Húmida para Gato Adulto Sem Cereais Frango Saquetas Smaak",
+    "brand": "Smaak",
+    "price": 9.99,
+    "unit_price_kg": 8.33,
+    "pack_size": "emb. 12 x 100 g",
+    "pdp_url": "https://www.zu.pt/products/comida-humida-para-gato-adulto-sem-cereais-frango-saquetas-smaak-8375397",
+    "retailer": "ZU",
+    "ingredients": "Composição: Frango e Peru: 85% de carne e derivados de origem animal  (dos quais 71% de frango, 4% de peru), 4% de cenoura, 2,7% de farinha de ervilha, 0,9% de lignocelulose. Frango e Truta: 85% de carne e derivados de origem animal  (dos quais 70% de frango, 5% de truta), 2,7% de farinha de ervilha, 0,9% de lignocelulose, 0,5% de equinácea. Frango e Pato: 85% de carne e derivados de origem animal (dos quais 70% de frango, 5% de pato), 4% de topinambo, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "nutrition_raw": "Constituintes Analíticos: Frango e peru: Proteína bruta 6,5%,Matéria gorda Bruta 4,5%, cinzas brutas 0,7%, fibras brutas 0,5%, humidade 84%, NFE 3,8%, cálcio 0,2%, fósforo 0,2%, sódio 0,2%,",
+    "description": "Caraterísticas\nDescrição:\nDesenvolvido para proporcionar uma alimentação completa e equilibrada aos gatos adultos de todas as raças. Cada saqueta contém 50% de suculentos filetes e 50% de molho saboroso, ajudando a manter o gato bem hidratado e satisfeito. Com três receitas diferentes (frango com peru, frango com pato e frango com truta), este multipack oferece diversidade no dia a dia, tornando cada refeição uma experiência irresistível. Livre de cereais, açúcares adicionados, corantes e conservantes artificiais, é uma escolha saudável e natural. Pode ser servido como refeição completa ou combinado com ração seca para um plano alimentar variado.\nSabor:\nFrango e Peru, Frango e Pato, Frango e Truta",
+    "is_reconciled": false,
+    "formulation_id": null,
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [
+      "No formulation match found"
+    ],
+    "raw_ingredients": "Composição: Frango e Peru: 85% de carne e derivados de origem animal  (dos quais 71% de frango, 4% de peru), 4% de cenoura, 2,7% de farinha de ervilha, 0,9% de lignocelulose. Frango e Truta: 85% de carne e derivados de origem animal  (dos quais 70% de frango, 5% de truta), 2,7% de farinha de ervilha, 0,9% de lignocelulose, 0,5% de equinácea. Frango e Pato: 85% de carne e derivados de origem animal (dos quais 70% de frango, 5% de pato), 4% de topinambo, 2,7% de farinha de ervilha, 0,9% de lignocelulose.",
+    "raw_nutrition_raw": "Constituintes Analíticos: Frango e peru: Proteína bruta 6,5%,Matéria gorda Bruta 4,5%, cinzas brutas 0,7%, fibras brutas 0,5%, humidade 84%, NFE 3,8%, cálcio 0,2%, fósforo 0,2%, sódio 0,2%,",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 6.5,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 84.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 0.7,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 0.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 0.2,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 16.0,
+      "protein_dmb": 40.6,
+      "fat_dmb": 28.1,
+      "carbs_nfe": 3.8,
+      "carbs_dmb": 23.7,
+      "ca_p_ratio": 1.0
+    },
+    "score": 27,
+    "tier": "Tier D (Evitar / Açúcares e Cereais)",
+    "classification": "Completo",
+    "is_kitten": false,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "has_sugar": false,
+    "has_grains": false,
+    "has_veg_protein": false,
+    "has_organs": false,
+    "has_carrageenan": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "high_meat_pct": null,
+    "value_ratio": 3.24,
+    "carb_band": ">20% DMB (Elevado)",
+    "has_material_conflict": false,
+    "first_ingredient": "Frango e Peru: 85% de carne e derivados de origem animal  (dos quais 71% de frango, 4% de peru)",
+    "protein": 6.5,
+    "fat": 4.5
+  },
+  {
     "pid": "8157686",
     "name": "Comida Húmida para Gato Adulto Fantastic Purina Felix",
     "brand": "Purina Felix",
@@ -7616,7 +8056,7 @@
     "value_ratio": null,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.826405+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.066740+00:00",
     "ingredients": "Carnes e subprodutos animais (frango 35%), subprodutos de origem vegetal, substâncias minerais, óleos e gorduras.",
     "nutrition_raw": "Proteína: 8.2%, Matéria gorda: 4.0%, Fibra bruta: 0.3%, Cinza bruta: 1.6%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -10211,7 +10651,7 @@
     "value_ratio": 1.23,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.833185+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.072308+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -10488,7 +10928,7 @@
     "value_ratio": 1.23,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.834031+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.073077+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -10589,7 +11029,7 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.841104+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.073385+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -10778,7 +11218,7 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.841676+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.073919+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -11055,7 +11495,7 @@
     "value_ratio": 1.23,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.842451+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.074661+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -13750,7 +14190,7 @@
     "value_ratio": 0.68,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.846588+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.081525+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -20891,7 +21331,7 @@
     "value_ratio": 0.45,
     "carb_band": ">20% DMB (Elevado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.861470+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.098007+00:00",
     "has_material_conflict": false,
     "reconciliation_sources": {
       "retailer": "zu",
@@ -22352,7 +22792,7 @@
     "value_ratio": null,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.836535+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.101428+00:00",
     "ingredients": "Carnes e subprodutos animais, extratos de proteínas vegetais, peixes e subprodutos de peixes (dos quais 4% salmão), substâncias minerais, legumes, açúcares, leveduras.",
     "nutrition_raw": "Humidade: 82.0%, Proteína bruta: 11.5%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.7%",
     "has_material_conflict": false,
@@ -22454,7 +22894,7 @@
     "value_ratio": null,
     "carb_band": "<=10% DMB (Ideal)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.836917+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.101757+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais 4% vaca), extratos de proteínas vegetais, substâncias minerais, legumes, açúcares, leveduras.",
     "nutrition_raw": "Humidade: 82.0%, Proteína bruta: 11.5%, Matéria gorda bruta: 2.5%, Cinza bruta: 2.5%, Fibra bruta: 0.7%",
     "has_material_conflict": false,
@@ -24616,7 +25056,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.868037+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.106440+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais 4% carne), subprodutos de origem vegetal, substâncias minerais, legumes (0,9% feijão-verde desidratado), açúcares.",
     "nutrition_raw": "Proteína bruta: 9.0%, Matéria gorda bruta: 3.5%, Cinza bruta: 2.0%, Fibra bruta: 0.7%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24718,7 +25158,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.868230+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.106597+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais 4% carne), subprodutos de origem vegetal, substâncias minerais, legumes (0,9% feijão-verde desidratado), açúcares.",
     "nutrition_raw": "Proteína bruta: 9.0%, Matéria gorda bruta: 3.5%, Cinza bruta: 2.0%, Fibra bruta: 0.7%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24820,7 +25260,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.868587+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.106938+00:00",
     "ingredients": "Carnes e subprodutos animais, peixes e subprodutos de peixes (bacalhau 4%), subprodutos de origem vegetal, substâncias minerais, açúcares.",
     "nutrition_raw": "Proteína: 9.0%, Matéria gorda: 4.0%, Fibra bruta: 0.8%, Cinza bruta: 2.0%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -24922,7 +25362,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.868926+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.107277+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais frango 4%), subprodutos de origem vegetal, substâncias minerais, açúcares.",
     "nutrition_raw": "Proteína: 9.0%, Matéria gorda: 4.0%, Fibra bruta: 0.8%, Cinza bruta: 2.0%, Humidade: 82.0%",
     "has_material_conflict": false,
@@ -25024,7 +25464,7 @@
     "value_ratio": null,
     "carb_band": "10-20% DMB (Moderado)",
     "raw_classification": "Completo",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.869262+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:27.107602+00:00",
     "ingredients": "Carnes e subprodutos animais (dos quais frango 4%), subprodutos de origem vegetal, substâncias minerais, açúcares.",
     "nutrition_raw": "Proteína: 9.0%, Matéria gorda: 4.0%, Fibra bruta: 0.8%, Cinza bruta: 2.0%, Humidade: 82.0%",
     "has_material_conflict": false,

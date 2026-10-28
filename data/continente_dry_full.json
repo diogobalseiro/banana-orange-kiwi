@@ -81,7 +81,7 @@
     "value_ratio": 12.7,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.276356+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.553009+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -186,7 +186,7 @@
     "value_ratio": 12.53,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.276555+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.553197+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -291,7 +291,7 @@
     "value_ratio": 11.42,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.276716+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.553339+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -396,7 +396,7 @@
     "value_ratio": 9.57,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.277507+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.553484+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -501,7 +501,7 @@
     "value_ratio": 9.55,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.277666+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.553622+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -698,7 +698,7 @@
     "value_ratio": 8.68,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.278023+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.554048+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -895,7 +895,7 @@
     "value_ratio": 7.52,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.278435+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.554432+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1000,7 +1000,7 @@
     "value_ratio": 7.24,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.278599+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.554605+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1105,7 +1105,7 @@
     "value_ratio": 7.0,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.278816+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.554814+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1302,7 +1302,7 @@
     "value_ratio": 6.11,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.279494+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.555200+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1591,7 +1591,7 @@
     "value_ratio": 5.0,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.280289+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.555742+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1696,7 +1696,7 @@
     "value_ratio": 4.88,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.280492+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.555910+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1801,7 +1801,7 @@
     "value_ratio": 4.67,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.280718+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.556119+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -1906,7 +1906,7 @@
     "value_ratio": 4.64,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.280941+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.556314+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2011,7 +2011,7 @@
     "value_ratio": 4.53,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.281108+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.556461+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2116,7 +2116,7 @@
     "value_ratio": 4.49,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.281275+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.556615+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2221,7 +2221,7 @@
     "value_ratio": 4.42,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.281493+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.556811+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2326,7 +2326,7 @@
     "value_ratio": 4.31,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.281708+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.557023+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2431,7 +2431,7 @@
     "value_ratio": 4.0,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.281873+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.557175+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -2536,7 +2536,7 @@
     "value_ratio": 3.94,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.282039+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.557324+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3131,7 +3131,7 @@
     "value_ratio": null,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.283233+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.558699+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3435,7 +3435,7 @@
     "value_ratio": 12.71,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.284403+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.559516+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3724,7 +3724,7 @@
     "value_ratio": 10.75,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.285305+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.560433+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -3829,7 +3829,7 @@
     "value_ratio": 13.96,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.285464+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.560587+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4026,7 +4026,7 @@
     "value_ratio": 12.29,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.285841+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.561206+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4499,7 +4499,7 @@
     "value_ratio": 14.39,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.285996+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.562498+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4604,7 +4604,7 @@
     "value_ratio": 11.45,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.286152+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.562757+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -4709,7 +4709,7 @@
     "value_ratio": 10.3,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.286354+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.562927+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -5101,98 +5101,6 @@
     "has_organs": false
   },
   {
-    "pid": "8375244",
-    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
-    "brand": "Smaak",
-    "price": 45.99,
-    "unit_price_str": "6,57€/kg",
-    "unit_price_kg": 6.57,
-    "pack_size": "emb. 7 kg",
-    "pdp_url": "https://www.continente.pt/produto/racao-para-gato-adulto-esterilizado-frango-smaak-8375244.html",
-    "retailer": "Continente",
-    "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
-    "description": "A ração para gato foi desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a necessitar de menos calorias. Com frango fresco, gordura de frango e molho de frango, proporciona um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde dentária. Esta receita é enriquecida com óleo de salmão para um pelo brilhante.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "raw_nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 38.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 12.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 8.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 7.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 4.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": 1.7,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 1.1,
-        "status": "valid"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": 2.0,
-        "unit": "mg/kg",
-        "status": "valid"
-      },
-      "dm_pct": 92.0,
-      "protein_dmb": 41.3,
-      "fat_dmb": 13.0,
-      "carbs_nfe": 30.5,
-      "carbs_dmb": 33.2,
-      "ca_p_ratio": 1.55
-    },
-    "score": 79,
-    "tier": "Tier A (Excelente / Alto Teor Carne)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "value_ratio": 12.02,
-    "carb_band": "25-35% (Elevado)",
-    "has_material_conflict": false,
-    "protein": 38.0,
-    "fat": 12.0,
-    "carbs": 30.5,
-    "meat_pct": 100,
-    "has_grains": true,
-    "has_sugar": false,
-    "has_organs": false
-  },
-  {
     "pid": "8375243",
     "name": "Ração para Gato Júnior Frango Smaak",
     "brand": "Smaak",
@@ -5203,15 +5111,13 @@
     "pdp_url": "https://www.continente.pt/produto/racao-para-gato-junior-frango-smaak-8375243.html",
     "retailer": "Continente",
     "ingredients": "Frango 70% (frango desidratado 35%, frango fresco 25%, gordura de frango 8%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, mananoligossacarídeos, frutoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IUTaurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados  e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 20,0%, Cinzas 7%, Fibra bruta 3,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 408 kcal/100g.",
+    "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 20,0%, Cinzas 7%, Fibra bruta 3,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
     "description": "A ração completa de frango é especialmente desenvolvida para gatinhos de todas as raças, garantindo um início de vida cheio de vitalidade. Com 25% de frango fresco, molho de frango e gordura de frango, oferece um sabor irresistível e uma nutrição equilibrada para suportar o desenvolvimento saudável. Os croquetes crocantes ajudam a manter a saúde dentária, enquanto os ácidos gordos essenciais do salmão fresco favorecem o desenvolvimento cerebral. A receita inclui hidratos de aveia e batata, fibras vegetais como polpa de beterraba para facilitar a digestão e reduzir bolas de pelo, além de prebióticos que promovem a saúde intestinal.",
-    "is_reconciled": false,
-    "formulation_id": null,
+    "is_reconciled": true,
+    "formulation_id": "smaak_junior_frango_dry",
     "has_conflicts": false,
     "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
+    "reconciliation_notes": [],
     "raw_ingredients": "Frango 70% (frango desidratado 35%, frango fresco 25%, gordura de frango 8%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, mananoligossacarídeos, frutoligossacarídeos, arando, extrato de Yucca Schidigera.",
     "raw_nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IUTaurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados  e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 20,0%, Cinzas 7%, Fibra bruta 3,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 408 kcal/100g.",
     "nutrition_parsed": {
@@ -5249,9 +5155,9 @@
         "status": "missing"
       },
       "taurine": {
-        "value": 2.0,
-        "unit": "mg/kg",
-        "status": "valid"
+        "value": null,
+        "unit": null,
+        "status": "missing"
       },
       "dm_pct": 92.0,
       "protein_dmb": 41.3,
@@ -5271,7 +5177,7 @@
     "is_fractionated": true,
     "has_corn_gluten": false,
     "has_colorants": false,
-    "has_taurine": true,
+    "has_taurine": false,
     "has_marine_omega": false,
     "value_ratio": 9.89,
     "carb_band": "15-25% (Moderado)",
@@ -5282,191 +5188,22 @@
     "meat_pct": 100,
     "has_grains": true,
     "has_sugar": false,
-    "has_organs": false
-  },
-  {
-    "pid": "8375245",
-    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
-    "brand": "Smaak",
-    "price": 11.99,
-    "unit_price_str": "7,99€/kg",
-    "unit_price_kg": 7.99,
-    "pack_size": "emb. 1,5 kg",
-    "pdp_url": "https://www.continente.pt/produto/racao-para-gato-adulto-esterilizado-frango-smaak-8375245.html",
-    "retailer": "Continente",
-    "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
-    "description": "A ração de gato foi especialmente desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a precisar de menos calorias. Com frango fresco, gordura de frango e molho de frango, garante um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde oral. Enriquecida com óleo de salmão para um pelo brilhante, esta receita inclui ainda hidratos de aveia e batata, arandos para suporte do trato urinário e yucca para reduzir odores nas fezes.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "raw_nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 38.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 12.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 8.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 7.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 4.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": 1.7,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 1.1,
-        "status": "valid"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": 2.0,
-        "unit": "mg/kg",
-        "status": "valid"
-      },
-      "dm_pct": 92.0,
-      "protein_dmb": 41.3,
-      "fat_dmb": 13.0,
-      "carbs_nfe": 30.5,
-      "carbs_dmb": 33.2,
-      "ca_p_ratio": 1.55
+    "has_organs": false,
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.564224+00:00",
+    "classification": "complete",
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "8375243",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
     },
-    "score": 79,
-    "tier": "Tier A (Excelente / Alto Teor Carne)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "value_ratio": 9.89,
-    "carb_band": "25-35% (Elevado)",
-    "has_material_conflict": false,
-    "protein": 38.0,
-    "fat": 12.0,
-    "carbs": 30.5,
-    "meat_pct": 100,
-    "has_grains": true,
-    "has_sugar": false,
-    "has_organs": false
-  },
-  {
-    "pid": "458095",
-    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
-    "brand": "Smaak",
-    "price": 11.99,
-    "unit_price_str": "7,99€/kg",
-    "unit_price_kg": 7.99,
-    "pack_size": "emb. 1 un",
-    "pdp_url": "https://www.continente.pt/produto/racao-para-gato-adulto-esterilizado-frango-smaak-8375245.html",
-    "retailer": "Continente",
-    "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
-    "description": "A ração de gato foi especialmente desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a precisar de menos calorias. Com frango fresco, gordura de frango e molho de frango, garante um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde oral. Enriquecida com óleo de salmão para um pelo brilhante, esta receita inclui ainda hidratos de aveia e batata, arandos para suporte do trato urinário e yucca para reduzir odores nas fezes.",
-    "is_reconciled": false,
-    "formulation_id": null,
-    "has_conflicts": false,
-    "conflicts": [],
-    "reconciliation_notes": [
-      "No formulation match found"
-    ],
-    "raw_ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
-    "raw_nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
-    "nutrition_parsed": {
-      "status": "valid",
-      "protein": {
-        "value": 38.0,
-        "status": "valid"
-      },
-      "fat": {
-        "value": 12.0,
-        "status": "valid"
-      },
-      "moisture": {
-        "value": 8.0,
-        "status": "valid"
-      },
-      "ash": {
-        "value": 7.0,
-        "status": "valid"
-      },
-      "fiber": {
-        "value": 4.5,
-        "status": "valid"
-      },
-      "calcium": {
-        "value": 1.7,
-        "status": "valid"
-      },
-      "phosphorus": {
-        "value": 1.1,
-        "status": "valid"
-      },
-      "magnesium": {
-        "value": null,
-        "status": "missing"
-      },
-      "taurine": {
-        "value": 2.0,
-        "unit": "mg/kg",
-        "status": "valid"
-      },
-      "dm_pct": 92.0,
-      "protein_dmb": 41.3,
-      "fat_dmb": 13.0,
-      "carbs_nfe": 30.5,
-      "carbs_dmb": 33.2,
-      "ca_p_ratio": 1.55
-    },
-    "score": 79,
-    "tier": "Tier A (Excelente / Alto Teor Carne)",
-    "is_kitten": false,
-    "is_sterilised": true,
-    "is_ranked": true,
-    "unranked_reasons": [],
-    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
-    "is_grain_free": false,
-    "is_fractionated": true,
-    "has_corn_gluten": false,
-    "has_colorants": false,
-    "has_taurine": true,
-    "has_marine_omega": true,
-    "value_ratio": 9.89,
-    "carb_band": "25-35% (Elevado)",
-    "has_material_conflict": false,
-    "protein": 38.0,
-    "fat": 12.0,
-    "carbs": 30.5,
-    "meat_pct": 100,
-    "has_grains": true,
-    "has_sugar": false,
-    "has_organs": false
+    "shared_assessment": {
+      "formulation_id": "smaak_junior_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "7306932",
@@ -6654,7 +6391,7 @@
     "value_ratio": 6.37,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.290893+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.566761+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -6768,6 +6505,321 @@
     "has_grains": true,
     "has_sugar": false,
     "has_organs": true
+  },
+  {
+    "pid": "8375244",
+    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
+    "brand": "Smaak",
+    "price": 45.99,
+    "unit_price_str": "6,57€/kg",
+    "unit_price_kg": 6.57,
+    "pack_size": "emb. 7 kg",
+    "pdp_url": "https://www.continente.pt/produto/racao-para-gato-adulto-esterilizado-frango-smaak-8375244.html",
+    "retailer": "Continente",
+    "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+    "description": "A ração para gato foi desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a necessitar de menos calorias. Com frango fresco, gordura de frango e molho de frango, proporciona um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde dentária. Esta receita é enriquecida com óleo de salmão para um pelo brilhante.",
+    "is_reconciled": true,
+    "formulation_id": "smaak_adult_esterilizado_frango_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "raw_nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 38.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 7.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 1.7,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 1.1,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 92.0,
+      "protein_dmb": 41.3,
+      "fat_dmb": 13.0,
+      "carbs_nfe": 30.5,
+      "carbs_dmb": 33.2,
+      "ca_p_ratio": 1.55
+    },
+    "score": 74,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
+    "is_grain_free": false,
+    "is_fractionated": true,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 11.26,
+    "carb_band": "25-35% (Elevado)",
+    "has_material_conflict": false,
+    "protein": 38.0,
+    "fat": 12.0,
+    "carbs": 30.5,
+    "meat_pct": 100,
+    "has_grains": true,
+    "has_sugar": false,
+    "has_organs": false,
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.567156+00:00",
+    "classification": "complete",
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "8375244",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "smaak_adult_esterilizado_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "8375245",
+    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
+    "brand": "Smaak",
+    "price": 11.99,
+    "unit_price_str": "7,99€/kg",
+    "unit_price_kg": 7.99,
+    "pack_size": "emb. 1,5 kg",
+    "pdp_url": "https://www.continente.pt/produto/racao-para-gato-adulto-esterilizado-frango-smaak-8375245.html",
+    "retailer": "Continente",
+    "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+    "description": "A ração de gato foi especialmente desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a precisar de menos calorias. Com frango fresco, gordura de frango e molho de frango, garante um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde oral. Enriquecida com óleo de salmão para um pelo brilhante, esta receita inclui ainda hidratos de aveia e batata, arandos para suporte do trato urinário e yucca para reduzir odores nas fezes.",
+    "is_reconciled": true,
+    "formulation_id": "smaak_adult_esterilizado_frango_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "raw_nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 38.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 7.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 1.7,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 1.1,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 92.0,
+      "protein_dmb": 41.3,
+      "fat_dmb": 13.0,
+      "carbs_nfe": 30.5,
+      "carbs_dmb": 33.2,
+      "ca_p_ratio": 1.55
+    },
+    "score": 74,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
+    "is_grain_free": false,
+    "is_fractionated": true,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 9.26,
+    "carb_band": "25-35% (Elevado)",
+    "has_material_conflict": false,
+    "protein": 38.0,
+    "fat": 12.0,
+    "carbs": 30.5,
+    "meat_pct": 100,
+    "has_grains": true,
+    "has_sugar": false,
+    "has_organs": false,
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.567303+00:00",
+    "classification": "complete",
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "8375245",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "smaak_adult_esterilizado_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
+  },
+  {
+    "pid": "458095",
+    "name": "Ração para Gato Adulto Esterilizado Frango Smaak",
+    "brand": "Smaak",
+    "price": 11.99,
+    "unit_price_str": "7,99€/kg",
+    "unit_price_kg": 7.99,
+    "pack_size": "emb. 1 un",
+    "pdp_url": "https://www.continente.pt/produto/racao-para-gato-adulto-esterilizado-frango-smaak-8375245.html",
+    "retailer": "Continente",
+    "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+    "description": "A ração de gato foi especialmente desenvolvida para responder às necessidades nutricionais de gatos adultos esterilizados, que tendem a ser menos ativos e a precisar de menos calorias. Com frango fresco, gordura de frango e molho de frango, garante um sabor irresistível, enquanto os croquetes crocantes ajudam na saúde oral. Enriquecida com óleo de salmão para um pelo brilhante, esta receita inclui ainda hidratos de aveia e batata, arandos para suporte do trato urinário e yucca para reduzir odores nas fezes.",
+    "is_reconciled": true,
+    "formulation_id": "smaak_adult_esterilizado_frango_dry",
+    "has_conflicts": false,
+    "conflicts": [],
+    "reconciliation_notes": [],
+    "raw_ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+    "raw_nutrition_raw": "Aditivos: Vitaminas: Vitamina A (3a672a) 31,500 IU, Vitamina D3 (3a671) 2,000 IU, Vitamina E (3a700, acetato de alfa tocoferol) 200 IU, Taurina (3a370) 2,000 mg, L-carnitina (3a910) 190 mg, Zinco (3b606, quelato de zinco de aminoacidos hidratados e 3b605, sulfato de zinco monohidratado) 154 mg, Ferro (3b103, Sulfato de ferro (II) monohidratado e 3b106, quelato de ferro (II) de aminoácidos hidratado ) 96 mg, Manganês (3b503, Sulfato de manganês monohidratado) 36 mg, Cobre (3b405, sulfato de cobre (II) Penta hidratado) 12 mg, Iodine (3b202, Iodato de cálcio anidro) 0.9 mg.\nConstituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1% Energia metabolizável 360 kcal/100g.",
+    "nutrition_parsed": {
+      "status": "valid",
+      "protein": {
+        "value": 38.0,
+        "status": "valid"
+      },
+      "fat": {
+        "value": 12.0,
+        "status": "valid"
+      },
+      "moisture": {
+        "value": 8.0,
+        "status": "valid"
+      },
+      "ash": {
+        "value": 7.0,
+        "status": "valid"
+      },
+      "fiber": {
+        "value": 4.5,
+        "status": "valid"
+      },
+      "calcium": {
+        "value": 1.7,
+        "status": "valid"
+      },
+      "phosphorus": {
+        "value": 1.1,
+        "status": "valid"
+      },
+      "magnesium": {
+        "value": null,
+        "status": "missing"
+      },
+      "taurine": {
+        "value": null,
+        "unit": null,
+        "status": "missing"
+      },
+      "dm_pct": 92.0,
+      "protein_dmb": 41.3,
+      "fat_dmb": 13.0,
+      "carbs_nfe": 30.5,
+      "carbs_dmb": 33.2,
+      "ca_p_ratio": 1.55
+    },
+    "score": 74,
+    "tier": "Tier A (Excelente / Alto Teor Carne)",
+    "is_kitten": false,
+    "is_sterilised": true,
+    "is_ranked": true,
+    "unranked_reasons": [],
+    "first_ingredient": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%)",
+    "is_grain_free": false,
+    "is_fractionated": true,
+    "has_corn_gluten": false,
+    "has_colorants": false,
+    "has_taurine": false,
+    "has_marine_omega": false,
+    "value_ratio": 9.26,
+    "carb_band": "25-35% (Elevado)",
+    "has_material_conflict": false,
+    "protein": 38.0,
+    "fat": 12.0,
+    "carbs": 30.5,
+    "meat_pct": 100,
+    "has_grains": true,
+    "has_sugar": false,
+    "has_organs": false,
+    "raw_classification": "complete",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.567464+00:00",
+    "classification": "complete",
+    "reconciliation_sources": {
+      "retailer": "continente",
+      "pid": "458095",
+      "ingredients": "verified_formulation",
+      "nutrition_raw": "verified_formulation",
+      "classification": "verified_formulation"
+    },
+    "shared_assessment": {
+      "formulation_id": "smaak_adult_esterilizado_frango_dry",
+      "source": "verified_shared_formulation",
+      "is_ranked": true
+    }
   },
   {
     "pid": "7830233",
@@ -6943,7 +6995,7 @@
     "value_ratio": 9.34,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.291816+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.567816+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7048,7 +7100,7 @@
     "value_ratio": 6.3,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.291965+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.567951+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7521,7 +7573,7 @@
     "value_ratio": 7.97,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.293789+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.568958+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7626,7 +7678,7 @@
     "value_ratio": 7.97,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.293935+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.569103+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -7731,7 +7783,7 @@
     "value_ratio": 7.34,
     "carb_band": "15-25% (Moderado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.294081+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.569264+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9032,7 +9084,7 @@
     "value_ratio": 7.15,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.297694+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.572335+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9137,7 +9189,7 @@
     "value_ratio": 6.37,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.297866+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.572483+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9242,7 +9294,7 @@
     "value_ratio": 6.37,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.298013+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.572630+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9347,7 +9399,7 @@
     "value_ratio": 6.37,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.298158+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.572760+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9452,7 +9504,7 @@
     "value_ratio": 6.37,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.298300+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.572886+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9557,7 +9609,7 @@
     "value_ratio": 6.19,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.298443+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.573014+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9662,7 +9714,7 @@
     "value_ratio": 6.19,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.298592+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.573160+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9874,7 +9926,7 @@
     "value_ratio": 6.07,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.299048+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.573618+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -9979,7 +10031,7 @@
     "value_ratio": 5.87,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.299197+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.573751+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10084,7 +10136,7 @@
     "value_ratio": 5.87,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.299340+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.573880+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10189,7 +10241,7 @@
     "value_ratio": 5.6,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.299536+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.574070+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10294,7 +10346,7 @@
     "value_ratio": 5.58,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.299732+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.574254+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10399,7 +10451,7 @@
     "value_ratio": 5.58,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.299928+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.574442+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10504,7 +10556,7 @@
     "value_ratio": 5.58,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.300124+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.574647+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10823,7 +10875,7 @@
     "value_ratio": 9.39,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.300800+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.575265+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -10928,7 +10980,7 @@
     "value_ratio": 9.36,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.301188+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.575625+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11033,7 +11085,7 @@
     "value_ratio": 6.96,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.301395+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.575813+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11138,7 +11190,7 @@
     "value_ratio": 6.96,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.301601+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.576022+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11519,7 +11571,7 @@
     "value_ratio": 6.46,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.302500+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.576875+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11624,7 +11676,7 @@
     "value_ratio": 5.6,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.302645+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.577020+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -11836,7 +11888,7 @@
     "value_ratio": 5.6,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.303026+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.577383+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12217,7 +12269,7 @@
     "value_ratio": 5.3,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.303921+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.578248+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12322,7 +12374,7 @@
     "value_ratio": 5.3,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.304061+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.578390+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12641,7 +12693,7 @@
     "value_ratio": 5.3,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.304668+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.579076+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -12930,7 +12982,7 @@
     "value_ratio": 4.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.305292+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.579852+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13035,7 +13087,7 @@
     "value_ratio": 4.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.305434+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.580031+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -13140,7 +13192,7 @@
     "value_ratio": 4.42,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.305614+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.580204+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14073,7 +14125,7 @@
     "value_ratio": 5.27,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.307963+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.582388+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14178,7 +14230,7 @@
     "value_ratio": 5.27,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.308121+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.582531+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14283,7 +14335,7 @@
     "value_ratio": 5.12,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.308272+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.582670+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -14863,7 +14915,7 @@
     "value_ratio": 4.85,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.309668+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.583968+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16072,7 +16124,7 @@
     "value_ratio": 5.5,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.313102+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.586977+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16177,7 +16229,7 @@
     "value_ratio": 4.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.313306+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.587124+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16282,7 +16334,7 @@
     "value_ratio": 4.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.313452+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.587257+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16387,7 +16439,7 @@
     "value_ratio": 4.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.313610+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.587385+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16492,7 +16544,7 @@
     "value_ratio": 4.9,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.313768+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.587514+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16597,7 +16649,7 @@
     "value_ratio": 4.76,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.313921+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.587644+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16702,7 +16754,7 @@
     "value_ratio": 4.76,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.314072+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.587772+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16807,7 +16859,7 @@
     "value_ratio": 4.51,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.314213+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.587914+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -16912,7 +16964,7 @@
     "value_ratio": 3.34,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.314355+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.588060+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17017,7 +17069,7 @@
     "value_ratio": 3.34,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.314498+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.588199+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17336,7 +17388,7 @@
     "value_ratio": 7.16,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.315364+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.589002+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -17441,7 +17493,7 @@
     "value_ratio": 5.32,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.315526+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.589162+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18834,7 +18886,7 @@
     "value_ratio": 6.81,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.319050+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.592527+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -18939,7 +18991,7 @@
     "value_ratio": 6.81,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.319218+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.592681+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19044,7 +19096,7 @@
     "value_ratio": 5.05,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.319373+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.592823+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19149,7 +19201,7 @@
     "value_ratio": 5.05,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.319526+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.592976+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19254,7 +19306,7 @@
     "value_ratio": 5.05,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.319679+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.593129+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19359,7 +19411,7 @@
     "value_ratio": 5.05,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.319831+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.593270+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19464,7 +19516,7 @@
     "value_ratio": 4.32,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.320005+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.593427+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19569,7 +19621,7 @@
     "value_ratio": 3.99,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.320187+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.593602+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19674,7 +19726,7 @@
     "value_ratio": 3.99,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.320361+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.593765+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -19871,7 +19923,7 @@
     "value_ratio": 5.3,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.320744+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.594143+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20252,7 +20304,7 @@
     "value_ratio": 4.79,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.321659+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.595037+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20357,7 +20409,7 @@
     "value_ratio": 4.79,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.321847+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.595220+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20646,7 +20698,7 @@
     "value_ratio": null,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.322513+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.596077+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -20751,7 +20803,7 @@
     "value_ratio": null,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.322716+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.596292+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -21684,7 +21736,7 @@
     "value_ratio": 2.76,
     "carb_band": "25-35% (Elevado) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.325194+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.598774+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23077,7 +23129,7 @@
     "value_ratio": 2.5,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.329427+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.602720+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23274,7 +23326,7 @@
     "value_ratio": 2.36,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.330219+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.603377+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23839,7 +23891,7 @@
     "value_ratio": 2.15,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.331900+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.604966+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -23944,7 +23996,7 @@
     "value_ratio": 2.15,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.332302+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.605348+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24049,7 +24101,7 @@
     "value_ratio": 2.12,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.332485+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.605525+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24154,7 +24206,7 @@
     "value_ratio": 1.77,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.332636+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.605671+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24259,7 +24311,7 @@
     "value_ratio": 1.77,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.332785+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.605812+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24364,7 +24416,7 @@
     "value_ratio": 1.77,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.332938+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.605966+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24469,7 +24521,7 @@
     "value_ratio": 1.64,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.333120+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.606141+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -24574,7 +24626,7 @@
     "value_ratio": 1.64,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.333307+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.606307+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25047,7 +25099,7 @@
     "value_ratio": 1.37,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.334524+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.607473+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25152,7 +25204,7 @@
     "value_ratio": 1.37,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.334674+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.607619+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25257,7 +25309,7 @@
     "value_ratio": 1.37,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.334820+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.607768+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {
@@ -25362,7 +25414,7 @@
     "value_ratio": 1.37,
     "carb_band": ">35% (Muito Alto) (Est.)",
     "raw_classification": "complete",
-    "reconciliation_timestamp": "2026-10-27T21:16:59.334969+00:00",
+    "reconciliation_timestamp": "2026-10-28T07:55:26.607936+00:00",
     "classification": "complete",
     "has_material_conflict": false,
     "reconciliation_sources": {

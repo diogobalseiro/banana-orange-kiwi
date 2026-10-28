@@ -12227,5 +12227,60 @@
       "nutrition_source": "Purina official declaration"
     },
     "retailer_matches": {}
+  },
+  "smaak_junior_frango_dry": {
+    "description": "Ração para Gato Júnior Frango Smaak",
+    "brand": "Smaak",
+    "line": "Júnior",
+    "category": "dry",
+    "life_stage": "junior",
+    "recipe": "Frango",
+    "flavour": "Frango",
+    "verified_date": "2026-10-28",
+    "source": "Verified across Continente and ZU.pt packaging",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Frango 70% (frango desidratado 35%, frango fresco 25%, gordura de frango 8%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, mananoligossacarídeos, frutoligossacarídeos, arando, extrato de Yucca Schidigera.",
+      "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 20,0%, Cinzas 7%, Fibra bruta 3,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+      "composition_source": "Verified from packaging",
+      "nutrition_source": "Verified from packaging"
+    },
+    "retailer_matches": {
+      "continente": [
+        "8375243"
+      ],
+      "zu": [
+        "8375243"
+      ]
+    }
+  },
+  "smaak_adult_esterilizado_frango_dry": {
+    "description": "Ração para Gato Adulto Esterilizado Frango Smaak",
+    "brand": "Smaak",
+    "line": "Esterilizado",
+    "category": "dry",
+    "life_stage": "adult",
+    "recipe": "Frango",
+    "flavour": "Frango",
+    "verified_date": "2026-10-28",
+    "source": "Verified across Continente and ZU.pt packaging",
+    "verified": {
+      "classification": "complete",
+      "ingredients": "Frango 63% (frango desidratado 34%, frango fresco 25%, gordura de frango 2%, caldo de galinha 2%), aveia, amido de batata, salmão fresco (3%), polpa de beterraba, fibra vegetal, linhaça em pó, minerais, vitaminas, algas marinhas, frutoligossacarídeos, mananoligossacarídeos, arando, extrato de Yucca Schidigera.",
+      "nutrition_raw": "Constituintes analíticos: Proteína bruta 38%, Matéria Gorda Bruta 12,0%, Cinzas 7%, Fibra bruta 4,5%, Humidade 8%, Cálcio 1,7%, Fósforo 1,1%",
+      "composition_source": "Verified from packaging",
+      "nutrition_source": "Verified from packaging"
+    },
+    "retailer_matches": {
+      "continente": [
+        "8375244",
+        "8375245",
+        "458095"
+      ],
+      "zu": [
+        "8375245",
+        "458095"
+      ]
+    }
   }
 }
