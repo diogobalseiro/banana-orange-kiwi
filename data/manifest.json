@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "scorer_version": "2.0-biological-reliable",
-  "active_generation_id": "gen_20261028_093338",
-  "last_accepted_timestamp": "2026-10-28T09:33:38.266570+00:00",
+  "active_generation_id": "gen_20261028_093738",
+  "last_accepted_timestamp": "2026-10-28T09:39:03.182180+00:00",
   "datasets": {
     "continente_wet": {
       "product_count": 213,
@@ -107,53 +107,52 @@
       "status": "accepted"
     },
     "continente_litter": {
-      "product_count": 35,
-      "total_products": 35,
-      "valid_ingredients_count": 19,
+      "product_count": 57,
+      "total_products": 57,
+      "valid_ingredients_count": 31,
       "valid_nutrition_count": 0,
-      "ranked_count": 35,
+      "ranked_count": 57,
       "unranked_count": 0,
-      "is_partial": true,
-      "avg_score": 64.3,
+      "is_partial": false,
+      "avg_score": 61.9,
       "substrate_breakdown": {
-        "Tofu / Vegetal": 7,
-        "Bentonite": 24,
-        "Argila Mineral": 2,
-        "Sílica": 2
+        "Tofu / Vegetal": 15,
+        "Bentonite": 31,
+        "Argila Mineral": 4,
+        "Sílica": 4,
+        "Sepiolite": 3
       },
-      "retrieved_at": "2026-10-28T08:50:51.385030+00:00",
-      "rescored_at": "2026-10-28T09:33:10.567695+00:00",
-      "snapshot_file": "snapshots/gen_20261028_093309_continente_litter.json",
+      "snapshot_file": "snapshots/gen_20261028_093738_continente_litter.json",
       "file_mini": "continente_litter.json",
       "file_full": "continente_litter_full.json",
       "file_csv": "continente_litter.csv",
-      "generation_id": "gen_20261028_093309",
+      "generation_id": "gen_20261028_093738",
+      "retrieved_at": "2026-10-28T09:37:50.293544+00:00",
       "status": "accepted"
     },
     "zooplus_litter": {
-      "product_count": 39,
-      "total_products": 39,
-      "valid_ingredients_count": 2,
-      "valid_nutrition_count": 0,
-      "ranked_count": 38,
-      "unranked_count": 1,
-      "is_partial": true,
-      "avg_score": 73.6,
+      "product_count": 388,
+      "total_products": 388,
+      "valid_ingredients_count": 40,
+      "valid_nutrition_count": 3,
+      "ranked_count": 370,
+      "unranked_count": 18,
+      "is_partial": false,
+      "avg_score": 65.5,
       "substrate_breakdown": {
-        "Tofu / Vegetal": 9,
-        "Bentonite": 17,
-        "Madeira": 7,
-        "Sílica": 4,
-        "Sepiolite": 1,
-        "Argila Mineral": 1
+        "Tofu / Vegetal": 82,
+        "Bentonite": 188,
+        "Madeira": 36,
+        "Argila Mineral": 40,
+        "Sílica": 35,
+        "Sepiolite": 7
       },
-      "retrieved_at": "2026-10-28T09:30:53.380209+00:00",
-      "rescored_at": "2026-10-28T09:33:12.806343+00:00",
-      "snapshot_file": "snapshots/gen_20261028_093309_zooplus_litter.json",
+      "snapshot_file": "snapshots/gen_20261028_093738_zooplus_litter.json",
       "file_mini": "zooplus_litter.json",
       "file_full": "zooplus_litter_full.json",
       "file_csv": "zooplus_litter.csv",
-      "generation_id": "gen_20261028_093309",
+      "generation_id": "gen_20261028_093738",
+      "retrieved_at": "2026-10-28T09:39:03.182180+00:00",
       "status": "accepted"
     },
     "zu_litter": {
@@ -171,14 +170,14 @@
         "Sílica": 2,
         "Argila Mineral": 1
       },
-      "snapshot_file": "snapshots/gen_20261028_093338_zu_litter.json",
+      "snapshot_file": "snapshots/gen_20261028_093738_zu_litter.json",
       "file_mini": "zu_litter.json",
       "file_full": "zu_litter_full.json",
       "file_csv": "zu_litter.csv",
-      "generation_id": "gen_20261028_093338",
-      "retrieved_at": "2026-10-28T09:33:38.266570+00:00",
+      "generation_id": "gen_20261028_093738",
+      "retrieved_at": "2026-10-28T09:37:50.485893+00:00",
       "status": "accepted"
     }
   },
-  "previous_generation_id": "gen_20261028_093309"
+  "previous_generation_id": "gen_20261028_093338"
 }
